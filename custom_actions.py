@@ -1,7 +1,10 @@
 import numpy as np
 from matrx.actions.action import Action, ActionResult
 from matrx.actions.object_actions import _is_drop_poss, _act_drop, _possible_drop, _find_drop_loc
+from matrx.world_builder import RandomProperty
 
+rock_imgs = ['/images/rock1.png', '/images/rock2.png', '/images/rock3.png']
+rock_img_property = RandomProperty(values=rock_imgs)
 
 class BreakObject(Action):
 
@@ -36,6 +39,7 @@ class BreakObject(Action):
 
             # Change property 'bound_to' to None
             env_obj.release_bound()
+            env_obj.change_property('img_name', rock_img_property)
 
 
         if not succeeded:
@@ -238,6 +242,51 @@ class DropLargeObjectResult(ActionResult):
         super().__init__(result, succeeded)
         self.obj_id = obj_id
 
+
+class Fall(Action):
+    def __init__(self, duration_in_ticks=1):
+        super().__init__(duration_in_ticks)
+
+    def is_possible(self, grid_world, agent_id, **kwargs):
+        # Maybe do a check to see if the empty location is really and still empty?
+        return FallResult(FallResult.RESULT_SUCCESS, True)
+
+    def mutate(self, grid_world, agent_id, **kwargs):
+        # Make sure this can deal with a list of objects and lets them fall down (in an order that makes sense?)
+        # Additional check
+        assert 'object_list' in kwargs.keys()
+
+        # if possible:
+        falling_objs = kwargs['object_list']  # assign
+
+        for object_id in falling_objs:
+            env_obj = grid_world.environment_objects[object_id]  # Environment object
+            object_loc = env_obj.location
+            object_loc_x = object_loc[0]
+            object_loc_y = object_loc[1]
+
+            # Update y value
+            new_y = object_loc_y + 1
+            new_loc = (object_loc_x, new_y)
+
+            # Actually update location
+            env_obj.location = new_loc
+
+        return FallResult(FallResult.RESULT_SUCCESS, True)
+
+
+class FallResult(ActionResult):
+    """ Result when falling succeeded. """
+    RESULT_SUCCESS = 'Falling action successful'
+
+    """ Result when the emptied space was not actually empty. """
+    RESULT_NOT_EMPTY = 'There was no empty space for the objects to fall in'
+
+    """ Result when the emptied space was not actually empty. """
+    RESULT_FAILED = 'Failed to let object fall'
+
+    def __init__(self, result, succeeded):
+        super().__init__(result, succeeded)
 
 def _is_possible_grab_large(grid_world, agent_id, object_id, grab_range, max_objects):
     reg_ag = grid_world.registered_agents[agent_id]  # Registered Agent

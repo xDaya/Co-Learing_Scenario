@@ -1,11 +1,7 @@
 
-from matrx.actions.object_actions import GrabObject, DropObject, RemoveObject
-from matrx.actions.door_actions import OpenDoorAction, CloseDoorAction
-from matrx.agents.agent_utils.state_tracker import StateTracker
-from matrx.agents.agent_brain import AgentBrain
-import numpy as np
 from matrx.agents.agent_types.human_agent import *
 from custom_actions import *
+from matrx.messages.message import Message
 
 
 class CustomHumanAgentBrain(HumanAgentBrain):
@@ -44,6 +40,12 @@ class CustomHumanAgentBrain(HumanAgentBrain):
             action_kwargs['object_id'] = None
 
             obj_id = self.__select_random_obj_in_range(state, range_=self.__grab_range, property_to_check="is_movable")
+            # Get agent id of Gravity God
+            # object_ids = list(state.keys())
+            # gravity_id = [obj_id for obj_id in object_ids if "GravityGod" in state[obj_id]['class']][0]
+
+            # And send which location will then be empty to GravityGod
+            #self.send_message(Message(content=state[obj_id]['location'], from_id=self.agent_id, to_id=None))
             action_kwargs['object_id'] = obj_id
 
         # If the user chose to drop an object in its inventory
@@ -53,8 +55,8 @@ class CustomHumanAgentBrain(HumanAgentBrain):
 
         elif action == GrabLargeObject.__name__:
             # Assign it to the arguments list
-            action_kwargs['grab_range'] = self.__grab_range # Set grab range
-            action_kwargs['max_objects'] = self.__max_carry_objects # Set max amount of objects
+            action_kwargs['grab_range'] = self.__grab_range  # Set grab range
+            action_kwargs['max_objects'] = self.__max_carry_objects  # Set max amount of objects
             action_kwargs['object_id'] = None
 
             obj_id = self.__select_large_obj_in_range(state, range_=self.__grab_range, property_to_check="is_movable")
@@ -68,7 +70,7 @@ class CustomHumanAgentBrain(HumanAgentBrain):
         elif action == RemoveObject.__name__:
             # Assign it to the arguments list
             action_kwargs['remove_range'] = self.__remove_range  # Set drop range
-            obj_id = self.__select_random_obj_in_range(state, range_=self.__remove_range)
+            obj_id = self.__select_random_obj_in_range(state, range_=self.__remove_range, property_to_check="is_movable")
             action_kwargs['object_id'] = obj_id
 
         elif action == BreakObject.__name__:
@@ -199,4 +201,49 @@ class CustomHumanAgentBrain(HumanAgentBrain):
 
 
 class GravityGod(AgentBrain):
-    pass
+    def __init__(self):
+        super().__init__()
+
+    def decide_on_action(self, state):
+        action_kwargs = {}
+        # List with all objects
+        # Get all perceived objects
+        object_ids = list(state.keys())
+        # Remove world from state
+        object_ids.remove("World")
+        # Remove self
+        object_ids.remove(self.agent_id)
+        # Remove all (human)agents
+        object_ids = [obj_id for obj_id in object_ids if "AgentBrain" not in state[obj_id]['class_inheritance'] and
+                      "AgentBody" not in state[obj_id]['class_inheritance']]
+
+        object_locs = []
+        falling_objs = []
+
+        # Create list with object locations
+        for object_id in object_ids:
+            object_loc = state[object_id]['location']
+            object_locs.append(object_loc)
+
+        # Check for each object whether the location below it is in the object locations list and pass all objects
+        # with empty space beneath them to the Fall action (only
+        for object_id in object_ids:
+            object_loc = state[object_id]['location']
+            object_loc_x = object_loc[0]
+            object_loc_y = object_loc[1]
+            if object_loc_y < 10:       # If the object is not already at ground level
+                underneath_loc = (object_loc_x, object_loc_y + 1)
+                if underneath_loc not in object_locs:       # If True, underneath_loc is empty!
+                    falling_objs.append(object_id)
+
+        # Activate Fall action if there are objects that should fall
+        if falling_objs:
+            action = Fall.__name__
+            action_kwargs['object_list'] = falling_objs
+        else:
+            action = None
+
+        return action, action_kwargs
+
+def empty_notification(sender, object_id):
+    return
