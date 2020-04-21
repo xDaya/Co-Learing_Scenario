@@ -117,6 +117,8 @@ class GrabLargeObject(Action):
             # Updating Location (done after removing from grid, or the grid will search the object on the wrong location)
             env_obj.location = reg_ag.location
 
+        #reg_ag.change_property('img_name', '/images/human_square.png')     # Code to change agent image
+
         return GrabLargeObjectResult(GrabLargeObjectResult.RESULT_SUCCESS, True)
 
 
@@ -260,17 +262,31 @@ class Fall(Action):
         falling_objs = kwargs['object_list']  # assign
 
         for object_id in falling_objs:
-            env_obj = grid_world.environment_objects[object_id]  # Environment object
-            object_loc = env_obj.location
-            object_loc_x = object_loc[0]
-            object_loc_y = object_loc[1]
+            if isinstance(object_id, list):
+                for object_part in object_id:
+                    env_obj = grid_world.environment_objects[object_part]  # Environment object
+                    object_loc = env_obj.location
+                    object_loc_x = object_loc[0]
+                    object_loc_y = object_loc[1]
 
-            # Update y value
-            new_y = object_loc_y + 1
-            new_loc = (object_loc_x, new_y)
+                    # Update y value
+                    new_y = object_loc_y + 1
+                    new_loc = (object_loc_x, new_y)
 
-            # Actually update location
-            env_obj.location = new_loc
+                    # Actually update location
+                    env_obj.location = new_loc
+            else:
+                env_obj = grid_world.environment_objects[object_id]  # Environment object
+                object_loc = env_obj.location
+                object_loc_x = object_loc[0]
+                object_loc_y = object_loc[1]
+
+                # Update y value
+                new_y = object_loc_y + 1
+                new_loc = (object_loc_x, new_y)
+
+                # Actually update location
+                env_obj.location = new_loc
 
         return FallResult(FallResult.RESULT_SUCCESS, True)
 

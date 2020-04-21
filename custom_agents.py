@@ -39,7 +39,8 @@ class CustomHumanAgentBrain(HumanAgentBrain):
             action_kwargs['max_objects'] = self.__max_carry_objects  # Set max amount of objects
             action_kwargs['object_id'] = None
 
-            obj_id = self.__select_random_obj_in_range(state, range_=self.__grab_range, property_to_check="is_movable")
+            #obj_id = self.__select_random_obj_in_range(state, range_=self.__grab_range, property_to_check="is_movable")
+            obj_id = self.__select_closest_obj_in_range(state, range_=self.__grab_range, property_to_check="is_movable")
             # Get agent id of Gravity God
             # object_ids = list(state.keys())
             # gravity_id = [obj_id for obj_id in object_ids if "GravityGod" in state[obj_id]['class']][0]
@@ -145,6 +146,49 @@ class CustomHumanAgentBrain(HumanAgentBrain):
 
         return object_id
 
+    def __select_closest_obj_in_range(self, state, range_, property_to_check=None):
+        # Get all perceived objects
+        object_ids = list(state.keys())
+
+        # Remove world from state
+        object_ids.remove("World")
+
+        # Remove self
+        object_ids.remove(self.agent_id)
+
+        # Remove all (human)agents
+        object_ids = [obj_id for obj_id in object_ids if "AgentBrain" not in state[obj_id]['class_inheritance'] and
+                      "AgentBody" not in state[obj_id]['class_inheritance']]
+
+        # find objects in range
+        object_in_range = []
+        distances = []
+
+        for object_id in object_ids:
+            if "is_movable" not in state[object_id]:
+                continue
+
+            # Select range as just enough to grab that object
+            dist = int(np.ceil(np.linalg.norm(np.array(state[object_id]['location'])
+                                              - np.array(state[self.agent_id]['location']))))
+
+            if dist <= range_:
+                if property_to_check is not None:
+                    if state[object_id][property_to_check]:
+                        object_in_range.append(object_id)
+                        distances.append(dist)
+
+        # Select an object if there are any in range
+        if object_in_range:
+            closest_dist = min(distances)
+            closest_obj = object_in_range[distances.index(closest_dist)]
+            object_id = closest_obj
+
+        else:
+            object_id = None
+
+        return object_id
+
     def __select_large_obj_in_range(self, state, range_, property_to_check=None):
         # Get all perceived objects
         object_ids = list(state.keys())
@@ -219,6 +263,7 @@ class GravityGod(AgentBrain):
 
         object_locs = []
         falling_objs = []
+        skiplist = []
 
         # Create list with object locations
         for object_id in object_ids:
@@ -226,11 +271,38 @@ class GravityGod(AgentBrain):
             object_locs.append(object_loc)
 
         # Check for each object whether the location below it is in the object locations list and pass all objects
-        # with empty space beneath them to the Fall action (only
+        # with empty space beneath them to the Fall action
         for object_id in object_ids:
             object_loc = state[object_id]['location']
             object_loc_x = object_loc[0]
             object_loc_y = object_loc[1]
+            if object_id in skiplist:
+                continue
+            if "large" or "bound_to" in state[object_id]:       # Seperate dealing with large objects
+                large_obj = []      # List to contain all parts of large object
+                if "large" in state[object_id]:
+                    large_obj.append(object_id)     # Add to group for large object
+                    skiplist.append(object_id)
+                    large_name = state[object_id]['name']       # Identify name of large object from name
+                    # Now find the parts!
+                    for object_id_part in object_ids:
+                        if "bound_to" not in state[object_id_part]:
+                            continue
+                        if state[object_id_part]['bound_to'] == large_name:
+                            large_obj.append(object_id_part)
+                            skiplist.append(object_id_part)
+                elif "bound_to" in state[object_id]:
+                    large_name = state[object_id]['bound_to']   # Identify name of large object from bound to
+                    # Now find the parts and the large!
+                    for object_id_part in object_ids:
+                        if "bound_to" in state[object_id_part] and state[object_id_part]['bound_to'] == large_name:
+                            large_obj.append(object_id_part)
+                            skiplist.append(object_id_part)
+                        elif "large" in state[object_id_part] and state[object_id_part]['name'] == large_name:
+                            large_obj.append(object_id_part)
+                            skiplist.append(object_id_part)
+                if large_empty_check(large_obj, state, object_locs):
+                    falling_objs.append(large_obj)
             if object_loc_y < 10:       # If the object is not already at ground level
                 underneath_loc = (object_loc_x, object_loc_y + 1)
                 if underneath_loc not in object_locs:       # If True, underneath_loc is empty!
@@ -247,3 +319,26 @@ class GravityGod(AgentBrain):
 
 def empty_notification(sender, object_id):
     return
+
+def large_empty_check(large_obj, state, object_locs):
+    y_locs = []
+    for part in large_obj:
+        object_loc = state[part]['location']
+        object_loc_y = object_loc[1]
+        y_locs.append(object_loc_y)
+
+    lowest_y = max(y_locs, default=0)
+    lowest_obj = [i for i in range(len(y_locs)) if y_locs[i] == lowest_y]     # List of objects with lowest y
+
+    for obj_ind in lowest_obj:
+        object_loc = state[large_obj[obj_ind]]['location']
+        object_loc_x = object_loc[0]
+        object_loc_y = object_loc[1]
+        if object_loc_y < 10:
+            underneath_loc = (object_loc_x, object_loc_y+1)
+            if underneath_loc in object_locs:                   # If any location underneath is not empty, don't fall
+                return False
+        else:
+            return False                        # If any object is already on the ground, don't fall
+
+    return True
