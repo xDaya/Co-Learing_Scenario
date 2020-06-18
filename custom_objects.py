@@ -34,21 +34,32 @@ class PartLargeObject(EnvObject):
         A simple object with the added property 'bound_to' to create objects that can be bound to a larger object.
         """
 
+        super().__init__(name=name, location=location, visualize_shape='img', visualize_size=1, class_callable=PartLargeObject, is_traversable=True, is_movable=True, **kwargs)
+
         self.bound_to = bound_to
-        super().__init__(name=name, location=location, visualize_shape='img', img_name=img_name, visualize_size=1, class_callable=PartLargeObject, is_traversable=True, is_movable=True, bound_to=bound_to, **kwargs)
+        self.add_property('bound_to', self.bound_to)
 
-    def release_bound(self):
-        """
-        In case of a break action, this releases the bound of the objects and makes them regular blocks.
-        """
-
-        # Actually release the bound
-        self.bound_to = None
+        self.img_name = img_name
+        self.add_property('img_name', self.img_name)
 
 
 
 class LargeObject(EnvObject):
-    def __init__(self, location, name="LargeObject", large=True, **kwargs):
+    def __init__(self, location, name="LargeObject", visualize_size = 2, large=True, **kwargs):
         self.large = large
 
-        super().__init__(name=name, location=location, visualize_shape='img', visualize_size=2, class_callable=LargeObject, is_traversable=True, is_movable=True, large=True, **kwargs)
+        super().__init__(name=name, location=location, visualize_shape='img', visualize_size=visualize_size, class_callable=LargeObject, is_traversable=True, is_movable=True, large=True, **kwargs)
+
+
+class ObstructionObject(EnvObject):
+    def __init__(self, location, name="ObstructionObject", visualize_size = 4, obstruction=True, large=True, **kwargs):
+        self.obstruction = obstruction
+        self.large = large
+
+        super().__init__(name=name, location=location, visualize_shape='img', visualize_size=visualize_size, class_callable=ObstructionObject, is_traversable=True, is_movable=False, obstruction=self.obstruction, large=True, **kwargs)
+
+
+class RewardObject(EnvObject):
+    def __init__(self, location, name="rewardobj", goalreached=False, **kwargs):
+
+        super().__init__(name=name, location=location, visualize_shape='img', is_traversable=True, is_movable=False, class_callable=RewardObject, goalreached=goalreached)

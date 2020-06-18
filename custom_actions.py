@@ -1,10 +1,9 @@
 import numpy as np
 from matrx.actions.action import Action, ActionResult
 from matrx.actions.object_actions import _is_drop_poss, _act_drop, _possible_drop, _find_drop_loc
-from matrx.world_builder import RandomProperty
+import random
 
 rock_imgs = ['/images/rock1.png', '/images/rock2.png', '/images/rock3.png']
-rock_img_property = RandomProperty(values=rock_imgs)
 
 class BreakObject(Action):
 
@@ -15,12 +14,11 @@ class BreakObject(Action):
     def is_possible(self, grid_world, agent_id, **kwargs):
         # Set default values check
 
-        object_id = None if 'object_id' not in kwargs else kwargs['object_id']
-        grab_range = np.inf if 'grab_range' not in kwargs else kwargs['grab_range']
-        max_objects = np.inf if 'max_objects' not in kwargs else kwargs['max_objects']
+        #object_id = None if 'object_id' not in kwargs else kwargs['object_id']
+        #grab_range = np.inf if 'grab_range' not in kwargs else kwargs['grab_range']
+        #max_objects = np.inf if 'max_objects' not in kwargs else kwargs['max_objects']
 
-        return _is_possible_grab_large(grid_world, agent_id=agent_id, object_id=object_id, grab_range=grab_range,
-                                 max_objects=max_objects)
+        return BreakObjectResult(BreakObjectResult.RESULT_SUCCESS, True)
 
     def mutate(self, grid_world, agent_id, **kwargs):
         # Additional check
@@ -38,7 +36,10 @@ class BreakObject(Action):
             env_obj = grid_world.environment_objects[object_id]  # Environment object
 
             # Change property 'bound_to' to None
-            env_obj.release_bound()
+            env_obj.change_property('bound_to', None)
+
+            # Get a random rock image and change img_name to that image
+            rock_img_property = random.choice(rock_imgs)
             env_obj.change_property('img_name', rock_img_property)
 
 
@@ -178,6 +179,7 @@ class DropLargeObject(Action):
 
         # fetch range from kwargs
         drop_range = 1 if 'drop_range' not in kwargs else kwargs['drop_range']
+        obj_type = None if 'obj_type' not in kwargs else kwargs['obj_type']
 
         parts_obj = []
 
@@ -202,7 +204,7 @@ class DropLargeObject(Action):
 
         # drop it on the agent location if possible
         if curr_loc_drop_poss:
-            return _act_drop_large(grid_world, agent=reg_ag, parts_obj=parts_obj, drop_loc=reg_ag.location)       # We need to make this loop over the different objects
+            return _act_drop_large(grid_world, agent=reg_ag, parts_obj=parts_obj, drop_loc=reg_ag.location, obj_type=obj_type)       # We need to make this loop over the different objects
 
         # if the agent location was the only within range, return a negative action result
         elif not curr_loc_drop_poss and drop_range == 0:
@@ -330,11 +332,64 @@ def _is_possible_grab_large(grid_world, agent_id, object_id, grab_range, max_obj
         return GrabLargeObjectResult(GrabLargeObjectResult.RESULT_SUCCESS, True)
 
 
-def _act_drop_large(grid_world, agent, parts_obj, drop_loc):
+class Idle(Action):
+    def __init__(self, duration_in_ticks=1):
+        super().__init__(duration_in_ticks)
+
+    def is_possible(self, grid_world, agent_id, **kwargs):
+        # Maybe do a check to see if the empty location is really and still empty?
+        return IdleResult(IdleResult.RESULT_SUCCESS, True)
+
+
+class IdleResult(ActionResult):
+    """ Result when falling succeeded. """
+    RESULT_SUCCESS = 'Idling action successful'
+
+    """ Result when the emptied space was not actually empty. """
+    RESULT_FAILED = 'Failed to idle'
+
+    def __init__(self, result, succeeded):
+        super().__init__(result, succeeded)
+
+
+class SendReward(Action):
+    def __init__(self, duration_in_ticks=1):
+        super().__init__(duration_in_ticks)
+
+    def is_possible(self, grid_world, agent_id, **kwargs):
+        # What kind of check is necessary here?
+        return IdleResult(IdleResult.RESULT_SUCCESS, True)
+
+    def mutate(self, grid_world, agent_id, **kwargs):
+        return
+
+
+class SendRewardResult(ActionResult):
+    """ Result when falling succeeded. """
+    RESULT_SUCCESS = 'Reward sent successfully'
+
+    """ Result when the emptied space was not actually empty. """
+    RESULT_FAILED = 'Failed to send reward'
+
+    def __init__(self, result, succeeded):
+        super().__init__(result, succeeded)
+
+
+def _act_drop_large(grid_world, agent, parts_obj, drop_loc, obj_type):
     x_drop_loc = drop_loc[0]
     y_drop_loc = drop_loc[1]
 
-    locations = [drop_loc, (x_drop_loc+1, y_drop_loc), (x_drop_loc, y_drop_loc+1), (x_drop_loc+1, y_drop_loc+1), drop_loc]
+    locations = []
+
+    if obj_type == 'vert':
+        locations = [drop_loc, (x_drop_loc, y_drop_loc + 1), (x_drop_loc, y_drop_loc + 2), (x_drop_loc, y_drop_loc + 3),
+                     drop_loc]
+    elif obj_type == 'long':
+        locations = [drop_loc, (x_drop_loc + 1, y_drop_loc), (x_drop_loc + 2, y_drop_loc), (x_drop_loc + 3, y_drop_loc),
+                     drop_loc]
+    else:
+        locations = [drop_loc, (x_drop_loc+1, y_drop_loc), (x_drop_loc, y_drop_loc+1), (x_drop_loc+1, y_drop_loc+1),
+                     drop_loc]
 
     for env_obj in parts_obj:
         # Updating properties

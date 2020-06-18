@@ -2,6 +2,8 @@
 from matrx.agents.agent_types.human_agent import *
 from custom_actions import *
 from matrx.messages.message import Message
+from matrx.agents.agent_utils.navigator import Navigator
+from matrx.agents.agent_utils.state_tracker import StateTracker
 
 
 class CustomHumanAgentBrain(HumanAgentBrain):
@@ -291,7 +293,7 @@ class GravityGod(AgentBrain):
                         if state[object_id_part]['bound_to'] == large_name:
                             large_obj.append(object_id_part)
                             skiplist.append(object_id_part)
-                elif "bound_to" in state[object_id]:
+                elif "bound_to" in state[object_id] and state[object_id]['bound_to'] is not None:
                     large_name = state[object_id]['bound_to']   # Identify name of large object from bound to
                     # Now find the parts and the large!
                     for object_id_part in object_ids:
@@ -303,7 +305,7 @@ class GravityGod(AgentBrain):
                             skiplist.append(object_id_part)
                 if large_empty_check(large_obj, state, object_locs):
                     falling_objs.append(large_obj)
-            if object_loc_y < 10:       # If the object is not already at ground level
+            if object_loc_y < 10 and object_id not in skiplist:       # If the object is not already at ground level
                 underneath_loc = (object_loc_x, object_loc_y + 1)
                 if underneath_loc not in object_locs:       # If True, underneath_loc is empty!
                     falling_objs.append(object_id)
@@ -342,3 +344,173 @@ def large_empty_check(large_obj, state, object_locs):
             return False                        # If any object is already on the ground, don't fall
 
     return True
+
+
+class RewardGod(AgentBrain):
+    def __init__(self):
+        super().__init__()
+        self.previous_phase = None
+        self.counter = 0
+        self.initial_heights = None
+
+    def initialize(self):
+        self.state_tracker = StateTracker(agent_id=self.agent_id)
+
+        self.navigator = Navigator(agent_id=self.agent_id, action_set=self.action_set, algorithm=Navigator.A_STAR_ALGORITHM)
+
+        self.actionlist = [[], []]      # Array that stores which actual actions must be executed (and their arguments)
+        self.action_history = []  # Array that stores actions that have been taken in a certain state
+        self.previous_phase = None
+
+    def filter_observations_learning(self, state):
+        self.state_tracker.update(state)
+
+        phase2 = False
+        phase3 = False
+        phase4 = False
+        goal_phase = False
+        # Define the state for learning here
+        # Get all perceived objects
+        object_ids = list(state.keys())
+        # Remove world from state
+        object_ids.remove("World")
+        # Remove self
+        object_ids.remove(self.agent_id)
+        # Store and remove all (human)agents
+        human_id = [obj_id for obj_id in object_ids if "CustomHumanAgentBrain" in state[obj_id]['class_inheritance']]
+        object_ids = [obj_id for obj_id in object_ids if "AgentBrain" not in state[obj_id]['class_inheritance'] and
+                      "AgentBody" not in state[obj_id]['class_inheritance']]
+
+        # Location of human (abstracted)
+        human_location = state[human_id[0]]['location']
+
+        # Location of robot (abstracted)
+        robot_location = state[self.agent_id]['location']
+
+        # Objects carrying
+        currently_carrying = len(state[self.agent_id]['is_carrying'])
+
+        # Latest human action (idle/pickup/drop/move)
+
+        # Number of free columns
+        empty_columns = list(range(5,15))
+        for object_id in object_ids:
+            object_loc = state[object_id]['location']
+            object_loc_x = object_loc[0]
+            if object_loc_x in empty_columns:
+                empty_columns.remove(object_loc_x)
+
+        nr_empty_columns = len(empty_columns)
+
+        # Ratio of small/large blocks (or number of large blocks) (now for all blocks, change to blocks in field?)
+        nr_large_blocks = 0
+        nr_small_blocks = 0
+        for object_id in object_ids:
+            if "large" in state[object_id]:
+                nr_large_blocks += 1
+            elif "bound_to" in state[object_id]:
+                continue
+            else:
+                nr_small_blocks += 1
+
+        if nr_large_blocks > 0:
+            ratio_small_large = round(nr_small_blocks/nr_large_blocks)
+        else:
+            ratio_small_large = nr_small_blocks
+
+        # Height differences between columns (looks at all blocks, not just field)
+        column_heights = []
+        for object_id in object_ids:
+            if state[object_id]['location'][0] >= 15 or state[object_id]['location'][0] < 5:
+                continue
+            object_loc = state[object_id]['location']
+            object_loc_x = object_loc[0]
+            object_loc_y = object_loc[1]
+            if column_heights and object_loc_x in np.asarray(column_heights)[:,0]:
+                index = list(np.asarray(column_heights)[:,0]).index(object_loc_x)
+                if 11- object_loc_y > column_heights[index][1]:
+                    column_heights[index][1] = 11 - object_loc_y
+            else:
+                column_heights.append([object_loc_x, 11 - object_loc_y])
+
+        np_column_heights = np.asarray(column_heights)
+        np_column_heights = np_column_heights[np.argsort(np_column_heights[:,0])]
+
+        column_sum =  np.sum(np_column_heights[:,1], axis=0)
+        column_sum_diff = np.sum(np.abs(np.diff(np_column_heights[:,1])))
+
+
+        # Check if phase 2 is reached
+        if self.initial_heights is None:
+            self.initial_heights = column_sum
+
+        if self.initial_heights is not None and self.initial_heights - column_sum >= 5:
+            phase2 = True
+
+        # Check if phase 3 is reached
+        if nr_empty_columns >= 3:
+            phase3 = True
+
+        # Check if phase 4 is reached
+        # TODO:(now checks for empty columns, needs to be adapted for bridge scenarios)
+
+        if {5, 6, 7}.issubset(set(empty_columns)):
+            phase4 = True
+
+        if {8, 9, 10, 11}.issubset(set(empty_columns)):
+            phase4 = True
+
+        if {12, 13, 14}.issubset(set(empty_columns)):
+            phase4 = True
+
+        # Check if goal phase is reached
+        # TODO:(now checks for empty columns, needs to be adapted for bridge scenarios)
+        if {5, 6, 7, 8, 9, 10, 11}.issubset(set(empty_columns)):
+            goal_phase = True
+
+        if {8, 9, 10, 11, 12, 13, 14}.issubset(set(empty_columns)):
+            goal_phase = True
+
+        filtered_state = {}
+        #filtered_state['empty_columns'] = nr_empty_columns
+        #filtered_state['ratio_small_large'] = ratio_small_large
+        #filtered_state['column_sum'] = column_sum
+        #filtered_state['column_sum_diff'] = column_sum_diff
+        #filtered_state['currently_carrying'] = currently_carrying
+        #filtered_state['large_blocks'] = nr_large_blocks
+        filtered_state['Phase 2'] = phase2
+        filtered_state['Phase 3'] = phase3
+        filtered_state['Phase 4'] = phase4
+        filtered_state['Goal Phase'] = goal_phase
+
+        return filtered_state
+
+    def decide_on_action(self, state):
+        action_kwargs = {}
+        action = None
+        final_reward = 0
+        current_state = self.filter_observations_learning(state)
+        # List with all objects
+        # Get all perceived objects
+        object_ids = list(state.keys())
+        # Remove world from state
+        object_ids.remove("World")
+        # Remove self
+        object_ids.remove(self.agent_id)
+        # Remove all (human)agents
+        object_ids = [obj_id for obj_id in object_ids if "AgentBrain" not in state[obj_id]['class_inheritance'] and
+                      "AgentBody" not in state[obj_id]['class_inheritance']]
+
+        if self.previous_phase is None:
+            self.counter = self.counter + 1
+            self.previous_phase = self.filter_observations_learning(state)
+        elif self.previous_phase == self.filter_observations_learning(state):
+            self.counter = self.counter + 1
+            self.previous_phase = self.filter_observations_learning(state)
+        else:
+            final_reward = final_reward - self.counter
+            self.send_message(Message(content=str(final_reward), from_id=self.agent_id, to_id=None))
+            self.counter = 0
+            self.previous_phase = self.filter_observations_learning(state)
+
+        return action, action_kwargs
