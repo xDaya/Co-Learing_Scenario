@@ -40,12 +40,12 @@ for y_loc in range(upper_bound, lower_bound):
 
 def create_builder():
     factory = WorldBuilder(shape=[20, 12], run_matrx_visualizer=True, visualization_bg_clr="#ffffff",
-                           visualization_bg_img='/images/background.png', tick_duration=0.1, simulation_goal=USAR_Goal())
+                           visualization_bg_img='/images/background.png', tick_duration=0.05, simulation_goal=USAR_Goal())
 
     # Link agent names to agent brains
-    human_agent = CustomHumanAgentBrain(max_carry_objects=5, grab_range=1)
+    human_agent = CustomHumanAgentBrain(max_carry_objects=1, grab_range=1)
     autonomous_agent = PatrollingAgentBrain(waypoints=[(0, 0), (0, 7)])
-    robot_partner = RobotPartner()
+    robot_partner = RobotPartner(move_speed=10)
 
     human_img = HumanAgentBrain()
     machine_img = HumanAgentBrain()
@@ -69,40 +69,38 @@ def create_builder():
 
     # Add the selector agent that allows humans to interact
     factory.add_human_agent([3, 4], human_agent, name="Human Selector", key_action_map=key_action_map,
-                            visualize_shape='img', img_name="/images/selector.png", visualize_size=1)
+                            visualize_shape='img', img_name="/images/selector.png", visualize_size=1, is_traversable=True)
 
     # Add agents that are static and mostly just show the image of the 'actual' agent
     factory.add_human_agent([1, 7], human_img, name="Human", visualize_shape='img',
-                            img_name="/images/human_square.png", visualize_size=4)
+                            img_name="/images/human_square.png", visualize_size=4, is_traversable=True)
     factory.add_human_agent([15, 7], machine_img, name="Machine", visualize_shape='img',
-                            img_name="/images/machine_square.png", visualize_size=4)
+                            img_name="/images/machine_square.png", visualize_size=4, is_traversable=True)
     factory.add_human_agent([8, 7], victim_img, name="Victim", visualize_shape='img',
-                            img_name="/images/victim_square.png", visualize_size=4)
+                            img_name="/images/victim_square.png", visualize_size=4, is_traversable=True, visualize_depth=0)
 
     # Add Gravity by adding the GravityGod agent
-    factory.add_agent((0, 0), gravity_god, name="GravityGod", visualize_shape='img', img_name="/images/transparent.png")
+    factory.add_agent((0, 0), gravity_god, name="GravityGod", visualize_shape='img', img_name="/images/transparent.png", is_traversable=True)
 
     # Add Reward by adding the RewardGod agent
-    factory.add_agent((0,0), reward_god, name="RewardGod", visualize_shape='img', img_name="/images/transparent.png")
+    factory.add_agent((0,0), reward_god, name="RewardGod", visualize_shape='img', img_name="/images/transparent.png", is_traversable=True)
 
     # factory.add_agent([0,2], autonomous_agent, name="Robot", visualize_shape='img',
     #                   img_name="/images/machine_square.png", visualize_size=2)
 
     # Add the actual Robot Partner
-    factory.add_agent((4,4), robot_partner, name="Robot Selector", visualize_shape='img', img_name="/images/selector2.png", visualize_size=1)
+    factory.add_agent((4,4), robot_partner, name="Robot Selector", visualize_shape='img', img_name="/images/selector2.png", visualize_size=1, is_traversable=True)
 
     #generate_rubble_pile(name="test_pile", locations=rubble_locations, world=factory)
 
     #create_brownlong_object(name="test_obstr", location=(16,1), world=factory)
     #create_brownvert_object(name="test_obstr2", location=(16, 3), world=factory)
 
-    lvl_dont_break(factory)
+    lvl_dont_break(factory)            # First scenario
 
-    factory.add_object(location=(19,11), name="rewardobj", img_name = "/images/transparent.png", callable_class=RewardObject)
+    #lvl_building_bridges(factory)      # Third scenario
 
-    #lvl_building_bridges(factory)
-
-    #lvl_looming_spike(factory)
+    #lvl_looming_spike(factory)         # Second scenario
 
     return factory
 
@@ -317,13 +315,14 @@ def lvl_building_bridges(factory):
 
 
 def lvl_looming_spike(factory):
-    create_brownvert_object(name="brownvert1", location=(11, 2), world=factory)
+    create_brownvert_object(name="brownvert1", location=(11, 1), world=factory)
 
     create_long_object(name="long1", location=(7, 6), world=factory)
+    create_long_object(name="long2", location=(10, 5), world=factory)
 
     create_vert_object(name="vert1", location=(7, 7), world=factory)
 
-    create_large_object(name="large1", location=(9, 4), world=factory)
+    create_large_object(name="large1", location=(9, 3), world=factory)
     create_large_object(name="large2", location=(11, 6), world=factory)
     create_large_object(name="large3", location=(9, 9), world=factory)
 

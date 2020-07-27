@@ -7,7 +7,7 @@ from matrx.agents.agent_utils.state_tracker import StateTracker
 
 class RobotPartner(AgentBrain):
 
-    def __init__(self, move_speed=1):
+    def __init__(self, move_speed=5):
         super().__init__()
         self.state_tracker = None
         self.move_speed = move_speed
@@ -67,15 +67,25 @@ class RobotPartner(AgentBrain):
         # Objects carrying
         currently_carrying = len(state[self.agent_id]['is_carrying'])
 
-        # Latest human action (idle/pickup/drop/move)
+        # Rubble locations
+        lower_bound = 11
+        left_bound = 5
+        right_bound = 15
+        upper_bound = 1
+        empty_rubble_locations = []
+        for y_loc in range(upper_bound, lower_bound):
+            for x_loc in range(left_bound, right_bound):
+                empty_rubble_locations.append((x_loc, y_loc))
 
-        # Number of free columns
+        # Number of free columns and spots
         empty_columns = list(range(5,15))
         for object_id in object_ids:
             object_loc = state[object_id]['location']
             object_loc_x = object_loc[0]
             if object_loc_x in empty_columns:
                 empty_columns.remove(object_loc_x)
+            if object_loc in empty_rubble_locations:
+                empty_rubble_locations.remove(object_loc)
 
         nr_empty_columns = len(empty_columns)
 
@@ -111,41 +121,56 @@ class RobotPartner(AgentBrain):
                 column_heights.append([object_loc_x, 11 - object_loc_y])
 
         np_column_heights = np.asarray(column_heights)
-        np_column_heights = np_column_heights[np.argsort(np_column_heights[:,0])]
+        try:
+            np_column_heights = np_column_heights[np.argsort(np_column_heights[:,0])]
+        except IndexError:
+            np_column_heights = np_column_heights
 
-        column_sum =  np.sum(np_column_heights[:,1], axis=0)
-        column_sum_diff = np.sum(np.abs(np.diff(np_column_heights[:,1])))
+        try:
+            column_sum =  np.sum(np_column_heights[:,1], axis=0)
+            column_sum_diff = np.sum(np.abs(np.diff(np_column_heights[:,1])))
+        except IndexError:
+            column_sum = 0
+            column_sum_diff = 0
 
 
         # Check if phase 2 is reached
         if self.initial_heights is None:
             self.initial_heights = column_sum
 
-        if self.initial_heights is not None and self.initial_heights - column_sum >= 5:
+        if self.initial_heights is not None and self.initial_heights - column_sum >= 8:
             phase2 = True
 
         # Check if phase 3 is reached
-        if nr_empty_columns >= 3:
+        if self.initial_heights is not None and self.initial_heights - column_sum >= 20:
             phase3 = True
 
         # Check if phase 4 is reached
         # TODO:(now checks for empty columns, needs to be adapted for bridge scenarios)
 
-        if {5, 6, 7}.issubset(set(empty_columns)):
+        # If all rubble is gone from the victim itself
+        if {(8,9), (8,10), (9,9), (9,10), (10,9), (10,10), (11,9), (11,10)}.issubset(set(empty_rubble_locations)):
             phase4 = True
 
-        if {8, 9, 10, 11}.issubset(set(empty_columns)):
+        # If there is a free path from the left side
+        if {(5,7), (5,8), (5,9), (5,10), (6,7), (6,8), (6,9), (6,10), (7,7), (7,8), (7,9), (7,10)}.issubset(set(empty_rubble_locations)):
             phase4 = True
 
-        if {12, 13, 14}.issubset(set(empty_columns)):
+        # If there is a free path from the right side
+        if {(12,7), (12,8), (12,9), (12,10), (13,7), (13,8), (13,9), (13,10), (14,7), (14,8), (14,9), (14,10)}.issubset(set(empty_rubble_locations)):
             phase4 = True
 
         # Check if goal phase is reached
         # TODO:(now checks for empty columns, needs to be adapted for bridge scenarios)
-        if {5, 6, 7, 8, 9, 10, 11}.issubset(set(empty_columns)):
+
+        # If all rubble is gone from the victim and there is a free path from the left side
+        if {(8, 9), (8, 10), (9, 9), (9, 10), (10, 9), (10, 10), (11, 9), (11, 10), (5,7), (5,8), (5,9), (5,10), (6,7),
+                (6,8), (6,9), (6,10), (7,7), (7,8), (7,9), (7,10)}.issubset(set(empty_rubble_locations)):
             goal_phase = True
 
-        if {8, 9, 10, 11, 12, 13, 14}.issubset(set(empty_columns)):
+        # If all rubble is gone from the victim and there is a free path from the right side
+        if {(8, 9), (8, 10), (9, 9), (9, 10), (10, 9), (10, 10), (11, 9), (11, 10), (12,7), (12,8), (12,9), (12,10),
+                (13,7), (13,8), (13,9), (13,10), (14,7), (14,8), (14,9), (14,10)}.issubset(set(empty_rubble_locations)):
             goal_phase = True
 
         filtered_state = {}
@@ -164,12 +189,13 @@ class RobotPartner(AgentBrain):
 
     def update_q_table(self, current_state, chosen_action, done_action, done_state, reward):
         gamma = 0.8
+        alpha = 0.5
         # Update the expected reward for a specific state-action pair
         if frozenset(current_state.items()) in self.q_table:
             # State already exists in q-table, so we update
             max_q = self.q_table[frozenset(current_state.items())][chosen_action]
             #print(max_q)
-            self.q_table[frozenset(done_state.items())][done_action] = reward + gamma * max_q
+            self.q_table[frozenset(done_state.items())][done_action] = self.q_table[frozenset(done_state.items())][done_action] + alpha * (reward + gamma * max_q - self.q_table[frozenset(done_state.items())][done_action])
         else:
             # State does not exist in q-table, so we create a new entry with all zero's
             self.q_table[frozenset(current_state.items())] = [0] * 3
@@ -281,10 +307,10 @@ class RobotPartner(AgentBrain):
                 obj_type = 'long'
 
             # Choose location for dropping
-            possible_xloc = list(range(1,3)) + list(range(16,17))
+            possible_xloc = list(range(0,2)) + list(range(16,19))
             x_loc = random.choice(possible_xloc)
 
-            if location is None:
+            if chosen_loc is None:
                 chosen_loc = (x_loc, 1)
 
             # Add move action to action list
@@ -370,19 +396,29 @@ class RobotPartner(AgentBrain):
                     continue
                 if len(state[self.agent_id]['is_carrying']) > 0 and "bound_to" in state[object_id]:
                     continue
+                if 'brown' in state[object_id]['name']:
+                    continue
 
                 y_loc_list.append(state[object_id]['location'][1])
                 obj.append(object_id)
 
-            chosen_object = obj[y_loc_list.index(min(y_loc_list))]  # Pick object with smallest y
-            if "large" in state[chosen_object]:
-                self.pickup_large_action(object_ids, state, None)
-            elif "bound_to" in state[chosen_object]:
-                self.pickup_large_action(object_ids, state, None)
-                self.previous_exec = "pickup"
+            if len(obj) < 1:
+                if len(state[self.agent_id]['is_carrying']) > 0:
+                    self.drop_action(state, None)
+                    self.previous_exec = "drop"
+                else:
+                    self.wait_action()
             else:
-                self.pickup_action(object_ids, state)
-                self.previous_exec = "pickup"
+                chosen_object = obj[y_loc_list.index(min(y_loc_list))]  # Pick object with smallest y
+                if "large" in state[chosen_object]:
+                    self.pickup_large_action(object_ids, state, None)
+                    self.previous_exec = "pickup"
+                elif "bound_to" in state[chosen_object]:
+                    self.pickup_large_action(object_ids, state, None)
+                    self.previous_exec = "pickup"
+                else:
+                    self.pickup_action(object_ids, state)
+                    self.previous_exec = "pickup"
         # If carrying 5 objects (or a large one) choose a spot outside of field and drop the object there
         else:
             self.drop_action(state, None)
@@ -419,17 +455,15 @@ class RobotPartner(AgentBrain):
                 object_loc = state[object_id]['location']
                 object_locs.append(object_loc)
             # Then check if the human's location is in the object locations list
-            if self.human_location not in object_locs:
+            if self.human_location[0] not in object_locs:
                 # Apparently human lingers around an empty spot, so we need to decide how big the spot is
-                if "large" in state[self.agent_id]['is_carrying']:
-                    self.drop_action(state, self.human_location)
-                elif len(state[self.agent_id]['is_carrying']) > 0:
-                    self.drop_action(state, None)
+                if len(state[self.agent_id]['is_carrying']) > 0:
+                    self.drop_action(state, self.human_location[0])
                 else:
                     self.pickup_large_action(object_ids, state, None)
             else:
                 # Apparently the human lingers around blocks, so we need to decide which block that is and pick it up (if it is a large block?)
-                self.pickup_large_action(object_ids, state, self.human_location)
+                self.pickup_large_action(object_ids, state, self.human_location[0])
                 pass
         else:
             # If the human is moving around, wait for them to act
@@ -495,6 +529,7 @@ class RobotPartner(AgentBrain):
             # This means that an action is still being executed
             action = self.actionlist[0].pop(0)
             action_kwargs = self.actionlist[1].pop(0)
+            action_kwargs['action_duration'] = self.move_speed
             return action, action_kwargs        # Returned here, so code underneath is then not executed
         else:
             # This means we are done with our previous action, so we update Q-table
@@ -524,13 +559,13 @@ class RobotPartner(AgentBrain):
 
             if chosen_action == 0:
                 self.policy1(object_ids, state)
-                #print("P1")
+                print("P1")
             elif chosen_action == 1:
                 self.policy2(object_ids, state)
-                #print("P2")
+                print("P2")
             elif chosen_action == 2:
                 self.policy3(object_ids, state)
-                #print("P3")
+                print("P3")
 
             # Safe into the action history
             self.action_history.append([current_state, chosen_action])

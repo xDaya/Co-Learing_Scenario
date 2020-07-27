@@ -57,9 +57,3 @@ class ObstructionObject(EnvObject):
         self.large = large
 
         super().__init__(name=name, location=location, visualize_shape='img', visualize_size=visualize_size, class_callable=ObstructionObject, is_traversable=True, is_movable=False, obstruction=self.obstruction, large=True, **kwargs)
-
-
-class RewardObject(EnvObject):
-    def __init__(self, location, name="rewardobj", goalreached=False, **kwargs):
-
-        super().__init__(name=name, location=location, visualize_shape='img', is_traversable=True, is_movable=False, class_callable=RewardObject, goalreached=goalreached)

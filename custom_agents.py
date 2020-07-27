@@ -7,7 +7,7 @@ from matrx.agents.agent_utils.state_tracker import StateTracker
 
 
 class CustomHumanAgentBrain(HumanAgentBrain):
-    def __init__(self, state_memory_decay=1, fov_occlusion=False, max_carry_objects=3, grab_range=1, drop_range=1, door_range=1, remove_range=1):
+    def __init__(self, state_memory_decay=1, fov_occlusion=False, max_carry_objects=1, grab_range=0, drop_range=1, door_range=1, remove_range=1):
 
         """
         Creates an Human Agent which is an agent that can be controlled by a human.
@@ -29,6 +29,9 @@ class CustomHumanAgentBrain(HumanAgentBrain):
         # if no keys were pressed, do nothing
         if user_input is None or user_input == []:
             return None, {}
+
+        #if len(state[self.agent_id]['is_carrying']) > 0:        # Code for changing image when carrying
+        #    state[self.agent_id]['img_name'] = "/images/selector_holding.png"
 
         # take the latest pressed key (for now), and fetch the action associated with that key
         pressed_keys = user_input[-1]
@@ -169,6 +172,13 @@ class CustomHumanAgentBrain(HumanAgentBrain):
         for object_id in object_ids:
             if "is_movable" not in state[object_id]:
                 continue
+
+            if "large" in state[object_id]:
+                continue
+
+            if "bound_to" in state[object_id]:
+                if state[object_id]["bound_to"] is not None:
+                    continue
 
             # Select range as just enough to grab that object
             dist = int(np.ceil(np.linalg.norm(np.array(state[object_id]['location'])
@@ -319,8 +329,10 @@ class GravityGod(AgentBrain):
 
         return action, action_kwargs
 
+
 def empty_notification(sender, object_id):
     return
+
 
 def large_empty_check(large_obj, state, object_locs):
     y_locs = []
@@ -352,6 +364,10 @@ class RewardGod(AgentBrain):
         self.previous_phase = None
         self.counter = 0
         self.initial_heights = None
+        self.goal_reached = False
+        self.previous_objs = []
+        self.previous_locs = []
+        self.hit_penalty = 0
 
     def initialize(self):
         self.state_tracker = StateTracker(agent_id=self.agent_id)
@@ -361,6 +377,8 @@ class RewardGod(AgentBrain):
         self.actionlist = [[], []]      # Array that stores which actual actions must be executed (and their arguments)
         self.action_history = []  # Array that stores actions that have been taken in a certain state
         self.previous_phase = None
+        self.counter = 0
+        self.hit_penalty = 0
 
     def filter_observations_learning(self, state):
         self.state_tracker.update(state)
@@ -390,15 +408,25 @@ class RewardGod(AgentBrain):
         # Objects carrying
         currently_carrying = len(state[self.agent_id]['is_carrying'])
 
-        # Latest human action (idle/pickup/drop/move)
+        # Rubble locations
+        lower_bound = 11
+        left_bound = 5
+        right_bound = 15
+        upper_bound = 1
+        empty_rubble_locations = []
+        for y_loc in range(upper_bound, lower_bound):
+            for x_loc in range(left_bound, right_bound):
+                empty_rubble_locations.append((x_loc, y_loc))
 
-        # Number of free columns
-        empty_columns = list(range(5,15))
+        # Number of free columns and spots
+        empty_columns = list(range(5, 15))
         for object_id in object_ids:
             object_loc = state[object_id]['location']
             object_loc_x = object_loc[0]
             if object_loc_x in empty_columns:
                 empty_columns.remove(object_loc_x)
+            if object_loc in empty_rubble_locations:
+                empty_rubble_locations.remove(object_loc)
 
         nr_empty_columns = len(empty_columns)
 
@@ -434,42 +462,62 @@ class RewardGod(AgentBrain):
                 column_heights.append([object_loc_x, 11 - object_loc_y])
 
         np_column_heights = np.asarray(column_heights)
-        np_column_heights = np_column_heights[np.argsort(np_column_heights[:,0])]
+        try:
+            np_column_heights = np_column_heights[np.argsort(np_column_heights[:,0])]
+        except IndexError:
+            np_column_heights = np_column_heights
 
-        column_sum =  np.sum(np_column_heights[:,1], axis=0)
-        column_sum_diff = np.sum(np.abs(np.diff(np_column_heights[:,1])))
+        try:
+            column_sum =  np.sum(np_column_heights[:,1], axis=0)
+            column_sum_diff = np.sum(np.abs(np.diff(np_column_heights[:,1])))
+        except IndexError:
+            column_sum = 0
+            column_sum_diff = 0
 
 
         # Check if phase 2 is reached
         if self.initial_heights is None:
             self.initial_heights = column_sum
 
-        if self.initial_heights is not None and self.initial_heights - column_sum >= 5:
+        if self.initial_heights is not None and self.initial_heights - column_sum >= 8:
             phase2 = True
 
         # Check if phase 3 is reached
-        if nr_empty_columns >= 3:
+        if self.initial_heights is not None and self.initial_heights - column_sum >= 20:
             phase3 = True
 
         # Check if phase 4 is reached
         # TODO:(now checks for empty columns, needs to be adapted for bridge scenarios)
 
-        if {5, 6, 7}.issubset(set(empty_columns)):
+        # If all rubble is gone from the victim itself
+        if {(8, 9), (8, 10), (9, 9), (9, 10), (10, 9), (10, 10), (11, 9), (11, 10)}.issubset(
+                set(empty_rubble_locations)):
             phase4 = True
 
-        if {8, 9, 10, 11}.issubset(set(empty_columns)):
+        # If there is a free path from the left side
+        if {(5, 7), (5, 8), (5, 9), (5, 10), (6, 7), (6, 8), (6, 9), (6, 10), (7, 7), (7, 8), (7, 9),
+            (7, 10)}.issubset(set(empty_rubble_locations)):
             phase4 = True
 
-        if {12, 13, 14}.issubset(set(empty_columns)):
+        # If there is a free path from the right side
+        if {(12, 7), (12, 8), (12, 9), (12, 10), (13, 7), (13, 8), (13, 9), (13, 10), (14, 7), (14, 8), (14, 9),
+            (14, 10)}.issubset(set(empty_rubble_locations)):
             phase4 = True
 
         # Check if goal phase is reached
         # TODO:(now checks for empty columns, needs to be adapted for bridge scenarios)
-        if {5, 6, 7, 8, 9, 10, 11}.issubset(set(empty_columns)):
+
+        # If all rubble is gone from the victim and there is a free path from the left side
+        if {(8, 9), (8, 10), (9, 9), (9, 10), (10, 9), (10, 10), (11, 9), (11, 10), (5, 7), (5, 8), (5, 9), (5, 10),
+            (6, 7), (6, 8), (6, 9), (6, 10), (7, 7), (7, 8), (7, 9), (7, 10)}.issubset(set(empty_rubble_locations)):
             goal_phase = True
 
-        if {8, 9, 10, 11, 12, 13, 14}.issubset(set(empty_columns)):
+        # If all rubble is gone from the victim and there is a free path from the right side
+        if {(8, 9), (8, 10), (9, 9), (9, 10), (10, 9), (10, 10), (11, 9), (11, 10), (12, 7), (12, 8), (12, 9),
+            (12, 10), (13, 7), (13, 8), (13, 9), (13, 10), (14, 7), (14, 8), (14, 9), (14, 10)}.issubset(set(empty_rubble_locations)):
             goal_phase = True
+
+        self.goal_reached = goal_phase
 
         filtered_state = {}
         #filtered_state['empty_columns'] = nr_empty_columns
@@ -485,10 +533,29 @@ class RewardGod(AgentBrain):
 
         return filtered_state
 
+    def victim_crash(self, state, object_ids):
+        hits = 0
+        object_locs = []
+        for object_id in object_ids:
+            loc = state[object_id]['location']
+            object_locs.append(loc)
+            # Check if the object existed in the field before
+            if object_id in self.previous_objs:
+                # Check if the object changed location
+                if loc is not self.previous_locs[self.previous_objs.index(object_id)]:
+                    # Check if the new location is part of the victim
+                    victim_locs = [(8,9), (8,10), (9,9), (9,10), (10,9), (10,10), (11,9), (11,10)]
+                    if loc in victim_locs:
+                        hits = hits + 100
+
+        self.previous_objs = object_ids
+        self.previous_locs = object_locs
+        return hits
+
     def decide_on_action(self, state):
         action_kwargs = {}
         action = None
-        final_reward = 0
+        final_reward = 15
         current_state = self.filter_observations_learning(state)
         # List with all objects
         # Get all perceived objects
@@ -501,6 +568,8 @@ class RewardGod(AgentBrain):
         object_ids = [obj_id for obj_id in object_ids if "AgentBrain" not in state[obj_id]['class_inheritance'] and
                       "AgentBody" not in state[obj_id]['class_inheritance']]
 
+        self.hit_penalty = self.hit_penalty + self.victim_crash(state, object_ids)
+
         if self.previous_phase is None:
             self.counter = self.counter + 1
             self.previous_phase = self.filter_observations_learning(state)
@@ -508,9 +577,10 @@ class RewardGod(AgentBrain):
             self.counter = self.counter + 1
             self.previous_phase = self.filter_observations_learning(state)
         else:
-            final_reward = final_reward - self.counter
+            final_reward = final_reward - self.counter - self.hit_penalty
             self.send_message(Message(content=str(final_reward), from_id=self.agent_id, to_id=None))
             self.counter = 0
+            self.hit_penalty = 0
             self.previous_phase = self.filter_observations_learning(state)
 
         return action, action_kwargs

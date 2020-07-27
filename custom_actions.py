@@ -1,6 +1,6 @@
 import numpy as np
 from matrx.actions.action import Action, ActionResult
-from matrx.actions.object_actions import _is_drop_poss, _act_drop, _possible_drop, _find_drop_loc
+from matrx.actions.object_actions import _is_drop_poss, _act_drop, _possible_drop, _find_drop_loc, GrabObject, GrabObjectResult
 import random
 
 rock_imgs = ['/images/rock1.png', '/images/rock2.png', '/images/rock3.png']
@@ -118,7 +118,7 @@ class GrabLargeObject(Action):
             # Updating Location (done after removing from grid, or the grid will search the object on the wrong location)
             env_obj.location = reg_ag.location
 
-        #reg_ag.change_property('img_name', '/images/human_square.png')     # Code to change agent image
+        reg_ag.change_property('img_name', '/images/selector_holding2.png')     # Code to change agent image
 
         return GrabLargeObjectResult(GrabLargeObjectResult.RESULT_SUCCESS, True)
 
@@ -204,6 +204,7 @@ class DropLargeObject(Action):
 
         # drop it on the agent location if possible
         if curr_loc_drop_poss:
+            reg_ag.change_property('img_name', '/images/selector2.png')  # Code to change agent image
             return _act_drop_large(grid_world, agent=reg_ag, parts_obj=parts_obj, drop_loc=reg_ag.location, obj_type=obj_type)       # We need to make this loop over the different objects
 
         # if the agent location was the only within range, return a negative action result
@@ -385,9 +386,17 @@ def _act_drop_large(grid_world, agent, parts_obj, drop_loc, obj_type):
         locations = [drop_loc, (x_drop_loc, y_drop_loc + 1), (x_drop_loc, y_drop_loc + 2), (x_drop_loc, y_drop_loc + 3),
                      drop_loc]
     elif obj_type == 'long':
+        if x_drop_loc > 16:
+            drop_loc = (16, y_drop_loc)
+            x_drop_loc = drop_loc[0]
+            y_drop_loc = drop_loc[1]
         locations = [drop_loc, (x_drop_loc + 1, y_drop_loc), (x_drop_loc + 2, y_drop_loc), (x_drop_loc + 3, y_drop_loc),
                      drop_loc]
     else:
+        if x_drop_loc > 18:
+            drop_loc = (18, y_drop_loc)
+            x_drop_loc = drop_loc[0]
+            y_drop_loc = drop_loc[1]
         locations = [drop_loc, (x_drop_loc+1, y_drop_loc), (x_drop_loc, y_drop_loc+1), (x_drop_loc+1, y_drop_loc+1),
                      drop_loc]
 
