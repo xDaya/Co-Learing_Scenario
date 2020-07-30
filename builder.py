@@ -1,6 +1,9 @@
 from matrx.agents.agent_types.human_agent import HumanAgentBrain
 from matrx.agents.agent_types.patrolling_agent import PatrollingAgentBrain
 from matrx.logger.log_agent_actions import LogActions
+from matrx.logger.log_idle_agents import LogIdleAgents
+from loggers.learning_logger import LearningLogger
+from loggers.action_logger import ActionLogger
 from matrx.world_builder import WorldBuilder
 from matrx.actions.move_actions import *
 from matrx.actions.object_actions import *
@@ -13,6 +16,8 @@ from custom_agents import *
 from robot_partner import *
 from custom_actions import *
 import random
+import os
+from datetime import datetime
 
 block_size = 1
 block_colors = ['#DCDDDC', '#D3D2D2', '#A9A9A9']
@@ -42,6 +47,14 @@ def create_builder():
     factory = WorldBuilder(shape=[20, 12], run_matrx_visualizer=True, visualization_bg_clr="#ffffff",
                            visualization_bg_img='/images/background.png', tick_duration=0.05, simulation_goal=USAR_Goal())
 
+    # Add loggers
+    current_exp_folder = datetime.now().strftime("exp_at_time_%Hh-%Mm-%Ss_date_%dd-%mm-%Yy")
+    logger_save_folder = os.path.join("experiment_logs", current_exp_folder)
+
+    factory.add_logger(logger_class=ActionLogger, save_path=logger_save_folder, file_name_prefix="actions_")
+    factory.add_logger(logger_class=LogIdleAgents, save_path=logger_save_folder, file_name_prefix="idle_")
+    factory.add_logger(logger_class=LearningLogger, save_path=logger_save_folder, file_name_prefix="qtable_")
+
     # Link agent names to agent brains
     human_agent = CustomHumanAgentBrain(max_carry_objects=1, grab_range=1)
     autonomous_agent = PatrollingAgentBrain(waypoints=[(0, 0), (0, 7)])
@@ -49,22 +62,21 @@ def create_builder():
 
     human_img = HumanAgentBrain()
     machine_img = HumanAgentBrain()
-    victim_img = HumanAgentBrain()
+    victim_img = VictimAgent()
     gravity_god = GravityGod()
     reward_god = RewardGod()
 
     key_action_map = {
-        'w': MoveNorth.__name__,
-        'd': MoveEast.__name__,
-        's': MoveSouth.__name__,
-        'a': MoveWest.__name__,
+        'ArrowUp': MoveNorth.__name__,
+        'ArrowRight': MoveEast.__name__,
+        'ArrowDown': MoveSouth.__name__,
+        'ArrowLeft': MoveWest.__name__,
         'p': GrabObject.__name__,
         'n': DropObject.__name__,
-        'r': RemoveObject.__name__,
-        'o': OpenDoorAction.__name__,
-        'l': GrabLargeObject.__name__,
-        'm': DropLargeObject.__name__,
-        'b': BreakObject.__name__
+        #'r': RemoveObject.__name__,
+        #'l': GrabLargeObject.__name__,
+        #'m': DropLargeObject.__name__,
+        #'b': BreakObject.__name__
     }
 
     # Add the selector agent that allows humans to interact
@@ -76,7 +88,7 @@ def create_builder():
                             img_name="/images/human_square.png", visualize_size=4, is_traversable=True)
     factory.add_human_agent([15, 7], machine_img, name="Machine", visualize_shape='img',
                             img_name="/images/machine_square.png", visualize_size=4, is_traversable=True)
-    factory.add_human_agent([8, 7], victim_img, name="Victim", visualize_shape='img',
+    factory.add_agent([8, 7], victim_img, name="Victim", visualize_shape='img',
                             img_name="/images/victim_square.png", visualize_size=4, is_traversable=True, visualize_depth=0)
 
     # Add Gravity by adding the GravityGod agent
@@ -89,7 +101,7 @@ def create_builder():
     #                   img_name="/images/machine_square.png", visualize_size=2)
 
     # Add the actual Robot Partner
-    factory.add_agent((4,4), robot_partner, name="Robot Selector", visualize_shape='img', img_name="/images/selector2.png", visualize_size=1, is_traversable=True)
+    factory.add_agent((4,4), robot_partner, name="Robot Selector", visualize_shape='img', img_name="/images/selector2.png", visualize_size=1, is_traversable=True, q_table=None, customizable_properties=["q_table"])
 
     #generate_rubble_pile(name="test_pile", locations=rubble_locations, world=factory)
 

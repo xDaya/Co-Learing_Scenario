@@ -202,6 +202,7 @@ class RobotPartner(AgentBrain):
             # And then update
             Max_Q = self.q_table[frozenset(current_state.items())][chosen_action]
             self.q_table[frozenset(current_state.items())][chosen_action] = reward + gamma * Max_Q
+        self.agent_properties["q_table"] = str(self.q_table)
         return
 
     def pickup_action(self, object_ids, state):

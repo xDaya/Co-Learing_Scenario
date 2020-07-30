@@ -584,3 +584,50 @@ class RewardGod(AgentBrain):
             self.previous_phase = self.filter_observations_learning(state)
 
         return action, action_kwargs
+
+
+class VictimAgent(AgentBrain):
+    def __init__(self):
+        super().__init__()
+        self.health_score = 1000
+        self.previous_objs = []
+        self.previous_locs = []
+
+    def initialize(self):
+        self.state_tracker = StateTracker(agent_id=self.agent_id)
+        self.health_score = 1000
+
+    def victim_crash(self, state, object_ids):
+        hits = 0
+        object_locs = []
+        for object_id in object_ids:
+            loc = state[object_id]['location']
+            object_locs.append(loc)
+            # Check if the object existed in the field before
+            if object_id in self.previous_objs:
+                # Check if the object changed location
+                if loc is not self.previous_locs[self.previous_objs.index(object_id)]:
+                    # Check if the new location is part of the victim
+                    victim_locs = [(8,9), (8,10), (9,9), (9,10), (10,9), (10,10), (11,9), (11,10)]
+                    if loc in victim_locs:
+                        hits = hits + 100
+
+        self.previous_objs = object_ids
+        self.previous_locs = object_locs
+        return hits
+
+    def decide_on_action(self, state):
+        action_kwargs = {}
+        action = None
+
+        # List with all objects
+        # Get all perceived objects
+        object_ids = list(state.keys())
+        # Remove world from state
+        object_ids.remove("World")
+        # Remove self
+        object_ids.remove(self.agent_id)
+        # Remove all (human)agents
+        object_ids = [obj_id for obj_id in object_ids if "AgentBrain" not in state[obj_id]['class_inheritance'] and
+                      "AgentBody" not in state[obj_id]['class_inheritance']]
+        return action, action_kwargs

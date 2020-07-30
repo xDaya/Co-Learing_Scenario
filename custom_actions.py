@@ -408,3 +408,26 @@ def _act_drop_large(grid_world, agent, parts_obj, drop_loc, obj_type):
         # We return the object to the grid location we are standing at
         env_obj.location = locations[parts_obj.index(env_obj)]
         grid_world._register_env_object(env_obj)
+
+
+class ManageImg(Action):
+    def __init__(self, duration_in_ticks=1):
+        super().__init__(duration_in_ticks)
+
+    def is_possible(self, grid_world, agent_id, **kwargs):
+        # What kind of check is necessary here?
+        return ManageImgResult(ManageImgResult.RESULT_SUCCESS, True)
+
+    def mutate(self, grid_world, agent_id, **kwargs):
+        return
+
+
+class ManageImgResult(ActionResult):
+    """ Result when falling succeeded. """
+    RESULT_SUCCESS = 'Idling action successful'
+
+    """ Result when the emptied space was not actually empty. """
+    RESULT_FAILED = 'Failed to idle'
+
+    def __init__(self, result, succeeded):
+        super().__init__(result, succeeded)
