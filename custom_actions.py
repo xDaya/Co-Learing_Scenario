@@ -419,7 +419,25 @@ class ManageImg(Action):
         return ManageImgResult(ManageImgResult.RESULT_SUCCESS, True)
 
     def mutate(self, grid_world, agent_id, **kwargs):
-        return
+        reg_ag = grid_world.registered_agents[agent_id]
+
+        if kwargs['health_score'] >= 600:
+            if kwargs['animation'] == True:
+                reg_ag.change_property('img_name', '/images/victim_scream_anim.gif')
+            else:
+                reg_ag.change_property('img_name', '/images/victim_square.png')
+        elif kwargs['health_score'] >= 300:
+            if kwargs['animation'] == True:
+                reg_ag.change_property('img_name', '/images/victim2_scream_anim.gif')
+            else:
+                reg_ag.change_property('img_name', '/images/victim2.png')
+        else:
+            if kwargs['animation'] == True:
+                reg_ag.change_property('img_name', '/images/victim3_scream_anim.gif')
+            else:
+                reg_ag.change_property('img_name', '/images/victim3.png')
+
+        return ManageImgResult(ManageImgResult.RESULT_SUCCESS, True)
 
 
 class ManageImgResult(ActionResult):

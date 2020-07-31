@@ -76,7 +76,7 @@ def create_builder():
         #'r': RemoveObject.__name__,
         #'l': GrabLargeObject.__name__,
         #'m': DropLargeObject.__name__,
-        #'b': BreakObject.__name__
+        'b': BreakObject.__name__
     }
 
     # Add the selector agent that allows humans to interact

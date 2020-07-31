@@ -589,13 +589,16 @@ class RewardGod(AgentBrain):
 class VictimAgent(AgentBrain):
     def __init__(self):
         super().__init__()
-        self.health_score = 1000
+        self.health_score = 0
         self.previous_objs = []
         self.previous_locs = []
+        self.animation_timer = 0
+        self.animation = False
 
     def initialize(self):
         self.state_tracker = StateTracker(agent_id=self.agent_id)
-        self.health_score = 1000
+        self.health_score = 800
+        self.animation_timer = 30
 
     def victim_crash(self, state, object_ids):
         hits = 0
@@ -630,4 +633,23 @@ class VictimAgent(AgentBrain):
         # Remove all (human)agents
         object_ids = [obj_id for obj_id in object_ids if "AgentBrain" not in state[obj_id]['class_inheritance'] and
                       "AgentBody" not in state[obj_id]['class_inheritance']]
+
+        crash_score = self.victim_crash(state, object_ids)
+
+        if crash_score > 0:
+            self.animation = True
+            self.health_score = self.health_score - crash_score
+            print(self.health_score)
+
+        if self.animation == True:
+            if self.animation_timer > 0:
+                self.animation_timer = self.animation_timer - 1
+            else:
+                self.animation = False
+                self.animation_timer = 30
+
+        action = ManageImg.__name__
+        action_kwargs['animation'] = self.animation
+        action_kwargs['health_score'] = self.health_score
+
         return action, action_kwargs
