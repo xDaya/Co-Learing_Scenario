@@ -3,6 +3,8 @@ from custom_actions import *
 from matrx.messages.message import Message
 from matrx.agents.agent_utils.navigator import Navigator
 from matrx.agents.agent_utils.state_tracker import StateTracker
+import csv
+import pickle
 
 
 class RobotPartner(AgentBrain):
@@ -21,6 +23,12 @@ class RobotPartner(AgentBrain):
         self.previous_action = None
         self.previous_exec = None
         self.previous_phase = None
+        self.final_update = False
+        self.alpha = 0.5
+        self.run_number = 0
+
+        #with open('qtable_backup.pkl', 'rb') as f:
+        #    self.q_table = pickle.load(f)
 
     def initialize(self):
         self.state_tracker = StateTracker(agent_id=self.agent_id)
@@ -30,6 +38,11 @@ class RobotPartner(AgentBrain):
         self.actionlist = [[], []]      # Array that stores which actual actions must be executed (and their arguments)
         self.action_history = []  # Array that stores actions that have been taken in a certain state
         self.previous_phase = None
+        self.final_update = False
+        self.run_number = self.run_number +1
+        if self.run_number > 3:
+            self.alpha = self.alpha / 2
+        self.received_messages = []
         self.wait_action()
         self.wait_action()
         self.wait_action()
@@ -188,14 +201,13 @@ class RobotPartner(AgentBrain):
         return filtered_state
 
     def update_q_table(self, current_state, chosen_action, done_action, done_state, reward):
-        gamma = 0.8
-        alpha = 0.5
+        gamma = 0.6
         # Update the expected reward for a specific state-action pair
         if frozenset(current_state.items()) in self.q_table:
             # State already exists in q-table, so we update
             max_q = self.q_table[frozenset(current_state.items())][chosen_action]
             #print(max_q)
-            self.q_table[frozenset(done_state.items())][done_action] = self.q_table[frozenset(done_state.items())][done_action] + alpha * (reward + gamma * max_q - self.q_table[frozenset(done_state.items())][done_action])
+            self.q_table[frozenset(done_state.items())][done_action] = self.q_table[frozenset(done_state.items())][done_action] + self.alpha * (reward + gamma * max_q - self.q_table[frozenset(done_state.items())][done_action])
         else:
             # State does not exist in q-table, so we create a new entry with all zero's
             self.q_table[frozenset(current_state.items())] = [0] * 3
@@ -203,6 +215,15 @@ class RobotPartner(AgentBrain):
             Max_Q = self.q_table[frozenset(current_state.items())][chosen_action]
             self.q_table[frozenset(current_state.items())][chosen_action] = reward + gamma * Max_Q
         self.agent_properties["q_table"] = str(self.q_table)
+
+        with open('qtable_backup.csv', 'w', newline='') as f:
+            w = csv.writer(f, delimiter=';')
+            for key in self.q_table.keys():
+                w.writerow((list(key),self.q_table[key]))
+
+        with open('qtable_backup.pkl', 'wb') as f:
+            pickle.dump(self.q_table, f, pickle.HIGHEST_PROTOCOL)
+
         return
 
     def pickup_action(self, object_ids, state):
@@ -252,9 +273,10 @@ class RobotPartner(AgentBrain):
             if "large" in state[object_id]:
                 y_loc_list.append(state[object_id]['location'][1])
                 large_obj.append(object_id)
-                dist = int(np.ceil(np.linalg.norm(np.array(state[object_id]['location'])
-                                                  - np.array(state[self.agent_id]['location']))))
-                dist_list.append(dist)
+                if location is not None:
+                    dist = int(np.ceil(np.linalg.norm(np.array(state[object_id]['location'])
+                                                  - np.array(location))))
+                    dist_list.append(dist)
             if "bound_to" in state[object_id]:
                 parts_list.append(object_id)
 
@@ -391,32 +413,45 @@ class RobotPartner(AgentBrain):
             obj = []
             y_loc_list = []
             for object_id in object_ids:
+                # If object is outside of field, skip
                 if state[object_id]['location'][0] >= 15 or state[object_id]['location'][0] < 5:
                     continue
+                # If agent is already carrying something and the object is large, skip
                 if len(state[self.agent_id]['is_carrying']) > 0 and "large" in state[object_id]:
                     continue
+                # If agent is already carrying something and the object is bound_to (thus large), skip
                 if len(state[self.agent_id]['is_carrying']) > 0 and "bound_to" in state[object_id]:
-                    continue
+                    # Added check to make sure bound_to = None objects are not skipped
+                    if state[object_id]["bound_to"] is not None:
+                        continue
+                # If object is brown, skip
                 if 'brown' in state[object_id]['name']:
                     continue
 
                 y_loc_list.append(state[object_id]['location'][1])
                 obj.append(object_id)
 
+            # If there are no objects left
             if len(obj) < 1:
+                # And the agnet is carrying something
                 if len(state[self.agent_id]['is_carrying']) > 0:
                     self.drop_action(state, None)
                     self.previous_exec = "drop"
                 else:
                     self.wait_action()
+            # If there are objects left
             else:
                 chosen_object = obj[y_loc_list.index(min(y_loc_list))]  # Pick object with smallest y
                 if "large" in state[chosen_object]:
                     self.pickup_large_action(object_ids, state, None)
                     self.previous_exec = "pickup"
                 elif "bound_to" in state[chosen_object]:
-                    self.pickup_large_action(object_ids, state, None)
-                    self.previous_exec = "pickup"
+                    if state[chosen_object]['bound_to'] is not None:
+                        self.pickup_large_action(object_ids, state, None)
+                        self.previous_exec = "pickup"
+                    else:
+                        self.pickup_action(object_ids, state)
+                        self.previous_exec = "pickup"
                 else:
                     self.pickup_action(object_ids, state)
                     self.previous_exec = "pickup"
@@ -449,10 +484,12 @@ class RobotPartner(AgentBrain):
             self.human_location.append(0)
 
         # If the human lingers
-        if self.human_location[1] >= 4:
+        if self.human_location[1] >= 3:
             # Check if the human is in an empty spot or on a large block
             # Create list with object locations first
             for object_id in object_ids:
+                if "GoalReachedObject" in state[object_id]['class_inheritance']:
+                    continue
                 object_loc = state[object_id]['location']
                 object_locs.append(object_loc)
             # Then check if the human's location is in the object locations list
@@ -464,8 +501,11 @@ class RobotPartner(AgentBrain):
                     self.pickup_large_action(object_ids, state, None)
             else:
                 # Apparently the human lingers around blocks, so we need to decide which block that is and pick it up (if it is a large block?)
-                self.pickup_large_action(object_ids, state, self.human_location[0])
-                pass
+                # But first check if the agent is still carrying something, and drop that
+                if len(state[self.agent_id]['is_carrying']) > 0:
+                    self.drop_action(state, None)
+                else:
+                    self.pickup_large_action(object_ids, state, self.human_location[0])
         else:
             # If the human is moving around, wait for them to act
             self.wait_action()
@@ -493,8 +533,9 @@ class RobotPartner(AgentBrain):
             self.human_location.append(0)
 
         # When human lingers/stands still, break rocks around them
-        if self.human_location[1] >= 4:
+        if self.human_location[1] >= 3:
             self.break_action(object_ids, state, self.human_location[0])
+            self.human_location[1] = 0
         else:
             # If they move, follow the human (add a condition here)
             self.navigator.add_waypoint(human_loc)
@@ -520,10 +561,25 @@ class RobotPartner(AgentBrain):
 
         object_ids = [obj_id for obj_id in object_ids if "obstruction" not in state[obj_id]]
 
+        if state[self.agent_id]['is_carrying']:
+            self.agent_properties["img_name"] = "/images/selector_holding2.png"
+        else:
+            self.agent_properties["img_name"] = "/images/selector2.png"
+
         # Get reward from the messages
         last_message = None
         if self.received_messages:
-            last_message = float(self.received_messages[-1])
+            if self.received_messages[-1] == 'FAIL' and not self.final_update:
+                print("FINAL Q UPDATE")
+                last_message = float(self.received_messages[-2])
+                done_action = self.action_history[-1][1]
+                done_state = self.action_history[-1][0]
+                print(self.q_table)
+                self.update_q_table(done_state, done_action, done_action, done_state, last_message)
+                print(self.q_table)
+                self.final_update = True
+            elif not self.final_update:
+                last_message = float(self.received_messages[-1])
 
 
         if self.actionlist[0]:

@@ -45,7 +45,7 @@ for y_loc in range(upper_bound, lower_bound):
 
 def create_builder():
     factory = WorldBuilder(shape=[20, 12], run_matrx_visualizer=True, visualization_bg_clr="#ffffff",
-                           visualization_bg_img='/images/background.png', tick_duration=0.05, simulation_goal=USAR_Goal())
+                           visualization_bg_img='/images/background.png', tick_duration=0.005, simulation_goal=USAR_Goal())
 
     # Add loggers
     current_exp_folder = datetime.now().strftime("exp_at_time_%Hh-%Mm-%Ss_date_%dd-%mm-%Yy")
@@ -76,12 +76,12 @@ def create_builder():
         #'r': RemoveObject.__name__,
         #'l': GrabLargeObject.__name__,
         #'m': DropLargeObject.__name__,
-        'b': BreakObject.__name__
+        #'b': BreakObject.__name__
     }
 
     # Add the selector agent that allows humans to interact
     factory.add_human_agent([3, 4], human_agent, name="Human Selector", key_action_map=key_action_map,
-                            visualize_shape='img', img_name="/images/selector.png", visualize_size=1, is_traversable=True)
+                            visualize_shape='img', img_name="/images/selector.png", visualize_size=1, is_traversable=True, customizable_properties=["img_name"])
 
     # Add agents that are static and mostly just show the image of the 'actual' agent
     factory.add_human_agent([1, 7], human_img, name="Human", visualize_shape='img',
@@ -95,13 +95,13 @@ def create_builder():
     factory.add_agent((0, 0), gravity_god, name="GravityGod", visualize_shape='img', img_name="/images/transparent.png", is_traversable=True)
 
     # Add Reward by adding the RewardGod agent
-    factory.add_agent((0,0), reward_god, name="RewardGod", visualize_shape='img', img_name="/images/transparent.png", is_traversable=True)
+    factory.add_agent((0,0), reward_god, name="RewardGod", visualize_shape='img', img_name="/images/transparent.png", is_traversable=True, goal_reached=False, customizable_properties=["goal_reached"])
 
     # factory.add_agent([0,2], autonomous_agent, name="Robot", visualize_shape='img',
     #                   img_name="/images/machine_square.png", visualize_size=2)
 
     # Add the actual Robot Partner
-    factory.add_agent((4,4), robot_partner, name="Robot Selector", visualize_shape='img', img_name="/images/selector2.png", visualize_size=1, is_traversable=True, q_table=None, customizable_properties=["q_table"])
+    factory.add_agent((4,4), robot_partner, name="Robot Selector", visualize_shape='img', img_name="/images/selector2.png", visualize_size=1, is_traversable=True, q_table=None, customizable_properties=["q_table", "img_name"])
 
     #generate_rubble_pile(name="test_pile", locations=rubble_locations, world=factory)
 
@@ -113,6 +113,8 @@ def create_builder():
     #lvl_building_bridges(factory)      # Third scenario
 
     #lvl_looming_spike(factory)         # Second scenario
+
+    factory.add_object([2,0], name="goal_reached_img", img_name="/images/transparent.png", callable_class=GoalReachedObject, is_traversable=True, visualize_depth=300)
 
     return factory
 

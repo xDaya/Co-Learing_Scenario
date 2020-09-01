@@ -24,12 +24,14 @@ class BreakObject(Action):
         # Additional check
         assert 'object_id' in kwargs.keys()
         assert 'grab_range' in kwargs.keys()
+        succeeded = None
 
         object_ids = kwargs['object_id']     # So this is the list with large object and parts that is in range
 
         # Remove first item from the list and environment, which is the large object itself
-        succeeded = grid_world.remove_from_grid(object_ids[0])
-        object_ids.pop(0)
+        if len(object_ids) > 0:
+            succeeded = grid_world.remove_from_grid(object_ids[0])
+            object_ids.pop(0)
 
         # For loop that loops through list of parts to change
         for object_id in object_ids:
@@ -70,6 +72,8 @@ class BreakObjectResult(ActionResult):
 
     """ Result when the specified object is not movable. """
     RESULT_OBJECT_UNMOVABLE = 'Object is not movable'
+
+    FAILED_TO_REMOVE_OBJECT_FROM_WORLD = 'Failed to remove object'
 
     def __init__(self, result, succeeded):
         super().__init__(result, succeeded)
@@ -441,6 +445,38 @@ class ManageImg(Action):
 
 
 class ManageImgResult(ActionResult):
+    """ Result when falling succeeded. """
+    RESULT_SUCCESS = 'Idling action successful'
+
+    """ Result when the emptied space was not actually empty. """
+    RESULT_FAILED = 'Failed to idle'
+
+    def __init__(self, result, succeeded):
+        super().__init__(result, succeeded)
+
+
+class GoalReachedImg(Action):
+    def __init__(self, duration_in_ticks=1):
+        super().__init__(duration_in_ticks)
+
+    def is_possible(self, grid_world, agent_id, **kwargs):
+        # What kind of check is necessary here?
+        return GoalReachedImgResult(GoalReachedImgResult.RESULT_SUCCESS, True)
+
+    def mutate(self, grid_world, agent_id, **kwargs):
+        object_id = kwargs['object_id']  # The goal object
+        result = kwargs['result'] # Whether it was a success or not
+
+        env_obj = grid_world.environment_objects[object_id]
+        if result is True:
+            env_obj.change_property("img_name", "/images/goalreached_img.png")
+        else:
+            env_obj.change_property("img_name", "/images/goalnotreached_img.png")
+
+        return GoalReachedImgResult(GoalReachedImgResult.RESULT_SUCCESS, True)
+
+
+class GoalReachedImgResult(ActionResult):
     """ Result when falling succeeded. """
     RESULT_SUCCESS = 'Idling action successful'
 

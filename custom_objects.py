@@ -1,33 +1,6 @@
 from matrx.objects.env_object import EnvObject
 
 
-class FallingObject(EnvObject):
-
-    def __init__(self, location, name="FallingObject"):
-
-        self.location = location
-        current_location = self.location
-
-        # Some code
-
-        super().__init__(location=current_location, name=name, is_traversable=True, is_movable=True, class_callable=FallingObject)
-
-
-    def fall_object(self):
-
-        bottom_y = 19
-
-        if self.location[1] == bottom_y:
-            return
-
-        # Some check on location below current location and whether it is empty
-
-        # If this is the case, come up with new location
-
-        # Update location property
-
-        self.location = self.new_location
-
 class PartLargeObject(EnvObject):
     def __init__(self, location, name="PartLargeObject", img_name="/images/rock.png", bound_to=None, **kwargs):
         """
@@ -57,3 +30,12 @@ class ObstructionObject(EnvObject):
         self.large = large
 
         super().__init__(name=name, location=location, visualize_shape='img', visualize_size=visualize_size, class_callable=ObstructionObject, is_traversable=True, is_movable=False, obstruction=self.obstruction, large=True, **kwargs)
+
+
+class GoalReachedObject(EnvObject):
+    def __init__(self, location, name="GoalReachedObject", img_name="/images/transparent.png", visualize_size=12, **kwargs):
+        super().__init__(name=name, location=location, visualize_shape='img', class_callable=GoalReachedObject, is_traversable=True, **kwargs)
+        self.img_name = img_name
+        self.add_property('img_name', self.img_name)
+        self.visualize_size = visualize_size
+        self.add_property('visualize_size', self.visualize_size)

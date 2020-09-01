@@ -26,6 +26,11 @@ class CustomHumanAgentBrain(HumanAgentBrain):
 
         action_kwargs = {}
 
+        if state[self.agent_id]['is_carrying']:
+            self.agent_properties["img_name"] = "/images/selector_holding.png"
+        else:
+            self.agent_properties["img_name"] = "/images/selector.png"
+
         # if no keys were pressed, do nothing
         if user_input is None or user_input == []:
             return None, {}
@@ -271,7 +276,7 @@ class GravityGod(AgentBrain):
         object_ids.remove(self.agent_id)
         # Remove all (human)agents
         object_ids = [obj_id for obj_id in object_ids if "AgentBrain" not in state[obj_id]['class_inheritance'] and
-                      "AgentBody" not in state[obj_id]['class_inheritance']]
+                      "AgentBody" not in state[obj_id]['class_inheritance'] and "goal_reached" not in state[obj_id]['name']]
 
         object_locs = []
         falling_objs = []
@@ -368,6 +373,8 @@ class RewardGod(AgentBrain):
         self.previous_objs = []
         self.previous_locs = []
         self.hit_penalty = 0
+        self.end_obj = None
+        self.max_time = 2000
 
     def initialize(self):
         self.state_tracker = StateTracker(agent_id=self.agent_id)
@@ -379,6 +386,8 @@ class RewardGod(AgentBrain):
         self.previous_phase = None
         self.counter = 0
         self.hit_penalty = 0
+        self.goal_reached = False
+        self.end_obj = None
 
     def filter_observations_learning(self, state):
         self.state_tracker.update(state)
@@ -487,7 +496,6 @@ class RewardGod(AgentBrain):
             phase3 = True
 
         # Check if phase 4 is reached
-        # TODO:(now checks for empty columns, needs to be adapted for bridge scenarios)
 
         # If all rubble is gone from the victim itself
         if {(8, 9), (8, 10), (9, 9), (9, 10), (10, 9), (10, 10), (11, 9), (11, 10)}.issubset(
@@ -505,7 +513,6 @@ class RewardGod(AgentBrain):
             phase4 = True
 
         # Check if goal phase is reached
-        # TODO:(now checks for empty columns, needs to be adapted for bridge scenarios)
 
         # If all rubble is gone from the victim and there is a free path from the left side
         if {(8, 9), (8, 10), (9, 9), (9, 10), (10, 9), (10, 10), (11, 9), (11, 10), (5, 7), (5, 8), (5, 9), (5, 10),
@@ -517,7 +524,9 @@ class RewardGod(AgentBrain):
             (12, 10), (13, 7), (13, 8), (13, 9), (13, 10), (14, 7), (14, 8), (14, 9), (14, 10)}.issubset(set(empty_rubble_locations)):
             goal_phase = True
 
-        self.goal_reached = goal_phase
+        if goal_phase is True:
+            self.goal_reached = goal_phase
+            self.agent_properties["goal_reached"] = self.goal_reached
 
         filtered_state = {}
         #filtered_state['empty_columns'] = nr_empty_columns
@@ -568,20 +577,44 @@ class RewardGod(AgentBrain):
         object_ids = [obj_id for obj_id in object_ids if "AgentBrain" not in state[obj_id]['class_inheritance'] and
                       "AgentBody" not in state[obj_id]['class_inheritance']]
 
+        if self.end_obj is None:
+            for obj in object_ids:
+                if "goal_reached_img" in obj:
+                    self.end_obj = obj
+
         self.hit_penalty = self.hit_penalty + self.victim_crash(state, object_ids)
 
         if self.previous_phase is None:
             self.counter = self.counter + 1
             self.previous_phase = self.filter_observations_learning(state)
+        # If the current phase is the same as the previous phase:
         elif self.previous_phase == self.filter_observations_learning(state):
+            # If it is taking too long to move to the next phase:
+            if self.counter >= self.max_time:
+                # Send a large negative reward
+                final_reward = final_reward - self.counter - self.hit_penalty
+                self.send_message(Message(content=str(final_reward), from_id=self.agent_id, to_id=None))
+                self.send_message(Message(content="FAIL", from_id=self.agent_id, to_id=None))
+                # Some code to end the round
+                self.goal_reached = True
+                self.agent_properties["goal_reached"] = self.goal_reached
             self.counter = self.counter + 1
             self.previous_phase = self.filter_observations_learning(state)
+        # Else means that there is a new phase, so reward should be processed
         else:
             final_reward = final_reward - self.counter - self.hit_penalty
             self.send_message(Message(content=str(final_reward), from_id=self.agent_id, to_id=None))
             self.counter = 0
             self.hit_penalty = 0
             self.previous_phase = self.filter_observations_learning(state)
+
+        if self.goal_reached is True:
+            action = GoalReachedImg.__name__
+            action_kwargs['object_id'] = self.end_obj
+            if self.counter >= self.max_time:
+                action_kwargs['result'] = False
+            else:
+                action_kwargs['result'] = True
 
         return action, action_kwargs
 
