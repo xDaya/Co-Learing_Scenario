@@ -45,7 +45,7 @@ for y_loc in range(upper_bound, lower_bound):
 
 def create_builder():
     factory = WorldBuilder(shape=[20, 12], run_matrx_visualizer=True, visualization_bg_clr="#ffffff",
-                           visualization_bg_img='/images/background.png', tick_duration=0.005, simulation_goal=USAR_Goal())
+                           visualization_bg_img='/images/background.png', tick_duration=0.05, simulation_goal=USAR_Goal())
 
     # Add loggers
     current_exp_folder = datetime.now().strftime("exp_at_time_%Hh-%Mm-%Ss_date_%dd-%mm-%Yy")
@@ -71,7 +71,7 @@ def create_builder():
         'ArrowRight': MoveEast.__name__,
         'ArrowDown': MoveSouth.__name__,
         'ArrowLeft': MoveWest.__name__,
-        'p': GrabObject.__name__,
+        'b': GrabObject.__name__,
         'n': DropObject.__name__,
         #'r': RemoveObject.__name__,
         #'l': GrabLargeObject.__name__,
@@ -108,7 +108,9 @@ def create_builder():
     #create_brownlong_object(name="test_obstr", location=(16,1), world=factory)
     #create_brownvert_object(name="test_obstr2", location=(16, 3), world=factory)
 
-    lvl_dont_break(factory)            # First scenario
+    lvl_practice(factory)              # Practice scenario
+
+    #lvl_dont_break(factory)            # First scenario
 
     #lvl_building_bridges(factory)      # Third scenario
 
@@ -249,6 +251,43 @@ def generate_rubble_pile(name, locations, world):
 
 
 #--------------------------------------------- Level Configurations ----------------------------------------------------
+def lvl_practice(factory):
+    create_vert_object(name="vert1", location=(7, 7), world=factory)
+
+    create_long_object(name="long1", location=(8, 7), world=factory)
+
+    create_large_object(name="large1", location=(9, 3), world=factory)
+    create_large_object(name="large2", location=(12, 6), world=factory)
+    create_large_object(name="large3", location=(10, 8), world=factory)
+    create_large_object(name="large4", location=(8, 9), world=factory)
+
+    factory.add_object((9, 5), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((10, 5), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((8, 6), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((9, 6), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((10, 6), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((8, 8), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((9, 8), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((12, 8), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((12, 9), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((10, 10), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((11, 10), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((12, 10), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((13, 10), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+
 def lvl_dont_break(factory):
     create_vert_object(name="vert1", location=(7, 2), world=factory)
 
