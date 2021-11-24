@@ -226,6 +226,8 @@ class RobotPartner(AgentBrain):
 
         return
 
+
+# The functions below directly point to actual actions. They are created to ensure the right action arguments
     def pickup_action(self, object_ids, state):
         small_obj = []
         y_loc_list = []
@@ -404,6 +406,7 @@ class RobotPartner(AgentBrain):
         self.actionlist[1].append(pickup_kwargs)
         return
 
+# Policies 1, 2 and 3 are the high level actions
     def policy1(self, object_ids, state):
         # If carrying less than 5 objects: look at the top small and large objects and choose one to pick up
         if self.previous_exec == "drop" and len(state[self.agent_id]['is_carrying']) > 0:
@@ -545,6 +548,7 @@ class RobotPartner(AgentBrain):
                 self.actionlist[1].append({})
         return
 
+# Here is the decide on action as you can see!
     def decide_on_action(self, state):
         action_kwargs = {}
         action = None
@@ -569,6 +573,7 @@ class RobotPartner(AgentBrain):
         # Get reward from the messages
         last_message = None
         if self.received_messages:
+            #print(self.received_messages)
             if self.received_messages[-1] == 'FAIL' and not self.final_update:
                 print("FINAL Q UPDATE")
                 last_message = float(self.received_messages[-2])

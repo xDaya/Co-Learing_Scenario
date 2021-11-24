@@ -686,3 +686,11 @@ class VictimAgent(AgentBrain):
         action_kwargs['health_score'] = self.health_score
 
         return action, action_kwargs
+
+
+class AvatarAgent(AgentBrain):
+    def __init__(self):
+        super().__init__()
+
+    def decide_on_action(self, state):
+        return None, {}

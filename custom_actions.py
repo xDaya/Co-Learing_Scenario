@@ -2,6 +2,7 @@ import numpy as np
 from matrx.actions.action import Action, ActionResult
 from matrx.actions.object_actions import _is_drop_poss, _act_drop, _possible_drop, _find_drop_loc, GrabObject, GrabObjectResult
 import random
+from typedb.client import *
 
 rock_imgs = ['/images/rock1.png', '/images/rock2.png', '/images/rock3.png']
 
@@ -482,6 +483,40 @@ class GoalReachedImgResult(ActionResult):
 
     """ Result when the emptied space was not actually empty. """
     RESULT_FAILED = 'Failed to idle'
+
+    def __init__(self, result, succeeded):
+        super().__init__(result, succeeded)
+
+
+class OntologyWrite(Action):
+    def __init__(self):
+        super().__init__()
+
+    def is_possible(self, grid_world, agent_id, **kwargs):
+        return OntologyWriteResult(OntologyWriteResult.RESULT_SUCCESS, True)
+
+    def mutate(self):
+        with TypeDB.core_client("localhost:1729") as client:
+            with client.session("IP_ontology", SessionType.DATA) as session:
+                ## session is open
+                ## creating a write transaction
+                with session.transaction(TransactionType.WRITE) as write_transaction:
+                    ## write transaction is open
+                    ## write transaction must always be committed (closed)
+                    write_transaction.commit()
+                print("Hello")
+                pass
+            ## session is closed
+        ## client is closed
+        return OntologyWriteResult(OntologyWriteResult.RESULT_SUCCESS, True)
+
+
+class OntologyWriteResult(ActionResult):
+    """ Result when falling succeeded. """
+    RESULT_SUCCESS = 'Successfully written to Knowledge Base'
+
+    """ Result when the emptied space was not actually empty. """
+    RESULT_FAILED = 'Failed to write to Knowledge Base'
 
     def __init__(self, result, succeeded):
         super().__init__(result, succeeded)

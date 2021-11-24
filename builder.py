@@ -44,7 +44,7 @@ for y_loc in range(upper_bound, lower_bound):
 
 
 def create_builder():
-    factory = WorldBuilder(shape=[20, 12], run_matrx_visualizer=True, visualization_bg_clr="#ffffff",
+    factory = WorldBuilder(shape=[20, 12], run_matrx_visualizer=False, visualization_bg_clr="#ffffff",
                            visualization_bg_img='/images/background.png', tick_duration=0.05, simulation_goal=USAR_Goal())
 
     # Add loggers
@@ -60,8 +60,8 @@ def create_builder():
     autonomous_agent = PatrollingAgentBrain(waypoints=[(0, 0), (0, 7)])
     robot_partner = RobotPartner(move_speed=10)
 
-    human_img = HumanAgentBrain()
-    machine_img = HumanAgentBrain()
+    human_img = AvatarAgent()
+    machine_img = AvatarAgent()
     victim_img = VictimAgent()
     gravity_god = GravityGod()
     reward_god = RewardGod()
@@ -84,9 +84,9 @@ def create_builder():
                             visualize_shape='img', img_name="/images/selector.png", visualize_size=1, is_traversable=True, customizable_properties=["img_name"])
 
     # Add agents that are static and mostly just show the image of the 'actual' agent
-    factory.add_human_agent([1, 7], human_img, name="Human", visualize_shape='img',
+    factory.add_agent([1, 7], human_img, name="Human", visualize_shape='img',
                             img_name="/images/human_square.png", visualize_size=4, is_traversable=True)
-    factory.add_human_agent([15, 7], machine_img, name="Machine", visualize_shape='img',
+    factory.add_agent([15, 7], machine_img, name="Machine", visualize_shape='img',
                             img_name="/images/machine_square.png", visualize_size=4, is_traversable=True)
     factory.add_agent([8, 7], victim_img, name="Victim", visualize_shape='img',
                             img_name="/images/victim_square.png", visualize_size=4, is_traversable=True, visualize_depth=0)
@@ -116,7 +116,7 @@ def create_builder():
 
     #lvl_looming_spike(factory)         # Second scenario
 
-    factory.add_object([2,0], name="goal_reached_img", img_name="/images/transparent.png", callable_class=GoalReachedObject, is_traversable=True, visualize_depth=300)
+    factory.add_object([2,0], name="goal_reached_img", img_name="/images/transparent.png", callable_class=GoalReachedObject, visualize_depth=300)
 
     return factory
 
