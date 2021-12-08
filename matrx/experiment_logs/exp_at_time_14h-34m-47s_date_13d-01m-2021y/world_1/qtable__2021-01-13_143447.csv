@@ -1,0 +1,6 @@
+robot selector_59_q-table;world_nr;tick_nr
+;1;99
+;1;199
+;1;299
+;1;399
+{frozenset({('Goal Phase', False), ('Phase 2', False), ('Phase 4', False), ('Phase 3', False)}): [-97.0, 0, 0], frozenset({('Goal Phase', False), ('Phase 4', False), ('Phase 3', False), ('Phase 2', True)}): [0, 0, 0]};1;499

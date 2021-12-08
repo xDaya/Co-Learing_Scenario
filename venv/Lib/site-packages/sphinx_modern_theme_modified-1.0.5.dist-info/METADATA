@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: sphinx-modern-theme-modified
+Version: 1.0.5
+Summary: A modern sphinx theme using Bootstrap
+Home-page: http://github.com/sdpython/sphinx-modern-theme-modified
+Author: Xavier Dupré
+Author-email: xavier.dupre@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Documentation
+Classifier: Topic :: Documentation :: Sphinx
+Classifier: Framework :: Sphinx
+Classifier: Framework :: Sphinx :: Theme
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+
+UNKNOWN
+
+

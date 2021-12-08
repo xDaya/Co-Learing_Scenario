@@ -1,0 +1,15 @@
+robot selector_58_q-table;world_nr;tick_nr
+;1;99
+;1;199
+;1;299
+;1;399
+{frozenset({('Phase 4', False), ('Goal Phase', False), ('Phase 2', False), ('Phase 3', False)}): [-108.5, 0, 0], frozenset({('Goal Phase', False), ('Phase 4', False), ('Phase 3', False), ('Phase 2', True)}): [0, 0, 0]};1;499
+{frozenset({('Phase 4', False), ('Goal Phase', False), ('Phase 2', False), ('Phase 3', False)}): [-108.5, 0, 0], frozenset({('Goal Phase', False), ('Phase 4', False), ('Phase 3', False), ('Phase 2', True)}): [0, 0, 0]};1;599
+{frozenset({('Phase 4', False), ('Goal Phase', False), ('Phase 2', False), ('Phase 3', False)}): [-108.5, 0, 0], frozenset({('Goal Phase', False), ('Phase 4', False), ('Phase 3', False), ('Phase 2', True)}): [0, 0, 0]};1;699
+{frozenset({('Phase 4', False), ('Goal Phase', False), ('Phase 2', False), ('Phase 3', False)}): [-108.5, 0, 0], frozenset({('Goal Phase', False), ('Phase 4', False), ('Phase 3', False), ('Phase 2', True)}): [0, 0, 0]};1;799
+{frozenset({('Phase 4', False), ('Goal Phase', False), ('Phase 2', False), ('Phase 3', False)}): [-108.5, 0, 0], frozenset({('Goal Phase', False), ('Phase 4', False), ('Phase 3', False), ('Phase 2', True)}): [0, 0, 0]};1;899
+{frozenset({('Phase 4', False), ('Goal Phase', False), ('Phase 2', False), ('Phase 3', False)}): [-108.5, 0, 0], frozenset({('Goal Phase', False), ('Phase 4', False), ('Phase 3', False), ('Phase 2', True)}): [0, 0, 0]};1;999
+{frozenset({('Phase 4', False), ('Goal Phase', False), ('Phase 2', False), ('Phase 3', False)}): [-108.5, 0, 0], frozenset({('Goal Phase', False), ('Phase 4', False), ('Phase 3', False), ('Phase 2', True)}): [0, 0, 0]};1;1099
+{frozenset({('Phase 4', False), ('Goal Phase', False), ('Phase 2', False), ('Phase 3', False)}): [-108.5, 0, 0], frozenset({('Goal Phase', False), ('Phase 4', False), ('Phase 3', False), ('Phase 2', True)}): [-161.5, 0, 0], frozenset({('Phase 3', True), ('Goal Phase', False), ('Phase 4', False), ('Phase 2', True)}): [0, 0, 0]};1;1199
+{frozenset({('Phase 4', False), ('Goal Phase', False), ('Phase 2', False), ('Phase 3', False)}): [-108.5, 0, 0], frozenset({('Goal Phase', False), ('Phase 4', False), ('Phase 3', False), ('Phase 2', True)}): [-161.5, 0, 0], frozenset({('Phase 3', True), ('Goal Phase', False), ('Phase 4', False), ('Phase 2', True)}): [0, 0, 0]};1;1299
+{frozenset({('Phase 4', False), ('Goal Phase', False), ('Phase 2', False), ('Phase 3', False)}): [-108.5, 0, 0], frozenset({('Goal Phase', False), ('Phase 4', False), ('Phase 3', False), ('Phase 2', True)}): [-161.5, 0, 0], frozenset({('Phase 3', True), ('Goal Phase', False), ('Phase 4', False), ('Phase 2', True)}): [0, 0, 0]};1;1399

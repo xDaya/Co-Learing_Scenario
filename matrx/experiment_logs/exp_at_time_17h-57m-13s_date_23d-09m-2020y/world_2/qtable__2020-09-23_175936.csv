@@ -1,0 +1,13 @@
+robot selector_117_q-table;world_nr;tick_nr
+;2;99
+;2;199
+;2;299
+;2;399
+;2;499
+;2;599
+{frozenset({('Phase 3', False), ('Phase 2', False), ('Phase 4', False), ('Goal Phase', False)}): [-63.0, -150.0, 0], frozenset({('Phase 3', False), ('Phase 4', False), ('Goal Phase', False), ('Phase 2', True)}): [-134.5, 0, 0], frozenset({('Goal Phase', False), ('Phase 4', False), ('Phase 2', True), ('Phase 3', True)}): [0, 0, 0]};2;699
+{frozenset({('Phase 3', False), ('Phase 2', False), ('Phase 4', False), ('Goal Phase', False)}): [-63.0, -150.0, 0], frozenset({('Phase 3', False), ('Phase 4', False), ('Goal Phase', False), ('Phase 2', True)}): [-134.5, -29.5, 0], frozenset({('Goal Phase', False), ('Phase 4', False), ('Phase 2', True), ('Phase 3', True)}): [0, 0, 0]};2;799
+{frozenset({('Phase 3', False), ('Phase 2', False), ('Phase 4', False), ('Goal Phase', False)}): [-63.0, -150.0, 0], frozenset({('Phase 3', False), ('Phase 4', False), ('Goal Phase', False), ('Phase 2', True)}): [-134.5, -29.5, 0], frozenset({('Goal Phase', False), ('Phase 4', False), ('Phase 2', True), ('Phase 3', True)}): [0, 0, 0]};2;899
+{frozenset({('Phase 3', False), ('Phase 2', False), ('Phase 4', False), ('Goal Phase', False)}): [-63.0, -150.0, 0], frozenset({('Phase 3', False), ('Phase 4', False), ('Goal Phase', False), ('Phase 2', True)}): [-134.5, -29.5, 0], frozenset({('Goal Phase', False), ('Phase 4', False), ('Phase 2', True), ('Phase 3', True)}): [0, 0, 0]};2;999
+{frozenset({('Phase 3', False), ('Phase 2', False), ('Phase 4', False), ('Goal Phase', False)}): [-63.0, -150.0, 0], frozenset({('Phase 3', False), ('Phase 4', False), ('Goal Phase', False), ('Phase 2', True)}): [-134.5, -29.5, 0], frozenset({('Goal Phase', False), ('Phase 4', False), ('Phase 2', True), ('Phase 3', True)}): [0, 0, 0]};2;1099
+{frozenset({('Phase 3', False), ('Phase 2', False), ('Phase 4', False), ('Goal Phase', False)}): [-63.0, -150.0, 0], frozenset({('Phase 3', False), ('Phase 4', False), ('Goal Phase', False), ('Phase 2', True)}): [-134.5, -29.5, 0], frozenset({('Goal Phase', False), ('Phase 4', False), ('Phase 2', True), ('Phase 3', True)}): [0, 0, 0]};2;1199
