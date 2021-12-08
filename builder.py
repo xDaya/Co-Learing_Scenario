@@ -85,11 +85,11 @@ def create_builder():
 
     # Add agents that are static and mostly just show the image of the 'actual' agent
     factory.add_agent([1, 7], human_img, name="Human", visualize_shape='img',
-                            img_name="/images/human_square.png", visualize_size=4, is_traversable=True)
+                            img_name="/images/human_square.png", visualize_size=4, visualize_from_center=False, is_traversable=True)
     factory.add_agent([15, 7], machine_img, name="Machine", visualize_shape='img',
-                            img_name="/images/machine_square.png", visualize_size=4, is_traversable=True)
+                            img_name="/images/machine_square.png", visualize_size=4, visualize_from_center=False, is_traversable=True)
     factory.add_agent([8, 7], victim_img, name="Victim", visualize_shape='img',
-                            img_name="/images/victim_square.png", visualize_size=4, is_traversable=True, visualize_depth=0)
+                            img_name="/images/victim_square.png", visualize_size=4, visualize_from_center=False, is_traversable=True, visualize_depth=0)
 
     # Add Gravity by adding the GravityGod agent
     factory.add_agent((0, 0), gravity_god, name="GravityGod", visualize_shape='img', img_name="/images/transparent.png", is_traversable=True)
