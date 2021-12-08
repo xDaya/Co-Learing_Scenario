@@ -1,0 +1,22 @@
+Metadata-Version: 2.0
+Name: sphinx-modern-theme
+Version: 1.0.5
+Summary: A modern sphinx theme using Bootstrap
+Home-page: http://github.com/mpharrigan/sphinx-modern-theme
+Author: Matthew Harrigan
+Author-email: matthew.harrigan@outlook.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Documentation
+Classifier: Topic :: Documentation :: Sphinx
+Classifier: Framework :: Sphinx
+Classifier: Framework :: Sphinx :: Theme
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+
+UNKNOWN
+
+
