@@ -101,7 +101,7 @@ def create_builder():
     #                   img_name="/images/machine_square.png", visualize_size=2)
 
     # Add the actual Robot Partner
-    factory.add_agent((4,4), robot_partner, name="Robot Selector", visualize_shape='img', img_name="/images/selector2.png", visualize_size=1, is_traversable=True, q_table=None, customizable_properties=["q_table", "img_name"])
+    #factory.add_agent((4,4), robot_partner, name="Robot Selector", visualize_shape='img', img_name="/images/selector2.png", visualize_size=1, is_traversable=True, q_table=None, customizable_properties=["q_table", "img_name"])
 
     #generate_rubble_pile(name="test_pile", locations=rubble_locations, world=factory)
 
