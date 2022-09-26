@@ -17,29 +17,6 @@
     <link rel="stylesheet" href="/static/lib/fontawesome-free-5.12.0-web/css/all.css">
 
     <title>{{ id }} view</title>
-
-    <script>
-        function cpToggle() {
-            console.log("Click cp")
-
-            // start or pause MATRX  
-            let screen_opened = true;  // TODO: check if screen has been opened
-            if (screen_opened) {
-                send_api_message("pause")
-            } else {
-                send_api_message("start")
-            }   
-        }
-
-        function sendOntologyData() {
-
-            // send message to MATRX
-            data = {"content": {"test": "also visible?"}, "sender": "human", "receiver": "agent_smith_1"}
-            console.log("Sending message to matrx:", data);
-            send_matrx_api_post_message(matrx_send_message_url, data);
-        }
-
-    </script>
 </head>
 
 <body>
@@ -58,7 +35,6 @@
             </div>
         </div>
         <div class="col-sm" align="right">
-            <button type="button" class="btn btn-dark" id="cp_button" onclick="cpToggle()" data-toggle="collapse" data-target="#cp" aria-expanded="false" aria-controls="cp"><img src="/fetch_external_media/images/CP_icon.svg"/></button>
             <button type="button" class="btn btn-dark" id="chat_button" onclick="chatToggle()" data-toggle="collapse" data-target="#chat" aria-expanded="false" aria-controls="chat"><i class="fas fa-comments text-light"></i></button>
             <button type="button" class="btn btn-dark" id="draw_button" onclick="drawToggle()"><i class="fas fa-pencil-alt text-light"></i></button>
             <button type="button" class="btn btn-dark" id="erase_button" onclick="eraseToggle()"><i class="fas fa-eraser text-light"></i></button>
@@ -74,19 +50,9 @@
             <div id="grid"></div>
         </div>
 
-        <!-- Collaboration Pattern GUI -->
-        <div class="collapse" id="cp">
-            <div class="container-fluid" style="height: 100%">
-                <object type="text/html" data="../static/CP_GUI.html" style="width:100%; height:100%; margin:1%;"></object>
-
-                <!--<button onclick="sendOntologyData()">Send me!</button>-->
-            </div>
-        </div>
-
-
-
         <!-- Chat -->
         <div class="collapse" id="chat">
+            <object type="text/html" data="../static/CP_GUI.html" style="width:100%; height:100%; margin:1%;"></object>
             <div class="container-fluid">
                 <h5>Chats</h5>
                 <div class="row">
@@ -95,10 +61,10 @@
                         <div id="new_chat_dropdown" class="dropdown-menu"></div>
                     </div>
                     <div class="col-md-9">
-                        <div id="messages">
+                        <!--<div id="messages">
                         </div>
                         <input class="form-control" id="chat_form_input" placeholder="Open a chatroom first..">
-                        <button type="button" id="chat_form_submit" class="btn btn-primary" onclick="send_message(event)" disabled>Send</button>
+                        <button type="button" id="chat_form_submit" class="btn btn-primary" onclick="send_message(event)" disabled>Send</button>-->
                     </div>
                 </div>
             </div>
@@ -112,6 +78,7 @@
         <a class="dropdown-item" href="#">Action 1</a>
         <a class="dropdown-item" href="#">Action 2</a>
     </div>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

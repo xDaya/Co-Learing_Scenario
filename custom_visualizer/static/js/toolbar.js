@@ -435,6 +435,8 @@ function add_message(chatroom_ID, mssg) {
     }
     // show objects as strings by default
     else {
+        // if it is not a string, Emma doesn't want it
+        return 
         mssg_content = JSON.stringify(mssg.content);
     }
 

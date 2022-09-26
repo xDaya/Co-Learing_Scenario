@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergent Interaction Patterns</title>
+    <link rel="stylesheet" href="css/style_CP.css">
+</head>
+
+<body>
+    <div class="container">
+        
+        <div class="drop-targets">
+            <h1>Situation</h1>
+            <h2>The situation when the actions start:</h2>
+            <div class="drop-targets" id="situation_container">
+                <div class="box box_situ" id="situationbox_1"></div>
+                <div class="box box_situ" id="situationbox_2"></div>
+            </div>
+            <div class="add_button" style="max-width:460px">
+              <p id="minus_button_situ" style="float:right">-</p><p id="plus_button_situ" style="float: right">+</p>
+            </div>
+            <h1>What we do</h1>
+            <h2>In this situation, we did this:</h2>
+            <div class="actiontarget_container">
+                <div class="drop-targets" id="whatwedo">
+                    <div class="agent_name" id="ag_1">Human</div>
+                    <div class="box box_action" id="patternbox_1"></div>
+                    <div class="box box_action" id="patternbox_2"></div>
+                    <div class="box box_action" id="patternbox_3"></div>
+                </div>
+                <div class="drop-targets" id="whatwedo_ag2">
+                    <div class="agent_name" id="ag_2">Robot</div>
+                    <div class="box box_action" id="patternbox2_1"></div>
+                    <div class="box box_action" id="patternbox2_2"></div>
+                    <div class="box box_action" id="patternbox2_3"></div>
+                </div>
+                <div class="add_button">
+                        <p id="minus_button" style="float:right">-</p><p id="plus_button" style="float: right">+</p>
+                    </div>
+            </div>
+
+            <h1>Situation</h1>
+            <h2>The situation after the actions:</h2>
+            <div class="drop-targets" id="postsitu_container">
+                <div class="box box_situ" id="postsitubox_1"></div>
+                <div class="box box_situ" id="postsitubox_2"></div>
+            </div>
+            <div class="add_button" style="max-width:460px">
+              <p id="minus_button_postsitu" style="float:right">-</p><p id="plus_button_postsitu" style="float: right">+</p>
+            </div>
+            <div class="add_button">
+                <input id="labelinput" style="float:left; margin-top:30px; margin-left:20px;" value="Label"></input>
+                <button class="sendbutton" id="send_button">Send</button>
+            </div>
+
+          </div>
+
+          
+        <div class="concepts">
+          <div id="concept_fillerbox">
+          <div class="top_concepts">
+            <div class="item location" id="item1" draggable="true">
+              <p>Top of rock pile</p>
+            </div>
+            <div class="item location" id="item2" draggable="true">
+              <p>Above rock pile</p>
+            </div>
+            <div class="item location" id="item3" draggable="true">
+              <p>Bottom of rock pile</p>
+            </div>
+            <div class="item location" id="item4" draggable="true">
+              <button class="leftrightbutton"><i>Left</i></button><p> side of rock pile</p>
+            </div>
+            <div class="item location" id="item5" draggable="true">
+              <button class="leftrightbutton"><i>Left</i></button><p> side of field</p>
+            </div>
+            <div class="item location" id="item6" draggable="true">
+              <p>On top of </p><button class="variablebutton"><i>Object</i></button>
+            </div>
+          </div>
+          <div class="right_concepts">
+            <div class="item object" id="item7" draggable="true">
+              <p>Large rock</p>
+            </div>
+            <div class="item object" id="item8" draggable="true">
+              <p>Small rock</p>
+            </div>
+            <div class="item object" id="item9" draggable="true">
+              <p>Brown rock</p>
+            </div>
+
+            <div class="item actor" id="item10" draggable="true">
+              <p>Robot</p>
+            </div>
+            <div class="item actor" id="item11" draggable="true">
+              <p>Human</p>
+            </div>
+            <div class="item actor" id="item12" draggable="true">
+              <p>Victim</p>
+            </div>
+          </div>
+          <div class="middle_concepts">
+            <div class="item counter" id="item13" draggable="true">
+              <p>All</p>
+            </div>
+            <div class="item counter" id="item14" draggable="true">
+              <p>One</p>
+            </div>
+            <div class="item counter" id="item15" draggable="true">
+              <p>Zero</p>
+            </div>
+          </div>
+          <div class="bottom_concepts">
+            <div class="item task" id="item16" draggable="true">
+              <p>Move to </p><button class="variablebutton"><i>Object</i></button>
+            </div>
+            <div class="item task" id="item17" draggable="true">
+              <p>Move back and forth in </p><div class="invulvakje inv_loc"><i>location</i></div>
+            </div>
+            <div class="item task" id="item18" draggable="true">
+              <p>Stand still in </p><div class="invulvakje inv_loc"><i>location</i></div>
+            </div>
+            <div class="item task" id="item19" draggable="true">
+              <p>Pick up </p><div class="invulvakje"><i>object</i></div><p> in </p><div class="invulvakje inv_loc"><i>location</i></div>
+            </div>
+            <div class="item task" id="item20" draggable="true">
+              <p>Drop </p><div class="invulvakje"><i>object</i></div><p> in </p><div class="invulvakje inv_loc"><i>location</i></div>
+            </div>
+            <div class="item task" id="item21" draggable="true">
+              <p>Break </p><div class="invulvakje"><i>object</i></div><p> in </p><div class="invulvakje inv_loc"><i>location</i></div>
+            </div>
+          </div>
+          </div>
+
+          <div class="saved_patterns" id="saved_box">
+
+          </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="module">
+      import interact from 
+      'https://cdn.interactjs.io/v1.10.11/interactjs/index.js'
+
+      //-------------------------------------------Variables------------------------------------------
+      var nr_boxes = 3;
+
+      var situ_boxes = 2;
+      var post_boxes = 2;
+
+      var nr_drops = 0;
+      var nr_removals = 0;
+
+      var itemcontents;
+      itemcontents = document.getElementById("concept_fillerbox").innerHTML;
+
+      //------------------------- Plus, minus and send buttons--------------------------------------------------------
+
+      document.getElementById("send_button").onclick = function() {storeData()};
+
+      document.getElementById("plus_button").onclick = function() {addBox()};
+      document.getElementById("minus_button").onclick = function() {removeBox()};
+
+      document.getElementById("plus_button_situ").onclick = function() {addPreSituBox()};
+      document.getElementById("minus_button_situ").onclick = function() {removePreSituBox()};
+
+      document.getElementById("plus_button_postsitu").onclick = function() {addPostSituBox()};
+      document.getElementById("minus_button_postsitu").onclick = function() {removePostSituBox()};
+
+      //----------------------------------Plus and minus functions----------------------------------------
+
+      function addBox() {
+        var block_to_insert ;
+        var container_block ;
+
+        var block_to_insert2 ;
+        var container_block2 ;
+
+        nr_boxes = nr_boxes +1;
+
+        block_to_insert = document.createElement('div');
+        block_to_insert.className = 'box box_action';
+        block_to_insert.id = "patternbox_"+nr_boxes;
+
+        block_to_insert2 = document.createElement('div');
+        block_to_insert2.className = 'box box_action';
+        block_to_insert2.id = "patternbox2_"+nr_boxes;
+
+        container_block = document.getElementById('whatwedo');
+        container_block.appendChild(block_to_insert);
+
+        container_block = document.getElementById('whatwedo_ag2');
+        container_block.appendChild(block_to_insert2);
+
+        // Reset items in case some were removed
+        document.getElementById("concept_fillerbox").innerHTML = itemcontents;
+      }
+
+      function addSituBox(name, container, boxes){
+        var block_to_insert ;
+        var container_block ;
+
+        block_to_insert = document.createElement('div');
+        block_to_insert.className = 'box box_situ';
+        block_to_insert.id = name + boxes;
+
+        container_block = document.getElementById(container);
+        container_block.appendChild(block_to_insert);
+      }
+
+      function removeSituBox(name, container, boxes){
+        var block_to_remove;
+
+        block_to_remove = document.getElementById(name + boxes);
+        block_to_remove.parentNode.removeChild(block_to_remove);
+      }
+
+      function addPreSituBox(){
+        situ_boxes = situ_boxes +1;
+        addSituBox("situationbox_", "situation_container", situ_boxes);
+      }
+
+      function removePreSituBox(){
+        removeSituBox("situationbox_", "situation_container", situ_boxes);
+        situ_boxes = situ_boxes -1;
+      }
+
+      function addPostSituBox(){
+        post_boxes = post_boxes +1;
+        addSituBox("postsitubox_", "postsitu_container", post_boxes);
+      }
+
+      function removePostSituBox(){
+        removeSituBox("postsitubox_", "postsitu_container", post_boxes);
+        post_boxes = post_boxes -1;
+      }
+
+      function removeBox() {
+        var block_to_remove;
+        var block_to_remove2;
+
+        block_to_remove = document.getElementById('patternbox_'+nr_boxes);
+        block_to_remove.parentNode.removeChild(block_to_remove);
+
+        block_to_remove2 = document.getElementById('patternbox2_'+nr_boxes);
+        block_to_remove2.parentNode.removeChild(block_to_remove2);
+
+        nr_boxes = nr_boxes -1;
+      }
+
+
+      //--------------------------------------Toggles--------------------------------------------------------
+      document.body.addEventListener("click", leftright_toggle);
+
+      function leftright_toggle(e) {  
+        var theToggle = e.target;
+        console.log(theToggle)
+        if (theToggle.className == "leftrightbutton"){
+          switch(theToggle.innerHTML){
+            case "<i>Left</i>":
+              theToggle.innerHTML = "<i>Right</i>";
+              break;
+            case "<i>Right</i>":
+              theToggle.innerHTML = "<i>Left</i>";
+              break;
+          }
+        }
+        if (theToggle.className == "variablebutton"){
+          switch(theToggle.innerHTML){
+            case "<i>Object</i>":
+              theToggle.innerHTML = "<i>Actor</i>";
+              theToggle.style.backgroundColor = "#EFCEBD";
+              break;
+            case "<i>Actor</i>":
+              theToggle.innerHTML = "<i>Location</i>";
+              theToggle.style.backgroundColor = "#AFA3CF";
+              break;
+            case "<i>Location</i>": 
+              theToggle.innerHTML = "<i>Object</i>";
+              theToggle.style.backgroundColor = "#FFF0B3";
+              break;
+          }
+        }
+        if (theToggle.className == "added_pattern"){
+          var label = theToggle.innerHTML;
+
+          // Change boxes innerhtml to fit clicked thing
+          document.getElementById("situationbox").innerHTML = storedPatterns[label].situation;
+          document.getElementById("whatwedo").innerHTML = storedPatterns[label].actions;
+
+          document.getElementById("labelinput").value = label;
+
+        }        
+      }
+
+
+      //----------------------------------------Storing data---------------------------------------------------------
+      var storedPatterns = {};
+
+      function storeData() {
+        var situationInput;
+        var actionAgent1Input;
+        var actionAgent2Input;
+        var postsituInput;
+        var label;
+        var added_button;
+        var container_block;
+        var data;
+
+        let situationOutput = [];
+        let actionAgent1Output = [];
+        let actionAgent2Output = [];
+        let postsituOutput = [];
+
+        situationInput = document.getElementById("situation_container").innerHTML;
+        actionAgent1Input = document.getElementById("whatwedo").innerHTML;
+        actionAgent2Input = document.getElementById("whatwedo_ag2").innerHTML;
+        postsituInput = document.getElementById("postsitu_container").innerHTML;
+        label = document.getElementById("labelinput").value;
+
+        if (typeof(storedPatterns[label]) == "undefined") {
+          // Add button with label
+          added_button = document.createElement('div');
+          added_button.className = 'added_pattern';
+          added_button.innerHTML = label;
+
+          container_block = document.getElementById('saved_box');
+          container_block.appendChild(added_button);
+        } 
+
+        document.getElementById("labelinput").value = "Label";
+
+        // Store data in JS object (to be converted to JSON later?)
+        storedPatterns[label] = {situation:situationInput, actionA:actionAgent1Input, actionB:actionAgent2Input, postsitu:postsituInput};
+        console.log(storedPatterns);
+
+        // Split html into separate actions for CP
+        for (let i=0; i < nr_boxes; i++){
+          var startlocation = actionAgent1Input.indexOf('patternbox') + 14;
+          var startlocation2 = actionAgent2Input.indexOf('patternbox2') + 15;
+
+          actionAgent1Input = actionAgent1Input.slice(startlocation, actionAgent1Input.length);
+          actionAgent2Input = actionAgent2Input.slice(startlocation2, actionAgent2Input.length);
+
+          if (actionAgent1Input.indexOf('patternbox') > 0) {
+            actionAgent1Output[i] = actionAgent1Input.slice(0,actionAgent1Input.indexOf('patternbox')-40);
+            actionAgent2Output[i] = actionAgent2Input.slice(0,actionAgent2Input.indexOf('patternbox2')-40);
+          }
+          else {
+            actionAgent1Output[i] = actionAgent1Input.slice(0,actionAgent1Input.length-6);
+            actionAgent2Output[i] = actionAgent2Input.slice(0,actionAgent2Input.length-6);
+          }
+        }
+
+        for (let i=0; i < situ_boxes; i++) {
+            var startlocation = situationInput.indexOf('situationbox') + 16;
+
+            situationInput = situationInput.slice(startlocation, situationInput.length);
+
+            if (situationInput.indexOf('situationbox') > 0) {
+                situationOutput[i] = situationInput.slice(0,situationInput.indexOf('situationbox')-40);
+            }
+            else {
+                situationOutput[i] = situationInput.slice(0,situationInput.length-6);
+            }
+        }
+
+        for (let i=0; i < post_boxes; i++) {
+            var startlocation = postsituInput.indexOf('postsitubox') + 16;
+
+            postsituInput = postsituInput.slice(startlocation, postsituInput.length);
+
+            if (postsituInput.indexOf('postsitubox') > 0) {
+                postsituOutput[i] = postsituInput.slice(0,postsituInput.indexOf('postsitubox')-40);
+            }
+            else {
+                postsituOutput[i] = postsituInput.slice(0,postsituInput.length-6);
+            }
+        }
+
+        // Clear html boxes
+        document.getElementById("situation_container").innerHTML = '<div class="box box_situ" id="situationbox_1"></div><div class="box box_situ" id="situationbox_2"></div>';
+        document.getElementById("whatwedo").innerHTML = '<div class="agent_name" id="ag_1">Human</div><div class="box box_action" id="patternbox_1"></div><div class="box box_action" id="patternbox_2"></div><div class="box box_action" id="patternbox_3"></div>';
+        document.getElementById("whatwedo_ag2").innerHTML = '<div class="agent_name" id="ag_1">Robot</div><div class="box box_action" id="patternbox_1"></div><div class="box box_action" id="patternbox_2"></div><div class="box box_action" id="patternbox_3"></div>';
+        document.getElementById("postsitu_container").innerHTML = '<div class="box box_situ" id="postsitubox_1"></div><div class="box box_situ" id="postsitubox_2"></div>'
+
+        //Code that decodes the above into the separate pieces, then stores that somewhere
+        //$.post("save_IP.php",
+        //    {
+        //        name: label,
+        //        situation: situationInput,
+        //        actions: actionInput,
+        //        drops: nr_drops,
+        //        removals: nr_removals,
+        //    })
+
+        // send message to MATRX
+        data = {"content": {"name": label, "situation": situationOutput, "actionA": actionAgent1Output, "actionB":actionAgent2Output, "postsitu":postsituOutput}, "sender": "human_selector", "receiver": "ontologygod"}
+        console.log("Sending message to matrx:", data);
+        send_matrx_api_post_message(matrx_send_message_url, data);
+
+        console.log("Drops " +nr_drops);
+        console.log("Removals " +nr_removals);
+        nr_drops = 0;
+        nr_removals = 0;
+      }
+
+      function readDataFile(file, callback) {
+        var rawFile = new XMLHttpRequest();
+        rawFile.overrideMimeType("application/json");
+        rawFile.open("GET", file, true);
+        rawFile.onreadystatechange = function() {
+          if (rawFile.readyState === 4 && rawFile.status == "200") {
+            callback(rawFile.responseText);
+          }
+        }
+        rawFile.send(null);
+      }
+
+      readDataFile("patterns.json", function(text){
+        var data = JSON.parse(text);
+        console.log(data);
+      })
+
+      //---------------------------------------Drag and drop stuff-----------------------------------------------
+
+      interact('.box').dropzone({
+        overlap: 0.75,
+
+        ondragenter: function (event) {
+          var draggableElement = event.relatedTarget
+          var dropzoneElement = event.target
+
+          // feedback the possibility of a drop
+          dropzoneElement.classList.add('drop-target');
+          draggableElement.setAttribute('in_dropzone', 'true');
+        },
+        ondragleave: function (event) {
+          var draggableElement = event.relatedTarget
+          var dropzoneElement = event.target
+
+          event.target.classList.remove('drop-target');
+          draggableElement.setAttribute('in_dropzone', 'false');
+          //and add something here about the object no longer being in the block (feedback as well as saving)
+        },
+        ondrop: function (event) {
+          var draggableElement = event.relatedTarget
+          var dropzoneElement = event.target
+
+          var block_to_insert = document.createElement('div');
+          block_to_insert.className = draggableElement.className;
+          block_to_insert.innerHTML = draggableElement.innerHTML;
+          block_to_insert.setAttribute('clonable','false');
+          dropzoneElement.appendChild(block_to_insert);
+          nr_drops = nr_drops +1;
+          //add code that saves that this object has been dropped in this block and that snaps it to position?
+        },
+        ondropdeactivate: function (event) {
+          event.target.classList.remove('drop-target');
+        }
+      })
+      
+      interact('.item').draggable({
+        onmove: function (event) {
+          var target = event.target;   
+          var x = (parseFloat(target.getAttribute('data-x')) || 0) + event.dx;
+          var y = (parseFloat(target.getAttribute('data-y')) || 0) + event.dy;
+
+          target.style.webkitTransform =
+          target.style.transform = 'translate(' + x + 'px, ' + y + 'px)';
+
+          target.setAttribute('data-x', x);
+          target.setAttribute('data-y', y);
+        },
+        onend: function(event) {
+            console.log(event);
+            var draggableElement = event.target
+            draggableElement.parentNode.removeChild(draggableElement);         
+        }
+      }).on('move', function (event) {
+        var interaction = event.interaction;
+        if (interaction.pointerIsDown && !interaction.interacting() && event.currentTarget.getAttribute('clonable') != 'false') {
+          var original = event.currentTarget;
+          var clone = event.currentTarget.cloneNode(true);
+          var x = clone.offsetLeft;
+          var y = clone.offsetTop;
+          clone.setAttribute('clonable','false');
+          clone.style.position = "absolute";
+          clone.style.left = original.offsetLeft+"px";
+          clone.style.top = original.offsetTop+"px";
+          original.parentElement.appendChild(clone);
+          interaction.start({ name: 'drag' },event.interactable,clone);
+        }
+        if (interaction.pointerIsDown && !interaction.interacting() && event.currentTarget.getAttribute('clonable') == 'false') {
+          nr_removals = nr_removals +1;
+        }
+      });
+      </script>
+
+<script src="/static/js/toolbar.js"></script>
+
+</body>
+
+</html>

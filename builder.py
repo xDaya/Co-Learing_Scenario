@@ -14,6 +14,7 @@ from USAR_Goal import USAR_Goal
 from custom_objects import *
 from custom_agents import *
 from robot_partner import *
+from ontology_god import *
 from custom_actions import *
 import random
 import os
@@ -65,6 +66,7 @@ def create_builder():
     victim_img = VictimAgent()
     gravity_god = GravityGod()
     reward_god = RewardGod()
+    ontology_god = OntologyGod()
 
     key_action_map = {
         'ArrowUp': MoveNorth.__name__,
@@ -97,24 +99,27 @@ def create_builder():
     # Add Reward by adding the RewardGod agent
     factory.add_agent((0,0), reward_god, name="RewardGod", visualize_shape='img', img_name="/images/transparent.png", is_traversable=True, goal_reached=False, customizable_properties=["goal_reached"])
 
+    # Add Ontology functions by adding the OntologyGod agent
+    factory.add_agent((0,0), ontology_god, name="OntologyGod", visualize_shape='img', img_name="/images/transparent.png", is_traversable=True)
+
     # factory.add_agent([0,2], autonomous_agent, name="Robot", visualize_shape='img',
     #                   img_name="/images/machine_square.png", visualize_size=2)
 
     # Add the actual Robot Partner
-    #factory.add_agent((4,4), robot_partner, name="Robot Selector", visualize_shape='img', img_name="/images/selector2.png", visualize_size=1, is_traversable=True, q_table=None, customizable_properties=["q_table", "img_name"])
+    factory.add_agent((4,4), robot_partner, name="Robot Selector", visualize_shape='img', img_name="/images/selector2.png", visualize_size=1, is_traversable=True, q_table=None, customizable_properties=["q_table", "img_name"])
 
     #generate_rubble_pile(name="test_pile", locations=rubble_locations, world=factory)
 
     #create_brownlong_object(name="test_obstr", location=(16,1), world=factory)
     #create_brownvert_object(name="test_obstr2", location=(16, 3), world=factory)
 
-    lvl_practice(factory)              # Practice scenario
+    #lvl_practice(factory)              # Practice scenario
 
     #lvl_dont_break(factory)            # First scenario
 
     #lvl_building_bridges(factory)      # Third scenario
 
-    #lvl_looming_spike(factory)         # Second scenario
+    lvl_looming_spike(factory)         # Second scenario
 
     factory.add_object([2,0], name="goal_reached_img", img_name="/images/transparent.png", callable_class=GoalReachedObject, visualize_depth=300)
 
