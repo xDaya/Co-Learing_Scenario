@@ -19,8 +19,25 @@ class OntologyGod(AgentBrain):
 
         self.query_batch = [] # The list of queries
 
+        self.cp_list = [] # Maintain a list of CP names that were previously instantiated
+
     def initialize(self):
         self.state_tracker = StateTracker(agent_id=self.agent_id)
+
+        # At initialization, check if there are new CPs that weren't yet shown in the GUI. Retrieve them and store
+        with TypeDB.core_client("localhost:1729") as client:
+            with client.session("CP_ontology", SessionType.DATA) as session:
+                # Session is opened, now specify that it's a read session
+                with session.transaction(TransactionType.READ) as read_transaction:
+                    answer_iterator = read_transaction.query().match(
+                        "match $x isa collaboration_pattern, has name $name; get $name;")
+
+                    for answer in answer_iterator:
+                        cp_retrieved = answer.get('name')._value
+                        if cp_retrieved not in self.cp_list:
+                            self.cp_list.append(cp_retrieved)
+
+        print('Initialized')
 
     def filter_observations(self, state):
         self.state_tracker.update(state)
@@ -62,7 +79,18 @@ class OntologyGod(AgentBrain):
     def first_tick(self, state):
         # Code that runs only during the first tick
 
-        # Record the initial context: translate state to data entry in ontology
+        # At the first tick, check if there are new CPs that weren't yet shown in the GUI. Retrieve them and store
+        with TypeDB.core_client("localhost:1729") as client:
+            with client.session("CP_ontology", SessionType.DATA) as session:
+                # Session is opened, now specify that it's a read session
+                with session.transaction(TransactionType.READ) as read_transaction:
+                    answer_iterator = read_transaction.query().match(
+                        "match $x isa collaboration_pattern, has name $name; get $name;")
+
+                    for answer in answer_iterator:
+                        cp_retrieved = answer.get('name')._value
+                        if cp_retrieved not in self.cp_list:
+                            self.cp_list.append(cp_retrieved)
 
         return
 
@@ -76,15 +104,18 @@ class OntologyGod(AgentBrain):
         cp_actionsB = None
         cp_postsitu = None
 
-        #self.human = self.state.get_agents_with_property({"obj_id": "rescue_worker"})[0]
-
-        #print("FULL STATE")
-        #print(state.keys())
-
+        # If there are messages, deal with them, and send to TypeDB
         if self.received_messages:
             cp_name, cp_situation, cp_actionsA, cp_actionsB, cp_postsitu = self.message_handling()
 
-            self.send_cp_data(cp_name, cp_situation, cp_actionsA, cp_actionsB, cp_postsitu)
+            if cp_name in self.cp_list:
+                # This means that it is an existing CP that gets sent, move to edit functions
+                print('Existing CP name...')
+                self.edit_cp_data(cp_name, cp_situation, cp_actionsA, cp_actionsB, cp_postsitu)
+            else:
+                # If we end up here, the CP name is new, so we should create a new entry
+                self.send_cp_data(cp_name, cp_situation, cp_actionsA, cp_actionsB, cp_postsitu)
+                self.cp_list.append(cp_name)
 
         return action, action_kwargs
 
@@ -230,7 +261,7 @@ class OntologyGod(AgentBrain):
         for condition in situation:
             # Add all of the important info together in one query that can be appended to the batch
             if len(condition) > 0:
-                self.condition_translation(condition, name, "start")
+                self.condition_translation(condition, name, "start", situation.index(condition))
 
         # ------------------------Action A seqs-------------------------------------------------------------
         # Dealing with action sequences of agent A (human)
@@ -250,7 +281,7 @@ class OntologyGod(AgentBrain):
         for condition in postsitu:
             # Add all of the important info together in one query that can be appended to the batch
             if len(condition) > 0:
-                self.condition_translation(condition, name, "end")
+                self.condition_translation(condition, name, "end", postsitu.index(condition))
 
         with TypeDB.core_client("localhost:1729") as client:
             with client.session("CP_ontology", SessionType.DATA) as session:
@@ -259,7 +290,11 @@ class OntologyGod(AgentBrain):
 
         return
 
-    def condition_translation(self, condition, name, pre_post):
+    def edit_cp_data(self, name, situation, action_a, action_b, postsitu):
+        # Write code for editing CP
+        return
+
+    def condition_translation(self, condition, name, pre_post, index):
         # Check if we're talking about a start- or a postcondition
         pre_post_cond = None
         if pre_post == 'start':
@@ -267,12 +302,15 @@ class OntologyGod(AgentBrain):
         elif pre_post == 'end':
             pre_post_cond = 'endcondition'
 
-        # Create the condition instance
-        condition_instantiation = f'''insert $condition isa condition, has condition_type '{pre_post_cond}'; '''
-
         # Create unique context id
         ts = datetime.timestamp(datetime.now())  # for timestamp
-        context_id = 'context_'+str(ts)
+        context_id = 'context_' + pre_post + '_' + str(index) + '_' + str(ts)
+
+        # Create unique condition id
+        condition_id = 'condition_' + pre_post + '_' + str(index) + '_' + str(ts)
+
+        # Create the condition instance
+        condition_instantiation = f'''insert $condition isa condition, has condition_type '{pre_post_cond}', has condition_id '{condition_id}'; '''
 
         # Create a context instance
         condition_instantiation = condition_instantiation + f'''$context isa context, has context_id '{context_id}'; '''
@@ -308,8 +346,10 @@ class OntologyGod(AgentBrain):
 
             if 'human' in condition['actor']:
                 actor_type = 'human'
-            elif 'robot' in condition['robot']:
+            elif 'robot' in condition['actor']:
                 actor_type = 'robot'
+            elif 'Victim' in condition['actor']:
+                actor_type = 'victim'
 
             condition_instantiation = f'''match $actor isa actor, has actor_type '{actor_type}';
                                     $context isa context, has context_id '{context_id}'; '''
@@ -359,8 +399,10 @@ class OntologyGod(AgentBrain):
 
                 if 'human' in condition['actor']:
                     actor_type = 'human'
-                elif 'robot' in condition['robot']:
+                elif 'robot' in condition['actor']:
                     actor_type = 'robot'
+                elif 'victim' in condition['actor']:
+                    actor_type = 'victim'
 
                 condition_instantiation = f'''match $actor isa actor, has actor_type '{actor_type}';
                                                                     $location isa location, has range '{condition['location']}'; '''
@@ -373,7 +415,7 @@ class OntologyGod(AgentBrain):
 
         # Connect condition to CP via existing starts when relation
         if pre_post_cond == 'startcondition':
-            condition_instantiation = f'''match $condition isa condition, has condition_type '{pre_post_cond}';
+            condition_instantiation = f'''match $condition isa condition, has condition_id '{condition_id}';
                                     $cp isa collaboration_pattern, has name '{name}';
                                     insert $start (condition: $condition, cp: $cp) isa starts_when;'''
 
@@ -381,7 +423,7 @@ class OntologyGod(AgentBrain):
             self.query_batch.append(condition_instantiation)
             condition_instantiation = None
 
-            condition_instantiation = f'''match $condition isa condition, has condition_type '{pre_post_cond}';
+            condition_instantiation = f'''match $condition isa condition, has condition_id '{condition_id}';
                                     $context isa context, has context_id '{context_id}';
                                     insert $present_in (condition: $condition, situation: $context) isa is_present_in; '''
 
@@ -391,7 +433,7 @@ class OntologyGod(AgentBrain):
 
 
         elif pre_post_cond == 'endcondition':
-            condition_instantiation = f'''match $condition isa condition, has condition_type '{pre_post_cond}';
+            condition_instantiation = f'''match $condition isa condition, has condition_id '{condition_id}';
                                                 $cp isa collaboration_pattern, has name '{name}';
                                                 insert $start (condition: $condition, cp: $cp) isa ends_when;'''
 
@@ -399,7 +441,7 @@ class OntologyGod(AgentBrain):
             self.query_batch.append(condition_instantiation)
             condition_instantiation = None
 
-            condition_instantiation = f'''match $condition isa condition, has condition_type '{pre_post_cond}';
+            condition_instantiation = f'''match $condition isa condition, has condition_id '{condition_id}';
                                                 $context isa context, has context_id '{context_id}';
                                                 insert $present_in (condition: $condition, situation: $context) isa is_present_in; '''
 
@@ -417,7 +459,7 @@ class OntologyGod(AgentBrain):
         if 'task' in single_action.keys():
             # Create unique task id
             ts = datetime.timestamp(datetime.now())  # for timestamp
-            task_id = 'task_' + str(ts)
+            task_id = 'task_' + actor + '_' + str(index) + '_' + str(ts)
 
             # Create instance of the task
             action_instantiation = f'''insert $task isa task, has task_name "{single_action['task']}", has task_id "{task_id}", has order_value "{index}"; '''
