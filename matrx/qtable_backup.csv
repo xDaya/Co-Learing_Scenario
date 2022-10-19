@@ -1,2 +1,2 @@
-[('Goal Phase', False), ('Phase 2', False), ('Phase 4', False), ('Phase 3', False)];[-187.5, 0, 0]
-[('Goal Phase', False), ('Phase 4', False), ('Phase 2', True), ('Phase 3', False)];[0, 0, 0]
+[('Phase 4', False), ('Goal Phase', False), ('Phase 2', False), ('Phase 3', False)];[-209.5, 0, 0]
+[('Phase 4', False), ('Phase 2', True), ('Goal Phase', False), ('Phase 3', False)];[0, 0, 0]

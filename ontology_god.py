@@ -6,6 +6,7 @@ from matrx.agents.agent_utils.state_tracker import StateTracker
 from custom_objects import PartLargeObject
 import csv
 import pickle
+import numpy as np
 from typedb.client import *
 
 
@@ -24,6 +25,8 @@ class OntologyGod(AgentBrain):
     def initialize(self):
         self.state_tracker = StateTracker(agent_id=self.agent_id)
 
+        start_conditions = []
+
         # At initialization, check if there are new CPs that weren't yet shown in the GUI. Retrieve them and store
         with TypeDB.core_client("localhost:1729") as client:
             with client.session("CP_ontology", SessionType.DATA) as session:
@@ -37,7 +40,7 @@ class OntologyGod(AgentBrain):
                         if cp_retrieved not in self.cp_list:
                             self.cp_list.append(cp_retrieved)
 
-        print('Initialized')
+        print('Ontology God Initialized')
 
     def filter_observations(self, state):
         self.state_tracker.update(state)

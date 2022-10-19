@@ -30,6 +30,11 @@ class RobotPartner(AgentBrain):
         #with open('qtable_backup.pkl', 'rb') as f:
         #    self.q_table = pickle.load(f)
 
+        # Ontology related variables
+        self.cp_list = []
+        self.start_conditions = []
+        self.executing_cp = False
+
     def initialize(self):
         self.state_tracker = StateTracker(agent_id=self.agent_id)
 
@@ -43,6 +48,12 @@ class RobotPartner(AgentBrain):
         if self.run_number > 3:
             self.alpha = self.alpha / 2
         self.received_messages = []
+
+        # Initialize existing CP's and their conditions
+        print("Robot Initializing CPs")
+        self.store_cp_conditions()
+
+        # Start with some wait actions
         self.wait_action()
         self.wait_action()
         self.wait_action()
@@ -570,7 +581,9 @@ class RobotPartner(AgentBrain):
         else:
             self.agent_properties["img_name"] = "/images/selector2.png"
 
-        # Get reward from the messages
+        self.check_cp_conditions()
+
+        # ----------------------------Get reward from the messages---------------------------------------------
         last_message = None
         if self.received_messages:
             #print(self.received_messages)
@@ -586,7 +599,43 @@ class RobotPartner(AgentBrain):
             elif not self.final_update:
                 last_message = float(self.received_messages[-1])
 
+        # --------------------------New Main Action Planning Loop--------------------------------------------
+        # TODO Add some code that checks if there are new CPs (or edits). Can come from messages
 
+        # Start by checking if the agent is currently executing a CP
+        if self.executing_cp:
+            print("Agent is executing a CP!")
+            # Check if the endconditions for this CP hold
+            if self.check_cp_endconditions():
+                self.executing_cp = False
+                # If yes, finish and restart loop
+            else:
+                # If no, continue current CP
+                self.execute_cp(self.executing_cp)
+        else:
+            # Not currently executing a CP
+            print("Not working with a CP currently!")
+
+            # Check if the start conditions for any existing CPs hold
+            cps_hold = self.check_cp_conditions()
+            if len(cps_hold) > 0:
+                # This means there are CPs that are applicable. Check how many.
+                if len(cps_hold) == 1:
+                    # Only one CP is applicable, so we can directly start executing it
+                    print("Only one CP holds: " + cps_hold[0])
+                    self.executing_cp = cps_hold[0]
+                    self.execute_cp(self.executing_cp)
+                else:
+                    # Several CPs hold. We need a method to choose between them.
+                    print("Choose the appropriate CP.")
+                    chosen_cp = self.choose_cp_from_list(cps_hold)
+                    self.executing_cp = chosen_cp
+                    self.execute_cp(self.executing_cp)
+            else:
+                # This means that there are no CPs that are applicable to the current situation
+                print("No applicable CPs, do as normal.")
+
+        # ----------------------------Original Action Planning--------------------------------------------
         if self.actionlist[0]:
             # This means that an action is still being executed
             action = self.actionlist[0].pop(0)
@@ -636,3 +685,256 @@ class RobotPartner(AgentBrain):
         print(self.q_table)
 
         return action, action_kwargs
+
+# Functions that deal with the ontology stuff
+    def store_cp_conditions(self):
+        # Store all start conditions of existing CPs in a list; join duplicates, but store which CP they belong to
+        self.cp_list = []
+        self.start_conditions = []
+
+        # Look at the list of CPs
+        with TypeDB.core_client('localhost:1729') as client:
+            with client.session("CP_ontology", SessionType.DATA) as session:
+                with session.transaction(TransactionType.READ) as read_transaction:
+                    answer_iterator = read_transaction.query().match("match $cp isa collaboration_pattern, has name $name; get $name;")
+
+                    for answer in answer_iterator:
+                        cp_retrieved = answer.get('name')._value
+                        if cp_retrieved not in self.cp_list:
+                            self.cp_list.append(cp_retrieved)
+
+                    # For each CP, look up all start and end conditions
+                    for cp in self.cp_list:
+                        condition_list = []
+
+                        # First, find all conditions related to the CP at hand
+                        answer_iterator = read_transaction.query().match(
+                            f'''match $cp isa collaboration_pattern, has name '{cp}'; 
+                            $starts (condition: $condition, cp: $cp) isa starts_when; 
+                            $condition isa condition, has condition_id $id; get $id;''')
+
+                        # Save the conditions in a list
+                        for answer in answer_iterator:
+                            condition_retrieved = answer.get('id')._value
+                            condition_list.append(condition_retrieved)
+
+                        # For each condition, find the accompanying context
+                        for condition in condition_list:
+                            context_list = []
+                            context_athand = None
+                            answer_iterator = read_transaction.query().match(
+                                f'''match $condition isa condition, has condition_id '{condition}'; 
+                                $present (condition: $condition, situation: $context) isa is_present_in; 
+                                $context isa context, has context_id $id; get $id;''')
+
+                            for answer in answer_iterator:
+                                context_retrieved = answer.get('id')._value
+                                context_list.append(context_retrieved)
+
+                            if len(context_list) > 1:
+                                print("More than one context found...")
+                                print(context_list)
+                            else:
+                                context_athand = context_list[0]
+
+                            # Now that we have the context, search for all objects that are contained by this context
+                            items_contained = {}
+                            answer_iterator = read_transaction.query().match(
+                                f'''match $context isa context, has context_id '{context_athand}'; 
+                                $contains (whole: $context, part: $item) isa contains; $item has $attr; 
+                                get $item, $attr;''')
+
+                            for answer in answer_iterator:
+                                # Store the entity concepts and it's attributes
+                                item_retrieved = answer.get('item').as_entity().get_type().get_label().name()
+                                attribute_value = answer.get('attr')._value
+                                attribute_type = answer.get('attr').as_attribute().get_type().get_label().name()
+                                if item_retrieved in items_contained.keys():
+                                    items_contained[item_retrieved][attribute_type] = attribute_value
+                                else:
+                                    items_contained[item_retrieved] = {attribute_type: attribute_value}
+
+                            # Store that as a single condition if it is not yet in the overall condition list
+                            start_conditions_np = np.array(self.start_conditions)
+                            if len(self.start_conditions) > 0 and items_contained in start_conditions_np[:, 0]:
+                                index = np.where(start_conditions_np == items_contained)[0][0]
+                                self.start_conditions[index][1].append(cp)
+                            else:
+                                self.start_conditions.append([items_contained, [cp]])
+
+        print(self.start_conditions)
+        return
+
+    def check_cp_conditions(self):
+        # Check all conditions of existing CPs and store which ones currently hold (how to do this efficiently??)
+        conditions_hold = []
+        cps_hold = []
+
+        # For each condition, check if it holds
+        for condition in self.start_conditions:
+            object = None
+            location = None
+            object_type = None
+
+            relevant_objects = None
+
+            # Store the items in the condition
+            if 'object' in condition[0]:
+                object = condition[0]['object']
+            elif 'resource' in condition[0]:
+                object = condition[0]['resource']
+
+            if 'location' in condition[0]:
+                location = condition[0]['location']
+
+            # Check what type of object we're dealing with, small, large or brown
+            if 'brown' in object['color']:
+                object_type = 'brown'
+                relevant_objects = self.state[{"obstruction": True}]
+            elif 'large' in object['size']:
+                object_type = 'large'
+                relevant_objects = self.state[{'large': True, 'is_movable': True}]
+            elif 'small' in object['size']:
+                object_type = 'small'
+                relevant_objects = self.state[{'name': 'rock1'}]
+
+            # Check where this type of object is located, and whether that is the same as the location in the condition
+            if relevant_objects:
+                # It exists! Translate and check locations
+                if isinstance(relevant_objects, dict):
+                    # There is just one such object, check it's location
+                    if location['range'] in self.translate_location(relevant_objects['obj_id'], object_type):
+                        # It is the same, condition holds!
+                        if condition not in conditions_hold:
+                            conditions_hold.append(condition)
+                elif isinstance(relevant_objects, list):
+                    # It is a list, we'll need to loop through
+                    for object in relevant_objects:
+                        # Translate the location and check whether it is the one in the condition
+                        if location['range'] in self.translate_location(object['obj_id'], object_type):
+                            # It is the same, condition holds! We can break the for loop
+                            if condition not in conditions_hold:
+                                conditions_hold.append(condition)
+                            break
+            else:
+                # There are no such objects, we can stop here
+                print("Condition doesn't hold")
+
+
+        # Then check if there is any CP for which each start condition holds (or if the end condition of the current holds)
+
+        # For each condition that holds
+        for condition in conditions_hold:
+            # Check to which CP this condition is tied
+            bound_cps = condition[1]
+
+            for cp in bound_cps:
+                # Add a check, if the CP at hand is already in the CPs_hold list, we can skip
+                if cp not in cps_hold:
+                    # For each CP, check if there are other conditions for this CP
+                    other_conditions = [i for i, x in enumerate(self.start_conditions) if cp in x[1]]
+
+                    if len(other_conditions) > 1:
+                        # This means there are other conditions. Check if all of them are in the conditions_hold list
+                        all_conditions = True
+                        for index in other_conditions:
+                            if self.start_conditions[index][0] not in np.asarray(conditions_hold)[:,0]:
+                                all_conditions = False
+                        # If all of them are, CP is valid
+                        if all_conditions:
+                            cps_hold.append(cp)
+                    else:
+                        # This means that there are no other conditions. Therefore, this CP holds!
+                        cps_hold.append(cp)
+
+        return cps_hold
+
+    def execute_cp(self, cp):
+        # Retrieve the actions from the CP
+
+        # Store and/or retrieve what position in the CP we're at (which action)
+
+        # Check whether it's time to move to the next action
+
+        # Execute action
+        return
+
+    def check_cp_endconditions(self):
+        return
+
+    def translate_location(self, object_id, object_type):
+        # This function checks in which location ranges an object is located
+
+        object_location = self.state[object_id]['location']
+        object_loc_x = object_location[0]
+        object_loc_y = object_location[1]
+
+        # List that contains all the high level locations an object is in (e.g. left side of pile and top of pile)
+        locations = []
+
+        # Identify how many nr of rows we should look at
+        nr_rows = 1
+        nr_vert_rows = 1
+        if object_type == 'large' or object_type == 'brown':
+            # Determine what kind of large rock it is/what the orientation is; that determines
+            rock_name = object_id
+            if 'vert' in rock_name:
+                nr_rows = 1
+                nr_vert_rows = 4
+            elif 'long' in rock_name:
+                nr_rows = 4
+                nr_vert_rows = 1
+            elif 'large' in rock_name:
+                nr_rows = 2
+                nr_vert_rows = 2
+
+        # Top of rock pile (= no rocks on top of this object)
+        top_check = True
+        for x in range (0, nr_rows):
+            for i in range(0, object_loc_y-1):
+                loc_to_check = [object_loc_x + x, i]
+                objects_found = self.state[{"location": loc_to_check}]
+                if objects_found is not None:
+                    # An object was found, meaning that the area above the rock isn't empty TODO create exception for agents
+                    top_check = False
+
+        if top_check == True:
+            locations.append('Top of rock pile')
+
+        # Bottom of rock pile (= no rocks below this object)
+        bottom_check = True
+        for x in range (0, nr_rows):
+            for i in range(object_loc_y + nr_vert_rows, 11):
+                loc_to_check = [object_loc_x + x, i]
+                objects_found = self.state[{"location": loc_to_check}]
+                if objects_found is not None:
+                    # An object was found, meaning that the area below the rock isn't empty TODO create exception for agents
+                    bottom_check = False
+
+        if bottom_check == True:
+            locations.append('Bottom of rock pile')
+
+
+        # Left/Right side of rock pile (= within the bounds of the pile, left or right half)
+        if object_loc_x >= 5 and object_loc_x <= 9:
+            locations.append('Left side of rock pile')
+        elif object_loc_x >= 10 and object_loc_x <= 15:
+            locations.append('Right side of rock pile')
+        # Left/Right side of field (= outside the bounds of the pile, left or right)
+        elif object_loc_x < 5:
+            locations.append('Left side of field')
+        elif object_loc_x > 15:
+            locations.append('Right side of field')
+
+        # On top of [object/actor/location] (to be implemented later)
+
+        # Above rock pile (not relevant for rocks, only for agents)
+
+        return locations
+
+# Functions that deal with learning
+    def choose_cp_from_list(self, cp_list):
+        # Some algorithm that is able to deal with several CPs that hold, possibly RL
+        chosen_cp = cp_list[0]
+        return chosen_cp
+
