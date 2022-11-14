@@ -35,6 +35,11 @@ class RobotPartner(AgentBrain):
         self.start_conditions = []
         self.executing_cp = False
 
+        self.cp_actions = [] # Keeps track of the actions still left in the CP
+
+        self.current_human_action = None
+        self.current_robot_action = None
+
     def initialize(self):
         self.state_tracker = StateTracker(agent_id=self.agent_id)
 
@@ -54,10 +59,10 @@ class RobotPartner(AgentBrain):
         self.store_cp_conditions()
 
         # Start with some wait actions
-        self.wait_action()
-        self.wait_action()
-        self.wait_action()
-        self.wait_action()
+        #self.wait_action()
+        #self.wait_action()
+        #self.wait_action()
+        #self.wait_action()
 
     def filter_observations(self, state):
         self.state_tracker.update(state)
@@ -243,6 +248,7 @@ class RobotPartner(AgentBrain):
         small_obj = []
         y_loc_list = []
         for object_id in object_ids:
+            object_id = object_id['obj_id']
             if "large" in state[object_id]:
                 continue
             if "bound_to" in state[object_id] and state[object_id]['bound_to'] is not None:
@@ -604,17 +610,72 @@ class RobotPartner(AgentBrain):
 
         # Start by checking if the agent is currently executing a CP
         if self.executing_cp:
-            print("Agent is executing a CP!")
+            #print("Agent is executing a CP!")
             # Check if the endconditions for this CP hold
             if self.check_cp_endconditions():
                 self.executing_cp = False
                 # If yes, finish and restart loop
             else:
                 # If no, continue current CP
-                self.execute_cp(self.executing_cp)
+                # Original Action Planning Code
+                # If an action has already been translated, continue the accompanying atomic actions
+                if len(self.actionlist[0]) != 0 and self.current_robot_action:
+                    # This means that an action is still being executed
+                    action = self.actionlist[0].pop(0)
+                    action_kwargs = self.actionlist[1].pop(0)
+                    action_kwargs['action_duration'] = self.move_speed
+
+                    # If the actionlist ends up empty here, that means we're done executing an action.
+                    # The consequence should be that the self.current_robot_action is reset, and removed from the list
+                    if len(self.actionlist[0]) == 0:
+                        self.cp_actions.remove(self.current_robot_action)
+                        self.current_robot_action = None
+
+                    return action, action_kwargs  # Returned here, so code underneath is then not executed
+                # If no action was translated, look at the CP to see what should be the next action to be translated
+                else:
+                    self.execute_cp(self.executing_cp, state)
+                '''else:
+                    # This means we are done with our previous action, so we update Q-table
+                    current_state = self.filter_observations_learning(state)
+                    #print(current_state)
+                    done_action = 0
+                    done_state = current_state
+                    if self.action_history:
+                        done_action = self.action_history[-1][1]
+                        done_state = self.action_history[-1][0]
+                    if frozenset(current_state.items()) not in self.q_table:
+                        # State does not exist in q-table, so we create a new entry with all zero's
+                        self.q_table[frozenset(current_state.items())] = [0] * 3
+                    # Pick a new action based on the state we're currently in
+                    q_values = self.q_table[frozenset(current_state.items())]
+
+                    if self.previous_phase is None:                                         # If this is the start of the game
+                        self.previous_phase = self.filter_observations_learning(state)
+                        chosen_action = np.argmax(q_values)
+                    elif self.previous_phase == self.filter_observations_learning(state):   # If there is no phase change
+                        chosen_action = self.action_history[-1][1]
+                    else:                                                                   # If the phase changed
+                        print("NEW PHASE")
+                        chosen_action = np.argmax(q_values)
+                        self.update_q_table(current_state, chosen_action, done_action, done_state, last_message)
+                        self.previous_phase = self.filter_observations_learning(state)
+
+                    if chosen_action == 0:
+                        self.policy1(object_ids, state)
+                        print("P1")
+                    elif chosen_action == 1:
+                        self.policy2(object_ids, state)
+                        print("P2")
+                    elif chosen_action == 2:
+                        self.policy3(object_ids, state)
+                        print("P3")
+
+                    # Safe into the action history
+                    self.action_history.append([current_state, chosen_action])'''
         else:
             # Not currently executing a CP
-            print("Not working with a CP currently!")
+            #print("Not working with a CP currently!")
 
             # Check if the start conditions for any existing CPs hold
             cps_hold = self.check_cp_conditions()
@@ -624,65 +685,19 @@ class RobotPartner(AgentBrain):
                     # Only one CP is applicable, so we can directly start executing it
                     print("Only one CP holds: " + cps_hold[0])
                     self.executing_cp = cps_hold[0]
-                    self.execute_cp(self.executing_cp)
+                    self.execute_cp(self.executing_cp, state)
                 else:
                     # Several CPs hold. We need a method to choose between them.
                     print("Choose the appropriate CP.")
                     chosen_cp = self.choose_cp_from_list(cps_hold)
                     self.executing_cp = chosen_cp
-                    self.execute_cp(self.executing_cp)
+                    self.execute_cp(self.executing_cp, state)
             else:
                 # This means that there are no CPs that are applicable to the current situation
                 print("No applicable CPs, do as normal.")
 
-        # ----------------------------Original Action Planning--------------------------------------------
-        if self.actionlist[0]:
-            # This means that an action is still being executed
-            action = self.actionlist[0].pop(0)
-            action_kwargs = self.actionlist[1].pop(0)
-            action_kwargs['action_duration'] = self.move_speed
-            return action, action_kwargs        # Returned here, so code underneath is then not executed
-        else:
-            # This means we are done with our previous action, so we update Q-table
-            current_state = self.filter_observations_learning(state)
-            #print(current_state)
-            done_action = 0
-            done_state = current_state
-            if self.action_history:
-                done_action = self.action_history[-1][1]
-                done_state = self.action_history[-1][0]
-            if frozenset(current_state.items()) not in self.q_table:
-                # State does not exist in q-table, so we create a new entry with all zero's
-                self.q_table[frozenset(current_state.items())] = [0] * 3
-            # Pick a new action based on the state we're currently in
-            q_values = self.q_table[frozenset(current_state.items())]
-
-            if self.previous_phase is None:                                         # If this is the start of the game
-                self.previous_phase = self.filter_observations_learning(state)
-                chosen_action = np.argmax(q_values)
-            elif self.previous_phase == self.filter_observations_learning(state):   # If there is no phase change
-                chosen_action = self.action_history[-1][1]
-            else:                                                                   # If the phase changed
-                print("NEW PHASE")
-                chosen_action = np.argmax(q_values)
-                self.update_q_table(current_state, chosen_action, done_action, done_state, last_message)
-                self.previous_phase = self.filter_observations_learning(state)
-
-            if chosen_action == 0:
-                self.policy1(object_ids, state)
-                print("P1")
-            elif chosen_action == 1:
-                self.policy2(object_ids, state)
-                print("P2")
-            elif chosen_action == 2:
-                self.policy3(object_ids, state)
-                print("P3")
-
-            # Safe into the action history
-            self.action_history.append([current_state, chosen_action])
-
-        self.wait_action()
-        print(self.q_table)
+        #self.wait_action()
+        #print(self.q_table)
 
         return action, action_kwargs
 
@@ -703,7 +718,7 @@ class RobotPartner(AgentBrain):
                         if cp_retrieved not in self.cp_list:
                             self.cp_list.append(cp_retrieved)
 
-                    # For each CP, look up all start and end conditions
+                    # For each CP, look up all start conditions
                     for cp in self.cp_list:
                         condition_list = []
 
@@ -849,14 +864,115 @@ class RobotPartner(AgentBrain):
 
         return cps_hold
 
-    def execute_cp(self, cp):
+    def execute_cp(self, cp, state):
         # Retrieve the actions from the CP
 
-        # Store and/or retrieve what position in the CP we're at (which action)
+        # Check if there are actions left in the action list for the cp
+        if len(self.cp_actions) > 0:
+            # Yes, there are actions already determined
+            # Check if there are already determined currently to-be-executed actions by the human and/or robot
+            if self.current_robot_action:
+                # The robot is supposed to do something, continue executing
+                # The robot needs to translate the current_robot_action to an actual action
+                #print('We need to translate the current action to an actual action.')
+                self.translate_action(self.current_robot_action, state)
+            elif self.current_human_action:
+                # If the robot is not doing anything, but the human is supposed to do something, check if they did it yet
+                #print("Check if the human did their task")
+                # In the meantime, the robot should idle and wait for the human to finish their task
+                self.wait_action()
+            else:
+                # If none of the agents have something to do, check for the next tasks
+                order_values = []
+                # Store and/or retrieve what position in the CP we're at (which action)
+                for action in self.cp_actions:
+                    order_values.append(int(action['task']['order_value']))
 
-        # Check whether it's time to move to the next action
+                current_action_indices = list(filter(lambda x: order_values[x] == min(order_values), range(len(order_values))))
+                current_actions = list(map(self.cp_actions.__getitem__, current_action_indices))
 
-        # Execute action
+                for action in current_actions:
+                    if action['actor']['actor_type'] == 'robot':
+                        # This is an action done by the robot. Store and execute
+                        self.current_robot_action = action
+                    elif action['actor']['actor_type'] == 'human':
+                        # This is an action done by the human. Store such that it can be checked
+                        self.current_human_action = action
+
+            # Check whether it's time to move to the next action
+
+            # Execute action
+        else:
+            # This means there are no actions, so we need to retrieve them
+            print("Retrieve actions...")
+            # Start TypeDB session and retrieve information about the current CP
+            with TypeDB.core_client('localhost:1729') as client:
+                with client.session("CP_ontology", SessionType.DATA) as session:
+                    with session.transaction(TransactionType.READ) as read_transaction:
+                        # First, find all tasks related to the CP at hand
+                        answer_iterator = read_transaction.query().match(
+                            f'''match $cp isa collaboration_pattern, has name '{cp}';
+                            $part_of (cp: $cp, task: $task) isa is_part_of;
+                            $task isa task, has task_id $id, has task_name $name, has order_value $value; get $id, $name, $value;''')
+
+                        # Save the task data in the list
+                        for answer in answer_iterator:
+                            task_id_retrieved = answer.get('id')._value
+                            task_name_retrieved = answer.get('name')._value
+                            order_value_retrieved = answer.get('value')._value
+                            self.cp_actions.append({'task': {'task_id': task_id_retrieved, 'task_name': task_name_retrieved, 'order_value': order_value_retrieved}})
+
+                        # Find the location, actor and resource info
+                        for task in self.cp_actions:
+                            # Find location info
+                            answer_iterator = read_transaction.query().match(
+                                f'''match $task isa task, has task_id '{task['task']['task_id']}';
+                                $takes_place (action: $task, location: $location) isa takes_place_at; 
+                                $location has $attr; get $location, $attr;''')
+
+                            for answer in answer_iterator:
+                                # Store location info
+                                item_retrieved = answer.get('location').as_entity().get_type().get_label().name()
+                                attribute_value = answer.get('attr')._value
+                                attribute_type = answer.get('attr').as_attribute().get_type().get_label().name()
+                                if item_retrieved in task.keys():
+                                    task[item_retrieved][attribute_type] = attribute_value
+                                else:
+                                    task[item_retrieved] = {attribute_type: attribute_value}
+
+                            # Find actor info
+                            answer_iterator = read_transaction.query().match(
+                                f'''match $task isa task, has task_id '{task['task']['task_id']}';
+                                $done_by (action: $task, actor: $actor) isa performed_by; 
+                                $actor has $attr; get $actor, $attr;''')
+
+                            for answer in answer_iterator:
+                                # Store actor info
+                                item_retrieved = answer.get('actor').as_entity().get_type().get_label().name()
+                                attribute_value = answer.get('attr')._value
+                                attribute_type = answer.get('attr').as_attribute().get_type().get_label().name()
+                                if item_retrieved in task.keys():
+                                    task[item_retrieved][attribute_type] = attribute_value
+                                else:
+                                    task[item_retrieved] = {attribute_type: attribute_value}
+
+                            # Find resource info
+                            answer_iterator = read_transaction.query().match(
+                                f'''match $task isa task, has task_id '{task['task']['task_id']}';
+                                $uses (action: $task, resource: $resource) isa uses; 
+                                $resource has $attr; get $resource, $attr;''')
+
+                            for answer in answer_iterator:
+                                # Store resource info
+                                item_retrieved = answer.get('resource').as_entity().get_type().get_label().name()
+                                attribute_value = answer.get('attr')._value
+                                attribute_type = answer.get('attr').as_attribute().get_type().get_label().name()
+                                if item_retrieved in task.keys():
+                                    task[item_retrieved][attribute_type] = attribute_value
+                                else:
+                                    task[item_retrieved] = {attribute_type: attribute_value}
+                        print(self.cp_actions)
+
         return
 
     def check_cp_endconditions(self):
@@ -931,6 +1047,103 @@ class RobotPartner(AgentBrain):
         # Above rock pile (not relevant for rocks, only for agents)
 
         return locations
+
+    def translate_action(self, action, state):
+        task_name = action['task']['task_name']
+        task_location = action['location']['range']
+
+        if 'Pick up' in task_name:
+            # This is a pick up action! Check if we're dealing with a large or a small rock
+            object_size = action['resource']['size']
+            if 'large' in object_size:
+                # We have to pick up a large rock
+                # Find all relevant objects first, according to size
+                relevant_objects = self.state[{'large': True, 'is_movable': True}]
+                if relevant_objects:
+                    # It exists! Translate and check locations
+                    if isinstance(relevant_objects, dict):
+                        # There is just one such object, check it's location; if it is correct, pick up this one
+                        if task_location in self.translate_location(relevant_objects['obj_id'], object_size):
+                            self.pickup_large_action([relevant_objects], state, None)
+                        else:
+                            # There is no such object, can't perform this action
+                            print("Can't perform this action, object doesn't exist.")
+                    elif isinstance(relevant_objects, list):
+                        objects_right_location= []
+                        # It is a list, we'll need to loop through
+                        for object in relevant_objects:
+                            # Translate the location and check whether it is the one in the condition
+                            if task_location in self.translate_location(object['obj_id'], object_size):
+                                # It is the same, this is an object we can choose!
+                                objects_right_location.append(object)
+                        self.pickup_large_action(objects_right_location, state, None)
+                else:
+                    # There is no such object, can't perform this action
+                    print("Can't perform this action, object doesn't exist.")
+                return
+            elif 'small' in object_size:
+                # We have to pick up a small rock
+                # Find all relevant objects first, according to size
+                relevant_objects = self.state[{'name': 'rock1'}]
+                if relevant_objects:
+                    # It exists! Translate and check locations
+                    if isinstance(relevant_objects, dict):
+                        # There is just one such object, check it's location; if it is correct, pick up this one
+                        if task_location in self.translate_location(relevant_objects['obj_id'], object_size):
+                            self.pickup_action([relevant_objects], state)
+                        else:
+                            # There is no such object, can't perform this action
+                            print("Can't perform this action, object doesn't exist.")
+                    elif isinstance(relevant_objects, list):
+                        objects_right_location= []
+                        # It is a list, we'll need to loop through
+                        for object in relevant_objects:
+                            # Translate the location and check whether it is the one in the condition
+                            if task_location in self.translate_location(object['obj_id'], object_size):
+                                # It is the same, this is an object we can choose!
+                                objects_right_location.append(object)
+                        self.pickup_action(objects_right_location, state)
+                else:
+                    # There is no such object, can't perform this action
+                    print("Can't perform this action, object doesn't exist.")
+                return
+        elif 'Stand still' in task_name:
+            # We shouldn't do anything
+            self.wait_action()
+            return
+        elif 'Drop' in task_name:
+            # We have to drop a rock
+            self.drop_action(state, None) # TODO make sure the right arguments can be passed
+            return
+        elif 'Break' in task_name:
+            # We have to break a rock
+            # Find all relevant objects first, according to size
+            relevant_objects = self.state[{'large': True, 'is_movable': True}]
+            if relevant_objects:
+                # It exists! Translate and check locations
+                if isinstance(relevant_objects, dict):
+                    # There is just one such object, check it's location; if it is correct, pick up this one
+                    if task_location in self.translate_location(relevant_objects['obj_id'], 'large'):
+                        self.break_action([relevant_objects], state, None)
+                    else:
+                        # There is no such object, can't perform this action
+                        print("Can't perform this action, object doesn't exist.")
+                elif isinstance(relevant_objects, list):
+                    objects_right_location = []
+                    # It is a list, we'll need to loop through
+                    for object in relevant_objects:
+                        # Translate the location and check whether it is the one in the condition
+                        if task_location in self.translate_location(object['obj_id'], 'large'):
+                            # It is the same, this is an object we can choose!
+                            objects_right_location.append(object)
+                    self.break_action(objects_right_location, state, None)
+            else:
+                # There is no such object, can't perform this action
+                print("Can't perform this action, object doesn't exist.")
+            return
+        elif 'Move back and forth' in task_name:
+            # We have to move back and forth; for this we need to create a new action
+            return
 
 # Functions that deal with learning
     def choose_cp_from_list(self, cp_list):

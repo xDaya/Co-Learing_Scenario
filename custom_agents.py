@@ -22,6 +22,10 @@ class CustomHumanAgentBrain(HumanAgentBrain):
         self.__door_range = door_range
         self.__remove_range = remove_range
 
+        # Variables used for identifying which actions the human does
+        self.movement_tracker = []
+        self.standstill_timer = 0
+
     def decide_on_action(self, state, user_input):
 
         action_kwargs = {}
@@ -33,6 +37,7 @@ class CustomHumanAgentBrain(HumanAgentBrain):
 
         # if no keys were pressed, do nothing
         if user_input is None or user_input == []:
+            self.translate_action(None, state[self.agent_id]['location'])
             return None, {}
 
         #if len(state[self.agent_id]['is_carrying']) > 0:        # Code for changing image when carrying
@@ -114,6 +119,8 @@ class CustomHumanAgentBrain(HumanAgentBrain):
             # choose a random door within range
             if len(doors_in_range) > 0:
                 action_kwargs['object_id'] = self.rnd_gen.choice(doors_in_range)
+
+        self.translate_action(action, state[self.agent_id]['location'])
 
         return action, action_kwargs
 
@@ -259,6 +266,151 @@ class CustomHumanAgentBrain(HumanAgentBrain):
                 parts_obj_ids.append(object_id)
 
         return parts_obj_ids
+
+    def translate_action(self, action, location):
+        translated_action = None
+        translated_location = None
+
+        self.translate_location(location)
+
+        # Given an action, translate to easier to understand action. Include object (= small rock) if pick up or drop
+        if action == GrabObject.__name__:
+            # This is a pick up action
+            translated_action = 'Pick up'
+            self.standstill_timer = 0
+            self.movement_tracker = []
+            # Add a Move to action to what happened before this
+        elif action == DropObject.__name__:
+            # This is a drop action
+            translated_action = 'Drop'
+            self.standstill_timer = 0
+            self.movement_tracker = []
+            # Add a Move to action to what happened before this
+        else:
+            # If else, it should be a move action or a stand still action
+            if not action:
+                # It is a stand still
+                self.standstill_timer = self.standstill_timer + 1
+                # Check if the human was at the same spot for 5 ticks or more. If yes, we classify this as stand still
+                if self.standstill_timer >= 20:
+                    translated_action = 'Stand still'
+                    self.standstill_timer = 0
+                    self.movement_tracker = []
+
+                # Add a Move to action to what happened before this
+            elif 'Move' in action:
+                # It is a move action
+                self.movement_tracker.append(location)
+                self.standstill_timer = 0
+                # Check if it is a move back and forth by checking the amount of move actions and the range
+                if len(self.movement_tracker) >= 4:
+                    x_locs = []
+                    y_locs = []
+                    for loc in self.movement_tracker:
+                        # Separate x and y
+                        x_locs.append(loc[0])
+                        y_locs.append(loc[1])
+
+                    # Find lowest and highest x and y coordinate, check if they are max half of the amount of movements
+                    # away from each other
+                    x_range = max(x_locs) - min(x_locs)
+                    y_range = max(y_locs) - min(y_locs)
+
+                    # It is only a move back and forth if the range of the movement is not too large
+                    if x_range <= len(self.movement_tracker)/2 and y_range <= len(self.movement_tracker)/2 \
+                            and x_range <= 8 and y_range <= 8:
+                        translated_action = 'Move back and forth'
+                        self.movement_tracker = []
+
+        if translated_action:
+            print(translated_action)
+        # Translate the location as well
+        return
+
+    def translate_location(self, location):
+        # Adapt code from robot partner
+        loc_x = location[0]
+        loc_y = location[1]
+
+        # List that contains all the high level locations an object is in (e.g. left side of pile and top of pile)
+        locations = []
+
+        # Left/Right side of rock pile (= within the bounds of the pile, left or right half)
+        if loc_x >= 5 and loc_x <= 9:
+            locations.append('Left side of rock pile')
+        elif loc_x >= 10 and loc_x <= 15:
+            locations.append('Right side of rock pile')
+
+        # Left/Right side of field (= outside the bounds of the pile, left or right)
+        elif loc_x < 5:
+            locations.append('Left side of field')
+        elif loc_x > 15:
+            locations.append('Right side of field')
+
+        # On top of [object/actor/location] (to be implemented later)
+        object_found = self.state[{"location": location, 'is_movable': True}]
+        agents_found = self.state[{"location": location, 'isAgent': True}]
+        if object_found or agents_found:
+            # The human is on top of another object, check if agent or rock
+            if object_found:
+                locations.append('On top of object')
+
+            if isinstance(agents_found, list):
+                locations.append('On top of agent')
+
+        # Above, top and bottom of rock pile
+        if loc_x >= 5 and loc_x <= 15 and loc_y <= 10:
+            # The location is in the range of the rock pile.
+            # Check if the human is on top of a rock (see above)
+            if object_found is not None:
+                if isinstance(object_found, list):
+                    object_found = object_found[0] #TODO deal with large rocks better
+                # Retrieve location of that rock
+                obj_location = object_found['location']
+                # Check for this rock if it is in the top or bottom (no rocks above or below)
+                nr_rows = 1
+                nr_vert_rows = 1
+                if 'vert' in object_found['obj_id']:
+                    nr_rows = 1
+                    nr_vert_rows = 4
+                elif 'long' in object_found['obj_id']:
+                    nr_rows = 4
+                    nr_vert_rows = 1
+                elif 'large' in object_found['obj_id']:
+                    nr_rows = 2
+                    nr_vert_rows = 2
+
+                # Top of rock pile (= no rocks on top of this object)
+                top_check = True
+                for x in range(0, nr_rows):
+                    for i in range(0, loc_y - 1):
+                        loc_to_check = [loc_x + x, i]
+                        objects_found = self.state[{"location": loc_to_check}]
+                        if objects_found is not None:
+                            # An object was found, meaning that the area above the rock isn't empty TODO create exception for agents
+                            top_check = False
+
+                if top_check == True:
+                    locations.append('Top of rock pile')
+
+                # Bottom of rock pile (= no rocks below this object)
+                bottom_check = True
+                for x in range(0, nr_rows):
+                    for i in range(loc_y + nr_vert_rows, 11):
+                        loc_to_check = [loc_x + x, i]
+                        objects_found = self.state[{"location": loc_to_check}]
+                        if objects_found is not None:
+                            # An object was found, meaning that the area below the rock isn't empty TODO create exception for agents
+                            bottom_check = False
+
+                if bottom_check == True:
+                    locations.append('Bottom of rock pile')
+            else:
+                # If not on top of a rock they must be above the pile
+                locations.append('Above rock pile')
+
+        print(locations)
+        return
 
 
 class GravityGod(AgentBrain):
