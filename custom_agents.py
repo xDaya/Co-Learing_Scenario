@@ -271,7 +271,7 @@ class CustomHumanAgentBrain(HumanAgentBrain):
         translated_action = None
         translated_location = None
 
-        self.translate_location(location)
+        translated_location = self.translate_location(location)
 
         # Given an action, translate to easier to understand action. Include object (= small rock) if pick up or drop
         if action == GrabObject.__name__:
@@ -323,7 +323,7 @@ class CustomHumanAgentBrain(HumanAgentBrain):
                         self.movement_tracker = []
 
         if translated_action:
-            print(translated_action)
+            self.send_message(Message(content=[translated_action, translated_location], from_id=self.agent_id, to_id=None))
         # Translate the location as well
         return
 
@@ -409,8 +409,7 @@ class CustomHumanAgentBrain(HumanAgentBrain):
                 # If not on top of a rock they must be above the pile
                 locations.append('Above rock pile')
 
-        print(locations)
-        return
+        return locations
 
 
 class GravityGod(AgentBrain):

@@ -97,7 +97,7 @@ def create_builder():
     factory.add_agent((0, 0), gravity_god, name="GravityGod", visualize_shape='img', img_name="/images/transparent.png", is_traversable=True)
 
     # Add Reward by adding the RewardGod agent
-    factory.add_agent((0,0), reward_god, name="RewardGod", visualize_shape='img', img_name="/images/transparent.png", is_traversable=True, goal_reached=False, customizable_properties=["goal_reached"])
+    #factory.add_agent((0,0), reward_god, name="RewardGod", visualize_shape='img', img_name="/images/transparent.png", is_traversable=True, goal_reached=False, customizable_properties=["goal_reached"])
 
     # Add Ontology functions by adding the OntologyGod agent
     factory.add_agent((0,0), ontology_god, name="OntologyGod", visualize_shape='img', img_name="/images/transparent.png", is_traversable=True)
@@ -115,11 +115,26 @@ def create_builder():
 
     #lvl_practice(factory)              # Practice scenario
 
+
     #lvl_dont_break(factory)            # First scenario
+
+    #lvl_dont_break_2(factory)          # Don't break 2
+
+    #lvl_dont_break_3(factory)          # Don't break 3
+
+    #lvl_dont_break_4(factory)          # Don't break 4
+
 
     #lvl_building_bridges(factory)      # Third scenario
 
-    lvl_looming_spike(factory)         # Second scenario
+
+    #lvl_looming_spike(factory)         # Second scenario
+
+    #lvl_brown_rock_2(factory)          # Brown rock 2
+
+    #lvl_brown_rock_3(factory)          # Brown rock 3
+
+    lvl_building_bridges_edited(factory)   # Brown rock 4
 
     factory.add_object([2,0], name="goal_reached_img", img_name="/images/transparent.png", callable_class=GoalReachedObject, visualize_depth=300)
 
@@ -337,41 +352,126 @@ def lvl_dont_break(factory):
     factory.add_object((12, 8), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
                        is_movable=True)
 
+# Don't break 1
+def lvl_dont_break_2(factory):
+    create_vert_object(name="vert1", location=(10, 4), world=factory)
 
-def lvl_building_bridges(factory):
-    create_brownlong_object(name="brownlong1", location=(6, 3), world=factory)
-    create_brownlong_object(name="brownlong2", location=(10, 4), world=factory)
+    create_long_object(name="long1", location=(8, 9), world=factory)
 
-    create_long_object(name="long1", location=(9, 10), world=factory)
-
-    create_large_object(name="large1", location=(7, 1), world=factory)
-    create_large_object(name="large2", location=(8, 4), world=factory)
-    create_large_object(name="large3", location=(6, 9), world=factory)
-    create_large_object(name="large4", location=(8, 8), world=factory)
-    create_large_object(name="large5", location=(11, 8), world=factory)
+    create_large_object(name="large1", location=(12, 9), world=factory)
 
     factory.add_object((10, 3), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
                        is_movable=True)
-    factory.add_object((11, 3), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+    factory.add_object((8, 8), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
                        is_movable=True)
-    factory.add_object((11, 5), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+    factory.add_object((9, 8), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((10, 8), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((11, 8), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((7, 9), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((6, 10), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((7, 10), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((9, 10), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((14, 10), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+
+def lvl_dont_break_3(factory):
+    create_long_object(name="long1", location=(5, 6), world=factory)
+    create_long_object(name="long2", location=(10, 8), world=factory)
+
+    create_large_object(name="large1", location=(8, 4), world=factory)
+    create_large_object(name="large2", location=(9, 6), world=factory)
+    create_large_object(name="large3", location=(11, 9), world=factory)
+
+    factory.add_object((8, 2), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((8, 3), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((9, 3), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((7, 4), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((10, 4), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((5, 5), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((6, 5), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((7, 5), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((10, 5), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
                        is_movable=True)
     factory.add_object((11, 6), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
                        is_movable=True)
     factory.add_object((11, 7), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
                        is_movable=True)
-    factory.add_object((9, 6), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+    factory.add_object((12, 7), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
                        is_movable=True)
-    factory.add_object((9, 7), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+    factory.add_object((13, 7), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
                        is_movable=True)
-    factory.add_object((8, 7), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+    factory.add_object((7, 7), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((6, 8), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
                        is_movable=True)
     factory.add_object((7, 8), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
                        is_movable=True)
-    factory.add_object((8, 10), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+    factory.add_object((6, 9), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((7, 9), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((5, 10), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((6, 10), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((7, 10), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((10, 9), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((10, 10), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((13, 10), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
                        is_movable=True)
 
+def lvl_dont_break_4(factory):
+    create_vert_object(name="vert1", location=(8, 4), world=factory)
+    create_vert_object(name="vert2", location=(11, 1), world=factory)
 
+    create_long_object(name="long1", location=(6, 8), world=factory)
+
+    create_large_object(name="large1", location=(6, 6), world=factory)
+    create_large_object(name="large2", location=(11, 5), world=factory)
+    create_large_object(name="large3", location=(12, 9), world=factory)
+
+    factory.add_object((7, 5), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((12, 4), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((12, 7), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((12, 8), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((7, 9), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((6, 10), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((7, 10), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((9, 9), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((9, 10), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((10, 10), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((14, 10), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+
+# Brown rock 1
 def lvl_looming_spike(factory):
     create_brownvert_object(name="brownvert1", location=(11, 1), world=factory)
 
@@ -418,3 +518,154 @@ def lvl_looming_spike(factory):
                        is_movable=True)
     factory.add_object((12, 10), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
                        is_movable=True)
+
+def lvl_brown_rock_2(factory):
+    create_brownlong_object(name="brownlong1", location=(9, 8), world=factory)
+
+    create_large_object(name="large1", location=(9, 6), world=factory)
+    create_large_object(name="large2", location=(5, 9), world=factory)
+    create_large_object(name="large3", location=(7, 9), world=factory)
+
+    factory.add_object((9, 5), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((8, 7), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((11, 7), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((12, 7), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((7, 8), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((8, 8), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((12, 9), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((12, 10), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((13, 10), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+
+def lvl_brown_rock_3(factory):
+    create_brownlong_object(name="brownlong1", location=(7, 2), world=factory)
+
+    create_brownvert_object(name="brownvert1", location=(11, 1), world=factory)
+
+    create_vert_object(name="vert1", location=(7, 7), world=factory)
+
+    create_long_object(name="long1", location=(10, 5), world=factory)
+    create_long_object(name="long2", location=(7, 6), world=factory)
+
+    create_large_object(name="large1", location=(9, 3), world=factory)
+    create_large_object(name="large2", location=(11, 6), world=factory)
+    create_large_object(name="large3", location=(9, 9), world=factory)
+
+    factory.add_object((8, 3), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((8, 4), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((7, 5), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((8, 5), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((8, 7), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((9, 7), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((8, 8), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((9, 8), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((10, 8), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((12, 8), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((6, 9), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((8, 9), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((12, 9), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((5, 10), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((6, 10), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((8, 10), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((11, 10), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((12, 10), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+
+# Brown rock 4
+def lvl_building_bridges_edited(factory):
+    create_brownlong_object(name="brownlong1", location=(6, 2), world=factory)
+    create_brownlong_object(name="brownlong2", location=(10, 4), world=factory)
+
+    create_long_object(name="long1", location=(9, 10), world=factory)
+
+    create_large_object(name="large2", location=(8, 3), world=factory)
+    create_large_object(name="large3", location=(6, 9), world=factory)
+    create_large_object(name="large4", location=(8, 8), world=factory)
+    create_large_object(name="large5", location=(12, 8), world=factory)
+
+    factory.add_object((8, 1), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((10, 3), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((11, 3), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((13, 5), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((13, 6), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((13, 7), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((8, 5), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((8, 6), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((9, 7), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((8, 7), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((7, 8), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((8, 10), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((13, 10), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+
+def lvl_building_bridges(factory):
+    create_brownlong_object(name="brownlong1", location=(6, 3), world=factory)
+    create_brownlong_object(name="brownlong2", location=(10, 4), world=factory)
+
+    create_long_object(name="long1", location=(9, 10), world=factory)
+
+    create_large_object(name="large1", location=(7, 1), world=factory)
+    create_large_object(name="large2", location=(8, 4), world=factory)
+    create_large_object(name="large3", location=(6, 9), world=factory)
+    create_large_object(name="large4", location=(8, 8), world=factory)
+    create_large_object(name="large5", location=(11, 8), world=factory)
+
+    factory.add_object((10, 3), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((11, 3), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((11, 5), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((11, 6), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((11, 7), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((9, 6), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((9, 7), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((8, 7), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((7, 8), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+    factory.add_object((8, 10), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
+                       is_movable=True)
+
+

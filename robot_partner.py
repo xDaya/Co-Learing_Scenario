@@ -5,6 +5,9 @@ from matrx.agents.agent_utils.navigator import Navigator
 from matrx.agents.agent_utils.state_tracker import StateTracker
 import csv
 import pickle
+import deepdiff
+import numpy as np
+import pandas as pd
 
 
 class RobotPartner(AgentBrain):
@@ -33,12 +36,32 @@ class RobotPartner(AgentBrain):
         # Ontology related variables
         self.cp_list = []
         self.start_conditions = []
+        self.end_conditions = []
         self.executing_cp = False
 
         self.cp_actions = [] # Keeps track of the actions still left in the CP
 
         self.current_human_action = None
         self.current_robot_action = None
+        self.past_human_actions = []
+
+        # Global variables for learning algorithms
+        self.q_table_cps = pd.DataFrame()
+        self.q_table_basic = pd.DataFrame(columns=['state', 'Move back and forth', 'Stand Still', 'Pick up', 'Drop', 'Break'])
+        self.visited_states = []
+        self.starting_state = []
+        self.starting_state_distance = 0
+
+        # Global progress variables
+        self.nr_ticks = 0
+        self.nr_move_actions = 0
+        self.nr_productive_actions = 0
+        self.victim_harm = 0
+        self.idle_ticks = 0
+
+        # Helper variables
+        self.previous_objs = []
+        self.previous_locs = []
 
     def initialize(self):
         self.state_tracker = StateTracker(agent_id=self.agent_id)
@@ -56,7 +79,17 @@ class RobotPartner(AgentBrain):
 
         # Initialize existing CP's and their conditions
         print("Robot Initializing CPs")
-        self.store_cp_conditions()
+        self.store_cp_conditions(self.start_conditions)
+        self.store_cp_conditions(self.end_conditions)
+        print("Start conditions:")
+        print(self.start_conditions)
+        print("End conditions:")
+        print(self.end_conditions)
+        for cp in self.cp_list:
+            self.q_table_cps[cp] = np.nan
+
+        # Remove columns with None as name for testing phase
+        self.q_table_cps.drop('None', axis=1, inplace=True)
 
         # Start with some wait actions
         #self.wait_action()
@@ -582,39 +615,39 @@ class RobotPartner(AgentBrain):
 
         object_ids = [obj_id for obj_id in object_ids if "obstruction" not in state[obj_id]]
 
+        # -----------------------------Image management for carrying----------------------------------------
         if state[self.agent_id]['is_carrying']:
             self.agent_properties["img_name"] = "/images/selector_holding2.png"
         else:
             self.agent_properties["img_name"] = "/images/selector2.png"
 
-        self.check_cp_conditions()
 
-        # ----------------------------Get reward from the messages---------------------------------------------
-        last_message = None
+        # ----------------------------Do message handling---------------------------------------------
         if self.received_messages:
-            #print(self.received_messages)
-            if self.received_messages[-1] == 'FAIL' and not self.final_update:
-                print("FINAL Q UPDATE")
-                last_message = float(self.received_messages[-2])
-                done_action = self.action_history[-1][1]
-                done_state = self.action_history[-1][0]
-                print(self.q_table)
-                self.update_q_table(done_state, done_action, done_action, done_state, last_message)
-                print(self.q_table)
-                self.final_update = True
-            elif not self.final_update:
-                last_message = float(self.received_messages[-1])
+            self.message_handling()
 
         # --------------------------New Main Action Planning Loop--------------------------------------------
         # TODO Add some code that checks if there are new CPs (or edits). Can come from messages
 
+        # Record task progress
+        self.record_progress(False)
+
+        # Check the conditions of stored CPs
+        #self.check_cp_conditions(self.start_conditions)
         # Start by checking if the agent is currently executing a CP
         if self.executing_cp:
-            #print("Agent is executing a CP!")
+            #print("Agent is executing a CP:")
+            #print(self.executing_cp)
             # Check if the endconditions for this CP hold
-            if self.check_cp_endconditions():
+            if self.executing_cp in self.check_cp_conditions(self.end_conditions):
+                # If yes, finish, process reward and restart loop
+                print("The endconditions for this CP hold, so we'll stop executing it.")
+                self.reward_update_cps()
                 self.executing_cp = False
-                # If yes, finish and restart loop
+                self.actionlist = [[], []]
+                self.cp_actions = []
+                # Reset progress variables
+                self.record_progress(True)
             else:
                 # If no, continue current CP
                 # Original Action Planning Code
@@ -678,7 +711,7 @@ class RobotPartner(AgentBrain):
             #print("Not working with a CP currently!")
 
             # Check if the start conditions for any existing CPs hold
-            cps_hold = self.check_cp_conditions()
+            cps_hold = self.check_cp_conditions(self.start_conditions)
             if len(cps_hold) > 0:
                 # This means there are CPs that are applicable. Check how many.
                 if len(cps_hold) == 1:
@@ -688,24 +721,36 @@ class RobotPartner(AgentBrain):
                     self.execute_cp(self.executing_cp, state)
                 else:
                     # Several CPs hold. We need a method to choose between them.
-                    print("Choose the appropriate CP.")
+                    print("Choose an appropriate CP:")
                     chosen_cp = self.choose_cp_from_list(cps_hold)
                     self.executing_cp = chosen_cp
+                    print(self.executing_cp)
                     self.execute_cp(self.executing_cp, state)
             else:
                 # This means that there are no CPs that are applicable to the current situation
                 print("No applicable CPs, do as normal.")
+                self.basic_behavior()
 
         #self.wait_action()
         #print(self.q_table)
+        # Record some progress variables
+        if action:
+            if 'Move' in action:
+                self.nr_move_actions = self.nr_move_actions + 1
+            else:
+                self.nr_productive_actions = self.nr_productive_actions + 1
+        else:
+            # It only counts as idle if it isn't an intentional idle (e.g. because it's part of a CP)
+            self.idle_ticks = self.idle_ticks + 1
 
         return action, action_kwargs
 
 # Functions that deal with the ontology stuff
-    def store_cp_conditions(self):
-        # Store all start conditions of existing CPs in a list; join duplicates, but store which CP they belong to
+    def store_cp_conditions(self, start_end):
+        # The variable start_end should be either self.start_conditions or self.end_conditions, depending on which
+        # you want to fill.
+        # Store all conditions of existing CPs in a list; join duplicates, but store which CP they belong to
         self.cp_list = []
-        self.start_conditions = []
 
         # Look at the list of CPs
         with TypeDB.core_client('localhost:1729') as client:
@@ -718,15 +763,21 @@ class RobotPartner(AgentBrain):
                         if cp_retrieved not in self.cp_list:
                             self.cp_list.append(cp_retrieved)
 
-                    # For each CP, look up all start conditions
+                    # For each CP, look up all conditions
                     for cp in self.cp_list:
                         condition_list = []
 
                         # First, find all conditions related to the CP at hand
-                        answer_iterator = read_transaction.query().match(
-                            f'''match $cp isa collaboration_pattern, has name '{cp}'; 
-                            $starts (condition: $condition, cp: $cp) isa starts_when; 
-                            $condition isa condition, has condition_id $id; get $id;''')
+                        if start_end == self.start_conditions:
+                            answer_iterator = read_transaction.query().match(
+                                f'''match $cp isa collaboration_pattern, has name '{cp}'; 
+                                $starts (condition: $condition, cp: $cp) isa starts_when; 
+                                $condition isa condition, has condition_id $id; get $id;''')
+                        elif start_end == self.end_conditions:
+                            answer_iterator = read_transaction.query().match(
+                                f'''match $cp isa collaboration_pattern, has name '{cp}'; 
+                                $ends (condition: $condition, cp: $cp) isa ends_when; 
+                                $condition isa condition, has condition_id $id; get $id;''')
 
                         # Save the conditions in a list
                         for answer in answer_iterator:
@@ -770,23 +821,22 @@ class RobotPartner(AgentBrain):
                                     items_contained[item_retrieved] = {attribute_type: attribute_value}
 
                             # Store that as a single condition if it is not yet in the overall condition list
-                            start_conditions_np = np.array(self.start_conditions)
-                            if len(self.start_conditions) > 0 and items_contained in start_conditions_np[:, 0]:
-                                index = np.where(start_conditions_np == items_contained)[0][0]
-                                self.start_conditions[index][1].append(cp)
+                            conditions_np = np.array(start_end)
+                            if len(start_end) > 0 and items_contained in conditions_np[:, 0]:
+                                index = np.where(conditions_np == items_contained)[0][0]
+                                start_end[index][1].append(cp)
                             else:
-                                self.start_conditions.append([items_contained, [cp]])
+                                start_end.append([items_contained, [cp]])
 
-        print(self.start_conditions)
         return
 
-    def check_cp_conditions(self):
+    def check_cp_conditions(self, start_end):
         # Check all conditions of existing CPs and store which ones currently hold (how to do this efficiently??)
         conditions_hold = []
         cps_hold = []
 
         # For each condition, check if it holds
-        for condition in self.start_conditions:
+        for condition in start_end:
             object = None
             location = None
             object_type = None
@@ -847,13 +897,13 @@ class RobotPartner(AgentBrain):
                 # Add a check, if the CP at hand is already in the CPs_hold list, we can skip
                 if cp not in cps_hold:
                     # For each CP, check if there are other conditions for this CP
-                    other_conditions = [i for i, x in enumerate(self.start_conditions) if cp in x[1]]
+                    other_conditions = [i for i, x in enumerate(start_end) if cp in x[1]]
 
                     if len(other_conditions) > 1:
                         # This means there are other conditions. Check if all of them are in the conditions_hold list
                         all_conditions = True
                         for index in other_conditions:
-                            if self.start_conditions[index][0] not in np.asarray(conditions_hold)[:,0]:
+                            if start_end[index][0] not in np.asarray(conditions_hold)[:,0]:
                                 all_conditions = False
                         # If all of them are, CP is valid
                         if all_conditions:
@@ -879,9 +929,27 @@ class RobotPartner(AgentBrain):
             elif self.current_human_action:
                 # If the robot is not doing anything, but the human is supposed to do something, check if they did it yet
                 #print("Check if the human did their task")
+                if len(self.past_human_actions) > 0:
+                    if self.current_human_action['task']['task_name'] in np.array(self.past_human_actions)[:, 0]:
+                        # This means that the action we're looking for is in the past 5 actions of the human.
+                        # Now we need to check if the location is also present
+                        location_present = False
+                        human_action_indices = np.where(np.array(self.past_human_actions)[:, 0] == self.current_human_action['task']['task_name'])[0]
+                        for index in human_action_indices:
+                            if self.current_human_action['location']['range'] in self.past_human_actions[index][1]:
+                                location_present = True
+                                break
+
+                        if location_present:
+                            # The human did the action, so we can remove it from the action list and continue
+                            self.cp_actions.remove(self.current_human_action)
+                            self.current_human_action = None
+                            # Also empty the past human actions list as we're moving to a new cycle
+                            self.past_human_actions = []
                 # In the meantime, the robot should idle and wait for the human to finish their task
-                self.wait_action()
+                #self.wait_action()
             else:
+                print("Find the next actions")
                 # If none of the agents have something to do, check for the next tasks
                 order_values = []
                 # Store and/or retrieve what position in the CP we're at (which action)
@@ -920,6 +988,10 @@ class RobotPartner(AgentBrain):
                             task_id_retrieved = answer.get('id')._value
                             task_name_retrieved = answer.get('name')._value
                             order_value_retrieved = answer.get('value')._value
+                            # Check for the task name if there is an extra space at the end, remove if this is the case
+                            # TODO this is a quick fix, find the real problem and fix there
+                            if task_name_retrieved[-1] == ' ':
+                                task_name_retrieved = task_name_retrieved[:-1]
                             self.cp_actions.append({'task': {'task_id': task_id_retrieved, 'task_name': task_name_retrieved, 'order_value': order_value_retrieved}})
 
                         # Find the location, actor and resource info
@@ -973,9 +1045,6 @@ class RobotPartner(AgentBrain):
                                     task[item_retrieved] = {attribute_type: attribute_value}
                         print(self.cp_actions)
 
-        return
-
-    def check_cp_endconditions(self):
         return
 
     def translate_location(self, object_id, object_type):
@@ -1145,9 +1214,282 @@ class RobotPartner(AgentBrain):
             # We have to move back and forth; for this we need to create a new action
             return
 
+    def translate_state(self):
+        # A nested dictionary to store all locations with the objects that they currently entail
+        # The nestedness ensures that we can use the state rep at different abstraction levels for later tweaking
+        # E.g. fully, with the amount of each object, or simply with the object types present
+        # Data format: {'location1': {'large rock': [obj1, ...], 'small rock': [obj1, ...]}, ...}
+        obj_loc_dict = {}
+
+        brown_rocks = self.state[{"obstruction": True}]
+        large_rocks = self.state[{'large': True, 'is_movable': True}]
+        small_rocks = self.state[{'name': 'rock1'}]
+
+        # For all rock objects, check at what locations they are
+        for rock in brown_rocks:
+            locations = self.translate_location(rock['obj_id'], 'brown')
+            # Check if that location is already in the dict. If yes, add under the right object type
+            for location in locations:
+                if location in obj_loc_dict:
+                    obj_loc_dict[location]['brown rock'].append(rock)
+                # If no, add the location to the dict first, then add object under the right object type
+                else:
+                    obj_loc_dict[location] = {'small rock': [], 'large rock': [], 'brown rock': []}
+                    obj_loc_dict[location]['brown rock'].append(rock)
+
+        # For all rock objects, check at what location they are
+        for rock in large_rocks:
+            locations = self.translate_location(rock['obj_id'], 'large')
+            # Check if that location is already in the dict. If yes, add under the right object type
+            for location in locations:
+                if location in obj_loc_dict:
+                    obj_loc_dict[location]['large rock'].append(rock)
+                # If no, add the location to the dict first, then add object under the right object type
+                else:
+                    obj_loc_dict[location] = {'small rock': [], 'large rock': [], 'brown rock': []}
+                    obj_loc_dict[location]['large rock'].append(rock)
+
+        # For all rock objects, check at what location they are
+        for rock in small_rocks:
+            locations = self.translate_location(rock['obj_id'], 'small')
+            # Check if that location is already in the dict. If yes, add under the right object type
+            for location in locations:
+                if location in obj_loc_dict:
+                    obj_loc_dict[location]['small rock'].append(rock)
+                # If no, add the location to the dict first, then add object under the right object type
+                else:
+                    obj_loc_dict[location] = {'small rock': [], 'large rock': [], 'brown rock': []}
+                    obj_loc_dict[location]['small rock'].append(rock)
+
+        # Translation for simpler state
+        state_array = [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]] # State with no rocks
+
+        if 'Top of rock pile' in obj_loc_dict and len(obj_loc_dict['Top of rock pile']['small rock']) > 0:
+            state_array[0][0] = 1
+        if 'Top of rock pile' in obj_loc_dict and len(obj_loc_dict['Top of rock pile']['large rock']) > 0:
+            state_array[0][1] = 1
+        if 'Top of rock pile' in obj_loc_dict and len(obj_loc_dict['Top of rock pile']['brown rock']) > 0:
+            state_array[0][2] = 1
+        if 'Bottom of rock pile' in obj_loc_dict and len(obj_loc_dict['Bottom of rock pile']['small rock']) > 0:
+            state_array[1][0] = 1
+        if 'Bottom of rock pile' in obj_loc_dict and len(obj_loc_dict['Bottom of rock pile']['large rock']) > 0:
+            state_array[1][1] = 1
+        if 'Bottom of rock pile' in obj_loc_dict and len(obj_loc_dict['Bottom of rock pile']['brown rock']) > 0:
+            state_array[1][2] = 1
+        if 'Left side of rock pile' in obj_loc_dict and len(obj_loc_dict['Left side of rock pile']['small rock']) > 0:
+            state_array[2][0] = 1
+        if 'Left side of rock pile' in obj_loc_dict and len(obj_loc_dict['Left side of rock pile']['large rock']) > 0:
+            state_array[2][1] = 1
+        if 'Left side of rock pile' in obj_loc_dict and len(obj_loc_dict['Left side of rock pile']['brown rock']) > 0:
+            state_array[2][2] = 1
+        if 'Right side of rock pile' in obj_loc_dict and len(obj_loc_dict['Right side of rock pile']['small rock']) > 0:
+            state_array[3][0] = 1
+        if 'Right side of rock pile' in obj_loc_dict and len(obj_loc_dict['Right side of rock pile']['large rock']) > 0:
+            state_array[3][1] = 1
+        if 'Right side of rock pile' in obj_loc_dict and len(obj_loc_dict['Right side of rock pile']['brown rock']) > 0:
+            state_array[3][2] = 1
+        if 'Left side of field' in obj_loc_dict and len(obj_loc_dict['Left side of field']['small rock']) > 0:
+            state_array[4][0] = 1
+        if 'Left side of field' in obj_loc_dict and len(obj_loc_dict['Left side of field']['large rock']) > 0:
+            state_array[4][1] = 1
+        if 'Left side of field' in obj_loc_dict and len(obj_loc_dict['Left side of field']['brown rock']) > 0:
+            state_array[4][2] = 1
+        if 'Right side of field' in obj_loc_dict and len(obj_loc_dict['Right side of field']['small rock']) > 0:
+            state_array[5][0] = 1
+        if 'Right side of field' in obj_loc_dict and len(obj_loc_dict['Right side of field']['large rock']) > 0:
+            state_array[5][1] = 1
+        if 'Right side of field' in obj_loc_dict and len(obj_loc_dict['Right side of field']['brown rock']) > 0:
+            state_array[5][2] = 1
+
+        # Store location of human/self
+
+        # Record previous human actions
+
+        return state_array
+
 # Functions that deal with learning
     def choose_cp_from_list(self, cp_list):
-        # Some algorithm that is able to deal with several CPs that hold, possibly RL
-        chosen_cp = cp_list[0]
+        # Check if this state has been visited before
+        current_state = self.translate_state()
+        # Store current state as the starting state for this decision
+        self.starting_state = current_state
+        self.starting_state_distance = self.distance_goal_state()
+        if current_state in self.visited_states:
+            # If state was visited before, check how often it was visited TODO
+            # Choose CP based on expected reward (with exploration rate based on uncertainty?), limit to applicable CPs
+            q_values = self.q_table_cps.loc[str(current_state)]
+            q_values = q_values[cp_list]
+            chosen_cp = q_values.idxmax()
+        else:
+            # If state was not visited before, find the nearest state that was visited for which these CPs also hold
+            nearest_state = self.nearest_visited_state()
+            if nearest_state:
+                # Choose CP based on expected reward in that state (this is like an educated guess based on similarity)
+                q_values = self.q_table_cps.loc[self.q_table_cps['state'] == nearest_state]
+                chosen_cp = q_values.idxmax(axis=1)
+            else:
+                # If no nearest state, choose randomly and initialize Q-values for this state
+                self.q_table_cps.loc[len(self.q_table_cps.index)] = 0
+                #self.q_table_cps.at[len(self.q_table_cps.index)-1, 'state'] = current_state
+                self.q_table_cps.rename(index={len(self.q_table_cps.index)-1:str(current_state)}, inplace=True)
+                self.visited_states.append(current_state)
+                chosen_cp = cp_list[0]
+                print(self.q_table_cps)
+
         return chosen_cp
+
+    def basic_behavior(self):
+        # Check if this state has been visited before
+        # If state was visited before, check how often it was visited
+        # Choose action based on expected reward (with exploration rate based on uncertainty?)
+
+        # If state was not visited before, find the nearest state that was visited
+        # Choose CP based on expected reward in that state (this is like an educated guess based on similarity)
+
+        return
+
+    def reward_update_cps(self):
+        # Do the reward updating for the CP that we just executed
+        # Reward based on three factors:
+        # 1. Decrease in distance to goal state (compute when starting, compute when finishing)
+        # 2. Discounted by combined idle time
+        # 3. Discounted by victim harm
+
+        # Decrease in distance to goal state
+        distance_decrease = self.starting_state_distance - self.distance_goal_state()
+
+        # Idle time of the agent is idle ticks minus move and productive ticks
+        idle_time = self.idle_ticks - self.nr_move_actions - self.nr_productive_actions
+
+        # Number of times victim was harmed multiplied by a severance factor
+        victim_harm = self.victim_harm * 5
+
+        total_reward = distance_decrease - victim_harm - idle_time
+
+        self.q_table_cps.at[str(self.starting_state), self.executing_cp] = total_reward
+        print(self.q_table_cps)
+
+        return
+
+    def reward_update_basic(self):
+        # Do the reward updating for the action that we just executed
+        return
+
+    def nearest_visited_state(self):
+        # Given the current state, find the nearest visited state
+        # If talking about a CP choice, find the nearest visited state in which the current CPs also hold
+        # (just remove all states in which the conditions do not hold and calculate distance after)
+
+        # Use deepdiff library to check similarities, see https://pythonsansar.com/how-to-check-if-two-dictionaries-are-equal-in-python/
+
+        state = None
+        return state
+
+    def record_progress(self, reset):
+        # Function to record changes in the environment that indicate progress
+
+        all_rocks = self.state[{'is_movable': True}]
+        object_ids = []
+        if isinstance(all_rocks, list):
+            for rock in all_rocks:
+                object_ids.append(rock['obj_id'])
+
+        if reset:
+            # Reset all variables
+            self.nr_ticks = 0
+            self.nr_move_actions = 0
+            self.nr_productive_actions = 0
+            self.victim_harm = 0
+            self.idle_ticks = 0
+        else:
+            # Increment relevant variables
+            self.nr_ticks = self.nr_ticks + 1
+            self.victim_harm = self.victim_harm + self.victim_crash(object_ids)
+
+        return
+
+# Helper functions
+    def message_handling(self):
+
+        for message in self.received_messages:
+
+            # Old message handling code, TODO will need to be adapted
+            if message == 'FAIL' and not self.final_update:
+                print("FINAL Q UPDATE")
+                last_message = float(self.received_messages[-2])
+                done_action = self.action_history[-1][1]
+                done_state = self.action_history[-1][0]
+                print(self.q_table)
+                self.update_q_table(done_state, done_action, done_action, done_state, last_message)
+                print(self.q_table)
+                self.final_update = True
+            elif not self.final_update:
+                try:
+                    last_message = float(message)
+                except:
+                    # Make sure we store only 5 past human actions max
+                    if len(self.past_human_actions) > 4:
+                        self.past_human_actions.pop(0)
+                    self.past_human_actions.append(message)
+
+            # After dealing with each message, remove it
+            self.received_messages.remove(message)
+
+        return
+
+    def victim_crash(self, object_ids):
+        hits = 0
+        object_locs = []
+        for object_id in object_ids:
+            loc = self.state[object_id]['location']
+            object_locs.append(loc)
+            # Check if the object existed in the field before
+            if object_id in self.previous_objs:
+                # Check if the object changed location
+                if loc is not self.previous_locs[self.previous_objs.index(object_id)]:
+                    # Check if the new location is part of the victim
+                    victim_locs = [(8,9), (8,10), (9,9), (9,10), (10,9), (10,10), (11,9), (11,10)]
+                    if loc in victim_locs:
+                        hits = hits + 1
+
+        self.previous_objs = object_ids
+        self.previous_locs = object_locs
+        return hits
+
+    def distance_goal_state(self):
+        # Calculating a distance metric to the goal state, purely based on the amount of grid locations that still need
+        # to be emptied before the task is done.
+        distance = 0
+
+        distance_1 = 0
+
+        distance_2 = 0
+
+        goal_state_base = [(8, 9), (8, 10), (9, 9), (9, 10), (10, 9), (10, 10), (11, 9), (11, 10)]
+
+        goal_state_1 = [(5, 7), (5, 8), (5, 9), (5, 10), (6, 7), (6, 8), (6, 9), (6, 10), (7, 7), (7, 8), (7, 9), (7, 10)]
+
+        goal_state_2 = [(12, 7), (12, 8), (12, 9), (12, 10), (13, 7), (13, 8), (13, 9), (13, 10), (14, 7), (14, 8), (14, 9), (14, 10)]
+
+        for loc_to_check in goal_state_base:
+            objects_found = self.state[{"location": loc_to_check}]
+            if objects_found is not None:
+                distance = distance + 1
+
+        for loc_to_check in goal_state_1:
+            objects_found = self.state[{"location": loc_to_check}]
+            if objects_found is not None:
+                distance_1 = distance_1 + 1
+
+        for loc_to_check in goal_state_2:
+            objects_found = self.state[{"location": loc_to_check}]
+            if objects_found is not None:
+                distance_2 = distance_2 + 1
+
+        if distance_1 < distance_2:
+            distance = distance + distance_1
+        else:
+            distance = distance + distance_2
+
+        return distance
 
