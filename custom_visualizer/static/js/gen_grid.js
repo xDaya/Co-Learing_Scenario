@@ -182,6 +182,24 @@ function draw(state, world_settings, new_messages, accessible_chatrooms, new_tic
                 style_object = false;
             }
 
+            // Check for existing CPs to show in the GUI
+            if (objID == "ontologygod"){
+                if (obj['cp_list']){
+                    // Code to make it appear in GUI
+                    for (let i = 0; i < obj['cp_list'].length; i++){
+                        //Dummy code to test
+
+
+                        //added_button = document.createElement('div');
+                        //added_button.className = 'added_pattern';
+                        //added_button.innerHTML = obj['cp_list'][i];
+
+                        //container_block = document.getElementById('saved_box');
+                        //container_block.appendChild(added_button);
+                    }
+                }
+            }
+
         }
 
         // set the visualization depth of this object

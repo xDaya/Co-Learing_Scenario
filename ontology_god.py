@@ -39,7 +39,7 @@ class OntologyGod(AgentBrain):
                         cp_retrieved = answer.get('name')._value
                         if cp_retrieved not in self.cp_list:
                             self.cp_list.append(cp_retrieved)
-
+        
         print('Ontology God Initialized')
 
     def filter_observations(self, state):
@@ -78,24 +78,6 @@ class OntologyGod(AgentBrain):
 
         # State now only contains rocks (without parts), selector agents and victim
         return state
-
-    def first_tick(self, state):
-        # Code that runs only during the first tick
-
-        # At the first tick, check if there are new CPs that weren't yet shown in the GUI. Retrieve them and store
-        with TypeDB.core_client("localhost:1729") as client:
-            with client.session("CP_ontology", SessionType.DATA) as session:
-                # Session is opened, now specify that it's a read session
-                with session.transaction(TransactionType.READ) as read_transaction:
-                    answer_iterator = read_transaction.query().match(
-                        "match $x isa collaboration_pattern, has name $name; get $name;")
-
-                    for answer in answer_iterator:
-                        cp_retrieved = answer.get('name')._value
-                        if cp_retrieved not in self.cp_list:
-                            self.cp_list.append(cp_retrieved)
-
-        return
 
     def decide_on_action(self, state):
         action_kwargs = {}

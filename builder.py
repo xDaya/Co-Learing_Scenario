@@ -116,7 +116,7 @@ def create_builder():
     #lvl_practice(factory)              # Practice scenario
 
 
-    #lvl_dont_break(factory)            # First scenario
+    lvl_dont_break(factory)            # First scenario
 
     #lvl_dont_break_2(factory)          # Don't break 2
 
@@ -134,7 +134,7 @@ def create_builder():
 
     #lvl_brown_rock_3(factory)          # Brown rock 3
 
-    lvl_building_bridges_edited(factory)   # Brown rock 4
+    #lvl_building_bridges_edited(factory)   # Brown rock 4
 
     factory.add_object([2,0], name="goal_reached_img", img_name="/images/transparent.png", callable_class=GoalReachedObject, visualize_depth=300)
 

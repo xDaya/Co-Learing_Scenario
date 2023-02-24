@@ -10,6 +10,7 @@ import numpy as np
 import pandas as pd
 
 
+
 class RobotPartner(AgentBrain):
 
     def __init__(self, move_speed=5):
@@ -39,6 +40,8 @@ class RobotPartner(AgentBrain):
         self.end_conditions = []
         self.executing_cp = False
 
+        self.executing_action = False
+
         self.cp_actions = [] # Keeps track of the actions still left in the CP
 
         self.current_human_action = None
@@ -47,7 +50,7 @@ class RobotPartner(AgentBrain):
 
         # Global variables for learning algorithms
         self.q_table_cps = pd.DataFrame()
-        self.q_table_basic = pd.DataFrame(columns=['state', 'Move back and forth', 'Stand Still', 'Pick up', 'Drop', 'Break'])
+        self.q_table_basic = pd.DataFrame(columns=['Move back and forth', 'Stand Still', 'Pick up', 'Drop', 'Break'])
         self.visited_states = []
         self.starting_state = []
         self.starting_state_distance = 0
@@ -89,13 +92,13 @@ class RobotPartner(AgentBrain):
             self.q_table_cps[cp] = np.nan
 
         # Remove columns with None as name for testing phase
-        self.q_table_cps.drop('None', axis=1, inplace=True)
+        #self.q_table_cps.drop('None', axis=1, inplace=True)
 
         # Start with some wait actions
-        #self.wait_action()
-        #self.wait_action()
-        #self.wait_action()
-        #self.wait_action()
+        #self.wait_action(None)
+        #self.wait_action(None)
+        #self.wait_action(None)
+        #self.wait_action(None)
 
     def filter_observations(self, state):
         self.state_tracker.update(state)
@@ -409,6 +412,7 @@ class RobotPartner(AgentBrain):
         dist_list = []
         chosen_part = None
         for object_id in object_ids:
+            object_id = object_id['obj_id']
             if "obstruction" in state[object_id]:
                 continue
             if "large" in state[object_id]:
@@ -450,7 +454,16 @@ class RobotPartner(AgentBrain):
         self.actionlist[1].append(pickup_kwargs)
         return
 
-    def wait_action(self):
+    def wait_action(self, location):
+        # Check if there is a specific location in which we should wait
+        if location is not None:
+            # Then add move actions first
+            self.navigator.add_waypoint(location)
+            route_actions = list(self.navigator._Navigator__get_route(self.state_tracker).values())
+            for action in route_actions:
+                self.actionlist[0].append(action)
+                self.actionlist[1].append({})
+
         pickup_kwargs = {}
         self.actionlist[0].append(Idle.__name__)
         self.actionlist[1].append(pickup_kwargs)
@@ -491,7 +504,7 @@ class RobotPartner(AgentBrain):
                     self.drop_action(state, None)
                     self.previous_exec = "drop"
                 else:
-                    self.wait_action()
+                    self.wait_action(None)
             # If there are objects left
             else:
                 chosen_object = obj[y_loc_list.index(min(y_loc_list))]  # Pick object with smallest y
@@ -561,7 +574,7 @@ class RobotPartner(AgentBrain):
                     self.pickup_large_action(object_ids, state, self.human_location[0])
         else:
             # If the human is moving around, wait for them to act
-            self.wait_action()
+            self.wait_action(None)
         return
 
     def policy3(self, object_ids, state):
@@ -632,6 +645,12 @@ class RobotPartner(AgentBrain):
         # Record task progress
         self.record_progress(False)
 
+        # If the actionlist ends up empty, that means we're done executing an action.
+        # If that was an action from the basic behavior, we should do the reward update here
+        if len(self.actionlist[0]) == 0 and self.executing_action:
+            self.reward_update_basic()
+            self.executing_action = False
+
         # Check the conditions of stored CPs
         #self.check_cp_conditions(self.start_conditions)
         # Start by checking if the agent is currently executing a CP
@@ -664,48 +683,14 @@ class RobotPartner(AgentBrain):
                         self.cp_actions.remove(self.current_robot_action)
                         self.current_robot_action = None
 
+                        # If the CP actions list ends up empty here, we should do a reward update
+                        if len(self.cp_actions) == 0:
+                            self.reward_update_cps()
+
                     return action, action_kwargs  # Returned here, so code underneath is then not executed
                 # If no action was translated, look at the CP to see what should be the next action to be translated
                 else:
                     self.execute_cp(self.executing_cp, state)
-                '''else:
-                    # This means we are done with our previous action, so we update Q-table
-                    current_state = self.filter_observations_learning(state)
-                    #print(current_state)
-                    done_action = 0
-                    done_state = current_state
-                    if self.action_history:
-                        done_action = self.action_history[-1][1]
-                        done_state = self.action_history[-1][0]
-                    if frozenset(current_state.items()) not in self.q_table:
-                        # State does not exist in q-table, so we create a new entry with all zero's
-                        self.q_table[frozenset(current_state.items())] = [0] * 3
-                    # Pick a new action based on the state we're currently in
-                    q_values = self.q_table[frozenset(current_state.items())]
-
-                    if self.previous_phase is None:                                         # If this is the start of the game
-                        self.previous_phase = self.filter_observations_learning(state)
-                        chosen_action = np.argmax(q_values)
-                    elif self.previous_phase == self.filter_observations_learning(state):   # If there is no phase change
-                        chosen_action = self.action_history[-1][1]
-                    else:                                                                   # If the phase changed
-                        print("NEW PHASE")
-                        chosen_action = np.argmax(q_values)
-                        self.update_q_table(current_state, chosen_action, done_action, done_state, last_message)
-                        self.previous_phase = self.filter_observations_learning(state)
-
-                    if chosen_action == 0:
-                        self.policy1(object_ids, state)
-                        print("P1")
-                    elif chosen_action == 1:
-                        self.policy2(object_ids, state)
-                        print("P2")
-                    elif chosen_action == 2:
-                        self.policy3(object_ids, state)
-                        print("P3")
-
-                    # Safe into the action history
-                    self.action_history.append([current_state, chosen_action])'''
         else:
             # Not currently executing a CP
             #print("Not working with a CP currently!")
@@ -713,7 +698,13 @@ class RobotPartner(AgentBrain):
             # Check if the start conditions for any existing CPs hold
             cps_hold = self.check_cp_conditions(self.start_conditions)
             if len(cps_hold) > 0:
-                # This means there are CPs that are applicable. Check how many.
+                # This means there are CPs that are applicable and that should be executed.
+                # If we were still executing a Basic Behavior Action, we should now end that, reset action list and do reward update
+                if self.executing_action:
+                    self.actionlist = [[], []]
+                    self.reward_update_basic()
+                    self.executing_action = False
+                # Check how many CPs hold.
                 if len(cps_hold) == 1:
                     # Only one CP is applicable, so we can directly start executing it
                     print("Only one CP holds: " + cps_hold[0])
@@ -729,9 +720,19 @@ class RobotPartner(AgentBrain):
             else:
                 # This means that there are no CPs that are applicable to the current situation
                 print("No applicable CPs, do as normal.")
-                self.basic_behavior()
+                # Check if there are still actions in the action list
+                if len(self.actionlist[0]) != 0:
+                    # This means that an action is still being executed
+                    action = self.actionlist[0].pop(0)
+                    action_kwargs = self.actionlist[1].pop(0)
+                    action_kwargs['action_duration'] = self.move_speed
 
-        #self.wait_action()
+                    return action, action_kwargs  # Returned here, so code underneath is then not executed
+                else:
+                    # If not, choose a new action
+                    self.basic_behavior()
+
+        #self.wait_action(None)
         #print(self.q_table)
         # Record some progress variables
         if action:
@@ -946,8 +947,12 @@ class RobotPartner(AgentBrain):
                             self.current_human_action = None
                             # Also empty the past human actions list as we're moving to a new cycle
                             self.past_human_actions = []
+
+                            # If the CP actions list ends up empty here, we should do a reward update
+                            if len(self.cp_actions) == 0:
+                                self.reward_update_cps()
                 # In the meantime, the robot should idle and wait for the human to finish their task
-                #self.wait_action()
+                #self.wait_action(None)
             else:
                 print("Find the next actions")
                 # If none of the agents have something to do, check for the next tasks
@@ -1177,12 +1182,12 @@ class RobotPartner(AgentBrain):
                     print("Can't perform this action, object doesn't exist.")
                 return
         elif 'Stand still' in task_name:
-            # We shouldn't do anything
-            self.wait_action()
+            # We should move to the location specified and stand still there
+            self.wait_action(self.translate_loc_backwards(task_location))
             return
         elif 'Drop' in task_name:
             # We have to drop a rock
-            self.drop_action(state, None) # TODO make sure the right arguments can be passed
+            self.drop_action(state, self.translate_loc_backwards(task_location))
             return
         elif 'Break' in task_name:
             # We have to break a rock
@@ -1211,7 +1216,7 @@ class RobotPartner(AgentBrain):
                 print("Can't perform this action, object doesn't exist.")
             return
         elif 'Move back and forth' in task_name:
-            # We have to move back and forth; for this we need to create a new action
+            # TODO We have to move back and forth; for this we need to create a new action
             return
 
     def translate_state(self):
@@ -1226,40 +1231,43 @@ class RobotPartner(AgentBrain):
         small_rocks = self.state[{'name': 'rock1'}]
 
         # For all rock objects, check at what locations they are
-        for rock in brown_rocks:
-            locations = self.translate_location(rock['obj_id'], 'brown')
-            # Check if that location is already in the dict. If yes, add under the right object type
-            for location in locations:
-                if location in obj_loc_dict:
-                    obj_loc_dict[location]['brown rock'].append(rock)
-                # If no, add the location to the dict first, then add object under the right object type
-                else:
-                    obj_loc_dict[location] = {'small rock': [], 'large rock': [], 'brown rock': []}
-                    obj_loc_dict[location]['brown rock'].append(rock)
+        if brown_rocks:
+            for rock in brown_rocks:
+                locations = self.translate_location(rock['obj_id'], 'brown')
+                # Check if that location is already in the dict. If yes, add under the right object type
+                for location in locations:
+                    if location in obj_loc_dict:
+                        obj_loc_dict[location]['brown rock'].append(rock)
+                    # If no, add the location to the dict first, then add object under the right object type
+                    else:
+                        obj_loc_dict[location] = {'small rock': [], 'large rock': [], 'brown rock': []}
+                        obj_loc_dict[location]['brown rock'].append(rock)
 
         # For all rock objects, check at what location they are
-        for rock in large_rocks:
-            locations = self.translate_location(rock['obj_id'], 'large')
-            # Check if that location is already in the dict. If yes, add under the right object type
-            for location in locations:
-                if location in obj_loc_dict:
-                    obj_loc_dict[location]['large rock'].append(rock)
-                # If no, add the location to the dict first, then add object under the right object type
-                else:
-                    obj_loc_dict[location] = {'small rock': [], 'large rock': [], 'brown rock': []}
-                    obj_loc_dict[location]['large rock'].append(rock)
+        if large_rocks:
+            for rock in large_rocks:
+                locations = self.translate_location(rock['obj_id'], 'large')
+                # Check if that location is already in the dict. If yes, add under the right object type
+                for location in locations:
+                    if location in obj_loc_dict:
+                        obj_loc_dict[location]['large rock'].append(rock)
+                    # If no, add the location to the dict first, then add object under the right object type
+                    else:
+                        obj_loc_dict[location] = {'small rock': [], 'large rock': [], 'brown rock': []}
+                        obj_loc_dict[location]['large rock'].append(rock)
 
         # For all rock objects, check at what location they are
-        for rock in small_rocks:
-            locations = self.translate_location(rock['obj_id'], 'small')
-            # Check if that location is already in the dict. If yes, add under the right object type
-            for location in locations:
-                if location in obj_loc_dict:
-                    obj_loc_dict[location]['small rock'].append(rock)
-                # If no, add the location to the dict first, then add object under the right object type
-                else:
-                    obj_loc_dict[location] = {'small rock': [], 'large rock': [], 'brown rock': []}
-                    obj_loc_dict[location]['small rock'].append(rock)
+        if small_rocks:
+            for rock in small_rocks:
+                locations = self.translate_location(rock['obj_id'], 'small')
+                # Check if that location is already in the dict. If yes, add under the right object type
+                for location in locations:
+                    if location in obj_loc_dict:
+                        obj_loc_dict[location]['small rock'].append(rock)
+                    # If no, add the location to the dict first, then add object under the right object type
+                    else:
+                        obj_loc_dict[location] = {'small rock': [], 'large rock': [], 'brown rock': []}
+                        obj_loc_dict[location]['small rock'].append(rock)
 
         # Translation for simpler state
         state_array = [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]] # State with no rocks
@@ -1307,6 +1315,65 @@ class RobotPartner(AgentBrain):
 
         return state_array
 
+    def translate_loc_backwards(self, location):
+        coordinates = ()
+
+        if location == 'Top of rock pile':
+            coordinates = ()
+            poss_coordinates = []
+            for x in list(range(5, 14)):
+                for y in list(range(0, 10)):
+                    if self.state[{"location": (x, y)}] is not None:
+                        poss_coordinates.append((x, y))
+                        break
+            coordinates = random.choice(poss_coordinates)
+        elif location == 'Above rock pile':
+            coordinates = ()
+            poss_coordinates = []
+            for x in list(range(5, 14)):
+                for y in list(range(0, 10)):
+                    if self.state[{"location": (x, y)}] is not None:
+                        break
+                    else:
+                        poss_coordinates.append((x, y))
+            coordinates = random.choice(poss_coordinates)
+        elif location == 'Bottom of rock pile':
+            poss_coordinates = [(5, 10), (6, 10), (7, 10), (8, 10), (9, 10), (10, 10), (11, 10), (12, 10), (13, 10), (14, 10)]
+            for loc in poss_coordinates:
+                if self.state[{"location": loc}] is None:
+                    poss_coordinates.remove(loc)
+            coordinates = random.choice(poss_coordinates)
+        elif location == 'Left side of rock pile':
+            coordinates = ()
+            poss_coordinates = []
+            poss_xloc = list(range(5, 9))
+            poss_yloc = list(range(0, 10))
+            for x in poss_xloc:
+                for y in poss_yloc:
+                    if self.state[{"location": (x, y)}] is not None:
+                        poss_coordinates.append((x, y))
+            coordinates = random.choice(poss_coordinates)
+        elif location == 'Right side of rock pile':
+            coordinates = ()
+            poss_coordinates = []
+            poss_xloc = list(range(5, 9))
+            poss_yloc = list(range(0, 10))
+            for x in poss_xloc:
+                for y in poss_yloc:
+                    if self.state[{"location": (x, y)}] is not None:
+                        poss_coordinates.append((x, y))
+            coordinates = random.choice(poss_coordinates)
+        elif location == 'Left side of field':
+            poss_xloc = list(range(0, 4))
+            poss_yloc = list(range(0, 10))
+            coordinates = (random.choice(poss_xloc), random.choice(poss_yloc))
+        elif location == 'Right side of field':
+            poss_xloc = list(range(15, 20))
+            poss_yloc = list(range(0, 9))
+            coordinates = (random.choice(poss_xloc), random.choice(poss_yloc))
+
+        return coordinates
+
 # Functions that deal with learning
     def choose_cp_from_list(self, cp_list):
         # Check if this state has been visited before
@@ -1339,12 +1406,48 @@ class RobotPartner(AgentBrain):
         return chosen_cp
 
     def basic_behavior(self):
+        actions = ['Move back and forth', 'Stand Still', 'Pick up', 'Drop', 'Break']
         # Check if this state has been visited before
-        # If state was visited before, check how often it was visited
-        # Choose action based on expected reward (with exploration rate based on uncertainty?)
+        current_state = self.translate_state()
+        # Store current state as the starting state for this decision
+        self.starting_state = current_state
+        self.starting_state_distance = self.distance_goal_state()
+        if current_state in self.visited_states:
+            # If state was visited before, check how often it was visited TODO
+            # Choose action based on expected reward (with exploration rate based on uncertainty?)
+            q_values = self.q_table_basic.loc[str(current_state)].astype('int')
+            chosen_action = q_values.idxmax()
+        else:
+            # If state was not visited before, find the nearest state that was visited
+            nearest_state = self.nearest_visited_state()
+            if nearest_state:
+                # Choose action based on expected reward in that state (this is like an educated guess based on similarity)
+                q_values = self.q_table_basic.loc[str(nearest_state)].astype('int')
+                chosen_action = q_values.idxmax()
+            else:
+                # If no nearest state, choose randomly and initialize Q-values for this state
+                self.q_table_basic.loc[len(self.q_table_basic.index)] = 0
+                self.q_table_basic.rename(index={len(self.q_table_basic.index) - 1:str(current_state)}, inplace=True)
+                self.visited_states.append(current_state)
+                chosen_action = random.choice(actions)
+                print(self.q_table_basic)
 
-        # If state was not visited before, find the nearest state that was visited
-        # Choose CP based on expected reward in that state (this is like an educated guess based on similarity)
+        print(chosen_action)
+
+        # Now we have chosen an action, translate and move to executing that action
+        if chosen_action == "Stand Still":
+            self.wait_action(None)
+        elif chosen_action == "Pick up":
+            # TODO Distinguish between Large and Small pick up actions, based on some rule
+            self.pickup_action(self.state[{'name': 'rock1'}], self.state)
+        elif chosen_action == "Drop":
+            self.drop_action(self.state, None)
+        elif chosen_action == "Break":
+            self.break_action(self.state[{'large': True, 'is_movable': True}] + self.state[{'img_name': "/images/transparent.png"}], self.state, None)
+        elif chosen_action == "Move back and forth":
+            print("Move back and forth - to define")
+
+        self.executing_action = chosen_action
 
         return
 
@@ -1352,7 +1455,7 @@ class RobotPartner(AgentBrain):
         # Do the reward updating for the CP that we just executed
         # Reward based on three factors:
         # 1. Decrease in distance to goal state (compute when starting, compute when finishing)
-        # 2. Discounted by combined idle time
+        # 2. Discounted by (combined) idle time
         # 3. Discounted by victim harm
 
         # Decrease in distance to goal state
@@ -1373,6 +1476,27 @@ class RobotPartner(AgentBrain):
 
     def reward_update_basic(self):
         # Do the reward updating for the action that we just executed
+        # Reward based on two factors:
+        # 1. Was there a state transition? Zero for no, positive for yes
+        # 2. Discounted by victim harm
+
+        basic_reward = 0
+        current_state = self.translate_state()
+        if current_state == self.starting_state:
+            # If the state is not the same, we have a state transition, which means we get a positive reward
+            basic_reward = -1
+        else:
+            basic_reward = 5
+
+        victim_harm = self.victim_harm * 5
+
+        total_reward = basic_reward - victim_harm
+        if str(self.starting_state) in self.q_table_basic.index:
+            self.q_table_basic.at[str(self.starting_state), self.executing_action] = total_reward
+        else:
+            self.q_table_basic.at[str(self.starting_state)] = 0
+            self.q_table_basic.at[str(self.starting_state), self.executing_action] = total_reward
+
         return
 
     def nearest_visited_state(self):
@@ -1380,10 +1504,20 @@ class RobotPartner(AgentBrain):
         # If talking about a CP choice, find the nearest visited state in which the current CPs also hold
         # (just remove all states in which the conditions do not hold and calculate distance after)
 
-        # Use deepdiff library to check similarities, see https://pythonsansar.com/how-to-check-if-two-dictionaries-are-equal-in-python/
+        nearest_state = None
+        similarities = []
 
-        state = None
-        return state
+        current_state = self.translate_state()
+        flattened_state = np.array(current_state).flatten()
+
+        for state in self.visited_states:
+            similarity = np.sum(flattened_state == np.array(state).flatten())
+            similarities.append(similarity)
+
+        if len(similarities) > 0:
+            nearest_state = self.visited_states[similarities.index(max(similarities))]
+
+        return nearest_state
 
     def record_progress(self, reset):
         # Function to record changes in the environment that indicate progress
