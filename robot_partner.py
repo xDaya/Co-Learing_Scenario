@@ -29,6 +29,7 @@ class RobotPartner(AgentBrain):
         self.previous_phase = None
         self.final_update = False
         self.alpha = 0.5
+        self.gamma = 0.6
         self.run_number = 0
 
         #with open('qtable_backup.pkl', 'rb') as f:
@@ -50,6 +51,8 @@ class RobotPartner(AgentBrain):
 
         # Global variables for learning algorithms
         self.q_table_cps = pd.DataFrame()
+        self.q_table_cps_runs = pd.DataFrame()
+        self.nr_chosen_cps = 0
         self.q_table_basic = pd.DataFrame(columns=['Move back and forth', 'Stand Still', 'Pick up', 'Drop', 'Break'])
         self.visited_states = []
         self.starting_state = []
@@ -90,6 +93,7 @@ class RobotPartner(AgentBrain):
         print(self.end_conditions)
         for cp in self.cp_list:
             self.q_table_cps[cp] = np.nan
+            self.q_table_cps_runs[cp] = np.nan
 
         # Remove columns with None as name for testing phase
         #self.q_table_cps.drop('None', axis=1, inplace=True)
@@ -320,20 +324,21 @@ class RobotPartner(AgentBrain):
         y_loc_list = []
         dist_list = []
         chosen_part = None
+        print(object_ids)
         for object_id in object_ids:
-            if "obstruction" in state[object_id]:
+            if "obstruction" in object_id:
                 continue
-            if state[object_id]['location'][0] >= 15 or state[object_id]['location'][0] < 5:
+            if object_id['location'][0] >= 15 or object_id['location'][0] < 5:
                 continue
-            if "large" in state[object_id]:
-                y_loc_list.append(state[object_id]['location'][1])
-                large_obj.append(object_id)
+            if "large" in object_id:
+                y_loc_list.append(object_id['location'][1])
+                large_obj.append(object_id['obj_id'])
                 if location is not None:
-                    dist = int(np.ceil(np.linalg.norm(np.array(state[object_id]['location'])
+                    dist = int(np.ceil(np.linalg.norm(np.array(object_id['location'])
                                                   - np.array(location))))
                     dist_list.append(dist)
-            if "bound_to" in state[object_id]:
-                parts_list.append(object_id)
+            if "bound_to" in object_id:
+                parts_list.append(object_id['obj_id'])
 
         if not y_loc_list:
             return
@@ -719,7 +724,7 @@ class RobotPartner(AgentBrain):
                     self.execute_cp(self.executing_cp, state)
             else:
                 # This means that there are no CPs that are applicable to the current situation
-                print("No applicable CPs, do as normal.")
+                #print("No applicable CPs, do as normal.")
                 # Check if there are still actions in the action list
                 if len(self.actionlist[0]) != 0:
                     # This means that an action is still being executed
@@ -822,8 +827,12 @@ class RobotPartner(AgentBrain):
                                     items_contained[item_retrieved] = {attribute_type: attribute_value}
 
                             # Store that as a single condition if it is not yet in the overall condition list
-                            conditions_np = np.array(start_end)
-                            if len(start_end) > 0 and items_contained in conditions_np[:, 0]:
+                            print('ITEMS')
+                            print(items_contained)
+                            print('START END')
+                            print([val[0] for val in start_end])
+                            conditions_np = np.array([val[0] for val in start_end])
+                            if len(start_end) > 0 and items_contained in conditions_np:
                                 index = np.where(conditions_np == items_contained)[0][0]
                                 start_end[index][1].append(cp)
                             else:
@@ -853,16 +862,17 @@ class RobotPartner(AgentBrain):
             if 'location' in condition[0]:
                 location = condition[0]['location']
 
-            # Check what type of object we're dealing with, small, large or brown
-            if 'brown' in object['color']:
-                object_type = 'brown'
-                relevant_objects = self.state[{"obstruction": True}]
-            elif 'large' in object['size']:
-                object_type = 'large'
-                relevant_objects = self.state[{'large': True, 'is_movable': True}]
-            elif 'small' in object['size']:
-                object_type = 'small'
-                relevant_objects = self.state[{'name': 'rock1'}]
+            if object is not None:
+                # Check what type of object we're dealing with, small, large or brown
+                if 'brown' in object['color']:
+                    object_type = 'brown'
+                    relevant_objects = self.state[{"obstruction": True}]
+                elif 'large' in object['size']:
+                    object_type = 'large'
+                    relevant_objects = self.state[{'large': True, 'is_movable': True}]
+                elif 'small' in object['size']:
+                    object_type = 'small'
+                    relevant_objects = self.state[{'name': 'rock1'}]
 
             # Check where this type of object is located, and whether that is the same as the location in the condition
             if relevant_objects:
@@ -904,7 +914,7 @@ class RobotPartner(AgentBrain):
                         # This means there are other conditions. Check if all of them are in the conditions_hold list
                         all_conditions = True
                         for index in other_conditions:
-                            if start_end[index][0] not in np.asarray(conditions_hold)[:,0]:
+                            if start_end[index][0] not in np.asarray([val[0] for val in conditions_hold]):
                                 all_conditions = False
                         # If all of them are, CP is valid
                         if all_conditions:
@@ -931,11 +941,11 @@ class RobotPartner(AgentBrain):
                 # If the robot is not doing anything, but the human is supposed to do something, check if they did it yet
                 #print("Check if the human did their task")
                 if len(self.past_human_actions) > 0:
-                    if self.current_human_action['task']['task_name'] in np.array(self.past_human_actions)[:, 0]:
+                    if self.current_human_action['task']['task_name'] in np.array([val[0] for val in self.past_human_actions]):
                         # This means that the action we're looking for is in the past 5 actions of the human.
                         # Now we need to check if the location is also present
                         location_present = False
-                        human_action_indices = np.where(np.array(self.past_human_actions)[:, 0] == self.current_human_action['task']['task_name'])[0]
+                        human_action_indices = np.where(np.array([val[0] for val in self.past_human_actions]) == self.current_human_action['task']['task_name'])[0]
                         for index in human_action_indices:
                             if self.current_human_action['location']['range'] in self.past_human_actions[index][1]:
                                 location_present = True
@@ -1127,7 +1137,12 @@ class RobotPartner(AgentBrain):
         task_location = action['location']['range']
 
         if 'Pick up' in task_name:
-            # This is a pick up action! Check if we're dealing with a large or a small rock
+            # This is a pick up action!
+            # If hands are full, drop first to make space
+            print(len(state[self.agent_id]['is_carrying']))
+            if len(state[self.agent_id]['is_carrying']) > 4:
+                self.drop_action(state, None)
+            # Check if we're dealing with a large or a small rock
             object_size = action['resource']['size']
             if 'large' in object_size:
                 # We have to pick up a large rock
@@ -1384,7 +1399,8 @@ class RobotPartner(AgentBrain):
         if current_state in self.visited_states:
             # If state was visited before, check how often it was visited TODO
             # Choose CP based on expected reward (with exploration rate based on uncertainty?), limit to applicable CPs
-            q_values = self.q_table_cps.loc[str(current_state)]
+            q_values = self.q_table_cps.loc[str(current_state)]/self.q_table_cps_runs.loc[str(current_state)] + \
+                       np.sqrt(2 * np.log(self.nr_chosen_cps + 1) / (self.q_table_cps_runs + 1e-6))
             q_values = q_values[cp_list]
             chosen_cp = q_values.idxmax()
         else:
@@ -1392,16 +1408,23 @@ class RobotPartner(AgentBrain):
             nearest_state = self.nearest_visited_state()
             if nearest_state:
                 # Choose CP based on expected reward in that state (this is like an educated guess based on similarity)
-                q_values = self.q_table_cps.loc[self.q_table_cps['state'] == nearest_state]
+                q_values = self.q_table_cps.loc[self.q_table_cps['state'] == nearest_state] / \
+                           self.q_table_cps_runs.loc[self.q_table_cps_runs['state'] == nearest_state] + \
+                           np.sqrt(2 * np.log(self.nr_chosen_cps + 1) / (self.q_table_cps_runs + 1e-6))
                 chosen_cp = q_values.idxmax(axis=1)
             else:
                 # If no nearest state, choose randomly and initialize Q-values for this state
                 self.q_table_cps.loc[len(self.q_table_cps.index)] = 0
+                self.q_table_cps_runs.loc[len(self.q_table_cps_runs.index)] = 0
                 #self.q_table_cps.at[len(self.q_table_cps.index)-1, 'state'] = current_state
                 self.q_table_cps.rename(index={len(self.q_table_cps.index)-1:str(current_state)}, inplace=True)
+                self.q_table_cps_runs.rename(index={len(self.q_table_cps_runs.index) - 1: str(current_state)}, inplace=True)
                 self.visited_states.append(current_state)
                 chosen_cp = cp_list[0]
                 print(self.q_table_cps)
+
+        # Update the total number of times a CP was chosen
+        self.nr_chosen_cps = self.nr_chosen_cps + 1
 
         return chosen_cp
 
@@ -1415,15 +1438,21 @@ class RobotPartner(AgentBrain):
         if current_state in self.visited_states:
             # If state was visited before, check how often it was visited TODO
             # Choose action based on expected reward (with exploration rate based on uncertainty?)
-            q_values = self.q_table_basic.loc[str(current_state)].astype('int')
+            q_values = self.q_table_basic.loc[str(current_state)]#.astype('int')
+            print(q_values)
             chosen_action = q_values.idxmax()
         else:
             # If state was not visited before, find the nearest state that was visited
             nearest_state = self.nearest_visited_state()
             if nearest_state:
                 # Choose action based on expected reward in that state (this is like an educated guess based on similarity)
-                q_values = self.q_table_basic.loc[str(nearest_state)].astype('int')
+                q_values = self.q_table_basic.loc[str(nearest_state)]#.astype('int')
                 chosen_action = q_values.idxmax()
+
+                # Also initialize q-values for this state and add state to visited states
+                self.q_table_basic.loc[len(self.q_table_basic.index)] = 0
+                self.q_table_basic.rename(index={len(self.q_table_basic.index) - 1: str(current_state)}, inplace=True)
+                self.visited_states.append(current_state)
             else:
                 # If no nearest state, choose randomly and initialize Q-values for this state
                 self.q_table_basic.loc[len(self.q_table_basic.index)] = 0
@@ -1469,7 +1498,14 @@ class RobotPartner(AgentBrain):
 
         total_reward = distance_decrease - victim_harm - idle_time
 
-        self.q_table_cps.at[str(self.starting_state), self.executing_cp] = total_reward
+        # Update reward: rewards are stored cumulatively
+        self.q_table_cps.at[str(self.starting_state), self.executing_cp] = \
+            self.q_table_cps.at[str(self.starting_state), self.executing_cp] + total_reward
+
+        # Also update how many times this CP was chosen in this state by 1
+        self.q_table_cps_runs.at[str(self.starting_state), self.executing_cp] = \
+            self.q_table_cps_runs.at[str(self.starting_state), self.executing_cp] + 1
+
         print(self.q_table_cps)
 
         return
@@ -1489,13 +1525,32 @@ class RobotPartner(AgentBrain):
             basic_reward = 5
 
         victim_harm = self.victim_harm * 5
-
         total_reward = basic_reward - victim_harm
+
+        # Determine Max Q (expected utility of next state-action pair). If value doesn't exist, default to 0
+        try:
+            q_values = self.q_table_basic.loc[str(current_state)].astype('int')
+            expected_action = q_values.idxmax()
+            max_q = self.q_table_basic.at[current_state, expected_action]
+        except:
+            max_q = 0
+
         if str(self.starting_state) in self.q_table_basic.index:
-            self.q_table_basic.at[str(self.starting_state), self.executing_action] = total_reward
+            # If the starting state is already in the q-table, update q-value
+            self.q_table_basic.at[str(self.starting_state), self.executing_action] = \
+                self.q_table_basic.at[str(self.starting_state), self.executing_action] + self.alpha * \
+                (total_reward + self.gamma * max_q -
+                 self.q_table_basic.at[str(self.starting_state), self.executing_action])
         else:
-            self.q_table_basic.at[str(self.starting_state)] = 0
-            self.q_table_basic.at[str(self.starting_state), self.executing_action] = total_reward
+            # If the starting state is not yet in the q-table, initialize and update q-value
+            self.q_table_basic.at[str(self.starting_state), self.executing_action] = 0
+            self.q_table_basic.at[str(self.starting_state), self.executing_action] = \
+                self.q_table_basic.at[str(self.starting_state), self.executing_action] + self.alpha * \
+                (total_reward + self.gamma * max_q -
+                 self.q_table_basic.at[str(self.starting_state), self.executing_action])
+
+        #print(self.q_table_basic)
+        print(total_reward)
 
         return
 

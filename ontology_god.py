@@ -21,6 +21,8 @@ class OntologyGod(AgentBrain):
         self.query_batch = [] # The list of queries
 
         self.cp_list = [] # Maintain a list of CP names that were previously instantiated
+        self.cp_list_html = []
+        self.test_list = []
 
     def initialize(self):
         self.state_tracker = StateTracker(agent_id=self.agent_id)
@@ -33,14 +35,20 @@ class OntologyGod(AgentBrain):
                 # Session is opened, now specify that it's a read session
                 with session.transaction(TransactionType.READ) as read_transaction:
                     answer_iterator = read_transaction.query().match(
-                        "match $x isa collaboration_pattern, has name $name; get $name;")
+                        "match $x isa collaboration_pattern, has name $name, has html_content $html_content; get $name, $html_content;")
 
                     for answer in answer_iterator:
                         cp_retrieved = answer.get('name')._value
+                        cp_html = answer.get('html_content')._value
                         if cp_retrieved not in self.cp_list:
                             self.cp_list.append(cp_retrieved)
-        
+                            self.cp_list_html.append(cp_html)
+
+        self.agent_properties['cp_list'] = self.cp_list
+        self.agent_properties['cp_list_html'] = self.cp_list_html
         print('Ontology God Initialized')
+        print(self.cp_list)
+        print(self.cp_list_html)
 
     def filter_observations(self, state):
         self.state_tracker.update(state)
@@ -88,18 +96,35 @@ class OntologyGod(AgentBrain):
         cp_actionsA = None
         cp_actionsB = None
         cp_postsitu = None
+        cp_html = None
+
+        # Store the CP list in a property of the agent if it is empty
+        if self.agent_properties['cp_list'] is None:
+            self.agent_properties['cp_list'] = self.cp_list
+
+        if self.agent_properties['cp_list_html'] is None:
+            self.agent_properties['cp_list_html'] = self.cp_list_html
 
         # If there are messages, deal with them, and send to TypeDB
         if self.received_messages:
-            cp_name, cp_situation, cp_actionsA, cp_actionsB, cp_postsitu = self.message_handling()
+            cp_name, cp_situation, cp_actionsA, cp_actionsB, cp_postsitu, cp_html = self.message_handling()
 
             if cp_name in self.cp_list:
-                # This means that it is an existing CP that gets sent, move to edit functions
+                # This means that it is an existing CP that gets sent
                 print('Existing CP name...')
-                self.edit_cp_data(cp_name, cp_situation, cp_actionsA, cp_actionsB, cp_postsitu)
+                # Check if it is a delete action
+                if cp_situation == 'delete':
+                    # Delete
+                    self.delete_cp_data(cp_name)
+                else:
+                    # This means it is an edit, so first delete
+                    self.delete_cp_data(cp_name)
+                    # Then create new
+                    self.send_cp_data(cp_name, cp_situation, cp_actionsA, cp_actionsB, cp_postsitu, cp_html)
+
             elif cp_name:
                 # If we end up here, the CP name is new, so we should create a new entry
-                self.send_cp_data(cp_name, cp_situation, cp_actionsA, cp_actionsB, cp_postsitu)
+                self.send_cp_data(cp_name, cp_situation, cp_actionsA, cp_actionsB, cp_postsitu, cp_html)
                 self.cp_list.append(cp_name)
 
         return action, action_kwargs
@@ -150,6 +175,7 @@ class OntologyGod(AgentBrain):
         cp_actionsA = []     # Data type of the actions is a list of dictionaries; each dictionary contains an actor, action, and related attributes (object, location)
         cp_actionsB = []
         cp_postsitu = []
+        cp_html = None # This is the inside of a javascript object, check the shape!
 
         # Go through all received messages
         for message in self.received_messages:
@@ -161,6 +187,9 @@ class OntologyGod(AgentBrain):
                 cp_actions_a_input = message['actionA']
                 cp_actions_b_input = message['actionB']
                 cp_postsitu_input = message['postsitu']
+
+                cp_html = message['html_content']
+                #cp_html = "TEST"
 
                 # Then start processing the input into workable
 
@@ -183,6 +212,10 @@ class OntologyGod(AgentBrain):
                 for situation_condition in cp_postsitu_input:
                     # For each action in this list, we have to identify all items
                     cp_postsitu.append(self.identify_items(situation_condition))
+            elif isinstance(message, dict) and 'delete' in message:
+                # Pull info out of the message
+                cp_name = message['name']
+                cp_situation = 'delete'
 
             # After dealing with each message, remove it
             self.received_messages.remove(message)
@@ -199,7 +232,7 @@ class OntologyGod(AgentBrain):
                 print("End Situation: ")
                 print(cp_postsitu)
 
-        return cp_name, cp_situation, cp_actionsA, cp_actionsB, cp_postsitu
+        return cp_name, cp_situation, cp_actionsA, cp_actionsB, cp_postsitu, cp_html
 
     # Function to translate html content into dictionaries (data prep for sending to ontology)
     def identify_items(self, html_input):
@@ -236,10 +269,10 @@ class OntologyGod(AgentBrain):
         return input_dict
 
     # Function that actually sends new data instances to the ontology
-    def send_cp_data(self, name, situation, action_a, action_b, postsitu):
+    def send_cp_data(self, name, situation, action_a, action_b, postsitu, html_content):
 
         # Create CP data entry query
-        cp_instantiation = f'''insert $cp isa collaboration_pattern, has name '{name}';'''
+        cp_instantiation = f'''insert $cp isa collaboration_pattern, has name '{name}', has html_content '{html_content}';'''
         self.query_batch.append(cp_instantiation)
 
         # -----------------------Precondition seqs----------------------------------------------------------
@@ -276,8 +309,29 @@ class OntologyGod(AgentBrain):
 
         return
 
-    def edit_cp_data(self, name, situation, action_a, action_b, postsitu):
-        # Write code for editing CP
+    def delete_cp_data(self, name):
+
+        # -----------------------Preconditions----------------------------------------------------------
+        self.condition_translation_delete(name, 'start')
+
+        # ------------------------Actions-------------------------------------------------------------
+        self.action_translation_delete(name)
+
+        # -----------------------Postconditions---------------------------------------------------------
+        self.condition_translation_delete(name, 'end')
+
+        # Finally, delete the CP concept
+        cp_deletion = f'''match $cp isa collaboration_pattern, has name '{name}';
+                            delete $cp isa collaboration_pattern;'''
+
+        # Append to query batch and empty
+        self.query_batch.append(cp_deletion)
+        cp_deletion = None
+
+        with TypeDB.core_client("localhost:1729") as client:
+            with client.session("CP_ontology", SessionType.DATA) as session:
+                # Create a write transaction
+                self.delete_batch(session, self.query_batch)
         return
 
     def condition_translation(self, condition, name, pre_post, index):
@@ -437,6 +491,42 @@ class OntologyGod(AgentBrain):
 
         return
 
+    def condition_translation_delete(self, name, pre_post):
+        # Variable to store query in
+        condition_deletion = None
+
+        # Find all conditions related to CP, their relations and the contexts related, then delete
+        # Add something to remove floating attributes?
+        if pre_post == 'start':
+            condition_deletion = f'''match $cp isa collaboration_pattern, has name '{name}'; 
+                                            $starts (condition: $condition_start, cp: $cp) isa starts_when;
+                                            $condition_start isa condition, has condition_id $id_start;
+                                            $present_in_start (condition: $condition_start, situation: $context_start) isa is_present_in;
+                                            $context_start isa context, has context_id $context_id_start;
+                                            $contains (whole: $context_start, part: $object) isa contains;
+                                    delete $contains isa contains;
+                                            $context_start isa context;
+                                            $present_in_start isa is_present_in;
+                                            $condition_start isa condition;
+                                            $starts isa starts_when;'''
+        elif pre_post == 'end':
+            condition_deletion = f'''match $cp isa collaboration_pattern, has name '{name}'; 
+                                            $ends (condition: $condition_end, cp: $cp) isa ends_when; 
+                                            $condition_end isa condition, has condition_id $id_end;
+                                            $present_in_end (condition: $condition_end, situation: $context_end) isa is_present_in;
+                                            $context_end isa context, has context_id $context_id_end;
+                                            $contains (whole: $context_start, part: $object) isa contains;
+                                    delete $contains isa contains;
+                                            $context_end isa context;
+                                            $present_in_end isa is_present_in;
+                                            $condition_end isa condition;
+                                            $ends isa ends_when;'''
+
+        # Append to query batch and empty
+        self.query_batch.append(condition_deletion)
+        condition_deletion = None
+        return
+
     def action_translation(self, single_action, name, actor, index):
 
         action_instantiation = None
@@ -521,6 +611,24 @@ class OntologyGod(AgentBrain):
 
         return
 
+    def action_translation_delete(self, name):
+        # Variable to store query in
+        action_deletion = None
+
+        # Find all tasks related to CP and the relations around it. Delete the relations and tasks.
+        action_deletion = f'''match $cp isa collaboration_pattern, has name '{name}'; 
+                                    $part_of (cp: $cp, task: $task) isa is_part_of;
+                                    $task isa task, has task_id $task_id;
+                                    $task_relation (role: $task) isa relation;
+                            delete $task_relation isa relation;
+                                    $task isa task;'''
+
+        # Append to query batch and empty
+        self.query_batch.append(action_deletion)
+        action_deletion = None
+
+        return
+
     def write_batch(self, session, batch):
         # Code grabbed from example at
         # https://github.com/typedb-osi/typedb-bio/blob/6c22ccefcb29f5bebbfde5c00a8b6563f8bca5e3/Migrators/Helpers/batchLoader.py
@@ -533,3 +641,17 @@ class OntologyGod(AgentBrain):
             self.query_batch = []
 
         return
+
+    def delete_batch(self, session, batch):
+        # Code grabbed from example at
+        # https://github.com/typedb-osi/typedb-bio/blob/6c22ccefcb29f5bebbfde5c00a8b6563f8bca5e3/Migrators/Helpers/batchLoader.py
+        with session.transaction(TransactionType.WRITE) as tx:
+            for query in batch:
+                print("Query: ")
+                print(query)
+                tx.query().delete(query)
+            tx.commit()
+            self.query_batch = []
+
+            return
+

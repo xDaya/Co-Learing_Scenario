@@ -43,6 +43,9 @@ var saved_prev_objs = {}, // obj containing the IDs of objects and their visuali
 // track
 var object_selected = false; //
 
+// Keep track of CPs
+var storedPatterns = {};
+
 /**
  * Get the grid wrapper object
  */
@@ -236,6 +239,29 @@ function draw(state, world_settings, new_messages, accessible_chatrooms, new_tic
             return e !== objID
         })
     });
+
+    // If there are existing CPs:
+    if (state['ontologygod']['cp_list']) {
+        // Loop through all CPs in the list
+        for (let i = 0; i < state['ontologygod']['cp_list'].length; i++){
+            // Check if the CP is already displayed
+            if (typeof(storedPatterns[state['ontologygod']['cp_list'][i]]) == "undefined") {
+
+                added_button = document.createElement('div');
+                added_button.className = 'added_pattern';
+                added_button.id = state['ontologygod']['cp_list'][i];
+                added_button.innerHTML = state['ontologygod']['cp_list'][i];
+
+                container_block = document.getElementById("saved_box");
+                container_block.appendChild(added_button);
+
+                let html_content = JSON.parse(state['ontologygod']['cp_list_html'][i]);
+
+                // Store this CP so that we only add it once. Contents are now CP name, change so it becomes html content
+                storedPatterns[state['ontologygod']['cp_list'][i]] = html_content;
+            }
+        }
+    }
 
     // all objects have been redrawn, so this can be set to false again
     redraw_required = false;

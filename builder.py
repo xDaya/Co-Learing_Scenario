@@ -44,7 +44,7 @@ for y_loc in range(upper_bound, lower_bound):
         rubble_locations.append((x_loc, y_loc))
 
 
-def create_builder():
+def create_builder(level):
     factory = WorldBuilder(shape=[20, 12], run_matrx_visualizer=False, visualization_bg_clr="#ffffff",
                            visualization_bg_img='/images/background.png', tick_duration=0.05, simulation_goal=USAR_Goal())
 
@@ -100,7 +100,7 @@ def create_builder():
     #factory.add_agent((0,0), reward_god, name="RewardGod", visualize_shape='img', img_name="/images/transparent.png", is_traversable=True, goal_reached=False, customizable_properties=["goal_reached"])
 
     # Add Ontology functions by adding the OntologyGod agent
-    factory.add_agent((0,0), ontology_god, name="OntologyGod", visualize_shape='img', img_name="/images/transparent.png", is_traversable=True)
+    factory.add_agent((0,0), ontology_god, name="OntologyGod", visualize_shape='img', img_name="/images/transparent.png", is_traversable=True, cp_list=None, cp_list_html=None)
 
     # factory.add_agent([0,2], autonomous_agent, name="Robot", visualize_shape='img',
     #                   img_name="/images/machine_square.png", visualize_size=2)
@@ -113,10 +113,31 @@ def create_builder():
     #create_brownlong_object(name="test_obstr", location=(16,1), world=factory)
     #create_brownvert_object(name="test_obstr2", location=(16, 3), world=factory)
 
+    if level == 0:
+        lvl_practice(factory)  # Practice scenario
+    elif level == 1:
+        lvl_dont_break(factory)  # First scenario
+    elif level == 2:
+        lvl_dont_break_2(factory)  # Don't break 2
+    elif level == 3:
+        lvl_dont_break_3(factory)  # Don't break 3
+    elif level == 4:
+        lvl_dont_break_4(factory)  # Don't break 4
+    elif level == 5:
+        lvl_looming_spike(factory)  # Second scenario
+    elif level == 6:
+        lvl_brown_rock_2(factory)  # Brown rock 2
+    elif level == 7:
+        lvl_brown_rock_3(factory)  # Brown rock 3
+    elif level == 8:
+        lvl_building_bridges_edited(factory)  # Brown rock 4
+
+
+
     #lvl_practice(factory)              # Practice scenario
 
 
-    lvl_dont_break(factory)            # First scenario
+    #lvl_dont_break(factory)            # First scenario
 
     #lvl_dont_break_2(factory)          # Don't break 2
 
