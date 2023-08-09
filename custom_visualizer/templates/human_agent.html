@@ -392,6 +392,13 @@
           data = {"content": {"name": label, "delete": "True"}, "sender": "human_selector", "receiver": "ontologygod"}
           console.log("Sending message to matrx:", data);
           send_matrx_api_post_message(matrx_send_message_url, data);
+
+          // Clear html boxes
+          document.getElementById("labelinput").value = "Label";
+          document.getElementById("situation_container").innerHTML = '<div class="box_cp box_situ" id="situationbox_1"></div><div class="box_cp box_situ" id="situationbox_2"></div>';
+          document.getElementById("whatwedo").innerHTML = '<div class="agent_name" id="ag_1">Human</div><div class="box_cp box_action" id="patternbox_1"></div><div class="box_cp box_action" id="patternbox_2"></div><div class="box box_action" id="patternbox_3"></div>';
+          document.getElementById("whatwedo_ag2").innerHTML = '<div class="agent_name" id="ag_1">Robot</div><div class="box_cp box_action" id="patternbox_1"></div><div class="box_cp box_action" id="patternbox_2"></div><div class="box box_action" id="patternbox_3"></div>';
+          document.getElementById("postsitu_container").innerHTML = '<div class="box_cp box_situ" id="postsitubox_1"></div><div class="box_cp box_situ" id="postsitubox_2"></div>'
         }
 
       }
