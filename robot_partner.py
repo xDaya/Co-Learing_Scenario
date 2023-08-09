@@ -1498,13 +1498,23 @@ class RobotPartner(AgentBrain):
 
         total_reward = distance_decrease - victim_harm - idle_time
 
-        # Update reward: rewards are stored cumulatively
-        self.q_table_cps.at[str(self.starting_state), self.executing_cp] = \
-            self.q_table_cps.at[str(self.starting_state), self.executing_cp] + total_reward
+        # If the state is already stored in the q-table, the reward is added
+        try:
+            # Update reward: rewards are stored cumulatively
+            self.q_table_cps.at[str(self.starting_state), self.executing_cp] = \
+                self.q_table_cps.at[str(self.starting_state), self.executing_cp] + total_reward
 
-        # Also update how many times this CP was chosen in this state by 1
-        self.q_table_cps_runs.at[str(self.starting_state), self.executing_cp] = \
-            self.q_table_cps_runs.at[str(self.starting_state), self.executing_cp] + 1
+            # Also update how many times this CP was chosen in this state by 1
+            self.q_table_cps_runs.at[str(self.starting_state), self.executing_cp] = \
+                self.q_table_cps_runs.at[str(self.starting_state), self.executing_cp] + 1
+        # If the state is not yet stored, create the initial value
+        except:
+            # Update reward: rewards are stored cumulatively
+            self.q_table_cps.at[str(self.starting_state), self.executing_cp] = total_reward
+            # Also update how many times this CP was chosen in this state by 1
+            self.q_table_cps_runs.at[str(self.starting_state), self.executing_cp] = 1
+
+
 
         print(self.q_table_cps)
 
