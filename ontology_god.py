@@ -47,8 +47,8 @@ class OntologyGod(AgentBrain):
         self.agent_properties['cp_list'] = self.cp_list
         self.agent_properties['cp_list_html'] = self.cp_list_html
         print('Ontology God Initialized')
-        print(self.cp_list)
-        print(self.cp_list_html)
+        #print(self.cp_list)
+        #print(self.cp_list_html)
 
     def filter_observations(self, state):
         self.state_tracker.update(state)
@@ -360,9 +360,9 @@ class OntologyGod(AgentBrain):
         condition_instantiation = None
 
         # If the entry contains an object
-        if 'object' in condition.keys():
+        if 'object_cp' in condition.keys():
             # Dissect object into object itself and its properties
-            obj_type, obj_size, obj_color = self.determine_objects(condition['object'])
+            obj_type, obj_size, obj_color = self.determine_objects(condition['object_cp'])
 
             # Create instance of the object
             if obj_color == 'grey':
@@ -415,9 +415,9 @@ class OntologyGod(AgentBrain):
             condition_instantiation = None
 
             # Create relation between object and location or actor, depending on which one exists
-            if 'object' in condition.keys():
+            if 'object_cp' in condition.keys():
                 # Dissect object into object itself and its properties
-                obj_type, obj_size, obj_color = self.determine_objects(condition['object'])
+                obj_type, obj_size, obj_color = self.determine_objects(condition['object_cp'])
 
                 # Create instance of the object
                 if obj_color == 'grey':
@@ -567,9 +567,9 @@ class OntologyGod(AgentBrain):
             action_instantiation = None
 
             # Check if the task contains an object
-            if 'object' in single_action.keys():
+            if 'object_cp' in single_action.keys():
                 # Dissect object into object itself and its properties
-                obj_type, obj_size, obj_color = self.determine_objects(single_action['object'])
+                obj_type, obj_size, obj_color = self.determine_objects(single_action['object_cp'])
 
                 # Create instance of the object
                 if obj_color == 'grey':
