@@ -662,8 +662,8 @@ class RobotPartner(AgentBrain):
         if self.executing_cp:
             #print("Agent is executing a CP:")
             #print(self.executing_cp)
-            # Check if the endconditions for this CP hold
-            if self.executing_cp in self.check_cp_conditions(self.end_conditions):
+            # Check if the endconditions for this CP hold (of if the startconditions no longer hold)
+            if self.executing_cp in self.check_cp_conditions(self.end_conditions) or self.executing_cp not in self.check_cp_conditions(self.start_conditions):
                 # If yes, finish, process reward and restart loop
                 print("The endconditions for this CP hold, so we'll stop executing it.")
                 self.reward_update_cps()
