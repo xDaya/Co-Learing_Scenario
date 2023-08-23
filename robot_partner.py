@@ -324,7 +324,7 @@ class RobotPartner(AgentBrain):
         y_loc_list = []
         dist_list = []
         chosen_part = None
-        print(object_ids)
+        object_ids = object_ids + self.state[{'bound_to'}]
         for object_id in object_ids:
             if "obstruction" in object_id:
                 continue
@@ -416,6 +416,7 @@ class RobotPartner(AgentBrain):
         y_loc_list = []
         dist_list = []
         chosen_part = None
+        object_ids = object_ids + self.state[{'bound_to'}]
         for object_id in object_ids:
             object_id = object_id['obj_id']
             if "obstruction" in state[object_id]:
@@ -650,11 +651,15 @@ class RobotPartner(AgentBrain):
         # Record task progress
         self.record_progress(False)
 
+        #print('ACTIONLIST')
+        #print(self.actionlist)
+
         # If the actionlist ends up empty, that means we're done executing an action.
         # If that was an action from the basic behavior, we should do the reward update here
         if len(self.actionlist[0]) == 0 and self.executing_action:
             self.reward_update_basic()
             self.executing_action = False
+            print('Actionlist empty after basic behavior action')
 
         # Check the conditions of stored CPs
         #self.check_cp_conditions(self.start_conditions)
@@ -676,6 +681,7 @@ class RobotPartner(AgentBrain):
                 # If no, continue current CP
                 # Original Action Planning Code
                 # If an action has already been translated, continue the accompanying atomic actions
+                #print('Continue current CP')
                 if len(self.actionlist[0]) != 0 and self.current_robot_action:
                     # This means that an action is still being executed
                     action = self.actionlist[0].pop(0)
@@ -692,13 +698,15 @@ class RobotPartner(AgentBrain):
                         if len(self.cp_actions) == 0:
                             self.reward_update_cps()
 
+                        print('Actionlist empty after CP action')
+
                     return action, action_kwargs  # Returned here, so code underneath is then not executed
                 # If no action was translated, look at the CP to see what should be the next action to be translated
                 else:
                     self.execute_cp(self.executing_cp, state)
         else:
             # Not currently executing a CP
-            #print("Not working with a CP currently!")
+            print("Not working with a CP currently!")
 
             # Check if the start conditions for any existing CPs hold
             cps_hold = self.check_cp_conditions(self.start_conditions)
@@ -1091,9 +1099,9 @@ class RobotPartner(AgentBrain):
         # Top of rock pile (= no rocks on top of this object)
         top_check = True
         for x in range (0, nr_rows):
-            for i in range(0, object_loc_y-1):
+            for i in range(0, object_loc_y):
                 loc_to_check = [object_loc_x + x, i]
-                objects_found = self.state[{"location": loc_to_check}]
+                objects_found = self.state[{"location": loc_to_check, 'is_movable': True}]
                 if objects_found is not None:
                     # An object was found, meaning that the area above the rock isn't empty TODO create exception for agents
                     top_check = False
@@ -1106,7 +1114,7 @@ class RobotPartner(AgentBrain):
         for x in range (0, nr_rows):
             for i in range(object_loc_y + nr_vert_rows, 11):
                 loc_to_check = [object_loc_x + x, i]
-                objects_found = self.state[{"location": loc_to_check}]
+                objects_found = self.state[{"location": loc_to_check, 'is_movable': True}]
                 if objects_found is not None:
                     # An object was found, meaning that the area below the rock isn't empty TODO create exception for agents
                     bottom_check = False
@@ -1122,26 +1130,29 @@ class RobotPartner(AgentBrain):
             locations.append('Right side of rock pile')
         # Left/Right side of field (= outside the bounds of the pile, left or right)
         elif object_loc_x < 5:
-            locations.append('Left side of field')
+            locations = ['Left side of field']
         elif object_loc_x > 15:
-            locations.append('Right side of field')
+            locations = ['Right side of field']
 
         # On top of [object/actor/location] (to be implemented later)
 
         # Above rock pile (not relevant for rocks, only for agents)
-
+        #print(locations)
         return locations
 
     def translate_action(self, action, state):
         task_name = action['task']['task_name']
         task_location = action['location']['range']
 
+        carried_objects = self.state[{'carried_by': self.agent_id}]
+        print(carried_objects)
+
         if 'Pick up' in task_name:
             # This is a pick up action!
             # If hands are full, drop first to make space
-            print(len(state[self.agent_id]['is_carrying']))
             if len(state[self.agent_id]['is_carrying']) > 4:
                 self.drop_action(state, None)
+                return
             # Check if we're dealing with a large or a small rock
             object_size = action['resource']['size']
             if 'large' in object_size:
@@ -1149,6 +1160,10 @@ class RobotPartner(AgentBrain):
                 # Find all relevant objects first, according to size
                 relevant_objects = self.state[{'large': True, 'is_movable': True}]
                 if relevant_objects:
+                    # If hands are too full, drop first to make space
+                    if len(state[self.agent_id]['is_carrying']) > 0:
+                        self.drop_action(state, None)
+                        return
                     # It exists! Translate and check locations
                     if isinstance(relevant_objects, dict):
                         # There is just one such object, check it's location; if it is correct, pick up this one
@@ -1207,7 +1222,7 @@ class RobotPartner(AgentBrain):
         elif 'Break' in task_name:
             # We have to break a rock
             # Find all relevant objects first, according to size
-            relevant_objects = self.state[{'large': True, 'is_movable': True}]
+            relevant_objects = self.state[{'large': True, 'is_movable': True}] #+ self.state[{'bound_to'}]
             if relevant_objects:
                 # It exists! Translate and check locations
                 if isinstance(relevant_objects, dict):
@@ -1430,6 +1445,16 @@ class RobotPartner(AgentBrain):
 
     def basic_behavior(self):
         actions = ['Move back and forth', 'Stand Still', 'Pick up', 'Drop', 'Break']
+
+        action_to_exclude = None
+
+        if len(self.state[self.agent_id]['is_carrying']) >= 5:
+            # Hands are full, now it shouldn't be possible to pick up
+            action_to_exclude = 'Pick up'
+        elif len(self.state[self.agent_id]['is_carrying']) == 0:
+            # Hands are empty, now it shouldn't be possible to drop
+            action_to_exclude = 'Drop'
+
         # Check if this state has been visited before
         current_state = self.translate_state()
         # Store current state as the starting state for this decision
@@ -1438,7 +1463,9 @@ class RobotPartner(AgentBrain):
         if current_state in self.visited_states:
             # If state was visited before, check how often it was visited TODO
             # Choose action based on expected reward (with exploration rate based on uncertainty?)
-            q_values = self.q_table_basic.loc[str(current_state)]#.astype('int')
+            q_values = self.q_table_basic.loc[str(current_state)]
+            if action_to_exclude is not None:
+                q_values = q_values.drop(action_to_exclude)
             print(q_values)
             chosen_action = q_values.idxmax()
         else:
@@ -1446,7 +1473,9 @@ class RobotPartner(AgentBrain):
             nearest_state = self.nearest_visited_state()
             if nearest_state:
                 # Choose action based on expected reward in that state (this is like an educated guess based on similarity)
-                q_values = self.q_table_basic.loc[str(nearest_state)]#.astype('int')
+                q_values = self.q_table_basic.loc[str(nearest_state)]
+                if action_to_exclude is not None:
+                    q_values = q_values.drop(action_to_exclude)
                 chosen_action = q_values.idxmax()
 
                 # Also initialize q-values for this state and add state to visited states

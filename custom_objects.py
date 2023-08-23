@@ -29,7 +29,7 @@ class ObstructionObject(EnvObject):
         self.obstruction = obstruction
         self.large = large
 
-        super().__init__(name=name, location=location, visualize_shape='img', visualize_size=visualize_size, class_callable=ObstructionObject, is_traversable=True, is_movable=False, obstruction=self.obstruction, large=True, visualize_from_center=False, **kwargs)
+        super().__init__(name=name, location=location, visualize_shape='img', visualize_size=visualize_size, class_callable=ObstructionObject, is_traversable=True, is_movable=True, obstruction=self.obstruction, large=True, visualize_from_center=False, **kwargs)
 
 
 class GoalReachedObject(EnvObject):
