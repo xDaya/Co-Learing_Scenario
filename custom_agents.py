@@ -744,8 +744,8 @@ class RewardGod(AgentBrain):
             if self.counter >= self.max_time:
                 # Send a large negative reward
                 final_reward = final_reward - self.counter - self.hit_penalty
-                self.send_message(Message(content=str(final_reward), from_id=self.agent_id, to_id=None))
-                self.send_message(Message(content="FAIL", from_id=self.agent_id, to_id=None))
+                #self.send_message(Message(content=str(final_reward), from_id=self.agent_id, to_id=None))
+                #self.send_message(Message(content="FAIL", from_id=self.agent_id, to_id=None))
                 # Some code to end the round
                 self.goal_reached = True
                 self.agent_properties["goal_reached"] = self.goal_reached
@@ -754,7 +754,7 @@ class RewardGod(AgentBrain):
         # Else means that there is a new phase, so reward should be processed
         else:
             final_reward = final_reward - self.counter - self.hit_penalty
-            self.send_message(Message(content=str(final_reward), from_id=self.agent_id, to_id=None))
+            #self.send_message(Message(content=str(final_reward), from_id=self.agent_id, to_id=None))
             self.counter = 0
             self.hit_penalty = 0
             self.previous_phase = self.filter_observations_learning(state)

@@ -1260,6 +1260,13 @@ class RobotPartner(AgentBrain):
         large_rocks = self.state[{'large': True, 'is_movable': True}]
         small_rocks = self.state[{'name': 'rock1'}]
 
+        if isinstance(brown_rocks, dict):
+            brown_rocks = [brown_rocks]
+        if isinstance(large_rocks, dict):
+            large_rocks = [large_rocks]
+        if isinstance(large_rocks, dict):
+            small_rocks = [small_rocks]
+
         # For all rock objects, check at what locations they are
         if brown_rocks:
             for rock in brown_rocks:
@@ -1446,14 +1453,20 @@ class RobotPartner(AgentBrain):
     def basic_behavior(self):
         actions = ['Move back and forth', 'Stand Still', 'Pick up', 'Drop', 'Break']
 
-        action_to_exclude = None
+        action_to_exclude = []
 
         if len(self.state[self.agent_id]['is_carrying']) >= 5:
             # Hands are full, now it shouldn't be possible to pick up
-            action_to_exclude = 'Pick up'
-        elif len(self.state[self.agent_id]['is_carrying']) == 0:
+            action_to_exclude.append('Pick up')
+        elif self.state[{'name': 'rock1'}] is None and self.state[{'bound_to': None}] is None:
+            # There are no objects to pickup
+            action_to_exclude.append('Pick up')
+        if len(self.state[self.agent_id]['is_carrying']) == 0:
             # Hands are empty, now it shouldn't be possible to drop
-            action_to_exclude = 'Drop'
+            action_to_exclude.append('Drop')
+        if self.state[{'large': True, 'is_movable': True}] is None:
+            # No large objects available, so we cannot break
+            action_to_exclude.append('Break')
 
         # Check if this state has been visited before
         current_state = self.translate_state()
@@ -1464,8 +1477,9 @@ class RobotPartner(AgentBrain):
             # If state was visited before, check how often it was visited TODO
             # Choose action based on expected reward (with exploration rate based on uncertainty?)
             q_values = self.q_table_basic.loc[str(current_state)]
-            if action_to_exclude is not None:
-                q_values = q_values.drop(action_to_exclude)
+            if len(action_to_exclude) > 0:
+                for action in action_to_exclude:
+                    q_values = q_values.drop(action)
             print(q_values)
             chosen_action = q_values.idxmax()
         else:
@@ -1497,11 +1511,17 @@ class RobotPartner(AgentBrain):
             self.wait_action(None)
         elif chosen_action == "Pick up":
             # TODO Distinguish between Large and Small pick up actions, based on some rule
-            self.pickup_action(self.state[{'name': 'rock1'}], self.state)
+            self.pickup_action(self.state[{'name': 'rock1'}] + self.state[{'bound_to': None}], self.state)
         elif chosen_action == "Drop":
             self.drop_action(self.state, None)
         elif chosen_action == "Break":
-            self.break_action(self.state[{'large': True, 'is_movable': True}] + self.state[{'img_name': "/images/transparent.png"}], self.state, None)
+            break_objects = self.state[{'large': True, 'is_movable': True}]
+            if isinstance(break_objects, dict):
+                break_objects = [break_objects]
+            break_objects = break_objects + self.state[{'img_name': "/images/transparent.png"}]
+            print('CHECK')
+            print(break_objects)
+            self.break_action(break_objects, self.state, None)
         elif chosen_action == "Move back and forth":
             print("Move back and forth - to define")
 
