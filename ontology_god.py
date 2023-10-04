@@ -67,7 +67,7 @@ class OntologyGod(AgentBrain):
 
         # Remove all god agents
         remove_list.append('gravitygod')
-        #remove_list.append('rewardgod')
+        remove_list.append('rewardgod')
 
         # Remove helper objects (avatar agents, goal reached image)
         remove_list.append('human')

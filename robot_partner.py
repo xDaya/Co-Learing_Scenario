@@ -390,11 +390,21 @@ class RobotPartner(AgentBrain):
                 obj_type = 'long'
 
             # Choose location for dropping
-            possible_xloc = list(range(0,2)) + list(range(16,19))
-            x_loc = random.choice(possible_xloc)
-
             if chosen_loc is None:
-                chosen_loc = (x_loc, 1)
+                # Retrieve where the agent is now
+                agent_loc = self.agent_properties['location']
+                # If a good location for dropping, choose this x and a bit higher y
+                if agent_loc[0] < 3 or agent_loc[0] > 15:
+                    chosen_loc = (agent_loc[0], agent_loc[1]-2)
+                # Otherwise, choose location outside of field near agent
+                elif agent_loc[0] <= 10:
+                    possible_xloc = list(range(0, 2))
+                    x_loc = random.choice(possible_xloc)
+                    chosen_loc = (x_loc, agent_loc[1]-2)
+                else:
+                    possible_xloc = list(range(16,19))
+                    x_loc = random.choice(possible_xloc)
+                    chosen_loc = (x_loc, agent_loc[1]-2)
 
             # Add move action to action list
             self.navigator.add_waypoint(chosen_loc)         # Add some code that searches for an empty spot out of the field
@@ -421,7 +431,7 @@ class RobotPartner(AgentBrain):
             object_id = object_id['obj_id']
             if "obstruction" in state[object_id]:
                 continue
-            if "large" in state[object_id]:
+            if "large" in state[object_id] and state[object_id]['location'][0] > 5 and state[object_id]['location'][0] < 15:
                 y_loc_list.append(state[object_id]['location'][1])
                 large_obj.append(object_id)
                 dist = int(np.ceil(np.linalg.norm(np.array(state[object_id]['location'])
