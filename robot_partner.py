@@ -69,6 +69,8 @@ class RobotPartner(AgentBrain):
         self.previous_objs = []
         self.previous_locs = []
 
+        self.condition = 2
+
     def initialize(self):
         self.state_tracker = StateTracker(agent_id=self.agent_id)
 
@@ -670,6 +672,9 @@ class RobotPartner(AgentBrain):
             self.reward_update_basic()
             self.executing_action = False
             print('Actionlist empty after basic behavior action')
+        elif len(self.actionlist[0]) == 1:
+            # There is only one action left in the list, therefore, communicate about this action
+            self.communicate_actions()
 
         # Check the conditions of stored CPs
         #self.check_cp_conditions(self.start_conditions)
@@ -1750,4 +1755,28 @@ class RobotPartner(AgentBrain):
             distance = distance + distance_2
 
         return distance
+
+    def communicate_actions(self):
+        # Function that deals with communication about the action done
+        current_action = None
+        current_location = None
+        msg = None
+
+        # First, figure out what the actual action is
+        if self.executing_action:
+            # We are executing a basic behavior action
+            current_action = self.executing_action
+            msg = f"Currently executing {current_action}"
+        elif self.current_robot_action:
+            current_action = self.current_robot_action
+            msg = f"Currently executing {current_action['task']['task_name']} at {current_action['location']['range']}"
+        else:
+            print("No action??")
+
+        # Figure out the location and possibly the type of action
+
+        # Communicate if it is a pick up, break or drop action
+        self.send_message(Message(content={"chat_text": msg}, from_id=self.agent_id, to_id=None))
+
+        return
 
