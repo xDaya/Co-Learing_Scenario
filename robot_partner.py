@@ -291,18 +291,21 @@ class RobotPartner(AgentBrain):
         y_loc_list = []
         for object_id in object_ids:
             object_id = object_id['obj_id']
-            if "large" in state[object_id]:
+            if "large" in self.state[object_id]:
                 continue
-            if "bound_to" in state[object_id] and state[object_id]['bound_to'] is not None:
+            if "bound_to" in self.state[object_id] and self.state[object_id]['bound_to'] is not None:
                 continue
-            if state[object_id]['location'][0] >= 15 or state[object_id]['location'][0] < 5:
+            if self.state[object_id]['location'][0] >= 15 or self.state[object_id]['location'][0] < 5:
                 continue
 
-            y_loc_list.append(state[object_id]['location'][1])
+            y_loc_list.append(self.state[object_id]['location'][1])
             small_obj.append(object_id)
 
+        if not y_loc_list:
+            return
+
         chosen_object = small_obj[y_loc_list.index(min(y_loc_list))]    # Pick object with smallest y
-        object_loc = state[chosen_object]['location']
+        object_loc = self.state[chosen_object]['location']
 
         # Add move action to action list
         self.navigator.add_waypoint(object_loc)
@@ -349,11 +352,11 @@ class RobotPartner(AgentBrain):
             chosen_part = large_obj[dist_list.index(min(dist_list))]
         else:
             chosen_part = large_obj[y_loc_list.index(min(y_loc_list))]
-        large_name = state[chosen_part]['name']
-        object_loc = state[chosen_part]['location']
+        large_name = self.state[chosen_part]['name']
+        object_loc = self.state[chosen_part]['location']
         large_obj = [chosen_part]
         for part in parts_list:
-            if state[part]['bound_to'] == large_name:
+            if self.state[part]['bound_to'] == large_name:
                 large_obj.append(part)
 
         # Add move action to action list
@@ -377,8 +380,8 @@ class RobotPartner(AgentBrain):
         obj_type = None
         chosen_loc = location
         # Check if the agent is actually carrying something
-        if state[self.agent_id]['is_carrying']:
-            carrying_obj = state[self.agent_id]['is_carrying'][0]
+        if self.state[self.agent_id]['is_carrying']:
+            carrying_obj = self.state[self.agent_id]['is_carrying'][0]
             if "large" in carrying_obj:
                 drop_action = DropLargeObject.__name__
             elif "bound_to" in carrying_obj and carrying_obj['bound_to'] is not None:
@@ -431,15 +434,15 @@ class RobotPartner(AgentBrain):
         object_ids = object_ids + self.state[{'bound_to'}]
         for object_id in object_ids:
             object_id = object_id['obj_id']
-            if "obstruction" in state[object_id]:
+            if "obstruction" in self.state[object_id]:
                 continue
-            if "large" in state[object_id] and state[object_id]['location'][0] > 5 and state[object_id]['location'][0] < 15:
-                y_loc_list.append(state[object_id]['location'][1])
+            if "large" in self.state[object_id] and self.state[object_id]['location'][0] > 5 and self.state[object_id]['location'][0] < 15:
+                y_loc_list.append(self.state[object_id]['location'][1])
                 large_obj.append(object_id)
-                dist = int(np.ceil(np.linalg.norm(np.array(state[object_id]['location'])
-                                                  - np.array(state[self.agent_id]['location']))))
+                dist = int(np.ceil(np.linalg.norm(np.array(self.state[object_id]['location'])
+                                                  - np.array(self.state[self.agent_id]['location']))))
                 dist_list.append(dist)
-            if "bound_to" in state[object_id]:
+            if "bound_to" in self.state[object_id]:
                 parts_list.append(object_id)
 
         if not y_loc_list:
@@ -449,11 +452,11 @@ class RobotPartner(AgentBrain):
             chosen_part = large_obj[dist_list.index(min(dist_list))]
         else:
             chosen_part = large_obj[y_loc_list.index(min(y_loc_list))]
-        large_name = state[chosen_part]['name']
-        object_loc = state[chosen_part]['location']
+        large_name = self.state[chosen_part]['name']
+        object_loc = self.state[chosen_part]['location']
         large_obj = [chosen_part]
         for part in parts_list:
-            if state[part]['bound_to'] == large_name:
+            if self.state[part]['bound_to'] == large_name:
                 large_obj.append(part)
 
         # Add move action to action list
@@ -672,7 +675,7 @@ class RobotPartner(AgentBrain):
             self.reward_update_basic()
             self.executing_action = False
             print('Actionlist empty after basic behavior action')
-        elif len(self.actionlist[0]) == 1:
+        elif len(self.actionlist[0]) == 1 and self.condition > 0:
             # There is only one action left in the list, therefore, communicate about this action
             self.communicate_actions()
 
@@ -686,9 +689,11 @@ class RobotPartner(AgentBrain):
             if self.executing_cp in self.check_cp_conditions(self.end_conditions) or self.executing_cp not in self.check_cp_conditions(self.start_conditions):
                 # If yes, finish, process reward and restart loop
                 print("The endconditions for this CP hold, so we'll stop executing it.")
+                self.send_message(Message(content=f"I will stop following the Collaboration Pattern {self.executing_cp}", from_id=self.agent_id, to_id=None))
                 self.reward_update_cps()
                 self.executing_cp = False
                 self.actionlist = [[], []]
+                self.navigator.reset_full()     # Reset navigator to make sure there are no remaining waypoints
                 self.cp_actions = []
                 # Reset progress variables
                 self.record_progress(True)
@@ -715,7 +720,7 @@ class RobotPartner(AgentBrain):
 
                         print('Actionlist empty after CP action')
 
-                    return action, action_kwargs  # Returned here, so code underneath is then not executed
+                    #return action, action_kwargs  # Returned here, so code underneath is then not executed
                 # If no action was translated, look at the CP to see what should be the next action to be translated
                 else:
                     self.execute_cp(self.executing_cp, state)
@@ -730,18 +735,23 @@ class RobotPartner(AgentBrain):
                 # If we were still executing a Basic Behavior Action, we should now end that, reset action list and do reward update
                 if self.executing_action:
                     self.actionlist = [[], []]
+                    self.navigator.reset_full()  # Reset navigator to make sure there are no remaining waypoints
                     self.reward_update_basic()
                     self.executing_action = False
                 # Check how many CPs hold.
                 if len(cps_hold) == 1:
                     # Only one CP is applicable, so we can directly start executing it
                     print("Only one CP holds: " + cps_hold[0])
+                    msg = f"I will now follow the Collaboration Pattern {cps_hold[0]}."
+                    self.send_message(Message(content=msg, from_id=self.agent_id, to_id=None))
                     self.executing_cp = cps_hold[0]
                     self.execute_cp(self.executing_cp, state)
                 else:
                     # Several CPs hold. We need a method to choose between them.
                     print("Choose an appropriate CP:")
                     chosen_cp = self.choose_cp_from_list(cps_hold)
+                    msg = f"I will now follow the Collaboration Pattern {chosen_cp}."
+                    self.send_message(Message(content=msg, from_id=self.agent_id, to_id=None))
                     self.executing_cp = chosen_cp
                     print(self.executing_cp)
                     self.execute_cp(self.executing_cp, state)
@@ -755,13 +765,15 @@ class RobotPartner(AgentBrain):
                     action_kwargs = self.actionlist[1].pop(0)
                     action_kwargs['action_duration'] = self.move_speed
 
-                    return action, action_kwargs  # Returned here, so code underneath is then not executed
+                    #return action, action_kwargs  # Returned here, so code underneath is then not executed
                 else:
                     # If not, choose a new action
+                    print("WAYPOINTS BEFORE BASIC BEHAVIOR CHOICE")
+                    print(self.navigator.get_upcoming_waypoints(self.state_tracker))
                     self.basic_behavior()
+                    print("WAYPOINTS AFTER BASIC BEHAVIOR CHOICE")
+                    print(self.navigator.get_upcoming_waypoints(self.state_tracker))
 
-        #self.wait_action(None)
-        #print(self.q_table)
         # Record some progress variables
         if action:
             if 'Move' in action:
@@ -1241,7 +1253,7 @@ class RobotPartner(AgentBrain):
             if relevant_objects:
                 # It exists! Translate and check locations
                 if isinstance(relevant_objects, dict):
-                    # There is just one such object, check it's location; if it is correct, pick up this one
+                    # There is just one such object, check its location; if it is correct, pick up this one
                     if task_location in self.translate_location(relevant_objects['obj_id'], 'large'):
                         self.break_action([relevant_objects], state, None)
                     else:
@@ -1534,8 +1546,6 @@ class RobotPartner(AgentBrain):
             if isinstance(break_objects, dict):
                 break_objects = [break_objects]
             break_objects = break_objects + self.state[{'img_name': "/images/transparent.png"}]
-            print('CHECK')
-            print(break_objects)
             self.break_action(break_objects, self.state, None)
         elif chosen_action == "Move back and forth":
             print("Move back and forth - to define")
@@ -1761,22 +1771,25 @@ class RobotPartner(AgentBrain):
         current_action = None
         current_location = None
         msg = None
+        obj_tograb = None
 
         # First, figure out what the actual action is
         if self.executing_action:
             # We are executing a basic behavior action
             current_action = self.executing_action
-            msg = f"Currently executing {current_action}"
+            msg = f"Now executing {current_action}"
         elif self.current_robot_action:
             current_action = self.current_robot_action
-            msg = f"Currently executing {current_action['task']['task_name']} at {current_action['location']['range']}"
+            if current_action['resource']:
+                obj_tograb = current_action['resource']['size']
+                msg = f"Now executing {current_action['task']['task_name']} a {obj_tograb} rock at {current_action['location']['range']}"
+            else:
+                msg = f"Now executing {current_action['task']['task_name']} at {current_action['location']['range']}"
         else:
             print("No action??")
 
-        # Figure out the location and possibly the type of action
-
         # Communicate if it is a pick up, break or drop action
-        self.send_message(Message(content={"chat_text": msg}, from_id=self.agent_id, to_id=None))
+        self.send_message(Message(content= msg, from_id=self.agent_id, to_id=None))
 
         return
 

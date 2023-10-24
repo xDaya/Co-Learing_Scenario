@@ -29,6 +29,7 @@ class CustomHumanAgentBrain(HumanAgentBrain):
     def decide_on_action(self, state, user_input):
 
         action_kwargs = {}
+        msg = None
 
         if state[self.agent_id]['is_carrying']:
             self.agent_properties["img_name"] = "/images/selector_holding.png"
@@ -64,10 +65,14 @@ class CustomHumanAgentBrain(HumanAgentBrain):
             #self.send_message(Message(content=state[obj_id]['location'], from_id=self.agent_id, to_id=None))
             action_kwargs['object_id'] = obj_id
 
+            msg = "Now executing Pick up"
+
         # If the user chose to drop an object in its inventory
         elif action == DropObject.__name__:
             # Assign it to the arguments list
             action_kwargs['drop_range'] = self.__drop_range  # Set drop range
+
+            msg = "Now executing Drop"
 
         elif action == GrabLargeObject.__name__:
             # Assign it to the arguments list
@@ -78,9 +83,13 @@ class CustomHumanAgentBrain(HumanAgentBrain):
             obj_id = self.__select_large_obj_in_range(state, range_=self.__grab_range, property_to_check="is_movable")
             action_kwargs['object_id'] = obj_id # This is a list now that contains the large object and its parts
 
+            msg = "Now executing Pick up"
+
         elif action == DropLargeObject.__name__:
             # Assign it to the arguments list
             action_kwargs['drop_range'] = self.__drop_range  # Set drop range
+
+            msg = "Now executing Drop"
 
         # If the user chose to remove an object
         elif action == RemoveObject.__name__:
@@ -121,6 +130,8 @@ class CustomHumanAgentBrain(HumanAgentBrain):
                 action_kwargs['object_id'] = self.rnd_gen.choice(doors_in_range)
 
         self.translate_action(action, state[self.agent_id]['location'])
+
+        self.send_message(Message(content=msg, from_id=self.agent_id, to_id=None))
 
         return action, action_kwargs
 
