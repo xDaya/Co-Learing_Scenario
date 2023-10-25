@@ -82,9 +82,6 @@ class OntologyGod(AgentBrain):
         # Remove everything that was put on the remove list
         [state.remove(obj) for obj in remove_list]
 
-        #TODO Translate object locations to what range they are in, then add that information
-
-        # State now only contains rocks (without parts), selector agents and victim
         return state
 
     def decide_on_action(self, state):
@@ -116,6 +113,8 @@ class OntologyGod(AgentBrain):
                 if cp_situation == 'delete':
                     # Delete
                     self.delete_cp_data(cp_name)
+                    # Send a message that this CP is deleted, to make sure the robot can process that
+                    self.send_message(Message(content={'cp_delete': cp_name}, from_id=self.agent_id, to_id=None))
                 else:
                     # This means it is an edit, so first delete
                     self.delete_cp_data(cp_name)
@@ -126,6 +125,8 @@ class OntologyGod(AgentBrain):
                 # If we end up here, the CP name is new, so we should create a new entry
                 self.send_cp_data(cp_name, cp_situation, cp_actionsA, cp_actionsB, cp_postsitu, cp_html)
                 self.cp_list.append(cp_name)
+                # Send a message that this CP is added, to make sure the robot can process that
+                self.send_message(Message(content={'cp_new': cp_name}, from_id=self.agent_id, to_id=None))
 
         return action, action_kwargs
 

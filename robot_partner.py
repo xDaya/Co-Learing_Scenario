@@ -649,8 +649,10 @@ class RobotPartner(AgentBrain):
 
         object_ids = [obj_id for obj_id in object_ids if "obstruction" not in state[obj_id]]
 
-        # ----------------------------Goal reached-----------------------------------------------------------
-
+        # ----------------------------Goal reached check-----------------------------------------------------------
+        reward_agent = self.state[{'class_inheritance': "RewardGod"}]
+        if reward_agent['goal_reached']:
+            return None, None
 
         # -----------------------------Image management for carrying----------------------------------------
         if state[self.agent_id]['is_carrying']:
@@ -1686,7 +1688,26 @@ class RobotPartner(AgentBrain):
         for message in self.received_messages:
 
             # Old message handling code, TODO will need to be adapted
-            if message == 'FAIL' and not self.final_update:
+            if isinstance(message, dict) and 'cp_new' in message:
+                # A new CP was created!
+                cp_name = message['cp_new']
+                # Double check if it was already in the list
+                if not cp_name in self.cp_list:
+                    # If not, retrieve info about this CP and add to all the lists
+                    self.store_cp_conditions(self.start_conditions)
+                    self.store_cp_conditions(self.end_conditions)
+            elif isinstance(message, dict) and 'cp_delete' in message:
+                # An existing CP was deleted!
+                cp_name = message['cp_delete']
+                # Delete the name from the CP list, and the accompanying conditions from the conditions lists
+                self.cp_list.remove(cp_name)
+                self.store_cp_conditions(self.start_conditions)
+                self.store_cp_conditions(self.end_conditions)
+                print("New start conditions:")
+                print(self.start_conditions)
+                print("New end conditions:")
+                print(self.end_conditions)
+            elif message == 'FAIL' and not self.final_update:
                 print("FINAL Q UPDATE")
                 last_message = float(self.received_messages[-2])
                 done_action = self.action_history[-1][1]
