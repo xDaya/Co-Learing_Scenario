@@ -649,6 +649,9 @@ class RobotPartner(AgentBrain):
 
         object_ids = [obj_id for obj_id in object_ids if "obstruction" not in state[obj_id]]
 
+        # ----------------------------Goal reached-----------------------------------------------------------
+
+
         # -----------------------------Image management for carrying----------------------------------------
         if state[self.agent_id]['is_carrying']:
             self.agent_properties["img_name"] = "/images/selector_holding2.png"
@@ -768,11 +771,7 @@ class RobotPartner(AgentBrain):
                     #return action, action_kwargs  # Returned here, so code underneath is then not executed
                 else:
                     # If not, choose a new action
-                    print("WAYPOINTS BEFORE BASIC BEHAVIOR CHOICE")
-                    print(self.navigator.get_upcoming_waypoints(self.state_tracker))
                     self.basic_behavior()
-                    print("WAYPOINTS AFTER BASIC BEHAVIOR CHOICE")
-                    print(self.navigator.get_upcoming_waypoints(self.state_tracker))
 
         # Record some progress variables
         if action:
