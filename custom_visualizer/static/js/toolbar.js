@@ -447,6 +447,11 @@ function add_message(chatroom_ID, mssg) {
     if (mssg.from_id != lv_agent_id) {
         div.className = "message_other";
 
+        // If the message is about a CP, give it another classname to highlight
+        if (mssg_content.includes("Collaboration Pattern")){
+            div.className = "message_other_cp";
+        }
+
         // display the sender name
         // console.log("adding sender");
         var mssg_sender = document.createElement('span');

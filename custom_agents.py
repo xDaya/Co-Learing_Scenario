@@ -31,10 +31,18 @@ class CustomHumanAgentBrain(HumanAgentBrain):
         action_kwargs = {}
         msg = None
 
-        if state[self.agent_id]['is_carrying']:
-            self.agent_properties["img_name"] = "/images/selector_holding.png"
+        #------------------------------------- Image management --------------------------------------------------
+        robot_partner = self.state[{'class_inheritance': "RobotPartner"}]
+        if robot_partner['executing_cp']:
+            if state[self.agent_id]['is_carrying']:
+                self.agent_properties["img_name"] = "/images/selector_holding_cp.png"
+            else:
+                self.agent_properties["img_name"] = "/images/selector_cp.png"
         else:
-            self.agent_properties["img_name"] = "/images/selector.png"
+            if state[self.agent_id]['is_carrying']:
+                self.agent_properties["img_name"] = "/images/selector_holding.png"
+            else:
+                self.agent_properties["img_name"] = "/images/selector.png"
 
         # if no keys were pressed, do nothing
         if user_input is None or user_input == []:

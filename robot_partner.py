@@ -57,6 +57,7 @@ class RobotPartner(AgentBrain):
         self.visited_states = []
         self.starting_state = []
         self.starting_state_distance = 0
+        self.first_tick_distance = 0
 
         # Global progress variables
         self.nr_ticks = 0
@@ -64,6 +65,7 @@ class RobotPartner(AgentBrain):
         self.nr_productive_actions = 0
         self.victim_harm = 0
         self.idle_ticks = 0
+        self.robot_contribution = 0
 
         # Helper variables
         self.previous_objs = []
@@ -486,8 +488,9 @@ class RobotPartner(AgentBrain):
                 self.actionlist[1].append({})
 
         pickup_kwargs = {}
-        self.actionlist[0].append(Idle.__name__)
-        self.actionlist[1].append(pickup_kwargs)
+        for i in range(5):
+            self.actionlist[0].append(Idle.__name__)
+            self.actionlist[1].append(pickup_kwargs)
         return
 
 # Policies 1, 2 and 3 are the high level actions
@@ -649,16 +652,27 @@ class RobotPartner(AgentBrain):
 
         object_ids = [obj_id for obj_id in object_ids if "obstruction" not in state[obj_id]]
 
+        if self.first_tick_distance == 0:
+            self.first_tick_distance = self.distance_goal_state()
+
         # ----------------------------Goal reached check-----------------------------------------------------------
         reward_agent = self.state[{'class_inheritance': "RewardGod"}]
         if reward_agent['goal_reached']:
             return None, None
 
         # -----------------------------Image management for carrying----------------------------------------
-        if state[self.agent_id]['is_carrying']:
-            self.agent_properties["img_name"] = "/images/selector_holding2.png"
+        if self.executing_cp:
+            if state[self.agent_id]['is_carrying']:
+                self.agent_properties["img_name"] = "/images/selector2_holding_cp.png"
+            else:
+                self.agent_properties["img_name"] = "/images/selector2_cp.png"
+            self.agent_properties['executing_cp'] = True
         else:
-            self.agent_properties["img_name"] = "/images/selector2.png"
+            if state[self.agent_id]['is_carrying']:
+                self.agent_properties["img_name"] = "/images/selector_holding2.png"
+            else:
+                self.agent_properties["img_name"] = "/images/selector2.png"
+            self.agent_properties['executing_cp'] = False
 
 
         # ----------------------------Do message handling---------------------------------------------
@@ -779,10 +793,17 @@ class RobotPartner(AgentBrain):
         if action:
             if 'Move' in action:
                 self.nr_move_actions = self.nr_move_actions + 1
+            elif 'Idle' in action:
+                # Intentional idle
+                self.idle_ticks = self.idle_ticks + 1
             else:
                 self.nr_productive_actions = self.nr_productive_actions + 1
+                if 'GrabObject' in action:
+                    self.robot_contribution = self.robot_contribution + 1
+                elif 'GrabLargeObject' in action:
+                    self.robot_contribution = self.robot_contribution + 4
         else:
-            # It only counts as idle if it isn't an intentional idle (e.g. because it's part of a CP)
+            # Unintentional idle
             self.idle_ticks = self.idle_ticks + 1
 
         return action, action_kwargs
@@ -1282,7 +1303,7 @@ class RobotPartner(AgentBrain):
         # The nestedness ensures that we can use the state rep at different abstraction levels for later tweaking
         # E.g. fully, with the amount of each object, or simply with the object types present
         # Data format: {'location1': {'large rock': [obj1, ...], 'small rock': [obj1, ...]}, ...}
-        obj_loc_dict = {}
+        '''obj_loc_dict = {}
 
         brown_rocks = self.state[{"obstruction": True}]
         large_rocks = self.state[{'large': True, 'is_movable': True}]
@@ -1372,11 +1393,40 @@ class RobotPartner(AgentBrain):
         if 'Right side of field' in obj_loc_dict and len(obj_loc_dict['Right side of field']['large rock']) > 0:
             state_array[5][1] = 1
         if 'Right side of field' in obj_loc_dict and len(obj_loc_dict['Right side of field']['brown rock']) > 0:
-            state_array[5][2] = 1
+            state_array[5][2] = 1'''
 
-        # Store location of human/self
+        # Strongly simplified state (total of 24 states)
+        # Position 1: distance to goal state (4, 3, 2, 1)
+        # Position 2: contribution team members (robot, human, equal)
+        # Position 3: human stand still (yes, no)
+        state_array = [0, 0, 0]
 
-        # Record previous human actions
+        # Calculate position 1: distance to goal state (4, 3, 2, 1)
+        distance_metric = self.first_tick_distance/4
+        current_distance = self.distance_goal_state()
+        if current_distance > distance_metric*3:
+            state_array[0] = 4
+        elif current_distance > distance_metric*2:
+            state_array[0] = 3
+        elif current_distance > distance_metric:
+            state_array[0] = 2
+        else:
+            state_array[0] = 1
+
+        # Calculate position 2: contribution team members (robot, human, equal)
+        progress = self.first_tick_distance - current_distance
+        if (progress / 2)+1 >= self.robot_contribution >= (progress / 2)-1 or progress < 3:
+            state_array[1] = 'equal'
+        elif self.robot_contribution < (progress/2)-1:
+            state_array[1] = 'human'
+        elif self.robot_contribution > (progress/2)+1:
+            state_array[1] = 'robot'
+
+        # Calculate position 3: human stand still (yes, no)
+        if self.human_standstill():
+            state_array[2] = True
+        else:
+            state_array[2] = False
 
         return state_array
 
@@ -1812,4 +1862,27 @@ class RobotPartner(AgentBrain):
         self.send_message(Message(content= msg, from_id=self.agent_id, to_id=None))
 
         return
+
+    def human_standstill(self):
+        standstill = False
+        # Retrieve location of the human
+        human = self.state[{'class_inheritance': "CustomHumanAgentBrain"}]
+        # Check if the human is standing still
+        # First, check if a previous location is stored
+        if self.human_location:
+            # Check if the current location is the samen as the previous
+            if self.human_location[0] == human['location']:
+                self.human_location[1] = self.human_location[1] + 1
+            else:
+                self.human_location[0] = human['location']
+                self.human_location[1] = 0
+        else:
+            self.human_location.append(human['location'])
+            self.human_location.append(0)
+
+        # If the human lingers
+        if self.human_location[1] >= 3:
+            standstill = True
+
+        return standstill
 

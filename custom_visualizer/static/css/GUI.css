@@ -184,6 +184,18 @@ html {
     max-width: 90%;
 }
 
+.message_other_cp {
+	position: relative;
+	background: #F39138;
+	border-radius: .4em;
+    padding: 0.375rem 0.75rem;
+    margin-bottom: 0.5em;
+    width: fit-content;
+    margin-left: 10px;
+    color:black;
+    max-width: 90%;
+}
+
 .message_other:after {
   content: '';
 	position: absolute;
