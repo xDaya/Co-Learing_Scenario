@@ -117,7 +117,7 @@ def create_builder(level):
     #create_brownlong_object(name="test_obstr", location=(16,1), world=factory)
     #create_brownvert_object(name="test_obstr2", location=(16, 3), world=factory)
 
-    if level == 0:
+    if level == 0:  #Practice scenario is simplified to make it solvable by only the human
         lvl_practice(factory)  # Practice scenario
     elif level == 1:
         lvl_dont_break(factory)  # First scenario
