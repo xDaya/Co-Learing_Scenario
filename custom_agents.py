@@ -33,7 +33,7 @@ class CustomHumanAgentBrain(HumanAgentBrain):
 
         #------------------------------------- Image management --------------------------------------------------
         robot_partner = self.state[{'class_inheritance': "RobotPartner"}]
-        if robot_partner['executing_cp']:
+        if robot_partner is not None and robot_partner['executing_cp']:
             if state[self.agent_id]['is_carrying']:
                 self.agent_properties["img_name"] = "/images/selector_holding_cp.png"
             else:

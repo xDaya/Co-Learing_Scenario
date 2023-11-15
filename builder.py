@@ -48,6 +48,8 @@ def create_builder(level):
     factory = WorldBuilder(shape=[20, 12], run_matrx_visualizer=False, visualization_bg_clr="#ffffff",
                            visualization_bg_img='/images/background.png', tick_duration=0.05, simulation_goal=USAR_Goal())
 
+    condition = 'baseline'
+
     # Add loggers
     current_exp_folder = datetime.now().strftime("exp_at_time_%Hh-%Mm-%Ss_date_%dd-%mm-%Yy")
     logger_save_folder = os.path.join("experiment_logs", current_exp_folder)
@@ -100,13 +102,15 @@ def create_builder(level):
     factory.add_agent((0,0), reward_god, name="RewardGod", visualize_shape='img', img_name="/images/transparent.png", is_traversable=True, goal_reached=False, customizable_properties=["goal_reached"])
 
     # Add Ontology functions by adding the OntologyGod agent
+    #if condition == 'ontology':
     factory.add_agent((0,0), ontology_god, name="OntologyGod", visualize_shape='img', img_name="/images/transparent.png", is_traversable=True, cp_list=None, cp_list_html=None)
 
     # factory.add_agent([0,2], autonomous_agent, name="Robot", visualize_shape='img',
     #                   img_name="/images/machine_square.png", visualize_size=2)
 
-    # Add the actual Robot Partner
-    factory.add_agent((4,4), robot_partner, name="Robot", visualize_shape='img', img_name="/images/selector2.png", visualize_size=1, is_traversable=True, q_table=None, executing_cp=False, customizable_properties=["q_table", "img_name"])
+    # Add the actual Robot Partner (but not in the practice scenario)
+    if level != 0:
+        factory.add_agent((4,4), robot_partner, name="Robot", visualize_shape='img', img_name="/images/selector2.png", visualize_size=1, is_traversable=True, q_table=None, executing_cp=False, customizable_properties=["q_table", "img_name"])
 
     #generate_rubble_pile(name="test_pile", locations=rubble_locations, world=factory)
 
@@ -293,14 +297,14 @@ def generate_rubble_pile(name, locations, world):
 
 #--------------------------------------------- Level Configurations ----------------------------------------------------
 def lvl_practice(factory):
-    create_vert_object(name="vert1", location=(7, 7), world=factory)
+    #create_vert_object(name="vert1", location=(7, 7), world=factory)
 
-    create_long_object(name="long1", location=(8, 7), world=factory)
+    #create_long_object(name="long1", location=(8, 7), world=factory)
 
-    create_large_object(name="large1", location=(9, 3), world=factory)
+    #create_large_object(name="large1", location=(9, 3), world=factory)
     create_large_object(name="large2", location=(12, 6), world=factory)
-    create_large_object(name="large3", location=(10, 8), world=factory)
-    create_large_object(name="large4", location=(8, 9), world=factory)
+    #create_large_object(name="large3", location=(10, 8), world=factory)
+    #create_large_object(name="large4", location=(8, 9), world=factory)
 
     factory.add_object((9, 5), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
                        is_movable=True)

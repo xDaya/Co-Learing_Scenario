@@ -73,6 +73,24 @@ class RobotPartner(AgentBrain):
 
         self.condition = 2
 
+        self.exp_condition = 'baseline'
+
+        # Code that ensures backed up q-tables are retrieved in case of crash
+        print("Retrieving backed up q-tables...")
+        try:
+            with open('qtable_cps_backup.pkl', 'rb') as f:
+                self.q_table_cps = pickle.load(f)
+            print("Backed up CPs q-table stored in variable.")
+        except:
+            print("No backed up q-table available for the CPs.")
+
+        try:
+            with open('qtable_basic_backup.pkl', 'rb') as f:
+                self.q_table_basic = pickle.load(f)
+            print("Backed up basic behavior q-table stored in variable.")
+        except:
+            print("No backed up q-table available for the basic behavior.")
+
     def initialize(self):
         self.state_tracker = StateTracker(agent_id=self.agent_id)
 
@@ -87,17 +105,32 @@ class RobotPartner(AgentBrain):
             self.alpha = self.alpha / 2
         self.received_messages = []
 
-        # Initialize existing CP's and their conditions
-        print("Robot Initializing CPs")
-        self.store_cp_conditions(self.start_conditions)
-        self.store_cp_conditions(self.end_conditions)
-        print("Start conditions:")
-        print(self.start_conditions)
-        print("End conditions:")
-        print(self.end_conditions)
-        for cp in self.cp_list:
-            self.q_table_cps[cp] = np.nan
-            self.q_table_cps_runs[cp] = np.nan
+        if self.exp_condition == 'ontology':
+            # Initialize existing CP's and their conditions
+            print("Robot Initializing CPs")
+            self.store_cp_conditions(self.start_conditions)
+            self.store_cp_conditions(self.end_conditions)
+            print("Start conditions:")
+            print(self.start_conditions)
+            print("End conditions:")
+            print(self.end_conditions)
+
+        # Check if q-tables for the CPs are filled. If not, initialize. If yes, check if it matches the current CP set
+        # and correct where necessary.
+            if self.q_table_cps.empty:
+                for cp in self.cp_list:
+                    self.q_table_cps[cp] = np.nan
+                    self.q_table_cps_runs[cp] = np.nan
+            else:
+                for cp in self.cp_list:
+                    if cp not in self.q_table_cps.columns:
+                        self.q_table_cps[cp] = 0
+                        self.q_table_cps_runs[cp] = 0
+
+                for column in self.q_table_cps.columns:
+                    if column not in self.cp_list:
+                        self.q_table_cps.drop(columns='column')
+                        self.q_table_cps_runs.drop(columns='column')
 
         # Remove columns with None as name for testing phase
         #self.q_table_cps.drop('None', axis=1, inplace=True)
@@ -748,7 +781,10 @@ class RobotPartner(AgentBrain):
             print("Not working with a CP currently!")
 
             # Check if the start conditions for any existing CPs hold
-            cps_hold = self.check_cp_conditions(self.start_conditions)
+            if self.exp_condition == 'ontology':
+                cps_hold = self.check_cp_conditions(self.start_conditions)
+            else:
+                cps_hold = []
             if len(cps_hold) > 0:
                 # This means there are CPs that are applicable and that should be executed.
                 # If we were still executing a Basic Behavior Action, we should now end that, reset action list and do reward update
@@ -1496,7 +1532,7 @@ class RobotPartner(AgentBrain):
         # Store current state as the starting state for this decision
         self.starting_state = current_state
         self.starting_state_distance = self.distance_goal_state()
-        if current_state in self.visited_states:
+        if str(current_state) in self.q_table_cps.index:
             # If state was visited before, check how often it was visited TODO
             # Choose CP based on expected reward (with exploration rate based on uncertainty?), limit to applicable CPs
             q_values = self.q_table_cps.loc[str(current_state)]/self.q_table_cps_runs.loc[str(current_state)] + \
@@ -1551,7 +1587,7 @@ class RobotPartner(AgentBrain):
         # Store current state as the starting state for this decision
         self.starting_state = current_state
         self.starting_state_distance = self.distance_goal_state()
-        if current_state in self.visited_states:
+        if str(current_state) in self.q_table_basic.index:
             # If state was visited before, check how often it was visited TODO
             # Choose action based on expected reward (with exploration rate based on uncertainty?)
             q_values = self.q_table_basic.loc[str(current_state)]
@@ -1642,6 +1678,8 @@ class RobotPartner(AgentBrain):
 
 
         print(self.q_table_cps)
+        with open('qtable_cps_backup.pkl', 'wb') as f:
+            pickle.dump(self.q_table_cps, f, pickle.HIGHEST_PROTOCOL)
 
         return
 
@@ -1686,6 +1724,8 @@ class RobotPartner(AgentBrain):
 
         #print(self.q_table_basic)
         print(total_reward)
+        with open('qtable_basic_backup.pkl', 'wb') as f:
+            pickle.dump(self.q_table_basic, f, pickle.HIGHEST_PROTOCOL)
 
         return
 
