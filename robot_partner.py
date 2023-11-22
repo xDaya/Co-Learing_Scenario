@@ -70,10 +70,14 @@ class RobotPartner(AgentBrain):
         # Helper variables
         self.previous_objs = []
         self.previous_locs = []
+        self.field_locations = []
+        for x in range(5, 15):
+            for y in range(0, 11):
+                self.field_locations.append((x, y))
 
         self.condition = 2
 
-        self.exp_condition = 'ontology'
+        self.exp_condition = 'baseline'
 
         # Code that ensures backed up q-tables are retrieved in case of crash
         print("Retrieving backed up q-tables...")
@@ -1856,6 +1860,8 @@ class RobotPartner(AgentBrain):
     def distance_goal_state(self):
         # Calculating a distance metric to the goal state, purely based on the amount of grid locations that still need
         # to be emptied before the task is done.
+        distance_type = "all"
+
         distance = 0
 
         distance_1 = 0
@@ -1868,25 +1874,31 @@ class RobotPartner(AgentBrain):
 
         goal_state_2 = [(12, 7), (12, 8), (12, 9), (12, 10), (13, 7), (13, 8), (13, 9), (13, 10), (14, 7), (14, 8), (14, 9), (14, 10)]
 
-        for loc_to_check in goal_state_base:
-            objects_found = self.state[{"location": loc_to_check}]
-            if objects_found is not None:
-                distance = distance + 1
-
-        for loc_to_check in goal_state_1:
-            objects_found = self.state[{"location": loc_to_check}]
-            if objects_found is not None:
-                distance_1 = distance_1 + 1
-
-        for loc_to_check in goal_state_2:
-            objects_found = self.state[{"location": loc_to_check}]
-            if objects_found is not None:
-                distance_2 = distance_2 + 1
-
-        if distance_1 < distance_2:
-            distance = distance + distance_1
+        if distance_type == "all":
+            for loc_to_check in self.field_locations:
+                objects_found = self.state[{"location": loc_to_check}]
+                if objects_found is not None:
+                    distance = distance + 1
         else:
-            distance = distance + distance_2
+            for loc_to_check in goal_state_base:
+                objects_found = self.state[{"location": loc_to_check}]
+                if objects_found is not None:
+                    distance = distance + 1
+
+            for loc_to_check in goal_state_1:
+                objects_found = self.state[{"location": loc_to_check}]
+                if objects_found is not None:
+                    distance_1 = distance_1 + 1
+
+            for loc_to_check in goal_state_2:
+                objects_found = self.state[{"location": loc_to_check}]
+                if objects_found is not None:
+                    distance_2 = distance_2 + 1
+
+            if distance_1 < distance_2:
+                distance = distance + distance_1
+            else:
+                distance = distance + distance_2
 
         return distance
 
