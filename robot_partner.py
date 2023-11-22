@@ -73,7 +73,7 @@ class RobotPartner(AgentBrain):
 
         self.condition = 2
 
-        self.exp_condition = 'baseline'
+        self.exp_condition = 'ontology'
 
         # Code that ensures backed up q-tables are retrieved in case of crash
         print("Retrieving backed up q-tables...")
