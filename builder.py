@@ -109,8 +109,8 @@ def create_builder(level):
     #                   img_name="/images/machine_square.png", visualize_size=2)
 
     # Add the actual Robot Partner (but not in the practice scenario)
-    if level != 0:
-        factory.add_agent((4,4), robot_partner, name="Robot", visualize_shape='img', img_name="/images/selector2.png", visualize_size=1, is_traversable=True, q_table=None, executing_cp=False, customizable_properties=["q_table", "img_name"])
+    #if level != 0:
+    factory.add_agent((4,4), robot_partner, name="Robot", visualize_shape='img', img_name="/images/selector2.png", visualize_size=1, is_traversable=True, q_table=None, executing_cp=False, customizable_properties=["q_table", "img_name"])
 
     #generate_rubble_pile(name="test_pile", locations=rubble_locations, world=factory)
 
@@ -297,14 +297,14 @@ def generate_rubble_pile(name, locations, world):
 
 #--------------------------------------------- Level Configurations ----------------------------------------------------
 def lvl_practice(factory):
-    #create_vert_object(name="vert1", location=(7, 7), world=factory)
+    create_vert_object(name="vert1", location=(7, 7), world=factory)
 
-    #create_long_object(name="long1", location=(8, 7), world=factory)
+    create_long_object(name="long1", location=(8, 7), world=factory)
 
-    #create_large_object(name="large1", location=(9, 3), world=factory)
+    create_large_object(name="large1", location=(9, 3), world=factory)
     create_large_object(name="large2", location=(12, 6), world=factory)
-    #create_large_object(name="large3", location=(10, 8), world=factory)
-    #create_large_object(name="large4", location=(8, 9), world=factory)
+    create_large_object(name="large3", location=(10, 8), world=factory)
+    create_large_object(name="large4", location=(8, 9), world=factory)
 
     factory.add_object((9, 5), name="rock1", visualize_shape='img', img_name=rock_img_property, is_traversable=True,
                        is_movable=True)

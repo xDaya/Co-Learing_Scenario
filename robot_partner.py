@@ -364,7 +364,11 @@ class RobotPartner(AgentBrain):
         y_loc_list = []
         dist_list = []
         chosen_part = None
-        object_ids = object_ids + self.state[{'bound_to'}]
+        object_ids = object_ids
+        if object_ids is type(dict):
+            object_ids = [object_ids] + self.state[{'bound_to'}]
+        else:
+            object_ids = object_ids + self.state[{'bound_to'}]
         for object_id in object_ids:
             if "obstruction" in object_id:
                 continue
@@ -412,6 +416,7 @@ class RobotPartner(AgentBrain):
 
     def drop_action(self, state, location):
         drop_action = None
+        repetition = 1
         obj_type = None
         chosen_loc = location
         # Check if the agent is actually carrying something
@@ -423,6 +428,7 @@ class RobotPartner(AgentBrain):
                 drop_action = DropLargeObject.__name__
             else:
                 drop_action = DropObject.__name__
+                repetition = len(self.state[self.agent_id]['is_carrying'])
 
             if "vert" in carrying_obj:
                 obj_type = 'vert'
@@ -456,8 +462,9 @@ class RobotPartner(AgentBrain):
             # Add pick up action to action list (define arguments here as well)
             pickup_kwargs = {}
             pickup_kwargs['obj_type'] = obj_type
-            self.actionlist[0].append(drop_action)
-            self.actionlist[1].append(pickup_kwargs)
+            for i in range(repetition):
+                self.actionlist[0].append(drop_action)
+                self.actionlist[1].append(pickup_kwargs)
         return
 
     def break_action(self, object_ids, state, location):
@@ -1625,7 +1632,14 @@ class RobotPartner(AgentBrain):
             self.wait_action(None)
         elif chosen_action == "Pick up":
             # TODO Distinguish between Large and Small pick up actions, based on some rule
-            self.pickup_action(self.state[{'name': 'rock1'}] + self.state[{'bound_to': None}], self.state)
+            # If the human is standing still, pick up a large rock around them (if available)
+            if self.human_standstill():
+                if self.state[{'large': True}] is not None and len(self.state[self.agent_id]['is_carrying']) == 0:
+                    self.pickup_large_action(self.state[{'large': True}], self.state, self.human_location[0])
+                else:
+                    self.pickup_action(self.state[{'name': 'rock1'}] + self.state[{'bound_to': None}], self.state)
+            else:
+                self.pickup_action(self.state[{'name': 'rock1'}] + self.state[{'bound_to': None}], self.state)
         elif chosen_action == "Drop":
             self.drop_action(self.state, None)
         elif chosen_action == "Break":
