@@ -77,7 +77,7 @@ class RobotPartner(AgentBrain):
 
         self.condition = 2
 
-        self.exp_condition = 'baseline'
+        self.exp_condition = 'ontology'
 
         # Code that ensures backed up q-tables are retrieved in case of crash
         print("Retrieving backed up q-tables...")
@@ -707,15 +707,39 @@ class RobotPartner(AgentBrain):
         # -----------------------------Image management for carrying----------------------------------------
         if self.executing_cp:
             if state[self.agent_id]['is_carrying']:
-                self.agent_properties["img_name"] = "/images/selector2_holding_cp.png"
+                if len(state[self.agent_id]['is_carrying']) == 1:
+                    self.agent_properties["img_name"] = "/images/robot_hand_small_1_cp.png"
+                elif len(state[self.agent_id]['is_carrying']) == 2:
+                    self.agent_properties["img_name"] = "/images/robot_hand_small_2_cp.png"
+                elif len(state[self.agent_id]['is_carrying']) == 3:
+                    self.agent_properties["img_name"] = "/images/robot_hand_small_3_cp.png"
+                elif len(state[self.agent_id]['is_carrying']) == 4:
+                    self.agent_properties["img_name"] = "/images/robot_hand_small_4_cp.png"
+                else:
+                    if 'large' in state[self.agent_id]['is_carrying'][0]:
+                        self.agent_properties["img_name"] = "/images/robot_hand_large_cp.png"
+                    else:
+                        self.agent_properties["img_name"] = "/images/robot_hand_small_5_cp.png"
             else:
-                self.agent_properties["img_name"] = "/images/selector2_cp.png"
+                self.agent_properties["img_name"] = "/images/robot_hand_cp.png"
             self.agent_properties['executing_cp'] = True
         else:
             if state[self.agent_id]['is_carrying']:
-                self.agent_properties["img_name"] = "/images/selector_holding2.png"
+                if len(state[self.agent_id]['is_carrying']) == 1:
+                    self.agent_properties["img_name"] = "/images/robot_hand_small_1.png"
+                elif len(state[self.agent_id]['is_carrying']) == 2:
+                    self.agent_properties["img_name"] = "/images/robot_hand_small_2.png"
+                elif len(state[self.agent_id]['is_carrying']) == 3:
+                    self.agent_properties["img_name"] = "/images/robot_hand_small_3.png"
+                elif len(state[self.agent_id]['is_carrying']) == 4:
+                    self.agent_properties["img_name"] = "/images/robot_hand_small_4.png"
+                else:
+                    if 'large' in state[self.agent_id]['is_carrying'][0]:
+                        self.agent_properties["img_name"] = "/images/robot_hand_large.png"
+                    else:
+                        self.agent_properties["img_name"] = "/images/robot_hand_small_5.png"
             else:
-                self.agent_properties["img_name"] = "/images/selector2.png"
+                self.agent_properties["img_name"] = "/images/robot_hand.png"
             self.agent_properties['executing_cp'] = False
 
 
@@ -811,6 +835,7 @@ class RobotPartner(AgentBrain):
                     msg = f"I will now follow the Collaboration Pattern {cps_hold[0]}."
                     self.send_message(Message(content=msg, from_id=self.agent_id, to_id=None))
                     self.executing_cp = cps_hold[0]
+                    self.starting_state = self.translate_state()
                     self.execute_cp(self.executing_cp, state)
                 else:
                     # Several CPs hold. We need a method to choose between them.
@@ -1676,7 +1701,8 @@ class RobotPartner(AgentBrain):
         victim_harm = self.victim_harm * 5
 
         total_reward = distance_decrease - victim_harm - idle_time
-
+        print("Starting state")
+        print(self.starting_state)
         # If the state is already stored in the q-table, the reward is added
         try:
             # Update reward: rewards are stored cumulatively
@@ -1692,8 +1718,6 @@ class RobotPartner(AgentBrain):
             self.q_table_cps.at[str(self.starting_state), self.executing_cp] = total_reward
             # Also update how many times this CP was chosen in this state by 1
             self.q_table_cps_runs.at[str(self.starting_state), self.executing_cp] = 1
-
-
 
         print(self.q_table_cps)
         with open('qtable_cps_backup.pkl', 'wb') as f:
