@@ -545,7 +545,7 @@ class RewardGod(AgentBrain):
         self.previous_locs = []
         self.hit_penalty = 0
         self.end_obj = None
-        self.max_time = 2000
+        self.max_time = 3000
 
     def initialize(self):
         self.state_tracker = StateTracker(agent_id=self.agent_id)
@@ -737,6 +737,8 @@ class RewardGod(AgentBrain):
         action = None
         final_reward = 15
         current_state = self.filter_observations_learning(state)
+
+        clock = self.max_time - self.counter
         # List with all objects
         # Get all perceived objects
         object_ids = list(state.keys())
@@ -755,29 +757,12 @@ class RewardGod(AgentBrain):
 
         self.hit_penalty = self.hit_penalty + self.victim_crash(state, object_ids)
 
-        if self.previous_phase is None:
-            self.counter = self.counter + 1
-            self.previous_phase = self.filter_observations_learning(state)
-        # If the current phase is the same as the previous phase:
-        elif self.previous_phase == self.filter_observations_learning(state):
-            # If it is taking too long to move to the next phase:
-            if self.counter >= self.max_time:
-                # Send a large negative reward
-                final_reward = final_reward - self.counter - self.hit_penalty
-                #self.send_message(Message(content=str(final_reward), from_id=self.agent_id, to_id=None))
-                #self.send_message(Message(content="FAIL", from_id=self.agent_id, to_id=None))
-                # Some code to end the round
-                self.goal_reached = True
-                self.agent_properties["goal_reached"] = self.goal_reached
-            self.counter = self.counter + 1
-            self.previous_phase = self.filter_observations_learning(state)
-        # Else means that there is a new phase, so reward should be processed
-        else:
-            final_reward = final_reward - self.counter - self.hit_penalty
-            #self.send_message(Message(content=str(final_reward), from_id=self.agent_id, to_id=None))
-            self.counter = 0
-            self.hit_penalty = 0
-            self.previous_phase = self.filter_observations_learning(state)
+        self.counter = self.counter + 1
+
+        if self.counter >= self.max_time:
+            # Some code to end the round
+            self.goal_reached = True
+            self.agent_properties["goal_reached"] = self.goal_reached
 
         if self.goal_reached is True:
             action = GoalReachedImg.__name__

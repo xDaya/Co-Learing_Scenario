@@ -4,6 +4,7 @@ from matrx.logger.log_agent_actions import LogActions
 from matrx.logger.log_idle_agents import LogIdleAgents
 from loggers.learning_logger import LearningLogger
 from loggers.action_logger import ActionLogger
+from loggers.log_tick import LogDuration
 from matrx.world_builder import WorldBuilder
 from matrx.actions.move_actions import *
 from matrx.actions.object_actions import *
@@ -57,6 +58,7 @@ def create_builder(level):
     factory.add_logger(logger_class=ActionLogger, save_path=logger_save_folder, file_name_prefix="actions_")
     factory.add_logger(logger_class=LogIdleAgents, save_path=logger_save_folder, file_name_prefix="idle_")
     factory.add_logger(logger_class=LearningLogger, save_path=logger_save_folder, file_name_prefix="qtable_")
+    factory.add_logger(logger_class=LogDuration, save_path=logger_save_folder, file_name_prefix="completionticks_")
 
     # Link agent names to agent brains
     human_agent = CustomHumanAgentBrain(max_carry_objects=1, grab_range=1)
@@ -99,7 +101,7 @@ def create_builder(level):
     factory.add_agent((0, 0), gravity_god, name="GravityGod", visualize_shape='img', img_name="/images/transparent.png", is_traversable=True)
 
     # Add Reward by adding the RewardGod agent
-    factory.add_agent((0,0), reward_god, name="RewardGod", visualize_shape='img', img_name="/images/transparent.png", is_traversable=True, goal_reached=False, customizable_properties=["goal_reached"])
+    factory.add_agent((0,11), reward_god, name="RewardGod", visualize_shape='img', img_name="/images/transparent.png", is_traversable=True, goal_reached=False, customizable_properties=["goal_reached"])
 
     # Add Ontology functions by adding the OntologyGod agent
     #if condition == 'ontology':
