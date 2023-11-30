@@ -23,8 +23,13 @@ class LogDurationV2(GridWorldLoggerV2):
                          delimiter=delimeter, log_strategy=self.LOG_ON_LAST_TICK)
 
     def log(self, world_state, agent_data, grid_world):
+        distance = None
+        for agent_id, agent_body in grid_world.registered_agents.items():
+            if 'reward' in agent_id:
+                distance = agent_id['distance']
         log_statement = {
-            "tick": grid_world.current_nr_ticks
+            "tick": grid_world.current_nr_ticks,
+            "remaining_distance": "test"
         }
 
         return log_statement

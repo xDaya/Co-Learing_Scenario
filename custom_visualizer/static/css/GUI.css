@@ -248,6 +248,16 @@ h5 {
   height: calc(100% - 46px);
 }
 
+#current_cp {
+    background-color: #F39138;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10 px;
+    padding: 5px;
+    margin: 5px;
+}
+
 #chatrooms_list {
      max-height: 90vh;
 }

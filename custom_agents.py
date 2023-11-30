@@ -769,11 +769,28 @@ class RewardGod(AgentBrain):
             action_kwargs['object_id'] = self.end_obj
             if self.counter >= self.max_time:
                 action_kwargs['result'] = False
+                self.agent_properties["distance"] = self.distance_goal_state()
             else:
                 action_kwargs['result'] = True
 
         return action, action_kwargs
 
+    def distance_goal_state(self):
+        # Calculating a distance metric to the goal state, purely based on the amount of grid locations that still need
+        # to be emptied before the task is done.
+        distance = 0
+
+        field_locations = []
+        for x in range(5, 15):
+            for y in range(0, 11):
+                field_locations.append((x, y))
+
+        for loc_to_check in field_locations:
+            objects_found = self.state[{"location": loc_to_check}]
+            if objects_found is not None:
+                distance = distance + 1
+
+        return distance
 
 class VictimAgent(AgentBrain):
     def __init__(self):
