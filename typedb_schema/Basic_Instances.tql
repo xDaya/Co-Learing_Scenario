@@ -1,0 +1,38 @@
+
+insert
+
+    # Objects
+    
+    $small_rock isa resource, has obj_type 'rock', has size 'small', has color 'grey';
+    $large_rock isa resource, has obj_type 'rock', has size 'large', has color 'grey';
+    $brown_rock isa object, has obj_type 'rock', has size 'large', has color 'brown';
+    
+    
+    # Locations
+    
+    $top_of_pile isa location, has range 'Top of rock pile';
+    $above_pile isa location, has range 'Above rock pile';
+    $bottom_pile isa location, has range 'Bottom of rock pile';
+    $left_side_pile isa location, has range 'Left side of rock pile';
+    $right_side_pile isa location, has range 'Right side of rock pile';
+    $left_side_field isa location, has range 'Left side of field';
+    $right_side_field isa location, has range 'Right side of field';
+    $on_top_of isa location, has range 'On top of';
+    
+    
+    # Actors
+    
+    $human isa actor, has actor_type 'human';
+    $robot isa actor, has actor_type 'robot';
+    $victim isa actor, has actor_type 'victim';
+    
+    
+    # Tasks
+    
+    #$move_to isa task, has task_name 'move to';
+    #$move_back_forth isa task, has task_name 'move back and forth';
+    #$stand_still isa task, has task_name 'stand still';
+    #$pick_up isa task, has task_name 'pick up';
+    #$drop isa task, has task_name 'drop';
+    #$break isa task, has task_name 'break';
+    
