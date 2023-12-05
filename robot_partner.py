@@ -878,6 +878,8 @@ class RobotPartner(AgentBrain):
             # Unintentional idle
             self.idle_ticks = self.idle_ticks + 1
 
+        self.agent_properties['idle_time'] = self.idle_ticks
+
         return action, action_kwargs
 
 # Functions that deal with the ontology stuff
@@ -1723,6 +1725,8 @@ class RobotPartner(AgentBrain):
         with open('qtable_cps_backup.pkl', 'wb') as f:
             pickle.dump(self.q_table_cps, f, pickle.HIGHEST_PROTOCOL)
 
+        self.agent_properties["q_table_cps"] = self.q_table_cps.to_string()
+
         return
 
     def reward_update_basic(self):
@@ -1768,6 +1772,8 @@ class RobotPartner(AgentBrain):
         print(total_reward)
         with open('qtable_basic_backup.pkl', 'wb') as f:
             pickle.dump(self.q_table_basic, f, pickle.HIGHEST_PROTOCOL)
+
+        self.agent_properties["q_table_basic"] = self.q_table_basic.to_string()
 
         return
 

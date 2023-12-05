@@ -857,6 +857,7 @@ class VictimAgent(AgentBrain):
         action = ManageImg.__name__
         action_kwargs['animation'] = self.animation
         action_kwargs['health_score'] = self.health_score
+        self.agent_properties['harm'] = self.health_score
 
         return action, action_kwargs
 

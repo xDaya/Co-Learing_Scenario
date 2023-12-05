@@ -95,7 +95,7 @@ def create_builder(level):
     factory.add_agent([15, 7], machine_img, name="Machine", visualize_shape='img',
                             img_name="/images/machine_square.png", visualize_size=4, visualize_from_center=False, is_traversable=True)
     factory.add_agent([8, 7], victim_img, name="Victim", visualize_shape='img',
-                            img_name="/images/victim_square.png", visualize_size=4, visualize_from_center=False, is_traversable=True, visualize_depth=0)
+                            img_name="/images/victim_square.png", visualize_size=4, visualize_from_center=False, is_traversable=True, visualize_depth=0, harm=None)
 
     # Add Gravity by adding the GravityGod agent
     factory.add_agent((0, 0), gravity_god, name="GravityGod", visualize_shape='img', img_name="/images/transparent.png", is_traversable=True)
@@ -112,7 +112,7 @@ def create_builder(level):
 
     # Add the actual Robot Partner (but not in the practice scenario)
     #if level != 0:
-    factory.add_agent((4,4), robot_partner, name="Robot", visualize_shape='img', img_name="/images/robot_hand.png", visualize_size=1, is_traversable=True, q_table=None, executing_cp=False, customizable_properties=["q_table", "img_name"])
+    factory.add_agent((4,4), robot_partner, name="Robot", visualize_shape='img', img_name="/images/robot_hand.png", visualize_size=1, is_traversable=True, q_table_basic=None, q_table_cps=None, executing_cp=False, idle_time=None)
 
     #generate_rubble_pile(name="test_pile", locations=rubble_locations, world=factory)
 
