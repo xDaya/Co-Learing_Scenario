@@ -14,7 +14,7 @@ if __name__ == "__main__":
 
     # own media resource folder with MATRX.
 
-    media_folder = os.path.dirname(os.path.join(os.path.realpath("C:/Users/zoelenev/PycharmProjects/Co-Learing_Scenario"), "media"))
+    media_folder = os.path.dirname(os.path.realpath(__file__))
 
     #builder.startup(media_folder=media_folder)
 
