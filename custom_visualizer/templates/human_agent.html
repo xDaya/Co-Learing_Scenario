@@ -621,17 +621,17 @@
             <div class="container-fluid">
                 <h5>Chats</h5>
                 <div class="row">
-                    <div class="col-md-3" id="chatrooms_list">
+                    <div class="col-md-3" id="chatrooms_list" style="display:none">
                         <div class="contact" id="new_chat_button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">+</div>
                         <div id="new_chat_dropdown" class="dropdown-menu"></div>
                     </div>
-                    <div class="col-md-9">
+                    <div class="col-md-12">
                         <div id="current_cp" style="display:none">
                         </div>
                         <div id="messages">
                         </div>
-                        <input class="form-control" id="chat_form_input" placeholder="Open a chatroom first..">
-                        <button type="button" id="chat_form_submit" class="btn btn-primary" onclick="send_message(event)" disabled>Send</button>
+                        <input class="form-control" id="chat_form_input" style="visibility:hidden" placeholder="Open a chatroom first..">
+                        <button type="button" id="chat_form_submit" class="btn btn-primary" onclick="send_message(event)" disabled style="visibility:hidden">Send</button>
                     </div>
                 </div>
             </div>

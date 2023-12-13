@@ -141,7 +141,7 @@ html {
 
 #messages {
     overflow-y: auto;
-    max-height: 50vh;
+    max-height: 70vh;
 }
 
 .message_you {
@@ -230,7 +230,7 @@ h5 {
   top: 46px;
   right: 0;
   width: 100%;
-  max-width: 400px;
+  max-width: 380px;
   height: calc(100% - 46px);
 }
 
