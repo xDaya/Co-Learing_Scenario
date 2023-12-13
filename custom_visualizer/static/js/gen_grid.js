@@ -263,6 +263,14 @@ function draw(state, world_settings, new_messages, accessible_chatrooms, new_tic
         }
     }
 
+    // Add clock on screen
+    remaining_time = Math.ceil((3000 * world_settings['tick_duration']) - (world_settings['nr_ticks'] * world_settings['tick_duration']));
+    if (remaining_time < 0){
+        remaining_time = 0
+    }
+    clock_div = document.getElementById("clock");
+    clock_div.innerHTML = remaining_time;
+
     // all objects have been redrawn, so this can be set to false again
     redraw_required = false;
 

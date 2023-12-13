@@ -70,6 +70,10 @@ class RobotPartner(AgentBrain):
         # Helper variables
         self.previous_objs = []
         self.previous_locs = []
+        self.field_locations = []
+        for x in range(5, 15):
+            for y in range(0, 11):
+                self.field_locations.append((x, y))
 
         self.condition = 2
 
@@ -703,15 +707,39 @@ class RobotPartner(AgentBrain):
         # -----------------------------Image management for carrying----------------------------------------
         if self.executing_cp:
             if state[self.agent_id]['is_carrying']:
-                self.agent_properties["img_name"] = "/images/selector2_holding_cp.png"
+                if len(state[self.agent_id]['is_carrying']) == 1:
+                    self.agent_properties["img_name"] = "/images/robot_hand_small_1_cp.png"
+                elif len(state[self.agent_id]['is_carrying']) == 2:
+                    self.agent_properties["img_name"] = "/images/robot_hand_small_2_cp.png"
+                elif len(state[self.agent_id]['is_carrying']) == 3:
+                    self.agent_properties["img_name"] = "/images/robot_hand_small_3_cp.png"
+                elif len(state[self.agent_id]['is_carrying']) == 4:
+                    self.agent_properties["img_name"] = "/images/robot_hand_small_4_cp.png"
+                else:
+                    if 'large' in state[self.agent_id]['is_carrying'][0]:
+                        self.agent_properties["img_name"] = "/images/robot_hand_large_cp.png"
+                    else:
+                        self.agent_properties["img_name"] = "/images/robot_hand_small_5_cp.png"
             else:
-                self.agent_properties["img_name"] = "/images/selector2_cp.png"
+                self.agent_properties["img_name"] = "/images/robot_hand_cp.png"
             self.agent_properties['executing_cp'] = True
         else:
             if state[self.agent_id]['is_carrying']:
-                self.agent_properties["img_name"] = "/images/selector_holding2.png"
+                if len(state[self.agent_id]['is_carrying']) == 1:
+                    self.agent_properties["img_name"] = "/images/robot_hand_small_1.png"
+                elif len(state[self.agent_id]['is_carrying']) == 2:
+                    self.agent_properties["img_name"] = "/images/robot_hand_small_2.png"
+                elif len(state[self.agent_id]['is_carrying']) == 3:
+                    self.agent_properties["img_name"] = "/images/robot_hand_small_3.png"
+                elif len(state[self.agent_id]['is_carrying']) == 4:
+                    self.agent_properties["img_name"] = "/images/robot_hand_small_4.png"
+                else:
+                    if 'large' in state[self.agent_id]['is_carrying'][0]:
+                        self.agent_properties["img_name"] = "/images/robot_hand_large.png"
+                    else:
+                        self.agent_properties["img_name"] = "/images/robot_hand_small_5.png"
             else:
-                self.agent_properties["img_name"] = "/images/selector2.png"
+                self.agent_properties["img_name"] = "/images/robot_hand.png"
             self.agent_properties['executing_cp'] = False
 
 
@@ -807,6 +835,7 @@ class RobotPartner(AgentBrain):
                     msg = f"I will now follow the Collaboration Pattern {cps_hold[0]}."
                     self.send_message(Message(content=msg, from_id=self.agent_id, to_id=None))
                     self.executing_cp = cps_hold[0]
+                    self.starting_state = self.translate_state()
                     self.execute_cp(self.executing_cp, state)
                 else:
                     # Several CPs hold. We need a method to choose between them.
@@ -848,6 +877,8 @@ class RobotPartner(AgentBrain):
         else:
             # Unintentional idle
             self.idle_ticks = self.idle_ticks + 1
+
+        self.agent_properties['idle_time'] = self.idle_ticks
 
         return action, action_kwargs
 
@@ -1672,7 +1703,8 @@ class RobotPartner(AgentBrain):
         victim_harm = self.victim_harm * 5
 
         total_reward = distance_decrease - victim_harm - idle_time
-
+        print("Starting state")
+        print(self.starting_state)
         # If the state is already stored in the q-table, the reward is added
         try:
             # Update reward: rewards are stored cumulatively
@@ -1689,11 +1721,11 @@ class RobotPartner(AgentBrain):
             # Also update how many times this CP was chosen in this state by 1
             self.q_table_cps_runs.at[str(self.starting_state), self.executing_cp] = 1
 
-
-
         print(self.q_table_cps)
         with open('qtable_cps_backup.pkl', 'wb') as f:
             pickle.dump(self.q_table_cps, f, pickle.HIGHEST_PROTOCOL)
+
+        self.agent_properties["q_table_cps"] = self.q_table_cps.to_string()
 
         return
 
@@ -1740,6 +1772,8 @@ class RobotPartner(AgentBrain):
         print(total_reward)
         with open('qtable_basic_backup.pkl', 'wb') as f:
             pickle.dump(self.q_table_basic, f, pickle.HIGHEST_PROTOCOL)
+
+        self.agent_properties["q_table_basic"] = self.q_table_basic.to_string()
 
         return
 
@@ -1856,6 +1890,8 @@ class RobotPartner(AgentBrain):
     def distance_goal_state(self):
         # Calculating a distance metric to the goal state, purely based on the amount of grid locations that still need
         # to be emptied before the task is done.
+        distance_type = "all"
+
         distance = 0
 
         distance_1 = 0
@@ -1868,25 +1904,31 @@ class RobotPartner(AgentBrain):
 
         goal_state_2 = [(12, 7), (12, 8), (12, 9), (12, 10), (13, 7), (13, 8), (13, 9), (13, 10), (14, 7), (14, 8), (14, 9), (14, 10)]
 
-        for loc_to_check in goal_state_base:
-            objects_found = self.state[{"location": loc_to_check}]
-            if objects_found is not None:
-                distance = distance + 1
-
-        for loc_to_check in goal_state_1:
-            objects_found = self.state[{"location": loc_to_check}]
-            if objects_found is not None:
-                distance_1 = distance_1 + 1
-
-        for loc_to_check in goal_state_2:
-            objects_found = self.state[{"location": loc_to_check}]
-            if objects_found is not None:
-                distance_2 = distance_2 + 1
-
-        if distance_1 < distance_2:
-            distance = distance + distance_1
+        if distance_type == "all":
+            for loc_to_check in self.field_locations:
+                objects_found = self.state[{"location": loc_to_check}]
+                if objects_found is not None:
+                    distance = distance + 1
         else:
-            distance = distance + distance_2
+            for loc_to_check in goal_state_base:
+                objects_found = self.state[{"location": loc_to_check}]
+                if objects_found is not None:
+                    distance = distance + 1
+
+            for loc_to_check in goal_state_1:
+                objects_found = self.state[{"location": loc_to_check}]
+                if objects_found is not None:
+                    distance_1 = distance_1 + 1
+
+            for loc_to_check in goal_state_2:
+                objects_found = self.state[{"location": loc_to_check}]
+                if objects_found is not None:
+                    distance_2 = distance_2 + 1
+
+            if distance_1 < distance_2:
+                distance = distance + distance_1
+            else:
+                distance = distance + distance_2
 
         return distance
 

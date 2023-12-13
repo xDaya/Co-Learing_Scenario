@@ -4,6 +4,7 @@ from matrx.logger.log_agent_actions import LogActions
 from matrx.logger.log_idle_agents import LogIdleAgents
 from loggers.learning_logger import LearningLogger
 from loggers.action_logger import ActionLogger
+from loggers.log_tick import LogDuration
 from matrx.world_builder import WorldBuilder
 from matrx.actions.move_actions import *
 from matrx.actions.object_actions import *
@@ -57,6 +58,7 @@ def create_builder(level):
     factory.add_logger(logger_class=ActionLogger, save_path=logger_save_folder, file_name_prefix="actions_")
     factory.add_logger(logger_class=LogIdleAgents, save_path=logger_save_folder, file_name_prefix="idle_")
     factory.add_logger(logger_class=LearningLogger, save_path=logger_save_folder, file_name_prefix="qtable_")
+    factory.add_logger(logger_class=LogDuration, save_path=logger_save_folder, file_name_prefix="completionticks_")
 
     # Link agent names to agent brains
     human_agent = CustomHumanAgentBrain(max_carry_objects=1, grab_range=1)
@@ -85,7 +87,7 @@ def create_builder(level):
 
     # Add the selector agent that allows humans to interact
     factory.add_human_agent([3, 4], human_agent, name="Human Selector", key_action_map=key_action_map,
-                            visualize_shape='img', img_name="/images/selector.png", visualize_size=1, is_traversable=True, customizable_properties=["img_name"])
+                            visualize_shape='img', img_name="/images/human_hand.png", visualize_size=1, is_traversable=True, customizable_properties=["img_name"])
 
     # Add agents that are static and mostly just show the image of the 'actual' agent
     factory.add_agent([1, 7], human_img, name="Human", visualize_shape='img',
@@ -93,13 +95,13 @@ def create_builder(level):
     factory.add_agent([15, 7], machine_img, name="Machine", visualize_shape='img',
                             img_name="/images/machine_square.png", visualize_size=4, visualize_from_center=False, is_traversable=True)
     factory.add_agent([8, 7], victim_img, name="Victim", visualize_shape='img',
-                            img_name="/images/victim_square.png", visualize_size=4, visualize_from_center=False, is_traversable=True, visualize_depth=0)
+                            img_name="/images/victim_square.png", visualize_size=4, visualize_from_center=False, is_traversable=True, visualize_depth=0, harm=None)
 
     # Add Gravity by adding the GravityGod agent
     factory.add_agent((0, 0), gravity_god, name="GravityGod", visualize_shape='img', img_name="/images/transparent.png", is_traversable=True)
 
     # Add Reward by adding the RewardGod agent
-    factory.add_agent((0,0), reward_god, name="RewardGod", visualize_shape='img', img_name="/images/transparent.png", is_traversable=True, goal_reached=False, customizable_properties=["goal_reached"])
+    factory.add_agent((0,11), reward_god, name="RewardGod", visualize_shape='img', img_name="/images/transparent.png", is_traversable=True, goal_reached=False, distance=None, customizable_properties=["goal_reached"])
 
     # Add Ontology functions by adding the OntologyGod agent
     #if condition == 'ontology':
@@ -109,8 +111,8 @@ def create_builder(level):
     #                   img_name="/images/machine_square.png", visualize_size=2)
 
     # Add the actual Robot Partner (but not in the practice scenario)
-    #if level != 0:
-    factory.add_agent((4,4), robot_partner, name="Robot", visualize_shape='img', img_name="/images/selector2.png", visualize_size=1, is_traversable=True, q_table=None, executing_cp=False, customizable_properties=["q_table", "img_name"])
+    if level != 0:
+        factory.add_agent((4,4), robot_partner, name="Robot", visualize_shape='img', img_name="/images/robot_hand.png", visualize_size=1, is_traversable=True, q_table_basic=None, q_table_cps=None, executing_cp=False, idle_time=None)
 
     #generate_rubble_pile(name="test_pile", locations=rubble_locations, world=factory)
 

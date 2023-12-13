@@ -52,6 +52,9 @@
             <button type="button" class="btn btn-dark" id="start_button"><i class="fas fa-play text-light"></i></button>
             <button type="button" class="btn btn-dark hidden" id="pause_button" style="display:none;"><i class="fas fa-pause text-light"></i></button>
             <button type="button" class="btn btn-dark" id="stop_button" style="display:none;"><i class="fas fa-stop text-light"></i></button>
+            <!-- Clock -->
+            <div class="counting-clock" id="clock" style="z-index:100000000000; color:red; font-size:40px; font-weight: bold; position:absolute;">
+            </div>
             <div class="btn-group" style="display:none;">
                 <button type="button" class="btn btn-dark dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-users"></i></button>
                 <div id="agent_dropdown" class="dropdown-menu">
@@ -623,6 +626,8 @@
                         <div id="new_chat_dropdown" class="dropdown-menu"></div>
                     </div>
                     <div class="col-md-9">
+                        <div id="current_cp" style="display:none">
+                        </div>
                         <div id="messages">
                         </div>
                         <input class="form-control" id="chat_form_input" placeholder="Open a chatroom first..">

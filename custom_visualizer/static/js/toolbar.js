@@ -450,6 +450,16 @@ function add_message(chatroom_ID, mssg) {
         // If the message is about a CP, give it another classname to highlight
         if (mssg_content.includes("Collaboration Pattern")){
             div.className = "message_other_cp";
+            if (mssg.content.includes('follow ')){
+                cp_container = document.getElementById("current_cp")
+                cp_container.style.display = "block"
+                cp_container.innerHTML = mssg_content.slice(44, -1)
+            }
+            else {
+                cp_container = document.getElementById("current_cp")
+                cp_container.style.display = "none"
+                cp_container.innerHTML = ""
+            }
         }
 
         // display the sender name

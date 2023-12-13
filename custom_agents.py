@@ -31,18 +31,19 @@ class CustomHumanAgentBrain(HumanAgentBrain):
         action_kwargs = {}
         msg = None
 
-        #------------------------------------- Image management --------------------------------------------------
+        # ------------------------------------- Image management --------------------------------------------------
         robot_partner = self.state[{'class_inheritance': "RobotPartner"}]
         if robot_partner is not None and robot_partner['executing_cp']:
             if state[self.agent_id]['is_carrying']:
-                self.agent_properties["img_name"] = "/images/selector_holding_cp.png"
+                self.agent_properties["img_name"] = "/images/human_hand_full_cp.png"
             else:
-                self.agent_properties["img_name"] = "/images/selector_cp.png"
+                self.agent_properties["img_name"] = "/images/human_hand_cp.png"
         else:
             if state[self.agent_id]['is_carrying']:
-                self.agent_properties["img_name"] = "/images/selector_holding.png"
+                self.agent_properties["img_name"] = "/images/human_hand_full.png"
             else:
-                self.agent_properties["img_name"] = "/images/selector.png"
+                self.agent_properties["img_name"] = "/images/human_hand.png"
+        # ------------------------------------------------------------------------------------------------------------
 
         # if no keys were pressed, do nothing
         if user_input is None or user_input == []:
@@ -544,7 +545,7 @@ class RewardGod(AgentBrain):
         self.previous_locs = []
         self.hit_penalty = 0
         self.end_obj = None
-        self.max_time = 2000
+        self.max_time = 3000
 
     def initialize(self):
         self.state_tracker = StateTracker(agent_id=self.agent_id)
@@ -736,6 +737,8 @@ class RewardGod(AgentBrain):
         action = None
         final_reward = 15
         current_state = self.filter_observations_learning(state)
+
+        clock = self.max_time - self.counter
         # List with all objects
         # Get all perceived objects
         object_ids = list(state.keys())
@@ -754,40 +757,40 @@ class RewardGod(AgentBrain):
 
         self.hit_penalty = self.hit_penalty + self.victim_crash(state, object_ids)
 
-        if self.previous_phase is None:
-            self.counter = self.counter + 1
-            self.previous_phase = self.filter_observations_learning(state)
-        # If the current phase is the same as the previous phase:
-        elif self.previous_phase == self.filter_observations_learning(state):
-            # If it is taking too long to move to the next phase:
-            if self.counter >= self.max_time:
-                # Send a large negative reward
-                final_reward = final_reward - self.counter - self.hit_penalty
-                #self.send_message(Message(content=str(final_reward), from_id=self.agent_id, to_id=None))
-                #self.send_message(Message(content="FAIL", from_id=self.agent_id, to_id=None))
-                # Some code to end the round
-                self.goal_reached = True
-                self.agent_properties["goal_reached"] = self.goal_reached
-            self.counter = self.counter + 1
-            self.previous_phase = self.filter_observations_learning(state)
-        # Else means that there is a new phase, so reward should be processed
-        else:
-            final_reward = final_reward - self.counter - self.hit_penalty
-            #self.send_message(Message(content=str(final_reward), from_id=self.agent_id, to_id=None))
-            self.counter = 0
-            self.hit_penalty = 0
-            self.previous_phase = self.filter_observations_learning(state)
+        self.counter = self.counter + 1
+
+        if self.counter >= self.max_time:
+            # Some code to end the round
+            self.goal_reached = True
+            self.agent_properties["goal_reached"] = self.goal_reached
 
         if self.goal_reached is True:
             action = GoalReachedImg.__name__
             action_kwargs['object_id'] = self.end_obj
             if self.counter >= self.max_time:
                 action_kwargs['result'] = False
+                self.agent_properties["distance"] = self.distance_goal_state()
             else:
                 action_kwargs['result'] = True
 
         return action, action_kwargs
 
+    def distance_goal_state(self):
+        # Calculating a distance metric to the goal state, purely based on the amount of grid locations that still need
+        # to be emptied before the task is done.
+        distance = 0
+
+        field_locations = []
+        for x in range(5, 15):
+            for y in range(0, 11):
+                field_locations.append((x, y))
+
+        for loc_to_check in field_locations:
+            objects_found = self.state[{"location": loc_to_check}]
+            if objects_found is not None:
+                distance = distance + 1
+
+        return distance
 
 class VictimAgent(AgentBrain):
     def __init__(self):
@@ -854,6 +857,7 @@ class VictimAgent(AgentBrain):
         action = ManageImg.__name__
         action_kwargs['animation'] = self.animation
         action_kwargs['health_score'] = self.health_score
+        self.agent_properties['harm'] = self.health_score
 
         return action, action_kwargs
 
