@@ -1946,11 +1946,17 @@ class RobotPartner(AgentBrain):
             msg = f"Now executing {current_action}"
         elif self.current_robot_action:
             current_action = self.current_robot_action
-            if current_action['resource']:
-                obj_tograb = current_action['resource']['size']
-                msg = f"Now executing {current_action['task']['task_name']} a {obj_tograb} rock at {current_action['location']['range']}"
+            # Check what the actual MATRX action is
+            actual_action = self.actionlist[0][0]
+            # If the MATRX action is not part of the CP, don't communicate (this only happens for drop when pick up)
+            if current_action['task']['task_name'] == 'Pick up' and 'Drop' in actual_action:
+                print("Don't communicate")
             else:
-                msg = f"Now executing {current_action['task']['task_name']} at {current_action['location']['range']}"
+                if current_action['resource']:
+                    obj_tograb = current_action['resource']['size']
+                    msg = f"Now executing {current_action['task']['task_name']} a {obj_tograb} rock at {current_action['location']['range']}"
+                else:
+                    msg = f"Now executing {current_action['task']['task_name']} at {current_action['location']['range']}"
         else:
             print("No action??")
 
