@@ -1016,26 +1016,28 @@ class RobotPartner(AgentBrain):
             if relevant_objects:
                 # First check if location is None, if so, condition holds
                 if location is None:
+                    # Check if the objects that were found aren't outside of the field TODO
                     if condition not in conditions_hold:
                         conditions_hold.append(condition)
                     break
-                # It exists! Translate and check locations
-                if isinstance(relevant_objects, dict):
-                    # There is just one such object, check it's location
-                    if location['range'] in self.translate_location(relevant_objects['obj_id'], object_type):
-                        # It is the same, condition holds!
-                        if condition not in conditions_hold:
-                            conditions_hold.append(condition)
-                        break
-                elif isinstance(relevant_objects, list):
-                    # It is a list, we'll need to loop through
-                    for object in relevant_objects:
-                        # Translate the location and check whether it is the one in the condition
-                        if location['range'] in self.translate_location(object['obj_id'], object_type):
-                            # It is the same, condition holds! We can break the for loop
+                else:
+                    # It exists! Translate and check locations
+                    if isinstance(relevant_objects, dict):
+                        # There is just one such object, check it's location
+                        if location['range'] in self.translate_location(relevant_objects['obj_id'], object_type):
+                            # It is the same, condition holds!
                             if condition not in conditions_hold:
                                 conditions_hold.append(condition)
                             break
+                    elif isinstance(relevant_objects, list):
+                        # It is a list, we'll need to loop through
+                        for object in relevant_objects:
+                            # Translate the location and check whether it is the one in the condition
+                            if location['range'] in self.translate_location(object['obj_id'], object_type):
+                                # It is the same, condition holds! We can break the for loop
+                                if condition not in conditions_hold:
+                                    conditions_hold.append(condition)
+                                break
             else:
                 # There are no such objects, we can stop here
                 print("Condition doesn't hold")
@@ -1603,7 +1605,8 @@ class RobotPartner(AgentBrain):
             # Choose CP based on expected reward (with exploration rate based on uncertainty?), limit to applicable CPs
             q_values = self.q_table_cps.loc[str(current_state)]/self.q_table_cps_runs.loc[str(current_state)] + \
                        np.sqrt(2 * np.log(self.nr_chosen_cps + 1) / (self.q_table_cps_runs + 1e-6))
-            q_values = q_values[cp_list]
+            q_values = q_values.loc[str(current_state)]
+            q_values = q_values.fillna(0)
             chosen_cp = q_values.idxmax()
         else:
             # If state was not visited before, find the nearest state that was visited for which these CPs also hold
@@ -1626,7 +1629,6 @@ class RobotPartner(AgentBrain):
 
         # Update the total number of times a CP was chosen
         self.nr_chosen_cps = self.nr_chosen_cps + 1
-
         return chosen_cp
 
     def basic_behavior(self):
