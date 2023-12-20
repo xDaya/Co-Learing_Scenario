@@ -43,7 +43,7 @@
     </script>
 </head>
 
-<body>
+<body style="overflow:hidden">
 
     <!-- Toolbar -->
     <div id="matrx-toolbar" class="row toolbar bg-dark">
@@ -51,7 +51,7 @@
             <img src="/static/images/matrx_logo_light.svg" alt="MATRX" id="matrx_logo">
             <button type="button" class="btn btn-dark" id="start_button"><i class="fas fa-play text-light"></i></button>
             <button type="button" class="btn btn-dark hidden" id="pause_button" style="display:none;"><i class="fas fa-pause text-light"></i></button>
-            <button type="button" class="btn btn-dark" id="stop_button" style="display:none;"><i class="fas fa-stop text-light"></i></button>
+            <button type="button" class="btn btn-dark" id="stop_button"><i class="fas fa-stop text-light"></i></button>
             <!-- Clock -->
             <div class="counting-clock" id="clock" style="z-index:100000000000; color:red; font-size:40px; font-weight: bold; position:absolute;">
             </div>
@@ -144,13 +144,13 @@
               <p>Bottom of rock pile</p>
             </div>
             <div class="item location" id="item4" draggable="true">
-              <button class="leftrightbutton"><i>Left</i></button><p> side of rock pile</p>
+              <button class="leftrightbutton" id="leftrightbutton1"><i>Left</i></button><p> side of rock pile</p>
             </div>
             <div class="item location" id="item5" draggable="true">
-              <button class="leftrightbutton"><i>Left</i></button><p> side of field</p>
+              <button class="leftrightbutton" id="leftrightbutton2"><i>Left</i></button><p> side of field</p>
             </div>
             <div class="item location" id="item6" draggable="true">
-              <p>On top of </p><button class="variablebutton"><i>Object</i></button>
+              <p>On top of </p><button class="variablebutton" id="variablebutton1"><i>Object</i></button>
             </div>
           </div>
           <div class="right_concepts">
@@ -174,7 +174,7 @@
               <p>Victim</p>
             </div>
           </div>
-          <div class="middle_concepts">
+          <!--<div class="middle_concepts">
             <div class="item counter" id="item13" draggable="true">
               <p>All</p>
             </div>
@@ -184,10 +184,10 @@
             <div class="item counter" id="item15" draggable="true">
               <p>Zero</p>
             </div>
-          </div>
+          </div>-->
           <div class="bottom_concepts">
             <div class="item task" id="item16" draggable="true">
-              <p>Move to </p><button class="variablebutton"><i>Object</i></button>
+              <p>Move to </p><button class="variablebutton" id="variablebutton2"><i>Object</i></button>
             </div>
             <div class="item task" id="item17" draggable="true">
               <p>Move back and forth in </p><div class="invulvakje inv_loc"><i>location</i></div>
@@ -234,6 +234,12 @@
       document.getElementById("send_button").onclick = function() {storeData()};
 
       document.getElementById("delete_button").onclick = function() {deleteData()};
+
+      document.getElementById("leftrightbutton1").onclick = function() {leftright_toggle(document.getElementById("leftrightbutton1"))};
+      document.getElementById("leftrightbutton2").onclick = function() {leftright_toggle(document.getElementById("leftrightbutton2"))};
+
+      document.getElementById("variablebutton1").onclick = function() {leftright_toggle(document.getElementById("variablebutton1"))};
+      document.getElementById("variablebutton2").onclick = function() {leftright_toggle(document.getElementById("variablebutton2"))};
 
       document.getElementById("plus_button").onclick = function() {addBox()};
       document.getElementById("minus_button").onclick = function() {removeBox()};
@@ -330,10 +336,10 @@
 
 
       //--------------------------------------Toggles--------------------------------------------------------
-      document.body.addEventListener("click", leftright_toggle);
+      //document.body.addEventListener("click", leftright_toggle);
 
       function leftright_toggle(e) {
-        var theToggle = e.target;
+        var theToggle = e;
         console.log(theToggle)
         if (theToggle.className == "leftrightbutton"){
           switch(theToggle.innerHTML){

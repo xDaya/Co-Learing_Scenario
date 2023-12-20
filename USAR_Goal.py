@@ -32,7 +32,7 @@ class USAR_Goal(WorldGoal):
             if grid_world.registered_agents[self.reward_agent].properties['goal_reached']:
                 # Code for delaying reset with a few seconds
                 self.done_counter += 1
-                if self.done_counter >= 400:
+                if self.done_counter >= 200:
                     self.is_done = True
         except KeyError:
             self.reward_agent = None

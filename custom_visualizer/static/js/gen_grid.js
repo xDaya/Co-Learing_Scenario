@@ -552,13 +552,13 @@ function gen_rectangle(obj_vis_settings, obj_element, element_type = "div") {
     }
 
     // add selection image if needed
-    if (obj_vis_settings['selected']) {
-        var selection_img = document.createElement('img');
-        selection_img.className = "matrx_object_selected";
+    //if (obj_vis_settings['selected']) {
+    //    var selection_img = document.createElement('img');
+    //    selection_img.className = "matrx_object_selected";
         // set the image source
-        selection_img.setAttribute("src", '/static/images/selected.png');
-        obj_element.append(selection_img);
-    }
+    //    selection_img.setAttribute("src", '/static/images/selected.png');
+    //    obj_element.append(selection_img);
+    //}
 
     return shape;
 }
@@ -656,13 +656,13 @@ function gen_triangle(obj_vis_settings, obj_element) {
     }
 
     // add selected img if needed
-    if (obj_vis_settings['selected']) {
-        var selection_img = document.createElement('img');
-        selection_img.className = "matrx_object_selected";
+    //if (obj_vis_settings['selected']) {
+    //    var selection_img = document.createElement('img');
+    //    selection_img.className = "matrx_object_selected";
         // set the image source
-        selection_img.setAttribute("src", '/static/images/selected.png');
-        obj_element.append(selection_img);
-    }
+    //    selection_img.setAttribute("src", '/static/images/selected.png');
+    //    obj_element.append(selection_img);
+    //}
 
     return shape;
 }
