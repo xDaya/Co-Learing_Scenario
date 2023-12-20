@@ -1615,8 +1615,13 @@ class RobotPartner(AgentBrain):
                            np.sqrt(2 * np.log(self.nr_chosen_cps + 1) / (self.q_table_cps_runs + 1e-6))
                 chosen_cp = q_values.idxmax(axis=1)
             else:
-                # If no nearest state, choose randomly
-                chosen_cp = cp_list[0]
+                # If no nearest state, choose randomly and initialize Q-values for this state
+                self.q_table_cps.loc[len(self.q_table_cps.index)] = 0
+                self.q_table_cps.rename(index={len(self.q_table_cps.index) - 1: str(current_state)}, inplace=True)
+                self.q_table_cps_runs.loc[len(self.q_table_cps_runs.index)] = 0
+                self.q_table_cps_runs.rename(index={len(self.q_table_cps_runs.index) - 1: str(current_state)}, inplace=True)
+                self.visited_states.append(current_state)
+                chosen_cp = random.choice(cp_list)
                 print(self.q_table_cps)
 
         # Update the total number of times a CP was chosen
@@ -1659,7 +1664,7 @@ class RobotPartner(AgentBrain):
         else:
             # If state was not visited before, find the nearest state that was visited
             nearest_state = self.nearest_visited_state()
-            if nearest_state:
+            if str(nearest_state) in self.q_table_basic.index:
                 # Choose action based on expected reward in that state (this is like an educated guess based on similarity)
                 q_values = self.q_table_basic.loc[str(nearest_state)]
                 if action_to_exclude is not None:
