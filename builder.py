@@ -112,7 +112,7 @@ def create_builder(level):
 
     # Add the actual Robot Partner (but not in the practice scenario)
     if level != 0:
-        factory.add_agent((4,4), robot_partner, name="Robot", visualize_shape='img', img_name="/images/robot_hand.png", visualize_size=1, is_traversable=True, q_table_basic=None, q_table_cps=None, executing_cp=False, idle_time=None)
+        factory.add_agent((4,4), robot_partner, name="Robot", visualize_shape='img', img_name="/images/robot_hand.png", visualize_size=1, is_traversable=True, q_table_basic=None, q_table_cps=None, q_table_cps_runs=None, executing_cp=False, idle_time=None)
 
     #generate_rubble_pile(name="test_pile", locations=rubble_locations, world=factory)
 

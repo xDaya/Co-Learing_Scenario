@@ -14,6 +14,7 @@ class LogDuration(GridWorldLogger):
         idle_time_robot = None
         idle_time_human = None
         q_table_cps = None
+        q_table_cps_runs = None
         q_table_basic = None
         for agent_id, agent_body in grid_world.registered_agents.items():
             if 'reward' in agent_id:
@@ -23,6 +24,7 @@ class LogDuration(GridWorldLogger):
             if 'robot' in agent_id:
                 idle_time_robot = agent_body.properties['idle_time']
                 q_table_cps = agent_body.properties['q_table_cps']
+                q_table_cps_runs = agent_body.properties['q_table_cps_runs']
                 q_table_basic = agent_body.properties['q_table_basic']
         log_statement = {
             "tick": grid_world.current_nr_ticks,
@@ -31,6 +33,7 @@ class LogDuration(GridWorldLogger):
             "victim_harm": victim_harm,
             "idle_time_robot": idle_time_robot,
             "q_table_cps": q_table_cps,
+            "q_table_cps_runs": q_table_cps_runs,
             "q_table_basic": q_table_basic
         }
 

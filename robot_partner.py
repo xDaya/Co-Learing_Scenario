@@ -89,6 +89,13 @@ class RobotPartner(AgentBrain):
             print("No backed up q-table available for the CPs.")
 
         try:
+            with open('qtable_cps_runs_backup.pkl', 'rb') as f:
+                self.q_table_cps_runs = pickle.load(f)
+            print("Backed up CPs q-table stored in variable.")
+        except:
+            print("No backed up q-table available for the CPs.")
+
+        try:
             with open('qtable_basic_backup.pkl', 'rb') as f:
                 self.q_table_basic = pickle.load(f)
             print("Backed up basic behavior q-table stored in variable.")
@@ -123,8 +130,8 @@ class RobotPartner(AgentBrain):
         # and correct where necessary.
             if self.q_table_cps.empty:
                 for cp in self.cp_list:
-                    self.q_table_cps[cp] = np.nan
-                    self.q_table_cps_runs[cp] = np.nan
+                    self.q_table_cps[cp] = 0
+                    self.q_table_cps_runs[cp] = 0
             else:
                 for cp in self.cp_list:
                     if cp not in self.q_table_cps.columns:
@@ -133,8 +140,8 @@ class RobotPartner(AgentBrain):
 
                 for column in self.q_table_cps.columns:
                     if column not in self.cp_list:
-                        self.q_table_cps.drop(columns='column')
-                        self.q_table_cps_runs.drop(columns='column')
+                        self.q_table_cps.drop(columns=column)
+                        self.q_table_cps_runs.drop(columns=column)
 
         # Remove columns with None as name for testing phase
         #self.q_table_cps.drop('None', axis=1, inplace=True)
@@ -1007,6 +1014,11 @@ class RobotPartner(AgentBrain):
 
             # Check where this type of object is located, and whether that is the same as the location in the condition
             if relevant_objects:
+                # First check if location is None, if so, condition holds
+                if location is None:
+                    if condition not in conditions_hold:
+                        conditions_hold.append(condition)
+                    break
                 # It exists! Translate and check locations
                 if isinstance(relevant_objects, dict):
                     # There is just one such object, check it's location
@@ -1014,6 +1026,7 @@ class RobotPartner(AgentBrain):
                         # It is the same, condition holds!
                         if condition not in conditions_hold:
                             conditions_hold.append(condition)
+                        break
                 elif isinstance(relevant_objects, list):
                     # It is a list, we'll need to loop through
                     for object in relevant_objects:
@@ -1026,7 +1039,6 @@ class RobotPartner(AgentBrain):
             else:
                 # There are no such objects, we can stop here
                 print("Condition doesn't hold")
-
 
         # Then check if there is any CP for which each start condition holds (or if the end condition of the current holds)
 
@@ -1265,7 +1277,11 @@ class RobotPartner(AgentBrain):
 
     def translate_action(self, action, state):
         task_name = action['task']['task_name']
-        task_location = action['location']['range']
+        task_location = None
+
+        # Check if there is a location specified
+        if 'location' in action.keys():
+            task_location = action['location']['range']
 
         carried_objects = self.state[{'carried_by': self.agent_id}]
         print(carried_objects)
@@ -1290,7 +1306,10 @@ class RobotPartner(AgentBrain):
                     # It exists! Translate and check locations
                     if isinstance(relevant_objects, dict):
                         # There is just one such object, check it's location; if it is correct, pick up this one
-                        if task_location in self.translate_location(relevant_objects['obj_id'], object_size):
+                        if task_location is None:
+                            # There is no task location specified, just pick up the found object
+                            self.pickup_large_action([relevant_objects], state, None)
+                        elif task_location in self.translate_location(relevant_objects['obj_id'], object_size):
                             self.pickup_large_action([relevant_objects], state, None)
                         else:
                             # There is no such object, can't perform this action
@@ -1300,7 +1319,10 @@ class RobotPartner(AgentBrain):
                         # It is a list, we'll need to loop through
                         for object in relevant_objects:
                             # Translate the location and check whether it is the one in the condition
-                            if task_location in self.translate_location(object['obj_id'], object_size):
+                            if task_location is None:
+                                # No location specified, which means that we can choose any object found
+                                objects_right_location.append(object)
+                            elif task_location in self.translate_location(object['obj_id'], object_size):
                                 # It is the same, this is an object we can choose!
                                 objects_right_location.append(object)
                         self.pickup_large_action(objects_right_location, state, None)
@@ -1316,7 +1338,10 @@ class RobotPartner(AgentBrain):
                     # It exists! Translate and check locations
                     if isinstance(relevant_objects, dict):
                         # There is just one such object, check it's location; if it is correct, pick up this one
-                        if task_location in self.translate_location(relevant_objects['obj_id'], object_size):
+                        if task_location is None:
+                            # There is no task location specified, just pick up the found object
+                            self.pickup_large_action([relevant_objects], state, None)
+                        elif task_location in self.translate_location(relevant_objects['obj_id'], object_size):
                             self.pickup_action([relevant_objects], state)
                         else:
                             # There is no such object, can't perform this action
@@ -1326,7 +1351,10 @@ class RobotPartner(AgentBrain):
                         # It is a list, we'll need to loop through
                         for object in relevant_objects:
                             # Translate the location and check whether it is the one in the condition
-                            if task_location in self.translate_location(object['obj_id'], object_size):
+                            if task_location is None:
+                                # No location specified, which means that we can choose any object found
+                                objects_right_location.append(object)
+                            elif task_location in self.translate_location(object['obj_id'], object_size):
                                 # It is the same, this is an object we can choose!
                                 objects_right_location.append(object)
                         self.pickup_action(objects_right_location, state)
@@ -1587,13 +1615,7 @@ class RobotPartner(AgentBrain):
                            np.sqrt(2 * np.log(self.nr_chosen_cps + 1) / (self.q_table_cps_runs + 1e-6))
                 chosen_cp = q_values.idxmax(axis=1)
             else:
-                # If no nearest state, choose randomly and initialize Q-values for this state
-                self.q_table_cps.loc[len(self.q_table_cps.index)] = 0
-                self.q_table_cps_runs.loc[len(self.q_table_cps_runs.index)] = 0
-                #self.q_table_cps.at[len(self.q_table_cps.index)-1, 'state'] = current_state
-                self.q_table_cps.rename(index={len(self.q_table_cps.index)-1:str(current_state)}, inplace=True)
-                self.q_table_cps_runs.rename(index={len(self.q_table_cps_runs.index) - 1: str(current_state)}, inplace=True)
-                self.visited_states.append(current_state)
+                # If no nearest state, choose randomly
                 chosen_cp = cp_list[0]
                 print(self.q_table_cps)
 
@@ -1706,7 +1728,7 @@ class RobotPartner(AgentBrain):
         print("Starting state")
         print(self.starting_state)
         # If the state is already stored in the q-table, the reward is added
-        try:
+        if str(self.starting_state) in self.q_table_cps.index:
             # Update reward: rewards are stored cumulatively
             self.q_table_cps.at[str(self.starting_state), self.executing_cp] = \
                 self.q_table_cps.at[str(self.starting_state), self.executing_cp] + total_reward
@@ -1715,17 +1737,23 @@ class RobotPartner(AgentBrain):
             self.q_table_cps_runs.at[str(self.starting_state), self.executing_cp] = \
                 self.q_table_cps_runs.at[str(self.starting_state), self.executing_cp] + 1
         # If the state is not yet stored, create the initial value
-        except:
+        else:
             # Update reward: rewards are stored cumulatively
+            self.q_table_cps.at[str(self.starting_state), self.executing_cp] = 0
             self.q_table_cps.at[str(self.starting_state), self.executing_cp] = total_reward
             # Also update how many times this CP was chosen in this state by 1
+            self.q_table_cps_runs.at[str(self.starting_state), self.executing_cp] = 0
             self.q_table_cps_runs.at[str(self.starting_state), self.executing_cp] = 1
 
         print(self.q_table_cps)
         with open('qtable_cps_backup.pkl', 'wb') as f:
             pickle.dump(self.q_table_cps, f, pickle.HIGHEST_PROTOCOL)
 
+        with open('qtable_cps_runs_backup.pkl', 'wb') as f:
+            pickle.dump(self.q_table_cps_runs, f, pickle.HIGHEST_PROTOCOL)
+
         self.agent_properties["q_table_cps"] = self.q_table_cps.to_string()
+        self.agent_properties["q_table_cps_runs"] = self.q_table_cps_runs.to_string()
 
         return
 
@@ -1952,11 +1980,16 @@ class RobotPartner(AgentBrain):
             if current_action['task']['task_name'] == 'Pick up' and 'Drop' in actual_action:
                 print("Don't communicate")
             else:
-                if current_action['resource']:
+                if current_action['resource'] and 'location' in current_action.keys():
                     obj_tograb = current_action['resource']['size']
                     msg = f"Now executing {current_action['task']['task_name']} a {obj_tograb} rock at {current_action['location']['range']}"
-                else:
+                elif 'location' in current_action.keys():
                     msg = f"Now executing {current_action['task']['task_name']} at {current_action['location']['range']}"
+                elif current_action['resource']:
+                    obj_tograb = current_action['resource']['size']
+                    msg = f"Now executing {current_action['task']['task_name']} a {obj_tograb} rock"
+                else:
+                    msg = f"Now executing {current_action['task']['task_name']}"
         else:
             print("No action??")
 

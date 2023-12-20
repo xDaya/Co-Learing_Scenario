@@ -43,7 +43,7 @@
     </script>
 </head>
 
-<body style="overflow:hidden">
+<body>
 
     <!-- Toolbar -->
     <div id="matrx-toolbar" class="row toolbar bg-dark">
@@ -336,7 +336,7 @@
 
 
       //--------------------------------------Toggles--------------------------------------------------------
-      //document.body.addEventListener("click", leftright_toggle);
+      document.body.addEventListener("click", leftright_toggle);
 
       function leftright_toggle(e) {
         var theToggle = e;
@@ -367,8 +367,8 @@
               break;
           }
         }
-        if (theToggle.className == "added_pattern"){
-          var label = theToggle.innerHTML;
+        if (theToggle.target.className == "added_pattern"){
+          var label = theToggle.target.innerHTML;
 
           // Change boxes innerhtml to fit clicked thing
           document.getElementById("situation_container").innerHTML = storedPatterns[label].situation;
@@ -623,7 +623,7 @@
 
 
         <!-- Chat -->
-        <div class="collapse" id="chat">
+        <div class="collapse show" id="chat">
             <div class="container-fluid">
                 <h5>Chats</h5>
                 <div class="row">
