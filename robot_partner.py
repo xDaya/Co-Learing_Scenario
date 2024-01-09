@@ -376,7 +376,7 @@ class RobotPartner(AgentBrain):
         dist_list = []
         chosen_part = None
         object_ids = object_ids
-        if object_ids is type(dict):
+        if isinstance(object_ids, dict):
             object_ids = [object_ids] + self.state[{'bound_to'}]
         else:
             object_ids = object_ids + self.state[{'bound_to'}]

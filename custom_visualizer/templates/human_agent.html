@@ -23,7 +23,13 @@
         function cpToggle() {
             console.log("Click cp")
 
-            // start or pause MATRX  
+            if (document.getElementById('chat').classList.contains('show')){
+                document.getElementById('chat').classList.remove('show')
+            } else {
+                document.getElementById('chat').classList.add('show')
+            }
+
+            // start or pause MATRX
             let screen_opened = true;  // TODO: check if screen has been opened
             if (screen_opened) {
                 send_api_message("pause")
