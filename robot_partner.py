@@ -485,11 +485,12 @@ class RobotPartner(AgentBrain):
         dist_list = []
         chosen_part = None
         object_ids = object_ids + self.state[{'bound_to'}]
+        print(object_ids)
         for object_id in object_ids:
             object_id = object_id['obj_id']
             if "obstruction" in self.state[object_id]:
                 continue
-            if "large" in self.state[object_id] and self.state[object_id]['location'][0] > 5 and self.state[object_id]['location'][0] < 15:
+            if "large" in self.state[object_id] and self.state[object_id]['location'][0] >= 5 and self.state[object_id]['location'][0] < 15:
                 y_loc_list.append(self.state[object_id]['location'][1])
                 large_obj.append(object_id)
                 dist = int(np.ceil(np.linalg.norm(np.array(self.state[object_id]['location'])
@@ -1038,9 +1039,9 @@ class RobotPartner(AgentBrain):
                                 if condition not in conditions_hold:
                                     conditions_hold.append(condition)
                                 break
-            else:
+            #else:
                 # There are no such objects, we can stop here
-                print("Condition doesn't hold")
+                #print("Condition doesn't hold")
 
         # Then check if there is any CP for which each start condition holds (or if the end condition of the current holds)
 
@@ -1127,9 +1128,6 @@ class RobotPartner(AgentBrain):
                         # This is an action done by the human. Store such that it can be checked
                         self.current_human_action = action
 
-            # Check whether it's time to move to the next action
-
-            # Execute action
         else:
             # This means there are no actions, so we need to retrieve them
             print("Retrieve actions...")
@@ -1204,6 +1202,14 @@ class RobotPartner(AgentBrain):
                                 else:
                                     task[item_retrieved] = {attribute_type: attribute_value}
                         print(self.cp_actions)
+            # If we have done all this and still we have no action, we should break out of this CP
+            if len(self.cp_actions) < 1:
+                # This CP doesn't contain any actions, so we should break out of it and give a negative reward
+                self.send_message(
+                    Message(content=f"I will stop following the Collaboration Pattern {self.executing_cp}",
+                            from_id=self.agent_id, to_id=None))
+                self.reward_update_cps()
+                self.executing_cp = False
 
         return
 
