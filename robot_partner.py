@@ -1638,8 +1638,47 @@ class RobotPartner(AgentBrain):
             poss_yloc = list(range(0, 9))
             coordinates = (random.choice(poss_xloc), random.choice(poss_yloc))
         elif 'On top of' in location:
-            print('On top of location')
-            print(location)
+            # First check whether it is victim, large rock, small rock or brown rock
+            if 'Victim' in location:
+                poss_locations = [(8,9), (8,10), (9,9), (9,10), (10,9), (10,10), (11,9), (11,10)]
+                coordinates = random.choice(poss_locations)
+            elif 'Large' in location:
+                poss_locations = []
+                large_objs = self.state[{'large': True, 'is_movable': True}]
+                if large_objs is not None:
+                    # There are large objects to be on top of
+                    for obj in large_objs:
+                        obj_location = obj['location']
+                        y_loc_above = obj_location[1] - 1
+                        if self.state[{"location": (obj_location[0], y_loc_above)}] is None:
+                            poss_locations.append((obj_location[0], y_loc_above))
+                    coordinates = random.choice(poss_locations)
+            elif 'Small' in location:
+                poss_locations = []
+                small_objs = self.state[{'name': 'rock1'}] + self.state[{'bound_to': None}]
+                if small_objs is not None:
+                    # There are small objects to be on top of
+                    for obj in small_objs:
+                        obj_location = obj['location']
+                        y_loc_above = obj_location[1] - 1
+                        if self.state[{"location": (obj_location[0], y_loc_above)}] is None:
+                            poss_locations.append((obj_location[0], y_loc_above))
+                    coordinates = random.choice(poss_locations)
+            elif 'Brown' in location:
+                poss_locations = []
+                brown_objs = self.state[{"obstruction": True}]
+                if brown_objs is not None:
+                    # There are brown objects to be on top of
+                    for obj in brown_objs:
+                        obj_location = obj['location']
+                        y_loc_above = obj_location[1] - 1
+                        if self.state[{"location": (obj_location[0], y_loc_above)}] is None:
+                            poss_locations.append((obj_location[0], y_loc_above))
+                    coordinates = random.choice(poss_locations)
+
+        # If the coordinates are empty here, fill them with the current location of the agent
+        if len(coordinates) < 1:
+            coordinates = self.agent_id['location']
 
         return coordinates
 
