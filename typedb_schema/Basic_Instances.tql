@@ -17,7 +17,10 @@ insert
     $right_side_pile isa location, has range 'Right side of rock pile';
     $left_side_field isa location, has range 'Left side of field';
     $right_side_field isa location, has range 'Right side of field';
-    $on_top_of isa location, has range 'On top of';
+    $on_top_of_small isa location, has range 'On top of Small rock';
+    $on_top_of_large isa location, has range 'On top of Large rock';
+    $on_top_of_brown isa location, has range 'On top of Brown rock';
+    $on_top_of_victim isa location, has range 'On top of Victim';
     
     
     # Actors

@@ -965,10 +965,10 @@ class RobotPartner(AgentBrain):
                                     items_contained[item_retrieved] = {attribute_type: attribute_value}
 
                             # Store that as a single condition if it is not yet in the overall condition list
-                            print('ITEMS')
-                            print(items_contained)
-                            print('START END')
-                            print([val[0] for val in start_end])
+                            #print('ITEMS')
+                            #print(items_contained)
+                            #print('START END')
+                            #print([val[0] for val in start_end])
                             conditions_np = np.array([val[0] for val in start_end])
                             if len(start_end) > 0 and items_contained in conditions_np:
                                 index = np.where(conditions_np == items_contained)[0][0]
@@ -1259,6 +1259,55 @@ class RobotPartner(AgentBrain):
         if bottom_check == True:
             locations.append('Bottom of rock pile')
 
+        # Do on top of check
+        for x in range (0, nr_rows):
+            loc_to_check = [object_loc_x + x, object_loc_y + nr_vert_rows]
+            objects_found = self.state[{"location": loc_to_check, 'is_movable': True}]
+            if objects_found is not None:
+                # Now we can also do the 'On top of' check for objects
+                # Check what objects are found
+                if isinstance(objects_found, list):
+                    for obj in objects_found:
+                        if obj['name'] == 'rock1' or ('bound_to' in obj.keys() and obj['bound_to'] is None):
+                            if 'On top of Small rock' in locations:
+                                continue
+                            else:
+                                locations.append('On top of Small rock')
+                        elif 'brown' in obj['name'] and 'bound_to' in obj.keys():
+                            if 'On top of Brown rock' in locations:
+                                continue
+                            else:
+                                locations.append('On top of Brown rock')
+                        elif 'bound_to' in obj.keys() and obj['bound_to'] is not None:
+                            if 'On top of Large rock' in locations:
+                                continue
+                            else:
+                                locations.append('On top of Large rock')
+
+                else:
+                    if objects_found['name'] == 'rock1' or ('bound_to' in objects_found.keys() and objects_found['bound_to'] is None):
+                        if 'On top of Small rock' in locations:
+                            continue
+                        else:
+                            locations.append('On top of Small rock')
+                    elif 'brown' in objects_found['name'] and 'bound_to' in objects_found.keys():
+                        if 'On top of Brown rock' in locations:
+                            continue
+                        else:
+                            locations.append('On top of Brown rock')
+                    elif 'bound_to' in objects_found.keys() and objects_found['bound_to'] is not None:
+                        if 'On top of Large rock' in locations:
+                            continue
+                        else:
+                            locations.append('On top of Large rock')
+
+        # Check if the object is on top of victim separately
+        for x in range(0, nr_rows):
+            for y in range(0, nr_vert_rows):
+                loc_to_check = (object_loc_x + x, object_loc_y + y)
+                if loc_to_check in [(8, 9), (8, 10), (9, 9), (9, 10), (10, 9), (10, 10), (11, 9), (11, 10)]:
+                    locations.append('On top of Victim')
+                    break
 
         # Left/Right side of rock pile (= within the bounds of the pile, left or right half)
         if object_loc_x >= 5 and object_loc_x <= 9:
@@ -1270,8 +1319,6 @@ class RobotPartner(AgentBrain):
             locations = ['Left side of field']
         elif object_loc_x > 15:
             locations = ['Right side of field']
-
-        # On top of [object/actor/location] (to be implemented later)
 
         # Above rock pile (not relevant for rocks, only for agents)
         #print(locations)
@@ -1590,6 +1637,9 @@ class RobotPartner(AgentBrain):
             poss_xloc = list(range(15, 20))
             poss_yloc = list(range(0, 9))
             coordinates = (random.choice(poss_xloc), random.choice(poss_yloc))
+        elif 'On top of' in location:
+            print('On top of location')
+            print(location)
 
         return coordinates
 
