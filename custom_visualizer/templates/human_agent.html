@@ -31,10 +31,10 @@
 
             // start or pause MATRX
             let screen_opened = true;  // TODO: check if screen has been opened
-            if (screen_opened) {
-                send_api_message("pause")
-            } else {
+            if (document.getElementById('cp').classList.contains('show')) {
                 send_api_message("start")
+            } else {
+                send_api_message("pause")
             }   
         }
 
