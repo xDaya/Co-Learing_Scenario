@@ -3,6 +3,7 @@ from custom_actions import *
 from matrx.messages.message import Message
 from matrx.agents.agent_utils.navigator import Navigator
 from matrx.agents.agent_utils.state_tracker import StateTracker
+from matrx.actions.move_actions import *
 import csv
 import pickle
 import deepdiff
@@ -137,11 +138,10 @@ class RobotPartner(AgentBrain):
                     if cp not in self.q_table_cps.columns:
                         self.q_table_cps[cp] = 0
                         self.q_table_cps_runs[cp] = 0
-
                 for column in self.q_table_cps.columns:
                     if column not in self.cp_list:
-                        self.q_table_cps.drop(columns=column)
-                        self.q_table_cps_runs.drop(columns=column)
+                        self.q_table_cps.drop(column, axis=1, inplace=True)
+                        self.q_table_cps_runs.drop(column, axis=1, inplace=True)
 
         # Remove columns with None as name for testing phase
         #self.q_table_cps.drop('None', axis=1, inplace=True)
@@ -545,6 +545,26 @@ class RobotPartner(AgentBrain):
             self.actionlist[1].append(pickup_kwargs)
         return
 
+    def move_back_forth_action(self, location):
+        # Check if there is a specific location in which we should move
+        if location is not None:
+            # Then add move actions to this location first
+            self.navigator.add_waypoint(location)
+            route_actions = list(self.navigator._Navigator__get_route(self.state_tracker).values())
+            for action in route_actions:
+                self.actionlist[0].append(action)
+                self.actionlist[1].append({})
+
+        # Define the back and forth move actions
+        back_forth_moves = [MoveEast.__name__, MoveEast.__name__, MoveWest.__name__, MoveWest.__name__]
+        # Add those actions to the action list
+        for i in range(3):
+            for move_action in back_forth_moves:
+                self.actionlist[0].append(move_action)
+                self.actionlist[1].append({})
+
+        return
+
 # Policies 1, 2 and 3 are the high level actions
     def policy1(self, object_ids, state):
         # If carrying less than 5 objects: look at the top small and large objects and choose one to pick up
@@ -781,11 +801,13 @@ class RobotPartner(AgentBrain):
             #print("Agent is executing a CP:")
             #print(self.executing_cp)
             # Check if the endconditions for this CP hold (of if the startconditions no longer hold)
-            if self.executing_cp in self.check_cp_conditions(self.end_conditions) or self.executing_cp not in self.check_cp_conditions(self.start_conditions):
+            # Also check if the CP wasn't deleted in the meantime
+            if self.executing_cp in self.check_cp_conditions(self.end_conditions) or self.executing_cp not in self.check_cp_conditions(self.start_conditions) or self.executing_cp not in self.cp_list:
                 # If yes, finish, process reward and restart loop
                 print("The endconditions for this CP hold, so we'll stop executing it.")
                 self.send_message(Message(content=f"I will stop following the Collaboration Pattern {self.executing_cp}", from_id=self.agent_id, to_id=None))
-                self.reward_update_cps()
+                if self.executing_cp in self.cp_list:
+                    self.reward_update_cps()
                 self.executing_cp = False
                 self.actionlist = [[], []]
                 self.navigator.reset_full()     # Reset navigator to make sure there are no remaining waypoints
@@ -810,7 +832,7 @@ class RobotPartner(AgentBrain):
                         self.current_robot_action = None
 
                         # If the CP actions list ends up empty here, we should do a reward update
-                        if len(self.cp_actions) == 0:
+                        if len(self.cp_actions) == 0 and self.executing_cp in self.cp_list:
                             self.reward_update_cps()
 
                         print('Actionlist empty after CP action')
@@ -896,6 +918,7 @@ class RobotPartner(AgentBrain):
         # you want to fill.
         # Store all conditions of existing CPs in a list; join duplicates, but store which CP they belong to
         self.cp_list = []
+        start_end.clear()
 
         # Look at the list of CPs
         with TypeDB.core_client('localhost:1729') as client:
@@ -976,7 +999,6 @@ class RobotPartner(AgentBrain):
                                 start_end[index][1].append(cp)
                             else:
                                 start_end.append([items_contained, [cp]])
-
         return
 
     def check_cp_conditions(self, start_end):
@@ -1105,7 +1127,7 @@ class RobotPartner(AgentBrain):
                             self.past_human_actions = []
 
                             # If the CP actions list ends up empty here, we should do a reward update
-                            if len(self.cp_actions) == 0:
+                            if len(self.cp_actions) == 0 and self.executing_cp in self.cp_list:
                                 self.reward_update_cps()
                 # In the meantime, the robot should idle and wait for the human to finish their task
                 #self.wait_action(None)
@@ -1208,7 +1230,8 @@ class RobotPartner(AgentBrain):
                 self.send_message(
                     Message(content=f"I will stop following the Collaboration Pattern {self.executing_cp}",
                             from_id=self.agent_id, to_id=None))
-                self.reward_update_cps()
+                if self.executing_cp in self.cp_list:
+                    self.reward_update_cps()
                 self.executing_cp = False
 
         return
@@ -1452,7 +1475,8 @@ class RobotPartner(AgentBrain):
                 print("Can't perform this action, object doesn't exist.")
             return
         elif 'Move back and forth' in task_name:
-            # TODO We have to move back and forth; for this we need to create a new action
+            # Add the move back and forth action to the actionlist
+            self.move_back_forth_action(self.translate_loc_backwards(task_location))
             return
 
     def translate_state(self):
@@ -1708,8 +1732,8 @@ class RobotPartner(AgentBrain):
             nearest_state = self.nearest_visited_state()
             if nearest_state:
                 # Choose CP based on expected reward in that state (this is like an educated guess based on similarity)
-                q_values = self.q_table_cps.loc[self.q_table_cps['state'] == nearest_state] / \
-                           self.q_table_cps_runs.loc[self.q_table_cps_runs['state'] == nearest_state] + \
+                q_values = self.q_table_cps.loc[str(nearest_state)] / \
+                           self.q_table_cps_runs.loc[str(nearest_state)] + \
                            np.sqrt(2 * np.log(self.nr_chosen_cps + 1) / (self.q_table_cps_runs + 1e-6))
                 chosen_cp = q_values.idxmax(axis=1)
             else:
@@ -1801,10 +1825,13 @@ class RobotPartner(AgentBrain):
             break_objects = self.state[{'large': True, 'is_movable': True}]
             if isinstance(break_objects, dict):
                 break_objects = [break_objects]
-            break_objects = break_objects + self.state[{'img_name': "/images/transparent.png"}]
-            self.break_action(break_objects, self.state, None)
+            try:
+                break_objects = break_objects + self.state[{'img_name': "/images/transparent.png"}]
+                self.break_action(break_objects, self.state, None)
+            except:
+                print("No objects left to break")
         elif chosen_action == "Move back and forth":
-            print("Move back and forth - to define")
+            self.move_back_forth_action(None)
 
         self.executing_action = chosen_action
 
@@ -1964,6 +1991,10 @@ class RobotPartner(AgentBrain):
                     # If not, retrieve info about this CP and add to all the lists
                     self.store_cp_conditions(self.start_conditions)
                     self.store_cp_conditions(self.end_conditions)
+                    # Also add to the q-tables
+                    if cp_name not in self.q_table_cps.columns:
+                        self.q_table_cps[cp_name] = 0
+                        self.q_table_cps_runs[cp_name] = 0
             elif isinstance(message, dict) and 'cp_delete' in message:
                 # An existing CP was deleted!
                 cp_name = message['cp_delete']
@@ -1975,6 +2006,16 @@ class RobotPartner(AgentBrain):
                 print(self.start_conditions)
                 print("New end conditions:")
                 print(self.end_conditions)
+                # Also delete from q-tables
+                if cp_name not in self.cp_list:
+                    self.q_table_cps.drop(cp_name, axis=1, inplace=True)
+                    self.q_table_cps_runs.drop(cp_name, axis=1, inplace=True)
+            elif isinstance(message, dict) and 'cp_edit' in message:
+                # An existing CP was edited, double check that it was already in the list
+                cp_name = message['cp_edit']
+                if cp_name in self.cp_list:
+                    self.store_cp_conditions(self.start_conditions)
+                    self.store_cp_conditions(self.end_conditions)
             elif message == 'FAIL' and not self.final_update:
                 print("FINAL Q UPDATE")
                 last_message = float(self.received_messages[-2])

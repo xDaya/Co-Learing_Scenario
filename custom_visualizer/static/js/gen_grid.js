@@ -46,6 +46,9 @@ var object_selected = false; //
 // Keep track of CPs
 var storedPatterns = {};
 
+// Store whether alert has been sent
+var alert_sent = false;
+
 /**
  * Get the grid wrapper object
  */
@@ -76,6 +79,14 @@ function draw(state, world_settings, new_messages, accessible_chatrooms, new_tic
 
     // if we already processed this tick (MATRX is paused), stop and return
     if (latest_tick_processed == current_tick && !redraw_required) {
+        if (state['rewardgod']['goal_reached'] && !alert_sent){
+            document.getElementById('cp').classList.add('show')
+            if (document.getElementById('chat').classList.contains('show')){
+                document.getElementById('chat').classList.remove('show')
+            }
+            window.alert('You finished this scenario. Now answer some questions in the online questionnaire before you continue.')
+            alert_sent = true;
+        }
         return;
     }
 
@@ -270,6 +281,12 @@ function draw(state, world_settings, new_messages, accessible_chatrooms, new_tic
     }
     clock_div = document.getElementById("clock");
     clock_div.innerHTML = remaining_time;
+
+    // Pause environment after goal was reached
+    if (state['rewardgod']['goal_reached']){
+        console.log("Goal is reached!");
+        send_api_message("pause");
+    }
 
     // all objects have been redrawn, so this can be set to false again
     redraw_required = false;

@@ -348,8 +348,10 @@
       document.body.addEventListener("click", leftright_toggle);
 
       function leftright_toggle(e) {
-        var theToggle = e;
-        console.log(theToggle)
+        var theToggle = e.target;
+        if (theToggle.tagName == "I"){
+            theToggle = theToggle.parentNode;
+        }
         if (theToggle.className == "leftrightbutton"){
           switch(theToggle.innerHTML){
             case "<i>Left</i>":
@@ -376,8 +378,8 @@
               break;
           }
         }
-        if (theToggle.target.className == "added_pattern"){
-          var label = theToggle.target.innerHTML;
+        if (theToggle.className == "added_pattern"){
+          var label = theToggle.innerHTML;
 
           // Change boxes innerhtml to fit clicked thing
           document.getElementById("situation_container").innerHTML = storedPatterns[label].situation;
