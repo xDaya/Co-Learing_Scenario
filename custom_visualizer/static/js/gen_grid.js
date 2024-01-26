@@ -49,6 +49,9 @@ var storedPatterns = {};
 // Store whether alert has been sent
 var alert_sent = false;
 
+// Store whether the page has been paused
+var pause_done = false;
+
 /**
  * Get the grid wrapper object
  */
@@ -84,7 +87,7 @@ function draw(state, world_settings, new_messages, accessible_chatrooms, new_tic
             if (document.getElementById('chat').classList.contains('show')){
                 document.getElementById('chat').classList.remove('show')
             }
-            window.alert('You finished this scenario. Now answer some questions in the online questionnaire before you continue.')
+            window.alert('You finished this level. If you want to, you can still store some sequences of collaborative actions in the Collaboration Book. Close the Collaboration Book when you are done.')
             alert_sent = true;
         }
         return;
@@ -285,7 +288,14 @@ function draw(state, world_settings, new_messages, accessible_chatrooms, new_tic
     // Pause environment after goal was reached
     if (state['rewardgod']['goal_reached']){
         console.log("Goal is reached!");
-        send_api_message("pause");
+        if (!pause_done){
+            send_api_message("pause");
+            pause_done = true;
+        }
+    }
+
+    if (state['final_goal']['goal_reached']){
+        $("#endscreen").css("display", "block");
     }
 
     // all objects have been redrawn, so this can be set to false again

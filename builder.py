@@ -164,6 +164,7 @@ def create_builder(level):
     #lvl_building_bridges_edited(factory)   # Brown rock 4
 
     factory.add_object([2,0], name="goal_reached_img", img_name="/images/transparent.png", callable_class=GoalReachedObject, visualize_depth=300)
+    factory.add_object([0,0], name="final_goal", is_traversable=True, visualize_opacity=False, goal_reached=False)
 
     return factory
 

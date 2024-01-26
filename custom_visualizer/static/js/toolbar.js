@@ -60,7 +60,6 @@ function toggle_pause() {
 stop_button.addEventListener("click", toggle_stop, false);
 
 function toggle_stop() {
-    console.log("Scenario stopped!!!");
     send_api_message("stop");
 }
 

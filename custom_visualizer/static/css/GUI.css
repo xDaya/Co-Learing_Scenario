@@ -317,3 +317,25 @@ h5 {
 .shape {
     pointer-events: auto;
 }
+
+#endscreen {
+    color: #ffffff;
+    position: absolute;
+    background: #003400;
+    height: 70vh;
+    top: 15vh;
+    width: 100%;
+    padding: 10% 15%;
+    z-index: 100000000000;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    display: none;
+    text-align: center;
+}
+
+#endscreen .action-button {
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-top: 40px;
+}

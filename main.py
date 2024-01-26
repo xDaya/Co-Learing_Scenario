@@ -24,10 +24,12 @@ if __name__ == "__main__":
         # Ask for start scenario
         print("\n\nWhich scenario do you want to start with? ")
         start_scenario = int(input())
+        print("\n\nWhich participant number do you want to use? ")
+        participant_nr = int(input())
 
         # start the custom visualizer
         print("Starting custom visualizer")
-        vis_thread = visualization_server.run_matrx_visualizer(verbose=False, media_folder=media_folder)
+        vis_thread = visualization_server.run_matrx_visualizer(verbose=False, media_folder=media_folder, port_nr=participant_nr)
 
         for level in range(start_scenario, 8):
             # Create our world builder
