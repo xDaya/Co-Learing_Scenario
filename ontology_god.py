@@ -24,14 +24,19 @@ class OntologyGod(AgentBrain):
         self.cp_list_html = []
         self.test_list = []
 
+        self.database_name = None
+
     def initialize(self):
         self.state_tracker = StateTracker(agent_id=self.agent_id)
 
         start_conditions = []
 
+        self.database_name = "CP_ontology_" + str(self.agent_properties['participant_nr'])
+        self.database_name = "CP_ontology"
+
         # At initialization, check if there are new CPs that weren't yet shown in the GUI. Retrieve them and store
         with TypeDB.core_client("localhost:1729") as client:
-            with client.session("CP_ontology", SessionType.DATA) as session:
+            with client.session(self.database_name, SessionType.DATA) as session:
                 # Session is opened, now specify that it's a read session
                 with session.transaction(TransactionType.READ) as read_transaction:
                     answer_iterator = read_transaction.query().match(
@@ -343,7 +348,7 @@ class OntologyGod(AgentBrain):
                 self.condition_translation(condition, name, "end", postsitu.index(condition))
 
         with TypeDB.core_client("localhost:1729") as client:
-            with client.session("CP_ontology", SessionType.DATA) as session:
+            with client.session(self.database_name, SessionType.DATA) as session:
                 # Create a write transaction
                 self.write_batch(session, self.query_batch)
 

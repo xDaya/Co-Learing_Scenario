@@ -45,7 +45,7 @@ for y_loc in range(upper_bound, lower_bound):
         rubble_locations.append((x_loc, y_loc))
 
 
-def create_builder(level):
+def create_builder(level, participant_nr):
     factory = WorldBuilder(shape=[20, 12], run_matrx_visualizer=False, visualization_bg_clr="#ffffff",
                            visualization_bg_img='/images/background.png', tick_duration=0.05, simulation_goal=USAR_Goal())
 
@@ -105,14 +105,14 @@ def create_builder(level):
 
     # Add Ontology functions by adding the OntologyGod agent
     #if condition == 'ontology':
-    factory.add_agent((0,0), ontology_god, name="OntologyGod", visualize_shape='img', img_name="/images/transparent.png", is_traversable=True, cp_list=None, cp_list_html=None)
+    factory.add_agent((0,0), ontology_god, name="OntologyGod", visualize_shape='img', img_name="/images/transparent.png", is_traversable=True, cp_list=None, cp_list_html=None, participant_nr=participant_nr)
 
     # factory.add_agent([0,2], autonomous_agent, name="Robot", visualize_shape='img',
     #                   img_name="/images/machine_square.png", visualize_size=2)
 
     # Add the actual Robot Partner (but not in the practice scenario)
     if level != 0:
-        factory.add_agent((4,4), robot_partner, name="Robot", visualize_shape='img', img_name="/images/robot_hand.png", visualize_size=1, is_traversable=True, q_table_basic=None, q_table_cps=None, q_table_cps_runs=None, executing_cp=False, idle_time=None)
+        factory.add_agent((4,4), robot_partner, name="Robot", visualize_shape='img', img_name="/images/robot_hand.png", visualize_size=1, is_traversable=True, q_table_basic=None, q_table_cps=None, q_table_cps_runs=None, executing_cp=False, idle_time=None, participant_nr=participant_nr)
 
     #generate_rubble_pile(name="test_pile", locations=rubble_locations, world=factory)
 

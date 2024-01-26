@@ -33,7 +33,7 @@ if __name__ == "__main__":
 
         for level in range(start_scenario, 8):
             # Create our world builder
-            builder = create_builder(level)
+            builder = create_builder(level, participant_nr)
             builder.startup(media_folder=media_folder)
 
             print("Started world...")

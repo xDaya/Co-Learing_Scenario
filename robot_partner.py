@@ -80,6 +80,8 @@ class RobotPartner(AgentBrain):
 
         self.exp_condition = 'ontology'
 
+        self.database_name = None
+
         # Code that ensures backed up q-tables are retrieved in case of crash
         print("Retrieving backed up q-tables...")
         try:
@@ -116,6 +118,9 @@ class RobotPartner(AgentBrain):
         if self.run_number > 3:
             self.alpha = self.alpha / 2
         self.received_messages = []
+
+        self.database_name = "CP_ontology_" + str(self.agent_properties['participant_nr'])
+        self.database_name = "CP_ontology"
 
         if self.exp_condition == 'ontology':
             # Initialize existing CP's and their conditions
@@ -922,7 +927,7 @@ class RobotPartner(AgentBrain):
 
         # Look at the list of CPs
         with TypeDB.core_client('localhost:1729') as client:
-            with client.session("CP_ontology", SessionType.DATA) as session:
+            with client.session(self.database_name, SessionType.DATA) as session:
                 with session.transaction(TransactionType.READ) as read_transaction:
                     answer_iterator = read_transaction.query().match("match $cp isa collaboration_pattern, has name $name; get $name;")
 
@@ -1155,7 +1160,7 @@ class RobotPartner(AgentBrain):
             print("Retrieve actions...")
             # Start TypeDB session and retrieve information about the current CP
             with TypeDB.core_client('localhost:1729') as client:
-                with client.session("CP_ontology", SessionType.DATA) as session:
+                with client.session(self.database_name, SessionType.DATA) as session:
                     with session.transaction(TransactionType.READ) as read_transaction:
                         # First, find all tasks related to the CP at hand
                         answer_iterator = read_transaction.query().match(
