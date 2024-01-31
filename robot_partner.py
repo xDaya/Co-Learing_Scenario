@@ -407,12 +407,19 @@ class RobotPartner(AgentBrain):
             chosen_part = large_obj[dist_list.index(min(dist_list))]
         else:
             chosen_part = large_obj[y_loc_list.index(min(y_loc_list))]
+
+        if chosen_part is None:
+            return
+
         large_name = self.state[chosen_part]['name']
         object_loc = self.state[chosen_part]['location']
         large_obj = [chosen_part]
         for part in parts_list:
             if self.state[part]['bound_to'] == large_name:
                 large_obj.append(part)
+
+        if object_loc is None:
+            return
 
         # Add move action to action list
         self.navigator.add_waypoint(object_loc)
@@ -755,7 +762,7 @@ class RobotPartner(AgentBrain):
                         self.agent_properties["img_name"] = "/images/robot_hand_small_5_cp.png"
             else:
                 self.agent_properties["img_name"] = "/images/robot_hand_cp.png"
-            self.agent_properties['executing_cp'] = True
+            self.agent_properties['executing_cp'] = self.executing_cp
         else:
             if state[self.agent_id]['is_carrying']:
                 if len(state[self.agent_id]['is_carrying']) == 1:

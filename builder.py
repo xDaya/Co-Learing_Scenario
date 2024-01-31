@@ -2,6 +2,7 @@ from matrx.agents.agent_types.human_agent import HumanAgentBrain
 from matrx.agents.agent_types.patrolling_agent import PatrollingAgentBrain
 from matrx.logger.log_agent_actions import LogActions
 from matrx.logger.log_idle_agents import LogIdleAgents
+from matrx.logger.log_messages import MessageLogger
 from loggers.learning_logger import LearningLogger
 from loggers.action_logger import ActionLogger
 from loggers.log_tick import LogDuration
@@ -59,6 +60,7 @@ def create_builder(level, participant_nr):
     factory.add_logger(logger_class=LogIdleAgents, save_path=logger_save_folder, file_name_prefix="idle_")
     factory.add_logger(logger_class=LearningLogger, save_path=logger_save_folder, file_name_prefix="qtable_")
     factory.add_logger(logger_class=LogDuration, save_path=logger_save_folder, file_name_prefix="completionticks_")
+    factory.add_logger(logger_class=MessageLogger, save_path=logger_save_folder, file_name_prefix="messages_")
 
     # Link agent names to agent brains
     human_agent = CustomHumanAgentBrain(max_carry_objects=1, grab_range=1)
