@@ -85,6 +85,26 @@ def create_builder(level, participant_nr):
         #'b': BreakObject.__name__
     }
 
+    database_name = "CP_ontology"
+    cp_list = []
+    cp_list_html = []
+    #----------------------------------------Retrieve already stored CPs----------------------------------------------
+    # At initialization, check if there are new CPs that weren't yet shown in the GUI. Retrieve them and store
+    with TypeDB.core_client("localhost:1729") as client:
+        with client.session(database_name, SessionType.DATA) as session:
+            # Session is opened, now specify that it's a read session
+            with session.transaction(TransactionType.READ) as read_transaction:
+                answer_iterator = read_transaction.query().match(
+                    "match $x isa collaboration_pattern, has name $name, has html_content $html_content; get $name, $html_content;")
+
+                for answer in answer_iterator:
+                    cp_retrieved = answer.get('name')._value
+                    cp_html = answer.get('html_content')._value
+                    if cp_retrieved not in cp_list:
+                        cp_list.append(cp_retrieved)
+                        cp_list_html.append(cp_html)
+    #-----------------------------------------------------------------------------------------------------------------
+
     # Add the selector agent that allows humans to interact
     factory.add_human_agent([3, 4], human_agent, name="Human Selector", key_action_map=key_action_map,
                             visualize_shape='img', img_name="/images/human_hand.png", visualize_size=1, is_traversable=True, customizable_properties=["img_name"])
@@ -105,7 +125,7 @@ def create_builder(level, participant_nr):
 
     # Add Ontology functions by adding the OntologyGod agent
     #if condition == 'ontology':
-    factory.add_agent((0,0), ontology_god, name="OntologyGod", visualize_shape='img', img_name="/images/transparent.png", is_traversable=True, cp_list=None, cp_list_html=None, participant_nr=participant_nr)
+    factory.add_agent((0,0), ontology_god, name="OntologyGod", visualize_shape='img', img_name="/images/transparent.png", is_traversable=True, cp_list=cp_list, cp_list_html=cp_list_html, participant_nr=participant_nr)
 
     # factory.add_agent([0,2], autonomous_agent, name="Robot", visualize_shape='img',
     #                   img_name="/images/machine_square.png", visualize_size=2)
