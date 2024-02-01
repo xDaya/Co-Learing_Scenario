@@ -1772,6 +1772,12 @@ class RobotPartner(AgentBrain):
         actions = ['Move back and forth', 'Stand Still', 'Pick up', 'Drop', 'Break']
 
         action_to_exclude = []
+        large_objs_field = []
+        for object in self.state[{'large': True, 'is_movable': True}]:
+            if object['location'][0] >= 15 or object['location'][0] < 5:
+                continue
+            else:
+                large_objs_field.append(object)
 
         if len(self.state[self.agent_id]['is_carrying']) >= 5:
             # Hands are full, now it shouldn't be possible to pick up
@@ -1782,7 +1788,7 @@ class RobotPartner(AgentBrain):
         if len(self.state[self.agent_id]['is_carrying']) == 0:
             # Hands are empty, now it shouldn't be possible to drop
             action_to_exclude.append('Drop')
-        if self.state[{'large': True, 'is_movable': True}] is None:
+        if self.state[{'large': True, 'is_movable': True}] is None or len(large_objs_field) < 1:
             # No large objects available, so we cannot break
             action_to_exclude.append('Break')
 
@@ -1828,10 +1834,9 @@ class RobotPartner(AgentBrain):
         if chosen_action == "Stand Still":
             self.wait_action(None)
         elif chosen_action == "Pick up":
-            # TODO Distinguish between Large and Small pick up actions, based on some rule
             # If the human is standing still, pick up a large rock around them (if available)
             if self.human_standstill():
-                if self.state[{'large': True}] is not None and len(self.state[self.agent_id]['is_carrying']) == 0:
+                if self.state[{'large': True}] is not None and len(self.state[self.agent_id]['is_carrying']) == 0 and len(large_objs_field) > 0:
                     self.pickup_large_action(self.state[{'large': True}], self.state, self.human_location[0])
                 else:
                     self.pickup_action(self.state[{'name': 'rock1'}] + self.state[{'bound_to': None}], self.state)
