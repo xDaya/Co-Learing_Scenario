@@ -801,6 +801,7 @@ class RobotPartner(AgentBrain):
         # If that was an action from the basic behavior, we should do the reward update here
         if len(self.actionlist[0]) == 0 and self.executing_action:
             self.reward_update_basic()
+            self.record_progress(True)
             self.executing_action = False
             print('Actionlist empty after basic behavior action')
         elif len(self.actionlist[0]) == 1 and self.condition > 0:
@@ -870,6 +871,7 @@ class RobotPartner(AgentBrain):
                     self.actionlist = [[], []]
                     self.navigator.reset_full()  # Reset navigator to make sure there are no remaining waypoints
                     self.reward_update_basic()
+                    self.record_progress(True)
                     self.executing_action = False
                 # Check how many CPs hold.
                 if len(cps_hold) == 1:
@@ -1126,7 +1128,8 @@ class RobotPartner(AgentBrain):
                         # This means that the action we're looking for is in the past 5 actions of the human.
                         # Now we need to check if the location is also present
                         location_present = False
-                        human_action_indices = np.where(np.array([val[0] for val in self.past_human_actions]) == self.current_human_action['task']['task_name'])[0]
+                        human_action_indices = np.where(np.array([val[0] for val in self.past_human_actions]) ==
+                                                        self.current_human_action['task']['task_name'])[0]
                         for index in human_action_indices:
                             if self.current_human_action['location']['range'] in self.past_human_actions[index][1]:
                                 location_present = True
@@ -1185,7 +1188,9 @@ class RobotPartner(AgentBrain):
                             # TODO this is a quick fix, find the real problem and fix there
                             if task_name_retrieved[-1] == ' ':
                                 task_name_retrieved = task_name_retrieved[:-1]
-                            self.cp_actions.append({'task': {'task_id': task_id_retrieved, 'task_name': task_name_retrieved, 'order_value': order_value_retrieved}})
+                            self.cp_actions.append({'task': {'task_id': task_id_retrieved,
+                                                             'task_name': task_name_retrieved,
+                                                             'order_value': order_value_retrieved}})
 
                         # Find the location, actor and resource info
                         for task in self.cp_actions:
@@ -1905,19 +1910,20 @@ class RobotPartner(AgentBrain):
     def reward_update_basic(self):
         # Do the reward updating for the action that we just executed
         # Reward based on two factors:
-        # 1. Was there a state transition? Zero for no, positive for yes
-        # 2. Discounted by victim harm
+        # 1. Did we actually decrease the distance to the goal state?
+        # 2. Discounted by victim
+        # 3. Discounted by the time it took to execute the action
 
         basic_reward = 0
         current_state = self.translate_state()
-        if current_state == self.starting_state:
+        if self.starting_state_distance > self.distance_goal_state():
             # If the state is not the same, we have a state transition, which means we get a positive reward
-            basic_reward = -1
-        else:
             basic_reward = 5
+        else:
+            basic_reward = -1
 
         victim_harm = self.victim_harm * 5
-        total_reward = basic_reward - victim_harm
+        total_reward = basic_reward - victim_harm - self.nr_ticks
 
         # Determine Max Q (expected utility of next state-action pair). If value doesn't exist, default to 0
         try:
