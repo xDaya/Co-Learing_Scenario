@@ -67,6 +67,7 @@ class RobotPartner(AgentBrain):
         self.victim_harm = 0
         self.idle_ticks = 0
         self.robot_contribution = 0
+        self.human_standing_still = False
 
         # Helper variables
         self.previous_objs = []
@@ -738,7 +739,7 @@ class RobotPartner(AgentBrain):
 
         if self.first_tick_distance == 0:
             self.first_tick_distance = self.distance_goal_state()
-
+        self.human_standing_still = self.human_standstill()
         # ----------------------------Goal reached check-----------------------------------------------------------
         reward_agent = self.state[{'class_inheritance': "RewardGod"}]
         if reward_agent['goal_reached']:
@@ -1616,7 +1617,7 @@ class RobotPartner(AgentBrain):
             state_array[1] = 'robot'
 
         # Calculate position 3: human stand still (yes, no)
-        if self.human_standstill():
+        if self.human_standing_still:
             state_array[2] = True
         else:
             state_array[2] = False
@@ -1839,7 +1840,10 @@ class RobotPartner(AgentBrain):
                 break_objects = [break_objects]
             try:
                 break_objects = break_objects + self.state[{'img_name': "/images/transparent.png"}]
-                self.break_action(break_objects, self.state, None)
+                if self.human_standstill():
+                    self.break_action(break_objects, self.state, self.human_location[0])
+                else:
+                    self.break_action(break_objects, self.state, None)
             except:
                 print("No objects left to break")
         elif chosen_action == "Move back and forth":
@@ -2160,7 +2164,7 @@ class RobotPartner(AgentBrain):
         # Check if the human is standing still
         # First, check if a previous location is stored
         if self.human_location:
-            # Check if the current location is the samen as the previous
+            # Check if the current location is the same as the previous
             if self.human_location[0] == human['location']:
                 self.human_location[1] = self.human_location[1] + 1
             else:
