@@ -1773,14 +1773,17 @@ class RobotPartner(AgentBrain):
 
         action_to_exclude = []
         large_objs_field = []
-        for object in self.state[{'large': True, 'is_movable': True}]:
-            try:
-                if object['location'][0] >= 15 or object['location'][0] < 5:
-                    continue
-                else:
+        try:
+            for object in self.state[{'large': True, 'is_movable': True}]:
+                try:
+                    if object['location'][0] >= 15 or object['location'][0] < 5:
+                        continue
+                    else:
+                        large_objs_field.append(object)
+                except:
                     large_objs_field.append(object)
-            except:
-                large_objs_field.append(object)
+        except:
+            print("No such objects found")
 
         if len(self.state[self.agent_id]['is_carrying']) >= 5:
             # Hands are full, now it shouldn't be possible to pick up
