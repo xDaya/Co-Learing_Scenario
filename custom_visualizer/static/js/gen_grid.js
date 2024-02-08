@@ -83,11 +83,11 @@ function draw(state, world_settings, new_messages, accessible_chatrooms, new_tic
     // if we already processed this tick (MATRX is paused), stop and return
     if (latest_tick_processed == current_tick && !redraw_required) {
         if (state['rewardgod']['goal_reached'] && !alert_sent){
-            document.getElementById('cp').classList.add('show')
-            if (document.getElementById('chat').classList.contains('show')){
-                document.getElementById('chat').classList.remove('show')
-            }
-            window.alert('You finished this level. If you want to, you can still store some sequences of collaborative actions in the Collaboration Book. Close the Collaboration Book when you are done.')
+            //document.getElementById('cp').classList.add('show')
+            //if (document.getElementById('chat').classList.contains('show')){
+            //    document.getElementById('chat').classList.remove('show')
+            //}
+            window.alert('You finished this level.')
             alert_sent = true;
         }
         return;
