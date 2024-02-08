@@ -1774,9 +1774,12 @@ class RobotPartner(AgentBrain):
         action_to_exclude = []
         large_objs_field = []
         for object in self.state[{'large': True, 'is_movable': True}]:
-            if object['location'][0] >= 15 or object['location'][0] < 5:
-                continue
-            else:
+            try:
+                if object['location'][0] >= 15 or object['location'][0] < 5:
+                    continue
+                else:
+                    large_objs_field.append(object)
+            except:
                 large_objs_field.append(object)
 
         if len(self.state[self.agent_id]['is_carrying']) >= 5:
