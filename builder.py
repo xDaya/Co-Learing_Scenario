@@ -47,8 +47,11 @@ for y_loc in range(upper_bound, lower_bound):
 
 
 def create_builder(level, participant_nr):
+    background_image = '/images/background.png'
+    if level == 0:
+        background_image = '/images/background_practice.png'
     factory = WorldBuilder(shape=[20, 12], run_matrx_visualizer=False, visualization_bg_clr="#ffffff",
-                           visualization_bg_img='/images/background.png', tick_duration=0.05, simulation_goal=USAR_Goal())
+                           visualization_bg_img=background_image, tick_duration=0.05, simulation_goal=USAR_Goal())
 
     condition = 'baseline'
 
