@@ -546,6 +546,7 @@ class RewardGod(AgentBrain):
         self.hit_penalty = 0
         self.end_obj = None
         self.max_time = 3000
+        self.unsolvable = False
 
     def initialize(self):
         self.state_tracker = StateTracker(agent_id=self.agent_id)
@@ -559,6 +560,7 @@ class RewardGod(AgentBrain):
         self.hit_penalty = 0
         self.goal_reached = False
         self.end_obj = None
+        self.unsolvable = False
 
     def filter_observations_learning(self, state):
         self.state_tracker.update(state)
@@ -750,6 +752,8 @@ class RewardGod(AgentBrain):
         object_ids = [obj_id for obj_id in object_ids if "AgentBrain" not in state[obj_id]['class_inheritance'] and
                       "AgentBody" not in state[obj_id]['class_inheritance']]
 
+        self.level_unsolvable()
+
         if self.end_obj is None:
             for obj in object_ids:
                 if "goal_reached_img" in obj:
@@ -770,6 +774,8 @@ class RewardGod(AgentBrain):
             if self.counter >= self.max_time:
                 action_kwargs['result'] = False
                 self.agent_properties["distance"] = self.distance_goal_state()
+            elif self.unsolvable:
+                action_kwargs['result'] = False
             else:
                 action_kwargs['result'] = True
 
@@ -791,6 +797,32 @@ class RewardGod(AgentBrain):
                 distance = distance + 1
 
         return distance
+
+    def level_unsolvable(self):
+        brown_obj = None
+        parts = None
+        victim_locs = [(8, 9), (8, 10), (9, 9), (9, 10), (10, 9), (10, 10), (11, 9), (11, 10)]
+        for loc in victim_locs:
+            # Check if there is a brown rock on that location
+            brown_obj = self.state[{"obstruction": True, 'location': loc}]
+            parts = self.state[{'location': loc}]
+            if brown_obj is not None:
+                # Brown object found, task is unsolvable
+                self.goal_reached = True
+                self.agent_properties["goal_reached"] = self.goal_reached
+                self.unsolvable = True
+                return
+            elif parts is not None and isinstance(parts, dict):
+                # Check if this part belongs to a brown rock
+                if 'bound_to' in parts.keys():
+                    large_bound_to = parts['bound_to']
+                    if large_bound_to is not None and 'brown' in large_bound_to:
+                        # Brown object found, task is unsolvable
+                        self.goal_reached = True
+                        self.agent_properties["goal_reached"] = self.goal_reached
+                        self.unsolvable = True
+                        return
+        return
 
 class VictimAgent(AgentBrain):
     def __init__(self):
