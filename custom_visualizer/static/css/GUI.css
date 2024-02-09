@@ -319,9 +319,9 @@ h5 {
 }
 
 #endscreen {
-    color: #ffffff;
+    color: #000000;
     position: absolute;
-    background: #003400;
+    background: #c8cfe8;
     height: 70vh;
     top: 15vh;
     width: 100%;
