@@ -31,7 +31,7 @@ if __name__ == "__main__":
         print("Starting custom visualizer")
         vis_thread = visualization_server.run_matrx_visualizer(verbose=False, media_folder=media_folder, port_nr=participant_nr)
 
-        for level in range(start_scenario, 8):
+        for level in range(start_scenario, 9):
             # Create our world builder
             builder = create_builder(level, participant_nr)
             builder.startup(media_folder=media_folder)
