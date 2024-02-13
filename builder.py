@@ -2,6 +2,7 @@ from matrx.agents.agent_types.human_agent import HumanAgentBrain
 from matrx.agents.agent_types.patrolling_agent import PatrollingAgentBrain
 from matrx.logger.log_agent_actions import LogActions
 from matrx.logger.log_idle_agents import LogIdleAgents
+from matrx.logger.log_messages import MessageLogger
 from loggers.learning_logger import LearningLogger
 from loggers.action_logger import ActionLogger
 from loggers.log_tick import LogDuration
@@ -45,9 +46,12 @@ for y_loc in range(upper_bound, lower_bound):
         rubble_locations.append((x_loc, y_loc))
 
 
-def create_builder(level):
+def create_builder(level, participant_nr):
+    background_image = '/images/background.png'
+    if level == 0:
+        background_image = '/images/background_practice.png'
     factory = WorldBuilder(shape=[20, 12], run_matrx_visualizer=False, visualization_bg_clr="#ffffff",
-                           visualization_bg_img='/images/background.png', tick_duration=0.05, simulation_goal=USAR_Goal())
+                           visualization_bg_img=background_image, tick_duration=0.05, simulation_goal=USAR_Goal())
 
     condition = 'baseline'
 
@@ -59,6 +63,7 @@ def create_builder(level):
     factory.add_logger(logger_class=LogIdleAgents, save_path=logger_save_folder, file_name_prefix="idle_")
     factory.add_logger(logger_class=LearningLogger, save_path=logger_save_folder, file_name_prefix="qtable_")
     factory.add_logger(logger_class=LogDuration, save_path=logger_save_folder, file_name_prefix="completionticks_")
+    factory.add_logger(logger_class=MessageLogger, save_path=logger_save_folder, file_name_prefix="messages_")
 
     # Link agent names to agent brains
     human_agent = CustomHumanAgentBrain(max_carry_objects=1, grab_range=1)
@@ -85,6 +90,26 @@ def create_builder(level):
         #'b': BreakObject.__name__
     }
 
+    database_name = "CP_ontology"
+    cp_list = []
+    cp_list_html = []
+    #----------------------------------------Retrieve already stored CPs----------------------------------------------
+    # At initialization, check if there are new CPs that weren't yet shown in the GUI. Retrieve them and store
+    with TypeDB.core_client("localhost:1729") as client:
+        with client.session(database_name, SessionType.DATA) as session:
+            # Session is opened, now specify that it's a read session
+            with session.transaction(TransactionType.READ) as read_transaction:
+                answer_iterator = read_transaction.query().match(
+                    "match $x isa collaboration_pattern, has name $name, has html_content $html_content; get $name, $html_content;")
+
+                for answer in answer_iterator:
+                    cp_retrieved = answer.get('name')._value
+                    cp_html = answer.get('html_content')._value
+                    if cp_retrieved not in cp_list:
+                        cp_list.append(cp_retrieved)
+                        cp_list_html.append(cp_html)
+    #-----------------------------------------------------------------------------------------------------------------
+
     # Add the selector agent that allows humans to interact
     factory.add_human_agent([3, 4], human_agent, name="Human Selector", key_action_map=key_action_map,
                             visualize_shape='img', img_name="/images/human_hand.png", visualize_size=1, is_traversable=True, customizable_properties=["img_name"])
@@ -105,14 +130,14 @@ def create_builder(level):
 
     # Add Ontology functions by adding the OntologyGod agent
     #if condition == 'ontology':
-    factory.add_agent((0,0), ontology_god, name="OntologyGod", visualize_shape='img', img_name="/images/transparent.png", is_traversable=True, cp_list=None, cp_list_html=None)
+    factory.add_agent((0,0), ontology_god, name="OntologyGod", visualize_shape='img', img_name="/images/transparent.png", is_traversable=True, cp_list=cp_list, cp_list_html=cp_list_html, participant_nr=participant_nr)
 
     # factory.add_agent([0,2], autonomous_agent, name="Robot", visualize_shape='img',
     #                   img_name="/images/machine_square.png", visualize_size=2)
 
     # Add the actual Robot Partner (but not in the practice scenario)
     if level != 0:
-        factory.add_agent((4,4), robot_partner, name="Robot", visualize_shape='img', img_name="/images/robot_hand.png", visualize_size=1, is_traversable=True, q_table_basic=None, q_table_cps=None, executing_cp=False, idle_time=None)
+        factory.add_agent((4,4), robot_partner, name="Robot", visualize_shape='img', img_name="/images/robot_hand.png", visualize_size=1, is_traversable=True, q_table_basic=None, q_table_cps=None, q_table_cps_runs=None, executing_cp=False, idle_time=None, participant_nr=participant_nr)
 
     #generate_rubble_pile(name="test_pile", locations=rubble_locations, world=factory)
 
@@ -164,6 +189,7 @@ def create_builder(level):
     #lvl_building_bridges_edited(factory)   # Brown rock 4
 
     factory.add_object([2,0], name="goal_reached_img", img_name="/images/transparent.png", callable_class=GoalReachedObject, visualize_depth=300)
+    factory.add_object([0,0], name="final_goal", is_traversable=True, visualize_opacity=False, goal_reached=False)
 
     return factory
 

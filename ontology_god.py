@@ -24,14 +24,19 @@ class OntologyGod(AgentBrain):
         self.cp_list_html = []
         self.test_list = []
 
+        self.database_name = None
+
     def initialize(self):
         self.state_tracker = StateTracker(agent_id=self.agent_id)
 
         start_conditions = []
 
+        self.database_name = "CP_ontology_" + str(self.agent_properties['participant_nr'])
+        self.database_name = "CP_ontology"
+
         # At initialization, check if there are new CPs that weren't yet shown in the GUI. Retrieve them and store
         with TypeDB.core_client("localhost:1729") as client:
-            with client.session("CP_ontology", SessionType.DATA) as session:
+            with client.session(self.database_name, SessionType.DATA) as session:
                 # Session is opened, now specify that it's a read session
                 with session.transaction(TransactionType.READ) as read_transaction:
                     answer_iterator = read_transaction.query().match(
@@ -113,20 +118,23 @@ class OntologyGod(AgentBrain):
                 if cp_situation == 'delete':
                     # Delete
                     self.delete_cp_data(cp_name)
+                    self.cp_list.remove(cp_name)
                     # Send a message that this CP is deleted, to make sure the robot can process that
-                    self.send_message(Message(content={'cp_delete': cp_name}, from_id=self.agent_id, to_id=None))
+                    self.send_message(Message(content={'cp_delete': cp_name, 'html': cp_html}, from_id=self.agent_id, to_id=None))
                 else:
                     # This means it is an edit, so first delete
                     self.delete_cp_data(cp_name)
                     # Then create new
                     self.send_cp_data(cp_name, cp_situation, cp_actionsA, cp_actionsB, cp_postsitu, cp_html)
+                    # And send a message
+                    self.send_message(Message(content={'cp_edit': cp_name, 'html': cp_html}, from_id=self.agent_id, to_id=None))
 
             elif cp_name:
                 # If we end up here, the CP name is new, so we should create a new entry
                 self.send_cp_data(cp_name, cp_situation, cp_actionsA, cp_actionsB, cp_postsitu, cp_html)
                 self.cp_list.append(cp_name)
                 # Send a message that this CP is added, to make sure the robot can process that
-                self.send_message(Message(content={'cp_new': cp_name}, from_id=self.agent_id, to_id=None))
+                self.send_message(Message(content={'cp_new': cp_name, 'html': cp_html}, from_id=self.agent_id, to_id=None))
 
         return action, action_kwargs
 
@@ -242,6 +250,8 @@ class OntologyGod(AgentBrain):
 
         # While the input still contains valuable information
         while len(html_input)>20:
+            print('HTML in')
+            print(html_input)
             # Find what kind of item we have first
             type_start = html_input.find('class="item ')
             type_end = html_input.find('" clonable=')
@@ -257,9 +267,43 @@ class OntologyGod(AgentBrain):
             # Find where this item ends
             item_end = html_input.find('</div')
 
+            # Check if there is redundant html
+            if item_end < word_start:
+                html_input = html_input[item_end + 4:]
+                # Update index numbers
+                type_start = html_input.find('class="item ')
+                type_end = html_input.find('" clonable=')
+                word_start = html_input.find('<p>')
+                word_end = html_input.find('</p>')
+                item_end = html_input.find('</div')
+
             # Store the item type and the name of the item
             item_type = html_input[type_start + 12:type_end]
             word = html_input[word_start + 3:word_end]
+
+            # Check for filler words or artifacts, don't add those
+            if 'in' in word or len(word) < 1:
+                html_input = html_input[item_end + 4:]
+                continue
+
+            # If it is an on-top-of location, find on top of what
+            if 'On top of' in word:
+                find_object = None
+                if '<i>Object</i>' in html_input:
+                    find_object = html_input.find('object_cp')
+                elif '<i>Actor</i>' in html_input:
+                    find_object = html_input.find('actor')
+
+                object_start = html_input[find_object:].find('<p>')
+                object_end = html_input[find_object:].find('</p>')
+                word = word + html_input[find_object:][object_start + 3:object_end]
+                html_input = html_input[find_object:]
+                item_end = html_input.find('</div')
+
+            # Check if an item of the current type already exists
+            if item_type in input_dict.keys():
+                # If this is the case, create a new key
+                item_type = item_type + "_2"
 
             # Store the item type and the name of the item in the right format
             input_dict[item_type] = word
@@ -304,7 +348,7 @@ class OntologyGod(AgentBrain):
                 self.condition_translation(condition, name, "end", postsitu.index(condition))
 
         with TypeDB.core_client("localhost:1729") as client:
-            with client.session("CP_ontology", SessionType.DATA) as session:
+            with client.session(self.database_name, SessionType.DATA) as session:
                 # Create a write transaction
                 self.write_batch(session, self.query_batch)
 

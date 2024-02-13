@@ -3,6 +3,7 @@ from custom_actions import *
 from matrx.messages.message import Message
 from matrx.agents.agent_utils.navigator import Navigator
 from matrx.agents.agent_utils.state_tracker import StateTracker
+from matrx.actions.move_actions import *
 import csv
 import pickle
 import deepdiff
@@ -66,6 +67,7 @@ class RobotPartner(AgentBrain):
         self.victim_harm = 0
         self.idle_ticks = 0
         self.robot_contribution = 0
+        self.human_standing_still = False
 
         # Helper variables
         self.previous_objs = []
@@ -79,11 +81,20 @@ class RobotPartner(AgentBrain):
 
         self.exp_condition = 'ontology'
 
+        self.database_name = None
+
         # Code that ensures backed up q-tables are retrieved in case of crash
         print("Retrieving backed up q-tables...")
         try:
             with open('qtable_cps_backup.pkl', 'rb') as f:
                 self.q_table_cps = pickle.load(f)
+            print("Backed up CPs q-table stored in variable.")
+        except:
+            print("No backed up q-table available for the CPs.")
+
+        try:
+            with open('qtable_cps_runs_backup.pkl', 'rb') as f:
+                self.q_table_cps_runs = pickle.load(f)
             print("Backed up CPs q-table stored in variable.")
         except:
             print("No backed up q-table available for the CPs.")
@@ -109,6 +120,9 @@ class RobotPartner(AgentBrain):
             self.alpha = self.alpha / 2
         self.received_messages = []
 
+        self.database_name = "CP_ontology_" + str(self.agent_properties['participant_nr'])
+        self.database_name = "CP_ontology"
+
         if self.exp_condition == 'ontology':
             # Initialize existing CP's and their conditions
             print("Robot Initializing CPs")
@@ -123,18 +137,17 @@ class RobotPartner(AgentBrain):
         # and correct where necessary.
             if self.q_table_cps.empty:
                 for cp in self.cp_list:
-                    self.q_table_cps[cp] = np.nan
-                    self.q_table_cps_runs[cp] = np.nan
+                    self.q_table_cps[cp] = 0
+                    self.q_table_cps_runs[cp] = 0
             else:
                 for cp in self.cp_list:
                     if cp not in self.q_table_cps.columns:
                         self.q_table_cps[cp] = 0
                         self.q_table_cps_runs[cp] = 0
-
                 for column in self.q_table_cps.columns:
                     if column not in self.cp_list:
-                        self.q_table_cps.drop(columns='column')
-                        self.q_table_cps_runs.drop(columns='column')
+                        self.q_table_cps.drop(column, axis=1, inplace=True)
+                        self.q_table_cps_runs.drop(column, axis=1, inplace=True)
 
         # Remove columns with None as name for testing phase
         #self.q_table_cps.drop('None', axis=1, inplace=True)
@@ -369,7 +382,7 @@ class RobotPartner(AgentBrain):
         dist_list = []
         chosen_part = None
         object_ids = object_ids
-        if object_ids is type(dict):
+        if isinstance(object_ids, dict):
             object_ids = [object_ids] + self.state[{'bound_to'}]
         else:
             object_ids = object_ids + self.state[{'bound_to'}]
@@ -395,12 +408,19 @@ class RobotPartner(AgentBrain):
             chosen_part = large_obj[dist_list.index(min(dist_list))]
         else:
             chosen_part = large_obj[y_loc_list.index(min(y_loc_list))]
+
+        if chosen_part is None:
+            return
+
         large_name = self.state[chosen_part]['name']
         object_loc = self.state[chosen_part]['location']
         large_obj = [chosen_part]
         for part in parts_list:
             if self.state[part]['bound_to'] == large_name:
                 large_obj.append(part)
+
+        if object_loc is None:
+            return
 
         # Add move action to action list
         self.navigator.add_waypoint(object_loc)
@@ -478,11 +498,12 @@ class RobotPartner(AgentBrain):
         dist_list = []
         chosen_part = None
         object_ids = object_ids + self.state[{'bound_to'}]
+        print(object_ids)
         for object_id in object_ids:
             object_id = object_id['obj_id']
             if "obstruction" in self.state[object_id]:
                 continue
-            if "large" in self.state[object_id] and self.state[object_id]['location'][0] > 5 and self.state[object_id]['location'][0] < 15:
+            if "large" in self.state[object_id] and self.state[object_id]['location'][0] >= 5 and self.state[object_id]['location'][0] < 15:
                 y_loc_list.append(self.state[object_id]['location'][1])
                 large_obj.append(object_id)
                 dist = int(np.ceil(np.linalg.norm(np.array(self.state[object_id]['location'])
@@ -535,6 +556,26 @@ class RobotPartner(AgentBrain):
         for i in range(5):
             self.actionlist[0].append(Idle.__name__)
             self.actionlist[1].append(pickup_kwargs)
+        return
+
+    def move_back_forth_action(self, location):
+        # Check if there is a specific location in which we should move
+        if location is not None:
+            # Then add move actions to this location first
+            self.navigator.add_waypoint(location)
+            route_actions = list(self.navigator._Navigator__get_route(self.state_tracker).values())
+            for action in route_actions:
+                self.actionlist[0].append(action)
+                self.actionlist[1].append({})
+
+        # Define the back and forth move actions
+        back_forth_moves = [MoveEast.__name__, MoveEast.__name__, MoveWest.__name__, MoveWest.__name__]
+        # Add those actions to the action list
+        for i in range(3):
+            for move_action in back_forth_moves:
+                self.actionlist[0].append(move_action)
+                self.actionlist[1].append({})
+
         return
 
 # Policies 1, 2 and 3 are the high level actions
@@ -698,7 +739,7 @@ class RobotPartner(AgentBrain):
 
         if self.first_tick_distance == 0:
             self.first_tick_distance = self.distance_goal_state()
-
+        self.human_standing_still = self.human_standstill()
         # ----------------------------Goal reached check-----------------------------------------------------------
         reward_agent = self.state[{'class_inheritance': "RewardGod"}]
         if reward_agent['goal_reached']:
@@ -722,7 +763,7 @@ class RobotPartner(AgentBrain):
                         self.agent_properties["img_name"] = "/images/robot_hand_small_5_cp.png"
             else:
                 self.agent_properties["img_name"] = "/images/robot_hand_cp.png"
-            self.agent_properties['executing_cp'] = True
+            self.agent_properties['executing_cp'] = self.executing_cp
         else:
             if state[self.agent_id]['is_carrying']:
                 if len(state[self.agent_id]['is_carrying']) == 1:
@@ -760,6 +801,7 @@ class RobotPartner(AgentBrain):
         # If that was an action from the basic behavior, we should do the reward update here
         if len(self.actionlist[0]) == 0 and self.executing_action:
             self.reward_update_basic()
+            self.record_progress(True)
             self.executing_action = False
             print('Actionlist empty after basic behavior action')
         elif len(self.actionlist[0]) == 1 and self.condition > 0:
@@ -773,11 +815,13 @@ class RobotPartner(AgentBrain):
             #print("Agent is executing a CP:")
             #print(self.executing_cp)
             # Check if the endconditions for this CP hold (of if the startconditions no longer hold)
-            if self.executing_cp in self.check_cp_conditions(self.end_conditions) or self.executing_cp not in self.check_cp_conditions(self.start_conditions):
+            # Also check if the CP wasn't deleted in the meantime
+            if self.executing_cp in self.check_cp_conditions(self.end_conditions) or self.executing_cp not in self.check_cp_conditions(self.start_conditions) or self.executing_cp not in self.cp_list:
                 # If yes, finish, process reward and restart loop
                 print("The endconditions for this CP hold, so we'll stop executing it.")
                 self.send_message(Message(content=f"I will stop following the Collaboration Pattern {self.executing_cp}", from_id=self.agent_id, to_id=None))
-                self.reward_update_cps()
+                if self.executing_cp in self.cp_list:
+                    self.reward_update_cps()
                 self.executing_cp = False
                 self.actionlist = [[], []]
                 self.navigator.reset_full()     # Reset navigator to make sure there are no remaining waypoints
@@ -802,7 +846,7 @@ class RobotPartner(AgentBrain):
                         self.current_robot_action = None
 
                         # If the CP actions list ends up empty here, we should do a reward update
-                        if len(self.cp_actions) == 0:
+                        if len(self.cp_actions) == 0 and self.executing_cp in self.cp_list:
                             self.reward_update_cps()
 
                         print('Actionlist empty after CP action')
@@ -827,6 +871,7 @@ class RobotPartner(AgentBrain):
                     self.actionlist = [[], []]
                     self.navigator.reset_full()  # Reset navigator to make sure there are no remaining waypoints
                     self.reward_update_basic()
+                    self.record_progress(True)
                     self.executing_action = False
                 # Check how many CPs hold.
                 if len(cps_hold) == 1:
@@ -888,10 +933,11 @@ class RobotPartner(AgentBrain):
         # you want to fill.
         # Store all conditions of existing CPs in a list; join duplicates, but store which CP they belong to
         self.cp_list = []
+        start_end.clear()
 
         # Look at the list of CPs
         with TypeDB.core_client('localhost:1729') as client:
-            with client.session("CP_ontology", SessionType.DATA) as session:
+            with client.session(self.database_name, SessionType.DATA) as session:
                 with session.transaction(TransactionType.READ) as read_transaction:
                     answer_iterator = read_transaction.query().match("match $cp isa collaboration_pattern, has name $name; get $name;")
 
@@ -958,17 +1004,16 @@ class RobotPartner(AgentBrain):
                                     items_contained[item_retrieved] = {attribute_type: attribute_value}
 
                             # Store that as a single condition if it is not yet in the overall condition list
-                            print('ITEMS')
-                            print(items_contained)
-                            print('START END')
-                            print([val[0] for val in start_end])
+                            #print('ITEMS')
+                            #print(items_contained)
+                            #print('START END')
+                            #print([val[0] for val in start_end])
                             conditions_np = np.array([val[0] for val in start_end])
                             if len(start_end) > 0 and items_contained in conditions_np:
                                 index = np.where(conditions_np == items_contained)[0][0]
                                 start_end[index][1].append(cp)
                             else:
                                 start_end.append([items_contained, [cp]])
-
         return
 
     def check_cp_conditions(self, start_end):
@@ -1007,26 +1052,33 @@ class RobotPartner(AgentBrain):
 
             # Check where this type of object is located, and whether that is the same as the location in the condition
             if relevant_objects:
-                # It exists! Translate and check locations
-                if isinstance(relevant_objects, dict):
-                    # There is just one such object, check it's location
-                    if location['range'] in self.translate_location(relevant_objects['obj_id'], object_type):
-                        # It is the same, condition holds!
-                        if condition not in conditions_hold:
-                            conditions_hold.append(condition)
-                elif isinstance(relevant_objects, list):
-                    # It is a list, we'll need to loop through
-                    for object in relevant_objects:
-                        # Translate the location and check whether it is the one in the condition
-                        if location['range'] in self.translate_location(object['obj_id'], object_type):
-                            # It is the same, condition holds! We can break the for loop
+                # First check if location is None, if so, condition holds
+                if location is None:
+                    # Check if the objects that were found aren't outside of the field TODO
+                    if condition not in conditions_hold:
+                        conditions_hold.append(condition)
+                    break
+                else:
+                    # It exists! Translate and check locations
+                    if isinstance(relevant_objects, dict):
+                        # There is just one such object, check it's location
+                        if location['range'] in self.translate_location(relevant_objects['obj_id'], object_type):
+                            # It is the same, condition holds!
                             if condition not in conditions_hold:
                                 conditions_hold.append(condition)
                             break
-            else:
+                    elif isinstance(relevant_objects, list):
+                        # It is a list, we'll need to loop through
+                        for object in relevant_objects:
+                            # Translate the location and check whether it is the one in the condition
+                            if location['range'] in self.translate_location(object['obj_id'], object_type):
+                                # It is the same, condition holds! We can break the for loop
+                                if condition not in conditions_hold:
+                                    conditions_hold.append(condition)
+                                break
+            #else:
                 # There are no such objects, we can stop here
-                print("Condition doesn't hold")
-
+                #print("Condition doesn't hold")
 
         # Then check if there is any CP for which each start condition holds (or if the end condition of the current holds)
 
@@ -1076,7 +1128,8 @@ class RobotPartner(AgentBrain):
                         # This means that the action we're looking for is in the past 5 actions of the human.
                         # Now we need to check if the location is also present
                         location_present = False
-                        human_action_indices = np.where(np.array([val[0] for val in self.past_human_actions]) == self.current_human_action['task']['task_name'])[0]
+                        human_action_indices = np.where(np.array([val[0] for val in self.past_human_actions]) ==
+                                                        self.current_human_action['task']['task_name'])[0]
                         for index in human_action_indices:
                             if self.current_human_action['location']['range'] in self.past_human_actions[index][1]:
                                 location_present = True
@@ -1090,7 +1143,7 @@ class RobotPartner(AgentBrain):
                             self.past_human_actions = []
 
                             # If the CP actions list ends up empty here, we should do a reward update
-                            if len(self.cp_actions) == 0:
+                            if len(self.cp_actions) == 0 and self.executing_cp in self.cp_list:
                                 self.reward_update_cps()
                 # In the meantime, the robot should idle and wait for the human to finish their task
                 #self.wait_action(None)
@@ -1113,15 +1166,12 @@ class RobotPartner(AgentBrain):
                         # This is an action done by the human. Store such that it can be checked
                         self.current_human_action = action
 
-            # Check whether it's time to move to the next action
-
-            # Execute action
         else:
             # This means there are no actions, so we need to retrieve them
             print("Retrieve actions...")
             # Start TypeDB session and retrieve information about the current CP
             with TypeDB.core_client('localhost:1729') as client:
-                with client.session("CP_ontology", SessionType.DATA) as session:
+                with client.session(self.database_name, SessionType.DATA) as session:
                     with session.transaction(TransactionType.READ) as read_transaction:
                         # First, find all tasks related to the CP at hand
                         answer_iterator = read_transaction.query().match(
@@ -1138,7 +1188,9 @@ class RobotPartner(AgentBrain):
                             # TODO this is a quick fix, find the real problem and fix there
                             if task_name_retrieved[-1] == ' ':
                                 task_name_retrieved = task_name_retrieved[:-1]
-                            self.cp_actions.append({'task': {'task_id': task_id_retrieved, 'task_name': task_name_retrieved, 'order_value': order_value_retrieved}})
+                            self.cp_actions.append({'task': {'task_id': task_id_retrieved,
+                                                             'task_name': task_name_retrieved,
+                                                             'order_value': order_value_retrieved}})
 
                         # Find the location, actor and resource info
                         for task in self.cp_actions:
@@ -1190,6 +1242,15 @@ class RobotPartner(AgentBrain):
                                 else:
                                     task[item_retrieved] = {attribute_type: attribute_value}
                         print(self.cp_actions)
+            # If we have done all this and still we have no action, we should break out of this CP
+            if len(self.cp_actions) < 1:
+                # This CP doesn't contain any actions, so we should break out of it and give a negative reward
+                self.send_message(
+                    Message(content=f"I will stop following the Collaboration Pattern {self.executing_cp}",
+                            from_id=self.agent_id, to_id=None))
+                if self.executing_cp in self.cp_list:
+                    self.reward_update_cps()
+                self.executing_cp = False
 
         return
 
@@ -1245,6 +1306,55 @@ class RobotPartner(AgentBrain):
         if bottom_check == True:
             locations.append('Bottom of rock pile')
 
+        # Do on top of check
+        for x in range (0, nr_rows):
+            loc_to_check = [object_loc_x + x, object_loc_y + nr_vert_rows]
+            objects_found = self.state[{"location": loc_to_check, 'is_movable': True}]
+            if objects_found is not None:
+                # Now we can also do the 'On top of' check for objects
+                # Check what objects are found
+                if isinstance(objects_found, list):
+                    for obj in objects_found:
+                        if obj['name'] == 'rock1' or ('bound_to' in obj.keys() and obj['bound_to'] is None):
+                            if 'On top of Small rock' in locations:
+                                continue
+                            else:
+                                locations.append('On top of Small rock')
+                        elif 'brown' in obj['name'] and 'bound_to' in obj.keys():
+                            if 'On top of Brown rock' in locations:
+                                continue
+                            else:
+                                locations.append('On top of Brown rock')
+                        elif 'bound_to' in obj.keys() and obj['bound_to'] is not None:
+                            if 'On top of Large rock' in locations:
+                                continue
+                            else:
+                                locations.append('On top of Large rock')
+
+                else:
+                    if objects_found['name'] == 'rock1' or ('bound_to' in objects_found.keys() and objects_found['bound_to'] is None):
+                        if 'On top of Small rock' in locations:
+                            continue
+                        else:
+                            locations.append('On top of Small rock')
+                    elif 'brown' in objects_found['name'] and 'bound_to' in objects_found.keys():
+                        if 'On top of Brown rock' in locations:
+                            continue
+                        else:
+                            locations.append('On top of Brown rock')
+                    elif 'bound_to' in objects_found.keys() and objects_found['bound_to'] is not None:
+                        if 'On top of Large rock' in locations:
+                            continue
+                        else:
+                            locations.append('On top of Large rock')
+
+        # Check if the object is on top of victim separately
+        for x in range(0, nr_rows):
+            for y in range(0, nr_vert_rows):
+                loc_to_check = (object_loc_x + x, object_loc_y + y)
+                if loc_to_check in [(8, 9), (8, 10), (9, 9), (9, 10), (10, 9), (10, 10), (11, 9), (11, 10)]:
+                    locations.append('On top of Victim')
+                    break
 
         # Left/Right side of rock pile (= within the bounds of the pile, left or right half)
         if object_loc_x >= 5 and object_loc_x <= 9:
@@ -1257,15 +1367,17 @@ class RobotPartner(AgentBrain):
         elif object_loc_x > 15:
             locations = ['Right side of field']
 
-        # On top of [object/actor/location] (to be implemented later)
-
         # Above rock pile (not relevant for rocks, only for agents)
         #print(locations)
         return locations
 
     def translate_action(self, action, state):
         task_name = action['task']['task_name']
-        task_location = action['location']['range']
+        task_location = None
+
+        # Check if there is a location specified
+        if 'location' in action.keys():
+            task_location = action['location']['range']
 
         carried_objects = self.state[{'carried_by': self.agent_id}]
         print(carried_objects)
@@ -1290,7 +1402,10 @@ class RobotPartner(AgentBrain):
                     # It exists! Translate and check locations
                     if isinstance(relevant_objects, dict):
                         # There is just one such object, check it's location; if it is correct, pick up this one
-                        if task_location in self.translate_location(relevant_objects['obj_id'], object_size):
+                        if task_location is None:
+                            # There is no task location specified, just pick up the found object
+                            self.pickup_large_action([relevant_objects], state, None)
+                        elif task_location in self.translate_location(relevant_objects['obj_id'], object_size):
                             self.pickup_large_action([relevant_objects], state, None)
                         else:
                             # There is no such object, can't perform this action
@@ -1300,7 +1415,10 @@ class RobotPartner(AgentBrain):
                         # It is a list, we'll need to loop through
                         for object in relevant_objects:
                             # Translate the location and check whether it is the one in the condition
-                            if task_location in self.translate_location(object['obj_id'], object_size):
+                            if task_location is None:
+                                # No location specified, which means that we can choose any object found
+                                objects_right_location.append(object)
+                            elif task_location in self.translate_location(object['obj_id'], object_size):
                                 # It is the same, this is an object we can choose!
                                 objects_right_location.append(object)
                         self.pickup_large_action(objects_right_location, state, None)
@@ -1316,7 +1434,10 @@ class RobotPartner(AgentBrain):
                     # It exists! Translate and check locations
                     if isinstance(relevant_objects, dict):
                         # There is just one such object, check it's location; if it is correct, pick up this one
-                        if task_location in self.translate_location(relevant_objects['obj_id'], object_size):
+                        if task_location is None:
+                            # There is no task location specified, just pick up the found object
+                            self.pickup_large_action([relevant_objects], state, None)
+                        elif task_location in self.translate_location(relevant_objects['obj_id'], object_size):
                             self.pickup_action([relevant_objects], state)
                         else:
                             # There is no such object, can't perform this action
@@ -1326,7 +1447,10 @@ class RobotPartner(AgentBrain):
                         # It is a list, we'll need to loop through
                         for object in relevant_objects:
                             # Translate the location and check whether it is the one in the condition
-                            if task_location in self.translate_location(object['obj_id'], object_size):
+                            if task_location is None:
+                                # No location specified, which means that we can choose any object found
+                                objects_right_location.append(object)
+                            elif task_location in self.translate_location(object['obj_id'], object_size):
                                 # It is the same, this is an object we can choose!
                                 objects_right_location.append(object)
                         self.pickup_action(objects_right_location, state)
@@ -1369,7 +1493,8 @@ class RobotPartner(AgentBrain):
                 print("Can't perform this action, object doesn't exist.")
             return
         elif 'Move back and forth' in task_name:
-            # TODO We have to move back and forth; for this we need to create a new action
+            # Add the move back and forth action to the actionlist
+            self.move_back_forth_action(self.translate_loc_backwards(task_location))
             return
 
     def translate_state(self):
@@ -1497,7 +1622,7 @@ class RobotPartner(AgentBrain):
             state_array[1] = 'robot'
 
         # Calculate position 3: human stand still (yes, no)
-        if self.human_standstill():
+        if self.human_standing_still:
             state_array[2] = True
         else:
             state_array[2] = False
@@ -1560,6 +1685,48 @@ class RobotPartner(AgentBrain):
             poss_xloc = list(range(15, 20))
             poss_yloc = list(range(0, 9))
             coordinates = (random.choice(poss_xloc), random.choice(poss_yloc))
+        elif 'On top of' in location:
+            # First check whether it is victim, large rock, small rock or brown rock
+            if 'Victim' in location:
+                poss_locations = [(8,9), (8,10), (9,9), (9,10), (10,9), (10,10), (11,9), (11,10)]
+                coordinates = random.choice(poss_locations)
+            elif 'Large' in location:
+                poss_locations = []
+                large_objs = self.state[{'large': True, 'is_movable': True}]
+                if large_objs is not None:
+                    # There are large objects to be on top of
+                    for obj in large_objs:
+                        obj_location = obj['location']
+                        y_loc_above = obj_location[1] - 1
+                        if self.state[{"location": (obj_location[0], y_loc_above)}] is None:
+                            poss_locations.append((obj_location[0], y_loc_above))
+                    coordinates = random.choice(poss_locations)
+            elif 'Small' in location:
+                poss_locations = []
+                small_objs = self.state[{'name': 'rock1'}] + self.state[{'bound_to': None}]
+                if small_objs is not None:
+                    # There are small objects to be on top of
+                    for obj in small_objs:
+                        obj_location = obj['location']
+                        y_loc_above = obj_location[1] - 1
+                        if self.state[{"location": (obj_location[0], y_loc_above)}] is None:
+                            poss_locations.append((obj_location[0], y_loc_above))
+                    coordinates = random.choice(poss_locations)
+            elif 'Brown' in location:
+                poss_locations = []
+                brown_objs = self.state[{"obstruction": True}]
+                if brown_objs is not None:
+                    # There are brown objects to be on top of
+                    for obj in brown_objs:
+                        obj_location = obj['location']
+                        y_loc_above = obj_location[1] - 1
+                        if self.state[{"location": (obj_location[0], y_loc_above)}] is None:
+                            poss_locations.append((obj_location[0], y_loc_above))
+                    coordinates = random.choice(poss_locations)
+
+        # If the coordinates are empty here, fill them with the current location of the agent
+        if len(coordinates) < 1:
+            coordinates = self.agent_id['location']
 
         return coordinates
 
@@ -1575,37 +1742,46 @@ class RobotPartner(AgentBrain):
             # Choose CP based on expected reward (with exploration rate based on uncertainty?), limit to applicable CPs
             q_values = self.q_table_cps.loc[str(current_state)]/self.q_table_cps_runs.loc[str(current_state)] + \
                        np.sqrt(2 * np.log(self.nr_chosen_cps + 1) / (self.q_table_cps_runs + 1e-6))
-            q_values = q_values[cp_list]
+            q_values = q_values.loc[str(current_state)]
+            q_values = q_values.fillna(0)
             chosen_cp = q_values.idxmax()
         else:
             # If state was not visited before, find the nearest state that was visited for which these CPs also hold
             nearest_state = self.nearest_visited_state()
             if nearest_state:
                 # Choose CP based on expected reward in that state (this is like an educated guess based on similarity)
-                q_values = self.q_table_cps.loc[self.q_table_cps['state'] == nearest_state] / \
-                           self.q_table_cps_runs.loc[self.q_table_cps_runs['state'] == nearest_state] + \
+                q_values = self.q_table_cps.loc[str(nearest_state)] / \
+                           self.q_table_cps_runs.loc[str(nearest_state)] + \
                            np.sqrt(2 * np.log(self.nr_chosen_cps + 1) / (self.q_table_cps_runs + 1e-6))
                 chosen_cp = q_values.idxmax(axis=1)
             else:
                 # If no nearest state, choose randomly and initialize Q-values for this state
                 self.q_table_cps.loc[len(self.q_table_cps.index)] = 0
+                self.q_table_cps.rename(index={len(self.q_table_cps.index) - 1: str(current_state)}, inplace=True)
                 self.q_table_cps_runs.loc[len(self.q_table_cps_runs.index)] = 0
-                #self.q_table_cps.at[len(self.q_table_cps.index)-1, 'state'] = current_state
-                self.q_table_cps.rename(index={len(self.q_table_cps.index)-1:str(current_state)}, inplace=True)
                 self.q_table_cps_runs.rename(index={len(self.q_table_cps_runs.index) - 1: str(current_state)}, inplace=True)
                 self.visited_states.append(current_state)
-                chosen_cp = cp_list[0]
+                chosen_cp = random.choice(cp_list)
                 print(self.q_table_cps)
 
         # Update the total number of times a CP was chosen
         self.nr_chosen_cps = self.nr_chosen_cps + 1
-
         return chosen_cp
 
     def basic_behavior(self):
         actions = ['Move back and forth', 'Stand Still', 'Pick up', 'Drop', 'Break']
 
         action_to_exclude = []
+        large_objs_field = []
+        large_objs = self.state[{'large': True, 'is_movable': True}]
+        if large_objs:
+            if isinstance(large_objs, dict):
+                large_objs = [large_objs]
+            for object in large_objs:
+                if object['location'][0] >= 15 or object['location'][0] < 5:
+                    continue
+                else:
+                    large_objs_field.append(object)
 
         if len(self.state[self.agent_id]['is_carrying']) >= 5:
             # Hands are full, now it shouldn't be possible to pick up
@@ -1616,7 +1792,7 @@ class RobotPartner(AgentBrain):
         if len(self.state[self.agent_id]['is_carrying']) == 0:
             # Hands are empty, now it shouldn't be possible to drop
             action_to_exclude.append('Drop')
-        if self.state[{'large': True, 'is_movable': True}] is None:
+        if self.state[{'large': True, 'is_movable': True}] is None or len(large_objs_field) < 1:
             # No large objects available, so we cannot break
             action_to_exclude.append('Break')
 
@@ -1637,7 +1813,7 @@ class RobotPartner(AgentBrain):
         else:
             # If state was not visited before, find the nearest state that was visited
             nearest_state = self.nearest_visited_state()
-            if nearest_state:
+            if str(nearest_state) in self.q_table_basic.index:
                 # Choose action based on expected reward in that state (this is like an educated guess based on similarity)
                 q_values = self.q_table_basic.loc[str(nearest_state)]
                 if action_to_exclude is not None:
@@ -1662,10 +1838,9 @@ class RobotPartner(AgentBrain):
         if chosen_action == "Stand Still":
             self.wait_action(None)
         elif chosen_action == "Pick up":
-            # TODO Distinguish between Large and Small pick up actions, based on some rule
             # If the human is standing still, pick up a large rock around them (if available)
             if self.human_standstill():
-                if self.state[{'large': True}] is not None and len(self.state[self.agent_id]['is_carrying']) == 0:
+                if self.state[{'large': True}] is not None and len(self.state[self.agent_id]['is_carrying']) == 0 and len(large_objs_field) > 0:
                     self.pickup_large_action(self.state[{'large': True}], self.state, self.human_location[0])
                 else:
                     self.pickup_action(self.state[{'name': 'rock1'}] + self.state[{'bound_to': None}], self.state)
@@ -1677,10 +1852,16 @@ class RobotPartner(AgentBrain):
             break_objects = self.state[{'large': True, 'is_movable': True}]
             if isinstance(break_objects, dict):
                 break_objects = [break_objects]
-            break_objects = break_objects + self.state[{'img_name': "/images/transparent.png"}]
-            self.break_action(break_objects, self.state, None)
+            try:
+                break_objects = break_objects + self.state[{'img_name': "/images/transparent.png"}]
+                if self.human_standstill():
+                    self.break_action(break_objects, self.state, self.human_location[0])
+                else:
+                    self.break_action(break_objects, self.state, None)
+            except:
+                print("No objects left to break")
         elif chosen_action == "Move back and forth":
-            print("Move back and forth - to define")
+            self.move_back_forth_action(None)
 
         self.executing_action = chosen_action
 
@@ -1706,7 +1887,7 @@ class RobotPartner(AgentBrain):
         print("Starting state")
         print(self.starting_state)
         # If the state is already stored in the q-table, the reward is added
-        try:
+        if str(self.starting_state) in self.q_table_cps.index:
             # Update reward: rewards are stored cumulatively
             self.q_table_cps.at[str(self.starting_state), self.executing_cp] = \
                 self.q_table_cps.at[str(self.starting_state), self.executing_cp] + total_reward
@@ -1715,36 +1896,43 @@ class RobotPartner(AgentBrain):
             self.q_table_cps_runs.at[str(self.starting_state), self.executing_cp] = \
                 self.q_table_cps_runs.at[str(self.starting_state), self.executing_cp] + 1
         # If the state is not yet stored, create the initial value
-        except:
+        else:
             # Update reward: rewards are stored cumulatively
+            self.q_table_cps.at[str(self.starting_state), self.executing_cp] = 0
             self.q_table_cps.at[str(self.starting_state), self.executing_cp] = total_reward
             # Also update how many times this CP was chosen in this state by 1
+            self.q_table_cps_runs.at[str(self.starting_state), self.executing_cp] = 0
             self.q_table_cps_runs.at[str(self.starting_state), self.executing_cp] = 1
 
         print(self.q_table_cps)
         with open('qtable_cps_backup.pkl', 'wb') as f:
             pickle.dump(self.q_table_cps, f, pickle.HIGHEST_PROTOCOL)
 
+        with open('qtable_cps_runs_backup.pkl', 'wb') as f:
+            pickle.dump(self.q_table_cps_runs, f, pickle.HIGHEST_PROTOCOL)
+
         self.agent_properties["q_table_cps"] = self.q_table_cps.to_string()
+        self.agent_properties["q_table_cps_runs"] = self.q_table_cps_runs.to_string()
 
         return
 
     def reward_update_basic(self):
         # Do the reward updating for the action that we just executed
         # Reward based on two factors:
-        # 1. Was there a state transition? Zero for no, positive for yes
-        # 2. Discounted by victim harm
+        # 1. Did we actually decrease the distance to the goal state?
+        # 2. Discounted by victim
+        # 3. Discounted by the time it took to execute the action
 
         basic_reward = 0
         current_state = self.translate_state()
-        if current_state == self.starting_state:
+        if self.starting_state_distance > self.distance_goal_state():
             # If the state is not the same, we have a state transition, which means we get a positive reward
-            basic_reward = -1
-        else:
             basic_reward = 5
+        else:
+            basic_reward = -1
 
         victim_harm = self.victim_harm * 5
-        total_reward = basic_reward - victim_harm
+        total_reward = basic_reward - victim_harm - self.nr_ticks
 
         # Determine Max Q (expected utility of next state-action pair). If value doesn't exist, default to 0
         try:
@@ -1834,6 +2022,10 @@ class RobotPartner(AgentBrain):
                     # If not, retrieve info about this CP and add to all the lists
                     self.store_cp_conditions(self.start_conditions)
                     self.store_cp_conditions(self.end_conditions)
+                    # Also add to the q-tables
+                    if cp_name not in self.q_table_cps.columns:
+                        self.q_table_cps[cp_name] = 0
+                        self.q_table_cps_runs[cp_name] = 0
             elif isinstance(message, dict) and 'cp_delete' in message:
                 # An existing CP was deleted!
                 cp_name = message['cp_delete']
@@ -1845,6 +2037,16 @@ class RobotPartner(AgentBrain):
                 print(self.start_conditions)
                 print("New end conditions:")
                 print(self.end_conditions)
+                # Also delete from q-tables
+                if cp_name not in self.cp_list:
+                    self.q_table_cps.drop(cp_name, axis=1, inplace=True)
+                    self.q_table_cps_runs.drop(cp_name, axis=1, inplace=True)
+            elif isinstance(message, dict) and 'cp_edit' in message:
+                # An existing CP was edited, double check that it was already in the list
+                cp_name = message['cp_edit']
+                if cp_name in self.cp_list:
+                    self.store_cp_conditions(self.start_conditions)
+                    self.store_cp_conditions(self.end_conditions)
             elif message == 'FAIL' and not self.final_update:
                 print("FINAL Q UPDATE")
                 last_message = float(self.received_messages[-2])
@@ -1946,11 +2148,22 @@ class RobotPartner(AgentBrain):
             msg = f"Now executing {current_action}"
         elif self.current_robot_action:
             current_action = self.current_robot_action
-            if current_action['resource']:
-                obj_tograb = current_action['resource']['size']
-                msg = f"Now executing {current_action['task']['task_name']} a {obj_tograb} rock at {current_action['location']['range']}"
+            # Check what the actual MATRX action is
+            actual_action = self.actionlist[0][0]
+            # If the MATRX action is not part of the CP, don't communicate (this only happens for drop when pick up)
+            if current_action['task']['task_name'] == 'Pick up' and 'Drop' in actual_action:
+                print("Don't communicate")
             else:
-                msg = f"Now executing {current_action['task']['task_name']} at {current_action['location']['range']}"
+                if current_action['resource'] and 'location' in current_action.keys():
+                    obj_tograb = current_action['resource']['size']
+                    msg = f"Now executing {current_action['task']['task_name']} a {obj_tograb} rock at {current_action['location']['range']}"
+                elif 'location' in current_action.keys():
+                    msg = f"Now executing {current_action['task']['task_name']} at {current_action['location']['range']}"
+                elif current_action['resource']:
+                    obj_tograb = current_action['resource']['size']
+                    msg = f"Now executing {current_action['task']['task_name']} a {obj_tograb} rock"
+                else:
+                    msg = f"Now executing {current_action['task']['task_name']}"
         else:
             print("No action??")
 
@@ -1966,7 +2179,7 @@ class RobotPartner(AgentBrain):
         # Check if the human is standing still
         # First, check if a previous location is stored
         if self.human_location:
-            # Check if the current location is the samen as the previous
+            # Check if the current location is the same as the previous
             if self.human_location[0] == human['location']:
                 self.human_location[1] = self.human_location[1] + 1
             else:

@@ -23,12 +23,18 @@
         function cpToggle() {
             console.log("Click cp")
 
-            // start or pause MATRX  
-            let screen_opened = true;  // TODO: check if screen has been opened
-            if (screen_opened) {
-                send_api_message("pause")
+            if (document.getElementById('chat').classList.contains('show')){
+                document.getElementById('chat').classList.remove('show')
             } else {
+                document.getElementById('chat').classList.add('show')
+            }
+
+            // start or pause MATRX
+            let screen_opened = true;  // TODO: check if screen has been opened
+            if (document.getElementById('cp').classList.contains('show')) {
                 send_api_message("start")
+            } else {
+                send_api_message("pause")
             }   
         }
 
@@ -86,6 +92,7 @@
         <div class="drop-targets">
             <h1 class="cp_text header1">Situation</h1>
             <h2 class="cp_text">The situation when the actions start:</h2>
+            <div class="ex_box" id="example_situation_start"><div class="invulvakje"><i>object</i></div><div class="invulvakje" style="background-color:#EFCEBD"><i>actor</i></div><div class="invulvakje inv_loc"><i>location</i></div></div>
             <div class="drop-targets" id="situation_container">
                 <div class="box_cp box_situ" id="situationbox_1"></div>
                 <div class="box_cp box_situ" id="situationbox_2"></div>
@@ -95,6 +102,7 @@
             </div>
             <h1 class="cp_text">What we do</h1>
             <h2 class="cp_text">In this situation, we did this:</h2>
+            <div class="ex_box" id="example_actions"><div class="invulvakje" style="background-color:#BCE2F0"><i>action</i></div><div class="invulvakje"><i>object</i></div><div class="invulvakje inv_loc"><i>location</i></div></div>
             <div class="actiontarget_container">
                 <div class="drop-targets" id="whatwedo">
                     <div class="agent_name" id="ag_1">Human</div>
@@ -115,6 +123,7 @@
 
             <h1 class="cp_text">Situation</h1>
             <h2 class="cp_text">The situation after the actions:</h2>
+            <div class="ex_box" id="example_situation_end"><div class="invulvakje"><i>object</i></div><div class="invulvakje" style="background-color:#EFCEBD"><i>actor</i></div><div class="invulvakje inv_loc"><i>location</i></div></div>
             <div class="drop-targets" id="postsitu_container">
                 <div class="box_cp box_situ" id="postsitubox_1"></div>
                 <div class="box_cp box_situ" id="postsitubox_2"></div>
@@ -144,13 +153,13 @@
               <p>Bottom of rock pile</p>
             </div>
             <div class="item location" id="item4" draggable="true">
-              <button class="leftrightbutton"><i>Left</i></button><p> side of rock pile</p>
+              <button class="leftrightbutton" id="leftrightbutton1"><i>Left</i></button><p> side of rock pile</p>
             </div>
             <div class="item location" id="item5" draggable="true">
-              <button class="leftrightbutton"><i>Left</i></button><p> side of field</p>
+              <button class="leftrightbutton" id="leftrightbutton2"><i>Left</i></button><p> side of field</p>
             </div>
             <div class="item location" id="item6" draggable="true">
-              <p>On top of </p><button class="variablebutton"><i>Object</i></button>
+              <p>On top of </p><button class="variablebutton" id="variablebutton1"><i>Object</i></button>
             </div>
           </div>
           <div class="right_concepts">
@@ -174,7 +183,7 @@
               <p>Victim</p>
             </div>
           </div>
-          <div class="middle_concepts">
+          <!--<div class="middle_concepts">
             <div class="item counter" id="item13" draggable="true">
               <p>All</p>
             </div>
@@ -184,10 +193,10 @@
             <div class="item counter" id="item15" draggable="true">
               <p>Zero</p>
             </div>
-          </div>
+          </div>-->
           <div class="bottom_concepts">
             <div class="item task" id="item16" draggable="true">
-              <p>Move to </p><button class="variablebutton"><i>Object</i></button>
+              <p>Move to </p><button class="variablebutton" id="variablebutton2"><i>Object</i></button>
             </div>
             <div class="item task" id="item17" draggable="true">
               <p>Move back and forth in </p><div class="invulvakje inv_loc"><i>location</i></div>
@@ -196,7 +205,7 @@
               <p>Stand still in </p><div class="invulvakje inv_loc"><i>location</i></div>
             </div>
             <div class="item task" id="item19" draggable="true">
-              <p>Pick up </p><div class="invulvakje"><i>object</i></div><p> in </p><div class="invulvakje inv_loc"><i>location</i></div>
+              <p>Pick up </p><div class="invulvakje"><i>object</i></div><p> in </p ><div class="invulvakje inv_loc"><i>location</i></div>
             </div>
             <div class="item task" id="item20" draggable="true">
               <p>Drop </p><div class="invulvakje"><i>object</i></div><p> in </p><div class="invulvakje inv_loc"><i>location</i></div>
@@ -234,6 +243,12 @@
       document.getElementById("send_button").onclick = function() {storeData()};
 
       document.getElementById("delete_button").onclick = function() {deleteData()};
+
+      document.getElementById("leftrightbutton1").onclick = function() {leftright_toggle(document.getElementById("leftrightbutton1"))};
+      document.getElementById("leftrightbutton2").onclick = function() {leftright_toggle(document.getElementById("leftrightbutton2"))};
+
+      document.getElementById("variablebutton1").onclick = function() {leftright_toggle(document.getElementById("variablebutton1"))};
+      document.getElementById("variablebutton2").onclick = function() {leftright_toggle(document.getElementById("variablebutton2"))};
 
       document.getElementById("plus_button").onclick = function() {addBox()};
       document.getElementById("minus_button").onclick = function() {removeBox()};
@@ -334,7 +349,9 @@
 
       function leftright_toggle(e) {
         var theToggle = e.target;
-        console.log(theToggle)
+        if (theToggle.tagName == "I"){
+            theToggle = theToggle.parentNode;
+        }
         if (theToggle.className == "leftrightbutton"){
           switch(theToggle.innerHTML){
             case "<i>Left</i>":
@@ -609,7 +626,6 @@
       });
       </script>
 
-<script src="/static/js/toolbar.js"></script>
 
             </div>
         </div>
@@ -617,21 +633,21 @@
 
 
         <!-- Chat -->
-        <div class="collapse" id="chat">
+        <div class="collapse show" id="chat">
             <div class="container-fluid">
                 <h5>Chats</h5>
                 <div class="row">
-                    <div class="col-md-3" id="chatrooms_list">
+                    <div class="col-md-3" id="chatrooms_list" style="display:none">
                         <div class="contact" id="new_chat_button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">+</div>
                         <div id="new_chat_dropdown" class="dropdown-menu"></div>
                     </div>
-                    <div class="col-md-9">
+                    <div class="col-md-12">
                         <div id="current_cp" style="display:none">
                         </div>
                         <div id="messages">
                         </div>
-                        <input class="form-control" id="chat_form_input" placeholder="Open a chatroom first..">
-                        <button type="button" id="chat_form_submit" class="btn btn-primary" onclick="send_message(event)" disabled>Send</button>
+                        <input class="form-control" id="chat_form_input" style="visibility:hidden" placeholder="Open a chatroom first..">
+                        <button type="button" id="chat_form_submit" class="btn btn-primary" onclick="send_message(event)" disabled style="visibility:hidden">Send</button>
                     </div>
                 </div>
             </div>
@@ -639,6 +655,11 @@
 
     </div>
 
+    <div id="endscreen">
+        <h1>You finished this level.</h1>
+        <h3>Please answer the questions for this round in the questionnaire, then click the button below to move to the next level.</h3>
+        <button type="button" class="action-button" onclick="location.reload()">Next level</button>
+    </div>
 
     <!-- Context menu -->
     <div class="dropdown-menu" id="contextMenu" style="display:none">

@@ -46,6 +46,12 @@ var object_selected = false; //
 // Keep track of CPs
 var storedPatterns = {};
 
+// Store whether alert has been sent
+var alert_sent = false;
+
+// Store whether the page has been paused
+var pause_done = false;
+
 /**
  * Get the grid wrapper object
  */
@@ -76,6 +82,14 @@ function draw(state, world_settings, new_messages, accessible_chatrooms, new_tic
 
     // if we already processed this tick (MATRX is paused), stop and return
     if (latest_tick_processed == current_tick && !redraw_required) {
+        if (state['rewardgod']['goal_reached'] && !alert_sent){
+            document.getElementById('cp').classList.add('show')
+            if (document.getElementById('chat').classList.contains('show')){
+                document.getElementById('chat').classList.remove('show')
+            }
+            window.alert('You finished this level. If you want to, you can still store some sequences of collaborative actions in the Collaboration Book. Close the Collaboration Book when you are done.')
+            alert_sent = true;
+        }
         return;
     }
 
@@ -270,6 +284,19 @@ function draw(state, world_settings, new_messages, accessible_chatrooms, new_tic
     }
     clock_div = document.getElementById("clock");
     clock_div.innerHTML = remaining_time;
+
+    // Pause environment after goal was reached
+    if (state['rewardgod']['goal_reached']){
+        console.log("Goal is reached!");
+        if (!pause_done){
+            send_api_message("pause");
+            pause_done = true;
+        }
+    }
+
+    if (state['final_goal']['goal_reached']){
+        $("#endscreen").css("display", "block");
+    }
 
     // all objects have been redrawn, so this can be set to false again
     redraw_required = false;
@@ -552,13 +579,13 @@ function gen_rectangle(obj_vis_settings, obj_element, element_type = "div") {
     }
 
     // add selection image if needed
-    if (obj_vis_settings['selected']) {
-        var selection_img = document.createElement('img');
-        selection_img.className = "matrx_object_selected";
+    //if (obj_vis_settings['selected']) {
+    //    var selection_img = document.createElement('img');
+    //    selection_img.className = "matrx_object_selected";
         // set the image source
-        selection_img.setAttribute("src", '/static/images/selected.png');
-        obj_element.append(selection_img);
-    }
+    //    selection_img.setAttribute("src", '/static/images/selected.png');
+    //    obj_element.append(selection_img);
+    //}
 
     return shape;
 }
@@ -656,13 +683,13 @@ function gen_triangle(obj_vis_settings, obj_element) {
     }
 
     // add selected img if needed
-    if (obj_vis_settings['selected']) {
-        var selection_img = document.createElement('img');
-        selection_img.className = "matrx_object_selected";
+    //if (obj_vis_settings['selected']) {
+    //    var selection_img = document.createElement('img');
+    //    selection_img.className = "matrx_object_selected";
         // set the image source
-        selection_img.setAttribute("src", '/static/images/selected.png');
-        obj_element.append(selection_img);
-    }
+    //    selection_img.setAttribute("src", '/static/images/selected.png');
+    //    obj_element.append(selection_img);
+    //}
 
     return shape;
 }

@@ -141,7 +141,7 @@ html {
 
 #messages {
     overflow-y: auto;
-    max-height: 50vh;
+    max-height: 70vh;
 }
 
 .message_you {
@@ -230,7 +230,7 @@ h5 {
   top: 46px;
   right: 0;
   width: 100%;
-  max-width: 400px;
+  max-width: 380px;
   height: calc(100% - 46px);
 }
 
@@ -316,4 +316,26 @@ h5 {
 
 .shape {
     pointer-events: auto;
+}
+
+#endscreen {
+    color: #000000;
+    position: absolute;
+    background: #c8cfe8;
+    height: 70vh;
+    top: 15vh;
+    width: 100%;
+    padding: 10% 15%;
+    z-index: 100000000000;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    display: none;
+    text-align: center;
+}
+
+#endscreen .action-button {
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-top: 40px;
 }
