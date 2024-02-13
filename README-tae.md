@@ -15,7 +15,7 @@ This is my understanding of what Emma's doing.
 ![Alt text](tae-images/decision-tree.png)
 
 Collaborations patterns (CPs) are learned by contextual bandits (CBs). Basic behavrior is
-learend by by RL (Q-learning).
+learned by by RL (Q-learning).
 
 ## State representations
 
@@ -57,7 +57,7 @@ The reward functions for the RL and CB are almost the same, except that idle tim
 handeled differently.
 
 RL and CB are learned from scratch for both phase 1 and phase 2, although in phase 2,
-we can take advantage of the CPs collected. Emam thinks that there won't be so much
+we can take advantage of the CPs collected. Emma thinks that there won't be so much
 learning happening in CB, since CB is only learned when there is more than one CP
 applicable in a given state / starting conditions (It has to decide which actions to
 choose). This is not so likely since the users will write fine-grained CPs.
@@ -74,3 +74,31 @@ This experiment differs from Emma's first co-learning experiments (Becoming Team
 
 In the phase 2, the agent can take advantage of the CPs that were collected in the phase 1.
 What CP should the agent take given a state?
+
+### Entities and relations
+![alt text](image.png)
+
+This is the only vocabulary used.
+"Robot", "Human", and "Victim" can only be used to describe situations where they work as
+objects (yellow). They can't be used as part of actions. What's also interesting is to see
+the funciton `def translate_action`, which translates user-specified actions to actual
+agent-executable actions. This was necessary since the users can give ambiguious actions.
+
+## Questions
+
+- I guess for each particpant, in one scenario (4 rounds), the machine will check
+  the applicable CPs, before it executes a CP, right? And as they near the end of 4th round,
+  there will be more CPs saved?
+  - yes
+- Are the CPs directly executable? They can be ambiguous.
+  - They are, cuz they are hard-coded. They are run row by row. The machine waits for
+    the human to do its action before moving on to the next row.
+- How do you map the collected data from GUI to the states and actions for the contextual
+  bandit?
+  - CB is done when there is more than on applicable CPs execute. I think this means that
+    the state space for the CB is not the same as that of RL.
+- You mentioned that the participant will get a "prompt" to describe a CP. How many of
+  these do they get?
+  - Prompts will be sent out by the end of a scenario.
+- In Phase 2, what should be the strategy of choosing one out of multiple applicable CPs?
+  UCB? memory?
