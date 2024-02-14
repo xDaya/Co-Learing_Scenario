@@ -1,0 +1,4 @@
+human_selector_action;human_selector_location;human_action;human_location;machine_action;machine_location;victim_action;victim_location;gravitygod_action;gravitygod_location;rewardgod_action;rewardgod_location;ontologygod_action;ontologygod_location;robot_action;robot_location;world_nr;tick_nr
+;(3, 4);;(1, 7);;(15, 7);;(8, 7);;(0, 0);;(0, 11);;(0, 0);;(4, 4);1;0
+MoveEast;(4, 4);;(1, 7);;(15, 7);ManageImg;(8, 7);Fall;(0, 0);;(0, 11);;(0, 0);;(4, 4);1;1
+;(4, 4);;(1, 7);;(15, 7);ManageImg;(8, 7);Fall;(0, 0);;(0, 11);;(0, 0);;(4, 4);1;2
