@@ -1938,7 +1938,7 @@ class RobotPartner(AgentBrain):
         try:
             q_values = self.q_table_basic.loc[str(current_state)].astype('int')
             expected_action = q_values.idxmax()
-            max_q = self.q_table_basic.at[current_state, expected_action]
+            max_q = self.q_table_basic.at[str(current_state), expected_action]
         except:
             max_q = 0
 
@@ -1957,7 +1957,6 @@ class RobotPartner(AgentBrain):
                  self.q_table_basic.at[str(self.starting_state), self.executing_action])
 
         #print(self.q_table_basic)
-        print(total_reward)
         with open('qtable_basic_backup.pkl', 'wb') as f:
             pickle.dump(self.q_table_basic, f, pickle.HIGHEST_PROTOCOL)
 
