@@ -1,0 +1,1038 @@
+correct_tick;human_selector_sent;human_selector_received;human_selector_mssg_json;human_sent;human_received;human_mssg_json;machine_sent;machine_received;machine_mssg_json;victim_sent;victim_received;victim_mssg_json;gravitygod_sent;gravitygod_received;gravitygod_mssg_json;rewardgod_sent;rewardgod_received;rewardgod_mssg_json;ontologygod_sent;ontologygod_received;ontologygod_mssg_json;robot_sent;robot_received;robot_mssg_json;world_nr;tick_nr
+-1;;;;;;;;;;;;;;;;;;;;;;;;;1;0
+0;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""3e6240f0b7db3c5a788f573a5421b16e""}";;;;;;;;;;;;;;;;;;;;;;1;1
+1;;;;;;;;;;;;;;;;;;;;;;;;;1;2
+2;;;;;;;;;;;;;;;;;;;;;;;;;1;3
+3;;;;;;;;;;;;;;;;;;;;;;;;;1;4
+4;;;;;;;;;;;;;;;;;;;;;;;;;1;5
+5;;;;;;;;;;;;;;;;;;;;;;;;;1;6
+6;;;;;;;;;;;;;;;;;;;;;;;;;1;7
+7;;;;;;;;;;;;;;;;;;;;;;;;;1;8
+8;;;;;;;;;;;;;;;;;;;;;;;;;1;9
+9;;;;;;;;;;;;;;;;;;;;;;;;;1;10
+10;;;;;;;;;;;;;;;;;;;;;;;;;1;11
+11;;;;;;;;;;;;;;;;;;;;;;;;;1;12
+12;;;;;;;;;;;;;;;;;;;;;;;;;1;13
+13;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""9141ff5018130d929933e66bcbe4b9ea""}";;;;;;;;;;;;;;;;;;;;;;1;14
+14;;;;;;;;;;;;;;;;;;;;;;;;;1;15
+15;;;;;;;;;;;;;;;;;;;;;;;;;1;16
+16;;;;;;;;;;;;;;;;;;;;;;;;;1;17
+17;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""30c55e936304fb3cff923d8ad98015e1""}";;;;;;;;;;;;;;;;;;;;;;1;18
+18;;;;;;;;;;;;;;;;;;;;;;;;;1;19
+19;;;;;;;;;;;;;;;;;;;;;;;;;1;20
+20;;;;;;;;;;;;;;;;;;;;;;;;;1;21
+21;;;;;;;;;;;;;;;;;;;;;;;;;1;22
+22;;;;;;;;;;;;;;;;;;;;;;;;;1;23
+23;;;;;;;;;;;;;;;;;;;;;;;;;1;24
+24;;;;;;;;;;;;;;;;;;;;;;;;;1;25
+25;;;;;;;;;;;;;;;;;;;;;;;;;1;26
+26;;;;;;;;;;;;;;;;;;;;;;;;;1;27
+27;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""e793f045e0097f2656d367537fa06363""}";;;;;;;;;;;;;;;;;;;;;;1;28
+28;;;;;;;;;;;;;;;;;;;;;;;;;1;29
+29;;;;;;;;;;;;;;;;;;;;;;;;;1;30
+30;;;;;;;;;;;;;;;;;;;;;;;;;1;31
+31;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""24b9054251f2e8d96e9fd5a77aa1c023""}";;;;;;;;;;;;;;;;;;;;;;1;32
+32;;;;;;;;;;;;;;;;;;;;;;;;;1;33
+33;;;;;;;;;;;;;;;;;;;;;;;;;1;34
+34;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""7e8a8a9d8b52d8ed12a981a3b8aec25f""}";;;;;;;;;;;;;;;;;;;;;;1;35
+35;;;;;;;;;;;;;;;;;;;;;;;;;1;36
+36;;;;;;;;;;;;;;;;;;;;;;;;;1;37
+37;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""47ba4e3785b4939efc44f111ff3e820c""}";;;;;;;;;;;;;;;;;;;;;;1;38
+38;;;;;;;;;;;;;;;;;;;;;;;;;1;39
+39;;;;;;;;;;;;;;;;;;;;;;;;;1;40
+40;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""6dfd5ee71d4ad6db4d4b7ee3476c9d05""}";;;;;;;;;;;;;;;;;;;;;;1;41
+41;;;;;;;;;;;;;;;;;;;;;;;;;1;42
+42;;;;;;;;;;;;;;;;;;;;;;;;;1;43
+43;;;;;;;;;;;;;;;;;;;;;;;;;1;44
+44;;;;;;;;;;;;;;;;;;;;;;;;;1;45
+45;;;;;;;;;;;;;;;;;;;;;;;;;1;46
+46;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""30575b1f6fb2c91b817f1eb47b6ffdae""}";;;;;;;;;;;;;;;;;;;;;;1;47
+47;;;;;;;;;;;;;;;;;;;;;;;;;1;48
+48;;;;;;;;;;;;;;;;;;;;;;;;;1;49
+49;;;;;;;;;;;;;;;;;;;;;;;;;1;50
+50;;;;;;;;;;;;;;;;;;;;;;;;;1;51
+51;;;;;;;;;;;;;;;;;;;;;;;;;1;52
+52;;;;;;;;;;;;;;;;;;;;;;;;;1;53
+53;;;;;;;;;;;;;;;;;;;;;;;;;1;54
+54;;;;;;;;;;;;;;;;;;;;;;;;;1;55
+55;;;;;;;;;;;;;;;;;;;;;;;;;1;56
+56;;;;;;;;;;;;;;;;;;;;;;;;;1;57
+57;;;;;;;;;;;;;;;;;;;;;;;;;1;58
+58;;;;;;;;;;;;;;;;;;;;;;;;;1;59
+59;;;;;;;;;;;;;;;;;;;;;;;;;1;60
+60;Now executing Pick up;;"{""content"": ""Now executing Pick up"", ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""6128651f823735ffd824e455e41aeeae""}";;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;1;61
+61;;;;;;;;;;;;;;;;;;;;;;;;;1;62
+62;;;;;;;;;;;;;;;;;;;;;;;;;1;63
+63;;;;;;;;;;;;;;;;;;;;;;;;;1;64
+64;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""60057fa00bd4773e54e0886086a1fd45""}";;;;;;;;;;;;;;;;;;;;;;1;65
+65;;;;;;;;;;;;;;;;;;;;;;;;;1;66
+66;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""66eaa46beea10993a63cbbfaa0a6d457""}";;;;;;;;;;;;;;;;;;;;;;1;67
+67;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;Now executing Pick up;;"{""content"": ""Now executing Pick up"", ""from_id"": ""robot"", ""to_id"": ""ontologygod"", ""message_id"": ""a9fe9d837cb0777b3193211ec6d9b2ed""}";1;68
+68;;;;;;;;;;;;;;;;;;;;;;;;;1;69
+69;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""9ed3407524b08c549f9869ba1a877e5f""}";;;;;;;;;;;;;;;;;;;;;;1;70
+70;;;;;;;;;;;;;;;;;;;;;;;;;1;71
+71;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""297cf934fffdf3d8a3264b2b89d4d6d""}";;;;;;;;;;;;;;;;;;;;;;1;72
+72;;;;;;;;;;;;;;;;;;;;;;;;;1;73
+73;;;;;;;;;;;;;;;;;;;;;;;;;1;74
+74;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""9561e59bd8be95a13360f057624a5df4""}";;;;;;;;;;;;;;;;;;;;;;1;75
+75;;;;;;;;;;;;;;;;;;;;;;;;;1;76
+76;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""4957836533c8ffd42902d8ff84925856""}";;;;;;;;;;;;;;;;;;;;;;1;77
+77;;;;;;;;;;;;;;;;;;;;;;;;;1;78
+78;;;;;;;;;;;;;;;;;;;;;;;;;1;79
+79;;;;;;;;;;;;;;;;;;;;;;;;;1;80
+80;;;;;;;;;;;;;;;;;;;;;;;;;1;81
+81;;;;;;;;;;;;;;;;;;;;;;;;;1;82
+82;Now executing Drop;;"{""content"": ""Now executing Drop"", ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""143a8900e5e7ec07e19a5a8e4018b162""}";;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;1;83
+83;;;;;;;;;;;;;;;;;;;;;;;;;1;84
+84;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""1db6d8252f6f8a0e38c81b36e0d72b8e""}";;;;;;;;;;;;;;;;;;;;;;1;85
+85;;;;;;;;;;;;;;;;;;;;;;;;;1;86
+86;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""21ec094106d3a7816450382a730d6db6""}";;;;;;;;;;;;;;;;;;;;;;1;87
+87;;;;;;;;;;;;;;;;;;;;;;;;;1;88
+88;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""408a9abfcb7ac4840c2aff34494d7bef""}";;;;;;;;;;;;;;;;;;;;;;1;89
+89;;;;;;;;;;;;;;;;;;;;;;;;;1;90
+90;;;;;;;;;;;;;;;;;;;;;;;;;1;91
+91;;;;;;;;;;;;;;;;;;;;;;;;;1;92
+92;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""1ba721109a4fbc111e7d0b034fc3390""}";;;;;;;;;;;;;;;;;;;;;;1;93
+93;;;;;;;;;;;;;;;;;;;;;;;;;1;94
+94;;;;;;;;;;;;;;;;;;;;;;;;;1;95
+95;;;;;;;;;;;;;;;;;;;;;;;;;1;96
+96;;;;;;;;;;;;;;;;;;;;;;;;;1;97
+97;;;;;;;;;;;;;;;;;;;;;;;;;1;98
+98;;;;;;;;;;;;;;;;;;;;;;;;;1;99
+99;;;;;;;;;;;;;;;;;;;;;;;;;1;100
+100;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""3f825c177014ba9ed21d9d7e947c5fa3""}";;;;;;;;;;;;;;;;;;;;;;1;101
+101;;;;;;;;;;;;;;;;;;;;;;;;;1;102
+102;;;;;;;;;;;;;;;;;;;;;;;;;1;103
+103;;;;;;;;;;;;;;;;;;;;;;;;;1;104
+104;;;;;;;;;;;;;;;;;;;;;;;;;1;105
+105;;;;;;;;;;;;;;;;;;;;;;;;;1;106
+106;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""d307c1d327266ae95802463cfa5fe2ce""}";;;;;;;;;;;;;;;;;;;;;;1;107
+107;;;;;;;;;;;;;;;;;;;;;;;;;1;108
+108;;;;;;;;;;;;;;;;;;;;;;;;;1;109
+109;;;;;;;;;;;;;;;;;;;;;;;;;1;110
+110;;;;;;;;;;;;;;;;;;;;;;;;;1;111
+111;Now executing Pick up;;"{""content"": ""Now executing Pick up"", ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""54bb2ba3b5c0fb61be341cbbd3bf7e89""}";;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;1;112
+112;;;;;;;;;;;;;;;;;;;;;;;;;1;113
+113;;;;;;;;;;;;;;;;;;;;;;;;;1;114
+114;;;;;;;;;;;;;;;;;;;;;;;;;1;115
+115;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""a383d4a36aa33fb6cba0bffd73dca3fd""}";;;;;;;;;;;;;;;;;;;;;;1;116
+116;;;;;;;;;;;;;;;;;;;;;;;;;1;117
+117;;;;;;;;;;;;;;;;;;;;;;;;;1;118
+118;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""a8389b32404cd82df68e142b426653bc""}";;;;;;;;;;;;;;;;;;;;;;1;119
+119;;;;;;;;;;;;;;;;;;;;;;;;;1;120
+120;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""6aa0dbc6a83a6fdb17c420b54c9c58c""}";;;;;;;;;;;;;;;;;;;;;;1;121
+121;;;;;;;;;;;;;;;;;;;;;;;;;1;122
+122;;;;;;;;;;;;;;;;;;;;;;;;;1;123
+123;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""89818e34a43a684cad5c57a423b2093f""}";;;;;;;;;;;;;;;;;;;;;;1;124
+124;;;;;;;;;;;;;;;;;;;;;;;;;1;125
+125;;;;;;;;;;;;;;;;;;;;;;;;;1;126
+126;;;;;;;;;;;;;;;;;;;;;;;;;1;127
+127;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""c080184dbfc5c214dd00f6d6c34e72f5""}";;;;;;;;;;;;;;;;;;;;;;1;128
+128;;;;;;;;;;;;;;;;;;;;;;;;;1;129
+129;;;;;;;;;;;;;;;;;;;;;;;;;1;130
+130;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""7988da1be998b53b53d250c837ad3583""}";;;;;;;;;;;;;;;;;;;;;;1;131
+131;;;;;;;;;;;;;;;;;;;;;;;;;1;132
+132;;;;;;;;;;;;;;;;;;;;;;;;;1;133
+133;;;;;;;;;;;;;;;;;;;;;;;;;1;134
+134;Now executing Drop;;"{""content"": ""Now executing Drop"", ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""4ae547aed99a95e262944ec6a0860958""}";;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;1;135
+135;;;;;;;;;;;;;;;;;;;;;;;;;1;136
+136;;;;;;;;;;;;;;;;;;;;;;;;;1;137
+137;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""c98413011acf1a23096630c8eccda0ea""}";;;;;;;;;;;;;;;;;;;;;;1;138
+138;;;;;;;;;;;;;;;;;;;;;;;;;1;139
+139;;;;;;;;;;;;;;;;;;;;;;;;;1;140
+140;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""74b919df39e7fec826dbda6344063feb""}";;;;;;;;;;;;;;;;;;;;;;1;141
+141;;;;;;;;;;;;;;;;;;;;;;;;;1;142
+142;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""d1aa82c3a0290508933948378284298c""}";;;;;;;;;;;;;;;;;;;;;;1;143
+143;;;;;;;;;;;;;;;;;;;;;;;;;1;144
+144;;;;;;;;;;;;;;;;;;;;;;;;;1;145
+145;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""dc51760f80359ad7e424d76ea81f7ce3""}";;;;;;;;;;;;;;;;;;;;;;1;146
+146;;;;;;;;;;;;;;;;;;;;;;;;;1;147
+147;;;;;;;;;;;;;;;;;;;;;;;;;1;148
+148;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""4a3ea9da3edb787cea79686da93e2037""}";;;;;;;;;;;;;;;;;;;;;;1;149
+149;;;;;;;;;;;;;;;;;;;;;;;;;1;150
+150;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""38f442de0f6c338b9fe47a07cbc7460d""}";;;;;;;;;;;;;;;;;;;;;;1;151
+151;;;;;;;;;;;;;;;;;;;;;;;;;1;152
+152;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""4e496e29d29d6b6a5bb0ec616a9a063c""}";;;;;;;;;;;;;;;;;;;;;;1;153
+153;;;;;;;;;;;;;;;;;;;;;;;;;1;154
+154;;;;;;;;;;;;;;;;;;;;;;;;;1;155
+155;;;;;;;;;;;;;;;;;;;;;;;;;1;156
+156;;;;;;;;;;;;;;;;;;;;;;;;;1;157
+157;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""87e9f2e08998ddb99d7f2e0c6a94c2a""}";;;;;;;;;;;;;;;;;;;;;;1;158
+158;;;;;;;;;;;;;;;;;;;;;;;;;1;159
+159;;;;;;;;;;;;;;;;;;;;;;;;;1;160
+160;;;;;;;;;;;;;;;;;;;;;;;;;1;161
+161;;;;;;;;;;;;;;;;;;;;;;;;;1;162
+162;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""468f9ed7c6040ef6253a8d7b22c745f9""}";;;;;;;;;;;;;;;;;;;;;;1;163
+163;;;;;;;;;;;;;;;;;;;;;;;;;1;164
+164;;;;;;;;;;;;;;;;;;;;;;;;;1;165
+165;;;;;;;;;;;;;;;;;;;;;;;;;1;166
+166;;;;;;;;;;;;;;;;;;;;;;;;;1;167
+167;Now executing Pick up;;"{""content"": ""Now executing Pick up"", ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""cdcb39714992caa610f59346a61ad7e5""}";;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;1;168
+168;;;;;;;;;;;;;;;;;;;;;;;;;1;169
+169;;;;;;;;;;;;;;;;;;;;;;;;;1;170
+170;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""ca1fd7793bb98909c15f039463bd9053""}";;;;;;;;;;;;;;;;;;;;;;1;171
+171;;;;;;;;;;;;;;;;;;;;;;;;;1;172
+172;;;;;;;;;;;;;;;;;;;;;;;;;1;173
+173;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""ba4df164595c4e36bc41824794de74e0""}";;;;;;;;;;;;;;;;;;;;;;1;174
+174;;;;;;;;;;;;;;;;;;;;;;;;;1;175
+175;;;;;;;;;;;;;;;;;;;;;;;;;1;176
+176;;;;;;;;;;;;;;;;;;;;;;;;;1;177
+177;;;;;;;;;;;;;;;;;;;;;;;;;1;178
+178;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""b32d1be63ebb1bc00053f93dd3feeb2""}";;;;;;;;;;;;;;;;;;;;;;1;179
+179;;;;;;;;;;;;;;;;;;;;;;;;;1;180
+180;;;;;;;;;;;;;;;;;;;;;;;;;1;181
+181;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""eebda87531e02b8494094c29d4ce08dd""}";;;;;;;;;;;;;;;;;;;;;;1;182
+182;;;;;;;;;;;;;;;;;;;;;;;;;1;183
+183;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""afbd8cdb3881d184b1c637f245943ca""}";;;;;;;;;;;;;;;;;;;;;;1;184
+184;;;;;;;;;;;;;;;;;;;;;;;;;1;185
+185;;;;;;;;;;;;;;;;;;;;;;;;;1;186
+186;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""25a31062da7a7ae55056f944e34ad556""}";;;;;;;;;;;;;;;;;;;;;;1;187
+187;;;;;;;;;;;;;;;;;;;;;;;;;1;188
+188;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""f61ede2d00cc13d5cb854f9499874b12""}";;;;;;;;;;;;;;;;;;;;;;1;189
+189;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;Now executing Drop;;"{""content"": ""Now executing Drop"", ""from_id"": ""robot"", ""to_id"": ""ontologygod"", ""message_id"": ""73ef00462f1f618d339865c940d35f7""}";1;190
+190;;;;;;;;;;;;;;;;;;;;;;;;;1;191
+191;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""bc86e06a4dc8fe9d405be7c5fc46c5b1""}";;;;;;;;;;;;;;;;;;;;;;1;192
+192;;;;;;;;;;;;;;;;;;;;;;;;;1;193
+193;;;;;;;;;;;;;;;;;;;;;;;;;1;194
+194;;;;;;;;;;;;;;;;;;;;;;;;;1;195
+195;;;;;;;;;;;;;;;;;;;;;;;;;1;196
+196;;;;;;;;;;;;;;;;;;;;;;;;;1;197
+197;Now executing Drop;;"{""content"": ""Now executing Drop"", ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""9fa0f685f1ceed994cd93dd16e910bcb""}";;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;1;198
+198;;;;;;;;;;;;;;;;;;;;;;;;;1;199
+199;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""fa3b0dfef20073e0fcc43385f460f9d1""}";;;;;;;;;;;;;;;;;;;;;;1;200
+200;;;;;;;;;;;;;;;;;;;;;;;;;1;201
+201;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""52a0b10d2745b950e3a038ad393fcea6""}";;;;;;;;;;;;;;;;;;;;;;1;202
+202;;;;;;;;;;;;;;;;;;;;;;;;;1;203
+203;;;;;;;;;;;;;;;;;;;;;;;;;1;204
+204;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""54eb78337ab5d2e9129a94b62f8304c9""}";;;;;;;;;;;;;;;;;;;;;;1;205
+205;;;;;;;;;;;;;;;;;;;;;;;;;1;206
+206;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""50e7f6efb4ec7b2d7cd380fff8657116""}";;;;;;;;;;;;;;;;;;;;;;1;207
+207;;;;;;;;;;;;;;;;;;;;;;;;;1;208
+208;;;;;;;;;;;;;;;;;;;;;;;;;1;209
+209;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""9772673bc04dc867f338dd92784300f2""}";;;;;;;;;;;;;;;;;;;;;;1;210
+210;;;;;;;;;;;;;;;;;;;;;;;;;1;211
+211;;;;;;;;;;;;;;;;;;;;;;;;;1;212
+212;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""2f8207a30ef9aefdf784858a095614""}";;;;;;;;;;;;;;;;;;;;;;1;213
+213;;;;;;;;;;;;;;;;;;;;;;;;;1;214
+214;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""e6f8a8ed68376d5b45ff0e2252c126ce""}";;;;;;;;;;;;;;;;;;;;;;1;215
+215;;;;;;;;;;;;;;;;;;;;;;;;;1;216
+216;;;;;;;;;;;;;;;;;;;;;;;;;1;217
+217;;;;;;;;;;;;;;;;;;;;;;;;;1;218
+218;;;;;;;;;;;;;;;;;;;;;;;;;1;219
+219;;;;;;;;;;;;;;;;;;;;;;;;;1;220
+220;;;;;;;;;;;;;;;;;;;;;;;;;1;221
+221;Now executing Pick up;;"{""content"": ""Now executing Pick up"", ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""5817021bd8397fefc1a5070c2e19daae""}";;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;1;222
+222;;;;;;;;;;;;;;;;;;;;;;;;;1;223
+223;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""9946eb909130b54c520cb8e87618c13d""}";;;;;;;;;;;;;;;;;;;;;;1;224
+224;;;;;;;;;;;;;;;;;;;;;;;;;1;225
+225;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""78e80555eebcc9e2af3e0e0a1c93a934""}";;;;;;;;;;;;;;;;;;;;;;1;226
+226;;;;;;;;;;;;;;;;;;;;;;;;;1;227
+227;;;;;;;;;;;;;;;;;;;;;;;;;1;228
+228;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""630330db8ef36e8f9a03a5f0d1bfc852""}";;;;;;;;;;;;;;;;;;;;;;1;229
+229;;;;;;;;;;;;;;;;;;;;;;;;;1;230
+230;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""1ca6f7e94ca2d00ceaeec56661cb1673""}";;;;;;;;;;;;;;;;;;;;;;1;231
+231;;;;;;;;;;;;;;;;;;;;;;;;;1;232
+232;;;;;;;;;;;;;;;;;;;;;;;;;1;233
+233;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""c9b68c60a699be1e117c6e62bdc2e1db""}";;;;;;;;;;;;;;;;;;;;;;1;234
+234;;;;;;;;;;;;;;;;;;;;;;;;;1;235
+235;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""a12299a24e67683838e8f5832c844254""}";;;;;;;;;;;;;;;;;;;;;;1;236
+236;;;;;;;;;;;;;;;;;;;;;;;;;1;237
+237;;;;;;;;;;;;;;;;;;;;;;;;;1;238
+238;;;;;;;;;;;;;;;;;;;;;;;;;1;239
+239;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""e3ad78be36604080d93993c4b809f681""}";;;;;;;;;;;;;;;;;;;;;;1;240
+240;;;;;;;;;;;;;;;;;;;;;;;;;1;241
+241;;;;;;;;;;;;;;;;;;;;;;;;;1;242
+242;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""1f3bc2466a70c8649ce78d59169a4a4b""}";;;;;;;;;;;;;;;;;;;;;;1;243
+243;;;;;;;;;;;;;;;;;;;;;;;;;1;244
+244;;;;;;;;;;;;;;;;;;;;;;;;;1;245
+245;;;;;;;;;;;;;;;;;;;;;;;;;1;246
+246;;;;;;;;;;;;;;;;;;;;;;;;;1;247
+247;;;;;;;;;;;;;;;;;;;;;;;;;1;248
+248;;;;;;;;;;;;;;;;;;;;;;;;;1;249
+249;;;;;;;;;;;;;;;;;;;;;;;;;1;250
+250;Now executing Drop;;"{""content"": ""Now executing Drop"", ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""d841d28f28e519fedf4e9dde91fbff3""}";;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;1;251
+251;;;;;;;;;;;;;;;;;;;;;;;;;1;252
+252;;;;;;;;;;;;;;;;;;;;;;;;;1;253
+253;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""a139c6af0586cf82c3b13f330e3665ec""}";;;;;;;;;;;;;;;;;;;;;;1;254
+254;;;;;;;;;;;;;;;;;;;;;;;;;1;255
+255;;;;;;;;;;;;;;;;;;;;;;;;;1;256
+256;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""86c5b3fcf2af31728d423dfad7aa25d8""}";;;;;;;;;;;;;;;;;;;;;;1;257
+257;;;;;;;;;;;;;;;;;;;;;;;;;1;258
+258;;;;;;;;;;;;;;;;;;;;;;;;;1;259
+259;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""2aa4e929726fe13138652d95c3a4f9ff""}";;;;;;;;;;;;;;;;;;;;;;1;260
+260;;;;;;;;;;;;;;;;;;;;;;;;;1;261
+261;;;;;;;;;;;;;;;;;;;;;;;;;1;262
+262;;;;;;;;;;;;;;;;;;;;;;;;;1;263
+263;;;;;;;;;;;;;;;;;;;;;;;;;1;264
+264;;;;;;;;;;;;;;;;;;;;;;;;;1;265
+265;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""a3b5f7374f0037845d6aacb2b7204d1""}";;;;;;;;;;;;;;;;;;;;;;1;266
+266;;;;;;;;;;;;;;;;;;;;;;;;;1;267
+267;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""bb7887ab1b4e33d7a94b0cf91ac58247""}";;;;;;;;;;;;;;;;;;;;;;1;268
+268;;;;;;;;;;;;;;;;;;;;;;;;;1;269
+269;;;;;;;;;;;;;;;;;;;;;;;;;1;270
+270;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""6f11f31fc1339e5302bd44fcca465a0d""}";;;;;;;;;;;;;;;;;;;;;;1;271
+271;;;;;;;;;;;;;;;;;;;;;;;;;1;272
+272;;;;;;;;;;;;;;;;;;;;;;;;;1;273
+273;;;;;;;;;;;;;;;;;;;;;;;;;1;274
+274;;;;;;;;;;;;;;;;;;;;;;;;;1;275
+275;;;;;;;;;;;;;;;;;;;;;;;;;1;276
+276;;;;;;;;;;;;;;;;;;;;;;;;;1;277
+277;;;;;;;;;;;;;;;;;;;;;;;;;1;278
+278;;;;;;;;;;;;;;;;;;;;;;;;;1;279
+279;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""2f4f291d4b254d4c2c6df9f2a8182716""}";;;;;;;;;;;;;;;;;;;;;;1;280
+280;;;;;;;;;;;;;;;;;;;;;;;;;1;281
+281;;;;;;;;;;;;;;;;;;;;;;;;;1;282
+282;;;;;;;;;;;;;;;;;;;;;;;;;1;283
+283;;;;;;;;;;;;;;;;;;;;;;;;;1;284
+284;;;;;;;;;;;;;;;;;;;;;;;;;1;285
+285;;;;;;;;;;;;;;;;;;;;;;;;;1;286
+286;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""683aa55294c20f32b85b8761fd0a83df""}";;;;;;;;;;;;;;;;;;;;;;1;287
+287;;;;;;;;;;;;;;;;;;;;;;;;;1;288
+288;;;;;;;;;;;;;;;;;;;;;;;;;1;289
+289;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;Now executing Pick up;;"{""content"": ""Now executing Pick up"", ""from_id"": ""robot"", ""to_id"": ""ontologygod"", ""message_id"": ""bee7d8fa766b5824923278df0834e29""}";1;290
+290;;;;;;;;;;;;;;;;;;;;;;;;;1;291
+291;;;;;;;;;;;;;;;;;;;;;;;;;1;292
+292;;;;;;;;;;;;;;;;;;;;;;;;;1;293
+293;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""f59c78754610854c3fe9445ff3ebc237""}";;;;;;;;;;;;;;;;;;;;;;1;294
+294;;;;;;;;;;;;;;;;;;;;;;;;;1;295
+295;;;;;;;;;;;;;;;;;;;;;;;;;1;296
+296;;;;;;;;;;;;;;;;;;;;;;;;;1;297
+297;;;;;;;;;;;;;;;;;;;;;;;;;1;298
+298;;;;;;;;;;;;;;;;;;;;;;;;;1;299
+299;;;;;;;;;;;;;;;;;;;;;;;;;1;300
+300;;;;;;;;;;;;;;;;;;;;;;;;;1;301
+301;;;;;;;;;;;;;;;;;;;;;;;;;1;302
+302;;;;;;;;;;;;;;;;;;;;;;;;;1;303
+303;;;;;;;;;;;;;;;;;;;;;;;;;1;304
+304;;;;;;;;;;;;;;;;;;;;;;;;;1;305
+305;Now executing Pick up;;"{""content"": ""Now executing Pick up"", ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""e1d4fc2d9d93f43d6aa33bb0fca5d283""}";;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;1;306
+306;;;;;;;;;;;;;;;;;;;;;;;;;1;307
+307;;;;;;;;;;;;;;;;;;;;;;;;;1;308
+308;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""318582e3d16dd3a510a9db510857e23e""}";;;;;;;;;;;;;;;;;;;;;;1;309
+309;;;;;;;;;;;;;;;;;;;;;;;;;1;310
+310;;;;;;;;;;;;;;;;;;;;;;;;;1;311
+311;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""d54897ce62d418e6351759ef591fdd8b""}";;;;;;;;;;;;;;;;;;;;;;1;312
+312;;;;;;;;;;;;;;;;;;;;;;;;;1;313
+313;;;;;;;;;;;;;;;;;;;;;;;;;1;314
+314;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""d3511320028a1842a23d3a587d48a813""}";;;;;;;;;;;;;;;;;;;;;;1;315
+315;;;;;;;;;;;;;;;;;;;;;;;;;1;316
+316;;;;;;;;;;;;;;;;;;;;;;;;;1;317
+317;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""2d3c0049b28db17329261628c5ec571f""}";;;;;;;;;;;;;;;;;;;;;;1;318
+318;;;;;;;;;;;;;;;;;;;;;;;;;1;319
+319;;;;;;;;;;;;;;;;;;;;;;;;;1;320
+320;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""37390b76b9ea429ca02f0fd72279b5ee""}";;;;;;;;;;;;;;;;;;;;;;1;321
+321;;;;;;;;;;;;;;;;;;;;;;;;;1;322
+322;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""c2403d741440efa1a684b1dba4987052""}";;;;;;;;;;;;;;;;;;;;;;1;323
+323;;;;;;;;;;;;;;;;;;;;;;;;;1;324
+324;;;;;;;;;;;;;;;;;;;;;;;;;1;325
+325;;;;;;;;;;;;;;;;;;;;;;;;;1;326
+326;;;;;;;;;;;;;;;;;;;;;;;;;1;327
+327;;;;;;;;;;;;;;;;;;;;;;;;;1;328
+328;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""8df00617dfa3007fcc67220d10bb24d2""}";;;;;;;;;;;;;;;;;;;;;;1;329
+329;;;;;;;;;;;;;;;;;;;;;;;;;1;330
+330;;;;;;;;;;;;;;;;;;;;;;;;;1;331
+331;;;;;;;;;;;;;;;;;;;;;;;;;1;332
+332;;;;;;;;;;;;;;;;;;;;;;;;;1;333
+333;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""4a50a0f16ffb02583eb7e561318284eb""}";;;;;;;;;;;;;;;;;;;;;;1;334
+334;;;;;;;;;;;;;;;;;;;;;;;;;1;335
+335;;;;;;;;;;;;;;;;;;;;;;;;;1;336
+336;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""12ce9bd9d3756830aed7af16b73355""}";;;;;;;;;;;;;;;;;;;;;;1;337
+337;;;;;;;;;;;;;;;;;;;;;;;;;1;338
+338;;;;;;;;;;;;;;;;;;;;;;;;;1;339
+339;;;;;;;;;;;;;;;;;;;;;;;;;1;340
+340;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""483e341de60c0235817ae9e4a75463a9""}";;;;;;;;;;;;;;;;;;;;;;1;341
+341;;;;;;;;;;;;;;;;;;;;;;;;;1;342
+342;;;;;;;;;;;;;;;;;;;;;;;;;1;343
+343;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""a7f1afc38c50364b0bcfbd8e877d4d86""}";;;;;;;;;;;;;;;;;;;;;;1;344
+344;;;;;;;;;;;;;;;;;;;;;;;;;1;345
+345;;Now executing Break;;;Now executing Break;;;Now executing Break;;;Now executing Break;;;Now executing Break;;;Now executing Break;;;Now executing Break;;Now executing Break;;"{""content"": ""Now executing Break"", ""from_id"": ""robot"", ""to_id"": ""ontologygod"", ""message_id"": ""6a7f16f1b5bc3df26e767f85af8d2022""}";1;346
+346;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""6b8dfee9f57772656d9404609d8d855f""}";;;;;;;;;;;;;;;;;;;;;;1;347
+347;;;;;;;;;;;;;;;;;;;;;;;;;1;348
+348;;;;;;;;;;;;;;;;;;;;;;;;;1;349
+349;;;;;;;;;;;;;;;;;;;;;;;;;1;350
+350;Now executing Drop;;"{""content"": ""Now executing Drop"", ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""940607378a2cac4ddac53fd400a295e2""}";;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;1;351
+351;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""f51ed55271f0c8a9e4fda5559ed22307""}";;;;;;;;;;;;;;;;;;;;;;1;352
+352;;;;;;;;;;;;;;;;;;;;;;;;;1;353
+353;;;;;;;;;;;;;;;;;;;;;;;;;1;354
+354;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""34bc9ad2d393bfd7b63ffda1dd609190""}";;;;;;;;;;;;;;;;;;;;;;1;355
+355;;;;;;;;;;;;;;;;;;;;;;;;;1;356
+356;;;;;;;;;;;;;;;;;;;;;;;;;1;357
+357;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""7c613d00d15b5533943973501310b0aa""}";;;;;;;;;;;;;;;;;;;;;;1;358
+358;;;;;;;;;;;;;;;;;;;;;;;;;1;359
+359;;;;;;;;;;;;;;;;;;;;;;;;;1;360
+360;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""e1a71f3687c3d25fb23457ff697b102""}";;;;;;;;;;;;;;;;;;;;;;1;361
+361;;;;;;;;;;;;;;;;;;;;;;;;;1;362
+362;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""355be1fd1974dd7d0e944e8fafe922ad""}";;;;;;;;;;;;;;;;;;;;;;1;363
+363;;;;;;;;;;;;;;;;;;;;;;;;;1;364
+364;;;;;;;;;;;;;;;;;;;;;;;;;1;365
+365;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""e6fdac822841d70d5708a65cdf17cde6""}";;;;;;;;;;;;;;;;;;;;;;1;366
+366;;;;;;;;;;;;;;;;;;;;;;;;;1;367
+367;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""1ad69553824d8b0b197ae1fae84abc21""}";;;;;;;;;;;;;;;;;;;;;;1;368
+368;;;;;;;;;;;;;;;;;;;;;;;;;1;369
+369;;;;;;;;;;;;;;;;;;;;;;;;;1;370
+370;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""59f24f7b3c356dec72996d8a3f42e580""}";;;;;;;;;;;;;;;;;;;;;;1;371
+371;;;;;;;;;;;;;;;;;;;;;;;;;1;372
+372;;;;;;;;;;;;;;;;;;;;;;;;;1;373
+373;;;;;;;;;;;;;;;;;;;;;;;;;1;374
+374;;;;;;;;;;;;;;;;;;;;;;;;;1;375
+375;;;;;;;;;;;;;;;;;;;;;;;;;1;376
+376;;;;;;;;;;;;;;;;;;;;;;;;;1;377
+377;;;;;;;;;;;;;;;;;;;;;;;;;1;378
+378;;;;;;;;;;;;;;;;;;;;;;;;;1;379
+379;;;;;;;;;;;;;;;;;;;;;;;;;1;380
+380;;;;;;;;;;;;;;;;;;;;;;;;;1;381
+381;;;;;;;;;;;;;;;;;;;;;;;;;1;382
+382;;;;;;;;;;;;;;;;;;;;;;;;;1;383
+383;;;;;;;;;;;;;;;;;;;;;;;;;1;384
+384;;;;;;;;;;;;;;;;;;;;;;;;;1;385
+385;;;;;;;;;;;;;;;;;;;;;;;;;1;386
+386;;;;;;;;;;;;;;;;;;;;;;;;;1;387
+387;;;;;;;;;;;;;;;;;;;;;;;;;1;388
+388;;;;;;;;;;;;;;;;;;;;;;;;;1;389
+389;;;;;;;;;;;;;;;;;;;;;;;;;1;390
+390;['Stand still', ['Left side of rock pile', 'Above rock pile']];;"{""content"": [""Stand still"", [""Left side of rock pile"", ""Above rock pile""]], ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""62a7547ca7ec3c3aa0e9e202b78f6404""}";;['Stand still', ['Left side of rock pile', 'Above rock pile']];;;['Stand still', ['Left side of rock pile', 'Above rock pile']];;;['Stand still', ['Left side of rock pile', 'Above rock pile']];;;['Stand still', ['Left side of rock pile', 'Above rock pile']];;;['Stand still', ['Left side of rock pile', 'Above rock pile']];;;['Stand still', ['Left side of rock pile', 'Above rock pile']];;;['Stand still', ['Left side of rock pile', 'Above rock pile']];;1;391
+391;;;;;;;;;;;;;;;;;;;;;;;;;1;392
+392;;;;;;;;;;;;;;;;;;;;;;;;;1;393
+393;;;;;;;;;;;;;;;;;;;;;;;;;1;394
+394;;;;;;;;;;;;;;;;;;;;;;;;;1;395
+395;;;;;;;;;;;;;;;;;;;;;;;;;1;396
+396;;;;;;;;;;;;;;;;;;;;;;;;;1;397
+397;;;;;;;;;;;;;;;;;;;;;;;;;1;398
+398;;;;;;;;;;;;;;;;;;;;;;;;;1;399
+399;;;;;;;;;;;;;;;;;;;;;;;;;1;400
+400;;;;;;;;;;;;;;;;;;;;;;;;;1;401
+401;;Now executing Stand Still;;;Now executing Stand Still;;;Now executing Stand Still;;;Now executing Stand Still;;;Now executing Stand Still;;;Now executing Stand Still;;;Now executing Stand Still;;Now executing Stand Still;;"{""content"": ""Now executing Stand Still"", ""from_id"": ""robot"", ""to_id"": ""ontologygod"", ""message_id"": ""e58a2459380ffd1822c3b51399db49c""}";1;402
+402;;;;;;;;;;;;;;;;;;;;;;;;;1;403
+403;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""891ef9461a8f5210d571b2e44c5baf3a""}";;;;;;;;;;;;;;;;;;;;;;1;404
+404;;;;;;;;;;;;;;;;;;;;;;;;;1;405
+405;;;;;;;;;;;;;;;;;;;;;;;;;1;406
+406;;;;;;;;;;;;;;;;;;;;;;;;;1;407
+407;;;;;;;;;;;;;;;;;;;;;;;;;1;408
+408;;;;;;;;;;;;;;;;;;;;;;;;;1;409
+409;;;;;;;;;;;;;;;;;;;;;;;;;1;410
+410;;;;;;;;;;;;;;;;;;;;;;;;;1;411
+411;;;;;;;;;;;;;;;;;;;;;;;;;1;412
+412;;;;;;;;;;;;;;;;;;;;;;;;;1;413
+413;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""80bc501a9bd2f4507ae9e8d6dfb880c8""}";;;;;;;;;;;;;;;;;;;;;;1;414
+414;;;;;;;;;;;;;;;;;;;;;;;;;1;415
+415;;;;;;;;;;;;;;;;;;;;;;;;;1;416
+416;;;;;;;;;;;;;;;;;;;;;;;;;1;417
+417;;;;;;;;;;;;;;;;;;;;;;;;;1;418
+418;;;;;;;;;;;;;;;;;;;;;;;;;1;419
+419;;;;;;;;;;;;;;;;;;;;;;;;;1;420
+420;;;;;;;;;;;;;;;;;;;;;;;;;1;421
+421;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""c3a860ce822484ad434d7a0b34d9d916""}";;;;;;;;;;;;;;;;;;;;;;1;422
+422;;;;;;;;;;;;;;;;;;;;;;;;;1;423
+423;;;;;;;;;;;;;;;;;;;;;;;;;1;424
+424;;;;;;;;;;;;;;;;;;;;;;;;;1;425
+425;;;;;;;;;;;;;;;;;;;;;;;;;1;426
+426;;;;;;;;;;;;;;;;;;;;;;;;;1;427
+427;;;;;;;;;;;;;;;;;;;;;;;;;1;428
+428;;;;;;;;;;;;;;;;;;;;;;;;;1;429
+429;;;;;;;;;;;;;;;;;;;;;;;;;1;430
+430;;;;;;;;;;;;;;;;;;;;;;;;;1;431
+431;;;;;;;;;;;;;;;;;;;;;;;;;1;432
+432;;;;;;;;;;;;;;;;;;;;;;;;;1;433
+433;Now executing Pick up;;"{""content"": ""Now executing Pick up"", ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""1b52a44a6bcbf303a1747fa51969a19a""}";;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;1;434
+434;;;;;;;;;;;;;;;;;;;;;;;;;1;435
+435;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""1356e82032349ca95f39126ea4871eaa""}";;;;;;;;;;;;;;;;;;;;;;1;436
+436;;;;;;;;;;;;;;;;;;;;;;;;;1;437
+437;;;;;;;;;;;;;;;;;;;;;;;;;1;438
+438;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""3dd4e37ef12bc2a2d39b863a7dcebb33""}";;;;;;;;;;;;;;;;;;;;;;1;439
+439;;;;;;;;;;;;;;;;;;;;;;;;;1;440
+440;;;;;;;;;;;;;;;;;;;;;;;;;1;441
+441;;;;;;;;;;;;;;;;;;;;;;;;;1;442
+442;;;;;;;;;;;;;;;;;;;;;;;;;1;443
+443;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""72124401f2da5c3d29ce4599a9538b""}";;;;;;;;;;;;;;;;;;;;;;1;444
+444;;;;;;;;;;;;;;;;;;;;;;;;;1;445
+445;;;;;;;;;;;;;;;;;;;;;;;;;1;446
+446;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""b0cc1557d6cb468dea60d8e399a3cb47""}";;;;;;;;;;;;;;;;;;;;;;1;447
+447;;;;;;;;;;;;;;;;;;;;;;;;;1;448
+448;;;;;;;;;;;;;;;;;;;;;;;;;1;449
+449;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""2d883066451ef0e2acaa487abc1785""}";;;;;;;;;;;;;;;;;;;;;;1;450
+450;;;;;;;;;;;;;;;;;;;;;;;;;1;451
+451;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""9ceec9c85cbe2278fa08b210fc3feb29""}";;;;;;;;;;;;;;;;;;;;;;1;452
+452;;;;;;;;;;;;;;;;;;;;;;;;;1;453
+453;;;;;;;;;;;;;;;;;;;;;;;;;1;454
+454;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""4b332318a9a6083c0d48a5533844959f""}";;;;;;;;;;;;;;;;;;;;;;1;455
+455;;;;;;;;;;;;;;;;;;;;;;;;;1;456
+456;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""2b07ebf4b7a5546b42498348dae157c4""}";;;;;;;;;;;;;;;;;;;;;;1;457
+457;;;;;;;;;;;;;;;;;;;;;;;;;1;458
+458;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""17e9e3b4137130d51cc38a51283ee7ac""}";;;;;;;;;;;;;;;;;;;;;;1;459
+459;;;;;;;;;;;;;;;;;;;;;;;;;1;460
+460;;;;;;;;;;;;;;;;;;;;;;;;;1;461
+461;;;;;;;;;;;;;;;;;;;;;;;;;1;462
+462;;;;;;;;;;;;;;;;;;;;;;;;;1;463
+463;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""109aec2781e89fa681a15dbdb1ad72b4""}";;;;;;;;;;;;;;;;;;;;;;1;464
+464;;;;;;;;;;;;;;;;;;;;;;;;;1;465
+465;;;;;;;;;;;;;;;;;;;;;;;;;1;466
+466;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""59643bc80d2b7bc32a876717c0d7bf64""}";;;;;;;;;;;;;;;;;;;;;;1;467
+467;;;;;;;;;;;;;;;;;;;;;;;;;1;468
+468;;Now executing Break;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""3e584aac155898eaa2472099c9e08a67""}";;Now executing Break;;;Now executing Break;;;Now executing Break;;;Now executing Break;;;Now executing Break;;;Now executing Break;;Now executing Break;;"{""content"": ""Now executing Break"", ""from_id"": ""robot"", ""to_id"": ""ontologygod"", ""message_id"": ""2bb2bad3e9ac164ec520573bdf26b1e6""}";1;469
+469;;;;;;;;;;;;;;;;;;;;;;;;;1;470
+470;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""cd60879eea633265b891a9760bcacb64""}";;;;;;;;;;;;;;;;;;;;;;1;471
+471;;;;;;;;;;;;;;;;;;;;;;;;;1;472
+472;;;;;;;;;;;;;;;;;;;;;;;;;1;473
+473;;;;;;;;;;;;;;;;;;;;;;;;;1;474
+474;Now executing Drop;;"{""content"": ""Now executing Drop"", ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""1ad937b77e448a883951bc0110c29574""}";;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;1;475
+475;;;;;;;;;;;;;;;;;;;;;;;;;1;476
+476;;;;;;;;;;;;;;;;;;;;;;;;;1;477
+477;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""b0235362450b1802e0dd04798b992360""}";;;;;;;;;;;;;;;;;;;;;;1;478
+478;;;;;;;;;;;;;;;;;;;;;;;;;1;479
+479;;;;;;;;;;;;;;;;;;;;;;;;;1;480
+480;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""fe786adca18f28ebe7f1211431d918d2""}";;;;;;;;;;;;;;;;;;;;;;1;481
+481;;;;;;;;;;;;;;;;;;;;;;;;;1;482
+482;;;;;;;;;;;;;;;;;;;;;;;;;1;483
+483;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""b49659ec746f3806d2edab5fdd000e06""}";;;;;;;;;;;;;;;;;;;;;;1;484
+484;;;;;;;;;;;;;;;;;;;;;;;;;1;485
+485;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""17e551562e6fce90945f9f715cb14007""}";;;;;;;;;;;;;;;;;;;;;;1;486
+486;;;;;;;;;;;;;;;;;;;;;;;;;1;487
+487;;;;;;;;;;;;;;;;;;;;;;;;;1;488
+488;;;;;;;;;;;;;;;;;;;;;;;;;1;489
+489;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""422458bf911b1bb33eee49452c29eac1""}";;;;;;;;;;;;;;;;;;;;;;1;490
+490;;;;;;;;;;;;;;;;;;;;;;;;;1;491
+491;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""682c48a06194e9c4e3dd6943f9b337de""}";;;;;;;;;;;;;;;;;;;;;;1;492
+492;;;;;;;;;;;;;;;;;;;;;;;;;1;493
+493;;;;;;;;;;;;;;;;;;;;;;;;;1;494
+494;;;;;;;;;;;;;;;;;;;;;;;;;1;495
+495;;;;;;;;;;;;;;;;;;;;;;;;;1;496
+496;;;;;;;;;;;;;;;;;;;;;;;;;1;497
+497;;;;;;;;;;;;;;;;;;;;;;;;;1;498
+498;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""b1cf78e9af31518858c0982f752fa4d9""}";;;;;;;;;;;;;;;;;;;;;;1;499
+499;;;;;;;;;;;;;;;;;;;;;;;;;1;500
+500;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""fdd21cf932d4d3a009ad1e2afa3d59c8""}";;;;;;;;;;;;;;;;;;;;;;1;501
+501;;;;;;;;;;;;;;;;;;;;;;;;;1;502
+502;;;;;;;;;;;;;;;;;;;;;;;;;1;503
+503;;;;;;;;;;;;;;;;;;;;;;;;;1;504
+504;;;;;;;;;;;;;;;;;;;;;;;;;1;505
+505;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""92d16761d05ce78574329b00316c97e2""}";;;;;;;;;;;;;;;;;;;;;;1;506
+506;;;;;;;;;;;;;;;;;;;;;;;;;1;507
+507;;;;;;;;;;;;;;;;;;;;;;;;;1;508
+508;;;;;;;;;;;;;;;;;;;;;;;;;1;509
+509;;;;;;;;;;;;;;;;;;;;;;;;;1;510
+510;Now executing Pick up;;"{""content"": ""Now executing Pick up"", ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""1f48d896240b73071092bcdfed022e51""}";;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;1;511
+511;;;;;;;;;;;;;;;;;;;;;;;;;1;512
+512;;;;;;;;;;;;;;;;;;;;;;;;;1;513
+513;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""ba52d35c22a58ec0d3f6d72fef067596""}";;;;;;;;;;;;;;;;;;;;;;1;514
+514;;;;;;;;;;;;;;;;;;;;;;;;;1;515
+515;;;;;;;;;;;;;;;;;;;;;;;;;1;516
+516;;;;;;;;;;;;;;;;;;;;;;;;;1;517
+517;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""9246383c4315d0f59349611b83ce7448""}";;;;;;;;;;;;;;;;;;;;;;1;518
+518;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""9e284656b2114b7f33735aabfa6c0a40""}";;;;;;;;;;;;;;;;;;;;;;1;519
+519;;;;;;;;;;;;;;;;;;;;;;;;;1;520
+520;;;;;;;;;;;;;;;;;;;;;;;;;1;521
+521;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""bc81d8a9fad1662a0b5abc91d48e12ca""}";;;;;;;;;;;;;;;;;;;;;;1;522
+522;;;;;;;;;;;;;;;;;;;;;;;;;1;523
+523;;;;;;;;;;;;;;;;;;;;;;;;;1;524
+524;;Now executing Pick up;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""d9bf63026d421c8c2162c20f053844a""}";;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;Now executing Pick up;;"{""content"": ""Now executing Pick up"", ""from_id"": ""robot"", ""to_id"": ""ontologygod"", ""message_id"": ""cd32facb986bb926f1623a80f12de313""}";1;525
+525;;;;;;;;;;;;;;;;;;;;;;;;;1;526
+526;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""d22947fd659fe2ed5078461fb60a8809""}";;;;;;;;;;;;;;;;;;;;;;1;527
+527;;;;;;;;;;;;;;;;;;;;;;;;;1;528
+528;;;;;;;;;;;;;;;;;;;;;;;;;1;529
+529;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""6b0170efcc76060376d9ad545f8d2d4d""}";;;;;;;;;;;;;;;;;;;;;;1;530
+530;;;;;;;;;;;;;;;;;;;;;;;;;1;531
+531;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""afa9d8efda57b0dbebb9afb77b2e898c""}";;;;;;;;;;;;;;;;;;;;;;1;532
+532;;;;;;;;;;;;;;;;;;;;;;;;;1;533
+533;;;;;;;;;;;;;;;;;;;;;;;;;1;534
+534;;;;;;;;;;;;;;;;;;;;;;;;;1;535
+535;;;;;;;;;;;;;;;;;;;;;;;;;1;536
+536;;;;;;;;;;;;;;;;;;;;;;;;;1;537
+537;Now executing Drop;;"{""content"": ""Now executing Drop"", ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""5dcf5bbe798b7164efa4d0fb7056f72d""}";;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;1;538
+538;;;;;;;;;;;;;;;;;;;;;;;;;1;539
+539;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""6f9292b7b7914ddb2df3e3fbef5f4f32""}";;;;;;;;;;;;;;;;;;;;;;1;540
+540;;;;;;;;;;;;;;;;;;;;;;;;;1;541
+541;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""9a59b194ccba0c4624f054e45d503873""}";;;;;;;;;;;;;;;;;;;;;;1;542
+542;;;;;;;;;;;;;;;;;;;;;;;;;1;543
+543;;;;;;;;;;;;;;;;;;;;;;;;;1;544
+544;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""b2ebdfbceaeb075adbaa5fa66bc99573""}";;;;;;;;;;;;;;;;;;;;;;1;545
+545;;;;;;;;;;;;;;;;;;;;;;;;;1;546
+546;;;;;;;;;;;;;;;;;;;;;;;;;1;547
+547;;Now executing Pick up;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""3a23c277035d6430b6cb104bc5cad55""}";;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;Now executing Pick up;;"{""content"": ""Now executing Pick up"", ""from_id"": ""robot"", ""to_id"": ""ontologygod"", ""message_id"": ""c8196d22e240ae2eb2b9b692288dcdc2""}";1;548
+548;;;;;;;;;;;;;;;;;;;;;;;;;1;549
+549;;;;;;;;;;;;;;;;;;;;;;;;;1;550
+550;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""b1c0e77884a00d465a58a9f426930487""}";;;;;;;;;;;;;;;;;;;;;;1;551
+551;;;;;;;;;;;;;;;;;;;;;;;;;1;552
+552;;;;;;;;;;;;;;;;;;;;;;;;;1;553
+553;;;;;;;;;;;;;;;;;;;;;;;;;1;554
+554;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""8aa791578b14d039d16fb3c4f5c47565""}";;;;;;;;;;;;;;;;;;;;;;1;555
+555;;;;;;;;;;;;;;;;;;;;;;;;;1;556
+556;;;;;;;;;;;;;;;;;;;;;;;;;1;557
+557;;;;;;;;;;;;;;;;;;;;;;;;;1;558
+558;Now executing Pick up;;"{""content"": ""Now executing Pick up"", ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""83beb180a20a28ea6d79ac8ecad6d682""}";;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;1;559
+559;;;;;;;;;;;;;;;;;;;;;;;;;1;560
+560;;;;;;;;;;;;;;;;;;;;;;;;;1;561
+561;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""c3c0e4f5a8d9b9fb7c6b9a15bd593d86""}";;;;;;;;;;;;;;;;;;;;;;1;562
+562;;;;;;;;;;;;;;;;;;;;;;;;;1;563
+563;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""7bcc46ac7a4fe1f840a14a71e4f67d7""}";;;;;;;;;;;;;;;;;;;;;;1;564
+564;;;;;;;;;;;;;;;;;;;;;;;;;1;565
+565;;;;;;;;;;;;;;;;;;;;;;;;;1;566
+566;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""fd8880145aeba9e63bc6c29ddf922f49""}";;;;;;;;;;;;;;;;;;;;;;1;567
+567;;;;;;;;;;;;;;;;;;;;;;;;;1;568
+568;;;;;;;;;;;;;;;;;;;;;;;;;1;569
+569;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""bedc74e2791846337e8d80b4f0c8ee46""}";;;;;;;;;;;;;;;;;;;;;;1;570
+570;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;Now executing Pick up;;"{""content"": ""Now executing Pick up"", ""from_id"": ""robot"", ""to_id"": ""ontologygod"", ""message_id"": ""6658ecba30babaf3b4e1f40fbb008763""}";1;571
+571;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""f1fc71640ab1d6b8cc1b9381e53ec639""}";;;;;;;;;;;;;;;;;;;;;;1;572
+572;;;;;;;;;;;;;;;;;;;;;;;;;1;573
+573;;;;;;;;;;;;;;;;;;;;;;;;;1;574
+574;;;;;;;;;;;;;;;;;;;;;;;;;1;575
+575;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""821d50ca2ad39287ee7ddcff7784111a""}";;;;;;;;;;;;;;;;;;;;;;1;576
+576;;;;;;;;;;;;;;;;;;;;;;;;;1;577
+577;;;;;;;;;;;;;;;;;;;;;;;;;1;578
+578;Now executing Drop;;"{""content"": ""Now executing Drop"", ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""760c5a320d14a59b13827e212d47fa9b""}";;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;1;579
+579;;;;;;;;;;;;;;;;;;;;;;;;;1;580
+580;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""aed41c0ed74dc8d09a6575b3443f9e15""}";;;;;;;;;;;;;;;;;;;;;;1;581
+581;;;;;;;;;;;;;;;;;;;;;;;;;1;582
+582;;;;;;;;;;;;;;;;;;;;;;;;;1;583
+583;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""9a80db314059b58f27afe13b3db53c90""}";;;;;;;;;;;;;;;;;;;;;;1;584
+584;;;;;;;;;;;;;;;;;;;;;;;;;1;585
+585;;;;;;;;;;;;;;;;;;;;;;;;;1;586
+586;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""d00370e3da5a3fcb8a1d09746c549f63""}";;;;;;;;;;;;;;;;;;;;;;1;587
+587;;;;;;;;;;;;;;;;;;;;;;;;;1;588
+588;;;;;;;;;;;;;;;;;;;;;;;;;1;589
+589;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""fa14e43ceacecd4217aef10156dec579""}";;;;;;;;;;;;;;;;;;;;;;1;590
+590;;;;;;;;;;;;;;;;;;;;;;;;;1;591
+591;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""5ae7d8ed830bda7b9943ea57a998664b""}";;;;;;;;;;;;;;;;;;;;;;1;592
+592;;;;;;;;;;;;;;;;;;;;;;;;;1;593
+593;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;Now executing Pick up;;"{""content"": ""Now executing Pick up"", ""from_id"": ""robot"", ""to_id"": ""ontologygod"", ""message_id"": ""2c597d560210f993ec192df39a0e745a""}";1;594
+594;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""2f92847210568c2f095fd689cb482391""}";;;;;;;;;;;;;;;;;;;;;;1;595
+595;;;;;;;;;;;;;;;;;;;;;;;;;1;596
+596;;;;;;;;;;;;;;;;;;;;;;;;;1;597
+597;;;;;;;;;;;;;;;;;;;;;;;;;1;598
+598;;;;;;;;;;;;;;;;;;;;;;;;;1;599
+599;;;;;;;;;;;;;;;;;;;;;;;;;1;600
+600;;;;;;;;;;;;;;;;;;;;;;;;;1;601
+601;;;;;;;;;;;;;;;;;;;;;;;;;1;602
+602;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""39c265feae0a635a12cb9ec4032ce165""}";;;;;;;;;;;;;;;;;;;;;;1;603
+603;;;;;;;;;;;;;;;;;;;;;;;;;1;604
+604;;;;;;;;;;;;;;;;;;;;;;;;;1;605
+605;;;;;;;;;;;;;;;;;;;;;;;;;1;606
+606;Now executing Pick up;;"{""content"": ""Now executing Pick up"", ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""1368692f99448c9f16dde6dd42d16f5c""}";;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;1;607
+607;;;;;;;;;;;;;;;;;;;;;;;;;1;608
+608;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""ed1f178320b100e7040a81948d9a5329""}";;;;;;;;;;;;;;;;;;;;;;1;609
+609;;;;;;;;;;;;;;;;;;;;;;;;;1;610
+610;;;;;;;;;;;;;;;;;;;;;;;;;1;611
+611;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""cb5600ce0766bbb0506dfd95f9951d15""}";;;;;;;;;;;;;;;;;;;;;;1;612
+612;;;;;;;;;;;;;;;;;;;;;;;;;1;613
+613;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""e4637eaf30561b27fda44725049f17ab""}";;;;;;;;;;;;;;;;;;;;;;1;614
+614;;;;;;;;;;;;;;;;;;;;;;;;;1;615
+615;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""7c6447d080aac8b2bb8dfdc0f1cebd95""}";;;;;;;;;;;;;;;;;;;;;;1;616
+616;;;;;;;;;;;;;;;;;;;;;;;;;1;617
+617;;;;;;;;;;;;;;;;;;;;;;;;;1;618
+618;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""6c34dad80f0032aa3c28b1986b4380a8""}";;;;;;;;;;;;;;;;;;;;;;1;619
+619;;;;;;;;;;;;;;;;;;;;;;;;;1;620
+620;;;;;;;;;;;;;;;;;;;;;;;;;1;621
+621;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""7a92296ab513e562c3a1406b3f068e07""}";;;;;;;;;;;;;;;;;;;;;;1;622
+622;;;;;;;;;;;;;;;;;;;;;;;;;1;623
+623;;;;;;;;;;;;;;;;;;;;;;;;;1;624
+624;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""b4fe5fc7e71e1bb9f4a66f1b1a86596c""}";;;;;;;;;;;;;;;;;;;;;;1;625
+625;;;;;;;;;;;;;;;;;;;;;;;;;1;626
+626;;;;;;;;;;;;;;;;;;;;;;;;;1;627
+627;;Now executing Break;;;Now executing Break;;;Now executing Break;;;Now executing Break;;;Now executing Break;;;Now executing Break;;;Now executing Break;;Now executing Break;;"{""content"": ""Now executing Break"", ""from_id"": ""robot"", ""to_id"": ""ontologygod"", ""message_id"": ""dd7c432380ec331e476166aae05c61ee""}";1;628
+628;Now executing Drop;;"{""content"": ""Now executing Drop"", ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""66c3c74f0cc87d09c9029f2e037a17f9""}";;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;1;629
+629;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""cb5784728767392cdf1e0856e4eb6ede""}";;;;;;;;;;;;;;;;;;;;;;1;630
+630;;;;;;;;;;;;;;;;;;;;;;;;;1;631
+631;;;;;;;;;;;;;;;;;;;;;;;;;1;632
+632;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""4cf17d0b5dd8a44c88121c9d1591f87a""}";;;;;;;;;;;;;;;;;;;;;;1;633
+633;;;;;;;;;;;;;;;;;;;;;;;;;1;634
+634;;;;;;;;;;;;;;;;;;;;;;;;;1;635
+635;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""6da55f854f25f848d9db1a3d15b3dd9a""}";;;;;;;;;;;;;;;;;;;;;;1;636
+636;;;;;;;;;;;;;;;;;;;;;;;;;1;637
+637;;;;;;;;;;;;;;;;;;;;;;;;;1;638
+638;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""e86eeabebbf6395565a6b7624a374ea4""}";;;;;;;;;;;;;;;;;;;;;;1;639
+639;;;;;;;;;;;;;;;;;;;;;;;;;1;640
+640;;;;;;;;;;;;;;;;;;;;;;;;;1;641
+641;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""d2de5ae2f8cd45e84d2c4edfb36867aa""}";;;;;;;;;;;;;;;;;;;;;;1;642
+642;;;;;;;;;;;;;;;;;;;;;;;;;1;643
+643;;;;;;;;;;;;;;;;;;;;;;;;;1;644
+644;;;;;;;;;;;;;;;;;;;;;;;;;1;645
+645;;;;;;;;;;;;;;;;;;;;;;;;;1;646
+646;;;;;;;;;;;;;;;;;;;;;;;;;1;647
+647;;;;;;;;;;;;;;;;;;;;;;;;;1;648
+648;;;;;;;;;;;;;;;;;;;;;;;;;1;649
+649;Now executing Pick up;;"{""content"": ""Now executing Pick up"", ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""2a168035bcc772b0dc3f721bedb586b5""}";;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;1;650
+650;;;;;;;;;;;;;;;;;;;;;;;;;1;651
+651;;;;;;;;;;;;;;;;;;;;;;;;;1;652
+652;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""d8a4c933c6226cd21c2b3869c874918c""}";;;;;;;;;;;;;;;;;;;;;;1;653
+653;;;;;;;;;;;;;;;;;;;;;;;;;1;654
+654;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""f2d7f8194938f1446a4e6e14c7f00547""}";;;;;;;;;;;;;;;;;;;;;;1;655
+655;;;;;;;;;;;;;;;;;;;;;;;;;1;656
+656;;;;;;;;;;;;;;;;;;;;;;;;;1;657
+657;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""f879126a10f469971c16b7478f527285""}";;;;;;;;;;;;;;;;;;;;;;1;658
+658;;;;;;;;;;;;;;;;;;;;;;;;;1;659
+659;;;;;;;;;;;;;;;;;;;;;;;;;1;660
+660;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""fda75753a418a76d16bed58bca359993""}";;;;;;;;;;;;;;;;;;;;;;1;661
+661;;;;;;;;;;;;;;;;;;;;;;;;;1;662
+662;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""63b40145960958ebd5a6fd42acf32494""}";;;;;;;;;;;;;;;;;;;;;;1;663
+663;;;;;;;;;;;;;;;;;;;;;;;;;1;664
+664;;;;;;;;;;;;;;;;;;;;;;;;;1;665
+665;;;;;;;;;;;;;;;;;;;;;;;;;1;666
+666;;;;;;;;;;;;;;;;;;;;;;;;;1;667
+667;;;;;;;;;;;;;;;;;;;;;;;;;1;668
+668;;;;;;;;;;;;;;;;;;;;;;;;;1;669
+669;Now executing Drop;;"{""content"": ""Now executing Drop"", ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""19d6af4d768c7dbded99283784e53cfa""}";;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;1;670
+670;;;;;;;;;;;;;;;;;;;;;;;;;1;671
+671;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""e836e0825dc088feb3f740fac1cd3c9""}";;;;;;;;;;;;;;;;;;;;;;1;672
+672;;;;;;;;;;;;;;;;;;;;;;;;;1;673
+673;;;;;;;;;;;;;;;;;;;;;;;;;1;674
+674;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""9a1fbbf9e4f35de2c6cd4755bce958d8""}";;;;;;;;;;;;;;;;;;;;;;1;675
+675;;;;;;;;;;;;;;;;;;;;;;;;;1;676
+676;;;;;;;;;;;;;;;;;;;;;;;;;1;677
+677;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""f3e12a7c04105e2e8be2a9f23da7fd43""}";;;;;;;;;;;;;;;;;;;;;;1;678
+678;;;;;;;;;;;;;;;;;;;;;;;;;1;679
+679;;;;;;;;;;;;;;;;;;;;;;;;;1;680
+680;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""cbe2559328d469f9e0a8f6d67188e4c0""}";;;;;;;;;;;;;;;;;;;;;;1;681
+681;;;;;;;;;;;;;;;;;;;;;;;;;1;682
+682;;;;;;;;;;;;;;;;;;;;;;;;;1;683
+683;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""90135138c360b260c67c462778bf1751""}";;;;;;;;;;;;;;;;;;;;;;1;684
+684;;;;;;;;;;;;;;;;;;;;;;;;;1;685
+685;;;;;;;;;;;;;;;;;;;;;;;;;1;686
+686;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""eaca7be84c7a1eb984f850184342855c""}";;;;;;;;;;;;;;;;;;;;;;1;687
+687;;;;;;;;;;;;;;;;;;;;;;;;;1;688
+688;;;;;;;;;;;;;;;;;;;;;;;;;1;689
+689;;;;;;;;;;;;;;;;;;;;;;;;;1;690
+690;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""523aef527e6dfe246c957b3f78b454aa""}";;;;;;;;;;;;;;;;;;;;;;1;691
+691;;;;;;;;;;;;;;;;;;;;;;;;;1;692
+692;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""d3525ec47738c3d08eaafda7734cb6b3""}";;;;;;;;;;;;;;;;;;;;;;1;693
+693;;;;;;;;;;;;;;;;;;;;;;;;;1;694
+694;;;;;;;;;;;;;;;;;;;;;;;;;1;695
+695;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""3e65e6eaf4a2d4e98a6a2b0476bc7bdc""}";;;;;;;;;;;;;;;;;;;;;;1;696
+696;;;;;;;;;;;;;;;;;;;;;;;;;1;697
+697;;;;;;;;;;;;;;;;;;;;;;;;;1;698
+698;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""91127993c8199c9c421a41be9b1646b6""}";;;;;;;;;;;;;;;;;;;;;;1;699
+699;;;;;;;;;;;;;;;;;;;;;;;;;1;700
+700;;;;;;;;;;;;;;;;;;;;;;;;;1;701
+701;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""87ffc92a986c4522e5a72bc703bbba5e""}";;;;;;;;;;;;;;;;;;;;;;1;702
+702;;;;;;;;;;;;;;;;;;;;;;;;;1;703
+703;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""6dbcdbfbb34ae4840945dc879cdf6753""}";;;;;;;;;;;;;;;;;;;;;;1;704
+704;;;;;;;;;;;;;;;;;;;;;;;;;1;705
+705;;;;;;;;;;;;;;;;;;;;;;;;;1;706
+706;;;;;;;;;;;;;;;;;;;;;;;;;1;707
+707;;;;;;;;;;;;;;;;;;;;;;;;;1;708
+708;Now executing Pick up;;"{""content"": ""Now executing Pick up"", ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""f3c2234b07a02a88538598fb4d9135d5""}";;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;1;709
+709;;;;;;;;;;;;;;;;;;;;;;;;;1;710
+710;;;;;;;;;;;;;;;;;;;;;;;;;1;711
+711;;;;;;;;;;;;;;;;;;;;;;;;;1;712
+712;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""53b3c32c09c22b04f851b2de80d419e9""}";;;;;;;;;;;;;;;;;;;;;;1;713
+713;;;;;;;;;;;;;;;;;;;;;;;;;1;714
+714;;;;;;;;;;;;;;;;;;;;;;;;;1;715
+715;;;;;;;;;;;;;;;;;;;;;;;;;1;716
+716;;;;;;;;;;;;;;;;;;;;;;;;;1;717
+717;;;;;;;;;;;;;;;;;;;;;;;;;1;718
+718;;;;;;;;;;;;;;;;;;;;;;;;;1;719
+719;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""f96af8976bf543dde90c7897a74216db""}";;;;;;;;;;;;;;;;;;;;;;1;720
+720;;;;;;;;;;;;;;;;;;;;;;;;;1;721
+721;;;;;;;;;;;;;;;;;;;;;;;;;1;722
+722;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""9341c49f9408e339a84846e6f6b209a2""}";;;;;;;;;;;;;;;;;;;;;;1;723
+723;;;;;;;;;;;;;;;;;;;;;;;;;1;724
+724;;;;;;;;;;;;;;;;;;;;;;;;;1;725
+725;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""bf066074fed420ee00529cfd4aef81e1""}";;;;;;;;;;;;;;;;;;;;;;1;726
+726;;;;;;;;;;;;;;;;;;;;;;;;;1;727
+727;;;;;;;;;;;;;;;;;;;;;;;;;1;728
+728;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""12e9b677e11b30303644de7f0a5ebd46""}";;;;;;;;;;;;;;;;;;;;;;1;729
+729;;;;;;;;;;;;;;;;;;;;;;;;;1;730
+730;;;;;;;;;;;;;;;;;;;;;;;;;1;731
+731;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""9a2ad04e57d54f36fafd492e3b4cb67e""}";;;;;;;;;;;;;;;;;;;;;;1;732
+732;;;;;;;;;;;;;;;;;;;;;;;;;1;733
+733;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""4c6fc8fee611c5038c53bf420f30fc9e""}";;;;;;;;;;;;;;;;;;;;;;1;734
+734;;;;;;;;;;;;;;;;;;;;;;;;;1;735
+735;;;;;;;;;;;;;;;;;;;;;;;;;1;736
+736;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""df62811cda21d73ca92ce5102a3f1e9d""}";;;;;;;;;;;;;;;;;;;;;;1;737
+737;;;;;;;;;;;;;;;;;;;;;;;;;1;738
+738;;;;;;;;;;;;;;;;;;;;;;;;;1;739
+739;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""15bdce4e4d78eeb79a32b718b05f9006""}";;;;;;;;;;;;;;;;;;;;;;1;740
+740;;;;;;;;;;;;;;;;;;;;;;;;;1;741
+741;;;;;;;;;;;;;;;;;;;;;;;;;1;742
+742;;;;;;;;;;;;;;;;;;;;;;;;;1;743
+743;;;;;;;;;;;;;;;;;;;;;;;;;1;744
+744;;;;;;;;;;;;;;;;;;;;;;;;;1;745
+745;Now executing Drop;;"{""content"": ""Now executing Drop"", ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""229ed08b1d7b751747411a9d38c5402""}";;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;1;746
+746;;;;;;;;;;;;;;;;;;;;;;;;;1;747
+747;;;;;;;;;;;;;;;;;;;;;;;;;1;748
+748;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""a94e3a44230bc35b35c49d858a729a0c""}";;;;;;;;;;;;;;;;;;;;;;1;749
+749;;;;;;;;;;;;;;;;;;;;;;;;;1;750
+750;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""118b5f83f512a5f14a8ca133a7295378""}";;;;;;;;;;;;;;;;;;;;;;1;751
+751;;;;;;;;;;;;;;;;;;;;;;;;;1;752
+752;;;;;;;;;;;;;;;;;;;;;;;;;1;753
+753;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""43ff93b9411eca8cf5c573d6329db634""}";;;;;;;;;;;;;;;;;;;;;;1;754
+754;;;;;;;;;;;;;;;;;;;;;;;;;1;755
+755;;;;;;;;;;;;;;;;;;;;;;;;;1;756
+756;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""bad361debfcf82ddbdb180bffc6d9a0a""}";;;;;;;;;;;;;;;;;;;;;;1;757
+757;;;;;;;;;;;;;;;;;;;;;;;;;1;758
+758;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""5c462b43636d63c2348394e3d75df66c""}";;;;;;;;;;;;;;;;;;;;;;1;759
+759;;;;;;;;;;;;;;;;;;;;;;;;;1;760
+760;;Now executing Move back and forth;;;Now executing Move back and forth;;;Now executing Move back and forth;;;Now executing Move back and forth;;;Now executing Move back and forth;;;Now executing Move back and forth;;;Now executing Move back and forth;;Now executing Move back and forth;;"{""content"": ""Now executing Move back and forth"", ""from_id"": ""robot"", ""to_id"": ""ontologygod"", ""message_id"": ""fff20d27528d5e210640e652b35c534c""}";1;761
+761;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""aaf4fccfa9c7e66fd4d68f92666b8008""}";;;;;;;;;;;;;;;;;;;;;;1;762
+762;;;;;;;;;;;;;;;;;;;;;;;;;1;763
+763;;;;;;;;;;;;;;;;;;;;;;;;;1;764
+764;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""25b8101276a8d89135e860d814912cef""}";;;;;;;;;;;;;;;;;;;;;;1;765
+765;;;;;;;;;;;;;;;;;;;;;;;;;1;766
+766;;;;;;;;;;;;;;;;;;;;;;;;;1;767
+767;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""1665f91b313058420732b0792715a223""}";;;;;;;;;;;;;;;;;;;;;;1;768
+768;;;;;;;;;;;;;;;;;;;;;;;;;1;769
+769;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""648dec5a9661e485f0d3c70eb9b2f290""}";;;;;;;;;;;;;;;;;;;;;;1;770
+770;;;;;;;;;;;;;;;;;;;;;;;;;1;771
+771;;;;;;;;;;;;;;;;;;;;;;;;;1;772
+772;;;;;;;;;;;;;;;;;;;;;;;;;1;773
+773;;;;;;;;;;;;;;;;;;;;;;;;;1;774
+774;;;;;;;;;;;;;;;;;;;;;;;;;1;775
+775;;;;;;;;;;;;;;;;;;;;;;;;;1;776
+776;;;;;;;;;;;;;;;;;;;;;;;;;1;777
+777;Now executing Pick up;;"{""content"": ""Now executing Pick up"", ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""ee048167c027d307f9f97bd30a1df0fb""}";;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;1;778
+778;;;;;;;;;;;;;;;;;;;;;;;;;1;779
+779;;;;;;;;;;;;;;;;;;;;;;;;;1;780
+780;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""54a6a43a82f9216ed339d76a95b2f55a""}";;;;;;;;;;;;;;;;;;;;;;1;781
+781;;;;;;;;;;;;;;;;;;;;;;;;;1;782
+782;;;;;;;;;;;;;;;;;;;;;;;;;1;783
+783;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""503c79561789eef871a5963d0f730757""}";;;;;;;;;;;;;;;;;;;;;;1;784
+784;;;;;;;;;;;;;;;;;;;;;;;;;1;785
+785;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""405469a9f71c1bb4e17fe045757bd88b""}";;;;;;;;;;;;;;;;;;;;;;1;786
+786;;;;;;;;;;;;;;;;;;;;;;;;;1;787
+787;;;;;;;;;;;;;;;;;;;;;;;;;1;788
+788;;;;;;;;;;;;;;;;;;;;;;;;;1;789
+789;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""8921ac783752c96989f3ef807f585464""}";;;;;;;;;;;;;;;;;;;;;;1;790
+790;;;;;;;;;;;;;;;;;;;;;;;;;1;791
+791;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""ed47fbb892fa20702876d646071181be""}";;;;;;;;;;;;;;;;;;;;;;1;792
+792;;;;;;;;;;;;;;;;;;;;;;;;;1;793
+793;;;;;;;;;;;;;;;;;;;;;;;;;1;794
+794;;;;;;;;;;;;;;;;;;;;;;;;;1;795
+795;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""7642adeefd6bee278ea8f587a3b8a8f""}";;;;;;;;;;;;;;;;;;;;;;1;796
+796;;;;;;;;;;;;;;;;;;;;;;;;;1;797
+797;;;;;;;;;;;;;;;;;;;;;;;;;1;798
+798;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""664c519b4198bc81a5e76037e4629db5""}";;;;;;;;;;;;;;;;;;;;;;1;799
+799;;;;;;;;;;;;;;;;;;;;;;;;;1;800
+800;;;;;;;;;;;;;;;;;;;;;;;;;1;801
+801;;;;;;;;;;;;;;;;;;;;;;;;;1;802
+802;;;;;;;;;;;;;;;;;;;;;;;;;1;803
+803;;;;;;;;;;;;;;;;;;;;;;;;;1;804
+804;;;;;;;;;;;;;;;;;;;;;;;;;1;805
+805;Now executing Drop;;"{""content"": ""Now executing Drop"", ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""afc212f89dd2ebbc67d4970ea8057a19""}";;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;1;806
+806;;;;;;;;;;;;;;;;;;;;;;;;;1;807
+807;;;;;;;;;;;;;;;;;;;;;;;;;1;808
+808;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""19584d37059ebf92a3c17683aa58f5be""}";;;;;;;;;;;;;;;;;;;;;;1;809
+809;;;;;;;;;;;;;;;;;;;;;;;;;1;810
+810;;;;;;;;;;;;;;;;;;;;;;;;;1;811
+811;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""4bb38724cef985056be66d60fb8fae56""}";;;;;;;;;;;;;;;;;;;;;;1;812
+812;;;;;;;;;;;;;;;;;;;;;;;;;1;813
+813;;;;;;;;;;;;;;;;;;;;;;;;;1;814
+814;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""3e644406623376b31dee363ddcabb540""}";;;;;;;;;;;;;;;;;;;;;;1;815
+815;;;;;;;;;;;;;;;;;;;;;;;;;1;816
+816;;Now executing Stand Still;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""7a42d9769eff150a665efc0bc17ed06d""}";;Now executing Stand Still;;;Now executing Stand Still;;;Now executing Stand Still;;;Now executing Stand Still;;;Now executing Stand Still;;;Now executing Stand Still;;Now executing Stand Still;;"{""content"": ""Now executing Stand Still"", ""from_id"": ""robot"", ""to_id"": ""ontologygod"", ""message_id"": ""e2cc9fe2a5691d466d5f561335931c67""}";1;817
+817;;;;;;;;;;;;;;;;;;;;;;;;;1;818
+818;;;;;;;;;;;;;;;;;;;;;;;;;1;819
+819;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""8f50278068c20575fc2464714bc231d""}";;;;;;;;;;;;;;;;;;;;;;1;820
+820;;;;;;;;;;;;;;;;;;;;;;;;;1;821
+821;;;;;;;;;;;;;;;;;;;;;;;;;1;822
+822;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""d55e2df40ca01eb23042a611a21dd1c8""}";;;;;;;;;;;;;;;;;;;;;;1;823
+823;;;;;;;;;;;;;;;;;;;;;;;;;1;824
+824;;;;;;;;;;;;;;;;;;;;;;;;;1;825
+825;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""6c0125bb4c1e20017b4446c7bd489bc1""}";;;;;;;;;;;;;;;;;;;;;;1;826
+826;;;;;;;;;;;;;;;;;;;;;;;;;1;827
+827;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""20ace20b6d08f19f754390a1ae52b77a""}";;;;;;;;;;;;;;;;;;;;;;1;828
+828;;;;;;;;;;;;;;;;;;;;;;;;;1;829
+829;;;;;;;;;;;;;;;;;;;;;;;;;1;830
+830;;;;;;;;;;;;;;;;;;;;;;;;;1;831
+831;;;;;;;;;;;;;;;;;;;;;;;;;1;832
+832;;;;;;;;;;;;;;;;;;;;;;;;;1;833
+833;;;;;;;;;;;;;;;;;;;;;;;;;1;834
+834;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""ef95f1ff74ca0c1d43e83f0ac9bc10f3""}";;;;;;;;;;;;;;;;;;;;;;1;835
+835;;;;;;;;;;;;;;;;;;;;;;;;;1;836
+836;;;;;;;;;;;;;;;;;;;;;;;;;1;837
+837;;;;;;;;;;;;;;;;;;;;;;;;;1;838
+838;;;;;;;;;;;;;;;;;;;;;;;;;1;839
+839;;;;;;;;;;;;;;;;;;;;;;;;;1;840
+840;Now executing Pick up;;"{""content"": ""Now executing Pick up"", ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""86fa11d79b747b2d2d783d9b364a3ddf""}";;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;1;841
+841;;;;;;;;;;;;;;;;;;;;;;;;;1;842
+842;;;;;;;;;;;;;;;;;;;;;;;;;1;843
+843;;;;;;;;;;;;;;;;;;;;;;;;;1;844
+844;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""70c754302aa580506d8782059aaf7c32""}";;;;;;;;;;;;;;;;;;;;;;1;845
+845;;;;;;;;;;;;;;;;;;;;;;;;;1;846
+846;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""13da31f1dbb47613ee2456cda4135f2d""}";;;;;;;;;;;;;;;;;;;;;;1;847
+847;;;;;;;;;;;;;;;;;;;;;;;;;1;848
+848;;;;;;;;;;;;;;;;;;;;;;;;;1;849
+849;;;;;;;;;;;;;;;;;;;;;;;;;1;850
+850;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""b026cdfbaef4e0b14f874f2e324c35ac""}";;;;;;;;;;;;;;;;;;;;;;1;851
+851;;;;;;;;;;;;;;;;;;;;;;;;;1;852
+852;;;;;;;;;;;;;;;;;;;;;;;;;1;853
+853;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""9233a58d3c5d66c4527290d0c2f187a""}";;;;;;;;;;;;;;;;;;;;;;1;854
+854;;;;;;;;;;;;;;;;;;;;;;;;;1;855
+855;;;;;;;;;;;;;;;;;;;;;;;;;1;856
+856;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""e2f464366b53f683f69244b03ad134f2""}";;;;;;;;;;;;;;;;;;;;;;1;857
+857;;;;;;;;;;;;;;;;;;;;;;;;;1;858
+858;;;;;;;;;;;;;;;;;;;;;;;;;1;859
+859;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""1e74eae7fc00a19bc24cde1e315bd571""}";;;;;;;;;;;;;;;;;;;;;;1;860
+860;;;;;;;;;;;;;;;;;;;;;;;;;1;861
+861;;Now executing Pick up;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""8dfbf427d268e32df2603f0fda438982""}";;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;Now executing Pick up;;"{""content"": ""Now executing Pick up"", ""from_id"": ""robot"", ""to_id"": ""ontologygod"", ""message_id"": ""605053cdcf39976e7febd2d818c2aa34""}";1;862
+862;;;;;;;;;;;;;;;;;;;;;;;;;1;863
+863;;;;;;;;;;;;;;;;;;;;;;;;;1;864
+864;;;;;;;;;;;;;;;;;;;;;;;;;1;865
+865;;;;;;;;;;;;;;;;;;;;;;;;;1;866
+866;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""5924146360800f8190a7404bc4345900""}";;;;;;;;;;;;;;;;;;;;;;1;867
+867;;;;;;;;;;;;;;;;;;;;;;;;;1;868
+868;;;;;;;;;;;;;;;;;;;;;;;;;1;869
+869;;;;;;;;;;;;;;;;;;;;;;;;;1;870
+870;;;;;;;;;;;;;;;;;;;;;;;;;1;871
+871;;;;;;;;;;;;;;;;;;;;;;;;;1;872
+872;Now executing Drop;;"{""content"": ""Now executing Drop"", ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""1a9a3caa401dc10c86c3d5670458d092""}";;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;1;873
+873;;;;;;;;;;;;;;;;;;;;;;;;;1;874
+874;;;;;;;;;;;;;;;;;;;;;;;;;1;875
+875;;;;;;;;;;;;;;;;;;;;;;;;;1;876
+876;;;;;;;;;;;;;;;;;;;;;;;;;1;877
+877;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""de9eb045872f76530bcb6609b92c1824""}";;;;;;;;;;;;;;;;;;;;;;1;878
+878;;;;;;;;;;;;;;;;;;;;;;;;;1;879
+879;;;;;;;;;;;;;;;;;;;;;;;;;1;880
+880;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""72b33b7e47a68aa3c79c2d26217d6e30""}";;;;;;;;;;;;;;;;;;;;;;1;881
+881;;;;;;;;;;;;;;;;;;;;;;;;;1;882
+882;;;;;;;;;;;;;;;;;;;;;;;;;1;883
+883;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""3a6aef2e657a566d639df9c8a8bf13b6""}";;;;;;;;;;;;;;;;;;;;;;1;884
+884;;;;;;;;;;;;;;;;;;;;;;;;;1;885
+885;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""c98600ef4d4feff26db90b47f4898882""}";;;;;;;;;;;;;;;;;;;;;;1;886
+886;;;;;;;;;;;;;;;;;;;;;;;;;1;887
+887;;;;;;;;;;;;;;;;;;;;;;;;;1;888
+888;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""d5bee9d1129708ea6cadf7e1b8a8b656""}";;;;;;;;;;;;;;;;;;;;;;1;889
+889;;;;;;;;;;;;;;;;;;;;;;;;;1;890
+890;;;;;;;;;;;;;;;;;;;;;;;;;1;891
+891;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""2edaeb2fbaa73c26602c0f5f6433ca58""}";;;;;;;;;;;;;;;;;;;;;;1;892
+892;;;;;;;;;;;;;;;;;;;;;;;;;1;893
+893;;;;;;;;;;;;;;;;;;;;;;;;;1;894
+894;;;;;;;;;;;;;;;;;;;;;;;;;1;895
+895;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""e96ccb67a3483b132b4158ce5af7b5a9""}";;;;;;;;;;;;;;;;;;;;;;1;896
+896;;;;;;;;;;;;;;;;;;;;;;;;;1;897
+897;;;;;;;;;;;;;;;;;;;;;;;;;1;898
+898;;;;;;;;;;;;;;;;;;;;;;;;;1;899
+899;;;;;;;;;;;;;;;;;;;;;;;;;1;900
+900;;;;;;;;;;;;;;;;;;;;;;;;;1;901
+901;;;;;;;;;;;;;;;;;;;;;;;;;1;902
+902;;;;;;;;;;;;;;;;;;;;;;;;;1;903
+903;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""cc042bfdf0d2c393bcbfb01592c321c7""}";;;;;;;;;;;;;;;;;;;;;;1;904
+904;;;;;;;;;;;;;;;;;;;;;;;;;1;905
+905;;;;;;;;;;;;;;;;;;;;;;;;;1;906
+906;;;;;;;;;;;;;;;;;;;;;;;;;1;907
+907;;;;;;;;;;;;;;;;;;;;;;;;;1;908
+908;;;;;;;;;;;;;;;;;;;;;;;;;1;909
+909;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""6e3c69c432315c27557067b19acfd725""}";;;;;;;;;;;;;;;;;;;;;;1;910
+910;;;;;;;;;;;;;;;;;;;;;;;;;1;911
+911;;;;;;;;;;;;;;;;;;;;;;;;;1;912
+912;;;;;;;;;;;;;;;;;;;;;;;;;1;913
+913;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""899afa33f82be7d4dca16942e3787143""}";;;;;;;;;;;;;;;;;;;;;;1;914
+914;;;;;;;;;;;;;;;;;;;;;;;;;1;915
+915;;;;;;;;;;;;;;;;;;;;;;;;;1;916
+916;;;;;;;;;;;;;;;;;;;;;;;;;1;917
+917;;Now executing Stand Still;;;Now executing Stand Still;;;Now executing Stand Still;;;Now executing Stand Still;;;Now executing Stand Still;;;Now executing Stand Still;;;Now executing Stand Still;;Now executing Stand Still;;"{""content"": ""Now executing Stand Still"", ""from_id"": ""robot"", ""to_id"": ""ontologygod"", ""message_id"": ""42831e8e6d2a78b2686a345d5c4b1358""}";1;918
+918;;;;;;;;;;;;;;;;;;;;;;;;;1;919
+919;;;;;;;;;;;;;;;;;;;;;;;;;1;920
+920;;;;;;;;;;;;;;;;;;;;;;;;;1;921
+921;;;;;;;;;;;;;;;;;;;;;;;;;1;922
+922;;;;;;;;;;;;;;;;;;;;;;;;;1;923
+923;;;;;;;;;;;;;;;;;;;;;;;;;1;924
+924;;;;;;;;;;;;;;;;;;;;;;;;;1;925
+925;Now executing Pick up;;"{""content"": ""Now executing Pick up"", ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""faf7c9f1521d73ecf781f0f3b22082e8""}";;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;1;926
+926;;;;;;;;;;;;;;;;;;;;;;;;;1;927
+927;;;;;;;;;;;;;;;;;;;;;;;;;1;928
+928;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""baae6485d9278a62f47067f6a9c99509""}";;;;;;;;;;;;;;;;;;;;;;1;929
+929;;;;;;;;;;;;;;;;;;;;;;;;;1;930
+930;;;;;;;;;;;;;;;;;;;;;;;;;1;931
+931;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""6bf4b415dbd4b7a81d0d5fd56c41e0c6""}";;;;;;;;;;;;;;;;;;;;;;1;932
+932;;;;;;;;;;;;;;;;;;;;;;;;;1;933
+933;;;;;;;;;;;;;;;;;;;;;;;;;1;934
+934;;;;;;;;;;;;;;;;;;;;;;;;;1;935
+935;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""98f18a5e4be59126f5635b3c64bde425""}";;;;;;;;;;;;;;;;;;;;;;1;936
+936;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""fbbb9a74e10631ab4dc7e880ac2aafd7""}";;;;;;;;;;;;;;;;;;;;;;1;937
+937;;;;;;;;;;;;;;;;;;;;;;;;;1;938
+938;;;;;;;;;;;;;;;;;;;;;;;;;1;939
+939;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""73beb004ba3d5a4a1bbdcee16467e88e""}";;;;;;;;;;;;;;;;;;;;;;1;940
+940;;;;;;;;;;;;;;;;;;;;;;;;;1;941
+941;;;;;;;;;;;;;;;;;;;;;;;;;1;942
+942;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""ffdc40e0639d52e9d2e0d394e09e5627""}";;;;;;;;;;;;;;;;;;;;;;1;943
+943;;;;;;;;;;;;;;;;;;;;;;;;;1;944
+944;;;;;;;;;;;;;;;;;;;;;;;;;1;945
+945;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""8253b9ba44a3a785f8850c1b2c27bdd4""}";;;;;;;;;;;;;;;;;;;;;;1;946
+946;;;;;;;;;;;;;;;;;;;;;;;;;1;947
+947;;;;;;;;;;;;;;;;;;;;;;;;;1;948
+948;;;;;;;;;;;;;;;;;;;;;;;;;1;949
+949;;;;;;;;;;;;;;;;;;;;;;;;;1;950
+950;;;;;;;;;;;;;;;;;;;;;;;;;1;951
+951;;;;;;;;;;;;;;;;;;;;;;;;;1;952
+952;;;;;;;;;;;;;;;;;;;;;;;;;1;953
+953;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""f3440596de5342edd99a2e3f23525bb0""}";;;;;;;;;;;;;;;;;;;;;;1;954
+954;;;;;;;;;;;;;;;;;;;;;;;;;1;955
+955;;;;;;;;;;;;;;;;;;;;;;;;;1;956
+956;;;;;;;;;;;;;;;;;;;;;;;;;1;957
+957;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""93cd425c9a6f50d23787aeaa0e6dc6e1""}";;;;;;;;;;;;;;;;;;;;;;1;958
+958;;;;;;;;;;;;;;;;;;;;;;;;;1;959
+959;;;;;;;;;;;;;;;;;;;;;;;;;1;960
+960;;;;;;;;;;;;;;;;;;;;;;;;;1;961
+961;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""ad062335d0599720d4cb11954194a94e""}";;;;;;;;;;;;;;;;;;;;;;1;962
+962;;;;;;;;;;;;;;;;;;;;;;;;;1;963
+963;;;;;;;;;;;;;;;;;;;;;;;;;1;964
+964;;;;;;;;;;;;;;;;;;;;;;;;;1;965
+965;;;;;;;;;;;;;;;;;;;;;;;;;1;966
+966;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""9bd22ad19f76987f569269b6173cc35d""}";;;;;;;;;;;;;;;;;;;;;;1;967
+967;;;;;;;;;;;;;;;;;;;;;;;;;1;968
+968;;;;;;;;;;;;;;;;;;;;;;;;;1;969
+969;;;;;;;;;;;;;;;;;;;;;;;;;1;970
+970;;;;;;;;;;;;;;;;;;;;;;;;;1;971
+971;;;;;;;;;;;;;;;;;;;;;;;;;1;972
+972;Now executing Drop;;"{""content"": ""Now executing Drop"", ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""9a9e1e6237883d29c4c0a613374e39f7""}";;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;;Now executing Drop;;1;973
+973;;;;;;;;;;;;;;;;;;;;;;;;;1;974
+974;;;;;;;;;;;;;;;;;;;;;;;;;1;975
+975;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""52d2cbaba86f9bf07e1e7ff223b247f""}";;;;;;;;;;;;;;;;;;;;;;1;976
+976;;;;;;;;;;;;;;;;;;;;;;;;;1;977
+977;;;;;;;;;;;;;;;;;;;;;;;;;1;978
+978;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""58ab1c6bd89e726ef67a60977d5c9149""}";;;;;;;;;;;;;;;;;;;;;;1;979
+979;;;;;;;;;;;;;;;;;;;;;;;;;1;980
+980;;;;;;;;;;;;;;;;;;;;;;;;;1;981
+981;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""8468e55ee34ce25351a91cebf7f4a136""}";;;;;;;;;;;;;;;;;;;;;;1;982
+982;;;;;;;;;;;;;;;;;;;;;;;;;1;983
+983;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""9e90e5fa7a3492619b10a29811b8b616""}";;;;;;;;;;;;;;;;;;;;;;1;984
+984;;;;;;;;;;;;;;;;;;;;;;;;;1;985
+985;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""434d007363d5bc0a8c4db9dae081bf4f""}";;;;;;;;;;;;;;;;;;;;;;1;986
+986;;;;;;;;;;;;;;;;;;;;;;;;;1;987
+987;;;;;;;;;;;;;;;;;;;;;;;;;1;988
+988;;;;;;;;;;;;;;;;;;;;;;;;;1;989
+989;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""fcfae5a3cdf2ee3b5fcc5053fe26d1f0""}";;;;;;;;;;;;;;;;;;;;;;1;990
+990;;;;;;;;;;;;;;;;;;;;;;;;;1;991
+991;;;;;;;;;;;;;;;;;;;;;;;;;1;992
+992;;;;;;;;;;;;;;;;;;;;;;;;;1;993
+993;;;;;;;;;;;;;;;;;;;;;;;;;1;994
+994;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""76ad8829d7f9420cc811208bcff30f2c""}";;;;;;;;;;;;;;;;;;;;;;1;995
+995;;;;;;;;;;;;;;;;;;;;;;;;;1;996
+996;;;;;;;;;;;;;;;;;;;;;;;;;1;997
+997;;;;;;;;;;;;;;;;;;;;;;;;;1;998
+998;;;;;;;;;;;;;;;;;;;;;;;;;1;999
+999;;;;;;;;;;;;;;;;;;;;;;;;;1;1000
+1000;;;;;;;;;;;;;;;;;;;;;;;;;1;1001
+1001;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""12feefee9cf2709d6a84df8a79544467""}";;;;;;;;;;;;;;;;;;;;;;1;1002
+1002;;;;;;;;;;;;;;;;;;;;;;;;;1;1003
+1003;;;;;;;;;;;;;;;;;;;;;;;;;1;1004
+1004;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""b50d4ccf3231c29cb6575ccc87eddd59""}";;;;;;;;;;;;;;;;;;;;;;1;1005
+1005;;;;;;;;;;;;;;;;;;;;;;;;;1;1006
+1006;;;;;;;;;;;;;;;;;;;;;;;;;1;1007
+1007;;;;;;;;;;;;;;;;;;;;;;;;;1;1008
+1008;;;;;;;;;;;;;;;;;;;;;;;;;1;1009
+1009;;;;;;;;;;;;;;;;;;;;;;;;;1;1010
+1010;;;"{""content"": null, ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""10c1e99ddc010a5cbacc8c153cc7295c""}";;;;;;;;;;;;;;;;;;;;;;1;1011
+1011;;;;;;;;;;;;;;;;;;;;;;;;;1;1012
+1012;;;;;;;;;;;;;;;;;;;;;;;;;1;1013
+1013;;;;;;;;;;;;;;;;;;;;;;;;;1;1014
+1014;;;;;;;;;;;;;;;;;;;;;;;;;1;1015
+1015;Now executing Pick up;;"{""content"": ""Now executing Pick up"", ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""8f69c28100908066a6cc0769ef2d8aa4""}";;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;;Now executing Pick up;;1;1016
+1016;;;;;;;;;;;;;;;;;;;;;;;;;1;1017
+1017;;;;;;;;;;;;;;;;;;;;;;;;;1;1018
+1018;;;;;;;;;;;;;;;;;;;;;;;;;1;1019
+1019;;;;;;;;;;;;;;;;;;;;;;;;;1;1020
+1020;;;;;;;;;;;;;;;;;;;;;;;;;1;1021
+1021;;;;;;;;;;;;;;;;;;;;;;;;;1;1022
+1022;;;;;;;;;;;;;;;;;;;;;;;;;1;1023
+1023;;;;;;;;;;;;;;;;;;;;;;;;;1;1024
+1024;;;;;;;;;;;;;;;;;;;;;;;;;1;1025
+1025;;;;;;;;;;;;;;;;;;;;;;;;;1;1026
+1026;;;;;;;;;;;;;;;;;;;;;;;;;1;1027
+1027;;;;;;;;;;;;;;;;;;;;;;;;;1;1028
+1028;;;;;;;;;;;;;;;;;;;;;;;;;1;1029
+1029;;;;;;;;;;;;;;;;;;;;;;;;;1;1030
+1030;;;;;;;;;;;;;;;;;;;;;;;;;1;1031
+1031;;;;;;;;;;;;;;;;;;;;;;;;;1;1032
+1032;;;;;;;;;;;;;;;;;;;;;;;;;1;1033
+1033;;;;;;;;;;;;;;;;;;;;;;;;;1;1034
+1034;;;;;;;;;;;;;;;;;;;;;;;;;1;1035
+1035;['Stand still', ['Right side of rock pile', 'Above rock pile']];;"{""content"": [""Stand still"", [""Right side of rock pile"", ""Above rock pile""]], ""from_id"": ""human_selector"", ""to_id"": ""robot"", ""message_id"": ""f63a7e575abc18988fc1d04847c1c215""}";;['Stand still', ['Right side of rock pile', 'Above rock pile']];;;['Stand still', ['Right side of rock pile', 'Above rock pile']];;;['Stand still', ['Right side of rock pile', 'Above rock pile']];;;['Stand still', ['Right side of rock pile', 'Above rock pile']];;;['Stand still', ['Right side of rock pile', 'Above rock pile']];;;['Stand still', ['Right side of rock pile', 'Above rock pile']];;;['Stand still', ['Right side of rock pile', 'Above rock pile']];;1;1036
