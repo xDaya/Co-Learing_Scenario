@@ -59,6 +59,7 @@ class RobotPartner(AgentBrain):
         self.starting_state = []
         self.starting_state_distance = 0
         self.first_tick_distance = 0
+        self.delay_cp_reset = False
 
         # Global progress variables
         self.nr_ticks = 0
@@ -842,7 +843,9 @@ class RobotPartner(AgentBrain):
                     # If the actionlist ends up empty here, that means we're done executing an action.
                     # The consequence should be that the self.current_robot_action is reset, and removed from the list
                     if len(self.actionlist[0]) == 0:
-                        self.cp_actions.remove(self.current_robot_action)
+                        if not self.delay_cp_reset:
+                            self.cp_actions.remove(self.current_robot_action)
+                            self.delay_cp_reset = False
                         self.current_robot_action = None
 
                         # If the CP actions list ends up empty here, we should do a reward update
@@ -1380,13 +1383,13 @@ class RobotPartner(AgentBrain):
             task_location = action['location']['range']
 
         carried_objects = self.state[{'carried_by': self.agent_id}]
-        print(carried_objects)
 
         if 'Pick up' in task_name:
             # This is a pick up action!
             # If hands are full, drop first to make space
             if len(state[self.agent_id]['is_carrying']) > 4:
                 self.drop_action(state, None)
+                self.delay_cp_reset = True
                 return
             # Check if we're dealing with a large or a small rock
             object_size = action['resource']['size']
