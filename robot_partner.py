@@ -1045,7 +1045,7 @@ class RobotPartner(AgentBrain):
                     relevant_objects = self.state[{"obstruction": True}]
                 elif 'large' in object['size']:
                     object_type = 'large'
-                    relevant_objects = self.state[{'large': True, 'is_movable': True}]
+                    relevant_objects = self.state[{'large': True, 'is_movable': True, 'class_inheritance': 'LargeObject'}]
                 elif 'small' in object['size']:
                     object_type = 'small'
                     relevant_objects = self.state[{'name': 'rock1'}]
@@ -1460,11 +1460,17 @@ class RobotPartner(AgentBrain):
                 return
         elif 'Stand still' in task_name:
             # We should move to the location specified and stand still there
-            self.wait_action(self.translate_loc_backwards(task_location))
+            if task_location is not None:
+                self.wait_action(self.translate_loc_backwards(task_location))
+            else:
+                self.wait_action(None)
             return
         elif 'Drop' in task_name:
             # We have to drop a rock
-            self.drop_action(state, self.translate_loc_backwards(task_location))
+            if task_location is not None:
+                self.drop_action(state, self.translate_loc_backwards(task_location))
+            else:
+                self.drop_action(state, None)
             return
         elif 'Break' in task_name:
             # We have to break a rock
