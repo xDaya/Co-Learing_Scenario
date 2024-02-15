@@ -140,7 +140,8 @@ class CustomHumanAgentBrain(HumanAgentBrain):
 
         self.translate_action(action, state[self.agent_id]['location'])
 
-        self.send_message(Message(content=msg, from_id=self.agent_id, to_id=None))
+        if msg is not None:
+            self.send_message(Message(content=msg, from_id=self.agent_id, to_id=None))
 
         return action, action_kwargs
 
@@ -343,7 +344,7 @@ class CustomHumanAgentBrain(HumanAgentBrain):
                         self.movement_tracker = []
 
         if translated_action:
-            self.send_message(Message(content=[translated_action, translated_location], from_id=self.agent_id, to_id=None))
+            self.send_message(Message(content={'past_action': [translated_action, translated_location]}, from_id=self.agent_id, to_id=None))
         # Translate the location as well
         return
 

@@ -2020,6 +2020,7 @@ class RobotPartner(AgentBrain):
     def message_handling(self):
 
         for message in self.received_messages:
+            print(message)
 
             # Old message handling code, TODO will need to be adapted
             if isinstance(message, dict) and 'cp_new' in message:
@@ -2064,6 +2065,11 @@ class RobotPartner(AgentBrain):
                 self.update_q_table(done_state, done_action, done_action, done_state, last_message)
                 print(self.q_table)
                 self.final_update = True
+            elif isinstance(message, dict) and 'past_action' in message:
+                # Make sure we store only 5 past human actions max
+                if len(self.past_human_actions) > 4:
+                    self.past_human_actions.pop(0)
+                self.past_human_actions.append(message['past_action'])
             elif not self.final_update:
                 try:
                     last_message = float(message)
