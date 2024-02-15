@@ -1166,8 +1166,23 @@ class RobotPartner(AgentBrain):
                         # This is an action done by the robot. Store and execute
                         self.current_robot_action = action
                     elif action['actor']['actor_type'] == 'human':
+                        if action['task']['task_name'] == 'Move to':
+                            action['task']['task_name'] = 'Stand still'
+                            if 'resource' in action.keys():
+                                action_object = None
+                                if action['resource']['color'] == 'brown':
+                                    action_object = 'Brown rock'
+                                elif action['resource']['size'] == 'large':
+                                    action_object = 'Large rock'
+                                else:
+                                    action_object = 'Small rock'
+                                action['location'] = {'range': None}
+                                action['location']['range'] = 'On top of ' + action_object
                         # This is an action done by the human. Store such that it can be checked
+                        print('HUMAN ACTION')
+                        print(action)
                         self.current_human_action = action
+                        print(self.current_human_action)
 
         else:
             # This means there are no actions, so we need to retrieve them
@@ -2020,7 +2035,6 @@ class RobotPartner(AgentBrain):
     def message_handling(self):
 
         for message in self.received_messages:
-            print(message)
 
             # Old message handling code, TODO will need to be adapted
             if isinstance(message, dict) and 'cp_new' in message:

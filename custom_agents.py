@@ -374,10 +374,29 @@ class CustomHumanAgentBrain(HumanAgentBrain):
         if object_found or agents_found:
             # The human is on top of another object, check if agent or rock
             if object_found:
-                locations.append('On top of object')
+                if isinstance(object_found, dict):
+                    object_found = [object_found]
+                for obj in object_found:
+                    if 'obstruction' in obj.keys():
+                        locations.append('On top of Brown rock')
+                    elif 'large' in obj.keys():
+                        locations.append('On top of Large rock')
+                    elif 'bound_to' in obj.keys():
+                        if obj['bound_to'] is None:
+                            locations.append('On top of Small rock')
+                        elif 'brown' in obj['bound_to']:
+                            locations.append('On top of Brown rock')
+                        else:
+                            locations.append('On top of Large rock')
+                    else:
+                        locations.append('On top of Small rock')
 
             if isinstance(agents_found, list):
-                locations.append('On top of agent')
+                locations.append('On top of Robot')
+
+        victim_locs = [(8, 9), (8, 10), (9, 9), (9, 10), (10, 9), (10, 10), (11, 9), (11, 10)]
+        if location in victim_locs:
+            locations.append('On top of Victim')
 
         # Above, top and bottom of rock pile
         if loc_x >= 5 and loc_x <= 15 and loc_y <= 10:
@@ -427,8 +446,15 @@ class CustomHumanAgentBrain(HumanAgentBrain):
                 if bottom_check == True:
                     locations.append('Bottom of rock pile')
             else:
-                # If not on top of a rock they must be above the pile
-                locations.append('Above rock pile')
+                # If not on top of a rock check if they are above the pile
+                # First, collect all locations above agent
+                y_above = range(0, loc_y)
+                objects_above = []
+                for y in y_above:
+                    if self.state[{'location': (loc_x, y), 'is_movable': True}] is not None:
+                        objects_above.append(self.state[{'location': (loc_x, y), 'is_movable': True}])
+                if len(objects_above) < 1:
+                    locations.append('Above rock pile')
 
         return locations
 
