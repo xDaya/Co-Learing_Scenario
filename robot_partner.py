@@ -1955,7 +1955,11 @@ class RobotPartner(AgentBrain):
         else:
             basic_reward = -1
 
-        victim_harm = self.victim_harm * 5
+        victim_harm = self.victim_harm * 15
+        print("REWARDS")
+        print(basic_reward)
+        print(victim_harm)
+        print(self.nr_ticks)
         total_reward = basic_reward - victim_harm - self.nr_ticks
 
         # Determine Max Q (expected utility of next state-action pair). If value doesn't exist, default to 0
