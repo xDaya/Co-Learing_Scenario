@@ -856,7 +856,7 @@ class RobotPartner(AgentBrain):
                         if not self.delay_cp_reset:
                             if self.current_robot_action in self.cp_actions:
                                 self.cp_actions.remove(self.current_robot_action)
-                            self.delay_cp_reset = False
+                        self.delay_cp_reset = False
                         self.current_robot_action = None
 
                         # If the CP actions list ends up empty here, we should do a reward update
@@ -1171,6 +1171,7 @@ class RobotPartner(AgentBrain):
 
                 current_action_indices = list(filter(lambda x: order_values[x] == min(order_values), range(len(order_values))))
                 current_actions = list(map(self.cp_actions.__getitem__, current_action_indices))
+                print(current_actions)
 
                 for action in current_actions:
                     if action['actor']['actor_type'] == 'robot':
@@ -1190,10 +1191,7 @@ class RobotPartner(AgentBrain):
                                 action['location'] = {'range': None}
                                 action['location']['range'] = 'On top of ' + action_object
                         # This is an action done by the human. Store such that it can be checked
-                        print('HUMAN ACTION')
-                        print(action)
                         self.current_human_action = action
-                        print(self.current_human_action)
 
         else:
             # This means there are no actions, so we need to retrieve them
@@ -2125,9 +2123,7 @@ class RobotPartner(AgentBrain):
                     last_message = float(message)
                 except:
                     # Make sure we store only 5 past human actions max
-                    if len(self.past_human_actions) > 4:
-                        self.past_human_actions.pop(0)
-                    self.past_human_actions.append(message)
+                    print('random other message')
 
             # After dealing with each message, remove it
             self.received_messages.remove(message)
