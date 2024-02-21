@@ -854,7 +854,8 @@ class RobotPartner(AgentBrain):
                     # The consequence should be that the self.current_robot_action is reset, and removed from the list
                     if len(self.actionlist[0]) == 0:
                         if not self.delay_cp_reset:
-                            self.cp_actions.remove(self.current_robot_action)
+                            if self.current_robot_action in self.cp_actions:
+                                self.cp_actions.remove(self.current_robot_action)
                             self.delay_cp_reset = False
                         self.current_robot_action = None
 
