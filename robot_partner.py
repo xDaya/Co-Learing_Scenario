@@ -60,6 +60,7 @@ class RobotPartner(AgentBrain):
         self.starting_state_distance = 0
         self.first_tick_distance = 0
         self.delay_cp_reset = False
+        self.final_reward_update = False
 
         # Global progress variables
         self.nr_ticks = 0
@@ -744,6 +745,15 @@ class RobotPartner(AgentBrain):
         # ----------------------------Goal reached check-----------------------------------------------------------
         reward_agent = self.state[{'class_inheritance': "RewardGod"}]
         if reward_agent['goal_reached']:
+            # Do a final reward update if not already done
+            if not self.final_reward_update:
+                print('FINAL REWARD UPDATE')
+                self.final_reward_update = True
+                # Check if we were doing a CP or a basic behavior action
+                if self.executing_cp:
+                    self.reward_update_cps()
+                else:
+                    self.reward_update_basic()
             return None, None
 
         # -----------------------------Image management for carrying----------------------------------------
@@ -1897,6 +1907,19 @@ class RobotPartner(AgentBrain):
         # 1. Decrease in distance to goal state (compute when starting, compute when finishing)
         # 2. Discounted by (combined) idle time
         # 3. Discounted by victim harm
+        # 4. Extra positive or negative score based on end of level
+
+        level_end = 0
+
+        if self.final_reward_update:
+            # This means this is the final update
+            # Determine whether we were successful or not
+            reward_agent = self.state[{'class_inheritance': "RewardGod"}]
+            if reward_agent['distance'] is not None:
+                # This means the task failed due to timeout or becoming unsolvable
+                level_end = -50
+            else:
+                level_end = 10
 
         # Decrease in distance to goal state
         distance_decrease = self.starting_state_distance - self.distance_goal_state()
@@ -1905,9 +1928,9 @@ class RobotPartner(AgentBrain):
         idle_time = self.idle_ticks - self.nr_move_actions - self.nr_productive_actions
 
         # Number of times victim was harmed multiplied by a severance factor
-        victim_harm = self.victim_harm * 5
+        victim_harm = self.victim_harm * 15
 
-        total_reward = distance_decrease - victim_harm - idle_time
+        total_reward = distance_decrease - victim_harm - idle_time + level_end
         print("Starting state")
         print(self.starting_state)
         # If the state is already stored in the q-table, the reward is added
@@ -1947,6 +1970,18 @@ class RobotPartner(AgentBrain):
         # 2. Discounted by victim
         # 3. Discounted by the time it took to execute the action
 
+        level_end = 0
+
+        if self.final_reward_update:
+            # This means this is the final update
+            # Determine whether we were successful or not
+            reward_agent = self.state[{'class_inheritance': "RewardGod"}]
+            if reward_agent['distance'] is not None:
+                # This means the task failed due to timeout or becoming unsolvable
+                level_end = -50
+            else:
+                level_end = 10
+
         basic_reward = 0
         current_state = self.translate_state()
         if self.starting_state_distance > self.distance_goal_state():
@@ -1956,11 +1991,7 @@ class RobotPartner(AgentBrain):
             basic_reward = -1
 
         victim_harm = self.victim_harm * 15
-        print("REWARDS")
-        print(basic_reward)
-        print(victim_harm)
-        print(self.nr_ticks)
-        total_reward = basic_reward - victim_harm - self.nr_ticks
+        total_reward = basic_reward - victim_harm - self.nr_ticks + level_end
 
         # Determine Max Q (expected utility of next state-action pair). If value doesn't exist, default to 0
         try:

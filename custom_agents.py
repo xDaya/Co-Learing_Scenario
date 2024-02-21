@@ -837,6 +837,7 @@ class RewardGod(AgentBrain):
                 # Brown object found, task is unsolvable
                 self.goal_reached = True
                 self.agent_properties["goal_reached"] = self.goal_reached
+                self.agent_properties["distance"] = self.distance_goal_state()
                 self.unsolvable = True
                 return
             elif parts is not None and isinstance(parts, dict):
@@ -847,6 +848,7 @@ class RewardGod(AgentBrain):
                         # Brown object found, task is unsolvable
                         self.goal_reached = True
                         self.agent_properties["goal_reached"] = self.goal_reached
+                        self.agent_properties["distance"] = self.distance_goal_state()
                         self.unsolvable = True
                         return
         return

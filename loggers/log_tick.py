@@ -28,7 +28,7 @@ class LogDuration(GridWorldLogger):
                 q_table_basic = agent_body.properties['q_table_basic']
         log_statement = {
             "tick": grid_world.current_nr_ticks,
-            "corrected_tick": grid_world.current_nr_ticks - 399,
+            "corrected_tick": grid_world.current_nr_ticks - 19,
             "remaining_distance": distance,
             "victim_harm": victim_harm,
             "idle_time_robot": idle_time_robot,
