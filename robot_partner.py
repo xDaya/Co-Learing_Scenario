@@ -1890,7 +1890,9 @@ class RobotPartner(AgentBrain):
                 if self.human_standstill():
                     self.break_action(break_objects, self.state, self.human_location[0])
                 else:
-                    self.break_action(break_objects, self.state, None)
+                    # If the human isn't standing still, move to the location of the human instead of breaking
+                    #self.break_action(break_objects, self.state, None)
+                    self.wait_action(self.human_location[0])
             except:
                 print("No objects left to break")
         elif chosen_action == "Move back and forth":
@@ -2204,8 +2206,12 @@ class RobotPartner(AgentBrain):
         # First, figure out what the actual action is
         if self.executing_action:
             # We are executing a basic behavior action
-            current_action = self.executing_action
-            msg = f"Now executing {current_action}"
+            actual_action = self.actionlist[0][0]
+            if self.executing_action == 'Break' and 'Idle' in actual_action:
+                print("Don't communicate")
+            else:
+                current_action = self.executing_action
+                msg = f"Now executing {current_action}"
         elif self.current_robot_action:
             current_action = self.current_robot_action
             # Check what the actual MATRX action is
