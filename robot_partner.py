@@ -81,7 +81,7 @@ class RobotPartner(AgentBrain):
 
         self.condition = 2
 
-        self.exp_condition = 'ontology'
+        self.exp_condition = 'communication'
 
         self.database_name = None
 
