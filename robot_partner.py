@@ -59,6 +59,8 @@ class RobotPartner(AgentBrain):
         self.starting_state = []
         self.starting_state_distance = 0
         self.first_tick_distance = 0
+        self.delay_cp_reset = False
+        self.final_reward_update = False
 
         # Global progress variables
         self.nr_ticks = 0
@@ -743,6 +745,15 @@ class RobotPartner(AgentBrain):
         # ----------------------------Goal reached check-----------------------------------------------------------
         reward_agent = self.state[{'class_inheritance': "RewardGod"}]
         if reward_agent['goal_reached']:
+            # Do a final reward update if not already done
+            if not self.final_reward_update:
+                print('FINAL REWARD UPDATE')
+                self.final_reward_update = True
+                # Check if we were doing a CP or a basic behavior action
+                if self.executing_cp:
+                    self.reward_update_cps()
+                else:
+                    self.reward_update_basic()
             return None, None
 
         # -----------------------------Image management for carrying----------------------------------------
@@ -842,7 +853,10 @@ class RobotPartner(AgentBrain):
                     # If the actionlist ends up empty here, that means we're done executing an action.
                     # The consequence should be that the self.current_robot_action is reset, and removed from the list
                     if len(self.actionlist[0]) == 0:
-                        self.cp_actions.remove(self.current_robot_action)
+                        if not self.delay_cp_reset:
+                            if self.current_robot_action in self.cp_actions:
+                                self.cp_actions.remove(self.current_robot_action)
+                        self.delay_cp_reset = False
                         self.current_robot_action = None
 
                         # If the CP actions list ends up empty here, we should do a reward update
@@ -1045,7 +1059,7 @@ class RobotPartner(AgentBrain):
                     relevant_objects = self.state[{"obstruction": True}]
                 elif 'large' in object['size']:
                     object_type = 'large'
-                    relevant_objects = self.state[{'large': True, 'is_movable': True}]
+                    relevant_objects = self.state[{'large': True, 'is_movable': True, 'class_inheritance': 'LargeObject'}]
                 elif 'small' in object['size']:
                     object_type = 'small'
                     relevant_objects = self.state[{'name': 'rock1'}]
@@ -1157,12 +1171,25 @@ class RobotPartner(AgentBrain):
 
                 current_action_indices = list(filter(lambda x: order_values[x] == min(order_values), range(len(order_values))))
                 current_actions = list(map(self.cp_actions.__getitem__, current_action_indices))
+                print(current_actions)
 
                 for action in current_actions:
                     if action['actor']['actor_type'] == 'robot':
                         # This is an action done by the robot. Store and execute
                         self.current_robot_action = action
                     elif action['actor']['actor_type'] == 'human':
+                        if action['task']['task_name'] == 'Move to':
+                            action['task']['task_name'] = 'Stand still'
+                            if 'resource' in action.keys():
+                                action_object = None
+                                if action['resource']['color'] == 'brown':
+                                    action_object = 'Brown rock'
+                                elif action['resource']['size'] == 'large':
+                                    action_object = 'Large rock'
+                                else:
+                                    action_object = 'Small rock'
+                                action['location'] = {'range': None}
+                                action['location']['range'] = 'On top of ' + action_object
                         # This is an action done by the human. Store such that it can be checked
                         self.current_human_action = action
 
@@ -1380,13 +1407,13 @@ class RobotPartner(AgentBrain):
             task_location = action['location']['range']
 
         carried_objects = self.state[{'carried_by': self.agent_id}]
-        print(carried_objects)
 
         if 'Pick up' in task_name:
             # This is a pick up action!
             # If hands are full, drop first to make space
             if len(state[self.agent_id]['is_carrying']) > 4:
                 self.drop_action(state, None)
+                self.delay_cp_reset = True
                 return
             # Check if we're dealing with a large or a small rock
             object_size = action['resource']['size']
@@ -1460,11 +1487,17 @@ class RobotPartner(AgentBrain):
                 return
         elif 'Stand still' in task_name:
             # We should move to the location specified and stand still there
-            self.wait_action(self.translate_loc_backwards(task_location))
+            if task_location is not None:
+                self.wait_action(self.translate_loc_backwards(task_location))
+            else:
+                self.wait_action(None)
             return
         elif 'Drop' in task_name:
             # We have to drop a rock
-            self.drop_action(state, self.translate_loc_backwards(task_location))
+            if task_location is not None:
+                self.drop_action(state, self.translate_loc_backwards(task_location))
+            else:
+                self.drop_action(state, None)
             return
         elif 'Break' in task_name:
             # We have to break a rock
@@ -1857,7 +1890,9 @@ class RobotPartner(AgentBrain):
                 if self.human_standstill():
                     self.break_action(break_objects, self.state, self.human_location[0])
                 else:
-                    self.break_action(break_objects, self.state, None)
+                    # If the human isn't standing still, move to the location of the human instead of breaking
+                    #self.break_action(break_objects, self.state, None)
+                    self.wait_action(self.human_location[0])
             except:
                 print("No objects left to break")
         elif chosen_action == "Move back and forth":
@@ -1873,6 +1908,19 @@ class RobotPartner(AgentBrain):
         # 1. Decrease in distance to goal state (compute when starting, compute when finishing)
         # 2. Discounted by (combined) idle time
         # 3. Discounted by victim harm
+        # 4. Extra positive or negative score based on end of level
+
+        level_end = 0
+
+        if self.final_reward_update:
+            # This means this is the final update
+            # Determine whether we were successful or not
+            reward_agent = self.state[{'class_inheritance': "RewardGod"}]
+            if reward_agent['distance'] is not None:
+                # This means the task failed due to timeout or becoming unsolvable
+                level_end = -50
+            else:
+                level_end = 10
 
         # Decrease in distance to goal state
         distance_decrease = self.starting_state_distance - self.distance_goal_state()
@@ -1881,9 +1929,9 @@ class RobotPartner(AgentBrain):
         idle_time = self.idle_ticks - self.nr_move_actions - self.nr_productive_actions
 
         # Number of times victim was harmed multiplied by a severance factor
-        victim_harm = self.victim_harm * 5
+        victim_harm = self.victim_harm * 15
 
-        total_reward = distance_decrease - victim_harm - idle_time
+        total_reward = distance_decrease - victim_harm - idle_time + level_end
         print("Starting state")
         print(self.starting_state)
         # If the state is already stored in the q-table, the reward is added
@@ -1923,6 +1971,18 @@ class RobotPartner(AgentBrain):
         # 2. Discounted by victim
         # 3. Discounted by the time it took to execute the action
 
+        level_end = 0
+
+        if self.final_reward_update:
+            # This means this is the final update
+            # Determine whether we were successful or not
+            reward_agent = self.state[{'class_inheritance': "RewardGod"}]
+            if reward_agent['distance'] is not None:
+                # This means the task failed due to timeout or becoming unsolvable
+                level_end = -50
+            else:
+                level_end = 10
+
         basic_reward = 0
         current_state = self.translate_state()
         if self.starting_state_distance > self.distance_goal_state():
@@ -1931,14 +1991,14 @@ class RobotPartner(AgentBrain):
         else:
             basic_reward = -1
 
-        victim_harm = self.victim_harm * 5
-        total_reward = basic_reward - victim_harm - self.nr_ticks
+        victim_harm = self.victim_harm * 15
+        total_reward = basic_reward - victim_harm - self.nr_ticks + level_end
 
         # Determine Max Q (expected utility of next state-action pair). If value doesn't exist, default to 0
         try:
             q_values = self.q_table_basic.loc[str(current_state)].astype('int')
             expected_action = q_values.idxmax()
-            max_q = self.q_table_basic.at[current_state, expected_action]
+            max_q = self.q_table_basic.at[str(current_state), expected_action]
         except:
             max_q = 0
 
@@ -1957,7 +2017,6 @@ class RobotPartner(AgentBrain):
                  self.q_table_basic.at[str(self.starting_state), self.executing_action])
 
         #print(self.q_table_basic)
-        print(total_reward)
         with open('qtable_basic_backup.pkl', 'wb') as f:
             pickle.dump(self.q_table_basic, f, pickle.HIGHEST_PROTOCOL)
 
@@ -2056,14 +2115,17 @@ class RobotPartner(AgentBrain):
                 self.update_q_table(done_state, done_action, done_action, done_state, last_message)
                 print(self.q_table)
                 self.final_update = True
+            elif isinstance(message, dict) and 'past_action' in message:
+                # Make sure we store only 5 past human actions max
+                if len(self.past_human_actions) > 4:
+                    self.past_human_actions.pop(0)
+                self.past_human_actions.append(message['past_action'])
             elif not self.final_update:
                 try:
                     last_message = float(message)
                 except:
                     # Make sure we store only 5 past human actions max
-                    if len(self.past_human_actions) > 4:
-                        self.past_human_actions.pop(0)
-                    self.past_human_actions.append(message)
+                    print('random other message')
 
             # After dealing with each message, remove it
             self.received_messages.remove(message)
@@ -2144,8 +2206,12 @@ class RobotPartner(AgentBrain):
         # First, figure out what the actual action is
         if self.executing_action:
             # We are executing a basic behavior action
-            current_action = self.executing_action
-            msg = f"Now executing {current_action}"
+            actual_action = self.actionlist[0][0]
+            if self.executing_action == 'Break' and 'Idle' in actual_action:
+                print("Don't communicate")
+            else:
+                current_action = self.executing_action
+                msg = f"Now executing {current_action}"
         elif self.current_robot_action:
             current_action = self.current_robot_action
             # Check what the actual MATRX action is

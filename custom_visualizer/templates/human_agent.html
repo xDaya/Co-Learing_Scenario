@@ -409,7 +409,7 @@
           delete storedPatterns[label];
 
           // Send message to MATRX that triggers the deletion in TypeDB
-          data = {"content": {"name": label, "delete": "True"}, "sender": "human_selector", "receiver": "ontologygod"}
+          data = {"content": {"name": label, "delete": "True"}, "sender": "human_selector", "receiver": "None"}
           console.log("Sending message to matrx:", data);
           send_matrx_api_post_message(matrx_send_message_url, data);
 
@@ -524,7 +524,7 @@
         //    })
 
         // send message to MATRX
-        data = {"content": {"name": label, "situation": situationOutput, "actionA": actionAgent1Output, "actionB":actionAgent2Output, "postsitu":postsituOutput, "html_content":JSON.stringify(storedPatterns[label])}, "sender": "human_selector", "receiver": "ontologygod"}
+        data = {"content": {"name": label, "situation": situationOutput, "actionA": actionAgent1Output, "actionB":actionAgent2Output, "postsitu":postsituOutput, "html_content":JSON.stringify(storedPatterns[label])}, "sender": "human_selector", "receiver": "None"}
         console.log("Sending message to matrx:", data);
         send_matrx_api_post_message(matrx_send_message_url, data);
 
@@ -657,7 +657,7 @@
 
     <div id="endscreen">
         <h1>You finished this level.</h1>
-        <h3>Please answer the questions for this round in the questionnaire, then click the button below to move to the next level.</h3>
+        <h3>Please answer the questions for this round in the questionnaire, then click the button below to move to the next level. Find the link to the questionnaire in the email with instructions.</h3>
         <button type="button" class="action-button" onclick="location.reload()">Next level</button>
     </div>
 
