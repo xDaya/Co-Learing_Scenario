@@ -1039,6 +1039,7 @@ class RobotPartner(AgentBrain):
         for condition in start_end:
             object = None
             location = None
+            actor = None
             object_type = None
 
             relevant_objects = None
@@ -1051,6 +1052,30 @@ class RobotPartner(AgentBrain):
 
             if 'location' in condition[0]:
                 location = condition[0]['location']
+
+            if 'actor' in condition[0]:
+                actor = condition[0]['actor']
+
+            if actor is not None:
+                # First check if a location is specified
+                if location is None:
+                    # No location, so this basically always holds as all agents are always present
+                    conditions_hold.append(condition)
+                else:
+                    # Check which actor we're dealing with
+                    if 'human' in actor['actor_type']:
+                        # Find the location of the human and check if it is the same as the specified location
+                        if location['range'] in self.translate_location(self.state[{'class_inheritance': "CustomHumanAgentBrain"}]['obj_id'], 'agent'):
+                            conditions_hold.append(condition)
+                    elif 'robot' in actor['actor_type']:
+                        # Find the location of the robot and check if it is the same as the specified location
+                        if location['range'] in self.translate_location(self.agent_id, 'agent'):
+                            conditions_hold.append(condition)
+                    elif 'victim' in actor['actor_type']:
+                        # The robot is basically always at the bottom of the pile so only if that is the location,
+                        # it holds
+                        if 'Bottom' in location['range']:
+                            conditions_hold.append(condition)
 
             if object is not None:
                 # Check what type of object we're dealing with, small, large or brown

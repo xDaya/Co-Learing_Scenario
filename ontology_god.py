@@ -429,9 +429,9 @@ class OntologyGod(AgentBrain):
             # Find instance of the actor at hand
             actor_type = None
 
-            if 'human' in condition['actor']:
+            if 'Human' in condition['actor']:
                 actor_type = 'human'
-            elif 'robot' in condition['actor']:
+            elif 'Robot' in condition['actor']:
                 actor_type = 'robot'
             elif 'Victim' in condition['actor']:
                 actor_type = 'victim'
@@ -482,9 +482,9 @@ class OntologyGod(AgentBrain):
                 # Find instance of the actor at hand
                 actor_type = None
 
-                if 'human' in condition['actor']:
+                if 'Human' in condition['actor']:
                     actor_type = 'human'
-                elif 'robot' in condition['actor']:
+                elif 'Robot' in condition['actor']:
                     actor_type = 'robot'
                 elif 'victim' in condition['actor']:
                     actor_type = 'victim'
@@ -492,7 +492,7 @@ class OntologyGod(AgentBrain):
                 condition_instantiation = f'''match $actor isa actor, has actor_type '{actor_type}';
                                                                     $location isa location, has range '{condition['location']}'; '''
 
-                condition_instantiation = condition_instantiation + f'''insert $position (item: $object, location: $location) isa positioned_at; '''
+                condition_instantiation = condition_instantiation + f'''insert $position (item: $actor, location: $location) isa positioned_at; '''
 
                 # Append to query batch and empty
                 self.query_batch.append(condition_instantiation)
