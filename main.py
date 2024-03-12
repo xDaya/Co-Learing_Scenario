@@ -45,4 +45,5 @@ if __name__ == "__main__":
     # stop the custom visualizer
     print("Shutting down custom visualizer")
     r = requests.get("http://localhost:" + str(visualization_server.port) + "/shutdown_visualizer")
+    import pdb; pdb.set_trace()
     vis_thread.join()

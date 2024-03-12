@@ -81,9 +81,11 @@ Co-Learning): ![Alt text](tae-images/image-1.png) ![Alt text](tae-images/image-2
 ## My job
 
 In the phase 2, the agent can take advantage of the CPs that were collected in the phase
+
 1. What CP should the agent take given a state?
 
 ### Entities and relations
+
 ![alt text](image.png)
 
 This is the only vocabulary used. "Robot", "Human", and "Victim" can only be used to
@@ -110,3 +112,101 @@ since the users can give ambiguious actions.
   - Prompts will be sent out by the end of a scenario.
 - In Phase 2, what should be the strategy of choosing one out of multiple applicable
   CPs? UCB? memory?
+
+## Ontology
+
+I'm gonna make some adjustments to the existing typedb ontology.
+
+### original
+
+- location
+
+  - top of rock pile
+  - above rock pile
+  - bottom of rock pile
+  - right / left side of rock pile
+  - right / left side of field
+  - on top of (object)
+
+- object
+
+  - large rock
+  - small rock
+  - brown rock
+
+- actor
+
+  - robot
+  - human
+  - victim
+
+- action
+  - move to (object)
+  - move back and forth in (location)
+  - stand still in (location)
+  - pick up (object) in (location)
+  - drop (object) in (location)
+  - break (object) in (location)
+
+### modified
+
+- entities
+
+  - actor
+    - robot
+    - human
+    - victim
+  - object
+    - large rock
+    - small rock
+    - brown rock
+    - rock pile
+    - field
+  - actor action
+    - move back and forth
+    - stand still
+
+- relations
+  - subclass of
+  - superclass of
+  - top of
+  - above
+  - bottom of
+  - right side of
+  - left side of
+  - on top of
+  - move to
+  - has state
+  - pick up
+  - drop
+  - break
+
+This modified verion kinda simplifies things a bit, but then some restrictions follow. Let's go through them one by one. Btw, "in" is not used anymore, since it's no longer necessary.
+
+- entities
+  - actor: superclass of "robot", "human", and "victim"
+  - robot: subclass of "actor".
+  - human: subclass of "actor".
+  - victim: subclass of "actor".
+  - object: superclass of "large rock", "small rock", "brown rock", "rock pile", and "field"
+  - large rock: subclass of "object".
+  - small rock: subclass of "object".
+  - brown rock: subclass of "object".
+  - rock pile: subclass of "object". This entity can only be a tail, and the relation that follows this has to be "top of", "above", "bottom of", "left side of", or "right side of".
+  - field: subclass of object. This entity can only be a tail, and the relation that follows this has to be "left side of" or "right side of".
+  - move back and forth: subclass of "actor action". This entity can only be a tail, and the relation that follows has to be "has state"
+  - stand still: subclass of "actor action". Thsi entity can only be a tail, and the relation that follows has to be "has state"
+- relations
+  - subclass of: This relation describes the relationships between the above mentioned entities
+  - superclass of: This relation describes the relationships between the above mentioned entities
+  - top of: The tail of this relation has to be "rock pile".
+  - above: The tail of this relation has to be "rock pile".
+  - bottom of: The tail of this relation has to be "rock pile".
+  - right side of: The tail of this relation has to be "rock pile" or "field"
+  - left side of: The tail of this relation has to be "rock pile" or "field".
+  - on top of: The tail of this relation has to be "large rock", "small rock", or "brown rock".
+  - move to: The head of this relation has to be "robot" or "human". The tail of this relation has to be "large rock", "small rock", or "brown rock".
+  - has state: The head of this relation has to be "robot" or "human". The tail of has to be "move back and forth" or "stand still".
+  - pick up: The head of this relation has to be "robot" or "human". The tail of this relation has to be "large rock", "small rock", or "brown rock".
+  - drop: The head of this relation has to be "robot" or "human". The tail of this relation has to be "large rock", "small rock", or "brown rock".
+  - break: The head of this relation has to be "robot" or "human". The tail of this relation has to be "large rock", "small rock", or "brown rock".
