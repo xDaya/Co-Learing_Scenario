@@ -1554,6 +1554,22 @@ class RobotPartner(AgentBrain):
             # Add the move back and forth action to the actionlist
             self.move_back_forth_action(self.translate_loc_backwards(task_location))
             return
+        elif 'Move to' in task_name:
+            moveto_location = None
+            # Check if we have an object to move to
+            if 'resource' in action.keys():
+                object_size = action['resource']['size']
+                if 'large' in object_size:
+                    moveto_location = 'On top of Large Rock'
+                elif 'small' in object_size:
+                    moveto_location = 'On top of Small Rock'
+            elif 'location' in action.keys():
+                moveto_location = task_location
+
+            if moveto_location is not None:
+                self.wait_action(self.translate_loc_backwards(moveto_location))
+            print(action)
+            return
 
     def translate_state(self):
         # A nested dictionary to store all locations with the objects that they currently entail
@@ -1755,9 +1771,8 @@ class RobotPartner(AgentBrain):
                     # There are large objects to be on top of
                     for obj in large_objs:
                         obj_location = obj['location']
-                        y_loc_above = obj_location[1] - 1
-                        if self.state[{"location": (obj_location[0], y_loc_above)}] is None:
-                            poss_locations.append((obj_location[0], y_loc_above))
+                        y_loc_above = obj_location[1]
+                        poss_locations.append((obj_location[0], y_loc_above))
                     coordinates = random.choice(poss_locations)
             elif 'Small' in location:
                 poss_locations = []
@@ -1766,9 +1781,8 @@ class RobotPartner(AgentBrain):
                     # There are small objects to be on top of
                     for obj in small_objs:
                         obj_location = obj['location']
-                        y_loc_above = obj_location[1] - 1
-                        if self.state[{"location": (obj_location[0], y_loc_above)}] is None:
-                            poss_locations.append((obj_location[0], y_loc_above))
+                        y_loc_above = obj_location[1]
+                        poss_locations.append((obj_location[0], y_loc_above))
                     coordinates = random.choice(poss_locations)
             elif 'Brown' in location:
                 poss_locations = []
@@ -1777,10 +1791,13 @@ class RobotPartner(AgentBrain):
                     # There are brown objects to be on top of
                     for obj in brown_objs:
                         obj_location = obj['location']
-                        y_loc_above = obj_location[1] - 1
-                        if self.state[{"location": (obj_location[0], y_loc_above)}] is None:
-                            poss_locations.append((obj_location[0], y_loc_above))
+                        y_loc_above = obj_location[1]
+                        poss_locations.append((obj_location[0], y_loc_above))
                     coordinates = random.choice(poss_locations)
+            elif 'Robot' in location:
+                coordinates = self.agent_id['location']
+            elif 'Human' in location:
+                coordinates = self.human_location[0]
 
         # If the coordinates are empty here, fill them with the current location of the agent
         if len(coordinates) < 1:
@@ -2114,7 +2131,8 @@ class RobotPartner(AgentBrain):
                 # An existing CP was deleted!
                 cp_name = message['cp_delete']
                 # Delete the name from the CP list, and the accompanying conditions from the conditions lists
-                self.cp_list.remove(cp_name)
+                if cp_name in self.cp_list:
+                    self.cp_list.remove(cp_name)
                 self.store_cp_conditions(self.start_conditions)
                 self.store_cp_conditions(self.end_conditions)
                 print("New start conditions:")
@@ -2131,6 +2149,12 @@ class RobotPartner(AgentBrain):
                 if cp_name in self.cp_list:
                     self.store_cp_conditions(self.start_conditions)
                     self.store_cp_conditions(self.end_conditions)
+                # Reset some variables to make sure the robot can break out of actions that don't work
+                self.actionlist = [[], []]
+                self.navigator.reset_full()  # Reset navigator to make sure there are no remaining waypoints
+                self.cp_actions = []
+                self.current_robot_action = None
+                self.current_human_action = None
             elif message == 'FAIL' and not self.final_update:
                 print("FINAL Q UPDATE")
                 last_message = float(self.received_messages[-2])
@@ -2245,7 +2269,7 @@ class RobotPartner(AgentBrain):
             if current_action['task']['task_name'] == 'Pick up' and 'Drop' in actual_action:
                 print("Don't communicate")
             else:
-                if current_action['resource'] and 'location' in current_action.keys():
+                if 'resource' in current_action.keys() and 'location' in current_action.keys():
                     obj_tograb = current_action['resource']['size']
                     msg = f"Now executing {current_action['task']['task_name']} a {obj_tograb} rock at {current_action['location']['range']}"
                 elif 'location' in current_action.keys():

@@ -250,8 +250,8 @@ class OntologyGod(AgentBrain):
 
         # While the input still contains valuable information
         while len(html_input)>20:
-            print('HTML in')
-            print(html_input)
+            #print('HTML in')
+            #print(html_input)
             # Find what kind of item we have first
             type_start = html_input.find('class="item ')
             type_end = html_input.find('" clonable=')
@@ -299,6 +299,24 @@ class OntologyGod(AgentBrain):
                 word = word + html_input[find_object:][object_start + 3:object_end]
                 html_input = html_input[find_object:]
                 item_end = html_input.find('</div')
+
+            # If it is a move-to action, change location to On top of location
+            if 'Move to' in word:
+                find_object = None
+                extra_word = None
+                if '<i>Object</i>' in html_input:
+                    find_object = html_input.find('object_cp')
+                elif '<i>Actor</i>' in html_input:
+                    find_object = html_input.find('actor')
+
+                if find_object is not None:
+                    object_start = html_input[find_object:].find('<p>')
+                    object_end = html_input[find_object:].find('</p>')
+                    extra_word = 'On top of ' + html_input[find_object:][object_start + 3:object_end]
+                    html_input = html_input[find_object:]
+                    item_end = html_input.find('</div')
+
+                input_dict['location'] = extra_word
 
             # Check if an item of the current type already exists
             if item_type in input_dict.keys():
@@ -630,7 +648,7 @@ class OntologyGod(AgentBrain):
                     action_instantiation = None
 
                 else:
-                    action_instantiation = f'''match $object isa object, has obj_type "{obj_type}", has size "{obj_size}", has color "{obj_color}";
+                    action_instantiation = f'''match $object isa resource, has obj_type "{obj_type}", has size "{obj_size}", has color "{obj_color}";
                                             $task isa task, has task_name "{single_action['task']}", has task_id "{task_id}"; '''
 
                     # Also create the relevant relations
