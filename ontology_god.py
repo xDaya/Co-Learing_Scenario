@@ -101,15 +101,19 @@ class OntologyGod(AgentBrain):
         cp_html = None
 
         # Store the CP list in a property of the agent if it is empty
-        if self.agent_properties['cp_list'] is None:
-            self.agent_properties['cp_list'] = self.cp_list
+        #if self.agent_properties['cp_list'] is None:
+        self.agent_properties['cp_list'] = self.cp_list
 
-        if self.agent_properties['cp_list_html'] is None:
-            self.agent_properties['cp_list_html'] = self.cp_list_html
+        #if self.agent_properties['cp_list_html'] is None:
+        self.agent_properties['cp_list_html'] = self.cp_list_html
 
         # If there are messages, deal with them, and send to TypeDB
         if self.received_messages:
             cp_name, cp_situation, cp_actionsA, cp_actionsB, cp_postsitu, cp_html = self.message_handling()
+
+            print('CHECK')
+            print(cp_name)
+            print(cp_situation)
 
             if cp_name in self.cp_list:
                 # This means that it is an existing CP that gets sent
@@ -130,11 +134,15 @@ class OntologyGod(AgentBrain):
                     self.send_message(Message(content={'cp_edit': cp_name, 'html': cp_html}, from_id=self.agent_id, to_id=None))
 
             elif cp_name:
-                # If we end up here, the CP name is new, so we should create a new entry
-                self.send_cp_data(cp_name, cp_situation, cp_actionsA, cp_actionsB, cp_postsitu, cp_html)
-                self.cp_list.append(cp_name)
-                # Send a message that this CP is added, to make sure the robot can process that
-                self.send_message(Message(content={'cp_new': cp_name, 'html': cp_html}, from_id=self.agent_id, to_id=None))
+                if cp_situation == 'delete':
+                    # This is a double delete, do nothing
+                    print('Double delete for frontend')
+                else:
+                    # If we end up here, the CP name is new, so we should create a new entry
+                    self.send_cp_data(cp_name, cp_situation, cp_actionsA, cp_actionsB, cp_postsitu, cp_html)
+                    self.cp_list.append(cp_name)
+                    # Send a message that this CP is added, to make sure the robot can process that
+                    self.send_message(Message(content={'cp_new': cp_name, 'html': cp_html}, from_id=self.agent_id, to_id=None))
 
         return action, action_kwargs
 
