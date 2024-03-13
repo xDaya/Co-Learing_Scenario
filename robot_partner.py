@@ -1456,9 +1456,9 @@ class RobotPartner(AgentBrain):
                         # There is just one such object, check it's location; if it is correct, pick up this one
                         if task_location is None:
                             # There is no task location specified, just pick up the found object
-                            self.pickup_large_action([relevant_objects], state, None)
+                            self.pickup_large_action([relevant_objects], state, state[self.agent_id]['location'])
                         elif task_location in self.translate_location(relevant_objects['obj_id'], object_size):
-                            self.pickup_large_action([relevant_objects], state, None)
+                            self.pickup_large_action([relevant_objects], state, state[self.agent_id]['location'])
                         else:
                             # There is no such object, can't perform this action
                             print("Can't perform this action, object doesn't exist.")
@@ -1473,7 +1473,7 @@ class RobotPartner(AgentBrain):
                             elif task_location in self.translate_location(object['obj_id'], object_size):
                                 # It is the same, this is an object we can choose!
                                 objects_right_location.append(object)
-                        self.pickup_large_action(objects_right_location, state, None)
+                        self.pickup_large_action(objects_right_location, state, state[self.agent_id]['location'])
                 else:
                     # There is no such object, can't perform this action
                     print("Can't perform this action, object doesn't exist.")
@@ -1488,7 +1488,7 @@ class RobotPartner(AgentBrain):
                         # There is just one such object, check it's location; if it is correct, pick up this one
                         if task_location is None:
                             # There is no task location specified, just pick up the found object
-                            self.pickup_large_action([relevant_objects], state, None)
+                            self.pickup_action([relevant_objects], state)
                         elif task_location in self.translate_location(relevant_objects['obj_id'], object_size):
                             self.pickup_action([relevant_objects], state)
                         else:
@@ -1533,7 +1533,7 @@ class RobotPartner(AgentBrain):
                 if isinstance(relevant_objects, dict):
                     # There is just one such object, check its location; if it is correct, pick up this one
                     if task_location in self.translate_location(relevant_objects['obj_id'], 'large'):
-                        self.break_action([relevant_objects], state, None)
+                        self.break_action([relevant_objects], state, state[self.agent_id]['location'])
                     else:
                         # There is no such object, can't perform this action
                         print("Can't perform this action, object doesn't exist.")
@@ -1545,7 +1545,7 @@ class RobotPartner(AgentBrain):
                         if task_location in self.translate_location(object['obj_id'], 'large'):
                             # It is the same, this is an object we can choose!
                             objects_right_location.append(object)
-                    self.break_action(objects_right_location, state, None)
+                    self.break_action(objects_right_location, state, state[self.agent_id]['location'])
             else:
                 # There is no such object, can't perform this action
                 print("Can't perform this action, object doesn't exist.")
@@ -1795,7 +1795,7 @@ class RobotPartner(AgentBrain):
                         poss_locations.append((obj_location[0], y_loc_above))
                     coordinates = random.choice(poss_locations)
             elif 'Robot' in location:
-                coordinates = self.agent_id['location']
+                coordinates = self.state[self.agent_id]['location']
             elif 'Human' in location:
                 coordinates = self.human_location[0]
 
