@@ -111,10 +111,6 @@ class OntologyGod(AgentBrain):
         if self.received_messages:
             cp_name, cp_situation, cp_actionsA, cp_actionsB, cp_postsitu, cp_html = self.message_handling()
 
-            print('CHECK')
-            print(cp_name)
-            print(cp_situation)
-
             if cp_name in self.cp_list:
                 # This means that it is an existing CP that gets sent
                 print('Existing CP name...')

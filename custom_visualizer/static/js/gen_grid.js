@@ -83,12 +83,25 @@ function draw(state, world_settings, new_messages, accessible_chatrooms, new_tic
     // if we already processed this tick (MATRX is paused), stop and return
     if (latest_tick_processed == current_tick && !redraw_required) {
         if (state['rewardgod']['goal_reached'] && !alert_sent){
-            document.getElementById('cp').classList.add('show')
-            if (document.getElementById('chat').classList.contains('show')){
-                document.getElementById('chat').classList.remove('show')
+            if (state['rewardgod']['level'] > 0){
+                document.getElementById('cp').classList.add('show')
+                if (document.getElementById('chat').classList.contains('show')){
+                    document.getElementById('chat').classList.remove('show')
+                }
             }
-            window.alert('You finished this level. If you want to, you can still store some sequences of collaborative actions in the Collaboration Book. Close the Collaboration Book when you are done.')
-            alert_sent = true;
+
+            for (var i = 1; i <= 5; i++) {
+                var tick = function(i) {
+                    return function() {
+                        console.log(i);
+                        }
+                    };
+                    setTimeout(tick(i), 1500 * i);
+                }
+            if (state['rewardgod']['level'] > 0){
+                window.alert('You finished this level. If you want to, you can still store some sequences of collaborative actions in the Collaboration Book. Close the Collaboration Book when you are done.')
+                alert_sent = true;
+            }
         }
         return;
     }
@@ -286,12 +299,20 @@ function draw(state, world_settings, new_messages, accessible_chatrooms, new_tic
     clock_div.innerHTML = remaining_time;
 
     // Pause environment after goal was reached
-    if (state['rewardgod']['goal_reached']){
+    if (state['rewardgod']['goal_reached'] && state['rewardgod']['level'] > 0){
         console.log("Goal is reached!");
         if (!pause_done){
             send_api_message("pause");
             pause_done = true;
         }
+    }
+    else if (state['rewardgod']['goal_reached'] && state['rewardgod']['level'] == 0){
+        console.log("Goal is reached!");
+        if (!pause_done){
+            send_api_message("pause");
+            pause_done = true;
+        }
+        setTimeout(send_api_message("start"), 1000)
     }
 
     if (state['final_goal']['goal_reached']){

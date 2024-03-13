@@ -56,7 +56,7 @@ def create_builder(level, participant_nr):
     condition = 'baseline'
 
     # Add loggers
-    current_exp_folder = datetime.now().strftime("exp_at_time_%Hh-%Mm-%Ss_date_%dd-%mm-%Yy")
+    current_exp_folder = datetime.now().strftime(str(participant_nr) + "_level" + str(level) + "_exp_at_time_%Hh-%Mm-%Ss_date_%dd-%mm-%Yy")
     logger_save_folder = os.path.join("experiment_logs", current_exp_folder)
 
     factory.add_logger(logger_class=ActionLogger, save_path=logger_save_folder, file_name_prefix="actions_")
@@ -126,7 +126,7 @@ def create_builder(level, participant_nr):
     factory.add_agent((0, 0), gravity_god, name="GravityGod", visualize_shape='img', img_name="/images/transparent.png", is_traversable=True)
 
     # Add Reward by adding the RewardGod agent
-    factory.add_agent((0,11), reward_god, name="RewardGod", visualize_shape='img', img_name="/images/transparent.png", is_traversable=True, goal_reached=False, distance=None, customizable_properties=["goal_reached"])
+    factory.add_agent((0,11), reward_god, name="RewardGod", visualize_shape='img', img_name="/images/transparent.png", is_traversable=True, goal_reached=False, distance=None, level=level, customizable_properties=["goal_reached"])
 
     # Add Ontology functions by adding the OntologyGod agent
     #if condition == 'ontology':
