@@ -1170,9 +1170,10 @@ class RobotPartner(AgentBrain):
                         human_action_indices = np.where(np.array([val[0] for val in self.past_human_actions]) ==
                                                         self.current_human_action['task']['task_name'])[0]
                         for index in human_action_indices:
-                            if self.current_human_action['location']['range'] in self.past_human_actions[index][1]:
-                                location_present = True
-                                break
+                            if 'location' in self.current_human_action.keys():
+                                if self.current_human_action['location']['range'] in self.past_human_actions[index][1]:
+                                    location_present = True
+                                    break
 
                         if location_present:
                             # The human did the action, so we can remove it from the action list and continue
