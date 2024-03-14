@@ -90,16 +90,8 @@ function draw(state, world_settings, new_messages, accessible_chatrooms, new_tic
                 }
             }
 
-            for (var i = 1; i <= 5; i++) {
-                var tick = function(i) {
-                    return function() {
-                        console.log(i);
-                        }
-                    };
-                    setTimeout(tick(i), 1500 * i);
-                }
             if (state['rewardgod']['level'] > 0){
-                window.alert('You finished this level. If you want to, you can still store some sequences of collaborative actions in the Collaboration Book. Close the Collaboration Book when you are done.')
+                setTimeout(window.alert('You finished this level. If you want to, you can still store some sequences of collaborative actions in the Collaboration Book. Close the Collaboration Book when you are done.'), 0)
                 alert_sent = true;
             }
         }
@@ -312,7 +304,7 @@ function draw(state, world_settings, new_messages, accessible_chatrooms, new_tic
             send_api_message("pause");
             pause_done = true;
         }
-        setTimeout(send_api_message("start"), 1000)
+        setTimeout(send_api_message("start"), 0)
     }
 
     if (state['final_goal']['goal_reached']){
