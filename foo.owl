@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://example.org/myOntology#"
+    xml:base="http://example.org/myOntology"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://example.org/myOntology">
+        <owl:versionInfo>1.0</owl:versionInfo>
+    </owl:Ontology>
+
+    <!-- Class definitions -->
+    <owl:Class rdf:about="#Actor" />
+    <owl:Class rdf:about="#Object" />
+    <owl:Class rdf:about="#ActorAction" />
+
+    <owl:Class rdf:about="#Robot">
+        <rdfs:subClassOf rdf:resource="#Actor" />
+    </owl:Class>
+    <owl:Class rdf:about="#Human">
+        <rdfs:subClassOf rdf:resource="#Actor" />
+    </owl:Class>
+    <owl:Class rdf:about="#Victim">
+        <rdfs:subClassOf rdf:resource="#Actor" />
+    </owl:Class>
+
+    <owl:Class rdf:about="#LargeRock">
+        <rdfs:subClassOf rdf:resource="#Object" />
+    </owl:Class>
+    <owl:Class rdf:about="#SmallRock">
+        <rdfs:subClassOf rdf:resource="#Object" />
+    </owl:Class>
+    <owl:Class rdf:about="#BrownRock">
+        <rdfs:subClassOf rdf:resource="#Object" />
+    </owl:Class>
+    <owl:Class rdf:about="#RockPile">
+        <rdfs:subClassOf rdf:resource="#Object" />
+    </owl:Class>
+    <owl:Class rdf:about="#Field">
+        <rdfs:subClassOf rdf:resource="#Object" />
+    </owl:Class>
+
+    <owl:Class rdf:about="#MoveBackAndForth">
+        <rdfs:subClassOf rdf:resource="#ActorAction" />
+    </owl:Class>
+    <owl:Class rdf:about="#StandStill">
+        <rdfs:subClassOf rdf:resource="#ActorAction" />
+    </owl:Class>
+
+    <!-- Property (relation) definitions -->
+    <owl:ObjectProperty rdf:about="#hasState">
+        <rdfs:domain rdf:resource="#Actor" />
+        <rdfs:range rdf:resource="#ActorAction" />
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="#moveTo">
+        <rdfs:domain rdf:resource="#Actor" />
+        <rdfs:range rdf:resource="#Object" />
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="#pickUp">
+        <rdfs:domain rdf:resource="#Actor" />
+        <rdfs:range rdf:resource="#Object" />
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="#drop">
+        <rdfs:domain rdf:resource="#Actor" />
+        <rdfs:range rdf:resource="#Object" />
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="#break">
+        <rdfs:domain rdf:resource="#Actor" />
+        <rdfs:range rdf:resource="#Object" />
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="#topOf">
+        <rdfs:range rdf:resource="#RockPile" />
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="#above">
+        <rdfs:range rdf:resource="#RockPile" />
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="#bottomOf">
+        <rdfs:range rdf:resource="#RockPile" />
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="#rightSideOf">
+        <rdfs:range rdf:resource="#Object" />
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="#leftSideOf">
+        <rdfs:range rdf:resource="#Object" />
+    </owl:ObjectProperty>
+</rdf:RDF>

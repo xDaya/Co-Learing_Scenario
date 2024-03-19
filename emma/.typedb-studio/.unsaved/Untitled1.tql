@@ -1,0 +1,2 @@
+#match $x sub thing/;
+match $x isa thing;

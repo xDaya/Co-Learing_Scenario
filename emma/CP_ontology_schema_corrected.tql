@@ -1,0 +1,235 @@
+define
+
+# Attributes
+    actor_type sub attribute,
+        value string,
+        regex "^(robot|human|victim)$";
+        
+    actor_id sub attribute,
+        value string;
+
+    x_coordinate sub attribute,
+        value long;
+        
+    y_coordinate sub attribute,
+        value long;
+    
+    range sub attribute,
+        value string;
+
+    obj_type sub attribute,
+        value string;
+        
+    obj_id sub attribute,
+        value string;
+
+    size sub attribute,
+        value string,
+        regex "^(small|large)$";
+
+    color sub attribute,
+        value string,
+        regex "^(grey|brown)$";
+
+    action_type sub attribute,
+        value string;
+
+    name sub attribute,
+        value string;
+
+    success sub attribute,
+        value long;
+
+    timestamp sub attribute,
+        value string;
+        
+    task_name sub attribute,
+        value string;
+        
+    task_id sub attribute,
+        value string;
+        
+    order_value sub attribute,
+        value string;
+        
+    context_id sub attribute,
+        value string;
+        
+    condition_type sub attribute,
+        value string;
+        
+    condition_id sub attribute,
+        value string;
+        
+    html_content sub attribute,
+        value string;
+        
+## Relations
+
+    ## Relations that are relevant for context
+
+    contains sub relation,
+        relates whole,
+        relates part;
+
+    uses sub relation,
+        relates action,
+        relates resource;
+
+    affords sub relation,
+        relates object,
+        relates action;
+
+    positioned_at sub relation,
+        relates item,
+        relates location;
+
+    performed_by sub relation,
+        relates action,
+        relates actor;
+
+    takes_place_at sub relation,
+        relates action,
+        relates location;
+
+
+    ## Relations that are relevant for task
+
+    limited_by sub relation,
+        relates task,
+        relates situation;
+
+    preceeds sub relation,
+        relates predecessor,
+        relates successor;
+
+    determine sub relation,
+        relates context,
+        relates task,
+        relates effect;
+
+    is_part_of sub relation,
+        relates task,
+        relates cp,
+        owns action_type;
+
+
+    ## Relations that are relevant for Collaboration Pattern
+
+    has_history sub relation,
+        relates cp,
+        relates past;
+
+    starts_when sub relation,
+        relates cp,
+        relates condition;
+
+    ends_when sub relation,
+        relates cp,
+        relates condition;
+
+    is_present_in sub relation,
+        relates condition,
+        relates situation;
+
+## Concepts
+    ## Context related concepts
+
+    context sub entity,
+        plays contains:whole,
+        plays determine:context,
+        plays is_present_in:situation,
+        owns context_id;
+
+    location sub entity,
+        plays contains:part,
+        plays positioned_at:location,
+        plays takes_place_at:location,
+        owns x_coordinate,
+        owns y_coordinate,
+        owns range;
+
+    actor sub entity,
+        plays contains:part,
+        plays positioned_at:item,
+        plays performed_by:actor,
+        owns actor_type,
+        owns actor_id;
+
+    object sub entity,
+        plays contains:part,
+        plays positioned_at:item,
+        owns obj_type,
+        owns obj_id,
+        owns size,
+        owns color;
+
+    resource sub object,
+        plays affords:object,
+        plays uses:resource;
+
+
+    ## Task related concepts
+
+    task sub entity,
+        plays contains:part,
+        plays preceeds:predecessor,
+        plays preceeds:successor,
+        plays limited_by:task,
+        plays determine:task,
+        plays is_part_of:task,
+        plays takes_place_at:action,
+        plays performed_by:action,
+        plays uses:action,
+        plays affords:action,
+        owns task_name,
+        owns task_id,
+        owns order_value;
+
+    goal sub entity,
+        plays limited_by:situation,
+        plays is_present_in:condition;
+
+    #precondition sub entity,
+        #plays limited_by:situation,
+        #plays is_present_in:condition;
+
+    side_effect sub entity,
+        plays determine:effect,
+        plays is_present_in:condition;
+
+
+    ## Collaboration Pattern related concepts
+
+    collaboration_pattern sub entity,
+        plays has_history:cp,
+        plays starts_when:cp,
+        plays ends_when:cp,
+        plays is_part_of:cp,
+        owns name,
+        owns html_content;
+
+    past_occurence sub entity,
+        plays has_history:past,
+        owns success,
+        owns timestamp;
+
+    #start_condition sub entity,
+        #plays starts_when:condition,
+        #plays is_present_in:condition;
+
+    #stop_condition sub entity,
+        #plays ends_when:condition,
+        #plays is_present_in:condition;
+        
+    condition sub entity,
+        plays limited_by:situation,
+        plays is_present_in:condition,
+        plays starts_when:condition,
+        plays is_present_in:condition,
+        plays ends_when:condition,
+        plays is_present_in:condition,
+        owns condition_type,
+        owns condition_id;
+
+
