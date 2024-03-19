@@ -1,0 +1,3021 @@
+human_selector_action;human_selector_location;robot_action;robot_location;robot_executing_cp;world_nr;tick_nr
+;(3, 4);;(4, 4);False;1;0
+;(3, 4);;(4, 4);False;1;1
+;(3, 4);Idle;(4, 4);False;1;2
+;(3, 4);Idle;(4, 4);False;1;3
+MoveNorth;(3, 3);Idle;(4, 4);False;1;4
+;(3, 3);Idle;(4, 4);False;1;5
+;(3, 3);Idle;(4, 4);False;1;6
+;(3, 3);Idle;(4, 4);False;1;7
+;(3, 3);Idle;(4, 4);False;1;8
+MoveEast;(4, 3);Idle;(4, 4);False;1;9
+;(4, 3);Idle;(4, 4);False;1;10
+;(4, 3);Idle;(4, 4);False;1;11
+;(4, 3);Idle;(4, 4);False;1;12
+;(4, 3);Idle;(4, 4);False;1;13
+;(4, 3);Idle;(4, 4);False;1;14
+MoveEast;(5, 3);Idle;(4, 4);False;1;15
+;(5, 3);Idle;(4, 4);False;1;16
+;(5, 3);Idle;(4, 4);False;1;17
+;(5, 3);Idle;(4, 4);False;1;18
+;(5, 3);Idle;(4, 4);False;1;19
+;(5, 3);Idle;(4, 4);False;1;20
+;(5, 3);Idle;(4, 4);False;1;21
+;(5, 3);Idle;(4, 4);False;1;22
+;(5, 3);Idle;(4, 4);False;1;23
+;(5, 3);Idle;(4, 4);False;1;24
+;(5, 3);Idle;(4, 4);False;1;25
+;(5, 3);Idle;(4, 4);False;1;26
+;(5, 3);Idle;(4, 4);False;1;27
+;(5, 3);Idle;(4, 4);False;1;28
+;(5, 3);Idle;(4, 4);False;1;29
+;(5, 3);Idle;(4, 4);False;1;30
+;(5, 3);Idle;(4, 4);False;1;31
+;(5, 3);Idle;(4, 4);False;1;32
+;(5, 3);Idle;(4, 4);False;1;33
+;(5, 3);Idle;(4, 4);False;1;34
+;(5, 3);Idle;(4, 4);False;1;35
+;(5, 3);Idle;(4, 4);False;1;36
+;(5, 3);Idle;(4, 4);False;1;37
+;(5, 3);Idle;(4, 4);False;1;38
+;(5, 3);Idle;(4, 4);False;1;39
+;(5, 3);Idle;(4, 4);False;1;40
+;(5, 3);Idle;(4, 4);False;1;41
+;(5, 3);Idle;(4, 4);False;1;42
+;(5, 3);Idle;(4, 4);False;1;43
+;(5, 3);Idle;(4, 4);False;1;44
+;(5, 3);Idle;(4, 4);False;1;45
+;(5, 3);Idle;(4, 4);False;1;46
+MoveEast;(6, 3);Idle;(4, 4);False;1;47
+;(6, 3);Idle;(4, 4);False;1;48
+;(6, 3);Idle;(4, 4);False;1;49
+;(6, 3);Idle;(4, 4);False;1;50
+;(6, 3);Idle;(4, 4);False;1;51
+;(6, 3);Idle;(4, 4);False;1;52
+;(6, 3);Idle;(4, 4);False;1;53
+;(6, 3);Idle;(4, 4);False;1;54
+;(6, 3);Idle;(4, 4);False;1;55
+;(6, 3);Idle;(4, 4);False;1;56
+;(6, 3);;(4, 4);False;1;57
+;(6, 3);Idle;(4, 4);False;1;58
+;(6, 3);Idle;(4, 4);False;1;59
+;(6, 3);Idle;(4, 4);False;1;60
+;(6, 3);Idle;(4, 4);False;1;61
+;(6, 3);Idle;(4, 4);False;1;62
+;(6, 3);Idle;(4, 4);False;1;63
+;(6, 3);Idle;(4, 4);False;1;64
+;(6, 3);Idle;(4, 4);False;1;65
+;(6, 3);Idle;(4, 4);False;1;66
+;(6, 3);Idle;(4, 4);False;1;67
+;(6, 3);Idle;(4, 4);False;1;68
+;(6, 3);Idle;(4, 4);False;1;69
+;(6, 3);Idle;(4, 4);False;1;70
+;(6, 3);Idle;(4, 4);False;1;71
+;(6, 3);Idle;(4, 4);False;1;72
+;(6, 3);Idle;(4, 4);False;1;73
+;(6, 3);Idle;(4, 4);False;1;74
+;(6, 3);Idle;(4, 4);False;1;75
+MoveSouth;(6, 4);Idle;(4, 4);False;1;76
+;(6, 4);Idle;(4, 4);False;1;77
+;(6, 4);Idle;(4, 4);False;1;78
+;(6, 4);Idle;(4, 4);False;1;79
+MoveSouth;(6, 5);Idle;(4, 4);False;1;80
+;(6, 5);Idle;(4, 4);False;1;81
+;(6, 5);Idle;(4, 4);False;1;82
+;(6, 5);Idle;(4, 4);False;1;83
+MoveSouth;(6, 6);Idle;(4, 4);False;1;84
+;(6, 6);Idle;(4, 4);False;1;85
+;(6, 6);Idle;(4, 4);False;1;86
+MoveSouth;(6, 7);Idle;(4, 4);False;1;87
+;(6, 7);Idle;(4, 4);False;1;88
+;(6, 7);Idle;(4, 4);False;1;89
+;(6, 7);Idle;(4, 4);False;1;90
+;(6, 7);Idle;(4, 4);False;1;91
+MoveSouth;(6, 8);Idle;(4, 4);False;1;92
+;(6, 8);Idle;(4, 4);False;1;93
+;(6, 8);Idle;(4, 4);False;1;94
+;(6, 8);Idle;(4, 4);False;1;95
+;(6, 8);Idle;(4, 4);False;1;96
+;(6, 8);Idle;(4, 4);False;1;97
+;(6, 8);Idle;(4, 4);False;1;98
+MoveSouth;(6, 9);Idle;(4, 4);False;1;99
+;(6, 9);Idle;(4, 4);False;1;100
+;(6, 9);Idle;(4, 4);False;1;101
+;(6, 9);Idle;(4, 4);False;1;102
+;(6, 9);Idle;(4, 4);False;1;103
+;(6, 9);Idle;(4, 4);False;1;104
+;(6, 9);Idle;(4, 4);False;1;105
+;(6, 9);Idle;(4, 4);False;1;106
+;(6, 9);Idle;(4, 4);False;1;107
+;(6, 9);Idle;(4, 4);False;1;108
+;(6, 9);Idle;(4, 4);False;1;109
+;(6, 9);Idle;(4, 4);False;1;110
+;(6, 9);Idle;(4, 4);False;1;111
+;(6, 9);Idle;(4, 4);False;1;112
+GrabObject;(6, 9);;(4, 4);False;1;113
+;(6, 9);Idle;(4, 4);False;1;114
+;(6, 9);Idle;(4, 4);False;1;115
+;(6, 9);Idle;(4, 4);False;1;116
+;(6, 9);Idle;(4, 4);False;1;117
+;(6, 9);Idle;(4, 4);False;1;118
+MoveWest;(5, 9);Idle;(4, 4);False;1;119
+;(5, 9);Idle;(4, 4);False;1;120
+;(5, 9);Idle;(4, 4);False;1;121
+;(5, 9);Idle;(4, 4);False;1;122
+;(5, 9);Idle;(4, 4);False;1;123
+MoveWest;(4, 9);Idle;(4, 4);False;1;124
+;(4, 9);Idle;(4, 4);False;1;125
+;(4, 9);Idle;(4, 4);False;1;126
+MoveWest;(3, 9);Idle;(4, 4);False;1;127
+;(3, 9);Idle;(4, 4);False;1;128
+;(3, 9);Idle;(4, 4);False;1;129
+;(3, 9);Idle;(4, 4);False;1;130
+MoveWest;(2, 9);Idle;(4, 4);False;1;131
+;(2, 9);Idle;(4, 4);False;1;132
+;(2, 9);Idle;(4, 4);False;1;133
+MoveWest;(1, 9);Idle;(4, 4);False;1;134
+;(1, 9);Idle;(4, 4);False;1;135
+;(1, 9);Idle;(4, 4);False;1;136
+;(1, 9);Idle;(4, 4);False;1;137
+;(1, 9);Idle;(4, 4);False;1;138
+;(1, 9);Idle;(4, 4);False;1;139
+;(1, 9);Idle;(4, 4);False;1;140
+;(1, 9);Idle;(4, 4);False;1;141
+;(1, 9);Idle;(4, 4);False;1;142
+MoveSouth;(1, 10);Idle;(4, 4);False;1;143
+;(1, 10);Idle;(4, 4);False;1;144
+;(1, 10);Idle;(4, 4);False;1;145
+;(1, 10);Idle;(4, 4);False;1;146
+;(1, 10);Idle;(4, 4);False;1;147
+;(1, 10);Idle;(4, 4);False;1;148
+;(1, 10);Idle;(4, 4);False;1;149
+;(1, 10);Idle;(4, 4);False;1;150
+;(1, 10);Idle;(4, 4);False;1;151
+;(1, 10);Idle;(4, 4);False;1;152
+;(1, 10);Idle;(4, 4);False;1;153
+DropObject;(1, 10);Idle;(4, 4);False;1;154
+;(1, 10);Idle;(4, 4);False;1;155
+;(1, 10);Idle;(4, 4);False;1;156
+;(1, 10);Idle;(4, 4);False;1;157
+;(1, 10);Idle;(4, 4);False;1;158
+;(1, 10);Idle;(4, 4);False;1;159
+;(1, 10);Idle;(4, 4);False;1;160
+MoveEast;(2, 10);Idle;(4, 4);False;1;161
+;(2, 10);Idle;(4, 4);False;1;162
+;(2, 10);Idle;(4, 4);False;1;163
+;(2, 10);Idle;(4, 4);False;1;164
+MoveEast;(3, 10);Idle;(4, 4);False;1;165
+;(3, 10);Idle;(4, 4);False;1;166
+;(3, 10);Idle;(4, 4);False;1;167
+;(3, 10);Idle;(4, 4);False;1;168
+MoveEast;(4, 10);;(4, 4);False;1;169
+;(4, 10);Idle;(4, 4);False;1;170
+;(4, 10);Idle;(4, 4);False;1;171
+;(4, 10);Idle;(4, 4);False;1;172
+MoveEast;(5, 10);Idle;(4, 4);False;1;173
+;(5, 10);Idle;(4, 4);False;1;174
+;(5, 10);Idle;(4, 4);False;1;175
+;(5, 10);Idle;(4, 4);False;1;176
+;(5, 10);Idle;(4, 4);False;1;177
+;(5, 10);Idle;(4, 4);False;1;178
+;(5, 10);Idle;(4, 4);False;1;179
+;(5, 10);Idle;(4, 4);False;1;180
+;(5, 10);Idle;(4, 4);False;1;181
+;(5, 10);Idle;(4, 4);False;1;182
+GrabObject;(5, 10);Idle;(4, 4);False;1;183
+;(5, 10);Idle;(4, 4);False;1;184
+;(5, 10);Idle;(4, 4);False;1;185
+;(5, 10);Idle;(4, 4);False;1;186
+;(5, 10);Idle;(4, 4);False;1;187
+;(5, 10);Idle;(4, 4);False;1;188
+;(5, 10);Idle;(4, 4);False;1;189
+MoveWest;(4, 10);Idle;(4, 4);False;1;190
+;(4, 10);Idle;(4, 4);False;1;191
+;(4, 10);Idle;(4, 4);False;1;192
+;(4, 10);Idle;(4, 4);False;1;193
+MoveWest;(3, 10);Idle;(4, 4);False;1;194
+;(3, 10);Idle;(4, 4);False;1;195
+;(3, 10);Idle;(4, 4);False;1;196
+MoveWest;(2, 10);Idle;(4, 4);False;1;197
+;(2, 10);Idle;(4, 4);False;1;198
+;(2, 10);Idle;(4, 4);False;1;199
+;(2, 10);Idle;(4, 4);False;1;200
+;(2, 10);Idle;(4, 4);False;1;201
+MoveWest;(1, 10);Idle;(4, 4);False;1;202
+;(1, 10);Idle;(4, 4);False;1;203
+;(1, 10);Idle;(4, 4);False;1;204
+MoveWest;(0, 10);Idle;(4, 4);False;1;205
+;(0, 10);Idle;(4, 4);False;1;206
+;(0, 10);Idle;(4, 4);False;1;207
+;(0, 10);Idle;(4, 4);False;1;208
+;(0, 10);Idle;(4, 4);False;1;209
+;(0, 10);Idle;(4, 4);False;1;210
+;(0, 10);Idle;(4, 4);False;1;211
+;(0, 10);Idle;(4, 4);False;1;212
+;(0, 10);Idle;(4, 4);False;1;213
+DropObject;(0, 10);Idle;(4, 4);False;1;214
+;(0, 10);Idle;(4, 4);False;1;215
+;(0, 10);Idle;(4, 4);False;1;216
+;(0, 10);Idle;(4, 4);False;1;217
+;(0, 10);Idle;(4, 4);False;1;218
+;(0, 10);Idle;(4, 4);False;1;219
+MoveEast;(1, 10);Idle;(4, 4);False;1;220
+;(1, 10);Idle;(4, 4);False;1;221
+;(1, 10);Idle;(4, 4);False;1;222
+;(1, 10);Idle;(4, 4);False;1;223
+;(1, 10);Idle;(4, 4);False;1;224
+;(1, 10);;(4, 4);False;1;225
+;(1, 10);Idle;(4, 4);False;1;226
+MoveEast;(2, 10);Idle;(4, 4);False;1;227
+;(2, 10);Idle;(4, 4);False;1;228
+;(2, 10);Idle;(4, 4);False;1;229
+;(2, 10);Idle;(4, 4);False;1;230
+MoveEast;(3, 10);Idle;(4, 4);False;1;231
+;(3, 10);Idle;(4, 4);False;1;232
+;(3, 10);Idle;(4, 4);False;1;233
+MoveEast;(4, 10);Idle;(4, 4);False;1;234
+;(4, 10);Idle;(4, 4);False;1;235
+;(4, 10);Idle;(4, 4);False;1;236
+;(4, 10);Idle;(4, 4);False;1;237
+MoveEast;(5, 10);Idle;(4, 4);False;1;238
+;(5, 10);Idle;(4, 4);False;1;239
+;(5, 10);Idle;(4, 4);False;1;240
+;(5, 10);Idle;(4, 4);False;1;241
+;(5, 10);Idle;(4, 4);False;1;242
+MoveEast;(6, 10);Idle;(4, 4);False;1;243
+;(6, 10);Idle;(4, 4);False;1;244
+;(6, 10);Idle;(4, 4);False;1;245
+;(6, 10);Idle;(4, 4);False;1;246
+;(6, 10);Idle;(4, 4);False;1;247
+;(6, 10);Idle;(4, 4);False;1;248
+;(6, 10);Idle;(4, 4);False;1;249
+;(6, 10);Idle;(4, 4);False;1;250
+GrabObject;(6, 10);Idle;(4, 4);False;1;251
+;(6, 10);Idle;(4, 4);False;1;252
+;(6, 10);Idle;(4, 4);False;1;253
+;(6, 10);Idle;(4, 4);False;1;254
+;(6, 10);Idle;(4, 4);False;1;255
+;(6, 10);Idle;(4, 4);False;1;256
+MoveWest;(5, 10);Idle;(4, 4);False;1;257
+;(5, 10);Idle;(4, 4);False;1;258
+;(5, 10);Idle;(4, 4);False;1;259
+;(5, 10);Idle;(4, 4);False;1;260
+MoveWest;(4, 10);Idle;(4, 4);False;1;261
+;(4, 10);Idle;(4, 4);False;1;262
+;(4, 10);Idle;(4, 4);False;1;263
+;(4, 10);Idle;(4, 4);False;1;264
+;(4, 10);Idle;(4, 4);False;1;265
+;(4, 10);Idle;(4, 4);False;1;266
+MoveNorth;(4, 9);Idle;(4, 4);False;1;267
+;(4, 9);Idle;(4, 4);False;1;268
+;(4, 9);Idle;(4, 4);False;1;269
+;(4, 9);Idle;(4, 4);False;1;270
+MoveNorth;(4, 8);Idle;(4, 4);False;1;271
+;(4, 8);Idle;(4, 4);False;1;272
+;(4, 8);Idle;(4, 4);False;1;273
+;(4, 8);Idle;(4, 4);False;1;274
+MoveWest;(3, 8);Idle;(4, 4);False;1;275
+;(3, 8);Idle;(4, 4);False;1;276
+;(3, 8);Idle;(4, 4);False;1;277
+;(3, 8);Idle;(4, 4);False;1;278
+MoveWest;(2, 8);Idle;(4, 4);False;1;279
+;(2, 8);Idle;(4, 4);False;1;280
+;(2, 8);;(4, 4);False;1;281
+;(2, 8);MoveEast;(4, 4);False;1;282
+;(2, 8);MoveEast;(4, 4);False;1;283
+MoveWest;(1, 8);MoveEast;(4, 4);False;1;284
+;(1, 8);MoveEast;(4, 4);False;1;285
+;(1, 8);MoveEast;(4, 4);False;1;286
+;(1, 8);MoveEast;(4, 4);False;1;287
+;(1, 8);MoveEast;(4, 4);False;1;288
+;(1, 8);MoveEast;(4, 4);False;1;289
+;(1, 8);MoveEast;(4, 4);False;1;290
+;(1, 8);MoveEast;(4, 4);False;1;291
+;(1, 8);MoveEast;(5, 4);False;1;292
+;(1, 8);MoveEast;(5, 4);False;1;293
+;(1, 8);MoveEast;(5, 4);False;1;294
+;(1, 8);MoveEast;(5, 4);False;1;295
+;(1, 8);MoveEast;(5, 4);False;1;296
+;(1, 8);MoveEast;(5, 4);False;1;297
+;(1, 8);MoveEast;(5, 4);False;1;298
+;(1, 8);MoveEast;(5, 4);False;1;299
+;(1, 8);MoveEast;(5, 4);False;1;300
+MoveSouth;(1, 9);MoveEast;(5, 4);False;1;301
+;(1, 9);MoveEast;(5, 4);False;1;302
+;(1, 9);MoveEast;(6, 4);False;1;303
+;(1, 9);MoveWest;(6, 4);False;1;304
+;(1, 9);MoveWest;(6, 4);False;1;305
+;(1, 9);MoveWest;(6, 4);False;1;306
+;(1, 9);MoveWest;(6, 4);False;1;307
+;(1, 9);MoveWest;(6, 4);False;1;308
+;(1, 9);MoveWest;(6, 4);False;1;309
+;(1, 9);MoveWest;(6, 4);False;1;310
+;(1, 9);MoveWest;(6, 4);False;1;311
+DropObject;(1, 9);MoveWest;(6, 4);False;1;312
+;(1, 9);MoveWest;(6, 4);False;1;313
+;(1, 9);MoveWest;(5, 4);False;1;314
+;(1, 9);MoveWest;(5, 4);False;1;315
+;(1, 9);MoveWest;(5, 4);False;1;316
+;(1, 9);MoveWest;(5, 4);False;1;317
+;(1, 9);MoveWest;(5, 4);False;1;318
+;(1, 9);MoveWest;(5, 4);False;1;319
+;(1, 9);MoveWest;(5, 4);False;1;320
+;(1, 9);MoveWest;(5, 4);False;1;321
+MoveNorth;(1, 8);MoveWest;(5, 4);False;1;322
+;(1, 8);MoveWest;(5, 4);False;1;323
+;(1, 8);MoveWest;(5, 4);False;1;324
+MoveNorth;(1, 7);MoveWest;(4, 4);False;1;325
+;(1, 7);MoveEast;(4, 4);False;1;326
+;(1, 7);MoveEast;(4, 4);False;1;327
+;(1, 7);MoveEast;(4, 4);False;1;328
+;(1, 7);MoveEast;(4, 4);False;1;329
+MoveEast;(2, 7);MoveEast;(4, 4);False;1;330
+;(2, 7);MoveEast;(4, 4);False;1;331
+;(2, 7);MoveEast;(4, 4);False;1;332
+;(2, 7);MoveEast;(4, 4);False;1;333
+;(2, 7);MoveEast;(4, 4);False;1;334
+;(2, 7);MoveEast;(4, 4);False;1;335
+MoveEast;(3, 7);MoveEast;(5, 4);False;1;336
+;(3, 7);MoveEast;(5, 4);False;1;337
+;(3, 7);MoveEast;(5, 4);False;1;338
+;(3, 7);MoveEast;(5, 4);False;1;339
+MoveEast;(4, 7);MoveEast;(5, 4);False;1;340
+;(4, 7);MoveEast;(5, 4);False;1;341
+;(4, 7);MoveEast;(5, 4);False;1;342
+;(4, 7);MoveEast;(5, 4);False;1;343
+MoveNorth;(4, 6);MoveEast;(5, 4);False;1;344
+;(4, 6);MoveEast;(5, 4);False;1;345
+;(4, 6);MoveEast;(5, 4);False;1;346
+;(4, 6);MoveEast;(6, 4);False;1;347
+MoveNorth;(4, 5);MoveWest;(6, 4);False;1;348
+;(4, 5);MoveWest;(6, 4);False;1;349
+;(4, 5);MoveWest;(6, 4);False;1;350
+;(4, 5);MoveWest;(6, 4);False;1;351
+;(4, 5);MoveWest;(6, 4);False;1;352
+;(4, 5);MoveWest;(6, 4);False;1;353
+;(4, 5);MoveWest;(6, 4);False;1;354
+;(4, 5);MoveWest;(6, 4);False;1;355
+;(4, 5);MoveWest;(6, 4);False;1;356
+MoveEast;(5, 5);MoveWest;(6, 4);False;1;357
+;(5, 5);MoveWest;(5, 4);False;1;358
+;(5, 5);MoveWest;(5, 4);False;1;359
+;(5, 5);MoveWest;(5, 4);False;1;360
+;(5, 5);MoveWest;(5, 4);False;1;361
+;(5, 5);MoveWest;(5, 4);False;1;362
+;(5, 5);MoveWest;(5, 4);False;1;363
+;(5, 5);MoveWest;(5, 4);False;1;364
+MoveNorth;(5, 4);MoveWest;(5, 4);False;1;365
+;(5, 4);MoveWest;(5, 4);False;1;366
+;(5, 4);MoveWest;(5, 4);False;1;367
+;(5, 4);MoveWest;(5, 4);False;1;368
+;(5, 4);MoveWest;(4, 4);False;1;369
+;(5, 4);MoveEast;(4, 4);False;1;370
+;(5, 4);MoveEast;(4, 4);False;1;371
+;(5, 4);MoveEast;(4, 4);False;1;372
+MoveSouth;(5, 5);MoveEast;(4, 4);False;1;373
+;(5, 5);MoveEast;(4, 4);False;1;374
+;(5, 5);MoveEast;(4, 4);False;1;375
+;(5, 5);MoveEast;(4, 4);False;1;376
+;(5, 5);MoveEast;(4, 4);False;1;377
+;(5, 5);MoveEast;(4, 4);False;1;378
+;(5, 5);MoveEast;(4, 4);False;1;379
+;(5, 5);MoveEast;(5, 4);False;1;380
+;(5, 5);MoveEast;(5, 4);False;1;381
+;(5, 5);MoveEast;(5, 4);False;1;382
+;(5, 5);MoveEast;(5, 4);False;1;383
+;(5, 5);MoveEast;(5, 4);False;1;384
+;(5, 5);MoveEast;(5, 4);False;1;385
+;(5, 5);MoveEast;(5, 4);False;1;386
+;(5, 5);MoveEast;(5, 4);False;1;387
+;(5, 5);MoveEast;(5, 4);False;1;388
+;(5, 5);MoveEast;(5, 4);False;1;389
+;(5, 5);MoveEast;(5, 4);False;1;390
+;(5, 5);MoveEast;(6, 4);False;1;391
+;(5, 5);MoveWest;(6, 4);False;1;392
+;(5, 5);MoveWest;(6, 4);False;1;393
+;(5, 5);MoveWest;(6, 4);False;1;394
+;(5, 5);MoveWest;(6, 4);False;1;395
+;(5, 5);MoveWest;(6, 4);False;1;396
+;(5, 5);MoveWest;(6, 4);False;1;397
+;(5, 5);MoveWest;(6, 4);False;1;398
+;(5, 5);MoveWest;(6, 4);False;1;399
+;(5, 5);MoveWest;(6, 4);False;1;400
+GrabObject;(5, 5);MoveWest;(6, 4);False;1;401
+;(5, 5);MoveWest;(5, 4);False;1;402
+;(5, 5);MoveWest;(5, 4);False;1;403
+;(5, 5);MoveWest;(5, 4);False;1;404
+MoveWest;(4, 5);MoveWest;(5, 4);False;1;405
+;(4, 5);MoveWest;(5, 4);False;1;406
+;(4, 5);MoveWest;(5, 4);False;1;407
+;(4, 5);MoveWest;(5, 4);False;1;408
+MoveWest;(3, 5);MoveWest;(5, 4);False;1;409
+;(3, 5);MoveWest;(5, 4);False;1;410
+;(3, 5);MoveWest;(5, 4);False;1;411
+MoveWest;(2, 5);MoveWest;(5, 4);False;1;412
+;(2, 5);MoveWest;(4, 4);False;1;413
+;(2, 5);;(4, 4);False;1;414
+MoveWest;(1, 5);MoveWest;(4, 4);False;1;415
+;(1, 5);MoveWest;(4, 4);False;1;416
+;(1, 5);MoveWest;(4, 4);False;1;417
+;(1, 5);MoveWest;(4, 4);False;1;418
+;(1, 5);MoveWest;(4, 4);False;1;419
+;(1, 5);MoveWest;(4, 4);False;1;420
+;(1, 5);MoveWest;(4, 4);False;1;421
+;(1, 5);MoveWest;(4, 4);False;1;422
+;(1, 5);MoveWest;(4, 4);False;1;423
+;(1, 5);MoveWest;(4, 4);False;1;424
+MoveSouth;(1, 6);MoveWest;(3, 4);False;1;425
+;(1, 6);MoveSouthWest;(3, 4);False;1;426
+;(1, 6);MoveSouthWest;(3, 4);False;1;427
+;(1, 6);MoveSouthWest;(3, 4);False;1;428
+MoveSouth;(1, 7);MoveSouthWest;(3, 4);False;1;429
+;(1, 7);MoveSouthWest;(3, 4);False;1;430
+;(1, 7);MoveSouthWest;(3, 4);False;1;431
+MoveSouth;(1, 8);MoveSouthWest;(3, 4);False;1;432
+;(1, 8);MoveSouthWest;(3, 4);False;1;433
+;(1, 8);MoveSouthWest;(3, 4);False;1;434
+;(1, 8);MoveSouthWest;(3, 4);False;1;435
+;(1, 8);MoveSouthWest;(2, 5);False;1;436
+;(1, 8);Idle;(2, 5);False;1;437
+DropObject;(1, 8);Idle;(2, 5);False;1;438
+;(1, 8);Idle;(2, 5);False;1;439
+;(1, 8);Idle;(2, 5);False;1;440
+;(1, 8);Idle;(2, 5);False;1;441
+;(1, 8);Idle;(2, 5);False;1;442
+;(1, 8);Idle;(2, 5);False;1;443
+MoveNorth;(1, 7);Idle;(2, 5);False;1;444
+;(1, 7);Idle;(2, 5);False;1;445
+;(1, 7);Idle;(2, 5);False;1;446
+MoveNorth;(1, 6);Idle;(2, 5);False;1;447
+;(1, 6);Idle;(2, 5);False;1;448
+;(1, 6);Idle;(2, 5);False;1;449
+;(1, 6);Idle;(2, 5);False;1;450
+;(1, 6);Idle;(2, 5);False;1;451
+;(1, 6);Idle;(2, 5);False;1;452
+MoveEast;(2, 6);Idle;(2, 5);False;1;453
+;(2, 6);Idle;(2, 5);False;1;454
+;(2, 6);Idle;(2, 5);False;1;455
+;(2, 6);Idle;(2, 5);False;1;456
+;(2, 6);Idle;(2, 5);False;1;457
+;(2, 6);Idle;(2, 5);False;1;458
+MoveEast;(3, 6);Idle;(2, 5);False;1;459
+;(3, 6);Idle;(2, 5);False;1;460
+;(3, 6);Idle;(2, 5);False;1;461
+MoveNorth;(3, 5);Idle;(2, 5);False;1;462
+;(3, 5);Idle;(2, 5);False;1;463
+;(3, 5);Idle;(2, 5);False;1;464
+;(3, 5);Idle;(2, 5);False;1;465
+;(3, 5);Idle;(2, 5);False;1;466
+;(3, 5);Idle;(2, 5);False;1;467
+;(3, 5);Idle;(2, 5);False;1;468
+;(3, 5);Idle;(2, 5);False;1;469
+;(3, 5);Idle;(2, 5);False;1;470
+MoveEast;(4, 5);Idle;(2, 5);False;1;471
+;(4, 5);Idle;(2, 5);False;1;472
+;(4, 5);Idle;(2, 5);False;1;473
+;(4, 5);Idle;(2, 5);False;1;474
+MoveEast;(5, 5);Idle;(2, 5);False;1;475
+;(5, 5);Idle;(2, 5);False;1;476
+;(5, 5);Idle;(2, 5);False;1;477
+;(5, 5);Idle;(2, 5);False;1;478
+MoveEast;(6, 5);Idle;(2, 5);False;1;479
+;(6, 5);Idle;(2, 5);False;1;480
+;(6, 5);Idle;(2, 5);False;1;481
+;(6, 5);Idle;(2, 5);False;1;482
+;(6, 5);Idle;(2, 5);False;1;483
+MoveEast;(7, 5);Idle;(2, 5);False;1;484
+;(7, 5);Idle;(2, 5);False;1;485
+;(7, 5);Idle;(2, 5);False;1;486
+;(7, 5);Idle;(2, 5);False;1;487
+;(7, 5);Idle;(2, 5);False;1;488
+;(7, 5);Idle;(2, 5);False;1;489
+GrabObject;(7, 5);Idle;(2, 5);False;1;490
+;(7, 5);Idle;(2, 5);False;1;491
+;(7, 5);;(2, 5);False;1;492
+;(7, 5);MoveEast;(2, 5);False;1;493
+;(7, 5);MoveEast;(2, 5);False;1;494
+;(7, 5);MoveEast;(2, 5);False;1;495
+;(7, 5);MoveEast;(2, 5);False;1;496
+;(7, 5);MoveEast;(2, 5);False;1;497
+;(7, 5);MoveEast;(2, 5);False;1;498
+MoveWest;(6, 5);MoveEast;(2, 5);False;1;499
+;(6, 5);MoveEast;(2, 5);False;1;500
+;(6, 5);MoveEast;(2, 5);False;1;501
+MoveWest;(5, 5);MoveEast;(2, 5);False;1;502
+;(5, 5);MoveEast;(3, 5);False;1;503
+;(5, 5);MoveEast;(3, 5);False;1;504
+;(5, 5);MoveEast;(3, 5);False;1;505
+MoveWest;(4, 5);MoveEast;(3, 5);False;1;506
+;(4, 5);MoveEast;(3, 5);False;1;507
+;(4, 5);MoveEast;(3, 5);False;1;508
+MoveWest;(3, 5);MoveEast;(3, 5);False;1;509
+;(3, 5);MoveEast;(3, 5);False;1;510
+;(3, 5);MoveEast;(3, 5);False;1;511
+MoveWest;(2, 5);MoveEast;(3, 5);False;1;512
+;(2, 5);MoveEast;(3, 5);False;1;513
+;(2, 5);MoveEast;(4, 5);False;1;514
+MoveWest;(1, 5);MoveWest;(4, 5);False;1;515
+;(1, 5);MoveWest;(4, 5);False;1;516
+;(1, 5);MoveWest;(4, 5);False;1;517
+MoveWest;(0, 5);MoveWest;(4, 5);False;1;518
+;(0, 5);MoveWest;(4, 5);False;1;519
+;(0, 5);MoveWest;(4, 5);False;1;520
+;(0, 5);MoveWest;(4, 5);False;1;521
+;(0, 5);MoveWest;(4, 5);False;1;522
+;(0, 5);MoveWest;(4, 5);False;1;523
+;(0, 5);MoveWest;(4, 5);False;1;524
+;(0, 5);MoveWest;(3, 5);False;1;525
+MoveSouth;(0, 6);MoveWest;(3, 5);False;1;526
+;(0, 6);MoveWest;(3, 5);False;1;527
+;(0, 6);MoveWest;(3, 5);False;1;528
+MoveSouth;(0, 7);MoveWest;(3, 5);False;1;529
+;(0, 7);MoveWest;(3, 5);False;1;530
+;(0, 7);MoveWest;(3, 5);False;1;531
+MoveSouth;(0, 8);MoveWest;(3, 5);False;1;532
+;(0, 8);MoveWest;(3, 5);False;1;533
+;(0, 8);MoveWest;(3, 5);False;1;534
+;(0, 8);MoveWest;(3, 5);False;1;535
+MoveSouth;(0, 9);MoveWest;(2, 5);False;1;536
+;(0, 9);MoveEast;(2, 5);False;1;537
+;(0, 9);MoveEast;(2, 5);False;1;538
+;(0, 9);MoveEast;(2, 5);False;1;539
+DropObject;(0, 9);MoveEast;(2, 5);False;1;540
+;(0, 9);MoveEast;(2, 5);False;1;541
+;(0, 9);MoveEast;(2, 5);False;1;542
+;(0, 9);MoveEast;(2, 5);False;1;543
+MoveNorth;(0, 8);MoveEast;(2, 5);False;1;544
+;(0, 8);MoveEast;(2, 5);False;1;545
+;(0, 8);MoveEast;(2, 5);False;1;546
+;(0, 8);MoveEast;(3, 5);False;1;547
+MoveNorth;(0, 7);MoveEast;(3, 5);False;1;548
+;(0, 7);MoveEast;(3, 5);False;1;549
+;(0, 7);MoveEast;(3, 5);False;1;550
+MoveNorth;(0, 6);MoveEast;(3, 5);False;1;551
+;(0, 6);MoveEast;(3, 5);False;1;552
+;(0, 6);MoveEast;(3, 5);False;1;553
+;(0, 6);MoveEast;(3, 5);False;1;554
+;(0, 6);MoveEast;(3, 5);False;1;555
+MoveNorth;(0, 5);MoveEast;(3, 5);False;1;556
+;(0, 5);MoveEast;(3, 5);False;1;557
+;(0, 5);MoveEast;(4, 5);False;1;558
+;(0, 5);MoveWest;(4, 5);False;1;559
+;(0, 5);MoveWest;(4, 5);False;1;560
+MoveNorth;(0, 4);MoveWest;(4, 5);False;1;561
+;(0, 4);MoveWest;(4, 5);False;1;562
+;(0, 4);MoveWest;(4, 5);False;1;563
+;(0, 4);MoveWest;(4, 5);False;1;564
+;(0, 4);MoveWest;(4, 5);False;1;565
+MoveEast;(1, 4);MoveWest;(4, 5);False;1;566
+;(1, 4);MoveWest;(4, 5);False;1;567
+;(1, 4);MoveWest;(4, 5);False;1;568
+;(1, 4);MoveWest;(3, 5);False;1;569
+;(1, 4);MoveWest;(3, 5);False;1;570
+;(1, 4);MoveWest;(3, 5);False;1;571
+MoveSouth;(1, 5);MoveWest;(3, 5);False;1;572
+;(1, 5);MoveWest;(3, 5);False;1;573
+;(1, 5);MoveWest;(3, 5);False;1;574
+;(1, 5);MoveWest;(3, 5);False;1;575
+;(1, 5);MoveWest;(3, 5);False;1;576
+;(1, 5);MoveWest;(3, 5);False;1;577
+;(1, 5);MoveWest;(3, 5);False;1;578
+MoveEast;(2, 5);MoveWest;(3, 5);False;1;579
+;(2, 5);MoveWest;(2, 5);False;1;580
+;(2, 5);MoveEast;(2, 5);False;1;581
+MoveEast;(3, 5);MoveEast;(2, 5);False;1;582
+;(3, 5);MoveEast;(2, 5);False;1;583
+;(3, 5);MoveEast;(2, 5);False;1;584
+;(3, 5);MoveEast;(2, 5);False;1;585
+MoveEast;(4, 5);MoveEast;(2, 5);False;1;586
+;(4, 5);MoveEast;(2, 5);False;1;587
+;(4, 5);MoveEast;(2, 5);False;1;588
+;(4, 5);MoveEast;(2, 5);False;1;589
+;(4, 5);MoveEast;(2, 5);False;1;590
+;(4, 5);MoveEast;(3, 5);False;1;591
+;(4, 5);MoveEast;(3, 5);False;1;592
+MoveEast;(5, 5);MoveEast;(3, 5);False;1;593
+;(5, 5);MoveEast;(3, 5);False;1;594
+;(5, 5);MoveEast;(3, 5);False;1;595
+MoveEast;(6, 5);MoveEast;(3, 5);False;1;596
+;(6, 5);MoveEast;(3, 5);False;1;597
+;(6, 5);MoveEast;(3, 5);False;1;598
+;(6, 5);MoveEast;(3, 5);False;1;599
+;(6, 5);MoveEast;(3, 5);False;1;600
+;(6, 5);MoveEast;(3, 5);False;1;601
+;(6, 5);MoveEast;(4, 5);False;1;602
+;(6, 5);MoveWest;(4, 5);False;1;603
+GrabObject;(6, 5);MoveWest;(4, 5);False;1;604
+;(6, 5);MoveWest;(4, 5);False;1;605
+;(6, 5);MoveWest;(4, 5);False;1;606
+;(6, 5);MoveWest;(4, 5);False;1;607
+;(6, 5);MoveWest;(4, 5);False;1;608
+;(6, 5);MoveWest;(4, 5);False;1;609
+MoveWest;(5, 5);MoveWest;(4, 5);False;1;610
+;(5, 5);MoveWest;(4, 5);False;1;611
+;(5, 5);MoveWest;(4, 5);False;1;612
+MoveWest;(4, 5);MoveWest;(3, 5);False;1;613
+;(4, 5);MoveWest;(3, 5);False;1;614
+;(4, 5);MoveWest;(3, 5);False;1;615
+;(4, 5);MoveWest;(3, 5);False;1;616
+MoveWest;(3, 5);MoveWest;(3, 5);False;1;617
+;(3, 5);MoveWest;(3, 5);False;1;618
+;(3, 5);MoveWest;(3, 5);False;1;619
+MoveWest;(2, 5);MoveWest;(3, 5);False;1;620
+;(2, 5);MoveWest;(3, 5);False;1;621
+;(2, 5);MoveWest;(3, 5);False;1;622
+MoveWest;(1, 5);MoveWest;(3, 5);False;1;623
+;(1, 5);MoveWest;(2, 5);False;1;624
+;(1, 5);;(2, 5);False;1;625
+;(1, 5);Idle;(2, 5);False;1;626
+;(1, 5);Idle;(2, 5);False;1;627
+MoveWest;(0, 5);Idle;(2, 5);False;1;628
+;(0, 5);Idle;(2, 5);False;1;629
+;(0, 5);Idle;(2, 5);False;1;630
+;(0, 5);Idle;(2, 5);False;1;631
+;(0, 5);Idle;(2, 5);False;1;632
+;(0, 5);Idle;(2, 5);False;1;633
+;(0, 5);Idle;(2, 5);False;1;634
+;(0, 5);Idle;(2, 5);False;1;635
+;(0, 5);Idle;(2, 5);False;1;636
+;(0, 5);Idle;(2, 5);False;1;637
+;(0, 5);Idle;(2, 5);False;1;638
+MoveSouth;(0, 6);Idle;(2, 5);False;1;639
+;(0, 6);Idle;(2, 5);False;1;640
+;(0, 6);Idle;(2, 5);False;1;641
+;(0, 6);Idle;(2, 5);False;1;642
+MoveSouth;(0, 7);Idle;(2, 5);False;1;643
+;(0, 7);Idle;(2, 5);False;1;644
+;(0, 7);Idle;(2, 5);False;1;645
+;(0, 7);Idle;(2, 5);False;1;646
+MoveSouth;(0, 8);Idle;(2, 5);False;1;647
+;(0, 8);Idle;(2, 5);False;1;648
+;(0, 8);Idle;(2, 5);False;1;649
+;(0, 8);Idle;(2, 5);False;1;650
+DropObject;(0, 8);Idle;(2, 5);False;1;651
+;(0, 8);Idle;(2, 5);False;1;652
+;(0, 8);Idle;(2, 5);False;1;653
+;(0, 8);Idle;(2, 5);False;1;654
+MoveNorth;(0, 7);Idle;(2, 5);False;1;655
+;(0, 7);Idle;(2, 5);False;1;656
+;(0, 7);Idle;(2, 5);False;1;657
+;(0, 7);Idle;(2, 5);False;1;658
+;(0, 7);Idle;(2, 5);False;1;659
+MoveNorth;(0, 6);Idle;(2, 5);False;1;660
+;(0, 6);Idle;(2, 5);False;1;661
+;(0, 6);Idle;(2, 5);False;1;662
+;(0, 6);Idle;(2, 5);False;1;663
+MoveNorth;(0, 5);Idle;(2, 5);False;1;664
+;(0, 5);Idle;(2, 5);False;1;665
+;(0, 5);Idle;(2, 5);False;1;666
+;(0, 5);Idle;(2, 5);False;1;667
+;(0, 5);Idle;(2, 5);False;1;668
+MoveEast;(1, 5);Idle;(2, 5);False;1;669
+;(1, 5);Idle;(2, 5);False;1;670
+;(1, 5);Idle;(2, 5);False;1;671
+;(1, 5);Idle;(2, 5);False;1;672
+;(1, 5);Idle;(2, 5);False;1;673
+;(1, 5);Idle;(2, 5);False;1;674
+;(1, 5);Idle;(2, 5);False;1;675
+MoveEast;(2, 5);Idle;(2, 5);False;1;676
+;(2, 5);Idle;(2, 5);False;1;677
+;(2, 5);Idle;(2, 5);False;1;678
+;(2, 5);Idle;(2, 5);False;1;679
+;(2, 5);Idle;(2, 5);False;1;680
+;(2, 5);;(2, 5);False;1;681
+;(2, 5);Idle;(2, 5);False;1;682
+;(2, 5);Idle;(2, 5);False;1;683
+;(2, 5);Idle;(2, 5);False;1;684
+;(2, 5);Idle;(2, 5);False;1;685
+;(2, 5);Idle;(2, 5);False;1;686
+;(2, 5);Idle;(2, 5);False;1;687
+;(2, 5);Idle;(2, 5);False;1;688
+MoveEast;(3, 5);Idle;(2, 5);False;1;689
+;(3, 5);Idle;(2, 5);False;1;690
+;(3, 5);Idle;(2, 5);False;1;691
+MoveEast;(4, 5);Idle;(2, 5);False;1;692
+;(4, 5);Idle;(2, 5);False;1;693
+;(4, 5);Idle;(2, 5);False;1;694
+;(4, 5);Idle;(2, 5);False;1;695
+MoveEast;(5, 5);Idle;(2, 5);False;1;696
+;(5, 5);Idle;(2, 5);False;1;697
+;(5, 5);Idle;(2, 5);False;1;698
+;(5, 5);Idle;(2, 5);False;1;699
+MoveEast;(6, 5);Idle;(2, 5);False;1;700
+;(6, 5);Idle;(2, 5);False;1;701
+;(6, 5);Idle;(2, 5);False;1;702
+;(6, 5);Idle;(2, 5);False;1;703
+;(6, 5);Idle;(2, 5);False;1;704
+MoveEast;(7, 5);Idle;(2, 5);False;1;705
+;(7, 5);Idle;(2, 5);False;1;706
+;(7, 5);Idle;(2, 5);False;1;707
+;(7, 5);Idle;(2, 5);False;1;708
+MoveSouth;(7, 6);Idle;(2, 5);False;1;709
+;(7, 6);Idle;(2, 5);False;1;710
+;(7, 6);Idle;(2, 5);False;1;711
+;(7, 6);Idle;(2, 5);False;1;712
+;(7, 6);Idle;(2, 5);False;1;713
+;(7, 6);Idle;(2, 5);False;1;714
+;(7, 6);Idle;(2, 5);False;1;715
+;(7, 6);Idle;(2, 5);False;1;716
+;(7, 6);Idle;(2, 5);False;1;717
+;(7, 6);Idle;(2, 5);False;1;718
+;(7, 6);Idle;(2, 5);False;1;719
+;(7, 6);Idle;(2, 5);False;1;720
+;(7, 6);Idle;(2, 5);False;1;721
+;(7, 6);Idle;(2, 5);False;1;722
+;(7, 6);Idle;(2, 5);False;1;723
+;(7, 6);Idle;(2, 5);False;1;724
+;(7, 6);Idle;(2, 5);False;1;725
+;(7, 6);Idle;(2, 5);False;1;726
+;(7, 6);Idle;(2, 5);False;1;727
+MoveWest;(6, 6);Idle;(2, 5);False;1;728
+;(6, 6);Idle;(2, 5);False;1;729
+;(6, 6);Idle;(2, 5);False;1;730
+;(6, 6);Idle;(2, 5);False;1;731
+;(6, 6);Idle;(2, 5);False;1;732
+;(6, 6);Idle;(2, 5);False;1;733
+GrabObject;(6, 6);Idle;(2, 5);False;1;734
+;(6, 6);Idle;(2, 5);False;1;735
+;(6, 6);Idle;(2, 5);False;1;736
+;(6, 6);;(2, 5);False;1;737
+;(6, 6);Idle;(2, 5);False;1;738
+;(6, 6);Idle;(2, 5);False;1;739
+;(6, 6);Idle;(2, 5);False;1;740
+;(6, 6);Idle;(2, 5);False;1;741
+;(6, 6);Idle;(2, 5);False;1;742
+;(6, 6);Idle;(2, 5);False;1;743
+;(6, 6);Idle;(2, 5);False;1;744
+;(6, 6);Idle;(2, 5);False;1;745
+;(6, 6);Idle;(2, 5);False;1;746
+GrabObject;(6, 6);Idle;(2, 5);False;1;747
+;(6, 6);Idle;(2, 5);False;1;748
+;(6, 6);Idle;(2, 5);False;1;749
+;(6, 6);Idle;(2, 5);False;1;750
+;(6, 6);Idle;(2, 5);False;1;751
+;(6, 6);Idle;(2, 5);False;1;752
+;(6, 6);Idle;(2, 5);False;1;753
+;(6, 6);Idle;(2, 5);False;1;754
+;(6, 6);Idle;(2, 5);False;1;755
+;(6, 6);Idle;(2, 5);False;1;756
+;(6, 6);Idle;(2, 5);False;1;757
+;(6, 6);Idle;(2, 5);False;1;758
+;(6, 6);Idle;(2, 5);False;1;759
+;(6, 6);Idle;(2, 5);False;1;760
+;(6, 6);Idle;(2, 5);False;1;761
+;(6, 6);Idle;(2, 5);False;1;762
+;(6, 6);Idle;(2, 5);False;1;763
+;(6, 6);Idle;(2, 5);False;1;764
+;(6, 6);Idle;(2, 5);False;1;765
+MoveWest;(5, 6);Idle;(2, 5);False;1;766
+;(5, 6);Idle;(2, 5);False;1;767
+;(5, 6);Idle;(2, 5);False;1;768
+;(5, 6);Idle;(2, 5);False;1;769
+;(5, 6);Idle;(2, 5);False;1;770
+MoveWest;(4, 6);Idle;(2, 5);False;1;771
+;(4, 6);Idle;(2, 5);False;1;772
+;(4, 6);Idle;(2, 5);False;1;773
+;(4, 6);Idle;(2, 5);False;1;774
+;(4, 6);Idle;(2, 5);False;1;775
+;(4, 6);Idle;(2, 5);False;1;776
+;(4, 6);Idle;(2, 5);False;1;777
+MoveEast;(5, 6);Idle;(2, 5);False;1;778
+;(5, 6);Idle;(2, 5);False;1;779
+;(5, 6);Idle;(2, 5);False;1;780
+;(5, 6);Idle;(2, 5);False;1;781
+MoveWest;(4, 6);Idle;(2, 5);False;1;782
+;(4, 6);Idle;(2, 5);False;1;783
+;(4, 6);Idle;(2, 5);False;1;784
+;(4, 6);Idle;(2, 5);False;1;785
+;(4, 6);Idle;(2, 5);False;1;786
+MoveWest;(3, 6);Idle;(2, 5);False;1;787
+;(3, 6);Idle;(2, 5);False;1;788
+;(3, 6);Idle;(2, 5);False;1;789
+;(3, 6);Idle;(2, 5);False;1;790
+MoveNorth;(3, 5);Idle;(2, 5);False;1;791
+;(3, 5);Idle;(2, 5);False;1;792
+;(3, 5);;(2, 5);False;1;793
+;(3, 5);Idle;(2, 5);False;1;794
+;(3, 5);Idle;(2, 5);False;1;795
+;(3, 5);Idle;(2, 5);False;1;796
+MoveWest;(2, 5);Idle;(2, 5);False;1;797
+;(2, 5);Idle;(2, 5);False;1;798
+;(2, 5);Idle;(2, 5);False;1;799
+;(2, 5);Idle;(2, 5);False;1;800
+;(2, 5);Idle;(2, 5);False;1;801
+;(2, 5);Idle;(2, 5);False;1;802
+;(2, 5);Idle;(2, 5);False;1;803
+;(2, 5);Idle;(2, 5);False;1;804
+;(2, 5);Idle;(2, 5);False;1;805
+;(2, 5);Idle;(2, 5);False;1;806
+;(2, 5);Idle;(2, 5);False;1;807
+;(2, 5);Idle;(2, 5);False;1;808
+;(2, 5);Idle;(2, 5);False;1;809
+;(2, 5);Idle;(2, 5);False;1;810
+MoveEast;(3, 5);Idle;(2, 5);False;1;811
+;(3, 5);Idle;(2, 5);False;1;812
+;(3, 5);Idle;(2, 5);False;1;813
+;(3, 5);Idle;(2, 5);False;1;814
+MoveEast;(4, 5);Idle;(2, 5);False;1;815
+;(4, 5);Idle;(2, 5);False;1;816
+;(4, 5);Idle;(2, 5);False;1;817
+MoveEast;(5, 5);Idle;(2, 5);False;1;818
+;(5, 5);Idle;(2, 5);False;1;819
+;(5, 5);Idle;(2, 5);False;1;820
+MoveEast;(6, 5);Idle;(2, 5);False;1;821
+;(6, 5);Idle;(2, 5);False;1;822
+;(6, 5);Idle;(2, 5);False;1;823
+;(6, 5);Idle;(2, 5);False;1;824
+MoveEast;(7, 5);Idle;(2, 5);False;1;825
+;(7, 5);Idle;(2, 5);False;1;826
+;(7, 5);Idle;(2, 5);False;1;827
+;(7, 5);Idle;(2, 5);False;1;828
+;(7, 5);Idle;(2, 5);False;1;829
+;(7, 5);Idle;(2, 5);False;1;830
+MoveSouth;(7, 6);Idle;(2, 5);False;1;831
+;(7, 6);Idle;(2, 5);False;1;832
+;(7, 6);Idle;(2, 5);False;1;833
+;(7, 6);Idle;(2, 5);False;1;834
+;(7, 6);Idle;(2, 5);False;1;835
+;(7, 6);Idle;(2, 5);False;1;836
+;(7, 6);Idle;(2, 5);False;1;837
+;(7, 6);Idle;(2, 5);False;1;838
+;(7, 6);Idle;(2, 5);False;1;839
+;(7, 6);Idle;(2, 5);False;1;840
+;(7, 6);Idle;(2, 5);False;1;841
+;(7, 6);Idle;(2, 5);False;1;842
+;(7, 6);Idle;(2, 5);False;1;843
+;(7, 6);Idle;(2, 5);False;1;844
+;(7, 6);Idle;(2, 5);False;1;845
+;(7, 6);Idle;(2, 5);False;1;846
+;(7, 6);Idle;(2, 5);False;1;847
+;(7, 6);Idle;(2, 5);False;1;848
+;(7, 6);;(2, 5);False;1;849
+;(7, 6);Idle;(2, 5);False;1;850
+;(7, 6);Idle;(2, 5);False;1;851
+;(7, 6);Idle;(2, 5);False;1;852
+;(7, 6);Idle;(2, 5);False;1;853
+MoveNorth;(7, 5);Idle;(2, 5);False;1;854
+;(7, 5);Idle;(2, 5);False;1;855
+;(7, 5);Idle;(2, 5);False;1;856
+;(7, 5);Idle;(2, 5);False;1;857
+MoveNorth;(7, 4);Idle;(2, 5);False;1;858
+;(7, 4);Idle;(2, 5);False;1;859
+;(7, 4);Idle;(2, 5);False;1;860
+;(7, 4);Idle;(2, 5);False;1;861
+MoveNorth;(7, 3);Idle;(2, 5);False;1;862
+;(7, 3);Idle;(2, 5);False;1;863
+;(7, 3);Idle;(2, 5);False;1;864
+;(7, 3);Idle;(2, 5);False;1;865
+;(7, 3);Idle;(2, 5);False;1;866
+;(7, 3);Idle;(2, 5);False;1;867
+;(7, 3);Idle;(2, 5);False;1;868
+;(7, 3);Idle;(2, 5);False;1;869
+;(7, 3);Idle;(2, 5);False;1;870
+;(7, 3);Idle;(2, 5);False;1;871
+;(7, 3);Idle;(2, 5);False;1;872
+;(7, 3);Idle;(2, 5);False;1;873
+;(7, 3);Idle;(2, 5);False;1;874
+;(7, 3);Idle;(2, 5);False;1;875
+;(7, 3);Idle;(2, 5);False;1;876
+;(7, 3);Idle;(2, 5);False;1;877
+;(7, 3);Idle;(2, 5);False;1;878
+MoveSouth;(7, 4);Idle;(2, 5);False;1;879
+;(7, 4);Idle;(2, 5);False;1;880
+;(7, 4);Idle;(2, 5);False;1;881
+;(7, 4);Idle;(2, 5);False;1;882
+;(7, 4);Idle;(2, 5);False;1;883
+;(7, 4);Idle;(2, 5);False;1;884
+;(7, 4);Idle;(2, 5);False;1;885
+;(7, 4);Idle;(2, 5);False;1;886
+;(7, 4);Idle;(2, 5);False;1;887
+;(7, 4);Idle;(2, 5);False;1;888
+;(7, 4);Idle;(2, 5);False;1;889
+;(7, 4);Idle;(2, 5);False;1;890
+;(7, 4);Idle;(2, 5);False;1;891
+;(7, 4);Idle;(2, 5);False;1;892
+;(7, 4);Idle;(2, 5);False;1;893
+;(7, 4);Idle;(2, 5);False;1;894
+;(7, 4);Idle;(2, 5);False;1;895
+;(7, 4);Idle;(2, 5);False;1;896
+;(7, 4);Idle;(2, 5);False;1;897
+;(7, 4);Idle;(2, 5);False;1;898
+;(7, 4);Idle;(2, 5);False;1;899
+;(7, 4);Idle;(2, 5);False;1;900
+;(7, 4);Idle;(2, 5);False;1;901
+;(7, 4);Idle;(2, 5);False;1;902
+;(7, 4);Idle;(2, 5);False;1;903
+;(7, 4);Idle;(2, 5);False;1;904
+;(7, 4);;(2, 5);False;1;905
+;(7, 4);Idle;(2, 5);False;1;906
+;(7, 4);Idle;(2, 5);False;1;907
+;(7, 4);Idle;(2, 5);False;1;908
+;(7, 4);Idle;(2, 5);False;1;909
+;(7, 4);Idle;(2, 5);False;1;910
+;(7, 4);Idle;(2, 5);False;1;911
+;(7, 4);Idle;(2, 5);False;1;912
+;(7, 4);Idle;(2, 5);False;1;913
+;(7, 4);Idle;(2, 5);False;1;914
+;(7, 4);Idle;(2, 5);False;1;915
+;(7, 4);Idle;(2, 5);False;1;916
+;(7, 4);Idle;(2, 5);False;1;917
+;(7, 4);Idle;(2, 5);False;1;918
+;(7, 4);Idle;(2, 5);False;1;919
+;(7, 4);Idle;(2, 5);False;1;920
+;(7, 4);Idle;(2, 5);False;1;921
+;(7, 4);Idle;(2, 5);False;1;922
+;(7, 4);Idle;(2, 5);False;1;923
+;(7, 4);Idle;(2, 5);False;1;924
+;(7, 4);Idle;(2, 5);False;1;925
+;(7, 4);Idle;(2, 5);False;1;926
+;(7, 4);Idle;(2, 5);False;1;927
+;(7, 4);Idle;(2, 5);False;1;928
+GrabObject;(7, 4);Idle;(2, 5);False;1;929
+;(7, 4);Idle;(2, 5);False;1;930
+;(7, 4);Idle;(2, 5);False;1;931
+;(7, 4);Idle;(2, 5);False;1;932
+;(7, 4);Idle;(2, 5);False;1;933
+;(7, 4);Idle;(2, 5);False;1;934
+;(7, 4);Idle;(2, 5);False;1;935
+;(7, 4);Idle;(2, 5);False;1;936
+;(7, 4);Idle;(2, 5);False;1;937
+;(7, 4);Idle;(2, 5);False;1;938
+;(7, 4);Idle;(2, 5);False;1;939
+;(7, 4);Idle;(2, 5);False;1;940
+;(7, 4);Idle;(2, 5);False;1;941
+;(7, 4);Idle;(2, 5);False;1;942
+;(7, 4);Idle;(2, 5);False;1;943
+;(7, 4);Idle;(2, 5);False;1;944
+;(7, 4);Idle;(2, 5);False;1;945
+;(7, 4);Idle;(2, 5);False;1;946
+;(7, 4);Idle;(2, 5);False;1;947
+;(7, 4);Idle;(2, 5);False;1;948
+;(7, 4);Idle;(2, 5);False;1;949
+;(7, 4);Idle;(2, 5);False;1;950
+;(7, 4);Idle;(2, 5);False;1;951
+;(7, 4);Idle;(2, 5);False;1;952
+;(7, 4);Idle;(2, 5);False;1;953
+;(7, 4);Idle;(2, 5);False;1;954
+;(7, 4);Idle;(2, 5);False;1;955
+MoveSouth;(7, 5);Idle;(2, 5);False;1;956
+;(7, 5);Idle;(2, 5);False;1;957
+;(7, 5);Idle;(2, 5);False;1;958
+;(7, 5);Idle;(2, 5);False;1;959
+;(7, 5);Idle;(2, 5);False;1;960
+MoveSouth;(7, 6);;(2, 5);False;1;961
+;(7, 6);;(2, 5);Robot break large rock at the top;1;962
+;(7, 6);;(2, 5);Robot break large rock at the top;1;963
+;(7, 6);;(2, 5);Robot break large rock at the top;1;964
+;(7, 6);;(2, 5);Robot break large rock at the top;1;965
+MoveWest;(6, 6);;(2, 5);Robot break large rock at the top;1;966
+;(6, 6);;(2, 5);Robot break large rock at the top;1;967
+;(6, 6);;(2, 5);Robot break large rock at the top;1;968
+;(6, 6);;(2, 5);Robot break large rock at the top;1;969
+;(6, 6);;(2, 5);Robot break large rock at the top;1;970
+;(6, 6);;(2, 5);Robot break large rock at the top;1;971
+;(6, 6);;(2, 5);Robot break large rock at the top;1;972
+;(6, 6);;(2, 5);Robot break large rock at the top;1;973
+;(6, 6);;(2, 5);Robot break large rock at the top;1;974
+;(6, 6);;(2, 5);Robot break large rock at the top;1;975
+;(6, 6);;(2, 5);Robot break large rock at the top;1;976
+;(6, 6);;(2, 5);Robot break large rock at the top;1;977
+;(6, 6);;(2, 5);Robot break large rock at the top;1;978
+;(6, 6);;(2, 5);Robot break large rock at the top;1;979
+;(6, 6);;(2, 5);Robot break large rock at the top;1;980
+;(6, 6);;(2, 5);Robot break large rock at the top;1;981
+;(6, 6);;(2, 5);Robot break large rock at the top;1;982
+;(6, 6);;(2, 5);Robot break large rock at the top;1;983
+;(6, 6);;(2, 5);Robot break large rock at the top;1;984
+;(6, 6);;(2, 5);Robot break large rock at the top;1;985
+;(6, 6);;(2, 5);Robot break large rock at the top;1;986
+;(6, 6);;(2, 5);Robot break large rock at the top;1;987
+;(6, 6);;(2, 5);Robot break large rock at the top;1;988
+MoveNorth;(6, 5);;(2, 5);Robot break large rock at the top;1;989
+;(6, 5);;(2, 5);Robot break large rock at the top;1;990
+;(6, 5);;(2, 5);Robot break large rock at the top;1;991
+;(6, 5);;(2, 5);Robot break large rock at the top;1;992
+;(6, 5);;(2, 5);Robot break large rock at the top;1;993
+;(6, 5);;(2, 5);Robot break large rock at the top;1;994
+;(6, 5);;(2, 5);Robot break large rock at the top;1;995
+;(6, 5);;(2, 5);Robot break large rock at the top;1;996
+;(6, 5);;(2, 5);Robot break large rock at the top;1;997
+MoveSouth;(6, 6);;(2, 5);Robot break large rock at the top;1;998
+;(6, 6);;(2, 5);Robot break large rock at the top;1;999
+;(6, 6);;(2, 5);Robot break large rock at the top;1;1000
+;(6, 6);;(2, 5);Robot break large rock at the top;1;1001
+;(6, 6);;(2, 5);Robot break large rock at the top;1;1002
+;(6, 6);;(2, 5);Robot break large rock at the top;1;1003
+;(6, 6);;(2, 5);Robot break large rock at the top;1;1004
+;(6, 6);;(2, 5);Robot break large rock at the top;1;1005
+;(6, 6);;(2, 5);Robot break large rock at the top;1;1006
+;(6, 6);;(2, 5);Robot break large rock at the top;1;1007
+;(6, 6);;(2, 5);Robot break large rock at the top;1;1008
+MoveWest;(5, 6);;(2, 5);Robot break large rock at the top;1;1009
+;(5, 6);;(2, 5);Robot break large rock at the top;1;1010
+;(5, 6);;(2, 5);Robot break large rock at the top;1;1011
+;(5, 6);;(2, 5);Robot break large rock at the top;1;1012
+;(5, 6);;(2, 5);Robot break large rock at the top;1;1013
+;(5, 6);;(2, 5);Robot break large rock at the top;1;1014
+MoveWest;(4, 6);;(2, 5);Robot break large rock at the top;1;1015
+;(4, 6);;(2, 5);Robot break large rock at the top;1;1016
+;(4, 6);;(2, 5);Robot break large rock at the top;1;1017
+;(4, 6);;(2, 5);Robot break large rock at the top;1;1018
+;(4, 6);;(2, 5);Robot break large rock at the top;1;1019
+;(4, 6);;(2, 5);Robot break large rock at the top;1;1020
+;(4, 6);;(2, 5);Robot break large rock at the top;1;1021
+MoveSouth;(4, 7);;(2, 5);Robot break large rock at the top;1;1022
+;(4, 7);;(2, 5);Robot break large rock at the top;1;1023
+;(4, 7);;(2, 5);Robot break large rock at the top;1;1024
+;(4, 7);;(2, 5);Robot break large rock at the top;1;1025
+;(4, 7);;(2, 5);Robot break large rock at the top;1;1026
+;(4, 7);;(2, 5);Robot break large rock at the top;1;1027
+;(4, 7);;(2, 5);Robot break large rock at the top;1;1028
+;(4, 7);;(2, 5);Robot break large rock at the top;1;1029
+;(4, 7);;(2, 5);Robot break large rock at the top;1;1030
+;(4, 7);;(2, 5);Robot break large rock at the top;1;1031
+;(4, 7);;(2, 5);Robot break large rock at the top;1;1032
+;(4, 7);;(2, 5);Robot break large rock at the top;1;1033
+;(4, 7);;(2, 5);Robot break large rock at the top;1;1034
+;(4, 7);;(2, 5);Robot break large rock at the top;1;1035
+;(4, 7);;(2, 5);Robot break large rock at the top;1;1036
+;(4, 7);;(2, 5);Robot break large rock at the top;1;1037
+;(4, 7);;(2, 5);Robot break large rock at the top;1;1038
+;(4, 7);;(2, 5);Robot break large rock at the top;1;1039
+MoveEast;(5, 7);;(2, 5);Robot break large rock at the top;1;1040
+;(5, 7);;(2, 5);Robot break large rock at the top;1;1041
+;(5, 7);;(2, 5);Robot break large rock at the top;1;1042
+;(5, 7);;(2, 5);Robot break large rock at the top;1;1043
+;(5, 7);;(2, 5);Robot break large rock at the top;1;1044
+MoveEast;(6, 7);;(2, 5);Robot break large rock at the top;1;1045
+;(6, 7);;(2, 5);Robot break large rock at the top;1;1046
+;(6, 7);;(2, 5);Robot break large rock at the top;1;1047
+;(6, 7);;(2, 5);Robot break large rock at the top;1;1048
+MoveEast;(7, 7);;(2, 5);Robot break large rock at the top;1;1049
+;(7, 7);;(2, 5);Robot break large rock at the top;1;1050
+;(7, 7);;(2, 5);Robot break large rock at the top;1;1051
+;(7, 7);;(2, 5);Robot break large rock at the top;1;1052
+;(7, 7);;(2, 5);Robot break large rock at the top;1;1053
+;(7, 7);;(2, 5);Robot break large rock at the top;1;1054
+;(7, 7);;(2, 5);Robot break large rock at the top;1;1055
+;(7, 7);;(2, 5);Robot break large rock at the top;1;1056
+;(7, 7);;(2, 5);Robot break large rock at the top;1;1057
+;(7, 7);;(2, 5);Robot break large rock at the top;1;1058
+;(7, 7);;(2, 5);Robot break large rock at the top;1;1059
+;(7, 7);;(2, 5);Robot break large rock at the top;1;1060
+;(7, 7);;(2, 5);Robot break large rock at the top;1;1061
+;(7, 7);;(2, 5);Robot break large rock at the top;1;1062
+;(7, 7);;(2, 5);Robot break large rock at the top;1;1063
+;(7, 7);;(2, 5);Robot break large rock at the top;1;1064
+;(7, 7);;(2, 5);Robot break large rock at the top;1;1065
+;(7, 7);;(2, 5);Robot break large rock at the top;1;1066
+;(7, 7);;(2, 5);Robot break large rock at the top;1;1067
+;(7, 7);;(2, 5);Robot break large rock at the top;1;1068
+;(7, 7);;(2, 5);Robot break large rock at the top;1;1069
+;(7, 7);;(2, 5);Robot break large rock at the top;1;1070
+;(7, 7);;(2, 5);Robot break large rock at the top;1;1071
+;(7, 7);;(2, 5);Robot break large rock at the top;1;1072
+;(7, 7);;(2, 5);Robot break large rock at the top;1;1073
+;(7, 7);;(2, 5);Robot break large rock at the top;1;1074
+;(7, 7);;(2, 5);Robot break large rock at the top;1;1075
+;(7, 7);;(2, 5);Robot break large rock at the top;1;1076
+;(7, 7);;(2, 5);Robot break large rock at the top;1;1077
+;(7, 7);;(2, 5);Robot break large rock at the top;1;1078
+;(7, 7);;(2, 5);Robot break large rock at the top;1;1079
+;(7, 7);;(2, 5);Robot break large rock at the top;1;1080
+;(7, 7);;(2, 5);Robot break large rock at the top;1;1081
+;(7, 7);;(2, 5);Robot break large rock at the top;1;1082
+;(7, 7);;(2, 5);Robot break large rock at the top;1;1083
+;(7, 7);;(2, 5);Robot break large rock at the top;1;1084
+;(7, 7);;(2, 5);Robot break large rock at the top;1;1085
+;(7, 7);;(2, 5);Robot break large rock at the top;1;1086
+;(7, 7);;(2, 5);Robot break large rock at the top;1;1087
+MoveSouth;(7, 8);;(2, 5);Robot break large rock at the top;1;1088
+;(7, 8);;(2, 5);Robot break large rock at the top;1;1089
+;(7, 8);;(2, 5);Robot break large rock at the top;1;1090
+;(7, 8);;(2, 5);Robot break large rock at the top;1;1091
+;(7, 8);;(2, 5);Robot break large rock at the top;1;1092
+;(7, 8);;(2, 5);Robot break large rock at the top;1;1093
+;(7, 8);;(2, 5);Robot break large rock at the top;1;1094
+;(7, 8);;(2, 5);Robot break large rock at the top;1;1095
+;(7, 8);;(2, 5);Robot break large rock at the top;1;1096
+;(7, 8);;(2, 5);Robot break large rock at the top;1;1097
+;(7, 8);;(2, 5);Robot break large rock at the top;1;1098
+;(7, 8);;(2, 5);Robot break large rock at the top;1;1099
+;(7, 8);;(2, 5);Robot break large rock at the top;1;1100
+;(7, 8);;(2, 5);Robot break large rock at the top;1;1101
+;(7, 8);;(2, 5);Robot break large rock at the top;1;1102
+;(7, 8);;(2, 5);Robot break large rock at the top;1;1103
+;(7, 8);;(2, 5);Robot break large rock at the top;1;1104
+;(7, 8);;(2, 5);Robot break large rock at the top;1;1105
+;(7, 8);;(2, 5);Robot break large rock at the top;1;1106
+;(7, 8);;(2, 5);Robot break large rock at the top;1;1107
+;(7, 8);;(2, 5);Robot break large rock at the top;1;1108
+;(7, 8);;(2, 5);Robot break large rock at the top;1;1109
+;(7, 8);;(2, 5);Robot break large rock at the top;1;1110
+;(7, 8);;(2, 5);Robot break large rock at the top;1;1111
+;(7, 8);;(2, 5);Robot break large rock at the top;1;1112
+;(7, 8);;(2, 5);Robot break large rock at the top;1;1113
+;(7, 8);;(2, 5);Robot break large rock at the top;1;1114
+;(7, 8);;(2, 5);Robot break large rock at the top;1;1115
+;(7, 8);;(2, 5);Robot break large rock at the top;1;1116
+;(7, 8);;(2, 5);Robot break large rock at the top;1;1117
+;(7, 8);;(2, 5);Robot break large rock at the top;1;1118
+;(7, 8);;(2, 5);Robot break large rock at the top;1;1119
+;(7, 8);;(2, 5);Robot break large rock at the top;1;1120
+;(7, 8);;(2, 5);Robot break large rock at the top;1;1121
+;(7, 8);;(2, 5);Robot break large rock at the top;1;1122
+;(7, 8);;(2, 5);Robot break large rock at the top;1;1123
+MoveWest;(6, 8);;(2, 5);Robot break large rock at the top;1;1124
+;(6, 8);;(2, 5);Robot break large rock at the top;1;1125
+;(6, 8);;(2, 5);Robot break large rock at the top;1;1126
+;(6, 8);;(2, 5);Robot break large rock at the top;1;1127
+;(6, 8);;(2, 5);Robot break large rock at the top;1;1128
+MoveWest;(5, 8);;(2, 5);Robot break large rock at the top;1;1129
+;(5, 8);;(2, 5);Robot break large rock at the top;1;1130
+;(5, 8);;(2, 5);Robot break large rock at the top;1;1131
+;(5, 8);;(2, 5);Robot break large rock at the top;1;1132
+;(5, 8);;(2, 5);Robot break large rock at the top;1;1133
+;(5, 8);;(2, 5);Robot break large rock at the top;1;1134
+;(5, 8);;(2, 5);Robot break large rock at the top;1;1135
+;(5, 8);;(2, 5);Robot break large rock at the top;1;1136
+;(5, 8);;(2, 5);Robot break large rock at the top;1;1137
+;(5, 8);;(2, 5);Robot break large rock at the top;1;1138
+;(5, 8);;(2, 5);Robot break large rock at the top;1;1139
+;(5, 8);;(2, 5);Robot break large rock at the top;1;1140
+;(5, 8);;(2, 5);Robot break large rock at the top;1;1141
+;(5, 8);;(2, 5);Robot break large rock at the top;1;1142
+;(5, 8);;(2, 5);Robot break large rock at the top;1;1143
+;(5, 8);;(2, 5);Robot break large rock at the top;1;1144
+;(5, 8);;(2, 5);Robot break large rock at the top;1;1145
+MoveEast;(6, 8);;(2, 5);Robot break large rock at the top;1;1146
+;(6, 8);;(2, 5);Robot break large rock at the top;1;1147
+;(6, 8);;(2, 5);Robot break large rock at the top;1;1148
+;(6, 8);;(2, 5);Robot break large rock at the top;1;1149
+;(6, 8);;(2, 5);Robot break large rock at the top;1;1150
+MoveNorth;(6, 7);;(2, 5);Robot break large rock at the top;1;1151
+;(6, 7);;(2, 5);Robot break large rock at the top;1;1152
+;(6, 7);;(2, 5);Robot break large rock at the top;1;1153
+MoveNorth;(6, 6);;(2, 5);Robot break large rock at the top;1;1154
+;(6, 6);;(2, 5);Robot break large rock at the top;1;1155
+;(6, 6);;(2, 5);Robot break large rock at the top;1;1156
+;(6, 6);;(2, 5);Robot break large rock at the top;1;1157
+MoveNorth;(6, 5);;(2, 5);Robot break large rock at the top;1;1158
+;(6, 5);;(2, 5);Robot break large rock at the top;1;1159
+;(6, 5);;(2, 5);Robot break large rock at the top;1;1160
+;(6, 5);;(2, 5);Robot break large rock at the top;1;1161
+MoveNorth;(6, 4);;(2, 5);Robot break large rock at the top;1;1162
+;(6, 4);;(2, 5);Robot break large rock at the top;1;1163
+;(6, 4);;(2, 5);Robot break large rock at the top;1;1164
+;(6, 4);;(2, 5);Robot break large rock at the top;1;1165
+;(6, 4);;(2, 5);Robot break large rock at the top;1;1166
+MoveEast;(7, 4);;(2, 5);Robot break large rock at the top;1;1167
+;(7, 4);;(2, 5);Robot break large rock at the top;1;1168
+;(7, 4);;(2, 5);Robot break large rock at the top;1;1169
+;(7, 4);;(2, 5);Robot break large rock at the top;1;1170
+MoveEast;(8, 4);;(2, 5);Robot break large rock at the top;1;1171
+;(8, 4);;(2, 5);Robot break large rock at the top;1;1172
+;(8, 4);;(2, 5);Robot break large rock at the top;1;1173
+;(8, 4);;(2, 5);Robot break large rock at the top;1;1174
+MoveNorth;(8, 3);;(2, 5);Robot break large rock at the top;1;1175
+;(8, 3);;(2, 5);Robot break large rock at the top;1;1176
+;(8, 3);;(2, 5);Robot break large rock at the top;1;1177
+;(8, 3);;(2, 5);Robot break large rock at the top;1;1178
+;(8, 3);;(2, 5);Robot break large rock at the top;1;1179
+;(8, 3);;(2, 5);Robot break large rock at the top;1;1180
+;(8, 3);;(2, 5);Robot break large rock at the top;1;1181
+;(8, 3);;(2, 5);Robot break large rock at the top;1;1182
+;(8, 3);;(2, 5);Robot break large rock at the top;1;1183
+;(8, 3);;(2, 5);Robot break large rock at the top;1;1184
+;(8, 3);;(2, 5);Robot break large rock at the top;1;1185
+;(8, 3);;(2, 5);Robot break large rock at the top;1;1186
+;(8, 3);;(2, 5);Robot break large rock at the top;1;1187
+;(8, 3);;(2, 5);Robot break large rock at the top;1;1188
+;(8, 3);;(2, 5);Robot break large rock at the top;1;1189
+;(8, 3);;(2, 5);Robot break large rock at the top;1;1190
+;(8, 3);;(2, 5);Robot break large rock at the top;1;1191
+;(8, 3);;(2, 5);Robot break large rock at the top;1;1192
+;(8, 3);;(2, 5);Robot break large rock at the top;1;1193
+;(8, 3);;(2, 5);Robot break large rock at the top;1;1194
+;(8, 3);;(2, 5);Robot break large rock at the top;1;1195
+;(8, 3);;(2, 5);Robot break large rock at the top;1;1196
+;(8, 3);;(2, 5);Robot break large rock at the top;1;1197
+;(8, 3);;(2, 5);Robot break large rock at the top;1;1198
+;(8, 3);;(2, 5);Robot break large rock at the top;1;1199
+;(8, 3);;(2, 5);Robot break large rock at the top;1;1200
+;(8, 3);;(2, 5);Robot break large rock at the top;1;1201
+;(8, 3);;(2, 5);Robot break large rock at the top;1;1202
+;(8, 3);;(2, 5);Robot break large rock at the top;1;1203
+;(8, 3);;(2, 5);Robot break large rock at the top;1;1204
+;(8, 3);;(2, 5);Robot break large rock at the top;1;1205
+;(8, 3);;(2, 5);Robot break large rock at the top;1;1206
+;(8, 3);;(2, 5);Robot break large rock at the top;1;1207
+;(8, 3);;(2, 5);Robot break large rock at the top;1;1208
+;(8, 3);;(2, 5);Robot break large rock at the top;1;1209
+;(8, 3);;(2, 5);Robot break large rock at the top;1;1210
+;(8, 3);;(2, 5);Robot break large rock at the top;1;1211
+GrabObject;(8, 3);;(2, 5);Robot break large rock at the top;1;1212
+;(8, 3);;(2, 5);Robot break large rock at the top;1;1213
+;(8, 3);;(2, 5);Robot break large rock at the top;1;1214
+;(8, 3);;(2, 5);Robot break large rock at the top;1;1215
+MoveWest;(7, 3);;(2, 5);Robot break large rock at the top;1;1216
+;(7, 3);;(2, 5);Robot break large rock at the top;1;1217
+;(7, 3);;(2, 5);Robot break large rock at the top;1;1218
+;(7, 3);;(2, 5);Robot break large rock at the top;1;1219
+MoveWest;(6, 3);;(2, 5);Robot break large rock at the top;1;1220
+;(6, 3);;(2, 5);Robot break large rock at the top;1;1221
+;(6, 3);;(2, 5);Robot break large rock at the top;1;1222
+MoveWest;(5, 3);;(2, 5);Robot break large rock at the top;1;1223
+;(5, 3);;(2, 5);Robot break large rock at the top;1;1224
+;(5, 3);;(2, 5);Robot break large rock at the top;1;1225
+MoveWest;(4, 3);;(2, 5);Robot break large rock at the top;1;1226
+;(4, 3);;(2, 5);Robot break large rock at the top;1;1227
+;(4, 3);;(2, 5);Robot break large rock at the top;1;1228
+;(4, 3);;(2, 5);Robot break large rock at the top;1;1229
+MoveWest;(3, 3);;(2, 5);Robot break large rock at the top;1;1230
+;(3, 3);;(2, 5);Robot break large rock at the top;1;1231
+;(3, 3);;(2, 5);Robot break large rock at the top;1;1232
+MoveWest;(2, 3);;(2, 5);Robot break large rock at the top;1;1233
+;(2, 3);;(2, 5);Robot break large rock at the top;1;1234
+;(2, 3);;(2, 5);Robot break large rock at the top;1;1235
+MoveWest;(1, 3);;(2, 5);Robot break large rock at the top;1;1236
+;(1, 3);;(2, 5);Robot break large rock at the top;1;1237
+;(1, 3);;(2, 5);Robot break large rock at the top;1;1238
+;(1, 3);;(2, 5);Robot break large rock at the top;1;1239
+MoveWest;(0, 3);;(2, 5);Robot break large rock at the top;1;1240
+;(0, 3);;(2, 5);Robot break large rock at the top;1;1241
+;(0, 3);;(2, 5);Robot break large rock at the top;1;1242
+MoveWest;(0, 3);;(2, 5);Robot break large rock at the top;1;1243
+;(0, 3);;(2, 5);Robot break large rock at the top;1;1244
+;(0, 3);;(2, 5);Robot break large rock at the top;1;1245
+;(0, 3);;(2, 5);Robot break large rock at the top;1;1246
+;(0, 3);;(2, 5);Robot break large rock at the top;1;1247
+;(0, 3);;(2, 5);Robot break large rock at the top;1;1248
+MoveSouth;(0, 4);;(2, 5);Robot break large rock at the top;1;1249
+;(0, 4);;(2, 5);Robot break large rock at the top;1;1250
+;(0, 4);;(2, 5);Robot break large rock at the top;1;1251
+;(0, 4);;(2, 5);Robot break large rock at the top;1;1252
+;(0, 4);;(2, 5);Robot break large rock at the top;1;1253
+MoveSouth;(0, 5);;(2, 5);Robot break large rock at the top;1;1254
+;(0, 5);;(2, 5);Robot break large rock at the top;1;1255
+MoveSouth;(0, 6);;(2, 5);Robot break large rock at the top;1;1256
+;(0, 6);;(2, 5);Robot break large rock at the top;1;1257
+;(0, 6);;(2, 5);Robot break large rock at the top;1;1258
+;(0, 6);;(2, 5);Robot break large rock at the top;1;1259
+;(0, 6);;(2, 5);Robot break large rock at the top;1;1260
+;(0, 6);;(2, 5);Robot break large rock at the top;1;1261
+;(0, 6);;(2, 5);Robot break large rock at the top;1;1262
+;(0, 6);;(2, 5);Robot break large rock at the top;1;1263
+;(0, 6);;(2, 5);Robot break large rock at the top;1;1264
+MoveSouth;(0, 7);;(2, 5);Robot break large rock at the top;1;1265
+;(0, 7);;(2, 5);Robot break large rock at the top;1;1266
+;(0, 7);;(2, 5);Robot break large rock at the top;1;1267
+DropObject;(0, 7);;(2, 5);Robot break large rock at the top;1;1268
+;(0, 7);;(2, 5);Robot break large rock at the top;1;1269
+;(0, 7);;(2, 5);Robot break large rock at the top;1;1270
+;(0, 7);;(2, 5);Robot break large rock at the top;1;1271
+;(0, 7);;(2, 5);Robot break large rock at the top;1;1272
+;(0, 7);;(2, 5);Robot break large rock at the top;1;1273
+;(0, 7);;(2, 5);Robot break large rock at the top;1;1274
+MoveNorth;(0, 6);;(2, 5);Robot break large rock at the top;1;1275
+;(0, 6);;(2, 5);Robot break large rock at the top;1;1276
+;(0, 6);;(2, 5);Robot break large rock at the top;1;1277
+;(0, 6);;(2, 5);Robot break large rock at the top;1;1278
+MoveNorth;(0, 5);;(2, 5);Robot break large rock at the top;1;1279
+;(0, 5);;(2, 5);Robot break large rock at the top;1;1280
+;(0, 5);;(2, 5);Robot break large rock at the top;1;1281
+MoveNorth;(0, 4);;(2, 5);Robot break large rock at the top;1;1282
+;(0, 4);;(2, 5);Robot break large rock at the top;1;1283
+;(0, 4);;(2, 5);Robot break large rock at the top;1;1284
+;(0, 4);;(2, 5);Robot break large rock at the top;1;1285
+MoveEast;(1, 4);;(2, 5);Robot break large rock at the top;1;1286
+;(1, 4);;(2, 5);Robot break large rock at the top;1;1287
+;(1, 4);;(2, 5);Robot break large rock at the top;1;1288
+;(1, 4);;(2, 5);Robot break large rock at the top;1;1289
+;(1, 4);;(2, 5);Robot break large rock at the top;1;1290
+;(1, 4);;(2, 5);Robot break large rock at the top;1;1291
+MoveEast;(2, 4);;(2, 5);Robot break large rock at the top;1;1292
+;(2, 4);;(2, 5);Robot break large rock at the top;1;1293
+;(2, 4);;(2, 5);Robot break large rock at the top;1;1294
+MoveEast;(3, 4);;(2, 5);Robot break large rock at the top;1;1295
+;(3, 4);;(2, 5);Robot break large rock at the top;1;1296
+;(3, 4);;(2, 5);Robot break large rock at the top;1;1297
+MoveEast;(4, 4);;(2, 5);Robot break large rock at the top;1;1298
+;(4, 4);;(2, 5);Robot break large rock at the top;1;1299
+;(4, 4);;(2, 5);Robot break large rock at the top;1;1300
+MoveEast;(5, 4);;(2, 5);Robot break large rock at the top;1;1301
+;(5, 4);;(2, 5);Robot break large rock at the top;1;1302
+;(5, 4);;(2, 5);Robot break large rock at the top;1;1303
+MoveEast;(6, 4);;(2, 5);Robot break large rock at the top;1;1304
+;(6, 4);;(2, 5);Robot break large rock at the top;1;1305
+MoveEast;(7, 4);;(2, 5);Robot break large rock at the top;1;1306
+;(7, 4);;(2, 5);Robot break large rock at the top;1;1307
+;(7, 4);;(2, 5);Robot break large rock at the top;1;1308
+;(7, 4);;(2, 5);Robot break large rock at the top;1;1309
+MoveEast;(8, 4);;(2, 5);Robot break large rock at the top;1;1310
+;(8, 4);;(2, 5);Robot break large rock at the top;1;1311
+;(8, 4);;(2, 5);Robot break large rock at the top;1;1312
+;(8, 4);;(2, 5);Robot break large rock at the top;1;1313
+MoveEast;(9, 4);;(2, 5);Robot break large rock at the top;1;1314
+;(9, 4);;(2, 5);Robot break large rock at the top;1;1315
+;(9, 4);;(2, 5);Robot break large rock at the top;1;1316
+;(9, 4);;(2, 5);Robot break large rock at the top;1;1317
+MoveNorth;(9, 3);;(2, 5);Robot break large rock at the top;1;1318
+;(9, 3);;(2, 5);Robot break large rock at the top;1;1319
+;(9, 3);;(2, 5);Robot break large rock at the top;1;1320
+;(9, 3);;(2, 5);Robot break large rock at the top;1;1321
+;(9, 3);;(2, 5);Robot break large rock at the top;1;1322
+;(9, 3);;(2, 5);Robot break large rock at the top;1;1323
+;(9, 3);;(2, 5);Robot break large rock at the top;1;1324
+GrabObject;(9, 3);;(2, 5);Robot break large rock at the top;1;1325
+;(9, 3);;(2, 5);Robot break large rock at the top;1;1326
+;(9, 3);MoveEast;(2, 5);Robot break large rock at the top;1;1327
+;(9, 3);MoveEast;(2, 5);Robot break large rock at the top;1;1328
+MoveWest;(8, 3);MoveEast;(2, 5);Robot break large rock at the top;1;1329
+;(8, 3);MoveEast;(2, 5);Robot break large rock at the top;1;1330
+;(8, 3);MoveEast;(2, 5);Robot break large rock at the top;1;1331
+;(8, 3);MoveEast;(2, 5);Robot break large rock at the top;1;1332
+MoveWest;(7, 3);MoveEast;(2, 5);Robot break large rock at the top;1;1333
+;(7, 3);MoveEast;(2, 5);Robot break large rock at the top;1;1334
+;(7, 3);MoveEast;(2, 5);Robot break large rock at the top;1;1335
+MoveWest;(6, 3);MoveEast;(2, 5);Robot break large rock at the top;1;1336
+;(6, 3);MoveEast;(3, 5);Robot break large rock at the top;1;1337
+;(6, 3);MoveEast;(3, 5);Robot break large rock at the top;1;1338
+MoveWest;(5, 3);MoveEast;(3, 5);Robot break large rock at the top;1;1339
+;(5, 3);MoveEast;(3, 5);Robot break large rock at the top;1;1340
+;(5, 3);MoveEast;(3, 5);Robot break large rock at the top;1;1341
+MoveWest;(4, 3);MoveEast;(3, 5);Robot break large rock at the top;1;1342
+;(4, 3);MoveEast;(3, 5);Robot break large rock at the top;1;1343
+;(4, 3);MoveEast;(3, 5);Robot break large rock at the top;1;1344
+MoveWest;(3, 3);MoveEast;(3, 5);Robot break large rock at the top;1;1345
+;(3, 3);MoveEast;(3, 5);Robot break large rock at the top;1;1346
+;(3, 3);MoveEast;(3, 5);Robot break large rock at the top;1;1347
+;(3, 3);MoveEast;(4, 5);Robot break large rock at the top;1;1348
+MoveWest;(2, 3);MoveEast;(4, 5);Robot break large rock at the top;1;1349
+;(2, 3);MoveEast;(4, 5);Robot break large rock at the top;1;1350
+;(2, 3);MoveEast;(4, 5);Robot break large rock at the top;1;1351
+MoveWest;(1, 3);MoveEast;(4, 5);Robot break large rock at the top;1;1352
+;(1, 3);MoveEast;(4, 5);Robot break large rock at the top;1;1353
+;(1, 3);MoveEast;(4, 5);Robot break large rock at the top;1;1354
+;(1, 3);MoveEast;(4, 5);Robot break large rock at the top;1;1355
+;(1, 3);MoveEast;(4, 5);Robot break large rock at the top;1;1356
+;(1, 3);MoveEast;(4, 5);Robot break large rock at the top;1;1357
+MoveSouth;(1, 4);MoveEast;(4, 5);Robot break large rock at the top;1;1358
+;(1, 4);MoveEast;(5, 5);Robot break large rock at the top;1;1359
+;(1, 4);MoveEast;(5, 5);Robot break large rock at the top;1;1360
+;(1, 4);MoveEast;(5, 5);Robot break large rock at the top;1;1361
+;(1, 4);MoveEast;(5, 5);Robot break large rock at the top;1;1362
+MoveSouth;(1, 5);MoveEast;(5, 5);Robot break large rock at the top;1;1363
+;(1, 5);MoveEast;(5, 5);Robot break large rock at the top;1;1364
+;(1, 5);MoveEast;(5, 5);Robot break large rock at the top;1;1365
+;(1, 5);MoveEast;(5, 5);Robot break large rock at the top;1;1366
+MoveSouth;(1, 6);MoveEast;(5, 5);Robot break large rock at the top;1;1367
+;(1, 6);MoveEast;(5, 5);Robot break large rock at the top;1;1368
+;(1, 6);MoveEast;(5, 5);Robot break large rock at the top;1;1369
+;(1, 6);MoveEast;(6, 5);Robot break large rock at the top;1;1370
+MoveSouth;(1, 7);MoveNorthEast;(6, 5);Robot break large rock at the top;1;1371
+;(1, 7);MoveNorthEast;(6, 5);Robot break large rock at the top;1;1372
+;(1, 7);MoveNorthEast;(6, 5);Robot break large rock at the top;1;1373
+;(1, 7);MoveNorthEast;(6, 5);Robot break large rock at the top;1;1374
+;(1, 7);MoveNorthEast;(6, 5);Robot break large rock at the top;1;1375
+DropObject;(1, 7);MoveNorthEast;(6, 5);Robot break large rock at the top;1;1376
+;(1, 7);MoveNorthEast;(6, 5);Robot break large rock at the top;1;1377
+;(1, 7);MoveNorthEast;(6, 5);Robot break large rock at the top;1;1378
+;(1, 7);MoveNorthEast;(6, 5);Robot break large rock at the top;1;1379
+MoveNorth;(1, 6);MoveNorthEast;(6, 5);Robot break large rock at the top;1;1380
+;(1, 6);MoveNorthEast;(7, 4);Robot break large rock at the top;1;1381
+;(1, 6);MoveEast;(7, 4);Robot break large rock at the top;1;1382
+;(1, 6);MoveEast;(7, 4);Robot break large rock at the top;1;1383
+MoveNorth;(1, 5);MoveEast;(7, 4);Robot break large rock at the top;1;1384
+;(1, 5);MoveEast;(7, 4);Robot break large rock at the top;1;1385
+;(1, 5);MoveEast;(7, 4);Robot break large rock at the top;1;1386
+MoveNorth;(1, 4);MoveEast;(7, 4);Robot break large rock at the top;1;1387
+;(1, 4);MoveEast;(7, 4);Robot break large rock at the top;1;1388
+;(1, 4);MoveEast;(7, 4);Robot break large rock at the top;1;1389
+;(1, 4);MoveEast;(7, 4);Robot break large rock at the top;1;1390
+;(1, 4);MoveEast;(7, 4);Robot break large rock at the top;1;1391
+MoveEast;(2, 4);MoveEast;(8, 4);Robot break large rock at the top;1;1392
+;(2, 4);GrabLargeObject;(8, 4);Robot break large rock at the top;1;1393
+;(2, 4);GrabLargeObject;(8, 4);Robot break large rock at the top;1;1394
+;(2, 4);GrabLargeObject;(8, 4);Robot break large rock at the top;1;1395
+MoveEast;(3, 4);GrabLargeObject;(8, 4);Robot break large rock at the top;1;1396
+;(3, 4);GrabLargeObject;(8, 4);Robot break large rock at the top;1;1397
+;(3, 4);GrabLargeObject;(8, 4);Robot break large rock at the top;1;1398
+MoveEast;(4, 4);GrabLargeObject;(8, 4);Robot break large rock at the top;1;1399
+;(4, 4);GrabLargeObject;(8, 4);Robot break large rock at the top;1;1400
+;(4, 4);GrabLargeObject;(8, 4);Robot break large rock at the top;1;1401
+MoveEast;(5, 4);GrabLargeObject;(8, 4);Robot break large rock at the top;1;1402
+;(5, 4);GrabLargeObject;(8, 4);Robot break large rock at the top;1;1403
+;(5, 4);;(8, 4);Robot break large rock at the top;1;1404
+MoveEast;(6, 4);;(8, 4);Robot break large rock at the top;1;1405
+;(6, 4);;(8, 4);Robot break large rock at the top;1;1406
+;(6, 4);;(8, 4);Robot break large rock at the top;1;1407
+MoveEast;(7, 4);;(8, 4);Robot break large rock at the top;1;1408
+;(7, 4);;(8, 4);Robot break large rock at the top;1;1409
+;(7, 4);;(8, 4);Robot break large rock at the top;1;1410
+;(7, 4);;(8, 4);Robot break large rock at the top;1;1411
+;(7, 4);;(8, 4);Robot break large rock at the top;1;1412
+MoveEast;(8, 4);;(8, 4);Robot break large rock at the top;1;1413
+;(8, 4);;(8, 4);Robot break large rock at the top;1;1414
+;(8, 4);;(8, 4);Robot break large rock at the top;1;1415
+;(8, 4);;(8, 4);Robot break large rock at the top;1;1416
+;(8, 4);;(8, 4);Robot break large rock at the top;1;1417
+;(8, 4);;(8, 4);Robot break large rock at the top;1;1418
+MoveEast;(9, 4);;(8, 4);Robot break large rock at the top;1;1419
+;(9, 4);;(8, 4);Robot break large rock at the top;1;1420
+;(9, 4);;(8, 4);Robot break large rock at the top;1;1421
+;(9, 4);;(8, 4);Robot break large rock at the top;1;1422
+;(9, 4);;(8, 4);Robot break large rock at the top;1;1423
+MoveEast;(10, 4);;(8, 4);Robot break large rock at the top;1;1424
+;(10, 4);;(8, 4);Robot break large rock at the top;1;1425
+;(10, 4);;(8, 4);Robot break large rock at the top;1;1426
+;(10, 4);;(8, 4);Robot break large rock at the top;1;1427
+;(10, 4);;(8, 4);Robot break large rock at the top;1;1428
+;(10, 4);;(8, 4);Robot break large rock at the top;1;1429
+;(10, 4);;(8, 4);Robot break large rock at the top;1;1430
+;(10, 4);;(8, 4);Robot break large rock at the top;1;1431
+;(10, 4);;(8, 4);Robot break large rock at the top;1;1432
+;(10, 4);;(8, 4);Robot break large rock at the top;1;1433
+;(10, 4);;(8, 4);Robot break large rock at the top;1;1434
+GrabObject;(10, 4);;(8, 4);Robot break large rock at the top;1;1435
+;(10, 4);;(8, 4);Robot break large rock at the top;1;1436
+;(10, 4);;(8, 4);Robot break large rock at the top;1;1437
+;(10, 4);;(8, 4);Robot break large rock at the top;1;1438
+MoveWest;(9, 4);;(8, 4);Robot break large rock at the top;1;1439
+;(9, 4);;(8, 4);Robot break large rock at the top;1;1440
+;(9, 4);;(8, 4);Robot break large rock at the top;1;1441
+;(9, 4);;(8, 4);Robot break large rock at the top;1;1442
+MoveWest;(8, 4);;(8, 4);Robot break large rock at the top;1;1443
+;(8, 4);;(8, 4);Robot break large rock at the top;1;1444
+;(8, 4);;(8, 4);Robot break large rock at the top;1;1445
+MoveWest;(7, 4);;(8, 4);Robot break large rock at the top;1;1446
+;(7, 4);;(8, 4);Robot break large rock at the top;1;1447
+;(7, 4);;(8, 4);Robot break large rock at the top;1;1448
+MoveWest;(6, 4);;(8, 4);Robot break large rock at the top;1;1449
+;(6, 4);;(8, 4);Robot break large rock at the top;1;1450
+;(6, 4);;(8, 4);Robot break large rock at the top;1;1451
+MoveWest;(5, 4);;(8, 4);Robot break large rock at the top;1;1452
+;(5, 4);;(8, 4);Robot break large rock at the top;1;1453
+;(5, 4);;(8, 4);Robot break large rock at the top;1;1454
+;(5, 4);;(8, 4);Robot break large rock at the top;1;1455
+MoveWest;(4, 4);;(8, 4);Robot break large rock at the top;1;1456
+;(4, 4);;(8, 4);Robot break large rock at the top;1;1457
+;(4, 4);;(8, 4);Robot break large rock at the top;1;1458
+MoveWest;(3, 4);;(8, 4);Robot break large rock at the top;1;1459
+;(3, 4);;(8, 4);Robot break large rock at the top;1;1460
+;(3, 4);;(8, 4);Robot break large rock at the top;1;1461
+MoveWest;(2, 4);;(8, 4);Robot break large rock at the top;1;1462
+;(2, 4);;(8, 4);Robot break large rock at the top;1;1463
+;(2, 4);;(8, 4);Robot break large rock at the top;1;1464
+MoveWest;(1, 4);;(8, 4);Robot break large rock at the top;1;1465
+;(1, 4);;(8, 4);Robot break large rock at the top;1;1466
+;(1, 4);;(8, 4);Robot break large rock at the top;1;1467
+;(1, 4);;(8, 4);Robot break large rock at the top;1;1468
+MoveWest;(0, 4);;(8, 4);Robot break large rock at the top;1;1469
+;(0, 4);;(8, 4);Robot break large rock at the top;1;1470
+;(0, 4);;(8, 4);Robot break large rock at the top;1;1471
+;(0, 4);;(8, 4);Robot break large rock at the top;1;1472
+MoveWest;(0, 4);;(8, 4);Robot break large rock at the top;1;1473
+;(0, 4);;(8, 4);Robot break large rock at the top;1;1474
+;(0, 4);;(8, 4);Robot break large rock at the top;1;1475
+;(0, 4);;(8, 4);Robot break large rock at the top;1;1476
+MoveSouth;(0, 5);;(8, 4);Robot break large rock at the top;1;1477
+;(0, 5);;(8, 4);Robot break large rock at the top;1;1478
+;(0, 5);;(8, 4);Robot break large rock at the top;1;1479
+;(0, 5);;(8, 4);Robot break large rock at the top;1;1480
+MoveSouth;(0, 6);;(8, 4);Robot break large rock at the top;1;1481
+;(0, 6);;(8, 4);Robot break large rock at the top;1;1482
+;(0, 6);;(8, 4);Robot break large rock at the top;1;1483
+;(0, 6);;(8, 4);Robot break large rock at the top;1;1484
+;(0, 6);;(8, 4);Robot break large rock at the top;1;1485
+;(0, 6);;(8, 4);Robot break large rock at the top;1;1486
+DropObject;(0, 6);;(8, 4);Robot break large rock at the top;1;1487
+;(0, 6);;(8, 4);Robot break large rock at the top;1;1488
+;(0, 6);;(8, 4);Robot break large rock at the top;1;1489
+;(0, 6);;(8, 4);Robot break large rock at the top;1;1490
+;(0, 6);;(8, 4);Robot break large rock at the top;1;1491
+;(0, 6);;(8, 4);Robot break large rock at the top;1;1492
+;(0, 6);;(8, 4);Robot break large rock at the top;1;1493
+MoveEast;(1, 6);;(8, 4);Robot break large rock at the top;1;1494
+;(1, 6);;(8, 4);Robot break large rock at the top;1;1495
+;(1, 6);;(8, 4);Robot break large rock at the top;1;1496
+MoveEast;(2, 6);;(8, 4);Robot break large rock at the top;1;1497
+;(2, 6);;(8, 4);Robot break large rock at the top;1;1498
+;(2, 6);;(8, 4);Robot break large rock at the top;1;1499
+MoveEast;(3, 6);;(8, 4);Robot break large rock at the top;1;1500
+;(3, 6);;(8, 4);Robot break large rock at the top;1;1501
+;(3, 6);;(8, 4);Robot break large rock at the top;1;1502
+;(3, 6);;(8, 4);Robot break large rock at the top;1;1503
+MoveEast;(4, 6);;(8, 4);Robot break large rock at the top;1;1504
+;(4, 6);;(8, 4);Robot break large rock at the top;1;1505
+;(4, 6);;(8, 4);Robot break large rock at the top;1;1506
+;(4, 6);;(8, 4);Robot break large rock at the top;1;1507
+;(4, 6);;(8, 4);Robot break large rock at the top;1;1508
+;(4, 6);;(8, 4);Robot break large rock at the top;1;1509
+;(4, 6);;(8, 4);Robot break large rock at the top;1;1510
+;(4, 6);;(8, 4);Robot break large rock at the top;1;1511
+;(4, 6);;(8, 4);Robot break large rock at the top;1;1512
+MoveEast;(5, 6);;(8, 4);Robot break large rock at the top;1;1513
+;(5, 6);;(8, 4);Robot break large rock at the top;1;1514
+MoveEast;(6, 6);;(8, 4);Robot break large rock at the top;1;1515
+;(6, 6);;(8, 4);Robot break large rock at the top;1;1516
+MoveEast;(7, 6);;(8, 4);Robot break large rock at the top;1;1517
+MoveEast;(8, 6);;(8, 4);Robot break large rock at the top;1;1518
+;(8, 6);;(8, 4);Robot break large rock at the top;1;1519
+;(8, 6);;(8, 4);Robot break large rock at the top;1;1520
+;(8, 6);;(8, 4);Robot break large rock at the top;1;1521
+;(8, 6);;(8, 4);Robot break large rock at the top;1;1522
+MoveNorth;(8, 5);;(8, 4);Robot break large rock at the top;1;1523
+;(8, 5);;(8, 4);Robot break large rock at the top;1;1524
+;(8, 5);;(8, 4);Robot break large rock at the top;1;1525
+;(8, 5);;(8, 4);Robot break large rock at the top;1;1526
+;(8, 5);;(8, 4);Robot break large rock at the top;1;1527
+;(8, 5);;(8, 4);Robot break large rock at the top;1;1528
+MoveEast;(9, 5);;(8, 4);Robot break large rock at the top;1;1529
+;(9, 5);;(8, 4);Robot break large rock at the top;1;1530
+;(9, 5);;(8, 4);Robot break large rock at the top;1;1531
+;(9, 5);;(8, 4);Robot break large rock at the top;1;1532
+MoveEast;(10, 5);;(8, 4);Robot break large rock at the top;1;1533
+;(10, 5);;(8, 4);Robot break large rock at the top;1;1534
+;(10, 5);;(8, 4);Robot break large rock at the top;1;1535
+;(10, 5);;(8, 4);Robot break large rock at the top;1;1536
+;(10, 5);;(8, 4);Robot break large rock at the top;1;1537
+;(10, 5);;(8, 4);Robot break large rock at the top;1;1538
+;(10, 5);;(8, 4);Robot break large rock at the top;1;1539
+;(10, 5);;(8, 4);Robot break large rock at the top;1;1540
+GrabObject;(10, 5);;(8, 4);Robot break large rock at the top;1;1541
+;(10, 5);;(8, 4);Robot break large rock at the top;1;1542
+;(10, 5);;(8, 4);Robot break large rock at the top;1;1543
+MoveWest;(9, 5);;(8, 4);Robot break large rock at the top;1;1544
+;(9, 5);;(8, 4);Robot break large rock at the top;1;1545
+;(9, 5);;(8, 4);Robot break large rock at the top;1;1546
+MoveWest;(8, 5);;(8, 4);Robot break large rock at the top;1;1547
+;(8, 5);;(8, 4);Robot break large rock at the top;1;1548
+;(8, 5);;(8, 4);Robot break large rock at the top;1;1549
+;(8, 5);;(8, 4);Robot break large rock at the top;1;1550
+MoveWest;(7, 5);;(8, 4);Robot break large rock at the top;1;1551
+;(7, 5);;(8, 4);Robot break large rock at the top;1;1552
+;(7, 5);;(8, 4);Robot break large rock at the top;1;1553
+MoveWest;(6, 5);;(8, 4);Robot break large rock at the top;1;1554
+;(6, 5);;(8, 4);Robot break large rock at the top;1;1555
+;(6, 5);;(8, 4);Robot break large rock at the top;1;1556
+MoveWest;(5, 5);;(8, 4);Robot break large rock at the top;1;1557
+;(5, 5);;(8, 4);Robot break large rock at the top;1;1558
+MoveWest;(4, 5);;(8, 4);Robot break large rock at the top;1;1559
+;(4, 5);;(8, 4);Robot break large rock at the top;1;1560
+;(4, 5);;(8, 4);Robot break large rock at the top;1;1561
+;(4, 5);;(8, 4);Robot break large rock at the top;1;1562
+MoveWest;(3, 5);;(8, 4);Robot break large rock at the top;1;1563
+;(3, 5);;(8, 4);Robot break large rock at the top;1;1564
+;(3, 5);;(8, 4);Robot break large rock at the top;1;1565
+;(3, 5);;(8, 4);Robot break large rock at the top;1;1566
+MoveWest;(2, 5);;(8, 4);Robot break large rock at the top;1;1567
+;(2, 5);;(8, 4);Robot break large rock at the top;1;1568
+;(2, 5);;(8, 4);Robot break large rock at the top;1;1569
+MoveWest;(1, 5);;(8, 4);Robot break large rock at the top;1;1570
+;(1, 5);;(8, 4);Robot break large rock at the top;1;1571
+;(1, 5);;(8, 4);Robot break large rock at the top;1;1572
+;(1, 5);;(8, 4);Robot break large rock at the top;1;1573
+;(1, 5);;(8, 4);Robot break large rock at the top;1;1574
+;(1, 5);;(8, 4);Robot break large rock at the top;1;1575
+;(1, 5);;(8, 4);Robot break large rock at the top;1;1576
+MoveWest;(0, 5);;(8, 4);Robot break large rock at the top;1;1577
+;(0, 5);;(8, 4);Robot break large rock at the top;1;1578
+;(0, 5);;(8, 4);Robot break large rock at the top;1;1579
+;(0, 5);;(8, 4);Robot break large rock at the top;1;1580
+;(0, 5);;(8, 4);Robot break large rock at the top;1;1581
+;(0, 5);;(8, 4);Robot break large rock at the top;1;1582
+;(0, 5);;(8, 4);Robot break large rock at the top;1;1583
+;(0, 5);;(8, 4);Robot break large rock at the top;1;1584
+MoveEast;(1, 5);;(8, 4);Robot break large rock at the top;1;1585
+;(1, 5);;(8, 4);Robot break large rock at the top;1;1586
+;(1, 5);;(8, 4);Robot break large rock at the top;1;1587
+;(1, 5);;(8, 4);Robot break large rock at the top;1;1588
+;(1, 5);;(8, 4);Robot break large rock at the top;1;1589
+;(1, 5);;(8, 4);Robot break large rock at the top;1;1590
+;(1, 5);;(8, 4);Robot break large rock at the top;1;1591
+;(1, 5);;(8, 4);Robot break large rock at the top;1;1592
+MoveSouth;(1, 6);;(8, 4);Robot break large rock at the top;1;1593
+;(1, 6);;(8, 4);Robot break large rock at the top;1;1594
+;(1, 6);;(8, 4);Robot break large rock at the top;1;1595
+;(1, 6);;(8, 4);Robot break large rock at the top;1;1596
+;(1, 6);;(8, 4);Robot break large rock at the top;1;1597
+DropObject;(1, 6);;(8, 4);Robot break large rock at the top;1;1598
+;(1, 6);;(8, 4);Robot break large rock at the top;1;1599
+;(1, 6);;(8, 4);Robot break large rock at the top;1;1600
+;(1, 6);;(8, 4);Robot break large rock at the top;1;1601
+;(1, 6);;(8, 4);Robot break large rock at the top;1;1602
+;(1, 6);;(8, 4);Robot break large rock at the top;1;1603
+;(1, 6);;(8, 4);Robot break large rock at the top;1;1604
+MoveEast;(2, 6);;(8, 4);Robot break large rock at the top;1;1605
+;(2, 6);;(8, 4);Robot break large rock at the top;1;1606
+;(2, 6);;(8, 4);Robot break large rock at the top;1;1607
+MoveEast;(3, 6);;(8, 4);Robot break large rock at the top;1;1608
+;(3, 6);;(8, 4);Robot break large rock at the top;1;1609
+;(3, 6);;(8, 4);Robot break large rock at the top;1;1610
+;(3, 6);;(8, 4);Robot break large rock at the top;1;1611
+MoveEast;(4, 6);;(8, 4);Robot break large rock at the top;1;1612
+;(4, 6);;(8, 4);Robot break large rock at the top;1;1613
+;(4, 6);;(8, 4);Robot break large rock at the top;1;1614
+MoveEast;(5, 6);;(8, 4);Robot break large rock at the top;1;1615
+;(5, 6);;(8, 4);Robot break large rock at the top;1;1616
+;(5, 6);;(8, 4);Robot break large rock at the top;1;1617
+MoveEast;(6, 6);;(8, 4);Robot break large rock at the top;1;1618
+;(6, 6);;(8, 4);Robot break large rock at the top;1;1619
+;(6, 6);;(8, 4);Robot break large rock at the top;1;1620
+MoveEast;(7, 6);;(8, 4);Robot break large rock at the top;1;1621
+;(7, 6);;(8, 4);Robot break large rock at the top;1;1622
+;(7, 6);;(8, 4);Robot break large rock at the top;1;1623
+;(7, 6);;(8, 4);Robot break large rock at the top;1;1624
+MoveEast;(8, 6);;(8, 4);Robot break large rock at the top;1;1625
+;(8, 6);;(8, 4);Robot break large rock at the top;1;1626
+;(8, 6);;(8, 4);Robot break large rock at the top;1;1627
+;(8, 6);;(8, 4);Robot break large rock at the top;1;1628
+;(8, 6);;(8, 4);Robot break large rock at the top;1;1629
+;(8, 6);;(8, 4);Robot break large rock at the top;1;1630
+MoveEast;(9, 6);;(8, 4);Robot break large rock at the top;1;1631
+;(9, 6);;(8, 4);Robot break large rock at the top;1;1632
+;(9, 6);;(8, 4);Robot break large rock at the top;1;1633
+;(9, 6);;(8, 4);Robot break large rock at the top;1;1634
+;(9, 6);;(8, 4);Robot break large rock at the top;1;1635
+MoveNorth;(9, 5);;(8, 4);Robot break large rock at the top;1;1636
+;(9, 5);;(8, 4);Robot break large rock at the top;1;1637
+;(9, 5);;(8, 4);Robot break large rock at the top;1;1638
+;(9, 5);;(8, 4);Robot break large rock at the top;1;1639
+MoveNorth;(9, 4);;(8, 4);Robot break large rock at the top;1;1640
+;(9, 4);;(8, 4);Robot break large rock at the top;1;1641
+;(9, 4);;(8, 4);Robot break large rock at the top;1;1642
+;(9, 4);;(8, 4);Robot break large rock at the top;1;1643
+;(9, 4);;(8, 4);Robot break large rock at the top;1;1644
+;(9, 4);;(8, 4);Robot break large rock at the top;1;1645
+MoveWest;(8, 4);;(8, 4);Robot break large rock at the top;1;1646
+;(8, 4);;(8, 4);Robot break large rock at the top;1;1647
+;(8, 4);;(8, 4);Robot break large rock at the top;1;1648
+;(8, 4);;(8, 4);Robot break large rock at the top;1;1649
+;(8, 4);;(8, 4);Robot break large rock at the top;1;1650
+;(8, 4);;(8, 4);Robot break large rock at the top;1;1651
+;(8, 4);;(8, 4);Robot break large rock at the top;1;1652
+;(8, 4);;(8, 4);Robot break large rock at the top;1;1653
+;(8, 4);;(8, 4);Robot break large rock at the top;1;1654
+;(8, 4);;(8, 4);Robot break large rock at the top;1;1655
+GrabObject;(8, 4);;(8, 4);Robot break large rock at the top;1;1656
+;(8, 4);;(8, 4);Robot break large rock at the top;1;1657
+;(8, 4);;(8, 4);Robot break large rock at the top;1;1658
+;(8, 4);;(8, 4);Robot break large rock at the top;1;1659
+MoveWest;(7, 4);;(8, 4);Robot break large rock at the top;1;1660
+;(7, 4);;(8, 4);Robot break large rock at the top;1;1661
+;(7, 4);;(8, 4);Robot break large rock at the top;1;1662
+;(7, 4);;(8, 4);Robot break large rock at the top;1;1663
+;(7, 4);;(8, 4);Robot break large rock at the top;1;1664
+;(7, 4);;(8, 4);Robot break large rock at the top;1;1665
+MoveWest;(6, 4);;(8, 4);Robot break large rock at the top;1;1666
+;(6, 4);;(8, 4);Robot break large rock at the top;1;1667
+;(6, 4);;(8, 4);Robot break large rock at the top;1;1668
+;(6, 4);;(8, 4);Robot break large rock at the top;1;1669
+;(6, 4);;(8, 4);Robot break large rock at the top;1;1670
+;(6, 4);;(8, 4);Robot break large rock at the top;1;1671
+;(6, 4);;(8, 4);Robot break large rock at the top;1;1672
+;(6, 4);;(8, 4);Robot break large rock at the top;1;1673
+;(6, 4);;(8, 4);Robot break large rock at the top;1;1674
+MoveEast;(7, 4);;(8, 4);Robot break large rock at the top;1;1675
+;(7, 4);;(8, 4);Robot break large rock at the top;1;1676
+;(7, 4);;(8, 4);Robot break large rock at the top;1;1677
+;(7, 4);;(8, 4);Robot break large rock at the top;1;1678
+;(7, 4);;(8, 4);Robot break large rock at the top;1;1679
+;(7, 4);;(8, 4);Robot break large rock at the top;1;1680
+;(7, 4);;(8, 4);Robot break large rock at the top;1;1681
+MoveSouth;(7, 5);;(8, 4);Robot break large rock at the top;1;1682
+;(7, 5);;(8, 4);Robot break large rock at the top;1;1683
+;(7, 5);;(8, 4);Robot break large rock at the top;1;1684
+;(7, 5);;(8, 4);Robot break large rock at the top;1;1685
+;(7, 5);;(8, 4);Robot break large rock at the top;1;1686
+;(7, 5);;(8, 4);Robot break large rock at the top;1;1687
+;(7, 5);;(8, 4);Robot break large rock at the top;1;1688
+;(7, 5);;(8, 4);Robot break large rock at the top;1;1689
+MoveEast;(8, 5);;(8, 4);Robot break large rock at the top;1;1690
+;(8, 5);;(8, 4);Robot break large rock at the top;1;1691
+;(8, 5);;(8, 4);Robot break large rock at the top;1;1692
+;(8, 5);;(8, 4);Robot break large rock at the top;1;1693
+;(8, 5);;(8, 4);Robot break large rock at the top;1;1694
+MoveEast;(9, 5);;(8, 4);Robot break large rock at the top;1;1695
+;(9, 5);;(8, 4);Robot break large rock at the top;1;1696
+;(9, 5);;(8, 4);Robot break large rock at the top;1;1697
+;(9, 5);;(8, 4);Robot break large rock at the top;1;1698
+;(9, 5);;(8, 4);Robot break large rock at the top;1;1699
+MoveEast;(10, 5);;(8, 4);Robot break large rock at the top;1;1700
+;(10, 5);;(8, 4);Robot break large rock at the top;1;1701
+;(10, 5);;(8, 4);Robot break large rock at the top;1;1702
+;(10, 5);;(8, 4);Robot break large rock at the top;1;1703
+;(10, 5);;(8, 4);Robot break large rock at the top;1;1704
+;(10, 5);;(8, 4);Robot break large rock at the top;1;1705
+;(10, 5);;(8, 4);Robot break large rock at the top;1;1706
+;(10, 5);;(8, 4);Robot break large rock at the top;1;1707
+MoveEast;(11, 5);;(8, 4);Robot break large rock at the top;1;1708
+;(11, 5);;(8, 4);Robot break large rock at the top;1;1709
+;(11, 5);;(8, 4);Robot break large rock at the top;1;1710
+;(11, 5);;(8, 4);Robot break large rock at the top;1;1711
+;(11, 5);;(8, 4);Robot break large rock at the top;1;1712
+;(11, 5);;(8, 4);Robot break large rock at the top;1;1713
+MoveEast;(12, 5);;(8, 4);Robot break large rock at the top;1;1714
+;(12, 5);;(8, 4);Robot break large rock at the top;1;1715
+;(12, 5);;(8, 4);Robot break large rock at the top;1;1716
+;(12, 5);;(8, 4);Robot break large rock at the top;1;1717
+;(12, 5);;(8, 4);Robot break large rock at the top;1;1718
+;(12, 5);;(8, 4);Robot break large rock at the top;1;1719
+;(12, 5);;(8, 4);Robot break large rock at the top;1;1720
+MoveSouth;(12, 6);;(8, 4);Robot break large rock at the top;1;1721
+;(12, 6);;(8, 4);Robot break large rock at the top;1;1722
+;(12, 6);;(8, 4);Robot break large rock at the top;1;1723
+;(12, 6);;(8, 4);Robot break large rock at the top;1;1724
+;(12, 6);;(8, 4);Robot break large rock at the top;1;1725
+;(12, 6);;(8, 4);Robot break large rock at the top;1;1726
+;(12, 6);;(8, 4);Robot break large rock at the top;1;1727
+MoveSouth;(12, 7);;(8, 4);Robot break large rock at the top;1;1728
+;(12, 7);;(8, 4);Robot break large rock at the top;1;1729
+;(12, 7);;(8, 4);Robot break large rock at the top;1;1730
+;(12, 7);;(8, 4);Robot break large rock at the top;1;1731
+;(12, 7);;(8, 4);Robot break large rock at the top;1;1732
+MoveWest;(11, 7);;(8, 4);Robot break large rock at the top;1;1733
+;(11, 7);;(8, 4);Robot break large rock at the top;1;1734
+;(11, 7);;(8, 4);Robot break large rock at the top;1;1735
+;(11, 7);;(8, 4);Robot break large rock at the top;1;1736
+;(11, 7);;(8, 4);Robot break large rock at the top;1;1737
+;(11, 7);;(8, 4);Robot break large rock at the top;1;1738
+;(11, 7);;(8, 4);Robot break large rock at the top;1;1739
+GrabObject;(11, 7);;(8, 4);Robot break large rock at the top;1;1740
+;(11, 7);;(8, 4);Robot break large rock at the top;1;1741
+;(11, 7);;(8, 4);Robot break large rock at the top;1;1742
+;(11, 7);;(8, 4);Robot break large rock at the top;1;1743
+;(11, 7);;(8, 4);Robot break large rock at the top;1;1744
+;(11, 7);;(8, 4);Robot break large rock at the top;1;1745
+;(11, 7);;(8, 4);Robot break large rock at the top;1;1746
+;(11, 7);;(8, 4);Robot break large rock at the top;1;1747
+;(11, 7);;(8, 4);Robot break large rock at the top;1;1748
+;(11, 7);;(8, 4);Robot break large rock at the top;1;1749
+;(11, 7);;(8, 4);Robot break large rock at the top;1;1750
+MoveEast;(12, 7);;(8, 4);Robot break large rock at the top;1;1751
+;(12, 7);;(8, 4);Robot break large rock at the top;1;1752
+;(12, 7);;(8, 4);Robot break large rock at the top;1;1753
+MoveEast;(13, 7);;(8, 4);Robot break large rock at the top;1;1754
+;(13, 7);;(8, 4);Robot break large rock at the top;1;1755
+;(13, 7);;(8, 4);Robot break large rock at the top;1;1756
+MoveEast;(14, 7);;(8, 4);Robot break large rock at the top;1;1757
+;(14, 7);;(8, 4);Robot break large rock at the top;1;1758
+;(14, 7);;(8, 4);Robot break large rock at the top;1;1759
+MoveEast;(15, 7);;(8, 4);Robot break large rock at the top;1;1760
+;(15, 7);;(8, 4);Robot break large rock at the top;1;1761
+;(15, 7);;(8, 4);Robot break large rock at the top;1;1762
+MoveEast;(16, 7);;(8, 4);Robot break large rock at the top;1;1763
+;(16, 7);;(8, 4);Robot break large rock at the top;1;1764
+;(16, 7);;(8, 4);Robot break large rock at the top;1;1765
+;(16, 7);;(8, 4);Robot break large rock at the top;1;1766
+;(16, 7);;(8, 4);Robot break large rock at the top;1;1767
+;(16, 7);;(8, 4);Robot break large rock at the top;1;1768
+;(16, 7);;(8, 4);Robot break large rock at the top;1;1769
+;(16, 7);;(8, 4);Robot break large rock at the top;1;1770
+;(16, 7);;(8, 4);Robot break large rock at the top;1;1771
+;(16, 7);;(8, 4);Robot break large rock at the top;1;1772
+;(16, 7);;(8, 4);Robot break large rock at the top;1;1773
+MoveWest;(15, 7);;(8, 4);Robot break large rock at the top;1;1774
+;(15, 7);;(8, 4);Robot break large rock at the top;1;1775
+;(15, 7);;(8, 4);Robot break large rock at the top;1;1776
+;(15, 7);;(8, 4);Robot break large rock at the top;1;1777
+;(15, 7);;(8, 4);Robot break large rock at the top;1;1778
+;(15, 7);;(8, 4);Robot break large rock at the top;1;1779
+;(15, 7);;(8, 4);Robot break large rock at the top;1;1780
+;(15, 7);;(8, 4);Robot break large rock at the top;1;1781
+MoveSouth;(15, 8);;(8, 4);Robot break large rock at the top;1;1782
+;(15, 8);;(8, 4);Robot break large rock at the top;1;1783
+;(15, 8);;(8, 4);Robot break large rock at the top;1;1784
+;(15, 8);;(8, 4);Robot break large rock at the top;1;1785
+MoveSouth;(15, 9);;(8, 4);Robot break large rock at the top;1;1786
+;(15, 9);;(8, 4);Robot break large rock at the top;1;1787
+;(15, 9);;(8, 4);Robot break large rock at the top;1;1788
+;(15, 9);;(8, 4);Robot break large rock at the top;1;1789
+;(15, 9);;(8, 4);Robot break large rock at the top;1;1790
+MoveEast;(16, 9);;(8, 4);Robot break large rock at the top;1;1791
+;(16, 9);;(8, 4);Robot break large rock at the top;1;1792
+;(16, 9);;(8, 4);Robot break large rock at the top;1;1793
+;(16, 9);;(8, 4);Robot break large rock at the top;1;1794
+;(16, 9);;(8, 4);Robot break large rock at the top;1;1795
+DropObject;(16, 9);;(8, 4);Robot break large rock at the top;1;1796
+;(16, 9);;(8, 4);Robot break large rock at the top;1;1797
+;(16, 9);;(8, 4);Robot break large rock at the top;1;1798
+;(16, 9);;(8, 4);Robot break large rock at the top;1;1799
+MoveWest;(15, 9);;(8, 4);Robot break large rock at the top;1;1800
+;(15, 9);;(8, 4);Robot break large rock at the top;1;1801
+;(15, 9);;(8, 4);Robot break large rock at the top;1;1802
+;(15, 9);;(8, 4);Robot break large rock at the top;1;1803
+;(15, 9);;(8, 4);Robot break large rock at the top;1;1804
+MoveWest;(14, 9);;(8, 4);Robot break large rock at the top;1;1805
+;(14, 9);;(8, 4);Robot break large rock at the top;1;1806
+;(14, 9);;(8, 4);Robot break large rock at the top;1;1807
+;(14, 9);;(8, 4);Robot break large rock at the top;1;1808
+MoveWest;(13, 9);;(8, 4);Robot break large rock at the top;1;1809
+;(13, 9);;(8, 4);Robot break large rock at the top;1;1810
+;(13, 9);;(8, 4);Robot break large rock at the top;1;1811
+MoveNorth;(13, 8);;(8, 4);Robot break large rock at the top;1;1812
+;(13, 8);;(8, 4);Robot break large rock at the top;1;1813
+;(13, 8);;(8, 4);Robot break large rock at the top;1;1814
+;(13, 8);;(8, 4);Robot break large rock at the top;1;1815
+MoveNorth;(13, 7);;(8, 4);Robot break large rock at the top;1;1816
+;(13, 7);;(8, 4);Robot break large rock at the top;1;1817
+;(13, 7);;(8, 4);Robot break large rock at the top;1;1818
+;(13, 7);;(8, 4);Robot break large rock at the top;1;1819
+;(13, 7);;(8, 4);Robot break large rock at the top;1;1820
+MoveNorth;(13, 6);;(8, 4);Robot break large rock at the top;1;1821
+;(13, 6);;(8, 4);Robot break large rock at the top;1;1822
+;(13, 6);;(8, 4);Robot break large rock at the top;1;1823
+;(13, 6);;(8, 4);Robot break large rock at the top;1;1824
+MoveWest;(12, 6);;(8, 4);Robot break large rock at the top;1;1825
+;(12, 6);;(8, 4);Robot break large rock at the top;1;1826
+;(12, 6);;(8, 4);Robot break large rock at the top;1;1827
+;(12, 6);;(8, 4);Robot break large rock at the top;1;1828
+;(12, 6);;(8, 4);Robot break large rock at the top;1;1829
+MoveSouth;(12, 7);;(8, 4);Robot break large rock at the top;1;1830
+;(12, 7);;(8, 4);Robot break large rock at the top;1;1831
+;(12, 7);;(8, 4);Robot break large rock at the top;1;1832
+;(12, 7);;(8, 4);Robot break large rock at the top;1;1833
+;(12, 7);;(8, 4);Robot break large rock at the top;1;1834
+;(12, 7);;(8, 4);Robot break large rock at the top;1;1835
+;(12, 7);;(8, 4);Robot break large rock at the top;1;1836
+GrabObject;(12, 7);;(8, 4);Robot break large rock at the top;1;1837
+;(12, 7);;(8, 4);Robot break large rock at the top;1;1838
+;(12, 7);;(8, 4);Robot break large rock at the top;1;1839
+;(12, 7);;(8, 4);Robot break large rock at the top;1;1840
+MoveEast;(13, 7);;(8, 4);Robot break large rock at the top;1;1841
+;(13, 7);;(8, 4);Robot break large rock at the top;1;1842
+;(13, 7);;(8, 4);Robot break large rock at the top;1;1843
+MoveEast;(14, 7);;(8, 4);Robot break large rock at the top;1;1844
+;(14, 7);;(8, 4);Robot break large rock at the top;1;1845
+;(14, 7);;(8, 4);Robot break large rock at the top;1;1846
+MoveEast;(15, 7);;(8, 4);Robot break large rock at the top;1;1847
+;(15, 7);;(8, 4);Robot break large rock at the top;1;1848
+;(15, 7);;(8, 4);Robot break large rock at the top;1;1849
+MoveEast;(16, 7);;(8, 4);Robot break large rock at the top;1;1850
+;(16, 7);;(8, 4);Robot break large rock at the top;1;1851
+;(16, 7);;(8, 4);Robot break large rock at the top;1;1852
+;(16, 7);;(8, 4);Robot break large rock at the top;1;1853
+MoveSouth;(16, 8);;(8, 4);Robot break large rock at the top;1;1854
+;(16, 8);;(8, 4);Robot break large rock at the top;1;1855
+;(16, 8);;(8, 4);Robot break large rock at the top;1;1856
+;(16, 8);;(8, 4);Robot break large rock at the top;1;1857
+;(16, 8);;(8, 4);Robot break large rock at the top;1;1858
+MoveSouth;(16, 9);;(8, 4);Robot break large rock at the top;1;1859
+;(16, 9);;(8, 4);Robot break large rock at the top;1;1860
+;(16, 9);;(8, 4);Robot break large rock at the top;1;1861
+;(16, 9);;(8, 4);Robot break large rock at the top;1;1862
+DropObject;(16, 9);;(8, 4);Robot break large rock at the top;1;1863
+;(16, 9);;(8, 4);Robot break large rock at the top;1;1864
+;(16, 9);;(8, 4);Robot break large rock at the top;1;1865
+;(16, 9);;(8, 4);Robot break large rock at the top;1;1866
+;(16, 9);;(8, 4);Robot break large rock at the top;1;1867
+MoveWest;(15, 9);;(8, 4);Robot break large rock at the top;1;1868
+;(15, 9);;(8, 4);Robot break large rock at the top;1;1869
+;(15, 9);;(8, 4);Robot break large rock at the top;1;1870
+;(15, 9);;(8, 4);Robot break large rock at the top;1;1871
+;(15, 9);;(8, 4);Robot break large rock at the top;1;1872
+MoveWest;(14, 9);;(8, 4);Robot break large rock at the top;1;1873
+;(14, 9);;(8, 4);Robot break large rock at the top;1;1874
+;(14, 9);;(8, 4);Robot break large rock at the top;1;1875
+;(14, 9);;(8, 4);Robot break large rock at the top;1;1876
+MoveNorth;(14, 8);;(8, 4);Robot break large rock at the top;1;1877
+;(14, 8);;(8, 4);Robot break large rock at the top;1;1878
+;(14, 8);;(8, 4);Robot break large rock at the top;1;1879
+;(14, 8);;(8, 4);Robot break large rock at the top;1;1880
+;(14, 8);;(8, 4);Robot break large rock at the top;1;1881
+;(14, 8);;(8, 4);Robot break large rock at the top;1;1882
+MoveWest;(13, 8);;(8, 4);Robot break large rock at the top;1;1883
+;(13, 8);;(8, 4);Robot break large rock at the top;1;1884
+;(13, 8);;(8, 4);Robot break large rock at the top;1;1885
+;(13, 8);;(8, 4);Robot break large rock at the top;1;1886
+;(13, 8);;(8, 4);Robot break large rock at the top;1;1887
+;(13, 8);;(8, 4);Robot break large rock at the top;1;1888
+MoveNorth;(13, 7);;(8, 4);Robot break large rock at the top;1;1889
+;(13, 7);;(8, 4);Robot break large rock at the top;1;1890
+;(13, 7);;(8, 4);Robot break large rock at the top;1;1891
+;(13, 7);;(8, 4);Robot break large rock at the top;1;1892
+;(13, 7);;(8, 4);Robot break large rock at the top;1;1893
+;(13, 7);;(8, 4);Robot break large rock at the top;1;1894
+GrabObject;(13, 7);;(8, 4);Robot break large rock at the top;1;1895
+;(13, 7);;(8, 4);Robot break large rock at the top;1;1896
+;(13, 7);;(8, 4);Robot break large rock at the top;1;1897
+;(13, 7);;(8, 4);Robot break large rock at the top;1;1898
+MoveEast;(14, 7);;(8, 4);Robot break large rock at the top;1;1899
+;(14, 7);;(8, 4);Robot break large rock at the top;1;1900
+;(14, 7);;(8, 4);Robot break large rock at the top;1;1901
+;(14, 7);;(8, 4);Robot break large rock at the top;1;1902
+MoveEast;(15, 7);;(8, 4);Robot break large rock at the top;1;1903
+;(15, 7);;(8, 4);Robot break large rock at the top;1;1904
+;(15, 7);;(8, 4);Robot break large rock at the top;1;1905
+;(15, 7);;(8, 4);Robot break large rock at the top;1;1906
+;(15, 7);;(8, 4);Robot break large rock at the top;1;1907
+;(15, 7);;(8, 4);Robot break large rock at the top;1;1908
+MoveEast;(16, 7);;(8, 4);Robot break large rock at the top;1;1909
+;(16, 7);;(8, 4);Robot break large rock at the top;1;1910
+;(16, 7);;(8, 4);Robot break large rock at the top;1;1911
+;(16, 7);;(8, 4);Robot break large rock at the top;1;1912
+MoveSouth;(16, 8);;(8, 4);Robot break large rock at the top;1;1913
+;(16, 8);;(8, 4);Robot break large rock at the top;1;1914
+;(16, 8);;(8, 4);Robot break large rock at the top;1;1915
+;(16, 8);;(8, 4);Robot break large rock at the top;1;1916
+;(16, 8);;(8, 4);Robot break large rock at the top;1;1917
+;(16, 8);;(8, 4);Robot break large rock at the top;1;1918
+;(16, 8);;(8, 4);Robot break large rock at the top;1;1919
+DropObject;(16, 8);;(8, 4);Robot break large rock at the top;1;1920
+;(16, 8);;(8, 4);Robot break large rock at the top;1;1921
+;(16, 8);;(8, 4);Robot break large rock at the top;1;1922
+;(16, 8);;(8, 4);Robot break large rock at the top;1;1923
+;(16, 8);;(8, 4);Robot break large rock at the top;1;1924
+;(16, 8);;(8, 4);Robot break large rock at the top;1;1925
+;(16, 8);;(8, 4);Robot break large rock at the top;1;1926
+;(16, 8);;(8, 4);Robot break large rock at the top;1;1927
+;(16, 8);;(8, 4);Robot break large rock at the top;1;1928
+;(16, 8);;(8, 4);Robot break large rock at the top;1;1929
+;(16, 8);;(8, 4);Robot break large rock at the top;1;1930
+;(16, 8);;(8, 4);Robot break large rock at the top;1;1931
+;(16, 8);;(8, 4);Robot break large rock at the top;1;1932
+;(16, 8);;(8, 4);Robot break large rock at the top;1;1933
+;(16, 8);;(8, 4);Robot break large rock at the top;1;1934
+;(16, 8);;(8, 4);Robot break large rock at the top;1;1935
+;(16, 8);;(8, 4);Robot break large rock at the top;1;1936
+MoveWest;(15, 8);;(8, 4);Robot break large rock at the top;1;1937
+;(15, 8);;(8, 4);Robot break large rock at the top;1;1938
+;(15, 8);;(8, 4);Robot break large rock at the top;1;1939
+;(15, 8);;(8, 4);Robot break large rock at the top;1;1940
+MoveWest;(14, 8);;(8, 4);Robot break large rock at the top;1;1941
+;(14, 8);;(8, 4);Robot break large rock at the top;1;1942
+;(14, 8);;(8, 4);Robot break large rock at the top;1;1943
+MoveWest;(13, 8);;(8, 4);Robot break large rock at the top;1;1944
+;(13, 8);;(8, 4);Robot break large rock at the top;1;1945
+;(13, 8);;(8, 4);Robot break large rock at the top;1;1946
+;(13, 8);;(8, 4);Robot break large rock at the top;1;1947
+MoveSouth;(13, 9);;(8, 4);Robot break large rock at the top;1;1948
+;(13, 9);;(8, 4);Robot break large rock at the top;1;1949
+;(13, 9);;(8, 4);Robot break large rock at the top;1;1950
+;(13, 9);;(8, 4);Robot break large rock at the top;1;1951
+;(13, 9);;(8, 4);Robot break large rock at the top;1;1952
+;(13, 9);;(8, 4);Robot break large rock at the top;1;1953
+;(13, 9);;(8, 4);Robot break large rock at the top;1;1954
+;(13, 9);;(8, 4);Robot break large rock at the top;1;1955
+MoveSouth;(13, 10);;(8, 4);Robot break large rock at the top;1;1956
+;(13, 10);;(8, 4);Robot break large rock at the top;1;1957
+;(13, 10);;(8, 4);Robot break large rock at the top;1;1958
+;(13, 10);;(8, 4);Robot break large rock at the top;1;1959
+GrabObject;(13, 10);;(8, 4);Robot break large rock at the top;1;1960
+;(13, 10);;(8, 4);Robot break large rock at the top;1;1961
+;(13, 10);;(8, 4);Robot break large rock at the top;1;1962
+;(13, 10);;(8, 4);Robot break large rock at the top;1;1963
+MoveEast;(14, 10);;(8, 4);Robot break large rock at the top;1;1964
+;(14, 10);;(8, 4);Robot break large rock at the top;1;1965
+;(14, 10);;(8, 4);Robot break large rock at the top;1;1966
+;(14, 10);;(8, 4);Robot break large rock at the top;1;1967
+MoveEast;(15, 10);;(8, 4);Robot break large rock at the top;1;1968
+;(15, 10);;(8, 4);Robot break large rock at the top;1;1969
+;(15, 10);;(8, 4);Robot break large rock at the top;1;1970
+MoveEast;(16, 10);;(8, 4);Robot break large rock at the top;1;1971
+;(16, 10);;(8, 4);Robot break large rock at the top;1;1972
+;(16, 10);;(8, 4);Robot break large rock at the top;1;1973
+;(16, 10);;(8, 4);Robot break large rock at the top;1;1974
+;(16, 10);;(8, 4);Robot break large rock at the top;1;1975
+;(16, 10);;(8, 4);Robot break large rock at the top;1;1976
+;(16, 10);;(8, 4);Robot break large rock at the top;1;1977
+;(16, 10);;(8, 4);Robot break large rock at the top;1;1978
+;(16, 10);;(8, 4);Robot break large rock at the top;1;1979
+;(16, 10);;(8, 4);Robot break large rock at the top;1;1980
+;(16, 10);;(8, 4);Robot break large rock at the top;1;1981
+;(16, 10);;(8, 4);Robot break large rock at the top;1;1982
+;(16, 10);;(8, 4);Robot break large rock at the top;1;1983
+;(16, 10);;(8, 4);Robot break large rock at the top;1;1984
+;(16, 10);;(8, 4);Robot break large rock at the top;1;1985
+;(16, 10);;(8, 4);Robot break large rock at the top;1;1986
+DropObject;(16, 10);;(8, 4);Robot break large rock at the top;1;1987
+;(16, 10);;(8, 4);Robot break large rock at the top;1;1988
+;(16, 10);;(8, 4);Robot break large rock at the top;1;1989
+;(16, 10);;(8, 4);Robot break large rock at the top;1;1990
+;(16, 10);;(8, 4);Robot break large rock at the top;1;1991
+;(16, 10);;(8, 4);Robot break large rock at the top;1;1992
+;(16, 10);;(8, 4);Robot break large rock at the top;1;1993
+;(16, 10);;(8, 4);Robot break large rock at the top;1;1994
+MoveWest;(15, 10);;(8, 4);Robot break large rock at the top;1;1995
+;(15, 10);;(8, 4);Robot break large rock at the top;1;1996
+;(15, 10);;(8, 4);Robot break large rock at the top;1;1997
+;(15, 10);;(8, 4);Robot break large rock at the top;1;1998
+;(15, 10);;(8, 4);Robot break large rock at the top;1;1999
+MoveWest;(14, 10);;(8, 4);Robot break large rock at the top;1;2000
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2001
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2002
+MoveWest;(13, 10);;(8, 4);Robot break large rock at the top;1;2003
+;(13, 10);;(8, 4);Robot break large rock at the top;1;2004
+;(13, 10);;(8, 4);Robot break large rock at the top;1;2005
+;(13, 10);;(8, 4);Robot break large rock at the top;1;2006
+MoveWest;(12, 10);;(8, 4);Robot break large rock at the top;1;2007
+;(12, 10);;(8, 4);Robot break large rock at the top;1;2008
+;(12, 10);;(8, 4);Robot break large rock at the top;1;2009
+MoveWest;(11, 10);;(8, 4);Robot break large rock at the top;1;2010
+;(11, 10);;(8, 4);Robot break large rock at the top;1;2011
+;(11, 10);;(8, 4);Robot break large rock at the top;1;2012
+;(11, 10);;(8, 4);Robot break large rock at the top;1;2013
+MoveWest;(10, 10);;(8, 4);Robot break large rock at the top;1;2014
+;(10, 10);;(8, 4);Robot break large rock at the top;1;2015
+;(10, 10);;(8, 4);Robot break large rock at the top;1;2016
+;(10, 10);;(8, 4);Robot break large rock at the top;1;2017
+;(10, 10);;(8, 4);Robot break large rock at the top;1;2018
+MoveNorth;(10, 9);;(8, 4);Robot break large rock at the top;1;2019
+;(10, 9);;(8, 4);Robot break large rock at the top;1;2020
+;(10, 9);;(8, 4);Robot break large rock at the top;1;2021
+;(10, 9);;(8, 4);Robot break large rock at the top;1;2022
+;(10, 9);;(8, 4);Robot break large rock at the top;1;2023
+;(10, 9);;(8, 4);Robot break large rock at the top;1;2024
+;(10, 9);;(8, 4);Robot break large rock at the top;1;2025
+GrabObject;(10, 9);;(8, 4);Robot break large rock at the top;1;2026
+;(10, 9);;(8, 4);Robot break large rock at the top;1;2027
+;(10, 9);;(8, 4);Robot break large rock at the top;1;2028
+;(10, 9);;(8, 4);Robot break large rock at the top;1;2029
+;(10, 9);;(8, 4);Robot break large rock at the top;1;2030
+;(10, 9);;(8, 4);Robot break large rock at the top;1;2031
+;(10, 9);;(8, 4);Robot break large rock at the top;1;2032
+;(10, 9);;(8, 4);Robot break large rock at the top;1;2033
+MoveEast;(11, 9);;(8, 4);Robot break large rock at the top;1;2034
+;(11, 9);;(8, 4);Robot break large rock at the top;1;2035
+;(11, 9);;(8, 4);Robot break large rock at the top;1;2036
+MoveEast;(12, 9);;(8, 4);Robot break large rock at the top;1;2037
+;(12, 9);;(8, 4);Robot break large rock at the top;1;2038
+;(12, 9);;(8, 4);Robot break large rock at the top;1;2039
+MoveEast;(13, 9);;(8, 4);Robot break large rock at the top;1;2040
+;(13, 9);;(8, 4);Robot break large rock at the top;1;2041
+;(13, 9);;(8, 4);Robot break large rock at the top;1;2042
+MoveEast;(14, 9);;(8, 4);Robot break large rock at the top;1;2043
+;(14, 9);;(8, 4);Robot break large rock at the top;1;2044
+MoveEast;(15, 9);;(8, 4);Robot break large rock at the top;1;2045
+;(15, 9);;(8, 4);Robot break large rock at the top;1;2046
+;(15, 9);;(8, 4);Robot break large rock at the top;1;2047
+;(15, 9);;(8, 4);Robot break large rock at the top;1;2048
+MoveEast;(16, 9);;(8, 4);Robot break large rock at the top;1;2049
+;(16, 9);;(8, 4);Robot break large rock at the top;1;2050
+;(16, 9);;(8, 4);Robot break large rock at the top;1;2051
+;(16, 9);;(8, 4);Robot break large rock at the top;1;2052
+;(16, 9);;(8, 4);Robot break large rock at the top;1;2053
+;(16, 9);;(8, 4);Robot break large rock at the top;1;2054
+;(16, 9);;(8, 4);Robot break large rock at the top;1;2055
+;(16, 9);;(8, 4);Robot break large rock at the top;1;2056
+;(16, 9);;(8, 4);Robot break large rock at the top;1;2057
+;(16, 9);;(8, 4);Robot break large rock at the top;1;2058
+DropObject;(16, 9);;(8, 4);Robot break large rock at the top;1;2059
+;(16, 9);;(8, 4);Robot break large rock at the top;1;2060
+;(16, 9);;(8, 4);Robot break large rock at the top;1;2061
+;(16, 9);;(8, 4);Robot break large rock at the top;1;2062
+;(16, 9);;(8, 4);Robot break large rock at the top;1;2063
+MoveWest;(15, 9);;(8, 4);Robot break large rock at the top;1;2064
+;(15, 9);;(8, 4);Robot break large rock at the top;1;2065
+;(15, 9);;(8, 4);Robot break large rock at the top;1;2066
+;(15, 9);;(8, 4);Robot break large rock at the top;1;2067
+MoveWest;(14, 9);;(8, 4);Robot break large rock at the top;1;2068
+;(14, 9);;(8, 4);Robot break large rock at the top;1;2069
+MoveWest;(13, 9);;(8, 4);Robot break large rock at the top;1;2070
+;(13, 9);;(8, 4);Robot break large rock at the top;1;2071
+;(13, 9);;(8, 4);Robot break large rock at the top;1;2072
+;(13, 9);;(8, 4);Robot break large rock at the top;1;2073
+MoveWest;(12, 9);;(8, 4);Robot break large rock at the top;1;2074
+;(12, 9);;(8, 4);Robot break large rock at the top;1;2075
+;(12, 9);;(8, 4);Robot break large rock at the top;1;2076
+MoveSouth;(12, 10);;(8, 4);Robot break large rock at the top;1;2077
+;(12, 10);;(8, 4);Robot break large rock at the top;1;2078
+;(12, 10);;(8, 4);Robot break large rock at the top;1;2079
+MoveSouth;(12, 11);;(8, 4);Robot break large rock at the top;1;2080
+;(12, 11);;(8, 4);Robot break large rock at the top;1;2081
+;(12, 11);;(8, 4);Robot break large rock at the top;1;2082
+;(12, 11);;(8, 4);Robot break large rock at the top;1;2083
+;(12, 11);;(8, 4);Robot break large rock at the top;1;2084
+MoveWest;(11, 11);;(8, 4);Robot break large rock at the top;1;2085
+;(11, 11);;(8, 4);Robot break large rock at the top;1;2086
+;(11, 11);;(8, 4);Robot break large rock at the top;1;2087
+MoveWest;(10, 11);;(8, 4);Robot break large rock at the top;1;2088
+;(10, 11);;(8, 4);Robot break large rock at the top;1;2089
+;(10, 11);;(8, 4);Robot break large rock at the top;1;2090
+;(10, 11);;(8, 4);Robot break large rock at the top;1;2091
+;(10, 11);;(8, 4);Robot break large rock at the top;1;2092
+;(10, 11);;(8, 4);Robot break large rock at the top;1;2093
+;(10, 11);;(8, 4);Robot break large rock at the top;1;2094
+;(10, 11);;(8, 4);Robot break large rock at the top;1;2095
+;(10, 11);;(8, 4);Robot break large rock at the top;1;2096
+MoveNorth;(10, 10);;(8, 4);Robot break large rock at the top;1;2097
+;(10, 10);;(8, 4);Robot break large rock at the top;1;2098
+;(10, 10);;(8, 4);Robot break large rock at the top;1;2099
+;(10, 10);;(8, 4);Robot break large rock at the top;1;2100
+;(10, 10);;(8, 4);Robot break large rock at the top;1;2101
+;(10, 10);;(8, 4);Robot break large rock at the top;1;2102
+GrabObject;(10, 10);;(8, 4);Robot break large rock at the top;1;2103
+;(10, 10);;(8, 4);Robot break large rock at the top;1;2104
+;(10, 10);;(8, 4);Robot break large rock at the top;1;2105
+;(10, 10);;(8, 4);Robot break large rock at the top;1;2106
+MoveEast;(11, 10);;(8, 4);Robot break large rock at the top;1;2107
+;(11, 10);;(8, 4);Robot break large rock at the top;1;2108
+;(11, 10);;(8, 4);Robot break large rock at the top;1;2109
+MoveEast;(12, 10);;(8, 4);Robot break large rock at the top;1;2110
+;(12, 10);;(8, 4);Robot break large rock at the top;1;2111
+;(12, 10);;(8, 4);Robot break large rock at the top;1;2112
+MoveEast;(13, 10);;(8, 4);Robot break large rock at the top;1;2113
+;(13, 10);;(8, 4);Robot break large rock at the top;1;2114
+;(13, 10);;(8, 4);Robot break large rock at the top;1;2115
+MoveEast;(14, 10);;(8, 4);Robot break large rock at the top;1;2116
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2117
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2118
+MoveEast;(15, 10);;(8, 4);Robot break large rock at the top;1;2119
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2120
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2121
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2122
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2123
+MoveEast;(16, 10);;(8, 4);Robot break large rock at the top;1;2124
+;(16, 10);;(8, 4);Robot break large rock at the top;1;2125
+;(16, 10);;(8, 4);Robot break large rock at the top;1;2126
+;(16, 10);;(8, 4);Robot break large rock at the top;1;2127
+;(16, 10);;(8, 4);Robot break large rock at the top;1;2128
+;(16, 10);;(8, 4);Robot break large rock at the top;1;2129
+;(16, 10);;(8, 4);Robot break large rock at the top;1;2130
+;(16, 10);;(8, 4);Robot break large rock at the top;1;2131
+;(16, 10);;(8, 4);Robot break large rock at the top;1;2132
+;(16, 10);;(8, 4);Robot break large rock at the top;1;2133
+;(16, 10);;(8, 4);Robot break large rock at the top;1;2134
+;(16, 10);;(8, 4);Robot break large rock at the top;1;2135
+;(16, 10);;(8, 4);Robot break large rock at the top;1;2136
+;(16, 10);;(8, 4);Robot break large rock at the top;1;2137
+;(16, 10);;(8, 4);Robot break large rock at the top;1;2138
+;(16, 10);;(8, 4);Robot break large rock at the top;1;2139
+;(16, 10);;(8, 4);Robot break large rock at the top;1;2140
+;(16, 10);;(8, 4);Robot break large rock at the top;1;2141
+;(16, 10);;(8, 4);Robot break large rock at the top;1;2142
+;(16, 10);;(8, 4);Robot break large rock at the top;1;2143
+;(16, 10);;(8, 4);Robot break large rock at the top;1;2144
+DropObject;(16, 10);;(8, 4);Robot break large rock at the top;1;2145
+;(16, 10);;(8, 4);Robot break large rock at the top;1;2146
+;(16, 10);;(8, 4);Robot break large rock at the top;1;2147
+;(16, 10);;(8, 4);Robot break large rock at the top;1;2148
+;(16, 10);;(8, 4);Robot break large rock at the top;1;2149
+;(16, 10);;(8, 4);Robot break large rock at the top;1;2150
+;(16, 10);;(8, 4);Robot break large rock at the top;1;2151
+;(16, 10);;(8, 4);Robot break large rock at the top;1;2152
+;(16, 10);;(8, 4);Robot break large rock at the top;1;2153
+;(16, 10);;(8, 4);Robot break large rock at the top;1;2154
+;(16, 10);;(8, 4);Robot break large rock at the top;1;2155
+;(16, 10);;(8, 4);Robot break large rock at the top;1;2156
+;(16, 10);;(8, 4);Robot break large rock at the top;1;2157
+;(16, 10);;(8, 4);Robot break large rock at the top;1;2158
+;(16, 10);;(8, 4);Robot break large rock at the top;1;2159
+MoveWest;(15, 10);;(8, 4);Robot break large rock at the top;1;2160
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2161
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2162
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2163
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2164
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2165
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2166
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2167
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2168
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2169
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2170
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2171
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2172
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2173
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2174
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2175
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2176
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2177
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2178
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2179
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2180
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2181
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2182
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2183
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2184
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2185
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2186
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2187
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2188
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2189
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2190
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2191
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2192
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2193
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2194
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2195
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2196
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2197
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2198
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2199
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2200
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2201
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2202
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2203
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2204
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2205
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2206
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2207
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2208
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2209
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2210
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2211
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2212
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2213
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2214
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2215
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2216
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2217
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2218
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2219
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2220
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2221
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2222
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2223
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2224
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2225
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2226
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2227
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2228
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2229
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2230
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2231
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2232
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2233
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2234
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2235
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2236
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2237
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2238
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2239
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2240
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2241
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2242
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2243
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2244
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2245
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2246
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2247
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2248
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2249
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2250
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2251
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2252
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2253
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2254
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2255
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2256
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2257
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2258
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2259
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2260
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2261
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2262
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2263
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2264
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2265
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2266
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2267
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2268
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2269
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2270
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2271
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2272
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2273
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2274
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2275
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2276
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2277
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2278
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2279
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2280
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2281
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2282
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2283
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2284
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2285
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2286
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2287
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2288
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2289
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2290
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2291
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2292
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2293
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2294
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2295
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2296
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2297
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2298
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2299
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2300
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2301
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2302
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2303
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2304
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2305
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2306
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2307
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2308
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2309
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2310
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2311
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2312
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2313
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2314
+;(15, 10);;(8, 4);False;1;2315
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2316
+;(15, 10);;(8, 4);False;1;2317
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2318
+;(15, 10);;(8, 4);False;1;2319
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2320
+;(15, 10);;(8, 4);False;1;2321
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2322
+;(15, 10);;(8, 4);False;1;2323
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2324
+;(15, 10);;(8, 4);False;1;2325
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2326
+;(15, 10);;(8, 4);False;1;2327
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2328
+;(15, 10);;(8, 4);False;1;2329
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2330
+;(15, 10);;(8, 4);False;1;2331
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2332
+;(15, 10);;(8, 4);False;1;2333
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2334
+;(15, 10);;(8, 4);False;1;2335
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2336
+;(15, 10);;(8, 4);False;1;2337
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2338
+;(15, 10);;(8, 4);False;1;2339
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2340
+;(15, 10);;(8, 4);False;1;2341
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2342
+;(15, 10);;(8, 4);False;1;2343
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2344
+;(15, 10);;(8, 4);False;1;2345
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2346
+;(15, 10);;(8, 4);False;1;2347
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2348
+;(15, 10);;(8, 4);False;1;2349
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2350
+;(15, 10);;(8, 4);False;1;2351
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2352
+;(15, 10);;(8, 4);False;1;2353
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2354
+;(15, 10);;(8, 4);False;1;2355
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2356
+;(15, 10);;(8, 4);False;1;2357
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2358
+;(15, 10);;(8, 4);False;1;2359
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2360
+;(15, 10);;(8, 4);False;1;2361
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2362
+;(15, 10);;(8, 4);False;1;2363
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2364
+;(15, 10);;(8, 4);False;1;2365
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2366
+;(15, 10);;(8, 4);False;1;2367
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2368
+;(15, 10);;(8, 4);False;1;2369
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2370
+;(15, 10);;(8, 4);False;1;2371
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2372
+;(15, 10);;(8, 4);False;1;2373
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2374
+;(15, 10);;(8, 4);False;1;2375
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2376
+;(15, 10);;(8, 4);False;1;2377
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2378
+;(15, 10);;(8, 4);False;1;2379
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2380
+;(15, 10);;(8, 4);False;1;2381
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2382
+;(15, 10);;(8, 4);False;1;2383
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2384
+MoveEast;(16, 10);;(8, 4);False;1;2385
+;(16, 10);;(8, 4);Robot break large rock at the top;1;2386
+;(16, 10);;(8, 4);False;1;2387
+;(16, 10);;(8, 4);Robot break large rock at the top;1;2388
+;(16, 10);;(8, 4);False;1;2389
+;(16, 10);;(8, 4);Robot break large rock at the top;1;2390
+MoveNorth;(16, 9);;(8, 4);False;1;2391
+;(16, 9);;(8, 4);Robot break large rock at the top;1;2392
+;(16, 9);;(8, 4);False;1;2393
+;(16, 9);;(8, 4);Robot break large rock at the top;1;2394
+;(16, 9);;(8, 4);False;1;2395
+MoveSouth;(16, 10);;(8, 4);Robot break large rock at the top;1;2396
+;(16, 10);;(8, 4);False;1;2397
+;(16, 10);;(8, 4);Robot break large rock at the top;1;2398
+;(16, 10);;(8, 4);False;1;2399
+;(16, 10);;(8, 4);Robot break large rock at the top;1;2400
+MoveWest;(15, 10);;(8, 4);False;1;2401
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2402
+;(15, 10);;(8, 4);False;1;2403
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2404
+;(15, 10);;(8, 4);False;1;2405
+MoveWest;(14, 10);;(8, 4);Robot break large rock at the top;1;2406
+;(14, 10);;(8, 4);False;1;2407
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2408
+;(14, 10);;(8, 4);False;1;2409
+MoveWest;(13, 10);;(8, 4);Robot break large rock at the top;1;2410
+;(13, 10);;(8, 4);False;1;2411
+;(13, 10);;(8, 4);Robot break large rock at the top;1;2412
+;(13, 10);;(8, 4);False;1;2413
+MoveWest;(12, 10);;(8, 4);Robot break large rock at the top;1;2414
+;(12, 10);;(8, 4);False;1;2415
+;(12, 10);;(8, 4);Robot break large rock at the top;1;2416
+;(12, 10);;(8, 4);False;1;2417
+;(12, 10);;(8, 4);Robot break large rock at the top;1;2418
+;(12, 10);;(8, 4);False;1;2419
+MoveWest;(11, 10);;(8, 4);Robot break large rock at the top;1;2420
+;(11, 10);;(8, 4);False;1;2421
+;(11, 10);;(8, 4);Robot break large rock at the top;1;2422
+;(11, 10);;(8, 4);False;1;2423
+;(11, 10);;(8, 4);Robot break large rock at the top;1;2424
+;(11, 10);;(8, 4);False;1;2425
+MoveWest;(10, 10);;(8, 4);Robot break large rock at the top;1;2426
+;(10, 10);;(8, 4);False;1;2427
+;(10, 10);;(8, 4);Robot break large rock at the top;1;2428
+;(10, 10);;(8, 4);False;1;2429
+;(10, 10);;(8, 4);Robot break large rock at the top;1;2430
+MoveNorth;(10, 9);;(8, 4);False;1;2431
+;(10, 9);;(8, 4);Robot break large rock at the top;1;2432
+;(10, 9);;(8, 4);False;1;2433
+;(10, 9);;(8, 4);Robot break large rock at the top;1;2434
+MoveNorth;(10, 8);;(8, 4);False;1;2435
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2436
+;(10, 8);;(8, 4);False;1;2437
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2438
+;(10, 8);;(8, 4);False;1;2439
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2440
+;(10, 8);;(8, 4);False;1;2441
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2442
+;(10, 8);;(8, 4);False;1;2443
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2444
+;(10, 8);;(8, 4);False;1;2445
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2446
+;(10, 8);;(8, 4);False;1;2447
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2448
+;(10, 8);;(8, 4);False;1;2449
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2450
+;(10, 8);;(8, 4);False;1;2451
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2452
+;(10, 8);;(8, 4);False;1;2453
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2454
+;(10, 8);;(8, 4);False;1;2455
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2456
+;(10, 8);;(8, 4);False;1;2457
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2458
+;(10, 8);;(8, 4);False;1;2459
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2460
+;(10, 8);;(8, 4);False;1;2461
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2462
+;(10, 8);;(8, 4);False;1;2463
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2464
+;(10, 8);;(8, 4);False;1;2465
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2466
+;(10, 8);;(8, 4);False;1;2467
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2468
+;(10, 8);;(8, 4);False;1;2469
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2470
+;(10, 8);;(8, 4);False;1;2471
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2472
+;(10, 8);;(8, 4);False;1;2473
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2474
+;(10, 8);;(8, 4);False;1;2475
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2476
+;(10, 8);;(8, 4);False;1;2477
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2478
+;(10, 8);;(8, 4);False;1;2479
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2480
+;(10, 8);;(8, 4);False;1;2481
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2482
+;(10, 8);;(8, 4);False;1;2483
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2484
+;(10, 8);;(8, 4);False;1;2485
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2486
+;(10, 8);;(8, 4);False;1;2487
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2488
+;(10, 8);;(8, 4);False;1;2489
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2490
+;(10, 8);;(8, 4);False;1;2491
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2492
+;(10, 8);;(8, 4);False;1;2493
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2494
+;(10, 8);;(8, 4);False;1;2495
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2496
+;(10, 8);;(8, 4);False;1;2497
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2498
+;(10, 8);;(8, 4);False;1;2499
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2500
+;(10, 8);;(8, 4);False;1;2501
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2502
+;(10, 8);;(8, 4);False;1;2503
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2504
+;(10, 8);;(8, 4);False;1;2505
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2506
+;(10, 8);;(8, 4);False;1;2507
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2508
+;(10, 8);;(8, 4);False;1;2509
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2510
+;(10, 8);;(8, 4);False;1;2511
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2512
+;(10, 8);;(8, 4);False;1;2513
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2514
+;(10, 8);;(8, 4);False;1;2515
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2516
+;(10, 8);;(8, 4);False;1;2517
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2518
+;(10, 8);;(8, 4);False;1;2519
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2520
+;(10, 8);;(8, 4);False;1;2521
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2522
+;(10, 8);;(8, 4);False;1;2523
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2524
+;(10, 8);;(8, 4);False;1;2525
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2526
+;(10, 8);;(8, 4);False;1;2527
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2528
+;(10, 8);;(8, 4);False;1;2529
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2530
+;(10, 8);;(8, 4);False;1;2531
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2532
+;(10, 8);;(8, 4);False;1;2533
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2534
+;(10, 8);;(8, 4);False;1;2535
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2536
+;(10, 8);;(8, 4);False;1;2537
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2538
+;(10, 8);;(8, 4);False;1;2539
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2540
+;(10, 8);;(8, 4);False;1;2541
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2542
+;(10, 8);;(8, 4);False;1;2543
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2544
+;(10, 8);;(8, 4);False;1;2545
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2546
+;(10, 8);;(8, 4);False;1;2547
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2548
+;(10, 8);;(8, 4);False;1;2549
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2550
+;(10, 8);;(8, 4);False;1;2551
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2552
+;(10, 8);;(8, 4);False;1;2553
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2554
+;(10, 8);;(8, 4);False;1;2555
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2556
+;(10, 8);;(8, 4);False;1;2557
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2558
+;(10, 8);;(8, 4);False;1;2559
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2560
+;(10, 8);;(8, 4);False;1;2561
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2562
+;(10, 8);;(8, 4);False;1;2563
+;(10, 8);;(8, 4);Robot break large rock at the top;1;2564
+MoveNorth;(10, 7);;(8, 4);False;1;2565
+;(10, 7);;(8, 4);Robot break large rock at the top;1;2566
+;(10, 7);;(8, 4);False;1;2567
+;(10, 7);;(8, 4);Robot break large rock at the top;1;2568
+;(10, 7);;(8, 4);False;1;2569
+;(10, 7);;(8, 4);Robot break large rock at the top;1;2570
+;(10, 7);;(8, 4);False;1;2571
+;(10, 7);;(8, 4);Robot break large rock at the top;1;2572
+MoveNorth;(10, 6);;(8, 4);False;1;2573
+;(10, 6);;(8, 4);Robot break large rock at the top;1;2574
+;(10, 6);;(8, 4);False;1;2575
+;(10, 6);;(8, 4);Robot break large rock at the top;1;2576
+;(10, 6);;(8, 4);False;1;2577
+;(10, 6);;(8, 4);Robot break large rock at the top;1;2578
+;(10, 6);;(8, 4);False;1;2579
+MoveWest;(9, 6);;(8, 4);Robot break large rock at the top;1;2580
+;(9, 6);;(8, 4);False;1;2581
+;(9, 6);;(8, 4);Robot break large rock at the top;1;2582
+;(9, 6);;(8, 4);False;1;2583
+;(9, 6);;(8, 4);Robot break large rock at the top;1;2584
+MoveNorth;(9, 5);;(8, 4);False;1;2585
+;(9, 5);;(8, 4);Robot break large rock at the top;1;2586
+;(9, 5);;(8, 4);False;1;2587
+;(9, 5);;(8, 4);Robot break large rock at the top;1;2588
+;(9, 5);;(8, 4);False;1;2589
+;(9, 5);;(8, 4);Robot break large rock at the top;1;2590
+MoveNorth;(9, 4);;(8, 4);False;1;2591
+;(9, 4);;(8, 4);Robot break large rock at the top;1;2592
+;(9, 4);;(8, 4);False;1;2593
+;(9, 4);;(8, 4);Robot break large rock at the top;1;2594
+;(9, 4);;(8, 4);False;1;2595
+;(9, 4);;(8, 4);Robot break large rock at the top;1;2596
+;(9, 4);;(8, 4);False;1;2597
+MoveWest;(8, 4);;(8, 4);Robot break large rock at the top;1;2598
+;(8, 4);;(8, 4);False;1;2599
+;(8, 4);;(8, 4);Robot break large rock at the top;1;2600
+;(8, 4);;(8, 4);False;1;2601
+;(8, 4);;(8, 4);Robot break large rock at the top;1;2602
+;(8, 4);;(8, 4);False;1;2603
+;(8, 4);;(8, 4);Robot break large rock at the top;1;2604
+;(8, 4);;(8, 4);False;1;2605
+;(8, 4);;(8, 4);Robot break large rock at the top;1;2606
+;(8, 4);;(8, 4);False;1;2607
+;(8, 4);;(8, 4);Robot break large rock at the top;1;2608
+;(8, 4);;(8, 4);False;1;2609
+;(8, 4);;(8, 4);Robot break large rock at the top;1;2610
+;(8, 4);;(8, 4);False;1;2611
+;(8, 4);;(8, 4);Robot break large rock at the top;1;2612
+;(8, 4);;(8, 4);False;1;2613
+;(8, 4);;(8, 4);Robot break large rock at the top;1;2614
+MoveEast;(9, 4);;(8, 4);False;1;2615
+;(9, 4);;(8, 4);Robot break large rock at the top;1;2616
+;(9, 4);;(8, 4);False;1;2617
+;(9, 4);;(8, 4);Robot break large rock at the top;1;2618
+;(9, 4);;(8, 4);False;1;2619
+;(9, 4);;(8, 4);Robot break large rock at the top;1;2620
+MoveEast;(10, 4);;(8, 4);False;1;2621
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2622
+;(10, 4);;(8, 4);False;1;2623
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2624
+;(10, 4);;(8, 4);False;1;2625
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2626
+;(10, 4);;(8, 4);False;1;2627
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2628
+MoveEast;(11, 4);;(8, 4);False;1;2629
+;(11, 4);;(8, 4);Robot break large rock at the top;1;2630
+;(11, 4);;(8, 4);False;1;2631
+;(11, 4);;(8, 4);Robot break large rock at the top;1;2632
+;(11, 4);;(8, 4);False;1;2633
+;(11, 4);;(8, 4);Robot break large rock at the top;1;2634
+;(11, 4);;(8, 4);False;1;2635
+;(11, 4);;(8, 4);Robot break large rock at the top;1;2636
+MoveEast;(12, 4);;(8, 4);False;1;2637
+;(12, 4);;(8, 4);Robot break large rock at the top;1;2638
+;(12, 4);;(8, 4);False;1;2639
+;(12, 4);;(8, 4);Robot break large rock at the top;1;2640
+;(12, 4);;(8, 4);False;1;2641
+;(12, 4);;(8, 4);Robot break large rock at the top;1;2642
+;(12, 4);;(8, 4);False;1;2643
+MoveWest;(11, 4);;(8, 4);Robot break large rock at the top;1;2644
+;(11, 4);;(8, 4);False;1;2645
+;(11, 4);;(8, 4);Robot break large rock at the top;1;2646
+MoveWest;(10, 4);;(8, 4);False;1;2647
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2648
+;(10, 4);;(8, 4);False;1;2649
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2650
+;(10, 4);;(8, 4);False;1;2651
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2652
+;(10, 4);;(8, 4);False;1;2653
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2654
+;(10, 4);;(8, 4);False;1;2655
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2656
+;(10, 4);;(8, 4);False;1;2657
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2658
+;(10, 4);;(8, 4);False;1;2659
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2660
+;(10, 4);;(8, 4);False;1;2661
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2662
+;(10, 4);;(8, 4);False;1;2663
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2664
+;(10, 4);;(8, 4);False;1;2665
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2666
+;(10, 4);;(8, 4);False;1;2667
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2668
+;(10, 4);;(8, 4);False;1;2669
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2670
+;(10, 4);;(8, 4);False;1;2671
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2672
+;(10, 4);;(8, 4);False;1;2673
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2674
+;(10, 4);;(8, 4);False;1;2675
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2676
+;(10, 4);;(8, 4);False;1;2677
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2678
+;(10, 4);;(8, 4);False;1;2679
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2680
+;(10, 4);;(8, 4);False;1;2681
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2682
+;(10, 4);;(8, 4);False;1;2683
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2684
+;(10, 4);;(8, 4);False;1;2685
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2686
+;(10, 4);;(8, 4);False;1;2687
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2688
+;(10, 4);;(8, 4);False;1;2689
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2690
+;(10, 4);;(8, 4);False;1;2691
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2692
+;(10, 4);;(8, 4);False;1;2693
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2694
+;(10, 4);;(8, 4);False;1;2695
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2696
+;(10, 4);;(8, 4);False;1;2697
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2698
+;(10, 4);;(8, 4);False;1;2699
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2700
+;(10, 4);;(8, 4);False;1;2701
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2702
+;(10, 4);;(8, 4);False;1;2703
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2704
+;(10, 4);;(8, 4);False;1;2705
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2706
+;(10, 4);;(8, 4);False;1;2707
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2708
+;(10, 4);;(8, 4);False;1;2709
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2710
+;(10, 4);;(8, 4);False;1;2711
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2712
+;(10, 4);;(8, 4);False;1;2713
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2714
+;(10, 4);;(8, 4);False;1;2715
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2716
+;(10, 4);;(8, 4);False;1;2717
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2718
+;(10, 4);;(8, 4);False;1;2719
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2720
+;(10, 4);;(8, 4);False;1;2721
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2722
+;(10, 4);;(8, 4);False;1;2723
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2724
+;(10, 4);;(8, 4);False;1;2725
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2726
+;(10, 4);;(8, 4);False;1;2727
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2728
+;(10, 4);;(8, 4);False;1;2729
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2730
+;(10, 4);;(8, 4);False;1;2731
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2732
+;(10, 4);;(8, 4);False;1;2733
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2734
+;(10, 4);;(8, 4);False;1;2735
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2736
+;(10, 4);;(8, 4);False;1;2737
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2738
+;(10, 4);;(8, 4);False;1;2739
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2740
+;(10, 4);;(8, 4);False;1;2741
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2742
+;(10, 4);;(8, 4);False;1;2743
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2744
+;(10, 4);;(8, 4);False;1;2745
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2746
+;(10, 4);;(8, 4);False;1;2747
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2748
+;(10, 4);;(8, 4);False;1;2749
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2750
+;(10, 4);;(8, 4);False;1;2751
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2752
+;(10, 4);;(8, 4);False;1;2753
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2754
+;(10, 4);;(8, 4);False;1;2755
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2756
+;(10, 4);;(8, 4);False;1;2757
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2758
+;(10, 4);;(8, 4);False;1;2759
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2760
+;(10, 4);;(8, 4);False;1;2761
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2762
+;(10, 4);;(8, 4);False;1;2763
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2764
+;(10, 4);;(8, 4);False;1;2765
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2766
+;(10, 4);;(8, 4);False;1;2767
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2768
+;(10, 4);;(8, 4);False;1;2769
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2770
+;(10, 4);;(8, 4);False;1;2771
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2772
+;(10, 4);;(8, 4);False;1;2773
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2774
+;(10, 4);;(8, 4);False;1;2775
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2776
+;(10, 4);;(8, 4);False;1;2777
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2778
+;(10, 4);;(8, 4);False;1;2779
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2780
+;(10, 4);;(8, 4);False;1;2781
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2782
+;(10, 4);;(8, 4);False;1;2783
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2784
+;(10, 4);;(8, 4);False;1;2785
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2786
+;(10, 4);;(8, 4);False;1;2787
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2788
+;(10, 4);;(8, 4);False;1;2789
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2790
+;(10, 4);;(8, 4);False;1;2791
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2792
+;(10, 4);;(8, 4);False;1;2793
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2794
+;(10, 4);;(8, 4);False;1;2795
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2796
+;(10, 4);;(8, 4);False;1;2797
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2798
+;(10, 4);;(8, 4);False;1;2799
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2800
+;(10, 4);;(8, 4);False;1;2801
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2802
+;(10, 4);;(8, 4);False;1;2803
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2804
+;(10, 4);;(8, 4);False;1;2805
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2806
+;(10, 4);;(8, 4);False;1;2807
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2808
+;(10, 4);;(8, 4);False;1;2809
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2810
+;(10, 4);;(8, 4);False;1;2811
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2812
+;(10, 4);;(8, 4);False;1;2813
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2814
+;(10, 4);;(8, 4);False;1;2815
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2816
+;(10, 4);;(8, 4);False;1;2817
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2818
+;(10, 4);;(8, 4);False;1;2819
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2820
+;(10, 4);;(8, 4);False;1;2821
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2822
+;(10, 4);;(8, 4);False;1;2823
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2824
+;(10, 4);;(8, 4);False;1;2825
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2826
+;(10, 4);;(8, 4);False;1;2827
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2828
+;(10, 4);;(8, 4);False;1;2829
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2830
+;(10, 4);;(8, 4);False;1;2831
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2832
+;(10, 4);;(8, 4);False;1;2833
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2834
+;(10, 4);;(8, 4);False;1;2835
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2836
+;(10, 4);;(8, 4);False;1;2837
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2838
+;(10, 4);;(8, 4);False;1;2839
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2840
+;(10, 4);;(8, 4);False;1;2841
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2842
+;(10, 4);;(8, 4);False;1;2843
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2844
+;(10, 4);;(8, 4);False;1;2845
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2846
+;(10, 4);;(8, 4);False;1;2847
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2848
+;(10, 4);;(8, 4);False;1;2849
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2850
+;(10, 4);;(8, 4);False;1;2851
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2852
+;(10, 4);;(8, 4);False;1;2853
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2854
+;(10, 4);;(8, 4);False;1;2855
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2856
+;(10, 4);;(8, 4);False;1;2857
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2858
+;(10, 4);;(8, 4);False;1;2859
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2860
+;(10, 4);;(8, 4);False;1;2861
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2862
+;(10, 4);;(8, 4);False;1;2863
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2864
+;(10, 4);;(8, 4);False;1;2865
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2866
+;(10, 4);;(8, 4);False;1;2867
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2868
+;(10, 4);;(8, 4);False;1;2869
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2870
+;(10, 4);;(8, 4);False;1;2871
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2872
+;(10, 4);;(8, 4);False;1;2873
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2874
+;(10, 4);;(8, 4);False;1;2875
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2876
+;(10, 4);;(8, 4);False;1;2877
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2878
+;(10, 4);;(8, 4);False;1;2879
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2880
+;(10, 4);;(8, 4);False;1;2881
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2882
+;(10, 4);;(8, 4);False;1;2883
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2884
+;(10, 4);;(8, 4);False;1;2885
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2886
+;(10, 4);;(8, 4);False;1;2887
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2888
+;(10, 4);;(8, 4);False;1;2889
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2890
+;(10, 4);;(8, 4);False;1;2891
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2892
+;(10, 4);;(8, 4);False;1;2893
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2894
+;(10, 4);;(8, 4);False;1;2895
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2896
+;(10, 4);;(8, 4);False;1;2897
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2898
+;(10, 4);;(8, 4);False;1;2899
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2900
+;(10, 4);;(8, 4);False;1;2901
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2902
+;(10, 4);;(8, 4);False;1;2903
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2904
+;(10, 4);;(8, 4);False;1;2905
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2906
+;(10, 4);;(8, 4);False;1;2907
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2908
+;(10, 4);;(8, 4);False;1;2909
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2910
+;(10, 4);;(8, 4);False;1;2911
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2912
+;(10, 4);;(8, 4);False;1;2913
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2914
+;(10, 4);;(8, 4);False;1;2915
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2916
+;(10, 4);;(8, 4);False;1;2917
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2918
+;(10, 4);;(8, 4);False;1;2919
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2920
+;(10, 4);;(8, 4);False;1;2921
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2922
+;(10, 4);;(8, 4);False;1;2923
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2924
+;(10, 4);;(8, 4);False;1;2925
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2926
+;(10, 4);;(8, 4);False;1;2927
+MoveSouth;(10, 5);;(8, 4);Robot break large rock at the top;1;2928
+;(10, 5);;(8, 4);False;1;2929
+;(10, 5);;(8, 4);Robot break large rock at the top;1;2930
+;(10, 5);;(8, 4);False;1;2931
+;(10, 5);;(8, 4);Robot break large rock at the top;1;2932
+MoveSouth;(10, 6);;(8, 4);False;1;2933
+;(10, 6);;(8, 4);Robot break large rock at the top;1;2934
+;(10, 6);;(8, 4);False;1;2935
+;(10, 6);;(8, 4);Robot break large rock at the top;1;2936
+;(10, 6);;(8, 4);False;1;2937
+;(10, 6);;(8, 4);Robot break large rock at the top;1;2938
+MoveNorth;(10, 5);;(8, 4);False;1;2939
+;(10, 5);;(8, 4);Robot break large rock at the top;1;2940
+;(10, 5);;(8, 4);False;1;2941
+;(10, 5);;(8, 4);Robot break large rock at the top;1;2942
+MoveNorth;(10, 4);;(8, 4);False;1;2943
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2944
+;(10, 4);;(8, 4);False;1;2945
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2946
+MoveNorth;(10, 3);;(8, 4);False;1;2947
+;(10, 3);;(8, 4);Robot break large rock at the top;1;2948
+;(10, 3);;(8, 4);False;1;2949
+MoveWest;(9, 3);;(8, 4);Robot break large rock at the top;1;2950
+;(9, 3);;(8, 4);False;1;2951
+;(9, 3);;(8, 4);Robot break large rock at the top;1;2952
+;(9, 3);;(8, 4);False;1;2953
+MoveWest;(8, 3);;(8, 4);Robot break large rock at the top;1;2954
+;(8, 3);;(8, 4);False;1;2955
+;(8, 3);;(8, 4);Robot break large rock at the top;1;2956
+;(8, 3);;(8, 4);False;1;2957
+MoveWest;(7, 3);;(8, 4);Robot break large rock at the top;1;2958
+;(7, 3);;(8, 4);False;1;2959
+;(7, 3);;(8, 4);Robot break large rock at the top;1;2960
+;(7, 3);;(8, 4);False;1;2961
+;(7, 3);;(8, 4);Robot break large rock at the top;1;2962
+MoveSouth;(7, 4);;(8, 4);False;1;2963
+;(7, 4);;(8, 4);Robot break large rock at the top;1;2964
+;(7, 4);;(8, 4);False;1;2965
+;(7, 4);;(8, 4);Robot break large rock at the top;1;2966
+;(7, 4);;(8, 4);False;1;2967
+MoveEast;(8, 4);;(8, 4);Robot break large rock at the top;1;2968
+;(8, 4);;(8, 4);False;1;2969
+;(8, 4);;(8, 4);Robot break large rock at the top;1;2970
+;(8, 4);;(8, 4);False;1;2971
+;(8, 4);;(8, 4);Robot break large rock at the top;1;2972
+;(8, 4);;(8, 4);False;1;2973
+;(8, 4);;(8, 4);Robot break large rock at the top;1;2974
+;(8, 4);;(8, 4);False;1;2975
+;(8, 4);;(8, 4);Robot break large rock at the top;1;2976
+;(8, 4);;(8, 4);False;1;2977
+;(8, 4);;(8, 4);Robot break large rock at the top;1;2978
+;(8, 4);;(8, 4);False;1;2979
+;(8, 4);;(8, 4);Robot break large rock at the top;1;2980
+;(8, 4);;(8, 4);False;1;2981
+;(8, 4);;(8, 4);Robot break large rock at the top;1;2982
+;(8, 4);;(8, 4);False;1;2983
+MoveEast;(9, 4);;(8, 4);Robot break large rock at the top;1;2984
+;(9, 4);;(8, 4);False;1;2985
+;(9, 4);;(8, 4);Robot break large rock at the top;1;2986
+;(9, 4);;(8, 4);False;1;2987
+;(9, 4);;(8, 4);Robot break large rock at the top;1;2988
+;(9, 4);;(8, 4);False;1;2989
+;(9, 4);;(8, 4);Robot break large rock at the top;1;2990
+;(9, 4);;(8, 4);False;1;2991
+;(9, 4);;(8, 4);Robot break large rock at the top;1;2992
+;(9, 4);;(8, 4);False;1;2993
+;(9, 4);;(8, 4);Robot break large rock at the top;1;2994
+;(9, 4);;(8, 4);False;1;2995
+;(9, 4);;(8, 4);Robot break large rock at the top;1;2996
+;(9, 4);;(8, 4);False;1;2997
+;(9, 4);;(8, 4);Robot break large rock at the top;1;2998
+;(9, 4);;(8, 4);False;1;2999
+;(9, 4);;(8, 4);False;1;3000
+;(9, 4);;(8, 4);False;1;3001
+;(9, 4);;(8, 4);False;1;3002
+;(9, 4);;(8, 4);False;1;3003
+;(9, 4);;(8, 4);False;1;3004
+;(9, 4);;(8, 4);False;1;3005
+;(9, 4);;(8, 4);False;1;3006
+;(9, 4);;(8, 4);False;1;3007
+;(9, 4);;(8, 4);False;1;3008
+;(9, 4);;(8, 4);False;1;3009
+;(9, 4);;(8, 4);False;1;3010
+;(9, 4);;(8, 4);False;1;3011
+;(9, 4);;(8, 4);False;1;3012
+;(9, 4);;(8, 4);False;1;3013
+;(9, 4);;(8, 4);False;1;3014
+;(9, 4);;(8, 4);False;1;3015
+;(9, 4);;(8, 4);False;1;3016
+;(9, 4);;(8, 4);False;1;3017
+;(9, 4);;(8, 4);False;1;3018
+;(9, 4);;(8, 4);False;1;3019
