@@ -46,7 +46,8 @@ for y_loc in range(upper_bound, lower_bound):
         rubble_locations.append((x_loc, y_loc))
 
 
-def create_builder(level, participant_nr):
+# Round is the round number in the experiment (always follows the normal order), level is the order of scenarios defined by the latin square list
+def create_builder(round, level, participant_nr):
     background_image = '/images/background.png'
     if level == 0:
         background_image = '/images/background_practice.png'
@@ -56,7 +57,7 @@ def create_builder(level, participant_nr):
     condition = 'baseline'
 
     # Add loggers
-    current_exp_folder = datetime.now().strftime(str(participant_nr) + "_level" + str(level) + "_exp_at_time_%Hh-%Mm-%Ss_date_%dd-%mm-%Yy")
+    current_exp_folder = datetime.now().strftime(str(participant_nr) + "_round" + str(round) + "_exp_at_time_%Hh-%Mm-%Ss_date_%dd-%mm-%Yy")
     logger_save_folder = os.path.join("experiment_logs", current_exp_folder)
 
     factory.add_logger(logger_class=ActionLogger, save_path=logger_save_folder, file_name_prefix="actions_")
