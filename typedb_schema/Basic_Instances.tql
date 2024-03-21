@@ -21,6 +21,8 @@ insert
     $on_top_of_large isa location, has range 'On top of Large rock';
     $on_top_of_brown isa location, has range 'On top of Brown rock';
     $on_top_of_victim isa location, has range 'On top of Victim';
+    $on_top_of_human isa location, has range 'On top of Human';
+    $on_top_of_robot isa location, has range 'On top of Robot';
     
     
     # Actors

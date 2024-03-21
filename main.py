@@ -4,6 +4,7 @@ import os, requests
 
 from builder import create_builder
 from custom_visualizer import visualization_server
+import pandas
 
 
 
@@ -12,6 +13,9 @@ if __name__ == "__main__":
     start_scenario = None
     # Variable that indicates participant number (to change port nr etc.)
     participant_nr = 3000
+    level_order = [1, 2, 3, 4, 5, 6, 7, 8]
+
+    level_order_list = pandas.read_csv('latin_square_list.csv', sep=';')
 
     # Start overarching MATRX scripts and threads, such as the api and/or visualizer if requested. Here we also link our
     # own media resource folder with MATRX.
@@ -27,13 +31,21 @@ if __name__ == "__main__":
         print("\n\nWhich participant number do you want to use? ")
         participant_nr = int(input())
 
+        if participant_nr in level_order_list['participantnr'].values:
+            level_order = level_order_list.loc[level_order_list['participantnr'] == participant_nr].values.flatten().tolist()
+            level_order = level_order[1:]
+
         # start the custom visualizer
         print("Starting custom visualizer")
         vis_thread = visualization_server.run_matrx_visualizer(verbose=False, media_folder=media_folder, port_nr=participant_nr)
 
-        for level in range(start_scenario, 9):
+        for round in range(start_scenario, 9):
+            level = 0
+            if round > 0:
+                level = level_order[round - 1]
+
             # Create our world builder
-            builder = create_builder(level, participant_nr)
+            builder = create_builder(round, level, participant_nr)
             builder.startup(media_folder=media_folder)
 
             print("Started world...")

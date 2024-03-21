@@ -101,11 +101,11 @@ class OntologyGod(AgentBrain):
         cp_html = None
 
         # Store the CP list in a property of the agent if it is empty
-        if self.agent_properties['cp_list'] is None:
-            self.agent_properties['cp_list'] = self.cp_list
+        #if self.agent_properties['cp_list'] is None:
+        self.agent_properties['cp_list'] = self.cp_list
 
-        if self.agent_properties['cp_list_html'] is None:
-            self.agent_properties['cp_list_html'] = self.cp_list_html
+        #if self.agent_properties['cp_list_html'] is None:
+        self.agent_properties['cp_list_html'] = self.cp_list_html
 
         # If there are messages, deal with them, and send to TypeDB
         if self.received_messages:
@@ -130,11 +130,15 @@ class OntologyGod(AgentBrain):
                     self.send_message(Message(content={'cp_edit': cp_name, 'html': cp_html}, from_id=self.agent_id, to_id=None))
 
             elif cp_name:
-                # If we end up here, the CP name is new, so we should create a new entry
-                self.send_cp_data(cp_name, cp_situation, cp_actionsA, cp_actionsB, cp_postsitu, cp_html)
-                self.cp_list.append(cp_name)
-                # Send a message that this CP is added, to make sure the robot can process that
-                self.send_message(Message(content={'cp_new': cp_name, 'html': cp_html}, from_id=self.agent_id, to_id=None))
+                if cp_situation == 'delete':
+                    # This is a double delete, do nothing
+                    print('Double delete for frontend')
+                else:
+                    # If we end up here, the CP name is new, so we should create a new entry
+                    self.send_cp_data(cp_name, cp_situation, cp_actionsA, cp_actionsB, cp_postsitu, cp_html)
+                    self.cp_list.append(cp_name)
+                    # Send a message that this CP is added, to make sure the robot can process that
+                    self.send_message(Message(content={'cp_new': cp_name, 'html': cp_html}, from_id=self.agent_id, to_id=None))
 
         return action, action_kwargs
 
@@ -250,8 +254,8 @@ class OntologyGod(AgentBrain):
 
         # While the input still contains valuable information
         while len(html_input)>20:
-            print('HTML in')
-            print(html_input)
+            #print('HTML in')
+            #print(html_input)
             # Find what kind of item we have first
             type_start = html_input.find('class="item ')
             type_end = html_input.find('" clonable=')
@@ -299,6 +303,24 @@ class OntologyGod(AgentBrain):
                 word = word + html_input[find_object:][object_start + 3:object_end]
                 html_input = html_input[find_object:]
                 item_end = html_input.find('</div')
+
+            # If it is a move-to action, change location to On top of location
+            if 'Move to' in word:
+                find_object = None
+                extra_word = None
+                if '<i>Object</i>' in html_input:
+                    find_object = html_input.find('object_cp')
+                elif '<i>Actor</i>' in html_input:
+                    find_object = html_input.find('actor')
+
+                if find_object is not None:
+                    object_start = html_input[find_object:].find('<p>')
+                    object_end = html_input[find_object:].find('</p>')
+                    extra_word = 'On top of ' + html_input[find_object:][object_start + 3:object_end]
+                    html_input = html_input[find_object:]
+                    item_end = html_input.find('</div')
+
+                input_dict['location'] = extra_word
 
             # Check if an item of the current type already exists
             if item_type in input_dict.keys():
@@ -630,7 +652,7 @@ class OntologyGod(AgentBrain):
                     action_instantiation = None
 
                 else:
-                    action_instantiation = f'''match $object isa object, has obj_type "{obj_type}", has size "{obj_size}", has color "{obj_color}";
+                    action_instantiation = f'''match $object isa resource, has obj_type "{obj_type}", has size "{obj_size}", has color "{obj_color}";
                                             $task isa task, has task_name "{single_action['task']}", has task_id "{task_id}"; '''
 
                     # Also create the relevant relations

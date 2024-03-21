@@ -1,0 +1,3021 @@
+human_selector_action;human_selector_location;robot_action;robot_location;robot_executing_cp;world_nr;tick_nr
+;(3, 4);;(4, 4);False;1;0
+;(3, 4);;(4, 4);False;1;1
+;(3, 4);Idle;(4, 4);False;1;2
+;(3, 4);Idle;(4, 4);False;1;3
+;(3, 4);Idle;(4, 4);False;1;4
+;(3, 4);Idle;(4, 4);False;1;5
+;(3, 4);Idle;(4, 4);False;1;6
+;(3, 4);Idle;(4, 4);False;1;7
+;(3, 4);Idle;(4, 4);False;1;8
+;(3, 4);Idle;(4, 4);False;1;9
+;(3, 4);Idle;(4, 4);False;1;10
+;(3, 4);Idle;(4, 4);False;1;11
+;(3, 4);Idle;(4, 4);False;1;12
+;(3, 4);;(4, 4);False;1;13
+;(3, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;14
+;(3, 4);;(4, 4);False;1;15
+;(3, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;16
+;(3, 4);;(4, 4);False;1;17
+;(3, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;18
+;(3, 4);;(4, 4);False;1;19
+;(3, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;20
+;(3, 4);;(4, 4);False;1;21
+;(3, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;22
+;(3, 4);;(4, 4);False;1;23
+;(3, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;24
+MoveSouth;(3, 5);;(4, 4);False;1;25
+;(3, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;26
+;(3, 5);;(4, 4);False;1;27
+;(3, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;28
+;(3, 5);;(4, 4);False;1;29
+;(3, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;30
+;(3, 5);;(4, 4);False;1;31
+;(3, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;32
+MoveSouth;(3, 6);;(4, 4);False;1;33
+;(3, 6);;(4, 4);pick up large rock at left side of pile, drop further away;1;34
+;(3, 6);;(4, 4);False;1;35
+;(3, 6);;(4, 4);pick up large rock at left side of pile, drop further away;1;36
+;(3, 6);;(4, 4);False;1;37
+MoveSouth;(3, 7);;(4, 4);pick up large rock at left side of pile, drop further away;1;38
+;(3, 7);;(4, 4);False;1;39
+;(3, 7);;(4, 4);pick up large rock at left side of pile, drop further away;1;40
+;(3, 7);;(4, 4);False;1;41
+;(3, 7);;(4, 4);pick up large rock at left side of pile, drop further away;1;42
+;(3, 7);;(4, 4);False;1;43
+MoveSouth;(3, 8);;(4, 4);pick up large rock at left side of pile, drop further away;1;44
+;(3, 8);;(4, 4);False;1;45
+;(3, 8);;(4, 4);pick up large rock at left side of pile, drop further away;1;46
+;(3, 8);;(4, 4);False;1;47
+;(3, 8);;(4, 4);pick up large rock at left side of pile, drop further away;1;48
+;(3, 8);;(4, 4);False;1;49
+;(3, 8);;(4, 4);pick up large rock at left side of pile, drop further away;1;50
+;(3, 8);;(4, 4);False;1;51
+;(3, 8);;(4, 4);pick up large rock at left side of pile, drop further away;1;52
+;(3, 8);;(4, 4);False;1;53
+;(3, 8);;(4, 4);pick up large rock at left side of pile, drop further away;1;54
+MoveSouth;(3, 9);;(4, 4);False;1;55
+;(3, 9);;(4, 4);pick up large rock at left side of pile, drop further away;1;56
+;(3, 9);;(4, 4);False;1;57
+;(3, 9);;(4, 4);pick up large rock at left side of pile, drop further away;1;58
+MoveSouth;(3, 10);;(4, 4);False;1;59
+;(3, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;60
+;(3, 10);;(4, 4);False;1;61
+;(3, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;62
+;(3, 10);;(4, 4);False;1;63
+MoveEast;(4, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;64
+;(4, 10);;(4, 4);False;1;65
+;(4, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;66
+;(4, 10);;(4, 4);False;1;67
+;(4, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;68
+;(4, 10);;(4, 4);False;1;69
+;(4, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;70
+;(4, 10);;(4, 4);False;1;71
+;(4, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;72
+;(4, 10);;(4, 4);False;1;73
+MoveEast;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;74
+;(5, 10);;(4, 4);False;1;75
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;76
+;(5, 10);;(4, 4);False;1;77
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;78
+;(5, 10);;(4, 4);False;1;79
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;80
+;(5, 10);;(4, 4);False;1;81
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;82
+;(5, 10);;(4, 4);False;1;83
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;84
+;(5, 10);;(4, 4);False;1;85
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;86
+;(5, 10);;(4, 4);False;1;87
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;88
+;(5, 10);;(4, 4);False;1;89
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;90
+;(5, 10);;(4, 4);False;1;91
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;92
+;(5, 10);;(4, 4);False;1;93
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;94
+;(5, 10);;(4, 4);False;1;95
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;96
+;(5, 10);;(4, 4);False;1;97
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;98
+;(5, 10);;(4, 4);False;1;99
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;100
+;(5, 10);;(4, 4);False;1;101
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;102
+;(5, 10);;(4, 4);False;1;103
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;104
+;(5, 10);;(4, 4);False;1;105
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;106
+;(5, 10);;(4, 4);False;1;107
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;108
+;(5, 10);;(4, 4);False;1;109
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;110
+;(5, 10);;(4, 4);False;1;111
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;112
+;(5, 10);;(4, 4);False;1;113
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;114
+;(5, 10);;(4, 4);False;1;115
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;116
+;(5, 10);;(4, 4);False;1;117
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;118
+;(5, 10);;(4, 4);False;1;119
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;120
+;(5, 10);;(4, 4);False;1;121
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;122
+;(5, 10);;(4, 4);False;1;123
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;124
+;(5, 10);;(4, 4);False;1;125
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;126
+;(5, 10);;(4, 4);False;1;127
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;128
+;(5, 10);;(4, 4);False;1;129
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;130
+;(5, 10);;(4, 4);False;1;131
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;132
+;(5, 10);;(4, 4);False;1;133
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;134
+;(5, 10);;(4, 4);False;1;135
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;136
+;(5, 10);;(4, 4);False;1;137
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;138
+;(5, 10);;(4, 4);False;1;139
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;140
+;(5, 10);;(4, 4);False;1;141
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;142
+;(5, 10);;(4, 4);False;1;143
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;144
+;(5, 10);;(4, 4);False;1;145
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;146
+;(5, 10);;(4, 4);False;1;147
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;148
+;(5, 10);;(4, 4);False;1;149
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;150
+;(5, 10);;(4, 4);False;1;151
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;152
+;(5, 10);;(4, 4);False;1;153
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;154
+;(5, 10);;(4, 4);False;1;155
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;156
+;(5, 10);;(4, 4);False;1;157
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;158
+;(5, 10);;(4, 4);False;1;159
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;160
+;(5, 10);;(4, 4);False;1;161
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;162
+;(5, 10);;(4, 4);False;1;163
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;164
+;(5, 10);;(4, 4);False;1;165
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;166
+;(5, 10);;(4, 4);False;1;167
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;168
+;(5, 10);;(4, 4);False;1;169
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;170
+;(5, 10);;(4, 4);False;1;171
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;172
+;(5, 10);;(4, 4);False;1;173
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;174
+;(5, 10);;(4, 4);False;1;175
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;176
+;(5, 10);;(4, 4);False;1;177
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;178
+;(5, 10);;(4, 4);False;1;179
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;180
+;(5, 10);;(4, 4);False;1;181
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;182
+;(5, 10);;(4, 4);False;1;183
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;184
+;(5, 10);;(4, 4);False;1;185
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;186
+;(5, 10);;(4, 4);False;1;187
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;188
+;(5, 10);;(4, 4);False;1;189
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;190
+;(5, 10);;(4, 4);False;1;191
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;192
+;(5, 10);;(4, 4);False;1;193
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;194
+;(5, 10);;(4, 4);False;1;195
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;196
+;(5, 10);;(4, 4);False;1;197
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;198
+;(5, 10);;(4, 4);False;1;199
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;200
+;(5, 10);;(4, 4);False;1;201
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;202
+;(5, 10);;(4, 4);False;1;203
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;204
+;(5, 10);;(4, 4);False;1;205
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;206
+;(5, 10);;(4, 4);False;1;207
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;208
+;(5, 10);;(4, 4);False;1;209
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;210
+;(5, 10);;(4, 4);False;1;211
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;212
+;(5, 10);;(4, 4);False;1;213
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;214
+;(5, 10);;(4, 4);False;1;215
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;216
+;(5, 10);;(4, 4);False;1;217
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;218
+;(5, 10);;(4, 4);False;1;219
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;220
+;(5, 10);;(4, 4);False;1;221
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;222
+;(5, 10);;(4, 4);False;1;223
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;224
+;(5, 10);;(4, 4);False;1;225
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;226
+;(5, 10);;(4, 4);False;1;227
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;228
+;(5, 10);;(4, 4);False;1;229
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;230
+;(5, 10);;(4, 4);False;1;231
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;232
+;(5, 10);;(4, 4);False;1;233
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;234
+;(5, 10);;(4, 4);False;1;235
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;236
+;(5, 10);;(4, 4);False;1;237
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;238
+;(5, 10);;(4, 4);False;1;239
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;240
+;(5, 10);;(4, 4);False;1;241
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;242
+;(5, 10);;(4, 4);False;1;243
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;244
+;(5, 10);;(4, 4);False;1;245
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;246
+;(5, 10);;(4, 4);False;1;247
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;248
+;(5, 10);;(4, 4);False;1;249
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;250
+;(5, 10);;(4, 4);False;1;251
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;252
+;(5, 10);;(4, 4);False;1;253
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;254
+;(5, 10);;(4, 4);False;1;255
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;256
+;(5, 10);;(4, 4);False;1;257
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;258
+;(5, 10);;(4, 4);False;1;259
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;260
+;(5, 10);;(4, 4);False;1;261
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;262
+;(5, 10);;(4, 4);False;1;263
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;264
+;(5, 10);;(4, 4);False;1;265
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;266
+;(5, 10);;(4, 4);False;1;267
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;268
+;(5, 10);;(4, 4);False;1;269
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;270
+;(5, 10);;(4, 4);False;1;271
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;272
+;(5, 10);;(4, 4);False;1;273
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;274
+;(5, 10);;(4, 4);False;1;275
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;276
+;(5, 10);;(4, 4);False;1;277
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;278
+;(5, 10);;(4, 4);False;1;279
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;280
+;(5, 10);;(4, 4);False;1;281
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;282
+;(5, 10);;(4, 4);False;1;283
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;284
+;(5, 10);;(4, 4);False;1;285
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;286
+;(5, 10);;(4, 4);False;1;287
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;288
+;(5, 10);;(4, 4);False;1;289
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;290
+;(5, 10);;(4, 4);False;1;291
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;292
+;(5, 10);;(4, 4);False;1;293
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;294
+;(5, 10);;(4, 4);False;1;295
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;296
+;(5, 10);;(4, 4);False;1;297
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;298
+;(5, 10);;(4, 4);False;1;299
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;300
+;(5, 10);;(4, 4);False;1;301
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;302
+;(5, 10);;(4, 4);False;1;303
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;304
+;(5, 10);;(4, 4);False;1;305
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;306
+;(5, 10);;(4, 4);False;1;307
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;308
+;(5, 10);;(4, 4);False;1;309
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;310
+;(5, 10);;(4, 4);False;1;311
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;312
+;(5, 10);;(4, 4);False;1;313
+MoveSouth;(5, 11);;(4, 4);pick up large rock at left side of pile, drop further away;1;314
+;(5, 11);;(4, 4);False;1;315
+;(5, 11);;(4, 4);pick up large rock at left side of pile, drop further away;1;316
+;(5, 11);;(4, 4);False;1;317
+;(5, 11);;(4, 4);pick up large rock at left side of pile, drop further away;1;318
+;(5, 11);;(4, 4);False;1;319
+;(5, 11);;(4, 4);pick up large rock at left side of pile, drop further away;1;320
+;(5, 11);;(4, 4);False;1;321
+;(5, 11);;(4, 4);pick up large rock at left side of pile, drop further away;1;322
+;(5, 11);;(4, 4);False;1;323
+MoveNorth;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;324
+;(5, 10);;(4, 4);False;1;325
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;326
+;(5, 10);;(4, 4);False;1;327
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;328
+;(5, 10);;(4, 4);False;1;329
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;330
+;(5, 10);;(4, 4);False;1;331
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;332
+;(5, 10);;(4, 4);False;1;333
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;334
+;(5, 10);;(4, 4);False;1;335
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;336
+;(5, 10);;(4, 4);False;1;337
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;338
+;(5, 10);;(4, 4);False;1;339
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;340
+;(5, 10);;(4, 4);False;1;341
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;342
+;(5, 10);;(4, 4);False;1;343
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;344
+;(5, 10);;(4, 4);False;1;345
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;346
+;(5, 10);;(4, 4);False;1;347
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;348
+;(5, 10);;(4, 4);False;1;349
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;350
+;(5, 10);;(4, 4);False;1;351
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;352
+;(5, 10);;(4, 4);False;1;353
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;354
+;(5, 10);;(4, 4);False;1;355
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;356
+;(5, 10);;(4, 4);False;1;357
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;358
+;(5, 10);;(4, 4);False;1;359
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;360
+;(5, 10);;(4, 4);False;1;361
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;362
+;(5, 10);;(4, 4);False;1;363
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;364
+;(5, 10);;(4, 4);False;1;365
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;366
+;(5, 10);;(4, 4);False;1;367
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;368
+GrabObject;(5, 10);;(4, 4);False;1;369
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;370
+;(5, 10);;(4, 4);False;1;371
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;372
+MoveWest;(4, 10);;(4, 4);False;1;373
+;(4, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;374
+;(4, 10);;(4, 4);False;1;375
+MoveWest;(3, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;376
+;(3, 10);;(4, 4);False;1;377
+;(3, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;378
+;(3, 10);;(4, 4);False;1;379
+MoveWest;(2, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;380
+;(2, 10);;(4, 4);False;1;381
+;(2, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;382
+MoveWest;(1, 10);;(4, 4);False;1;383
+;(1, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;384
+;(1, 10);;(4, 4);False;1;385
+;(1, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;386
+;(1, 10);;(4, 4);False;1;387
+;(1, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;388
+;(1, 10);;(4, 4);False;1;389
+;(1, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;390
+;(1, 10);;(4, 4);False;1;391
+;(1, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;392
+;(1, 10);;(4, 4);False;1;393
+;(1, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;394
+;(1, 10);;(4, 4);False;1;395
+;(1, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;396
+;(1, 10);;(4, 4);False;1;397
+DropObject;(1, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;398
+;(1, 10);;(4, 4);False;1;399
+;(1, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;400
+;(1, 10);;(4, 4);False;1;401
+MoveEast;(2, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;402
+;(2, 10);;(4, 4);False;1;403
+;(2, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;404
+;(2, 10);;(4, 4);False;1;405
+MoveEast;(3, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;406
+;(3, 10);;(4, 4);False;1;407
+MoveEast;(4, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;408
+;(4, 10);;(4, 4);False;1;409
+;(4, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;410
+MoveEast;(5, 10);;(4, 4);False;1;411
+;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;412
+;(5, 10);;(4, 4);False;1;413
+MoveEast;(6, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;414
+;(6, 10);;(4, 4);False;1;415
+;(6, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;416
+;(6, 10);;(4, 4);False;1;417
+;(6, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;418
+MoveNorth;(6, 9);;(4, 4);False;1;419
+;(6, 9);;(4, 4);pick up large rock at left side of pile, drop further away;1;420
+;(6, 9);;(4, 4);False;1;421
+;(6, 9);;(4, 4);pick up large rock at left side of pile, drop further away;1;422
+;(6, 9);;(4, 4);False;1;423
+;(6, 9);;(4, 4);pick up large rock at left side of pile, drop further away;1;424
+GrabObject;(6, 9);;(4, 4);False;1;425
+;(6, 9);;(4, 4);pick up large rock at left side of pile, drop further away;1;426
+;(6, 9);;(4, 4);False;1;427
+MoveWest;(5, 9);;(4, 4);pick up large rock at left side of pile, drop further away;1;428
+;(5, 9);;(4, 4);False;1;429
+;(5, 9);;(4, 4);pick up large rock at left side of pile, drop further away;1;430
+MoveWest;(4, 9);;(4, 4);False;1;431
+;(4, 9);;(4, 4);pick up large rock at left side of pile, drop further away;1;432
+MoveWest;(3, 9);;(4, 4);False;1;433
+;(3, 9);;(4, 4);pick up large rock at left side of pile, drop further away;1;434
+;(3, 9);;(4, 4);False;1;435
+MoveWest;(2, 9);;(4, 4);pick up large rock at left side of pile, drop further away;1;436
+;(2, 9);;(4, 4);False;1;437
+;(2, 9);;(4, 4);pick up large rock at left side of pile, drop further away;1;438
+MoveWest;(1, 9);;(4, 4);False;1;439
+;(1, 9);;(4, 4);pick up large rock at left side of pile, drop further away;1;440
+MoveWest;(0, 9);;(4, 4);False;1;441
+;(0, 9);;(4, 4);pick up large rock at left side of pile, drop further away;1;442
+;(0, 9);;(4, 4);False;1;443
+;(0, 9);;(4, 4);pick up large rock at left side of pile, drop further away;1;444
+;(0, 9);;(4, 4);False;1;445
+;(0, 9);;(4, 4);pick up large rock at left side of pile, drop further away;1;446
+;(0, 9);;(4, 4);False;1;447
+DropObject;(0, 9);;(4, 4);pick up large rock at left side of pile, drop further away;1;448
+;(0, 9);;(4, 4);False;1;449
+;(0, 9);;(4, 4);pick up large rock at left side of pile, drop further away;1;450
+;(0, 9);;(4, 4);False;1;451
+MoveEast;(1, 9);;(4, 4);pick up large rock at left side of pile, drop further away;1;452
+;(1, 9);;(4, 4);False;1;453
+;(1, 9);;(4, 4);pick up large rock at left side of pile, drop further away;1;454
+MoveEast;(2, 9);;(4, 4);False;1;455
+;(2, 9);;(4, 4);pick up large rock at left side of pile, drop further away;1;456
+;(2, 9);;(4, 4);False;1;457
+;(2, 9);;(4, 4);pick up large rock at left side of pile, drop further away;1;458
+MoveEast;(3, 9);;(4, 4);False;1;459
+;(3, 9);;(4, 4);pick up large rock at left side of pile, drop further away;1;460
+MoveEast;(4, 9);;(4, 4);False;1;461
+;(4, 9);;(4, 4);pick up large rock at left side of pile, drop further away;1;462
+;(4, 9);;(4, 4);False;1;463
+MoveEast;(5, 9);;(4, 4);pick up large rock at left side of pile, drop further away;1;464
+;(5, 9);;(4, 4);False;1;465
+MoveEast;(6, 9);;(4, 4);pick up large rock at left side of pile, drop further away;1;466
+;(6, 9);;(4, 4);False;1;467
+;(6, 9);;(4, 4);pick up large rock at left side of pile, drop further away;1;468
+;(6, 9);;(4, 4);False;1;469
+;(6, 9);;(4, 4);pick up large rock at left side of pile, drop further away;1;470
+;(6, 9);;(4, 4);False;1;471
+;(6, 9);;(4, 4);pick up large rock at left side of pile, drop further away;1;472
+MoveEast;(7, 9);;(4, 4);False;1;473
+;(7, 9);;(4, 4);pick up large rock at left side of pile, drop further away;1;474
+;(7, 9);;(4, 4);False;1;475
+;(7, 9);;(4, 4);pick up large rock at left side of pile, drop further away;1;476
+;(7, 9);;(4, 4);False;1;477
+;(7, 9);;(4, 4);pick up large rock at left side of pile, drop further away;1;478
+MoveSouth;(7, 10);;(4, 4);False;1;479
+;(7, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;480
+;(7, 10);;(4, 4);False;1;481
+;(7, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;482
+;(7, 10);;(4, 4);False;1;483
+MoveWest;(6, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;484
+;(6, 10);;(4, 4);False;1;485
+;(6, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;486
+;(6, 10);;(4, 4);False;1;487
+;(6, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;488
+GrabObject;(6, 10);;(4, 4);False;1;489
+;(6, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;490
+;(6, 10);;(4, 4);False;1;491
+;(6, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;492
+;(6, 10);;(4, 4);False;1;493
+MoveWest;(5, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;494
+;(5, 10);;(4, 4);False;1;495
+MoveWest;(4, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;496
+;(4, 10);;(4, 4);False;1;497
+MoveWest;(3, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;498
+MoveWest;(2, 10);;(4, 4);False;1;499
+;(2, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;500
+MoveWest;(1, 10);;(4, 4);False;1;501
+;(1, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;502
+;(1, 10);;(4, 4);False;1;503
+MoveWest;(0, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;504
+;(0, 10);;(4, 4);False;1;505
+;(0, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;506
+;(0, 10);;(4, 4);False;1;507
+MoveWest;(0, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;508
+;(0, 10);;(4, 4);False;1;509
+;(0, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;510
+;(0, 10);;(4, 4);False;1;511
+;(0, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;512
+;(0, 10);;(4, 4);False;1;513
+;(0, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;514
+DropObject;(0, 10);;(4, 4);False;1;515
+;(0, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;516
+;(0, 10);;(4, 4);False;1;517
+;(0, 10);;(4, 4);pick up large rock at left side of pile, drop further away;1;518
+;(0, 10);;(4, 4);False;1;519
+MoveNorth;(0, 9);;(4, 4);pick up large rock at left side of pile, drop further away;1;520
+;(0, 9);;(4, 4);False;1;521
+;(0, 9);;(4, 4);pick up large rock at left side of pile, drop further away;1;522
+;(0, 9);;(4, 4);False;1;523
+MoveNorth;(0, 8);;(4, 4);pick up large rock at left side of pile, drop further away;1;524
+;(0, 8);;(4, 4);False;1;525
+;(0, 8);;(4, 4);pick up large rock at left side of pile, drop further away;1;526
+MoveNorth;(0, 7);;(4, 4);False;1;527
+;(0, 7);;(4, 4);pick up large rock at left side of pile, drop further away;1;528
+MoveNorth;(0, 6);;(4, 4);False;1;529
+;(0, 6);;(4, 4);pick up large rock at left side of pile, drop further away;1;530
+;(0, 6);;(4, 4);False;1;531
+;(0, 6);;(4, 4);pick up large rock at left side of pile, drop further away;1;532
+MoveNorth;(0, 5);;(4, 4);False;1;533
+;(0, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;534
+;(0, 5);;(4, 4);False;1;535
+;(0, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;536
+MoveEast;(1, 5);;(4, 4);False;1;537
+;(1, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;538
+MoveEast;(2, 5);;(4, 4);False;1;539
+;(2, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;540
+;(2, 5);;(4, 4);False;1;541
+MoveEast;(3, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;542
+;(3, 5);;(4, 4);False;1;543
+;(3, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;544
+;(3, 5);;(4, 4);False;1;545
+MoveEast;(4, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;546
+;(4, 5);;(4, 4);False;1;547
+;(4, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;548
+;(4, 5);;(4, 4);False;1;549
+;(4, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;550
+;(4, 5);;(4, 4);False;1;551
+MoveEast;(5, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;552
+;(5, 5);;(4, 4);False;1;553
+;(5, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;554
+;(5, 5);;(4, 4);False;1;555
+;(5, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;556
+;(5, 5);;(4, 4);False;1;557
+;(5, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;558
+;(5, 5);;(4, 4);False;1;559
+;(5, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;560
+GrabObject;(5, 5);;(4, 4);False;1;561
+;(5, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;562
+;(5, 5);;(4, 4);False;1;563
+;(5, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;564
+MoveWest;(4, 5);;(4, 4);False;1;565
+;(4, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;566
+;(4, 5);;(4, 4);False;1;567
+MoveWest;(3, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;568
+;(3, 5);;(4, 4);False;1;569
+;(3, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;570
+MoveWest;(2, 5);;(4, 4);False;1;571
+;(2, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;572
+;(2, 5);;(4, 4);False;1;573
+;(2, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;574
+MoveWest;(1, 5);;(4, 4);False;1;575
+;(1, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;576
+;(1, 5);;(4, 4);False;1;577
+;(1, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;578
+;(1, 5);;(4, 4);False;1;579
+DropObject;(1, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;580
+;(1, 5);;(4, 4);False;1;581
+;(1, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;582
+;(1, 5);;(4, 4);False;1;583
+MoveEast;(2, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;584
+;(2, 5);;(4, 4);False;1;585
+;(2, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;586
+MoveEast;(3, 5);;(4, 4);False;1;587
+;(3, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;588
+;(3, 5);;(4, 4);False;1;589
+MoveEast;(4, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;590
+;(4, 5);;(4, 4);False;1;591
+MoveEast;(5, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;592
+;(5, 5);;(4, 4);False;1;593
+;(5, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;594
+MoveEast;(6, 5);;(4, 4);False;1;595
+;(6, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;596
+;(6, 5);;(4, 4);False;1;597
+;(6, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;598
+MoveEast;(7, 5);;(4, 4);False;1;599
+;(7, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;600
+;(7, 5);;(4, 4);False;1;601
+GrabObject;(7, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;602
+;(7, 5);;(4, 4);False;1;603
+;(7, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;604
+;(7, 5);;(4, 4);False;1;605
+;(7, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;606
+MoveWest;(6, 5);;(4, 4);False;1;607
+;(6, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;608
+;(6, 5);;(4, 4);False;1;609
+MoveWest;(5, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;610
+;(5, 5);;(4, 4);False;1;611
+;(5, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;612
+;(5, 5);;(4, 4);False;1;613
+MoveWest;(4, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;614
+;(4, 5);;(4, 4);False;1;615
+;(4, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;616
+MoveWest;(3, 5);;(4, 4);False;1;617
+;(3, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;618
+;(3, 5);;(4, 4);False;1;619
+MoveWest;(2, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;620
+;(2, 5);;(4, 4);False;1;621
+;(2, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;622
+;(2, 5);;(4, 4);False;1;623
+MoveWest;(1, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;624
+;(1, 5);;(4, 4);False;1;625
+;(1, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;626
+;(1, 5);;(4, 4);False;1;627
+;(1, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;628
+;(1, 5);;(4, 4);False;1;629
+;(1, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;630
+;(1, 5);;(4, 4);False;1;631
+MoveWest;(0, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;632
+;(0, 5);;(4, 4);False;1;633
+;(0, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;634
+;(0, 5);;(4, 4);False;1;635
+;(0, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;636
+DropObject;(0, 5);;(4, 4);False;1;637
+;(0, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;638
+;(0, 5);;(4, 4);False;1;639
+;(0, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;640
+;(0, 5);;(4, 4);False;1;641
+;(0, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;642
+;(0, 5);;(4, 4);False;1;643
+;(0, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;644
+;(0, 5);;(4, 4);False;1;645
+;(0, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;646
+;(0, 5);;(4, 4);False;1;647
+;(0, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;648
+MoveEast;(1, 5);;(4, 4);False;1;649
+;(1, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;650
+;(1, 5);;(4, 4);False;1;651
+;(1, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;652
+;(1, 5);;(4, 4);False;1;653
+MoveEast;(2, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;654
+;(2, 5);;(4, 4);False;1;655
+MoveEast;(3, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;656
+;(3, 5);;(4, 4);False;1;657
+;(3, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;658
+;(3, 5);;(4, 4);False;1;659
+MoveEast;(4, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;660
+;(4, 5);;(4, 4);False;1;661
+;(4, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;662
+MoveEast;(5, 5);;(4, 4);False;1;663
+;(5, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;664
+;(5, 5);;(4, 4);False;1;665
+;(5, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;666
+;(5, 5);;(4, 4);False;1;667
+;(5, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;668
+MoveEast;(6, 5);;(4, 4);False;1;669
+;(6, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;670
+;(6, 5);;(4, 4);False;1;671
+;(6, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;672
+;(6, 5);;(4, 4);False;1;673
+;(6, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;674
+;(6, 5);;(4, 4);False;1;675
+GrabObject;(6, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;676
+;(6, 5);;(4, 4);False;1;677
+;(6, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;678
+;(6, 5);;(4, 4);False;1;679
+MoveWest;(5, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;680
+;(5, 5);;(4, 4);False;1;681
+;(5, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;682
+;(5, 5);;(4, 4);False;1;683
+MoveWest;(4, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;684
+;(4, 5);;(4, 4);False;1;685
+;(4, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;686
+MoveWest;(3, 5);;(4, 4);False;1;687
+;(3, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;688
+;(3, 5);;(4, 4);False;1;689
+MoveWest;(2, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;690
+;(2, 5);;(4, 4);False;1;691
+;(2, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;692
+;(2, 5);;(4, 4);False;1;693
+MoveWest;(1, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;694
+;(1, 5);;(4, 4);False;1;695
+;(1, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;696
+;(1, 5);;(4, 4);False;1;697
+;(1, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;698
+;(1, 5);;(4, 4);False;1;699
+;(1, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;700
+DropObject;(1, 5);;(4, 4);False;1;701
+;(1, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;702
+;(1, 5);;(4, 4);False;1;703
+;(1, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;704
+;(1, 5);;(4, 4);False;1;705
+;(1, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;706
+;(1, 5);;(4, 4);False;1;707
+;(1, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;708
+;(1, 5);;(4, 4);False;1;709
+;(1, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;710
+;(1, 5);;(4, 4);False;1;711
+MoveEast;(2, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;712
+;(2, 5);;(4, 4);False;1;713
+;(2, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;714
+;(2, 5);;(4, 4);False;1;715
+;(2, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;716
+MoveEast;(3, 5);;(4, 4);False;1;717
+;(3, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;718
+;(3, 5);;(4, 4);False;1;719
+;(3, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;720
+MoveEast;(4, 5);;(4, 4);False;1;721
+;(4, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;722
+;(4, 5);;(4, 4);False;1;723
+;(4, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;724
+MoveEast;(5, 5);;(4, 4);False;1;725
+;(5, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;726
+;(5, 5);;(4, 4);False;1;727
+;(5, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;728
+MoveEast;(6, 5);;(4, 4);False;1;729
+;(6, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;730
+;(6, 5);;(4, 4);False;1;731
+;(6, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;732
+MoveEast;(7, 5);;(4, 4);False;1;733
+;(7, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;734
+;(7, 5);;(4, 4);False;1;735
+MoveEast;(8, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;736
+;(8, 5);;(4, 4);False;1;737
+;(8, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;738
+;(8, 5);;(4, 4);False;1;739
+;(8, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;740
+;(8, 5);;(4, 4);False;1;741
+;(8, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;742
+;(8, 5);;(4, 4);False;1;743
+;(8, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;744
+MoveNorth;(8, 4);;(4, 4);False;1;745
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;746
+;(8, 4);;(4, 4);False;1;747
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;748
+;(8, 4);;(4, 4);False;1;749
+MoveNorth;(8, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;750
+;(8, 3);;(4, 4);False;1;751
+;(8, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;752
+;(8, 3);;(4, 4);False;1;753
+MoveNorth;(8, 2);;(4, 4);pick up large rock at left side of pile, drop further away;1;754
+;(8, 2);;(4, 4);False;1;755
+;(8, 2);;(4, 4);pick up large rock at left side of pile, drop further away;1;756
+;(8, 2);;(4, 4);False;1;757
+;(8, 2);;(4, 4);pick up large rock at left side of pile, drop further away;1;758
+;(8, 2);;(4, 4);False;1;759
+;(8, 2);;(4, 4);pick up large rock at left side of pile, drop further away;1;760
+;(8, 2);;(4, 4);False;1;761
+;(8, 2);;(4, 4);pick up large rock at left side of pile, drop further away;1;762
+;(8, 2);;(4, 4);False;1;763
+;(8, 2);;(4, 4);pick up large rock at left side of pile, drop further away;1;764
+;(8, 2);;(4, 4);False;1;765
+;(8, 2);;(4, 4);pick up large rock at left side of pile, drop further away;1;766
+;(8, 2);;(4, 4);False;1;767
+;(8, 2);;(4, 4);pick up large rock at left side of pile, drop further away;1;768
+;(8, 2);;(4, 4);False;1;769
+;(8, 2);;(4, 4);pick up large rock at left side of pile, drop further away;1;770
+;(8, 2);;(4, 4);False;1;771
+;(8, 2);;(4, 4);pick up large rock at left side of pile, drop further away;1;772
+;(8, 2);;(4, 4);False;1;773
+;(8, 2);;(4, 4);pick up large rock at left side of pile, drop further away;1;774
+;(8, 2);;(4, 4);False;1;775
+;(8, 2);;(4, 4);pick up large rock at left side of pile, drop further away;1;776
+;(8, 2);;(4, 4);False;1;777
+;(8, 2);;(4, 4);pick up large rock at left side of pile, drop further away;1;778
+;(8, 2);;(4, 4);False;1;779
+MoveEast;(9, 2);;(4, 4);pick up large rock at left side of pile, drop further away;1;780
+;(9, 2);;(4, 4);False;1;781
+;(9, 2);;(4, 4);pick up large rock at left side of pile, drop further away;1;782
+;(9, 2);;(4, 4);False;1;783
+;(9, 2);;(4, 4);pick up large rock at left side of pile, drop further away;1;784
+;(9, 2);;(4, 4);False;1;785
+MoveSouth;(9, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;786
+;(9, 3);;(4, 4);False;1;787
+;(9, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;788
+;(9, 3);;(4, 4);False;1;789
+MoveWest;(8, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;790
+;(8, 3);;(4, 4);False;1;791
+;(8, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;792
+;(8, 3);;(4, 4);False;1;793
+;(8, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;794
+;(8, 3);;(4, 4);False;1;795
+;(8, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;796
+GrabObject;(8, 3);;(4, 4);False;1;797
+;(8, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;798
+;(8, 3);;(4, 4);False;1;799
+;(8, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;800
+MoveWest;(7, 3);;(4, 4);False;1;801
+;(7, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;802
+MoveWest;(6, 3);;(4, 4);False;1;803
+;(6, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;804
+;(6, 3);;(4, 4);False;1;805
+MoveWest;(5, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;806
+;(5, 3);;(4, 4);False;1;807
+;(5, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;808
+MoveWest;(4, 3);;(4, 4);False;1;809
+;(4, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;810
+;(4, 3);;(4, 4);False;1;811
+MoveWest;(3, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;812
+;(3, 3);;(4, 4);False;1;813
+;(3, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;814
+MoveWest;(2, 3);;(4, 4);False;1;815
+;(2, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;816
+;(2, 3);;(4, 4);False;1;817
+;(2, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;818
+;(2, 3);;(4, 4);False;1;819
+;(2, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;820
+;(2, 3);;(4, 4);False;1;821
+MoveWest;(1, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;822
+;(1, 3);;(4, 4);False;1;823
+;(1, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;824
+;(1, 3);;(4, 4);False;1;825
+DropObject;(1, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;826
+;(1, 3);;(4, 4);False;1;827
+;(1, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;828
+;(1, 3);;(4, 4);False;1;829
+MoveEast;(2, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;830
+;(2, 3);;(4, 4);False;1;831
+;(2, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;832
+MoveEast;(3, 3);;(4, 4);False;1;833
+;(3, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;834
+;(3, 3);;(4, 4);False;1;835
+MoveEast;(4, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;836
+;(4, 3);;(4, 4);False;1;837
+MoveEast;(5, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;838
+;(5, 3);;(4, 4);False;1;839
+;(5, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;840
+MoveEast;(6, 3);;(4, 4);False;1;841
+;(6, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;842
+;(6, 3);;(4, 4);False;1;843
+MoveEast;(7, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;844
+;(7, 3);;(4, 4);False;1;845
+MoveEast;(8, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;846
+;(8, 3);;(4, 4);False;1;847
+;(8, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;848
+MoveEast;(9, 3);;(4, 4);False;1;849
+;(9, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;850
+;(9, 3);;(4, 4);False;1;851
+MoveEast;(10, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;852
+;(10, 3);;(4, 4);False;1;853
+;(10, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;854
+;(10, 3);;(4, 4);False;1;855
+GrabObject;(10, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;856
+;(10, 3);;(4, 4);False;1;857
+;(10, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;858
+MoveWest;(9, 3);;(4, 4);False;1;859
+;(9, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;860
+;(9, 3);;(4, 4);False;1;861
+;(9, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;862
+;(9, 3);;(4, 4);False;1;863
+;(9, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;864
+;(9, 3);;(4, 4);False;1;865
+;(9, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;866
+;(9, 3);;(4, 4);False;1;867
+MoveWest;(8, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;868
+;(8, 3);;(4, 4);False;1;869
+MoveWest;(7, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;870
+;(7, 3);;(4, 4);False;1;871
+;(7, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;872
+MoveWest;(6, 3);;(4, 4);False;1;873
+;(6, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;874
+MoveWest;(5, 3);;(4, 4);False;1;875
+;(5, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;876
+;(5, 3);;(4, 4);False;1;877
+MoveWest;(4, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;878
+;(4, 3);;(4, 4);False;1;879
+;(4, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;880
+MoveWest;(3, 3);;(4, 4);False;1;881
+;(3, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;882
+;(3, 3);;(4, 4);False;1;883
+MoveWest;(2, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;884
+;(2, 3);;(4, 4);False;1;885
+MoveWest;(1, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;886
+;(1, 3);;(4, 4);False;1;887
+;(1, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;888
+MoveWest;(0, 3);;(4, 4);False;1;889
+;(0, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;890
+;(0, 3);;(4, 4);False;1;891
+;(0, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;892
+;(0, 3);;(4, 4);False;1;893
+;(0, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;894
+;(0, 3);;(4, 4);False;1;895
+;(0, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;896
+DropObject;(0, 3);;(4, 4);False;1;897
+;(0, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;898
+;(0, 3);;(4, 4);False;1;899
+;(0, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;900
+;(0, 3);;(4, 4);False;1;901
+;(0, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;902
+;(0, 3);;(4, 4);False;1;903
+;(0, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;904
+;(0, 3);;(4, 4);False;1;905
+;(0, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;906
+;(0, 3);;(4, 4);False;1;907
+;(0, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;908
+;(0, 3);;(4, 4);False;1;909
+;(0, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;910
+;(0, 3);;(4, 4);False;1;911
+;(0, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;912
+;(0, 3);;(4, 4);False;1;913
+;(0, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;914
+;(0, 3);;(4, 4);False;1;915
+MoveEast;(1, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;916
+;(1, 3);;(4, 4);False;1;917
+;(1, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;918
+;(1, 3);;(4, 4);False;1;919
+MoveEast;(2, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;920
+;(2, 3);;(4, 4);False;1;921
+;(2, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;922
+MoveEast;(3, 3);;(4, 4);False;1;923
+;(3, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;924
+;(3, 3);;(4, 4);False;1;925
+MoveEast;(4, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;926
+;(4, 3);;(4, 4);False;1;927
+;(4, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;928
+MoveEast;(5, 3);;(4, 4);False;1;929
+;(5, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;930
+;(5, 3);;(4, 4);False;1;931
+MoveEast;(6, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;932
+;(6, 3);;(4, 4);False;1;933
+;(6, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;934
+MoveEast;(7, 3);;(4, 4);False;1;935
+;(7, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;936
+;(7, 3);;(4, 4);False;1;937
+MoveEast;(8, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;938
+;(8, 3);;(4, 4);False;1;939
+;(8, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;940
+;(8, 3);;(4, 4);False;1;941
+MoveEast;(9, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;942
+;(9, 3);;(4, 4);False;1;943
+;(9, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;944
+MoveEast;(10, 3);;(4, 4);False;1;945
+;(10, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;946
+;(10, 3);;(4, 4);False;1;947
+;(10, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;948
+;(10, 3);;(4, 4);False;1;949
+;(10, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;950
+MoveEast;(11, 3);;(4, 4);False;1;951
+;(11, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;952
+;(11, 3);;(4, 4);False;1;953
+;(11, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;954
+;(11, 3);;(4, 4);False;1;955
+;(11, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;956
+MoveWest;(10, 3);;(4, 4);False;1;957
+;(10, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;958
+;(10, 3);;(4, 4);False;1;959
+;(10, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;960
+;(10, 3);;(4, 4);False;1;961
+;(10, 3);;(4, 4);pick up large rock at left side of pile, drop further away;1;962
+;(10, 3);;(4, 4);False;1;963
+MoveSouth;(10, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;964
+;(10, 4);;(4, 4);False;1;965
+;(10, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;966
+;(10, 4);;(4, 4);False;1;967
+;(10, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;968
+;(10, 4);;(4, 4);False;1;969
+;(10, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;970
+;(10, 4);;(4, 4);False;1;971
+;(10, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;972
+;(10, 4);;(4, 4);False;1;973
+;(10, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;974
+;(10, 4);;(4, 4);False;1;975
+;(10, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;976
+;(10, 4);;(4, 4);False;1;977
+GrabObject;(10, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;978
+;(10, 4);;(4, 4);False;1;979
+;(10, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;980
+;(10, 4);;(4, 4);False;1;981
+;(10, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;982
+;(10, 4);;(4, 4);False;1;983
+;(10, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;984
+;(10, 4);;(4, 4);False;1;985
+MoveEast;(11, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;986
+;(11, 4);;(4, 4);False;1;987
+;(11, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;988
+MoveEast;(12, 4);;(4, 4);False;1;989
+;(12, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;990
+;(12, 4);;(4, 4);False;1;991
+MoveEast;(13, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;992
+;(13, 4);;(4, 4);False;1;993
+;(13, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;994
+MoveEast;(14, 4);;(4, 4);False;1;995
+;(14, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;996
+;(14, 4);;(4, 4);False;1;997
+;(14, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;998
+MoveEast;(15, 4);;(4, 4);False;1;999
+;(15, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1000
+;(15, 4);;(4, 4);False;1;1001
+;(15, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1002
+;(15, 4);;(4, 4);False;1;1003
+;(15, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1004
+;(15, 4);;(4, 4);False;1;1005
+MoveEast;(16, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1006
+;(16, 4);;(4, 4);False;1;1007
+;(16, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1008
+;(16, 4);;(4, 4);False;1;1009
+DropObject;(16, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1010
+;(16, 4);;(4, 4);False;1;1011
+;(16, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1012
+;(16, 4);;(4, 4);False;1;1013
+;(16, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1014
+;(16, 4);;(4, 4);False;1;1015
+MoveWest;(15, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1016
+;(15, 4);;(4, 4);False;1;1017
+;(15, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1018
+;(15, 4);;(4, 4);False;1;1019
+MoveWest;(14, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1020
+;(14, 4);;(4, 4);False;1;1021
+MoveWest;(13, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1022
+;(13, 4);;(4, 4);False;1;1023
+;(13, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1024
+;(13, 4);;(4, 4);False;1;1025
+MoveWest;(12, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1026
+;(12, 4);;(4, 4);False;1;1027
+MoveWest;(11, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1028
+;(11, 4);;(4, 4);False;1;1029
+;(11, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1030
+;(11, 4);;(4, 4);False;1;1031
+MoveWest;(10, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1032
+;(10, 4);;(4, 4);False;1;1033
+;(10, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1034
+;(10, 4);;(4, 4);False;1;1035
+;(10, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1036
+;(10, 4);;(4, 4);False;1;1037
+MoveSouth;(10, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;1038
+;(10, 5);;(4, 4);False;1;1039
+;(10, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;1040
+;(10, 5);;(4, 4);False;1;1041
+;(10, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;1042
+;(10, 5);;(4, 4);False;1;1043
+GrabObject;(10, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;1044
+;(10, 5);;(4, 4);False;1;1045
+MoveEast;(11, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;1046
+;(11, 5);;(4, 4);False;1;1047
+;(11, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;1048
+MoveEast;(12, 5);;(4, 4);False;1;1049
+;(12, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;1050
+;(12, 5);;(4, 4);False;1;1051
+MoveEast;(13, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;1052
+;(13, 5);;(4, 4);False;1;1053
+;(13, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;1054
+MoveEast;(14, 5);;(4, 4);False;1;1055
+;(14, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;1056
+;(14, 5);;(4, 4);False;1;1057
+MoveEast;(15, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;1058
+;(15, 5);;(4, 4);False;1;1059
+;(15, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;1060
+;(15, 5);;(4, 4);False;1;1061
+;(15, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;1062
+;(15, 5);;(4, 4);False;1;1063
+;(15, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;1064
+;(15, 5);;(4, 4);False;1;1065
+;(15, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;1066
+DropObject;(15, 5);;(4, 4);False;1;1067
+;(15, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;1068
+;(15, 5);;(4, 4);False;1;1069
+;(15, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;1070
+;(15, 5);;(4, 4);False;1;1071
+MoveWest;(14, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;1072
+;(14, 5);;(4, 4);False;1;1073
+;(14, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;1074
+;(14, 5);;(4, 4);False;1;1075
+;(14, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;1076
+MoveWest;(13, 5);;(4, 4);False;1;1077
+;(13, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;1078
+;(13, 5);;(4, 4);False;1;1079
+;(13, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;1080
+;(13, 5);;(4, 4);False;1;1081
+;(13, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;1082
+;(13, 5);;(4, 4);False;1;1083
+;(13, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;1084
+MoveEast;(14, 5);;(4, 4);False;1;1085
+;(14, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;1086
+;(14, 5);;(4, 4);False;1;1087
+;(14, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;1088
+MoveEast;(15, 5);;(4, 4);False;1;1089
+;(15, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;1090
+;(15, 5);;(4, 4);False;1;1091
+;(15, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;1092
+MoveEast;(16, 5);;(4, 4);False;1;1093
+;(16, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;1094
+;(16, 5);;(4, 4);False;1;1095
+;(16, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;1096
+;(16, 5);;(4, 4);False;1;1097
+;(16, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;1098
+MoveWest;(15, 5);;(4, 4);False;1;1099
+;(15, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;1100
+;(15, 5);;(4, 4);False;1;1101
+MoveWest;(14, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;1102
+;(14, 5);;(4, 4);False;1;1103
+;(14, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;1104
+;(14, 5);;(4, 4);False;1;1105
+MoveWest;(13, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;1106
+;(13, 5);;(4, 4);False;1;1107
+;(13, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;1108
+MoveWest;(12, 5);;(4, 4);False;1;1109
+;(12, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;1110
+;(12, 5);;(4, 4);False;1;1111
+;(12, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;1112
+;(12, 5);;(4, 4);False;1;1113
+;(12, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;1114
+;(12, 5);;(4, 4);False;1;1115
+;(12, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;1116
+;(12, 5);;(4, 4);False;1;1117
+MoveWest;(11, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;1118
+MoveWest;(10, 5);;(4, 4);False;1;1119
+;(10, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;1120
+MoveWest;(9, 5);;(4, 4);False;1;1121
+MoveWest;(8, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;1122
+;(8, 5);;(4, 4);False;1;1123
+MoveWest;(7, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;1124
+;(7, 5);;(4, 4);False;1;1125
+;(7, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;1126
+;(7, 5);;(4, 4);False;1;1127
+;(7, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;1128
+;(7, 5);;(4, 4);False;1;1129
+;(7, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;1130
+;(7, 5);;(4, 4);False;1;1131
+;(7, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;1132
+;(7, 5);;(4, 4);False;1;1133
+;(7, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;1134
+;(7, 5);;(4, 4);False;1;1135
+;(7, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;1136
+;(7, 5);;(4, 4);False;1;1137
+;(7, 5);;(4, 4);pick up large rock at left side of pile, drop further away;1;1138
+MoveNorth;(7, 4);;(4, 4);False;1;1139
+;(7, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1140
+;(7, 4);;(4, 4);False;1;1141
+;(7, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1142
+;(7, 4);;(4, 4);False;1;1143
+;(7, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1144
+;(7, 4);;(4, 4);False;1;1145
+;(7, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1146
+;(7, 4);;(4, 4);False;1;1147
+;(7, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1148
+;(7, 4);;(4, 4);False;1;1149
+MoveEast;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1150
+;(8, 4);;(4, 4);False;1;1151
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1152
+;(8, 4);;(4, 4);False;1;1153
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1154
+;(8, 4);;(4, 4);False;1;1155
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1156
+;(8, 4);;(4, 4);False;1;1157
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1158
+;(8, 4);;(4, 4);False;1;1159
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1160
+;(8, 4);;(4, 4);False;1;1161
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1162
+;(8, 4);;(4, 4);False;1;1163
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1164
+;(8, 4);;(4, 4);False;1;1165
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1166
+;(8, 4);;(4, 4);False;1;1167
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1168
+;(8, 4);;(4, 4);False;1;1169
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1170
+;(8, 4);;(4, 4);False;1;1171
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1172
+;(8, 4);;(4, 4);False;1;1173
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1174
+;(8, 4);;(4, 4);False;1;1175
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1176
+;(8, 4);;(4, 4);False;1;1177
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1178
+;(8, 4);;(4, 4);False;1;1179
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1180
+;(8, 4);;(4, 4);False;1;1181
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1182
+;(8, 4);;(4, 4);False;1;1183
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1184
+;(8, 4);;(4, 4);False;1;1185
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1186
+;(8, 4);;(4, 4);False;1;1187
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1188
+;(8, 4);;(4, 4);False;1;1189
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1190
+;(8, 4);;(4, 4);False;1;1191
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1192
+;(8, 4);;(4, 4);False;1;1193
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1194
+;(8, 4);;(4, 4);False;1;1195
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1196
+;(8, 4);;(4, 4);False;1;1197
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1198
+;(8, 4);;(4, 4);False;1;1199
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1200
+;(8, 4);;(4, 4);False;1;1201
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1202
+;(8, 4);;(4, 4);False;1;1203
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1204
+;(8, 4);;(4, 4);False;1;1205
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1206
+;(8, 4);;(4, 4);False;1;1207
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1208
+;(8, 4);;(4, 4);False;1;1209
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1210
+;(8, 4);;(4, 4);False;1;1211
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1212
+;(8, 4);;(4, 4);False;1;1213
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1214
+;(8, 4);;(4, 4);False;1;1215
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1216
+;(8, 4);;(4, 4);False;1;1217
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1218
+;(8, 4);;(4, 4);False;1;1219
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1220
+;(8, 4);;(4, 4);False;1;1221
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1222
+;(8, 4);;(4, 4);False;1;1223
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1224
+;(8, 4);;(4, 4);False;1;1225
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1226
+;(8, 4);;(4, 4);False;1;1227
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1228
+;(8, 4);;(4, 4);False;1;1229
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1230
+;(8, 4);;(4, 4);False;1;1231
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1232
+;(8, 4);;(4, 4);False;1;1233
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1234
+;(8, 4);;(4, 4);False;1;1235
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1236
+;(8, 4);;(4, 4);False;1;1237
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1238
+;(8, 4);;(4, 4);False;1;1239
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1240
+;(8, 4);;(4, 4);False;1;1241
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1242
+;(8, 4);;(4, 4);False;1;1243
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1244
+;(8, 4);;(4, 4);False;1;1245
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1246
+;(8, 4);;(4, 4);False;1;1247
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1248
+;(8, 4);;(4, 4);False;1;1249
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1250
+;(8, 4);;(4, 4);False;1;1251
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1252
+;(8, 4);;(4, 4);False;1;1253
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1254
+;(8, 4);;(4, 4);False;1;1255
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1256
+;(8, 4);;(4, 4);False;1;1257
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1258
+;(8, 4);;(4, 4);False;1;1259
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1260
+;(8, 4);;(4, 4);False;1;1261
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1262
+;(8, 4);;(4, 4);False;1;1263
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1264
+;(8, 4);;(4, 4);False;1;1265
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1266
+;(8, 4);;(4, 4);False;1;1267
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1268
+;(8, 4);;(4, 4);False;1;1269
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1270
+;(8, 4);;(4, 4);False;1;1271
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1272
+;(8, 4);;(4, 4);False;1;1273
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1274
+;(8, 4);;(4, 4);False;1;1275
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1276
+;(8, 4);;(4, 4);False;1;1277
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1278
+;(8, 4);;(4, 4);False;1;1279
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1280
+;(8, 4);;(4, 4);False;1;1281
+;(8, 4);;(4, 4);pick up large rock at left side of pile, drop further away;1;1282
+;(8, 4);;(4, 4);False;1;1283
+;(8, 4);;(4, 4);Robot break large rock at the top;1;1284
+;(8, 4);;(4, 4);Robot break large rock at the top;1;1285
+;(8, 4);MoveEast;(4, 4);Robot break large rock at the top;1;1286
+;(8, 4);MoveEast;(4, 4);Robot break large rock at the top;1;1287
+;(8, 4);MoveEast;(4, 4);Robot break large rock at the top;1;1288
+;(8, 4);MoveEast;(4, 4);Robot break large rock at the top;1;1289
+;(8, 4);MoveEast;(4, 4);Robot break large rock at the top;1;1290
+;(8, 4);MoveEast;(4, 4);Robot break large rock at the top;1;1291
+;(8, 4);MoveEast;(4, 4);Robot break large rock at the top;1;1292
+;(8, 4);MoveEast;(4, 4);Robot break large rock at the top;1;1293
+;(8, 4);MoveEast;(4, 4);Robot break large rock at the top;1;1294
+;(8, 4);MoveEast;(4, 4);Robot break large rock at the top;1;1295
+;(8, 4);MoveEast;(5, 4);Robot break large rock at the top;1;1296
+;(8, 4);MoveEast;(5, 4);Robot break large rock at the top;1;1297
+;(8, 4);MoveEast;(5, 4);Robot break large rock at the top;1;1298
+;(8, 4);MoveEast;(5, 4);Robot break large rock at the top;1;1299
+;(8, 4);MoveEast;(5, 4);Robot break large rock at the top;1;1300
+;(8, 4);MoveEast;(5, 4);Robot break large rock at the top;1;1301
+;(8, 4);MoveEast;(5, 4);Robot break large rock at the top;1;1302
+;(8, 4);MoveEast;(5, 4);Robot break large rock at the top;1;1303
+;(8, 4);MoveEast;(5, 4);Robot break large rock at the top;1;1304
+;(8, 4);MoveEast;(5, 4);Robot break large rock at the top;1;1305
+;(8, 4);MoveEast;(5, 4);Robot break large rock at the top;1;1306
+;(8, 4);MoveEast;(6, 4);Robot break large rock at the top;1;1307
+;(8, 4);MoveEast;(6, 4);Robot break large rock at the top;1;1308
+;(8, 4);MoveEast;(6, 4);Robot break large rock at the top;1;1309
+;(8, 4);MoveEast;(6, 4);Robot break large rock at the top;1;1310
+;(8, 4);MoveEast;(6, 4);Robot break large rock at the top;1;1311
+;(8, 4);MoveEast;(6, 4);Robot break large rock at the top;1;1312
+;(8, 4);MoveEast;(6, 4);Robot break large rock at the top;1;1313
+;(8, 4);MoveEast;(6, 4);Robot break large rock at the top;1;1314
+;(8, 4);MoveEast;(6, 4);Robot break large rock at the top;1;1315
+;(8, 4);MoveEast;(6, 4);Robot break large rock at the top;1;1316
+;(8, 4);MoveEast;(6, 4);Robot break large rock at the top;1;1317
+;(8, 4);MoveEast;(7, 4);Robot break large rock at the top;1;1318
+;(8, 4);MoveEast;(7, 4);Robot break large rock at the top;1;1319
+;(8, 4);MoveEast;(7, 4);Robot break large rock at the top;1;1320
+;(8, 4);MoveEast;(7, 4);Robot break large rock at the top;1;1321
+;(8, 4);MoveEast;(7, 4);Robot break large rock at the top;1;1322
+;(8, 4);MoveEast;(7, 4);Robot break large rock at the top;1;1323
+;(8, 4);MoveEast;(7, 4);Robot break large rock at the top;1;1324
+;(8, 4);MoveEast;(7, 4);Robot break large rock at the top;1;1325
+;(8, 4);MoveEast;(7, 4);Robot break large rock at the top;1;1326
+;(8, 4);MoveEast;(7, 4);Robot break large rock at the top;1;1327
+;(8, 4);MoveEast;(7, 4);Robot break large rock at the top;1;1328
+;(8, 4);MoveEast;(8, 4);Robot break large rock at the top;1;1329
+;(8, 4);GrabLargeObject;(8, 4);Robot break large rock at the top;1;1330
+;(8, 4);GrabLargeObject;(8, 4);Robot break large rock at the top;1;1331
+;(8, 4);GrabLargeObject;(8, 4);Robot break large rock at the top;1;1332
+;(8, 4);GrabLargeObject;(8, 4);Robot break large rock at the top;1;1333
+;(8, 4);GrabLargeObject;(8, 4);Robot break large rock at the top;1;1334
+;(8, 4);GrabLargeObject;(8, 4);Robot break large rock at the top;1;1335
+;(8, 4);GrabLargeObject;(8, 4);Robot break large rock at the top;1;1336
+;(8, 4);GrabLargeObject;(8, 4);Robot break large rock at the top;1;1337
+;(8, 4);GrabLargeObject;(8, 4);Robot break large rock at the top;1;1338
+MoveSouth;(8, 5);GrabLargeObject;(8, 4);Robot break large rock at the top;1;1339
+;(8, 5);GrabLargeObject;(8, 4);Robot break large rock at the top;1;1340
+MoveSouth;(8, 6);;(8, 4);Robot break large rock at the top;1;1341
+;(8, 6);;(8, 4);Robot break large rock at the top;1;1342
+;(8, 6);;(8, 4);Robot break large rock at the top;1;1343
+;(8, 6);;(8, 4);Robot break large rock at the top;1;1344
+;(8, 6);;(8, 4);Robot break large rock at the top;1;1345
+;(8, 6);;(8, 4);Robot break large rock at the top;1;1346
+;(8, 6);;(8, 4);Robot break large rock at the top;1;1347
+;(8, 6);;(8, 4);Robot break large rock at the top;1;1348
+;(8, 6);;(8, 4);Robot break large rock at the top;1;1349
+;(8, 6);;(8, 4);Robot break large rock at the top;1;1350
+;(8, 6);;(8, 4);Robot break large rock at the top;1;1351
+MoveWest;(7, 6);;(8, 4);Robot break large rock at the top;1;1352
+;(7, 6);;(8, 4);Robot break large rock at the top;1;1353
+;(7, 6);;(8, 4);Robot break large rock at the top;1;1354
+;(7, 6);;(8, 4);Robot break large rock at the top;1;1355
+;(7, 6);;(8, 4);Robot break large rock at the top;1;1356
+;(7, 6);;(8, 4);Robot break large rock at the top;1;1357
+;(7, 6);;(8, 4);Robot break large rock at the top;1;1358
+;(7, 6);;(8, 4);Robot break large rock at the top;1;1359
+;(7, 6);;(8, 4);Robot break large rock at the top;1;1360
+MoveEast;(8, 6);;(8, 4);Robot break large rock at the top;1;1361
+;(8, 6);;(8, 4);Robot break large rock at the top;1;1362
+;(8, 6);;(8, 4);Robot break large rock at the top;1;1363
+;(8, 6);;(8, 4);Robot break large rock at the top;1;1364
+;(8, 6);;(8, 4);Robot break large rock at the top;1;1365
+;(8, 6);;(8, 4);Robot break large rock at the top;1;1366
+;(8, 6);;(8, 4);Robot break large rock at the top;1;1367
+;(8, 6);;(8, 4);Robot break large rock at the top;1;1368
+;(8, 6);;(8, 4);Robot break large rock at the top;1;1369
+;(8, 6);;(8, 4);Robot break large rock at the top;1;1370
+;(8, 6);;(8, 4);Robot break large rock at the top;1;1371
+;(8, 6);;(8, 4);Robot break large rock at the top;1;1372
+;(8, 6);;(8, 4);Robot break large rock at the top;1;1373
+;(8, 6);;(8, 4);Robot break large rock at the top;1;1374
+MoveWest;(7, 6);;(8, 4);Robot break large rock at the top;1;1375
+;(7, 6);;(8, 4);Robot break large rock at the top;1;1376
+;(7, 6);;(8, 4);Robot break large rock at the top;1;1377
+;(7, 6);;(8, 4);Robot break large rock at the top;1;1378
+;(7, 6);;(8, 4);Robot break large rock at the top;1;1379
+;(7, 6);;(8, 4);Robot break large rock at the top;1;1380
+;(7, 6);;(8, 4);Robot break large rock at the top;1;1381
+;(7, 6);;(8, 4);Robot break large rock at the top;1;1382
+;(7, 6);;(8, 4);Robot break large rock at the top;1;1383
+MoveEast;(8, 6);;(8, 4);Robot break large rock at the top;1;1384
+;(8, 6);;(8, 4);Robot break large rock at the top;1;1385
+;(8, 6);;(8, 4);Robot break large rock at the top;1;1386
+;(8, 6);;(8, 4);Robot break large rock at the top;1;1387
+;(8, 6);;(8, 4);Robot break large rock at the top;1;1388
+MoveEast;(9, 6);;(8, 4);Robot break large rock at the top;1;1389
+;(9, 6);;(8, 4);Robot break large rock at the top;1;1390
+;(9, 6);;(8, 4);Robot break large rock at the top;1;1391
+;(9, 6);;(8, 4);Robot break large rock at the top;1;1392
+;(9, 6);;(8, 4);Robot break large rock at the top;1;1393
+MoveEast;(10, 6);;(8, 4);Robot break large rock at the top;1;1394
+;(10, 6);;(8, 4);Robot break large rock at the top;1;1395
+;(10, 6);;(8, 4);Robot break large rock at the top;1;1396
+;(10, 6);;(8, 4);Robot break large rock at the top;1;1397
+;(10, 6);;(8, 4);Robot break large rock at the top;1;1398
+;(10, 6);;(8, 4);Robot break large rock at the top;1;1399
+;(10, 6);;(8, 4);Robot break large rock at the top;1;1400
+;(10, 6);;(8, 4);Robot break large rock at the top;1;1401
+;(10, 6);;(8, 4);Robot break large rock at the top;1;1402
+;(10, 6);;(8, 4);Robot break large rock at the top;1;1403
+;(10, 6);;(8, 4);Robot break large rock at the top;1;1404
+;(10, 6);;(8, 4);Robot break large rock at the top;1;1405
+;(10, 6);;(8, 4);Robot break large rock at the top;1;1406
+;(10, 6);;(8, 4);Robot break large rock at the top;1;1407
+;(10, 6);;(8, 4);Robot break large rock at the top;1;1408
+;(10, 6);;(8, 4);Robot break large rock at the top;1;1409
+;(10, 6);;(8, 4);Robot break large rock at the top;1;1410
+;(10, 6);;(8, 4);Robot break large rock at the top;1;1411
+;(10, 6);;(8, 4);Robot break large rock at the top;1;1412
+;(10, 6);;(8, 4);Robot break large rock at the top;1;1413
+;(10, 6);;(8, 4);Robot break large rock at the top;1;1414
+;(10, 6);;(8, 4);Robot break large rock at the top;1;1415
+;(10, 6);;(8, 4);Robot break large rock at the top;1;1416
+;(10, 6);;(8, 4);Robot break large rock at the top;1;1417
+;(10, 6);;(8, 4);Robot break large rock at the top;1;1418
+;(10, 6);;(8, 4);Robot break large rock at the top;1;1419
+;(10, 6);;(8, 4);Robot break large rock at the top;1;1420
+;(10, 6);;(8, 4);Robot break large rock at the top;1;1421
+;(10, 6);;(8, 4);Robot break large rock at the top;1;1422
+;(10, 6);;(8, 4);Robot break large rock at the top;1;1423
+;(10, 6);;(8, 4);Robot break large rock at the top;1;1424
+;(10, 6);;(8, 4);Robot break large rock at the top;1;1425
+;(10, 6);;(8, 4);Robot break large rock at the top;1;1426
+;(10, 6);;(8, 4);Robot break large rock at the top;1;1427
+;(10, 6);;(8, 4);Robot break large rock at the top;1;1428
+;(10, 6);;(8, 4);Robot break large rock at the top;1;1429
+;(10, 6);;(8, 4);Robot break large rock at the top;1;1430
+;(10, 6);;(8, 4);Robot break large rock at the top;1;1431
+;(10, 6);;(8, 4);Robot break large rock at the top;1;1432
+;(10, 6);;(8, 4);False;1;1433
+;(10, 6);;(8, 4);pick up large rock at left side of pile, drop further away;1;1434
+;(10, 6);;(8, 4);False;1;1435
+;(10, 6);;(8, 4);pick up large rock at left side of pile, drop further away;1;1436
+;(10, 6);;(8, 4);False;1;1437
+;(10, 6);;(8, 4);pick up large rock at left side of pile, drop further away;1;1438
+;(10, 6);;(8, 4);False;1;1439
+;(10, 6);;(8, 4);pick up large rock at left side of pile, drop further away;1;1440
+;(10, 6);;(8, 4);False;1;1441
+;(10, 6);;(8, 4);pick up large rock at left side of pile, drop further away;1;1442
+;(10, 6);;(8, 4);False;1;1443
+;(10, 6);;(8, 4);pick up large rock at left side of pile, drop further away;1;1444
+;(10, 6);;(8, 4);False;1;1445
+;(10, 6);;(8, 4);pick up large rock at left side of pile, drop further away;1;1446
+;(10, 6);;(8, 4);False;1;1447
+;(10, 6);;(8, 4);pick up large rock at left side of pile, drop further away;1;1448
+MoveSouth;(10, 7);;(8, 4);False;1;1449
+;(10, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1450
+;(10, 7);;(8, 4);False;1;1451
+;(10, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1452
+;(10, 7);;(8, 4);False;1;1453
+;(10, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1454
+;(10, 7);;(8, 4);False;1;1455
+MoveSouth;(10, 8);;(8, 4);pick up large rock at left side of pile, drop further away;1;1456
+;(10, 8);;(8, 4);False;1;1457
+;(10, 8);;(8, 4);pick up large rock at left side of pile, drop further away;1;1458
+;(10, 8);;(8, 4);False;1;1459
+;(10, 8);;(8, 4);pick up large rock at left side of pile, drop further away;1;1460
+;(10, 8);;(8, 4);False;1;1461
+;(10, 8);;(8, 4);pick up large rock at left side of pile, drop further away;1;1462
+MoveNorth;(10, 7);;(8, 4);False;1;1463
+;(10, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1464
+;(10, 7);;(8, 4);False;1;1465
+;(10, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1466
+;(10, 7);;(8, 4);False;1;1467
+;(10, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1468
+;(10, 7);;(8, 4);False;1;1469
+;(10, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1470
+;(10, 7);;(8, 4);False;1;1471
+;(10, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1472
+MoveEast;(11, 7);;(8, 4);False;1;1473
+;(11, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1474
+;(11, 7);;(8, 4);False;1;1475
+;(11, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1476
+;(11, 7);;(8, 4);False;1;1477
+;(11, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1478
+;(11, 7);;(8, 4);False;1;1479
+;(11, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1480
+;(11, 7);;(8, 4);False;1;1481
+;(11, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1482
+;(11, 7);;(8, 4);False;1;1483
+;(11, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1484
+;(11, 7);;(8, 4);False;1;1485
+;(11, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1486
+;(11, 7);;(8, 4);False;1;1487
+;(11, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1488
+;(11, 7);;(8, 4);False;1;1489
+;(11, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1490
+;(11, 7);;(8, 4);False;1;1491
+;(11, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1492
+;(11, 7);;(8, 4);False;1;1493
+;(11, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1494
+;(11, 7);;(8, 4);False;1;1495
+;(11, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1496
+GrabObject;(11, 7);;(8, 4);False;1;1497
+;(11, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1498
+;(11, 7);;(8, 4);False;1;1499
+;(11, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1500
+;(11, 7);;(8, 4);False;1;1501
+MoveEast;(12, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1502
+;(12, 7);;(8, 4);False;1;1503
+;(12, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1504
+MoveEast;(13, 7);;(8, 4);False;1;1505
+;(13, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1506
+;(13, 7);;(8, 4);False;1;1507
+MoveEast;(14, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1508
+;(14, 7);;(8, 4);False;1;1509
+;(14, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1510
+;(14, 7);;(8, 4);False;1;1511
+;(14, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1512
+;(14, 7);;(8, 4);False;1;1513
+MoveEast;(15, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1514
+;(15, 7);;(8, 4);False;1;1515
+;(15, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1516
+;(15, 7);;(8, 4);False;1;1517
+;(15, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1518
+;(15, 7);;(8, 4);False;1;1519
+;(15, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1520
+;(15, 7);;(8, 4);False;1;1521
+;(15, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1522
+;(15, 7);;(8, 4);False;1;1523
+;(15, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1524
+DropObject;(15, 7);;(8, 4);False;1;1525
+;(15, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1526
+;(15, 7);;(8, 4);False;1;1527
+;(15, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1528
+;(15, 7);;(8, 4);False;1;1529
+;(15, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1530
+MoveWest;(14, 7);;(8, 4);False;1;1531
+;(14, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1532
+;(14, 7);;(8, 4);False;1;1533
+MoveWest;(13, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1534
+;(13, 7);;(8, 4);False;1;1535
+;(13, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1536
+;(13, 7);;(8, 4);False;1;1537
+MoveWest;(12, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1538
+;(12, 7);;(8, 4);False;1;1539
+;(12, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1540
+;(12, 7);;(8, 4);False;1;1541
+;(12, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1542
+GrabObject;(12, 7);;(8, 4);False;1;1543
+;(12, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1544
+;(12, 7);;(8, 4);False;1;1545
+;(12, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1546
+;(12, 7);;(8, 4);False;1;1547
+;(12, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1548
+;(12, 7);;(8, 4);False;1;1549
+MoveEast;(13, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1550
+;(13, 7);;(8, 4);False;1;1551
+;(13, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1552
+MoveEast;(14, 7);;(8, 4);False;1;1553
+;(14, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1554
+;(14, 7);;(8, 4);False;1;1555
+MoveEast;(15, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1556
+;(15, 7);;(8, 4);False;1;1557
+;(15, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1558
+;(15, 7);;(8, 4);False;1;1559
+MoveEast;(16, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1560
+;(16, 7);;(8, 4);False;1;1561
+;(16, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1562
+;(16, 7);;(8, 4);False;1;1563
+;(16, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1564
+;(16, 7);;(8, 4);False;1;1565
+;(16, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1566
+;(16, 7);;(8, 4);False;1;1567
+;(16, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1568
+;(16, 7);;(8, 4);False;1;1569
+;(16, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1570
+DropObject;(16, 7);;(8, 4);False;1;1571
+;(16, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1572
+;(16, 7);;(8, 4);False;1;1573
+;(16, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1574
+;(16, 7);;(8, 4);False;1;1575
+MoveWest;(15, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1576
+;(15, 7);;(8, 4);False;1;1577
+;(15, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1578
+MoveWest;(14, 7);;(8, 4);False;1;1579
+;(14, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1580
+;(14, 7);;(8, 4);False;1;1581
+;(14, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1582
+MoveWest;(13, 7);;(8, 4);False;1;1583
+;(13, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1584
+;(13, 7);;(8, 4);False;1;1585
+;(13, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1586
+;(13, 7);;(8, 4);False;1;1587
+;(13, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1588
+;(13, 7);;(8, 4);False;1;1589
+;(13, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1590
+;(13, 7);;(8, 4);False;1;1591
+GrabObject;(13, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1592
+;(13, 7);;(8, 4);False;1;1593
+;(13, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1594
+MoveEast;(14, 7);;(8, 4);False;1;1595
+;(14, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1596
+;(14, 7);;(8, 4);False;1;1597
+MoveEast;(15, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1598
+;(15, 7);;(8, 4);False;1;1599
+;(15, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1600
+;(15, 7);;(8, 4);False;1;1601
+;(15, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1602
+;(15, 7);;(8, 4);False;1;1603
+;(15, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1604
+;(15, 7);;(8, 4);False;1;1605
+;(15, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1606
+;(15, 7);;(8, 4);False;1;1607
+MoveEast;(16, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1608
+;(16, 7);;(8, 4);False;1;1609
+;(16, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1610
+DropObject;(16, 7);;(8, 4);False;1;1611
+;(16, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1612
+;(16, 7);;(8, 4);False;1;1613
+;(16, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1614
+;(16, 7);;(8, 4);False;1;1615
+;(16, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1616
+MoveWest;(15, 7);;(8, 4);False;1;1617
+;(15, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1618
+;(15, 7);;(8, 4);False;1;1619
+;(15, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1620
+MoveWest;(14, 7);;(8, 4);False;1;1621
+;(14, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1622
+;(14, 7);;(8, 4);False;1;1623
+;(14, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1624
+MoveWest;(13, 7);;(8, 4);False;1;1625
+;(13, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1626
+MoveWest;(12, 7);;(8, 4);False;1;1627
+;(12, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1628
+;(12, 7);;(8, 4);False;1;1629
+MoveWest;(11, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1630
+;(11, 7);;(8, 4);False;1;1631
+;(11, 7);;(8, 4);pick up large rock at left side of pile, drop further away;1;1632
+MoveWest;(10, 7);;(8, 4);False;1;1633
+MoveNorth;(10, 6);;(8, 4);pick up large rock at left side of pile, drop further away;1;1634
+;(10, 6);;(8, 4);False;1;1635
+;(10, 6);;(8, 4);pick up large rock at left side of pile, drop further away;1;1636
+;(10, 6);;(8, 4);False;1;1637
+MoveNorth;(10, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;1638
+;(10, 5);;(8, 4);False;1;1639
+;(10, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;1640
+;(10, 5);;(8, 4);False;1;1641
+MoveNorth;(10, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1642
+;(10, 4);;(8, 4);False;1;1643
+;(10, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1644
+;(10, 4);;(8, 4);False;1;1645
+MoveNorth;(10, 3);;(8, 4);pick up large rock at left side of pile, drop further away;1;1646
+;(10, 3);;(8, 4);False;1;1647
+;(10, 3);;(8, 4);pick up large rock at left side of pile, drop further away;1;1648
+;(10, 3);;(8, 4);False;1;1649
+MoveWest;(9, 3);;(8, 4);pick up large rock at left side of pile, drop further away;1;1650
+;(9, 3);;(8, 4);False;1;1651
+;(9, 3);;(8, 4);pick up large rock at left side of pile, drop further away;1;1652
+;(9, 3);;(8, 4);False;1;1653
+;(9, 3);;(8, 4);pick up large rock at left side of pile, drop further away;1;1654
+MoveWest;(8, 3);;(8, 4);False;1;1655
+;(8, 3);;(8, 4);pick up large rock at left side of pile, drop further away;1;1656
+;(8, 3);;(8, 4);False;1;1657
+;(8, 3);;(8, 4);pick up large rock at left side of pile, drop further away;1;1658
+;(8, 3);;(8, 4);False;1;1659
+;(8, 3);;(8, 4);pick up large rock at left side of pile, drop further away;1;1660
+;(8, 3);;(8, 4);False;1;1661
+;(8, 3);;(8, 4);pick up large rock at left side of pile, drop further away;1;1662
+MoveSouth;(8, 4);;(8, 4);False;1;1663
+;(8, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1664
+;(8, 4);;(8, 4);False;1;1665
+;(8, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1666
+GrabObject;(8, 4);;(8, 4);False;1;1667
+;(8, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1668
+;(8, 4);;(8, 4);False;1;1669
+;(8, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1670
+;(8, 4);;(8, 4);False;1;1671
+;(8, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1672
+MoveWest;(7, 4);;(8, 4);False;1;1673
+;(7, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1674
+;(7, 4);;(8, 4);False;1;1675
+;(7, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1676
+MoveWest;(6, 4);;(8, 4);False;1;1677
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1678
+;(6, 4);;(8, 4);False;1;1679
+MoveWest;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1680
+;(5, 4);;(8, 4);False;1;1681
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1682
+;(5, 4);;(8, 4);False;1;1683
+MoveWest;(4, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1684
+;(4, 4);;(8, 4);False;1;1685
+;(4, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1686
+;(4, 4);;(8, 4);False;1;1687
+MoveEast;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1688
+;(5, 4);;(8, 4);False;1;1689
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1690
+;(5, 4);;(8, 4);False;1;1691
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1692
+;(5, 4);;(8, 4);False;1;1693
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1694
+;(5, 4);;(8, 4);False;1;1695
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1696
+;(5, 4);;(8, 4);False;1;1697
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1698
+;(5, 4);;(8, 4);False;1;1699
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1700
+;(5, 4);;(8, 4);False;1;1701
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1702
+;(5, 4);;(8, 4);False;1;1703
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1704
+;(5, 4);;(8, 4);False;1;1705
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1706
+;(5, 4);;(8, 4);False;1;1707
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1708
+;(5, 4);;(8, 4);False;1;1709
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1710
+;(5, 4);;(8, 4);False;1;1711
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1712
+;(5, 4);;(8, 4);False;1;1713
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1714
+;(5, 4);;(8, 4);False;1;1715
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1716
+;(5, 4);;(8, 4);False;1;1717
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1718
+;(5, 4);;(8, 4);False;1;1719
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1720
+;(5, 4);;(8, 4);False;1;1721
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1722
+;(5, 4);;(8, 4);False;1;1723
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1724
+;(5, 4);;(8, 4);False;1;1725
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1726
+;(5, 4);;(8, 4);False;1;1727
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1728
+;(5, 4);;(8, 4);False;1;1729
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1730
+;(5, 4);;(8, 4);False;1;1731
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1732
+;(5, 4);;(8, 4);False;1;1733
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1734
+;(5, 4);;(8, 4);False;1;1735
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1736
+;(5, 4);;(8, 4);False;1;1737
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1738
+;(5, 4);;(8, 4);False;1;1739
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1740
+;(5, 4);;(8, 4);False;1;1741
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1742
+;(5, 4);;(8, 4);False;1;1743
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1744
+;(5, 4);;(8, 4);False;1;1745
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1746
+;(5, 4);;(8, 4);False;1;1747
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1748
+;(5, 4);;(8, 4);False;1;1749
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1750
+;(5, 4);;(8, 4);False;1;1751
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1752
+;(5, 4);;(8, 4);False;1;1753
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1754
+;(5, 4);;(8, 4);False;1;1755
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1756
+;(5, 4);;(8, 4);False;1;1757
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1758
+;(5, 4);;(8, 4);False;1;1759
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1760
+;(5, 4);;(8, 4);False;1;1761
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1762
+;(5, 4);;(8, 4);False;1;1763
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1764
+;(5, 4);;(8, 4);False;1;1765
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1766
+;(5, 4);;(8, 4);False;1;1767
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1768
+;(5, 4);;(8, 4);False;1;1769
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1770
+;(5, 4);;(8, 4);False;1;1771
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1772
+;(5, 4);;(8, 4);False;1;1773
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1774
+;(5, 4);;(8, 4);False;1;1775
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1776
+;(5, 4);;(8, 4);False;1;1777
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1778
+;(5, 4);;(8, 4);False;1;1779
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1780
+;(5, 4);;(8, 4);False;1;1781
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1782
+;(5, 4);;(8, 4);False;1;1783
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1784
+;(5, 4);;(8, 4);False;1;1785
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1786
+;(5, 4);;(8, 4);False;1;1787
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1788
+;(5, 4);;(8, 4);False;1;1789
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1790
+;(5, 4);;(8, 4);False;1;1791
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1792
+;(5, 4);;(8, 4);False;1;1793
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1794
+;(5, 4);;(8, 4);False;1;1795
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1796
+;(5, 4);;(8, 4);False;1;1797
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1798
+;(5, 4);;(8, 4);False;1;1799
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1800
+;(5, 4);;(8, 4);False;1;1801
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1802
+;(5, 4);;(8, 4);False;1;1803
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1804
+;(5, 4);;(8, 4);False;1;1805
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1806
+;(5, 4);;(8, 4);False;1;1807
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1808
+;(5, 4);;(8, 4);False;1;1809
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1810
+;(5, 4);;(8, 4);False;1;1811
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1812
+;(5, 4);;(8, 4);False;1;1813
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1814
+;(5, 4);;(8, 4);False;1;1815
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1816
+;(5, 4);;(8, 4);False;1;1817
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1818
+;(5, 4);;(8, 4);False;1;1819
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1820
+;(5, 4);;(8, 4);False;1;1821
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1822
+;(5, 4);;(8, 4);False;1;1823
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1824
+;(5, 4);;(8, 4);False;1;1825
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1826
+;(5, 4);;(8, 4);False;1;1827
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1828
+;(5, 4);;(8, 4);False;1;1829
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1830
+;(5, 4);;(8, 4);False;1;1831
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1832
+;(5, 4);;(8, 4);False;1;1833
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1834
+;(5, 4);;(8, 4);False;1;1835
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1836
+;(5, 4);;(8, 4);False;1;1837
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1838
+;(5, 4);;(8, 4);False;1;1839
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1840
+;(5, 4);;(8, 4);False;1;1841
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1842
+;(5, 4);;(8, 4);False;1;1843
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1844
+;(5, 4);;(8, 4);False;1;1845
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1846
+;(5, 4);;(8, 4);False;1;1847
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1848
+;(5, 4);;(8, 4);False;1;1849
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1850
+;(5, 4);;(8, 4);False;1;1851
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1852
+;(5, 4);;(8, 4);False;1;1853
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1854
+;(5, 4);;(8, 4);False;1;1855
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1856
+;(5, 4);;(8, 4);False;1;1857
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1858
+;(5, 4);;(8, 4);False;1;1859
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1860
+;(5, 4);;(8, 4);False;1;1861
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1862
+;(5, 4);;(8, 4);False;1;1863
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1864
+;(5, 4);;(8, 4);False;1;1865
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1866
+;(5, 4);;(8, 4);False;1;1867
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1868
+;(5, 4);;(8, 4);False;1;1869
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1870
+;(5, 4);;(8, 4);False;1;1871
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1872
+;(5, 4);;(8, 4);False;1;1873
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1874
+;(5, 4);;(8, 4);False;1;1875
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1876
+;(5, 4);;(8, 4);False;1;1877
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1878
+;(5, 4);;(8, 4);False;1;1879
+MoveWest;(4, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1880
+;(4, 4);;(8, 4);False;1;1881
+;(4, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1882
+;(4, 4);;(8, 4);False;1;1883
+;(4, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1884
+MoveSouth;(4, 5);;(8, 4);False;1;1885
+;(4, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;1886
+;(4, 5);;(8, 4);False;1;1887
+;(4, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;1888
+;(4, 5);;(8, 4);False;1;1889
+MoveSouth;(4, 6);;(8, 4);pick up large rock at left side of pile, drop further away;1;1890
+;(4, 6);;(8, 4);False;1;1891
+;(4, 6);;(8, 4);pick up large rock at left side of pile, drop further away;1;1892
+;(4, 6);;(8, 4);False;1;1893
+;(4, 6);;(8, 4);pick up large rock at left side of pile, drop further away;1;1894
+;(4, 6);;(8, 4);False;1;1895
+MoveNorth;(4, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;1896
+;(4, 5);;(8, 4);False;1;1897
+;(4, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;1898
+;(4, 5);;(8, 4);False;1;1899
+;(4, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;1900
+;(4, 5);;(8, 4);False;1;1901
+;(4, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;1902
+MoveNorth;(4, 4);;(8, 4);False;1;1903
+;(4, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1904
+;(4, 4);;(8, 4);False;1;1905
+;(4, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1906
+;(4, 4);;(8, 4);False;1;1907
+;(4, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1908
+;(4, 4);;(8, 4);False;1;1909
+;(4, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1910
+;(4, 4);;(8, 4);False;1;1911
+MoveEast;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1912
+;(5, 4);;(8, 4);False;1;1913
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1914
+;(5, 4);;(8, 4);False;1;1915
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1916
+;(5, 4);;(8, 4);False;1;1917
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1918
+;(5, 4);;(8, 4);False;1;1919
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1920
+;(5, 4);;(8, 4);False;1;1921
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1922
+;(5, 4);;(8, 4);False;1;1923
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1924
+;(5, 4);;(8, 4);False;1;1925
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1926
+;(5, 4);;(8, 4);False;1;1927
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1928
+;(5, 4);;(8, 4);False;1;1929
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1930
+;(5, 4);;(8, 4);False;1;1931
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1932
+;(5, 4);;(8, 4);False;1;1933
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1934
+;(5, 4);;(8, 4);False;1;1935
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1936
+;(5, 4);;(8, 4);False;1;1937
+MoveEast;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1938
+;(6, 4);;(8, 4);False;1;1939
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1940
+;(6, 4);;(8, 4);False;1;1941
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1942
+;(6, 4);;(8, 4);False;1;1943
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1944
+;(6, 4);;(8, 4);False;1;1945
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1946
+;(6, 4);;(8, 4);False;1;1947
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1948
+;(6, 4);;(8, 4);False;1;1949
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1950
+;(6, 4);;(8, 4);False;1;1951
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1952
+;(6, 4);;(8, 4);False;1;1953
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1954
+;(6, 4);;(8, 4);False;1;1955
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1956
+;(6, 4);;(8, 4);False;1;1957
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1958
+;(6, 4);;(8, 4);False;1;1959
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1960
+;(6, 4);;(8, 4);False;1;1961
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1962
+;(6, 4);;(8, 4);False;1;1963
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1964
+;(6, 4);;(8, 4);False;1;1965
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1966
+;(6, 4);;(8, 4);False;1;1967
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1968
+;(6, 4);;(8, 4);False;1;1969
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1970
+;(6, 4);;(8, 4);False;1;1971
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1972
+;(6, 4);;(8, 4);False;1;1973
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1974
+;(6, 4);;(8, 4);False;1;1975
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1976
+;(6, 4);;(8, 4);False;1;1977
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1978
+;(6, 4);;(8, 4);False;1;1979
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1980
+;(6, 4);;(8, 4);False;1;1981
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1982
+;(6, 4);;(8, 4);False;1;1983
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1984
+;(6, 4);;(8, 4);False;1;1985
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1986
+;(6, 4);;(8, 4);False;1;1987
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1988
+;(6, 4);;(8, 4);False;1;1989
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1990
+;(6, 4);;(8, 4);False;1;1991
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1992
+;(6, 4);;(8, 4);False;1;1993
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1994
+;(6, 4);;(8, 4);False;1;1995
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1996
+;(6, 4);;(8, 4);False;1;1997
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;1998
+;(6, 4);;(8, 4);False;1;1999
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2000
+;(6, 4);;(8, 4);False;1;2001
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2002
+;(6, 4);;(8, 4);False;1;2003
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2004
+;(6, 4);;(8, 4);False;1;2005
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2006
+;(6, 4);;(8, 4);False;1;2007
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2008
+;(6, 4);;(8, 4);False;1;2009
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2010
+;(6, 4);;(8, 4);False;1;2011
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2012
+;(6, 4);;(8, 4);False;1;2013
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2014
+;(6, 4);;(8, 4);False;1;2015
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2016
+;(6, 4);;(8, 4);False;1;2017
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2018
+;(6, 4);;(8, 4);False;1;2019
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2020
+;(6, 4);;(8, 4);False;1;2021
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2022
+;(6, 4);;(8, 4);False;1;2023
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2024
+;(6, 4);;(8, 4);False;1;2025
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2026
+;(6, 4);;(8, 4);False;1;2027
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2028
+;(6, 4);;(8, 4);False;1;2029
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2030
+;(6, 4);;(8, 4);False;1;2031
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2032
+;(6, 4);;(8, 4);False;1;2033
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2034
+;(6, 4);;(8, 4);False;1;2035
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2036
+;(6, 4);;(8, 4);False;1;2037
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2038
+;(6, 4);;(8, 4);False;1;2039
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2040
+;(6, 4);;(8, 4);False;1;2041
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2042
+;(6, 4);;(8, 4);False;1;2043
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2044
+;(6, 4);;(8, 4);False;1;2045
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2046
+;(6, 4);;(8, 4);False;1;2047
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2048
+;(6, 4);;(8, 4);False;1;2049
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2050
+;(6, 4);;(8, 4);False;1;2051
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2052
+;(6, 4);;(8, 4);False;1;2053
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2054
+;(6, 4);;(8, 4);False;1;2055
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2056
+;(6, 4);;(8, 4);False;1;2057
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2058
+;(6, 4);;(8, 4);False;1;2059
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2060
+;(6, 4);;(8, 4);False;1;2061
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2062
+;(6, 4);;(8, 4);False;1;2063
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2064
+;(6, 4);;(8, 4);False;1;2065
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2066
+;(6, 4);;(8, 4);False;1;2067
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2068
+;(6, 4);;(8, 4);False;1;2069
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2070
+;(6, 4);;(8, 4);False;1;2071
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2072
+;(6, 4);;(8, 4);False;1;2073
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2074
+;(6, 4);;(8, 4);False;1;2075
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2076
+;(6, 4);;(8, 4);False;1;2077
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2078
+;(6, 4);;(8, 4);False;1;2079
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2080
+;(6, 4);;(8, 4);False;1;2081
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2082
+;(6, 4);;(8, 4);False;1;2083
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2084
+;(6, 4);;(8, 4);False;1;2085
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2086
+;(6, 4);;(8, 4);False;1;2087
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2088
+;(6, 4);;(8, 4);False;1;2089
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2090
+;(6, 4);;(8, 4);False;1;2091
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2092
+;(6, 4);;(8, 4);False;1;2093
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2094
+;(6, 4);;(8, 4);False;1;2095
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2096
+;(6, 4);;(8, 4);False;1;2097
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2098
+;(6, 4);;(8, 4);False;1;2099
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2100
+;(6, 4);;(8, 4);False;1;2101
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2102
+;(6, 4);;(8, 4);False;1;2103
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2104
+;(6, 4);;(8, 4);False;1;2105
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2106
+;(6, 4);;(8, 4);False;1;2107
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2108
+;(6, 4);;(8, 4);False;1;2109
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2110
+;(6, 4);;(8, 4);False;1;2111
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2112
+;(6, 4);;(8, 4);False;1;2113
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2114
+;(6, 4);;(8, 4);False;1;2115
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2116
+;(6, 4);;(8, 4);False;1;2117
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2118
+;(6, 4);;(8, 4);False;1;2119
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2120
+;(6, 4);;(8, 4);False;1;2121
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2122
+;(6, 4);;(8, 4);False;1;2123
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2124
+;(6, 4);;(8, 4);False;1;2125
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2126
+;(6, 4);;(8, 4);False;1;2127
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2128
+;(6, 4);;(8, 4);False;1;2129
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2130
+;(6, 4);;(8, 4);False;1;2131
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2132
+;(6, 4);;(8, 4);False;1;2133
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2134
+;(6, 4);;(8, 4);False;1;2135
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2136
+;(6, 4);;(8, 4);False;1;2137
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2138
+;(6, 4);;(8, 4);False;1;2139
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2140
+;(6, 4);;(8, 4);False;1;2141
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2142
+;(6, 4);;(8, 4);False;1;2143
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2144
+;(6, 4);;(8, 4);False;1;2145
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2146
+;(6, 4);;(8, 4);False;1;2147
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2148
+;(6, 4);;(8, 4);False;1;2149
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2150
+;(6, 4);;(8, 4);False;1;2151
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2152
+;(6, 4);;(8, 4);False;1;2153
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2154
+;(6, 4);;(8, 4);False;1;2155
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2156
+;(6, 4);;(8, 4);False;1;2157
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2158
+;(6, 4);;(8, 4);False;1;2159
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2160
+;(6, 4);;(8, 4);False;1;2161
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2162
+;(6, 4);;(8, 4);False;1;2163
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2164
+;(6, 4);;(8, 4);False;1;2165
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2166
+;(6, 4);;(8, 4);False;1;2167
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2168
+;(6, 4);;(8, 4);False;1;2169
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2170
+;(6, 4);;(8, 4);False;1;2171
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2172
+;(6, 4);;(8, 4);False;1;2173
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2174
+;(6, 4);;(8, 4);False;1;2175
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2176
+;(6, 4);;(8, 4);False;1;2177
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2178
+;(6, 4);;(8, 4);False;1;2179
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2180
+;(6, 4);;(8, 4);False;1;2181
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2182
+;(6, 4);;(8, 4);False;1;2183
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2184
+;(6, 4);;(8, 4);False;1;2185
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2186
+;(6, 4);;(8, 4);False;1;2187
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2188
+;(6, 4);;(8, 4);False;1;2189
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2190
+;(6, 4);;(8, 4);False;1;2191
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2192
+;(6, 4);;(8, 4);False;1;2193
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2194
+;(6, 4);;(8, 4);False;1;2195
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2196
+;(6, 4);;(8, 4);False;1;2197
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2198
+;(6, 4);;(8, 4);False;1;2199
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2200
+;(6, 4);;(8, 4);False;1;2201
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2202
+;(6, 4);;(8, 4);False;1;2203
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2204
+;(6, 4);;(8, 4);False;1;2205
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2206
+;(6, 4);;(8, 4);False;1;2207
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2208
+;(6, 4);;(8, 4);False;1;2209
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2210
+;(6, 4);;(8, 4);False;1;2211
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2212
+;(6, 4);;(8, 4);False;1;2213
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2214
+;(6, 4);;(8, 4);False;1;2215
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2216
+;(6, 4);;(8, 4);False;1;2217
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2218
+;(6, 4);;(8, 4);False;1;2219
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2220
+;(6, 4);;(8, 4);False;1;2221
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2222
+;(6, 4);;(8, 4);False;1;2223
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2224
+;(6, 4);;(8, 4);False;1;2225
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2226
+;(6, 4);;(8, 4);False;1;2227
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2228
+;(6, 4);;(8, 4);False;1;2229
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2230
+;(6, 4);;(8, 4);False;1;2231
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2232
+;(6, 4);;(8, 4);False;1;2233
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2234
+;(6, 4);;(8, 4);False;1;2235
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2236
+;(6, 4);;(8, 4);False;1;2237
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2238
+;(6, 4);;(8, 4);False;1;2239
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2240
+;(6, 4);;(8, 4);False;1;2241
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2242
+;(6, 4);;(8, 4);False;1;2243
+MoveWest;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2244
+;(5, 4);;(8, 4);False;1;2245
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2246
+;(5, 4);;(8, 4);False;1;2247
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2248
+;(5, 4);;(8, 4);False;1;2249
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2250
+;(5, 4);;(8, 4);False;1;2251
+;(5, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2252
+;(5, 4);;(8, 4);False;1;2253
+MoveEast;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2254
+;(6, 4);;(8, 4);False;1;2255
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2256
+;(6, 4);;(8, 4);False;1;2257
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2258
+;(6, 4);;(8, 4);False;1;2259
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2260
+;(6, 4);;(8, 4);False;1;2261
+;(6, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2262
+MoveEast;(7, 4);;(8, 4);False;1;2263
+;(7, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2264
+;(7, 4);;(8, 4);False;1;2265
+;(7, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2266
+;(7, 4);;(8, 4);False;1;2267
+;(7, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2268
+;(7, 4);;(8, 4);False;1;2269
+;(7, 4);;(8, 4);pick up large rock at left side of pile, drop further away;1;2270
+MoveSouth;(7, 5);;(8, 4);False;1;2271
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2272
+;(7, 5);;(8, 4);False;1;2273
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2274
+;(7, 5);;(8, 4);False;1;2275
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2276
+;(7, 5);;(8, 4);False;1;2277
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2278
+;(7, 5);;(8, 4);False;1;2279
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2280
+;(7, 5);;(8, 4);False;1;2281
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2282
+;(7, 5);;(8, 4);False;1;2283
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2284
+;(7, 5);;(8, 4);False;1;2285
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2286
+;(7, 5);;(8, 4);False;1;2287
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2288
+;(7, 5);;(8, 4);False;1;2289
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2290
+;(7, 5);;(8, 4);False;1;2291
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2292
+;(7, 5);;(8, 4);False;1;2293
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2294
+;(7, 5);;(8, 4);False;1;2295
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2296
+;(7, 5);;(8, 4);False;1;2297
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2298
+;(7, 5);;(8, 4);False;1;2299
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2300
+;(7, 5);;(8, 4);False;1;2301
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2302
+;(7, 5);;(8, 4);False;1;2303
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2304
+;(7, 5);;(8, 4);False;1;2305
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2306
+;(7, 5);;(8, 4);False;1;2307
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2308
+;(7, 5);;(8, 4);False;1;2309
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2310
+;(7, 5);;(8, 4);False;1;2311
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2312
+;(7, 5);;(8, 4);False;1;2313
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2314
+;(7, 5);;(8, 4);False;1;2315
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2316
+;(7, 5);;(8, 4);False;1;2317
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2318
+;(7, 5);;(8, 4);False;1;2319
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2320
+;(7, 5);;(8, 4);False;1;2321
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2322
+;(7, 5);;(8, 4);False;1;2323
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2324
+;(7, 5);;(8, 4);False;1;2325
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2326
+;(7, 5);;(8, 4);False;1;2327
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2328
+;(7, 5);;(8, 4);False;1;2329
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2330
+;(7, 5);;(8, 4);False;1;2331
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2332
+;(7, 5);;(8, 4);False;1;2333
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2334
+;(7, 5);;(8, 4);False;1;2335
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2336
+;(7, 5);;(8, 4);False;1;2337
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2338
+;(7, 5);;(8, 4);False;1;2339
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2340
+;(7, 5);;(8, 4);False;1;2341
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2342
+;(7, 5);;(8, 4);False;1;2343
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2344
+;(7, 5);;(8, 4);False;1;2345
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2346
+;(7, 5);;(8, 4);False;1;2347
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2348
+;(7, 5);;(8, 4);False;1;2349
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2350
+;(7, 5);;(8, 4);False;1;2351
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2352
+;(7, 5);;(8, 4);False;1;2353
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2354
+;(7, 5);;(8, 4);False;1;2355
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2356
+;(7, 5);;(8, 4);False;1;2357
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2358
+;(7, 5);;(8, 4);False;1;2359
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2360
+;(7, 5);;(8, 4);False;1;2361
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2362
+;(7, 5);;(8, 4);False;1;2363
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2364
+;(7, 5);;(8, 4);False;1;2365
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2366
+;(7, 5);;(8, 4);False;1;2367
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2368
+;(7, 5);;(8, 4);False;1;2369
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2370
+;(7, 5);;(8, 4);False;1;2371
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2372
+;(7, 5);;(8, 4);False;1;2373
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2374
+;(7, 5);;(8, 4);False;1;2375
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2376
+;(7, 5);;(8, 4);False;1;2377
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2378
+;(7, 5);;(8, 4);False;1;2379
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2380
+;(7, 5);;(8, 4);False;1;2381
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2382
+;(7, 5);;(8, 4);False;1;2383
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2384
+;(7, 5);;(8, 4);False;1;2385
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2386
+;(7, 5);;(8, 4);False;1;2387
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2388
+;(7, 5);;(8, 4);False;1;2389
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2390
+;(7, 5);;(8, 4);False;1;2391
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2392
+;(7, 5);;(8, 4);False;1;2393
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2394
+;(7, 5);;(8, 4);False;1;2395
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2396
+;(7, 5);;(8, 4);False;1;2397
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2398
+;(7, 5);;(8, 4);False;1;2399
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2400
+;(7, 5);;(8, 4);False;1;2401
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2402
+;(7, 5);;(8, 4);False;1;2403
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2404
+;(7, 5);;(8, 4);False;1;2405
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2406
+;(7, 5);;(8, 4);False;1;2407
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2408
+;(7, 5);;(8, 4);False;1;2409
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2410
+;(7, 5);;(8, 4);False;1;2411
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2412
+;(7, 5);;(8, 4);False;1;2413
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2414
+;(7, 5);;(8, 4);False;1;2415
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2416
+;(7, 5);;(8, 4);False;1;2417
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2418
+;(7, 5);;(8, 4);False;1;2419
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2420
+;(7, 5);;(8, 4);False;1;2421
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2422
+;(7, 5);;(8, 4);False;1;2423
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2424
+;(7, 5);;(8, 4);False;1;2425
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2426
+;(7, 5);;(8, 4);False;1;2427
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2428
+;(7, 5);;(8, 4);False;1;2429
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2430
+;(7, 5);;(8, 4);False;1;2431
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2432
+;(7, 5);;(8, 4);False;1;2433
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2434
+;(7, 5);;(8, 4);False;1;2435
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2436
+;(7, 5);;(8, 4);False;1;2437
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2438
+;(7, 5);;(8, 4);False;1;2439
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2440
+;(7, 5);;(8, 4);False;1;2441
+;(7, 5);;(8, 4);pick up large rock at left side of pile, drop further away;1;2442
+;(7, 5);;(8, 4);False;1;2443
+;(7, 5);;(8, 4);Robot break large rock at the top;1;2444
+;(7, 5);;(8, 4);False;1;2445
+;(7, 5);;(8, 4);Robot break large rock at the top;1;2446
+;(7, 5);;(8, 4);False;1;2447
+;(7, 5);;(8, 4);Robot break large rock at the top;1;2448
+;(7, 5);;(8, 4);False;1;2449
+;(7, 5);;(8, 4);Robot break large rock at the top;1;2450
+;(7, 5);;(8, 4);False;1;2451
+;(7, 5);;(8, 4);Robot break large rock at the top;1;2452
+;(7, 5);;(8, 4);False;1;2453
+;(7, 5);;(8, 4);Robot break large rock at the top;1;2454
+;(7, 5);;(8, 4);False;1;2455
+;(7, 5);;(8, 4);Robot break large rock at the top;1;2456
+;(7, 5);;(8, 4);False;1;2457
+;(7, 5);;(8, 4);Robot break large rock at the top;1;2458
+;(7, 5);;(8, 4);False;1;2459
+;(7, 5);;(8, 4);Robot break large rock at the top;1;2460
+;(7, 5);;(8, 4);False;1;2461
+;(7, 5);;(8, 4);Robot break large rock at the top;1;2462
+;(7, 5);;(8, 4);False;1;2463
+MoveWest;(6, 5);;(8, 4);Robot break large rock at the top;1;2464
+;(6, 5);;(8, 4);False;1;2465
+;(6, 5);;(8, 4);Robot break large rock at the top;1;2466
+;(6, 5);;(8, 4);False;1;2467
+;(6, 5);;(8, 4);Robot break large rock at the top;1;2468
+MoveSouth;(6, 6);;(8, 4);False;1;2469
+;(6, 6);;(8, 4);Robot break large rock at the top;1;2470
+;(6, 6);;(8, 4);False;1;2471
+;(6, 6);;(8, 4);Robot break large rock at the top;1;2472
+;(6, 6);;(8, 4);False;1;2473
+;(6, 6);;(8, 4);Robot break large rock at the top;1;2474
+;(6, 6);;(8, 4);False;1;2475
+;(6, 6);;(8, 4);Robot break large rock at the top;1;2476
+;(6, 6);;(8, 4);False;1;2477
+;(6, 6);;(8, 4);Robot break large rock at the top;1;2478
+;(6, 6);;(8, 4);False;1;2479
+;(6, 6);;(8, 4);Robot break large rock at the top;1;2480
+;(6, 6);;(8, 4);False;1;2481
+MoveSouth;(6, 7);;(8, 4);Robot break large rock at the top;1;2482
+;(6, 7);;(8, 4);False;1;2483
+;(6, 7);;(8, 4);Robot break large rock at the top;1;2484
+;(6, 7);;(8, 4);False;1;2485
+;(6, 7);;(8, 4);Robot break large rock at the top;1;2486
+;(6, 7);;(8, 4);False;1;2487
+;(6, 7);;(8, 4);Robot break large rock at the top;1;2488
+;(6, 7);;(8, 4);False;1;2489
+;(6, 7);;(8, 4);Robot break large rock at the top;1;2490
+;(6, 7);;(8, 4);False;1;2491
+;(6, 7);;(8, 4);Robot break large rock at the top;1;2492
+;(6, 7);;(8, 4);False;1;2493
+;(6, 7);;(8, 4);Robot break large rock at the top;1;2494
+MoveEast;(7, 7);;(8, 4);False;1;2495
+;(7, 7);;(8, 4);Robot break large rock at the top;1;2496
+;(7, 7);;(8, 4);False;1;2497
+;(7, 7);;(8, 4);Robot break large rock at the top;1;2498
+;(7, 7);;(8, 4);False;1;2499
+;(7, 7);;(8, 4);Robot break large rock at the top;1;2500
+MoveNorth;(7, 6);;(8, 4);False;1;2501
+;(7, 6);;(8, 4);Robot break large rock at the top;1;2502
+;(7, 6);;(8, 4);False;1;2503
+MoveNorth;(7, 5);;(8, 4);Robot break large rock at the top;1;2504
+;(7, 5);;(8, 4);False;1;2505
+;(7, 5);;(8, 4);Robot break large rock at the top;1;2506
+;(7, 5);;(8, 4);False;1;2507
+;(7, 5);;(8, 4);Robot break large rock at the top;1;2508
+;(7, 5);;(8, 4);False;1;2509
+MoveNorth;(7, 4);;(8, 4);Robot break large rock at the top;1;2510
+;(7, 4);;(8, 4);False;1;2511
+;(7, 4);;(8, 4);Robot break large rock at the top;1;2512
+;(7, 4);;(8, 4);False;1;2513
+;(7, 4);;(8, 4);Robot break large rock at the top;1;2514
+;(7, 4);;(8, 4);False;1;2515
+MoveEast;(8, 4);;(8, 4);Robot break large rock at the top;1;2516
+;(8, 4);;(8, 4);False;1;2517
+;(8, 4);;(8, 4);Robot break large rock at the top;1;2518
+;(8, 4);;(8, 4);False;1;2519
+MoveEast;(9, 4);;(8, 4);Robot break large rock at the top;1;2520
+;(9, 4);;(8, 4);False;1;2521
+;(9, 4);;(8, 4);Robot break large rock at the top;1;2522
+;(9, 4);;(8, 4);False;1;2523
+;(9, 4);;(8, 4);Robot break large rock at the top;1;2524
+MoveEast;(10, 4);;(8, 4);False;1;2525
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2526
+;(10, 4);;(8, 4);False;1;2527
+;(10, 4);;(8, 4);Robot break large rock at the top;1;2528
+MoveEast;(11, 4);;(8, 4);False;1;2529
+;(11, 4);;(8, 4);Robot break large rock at the top;1;2530
+;(11, 4);;(8, 4);False;1;2531
+;(11, 4);;(8, 4);Robot break large rock at the top;1;2532
+;(11, 4);;(8, 4);False;1;2533
+;(11, 4);;(8, 4);Robot break large rock at the top;1;2534
+;(11, 4);;(8, 4);False;1;2535
+;(11, 4);;(8, 4);Robot break large rock at the top;1;2536
+;(11, 4);;(8, 4);False;1;2537
+;(11, 4);;(8, 4);Robot break large rock at the top;1;2538
+;(11, 4);;(8, 4);False;1;2539
+;(11, 4);;(8, 4);Robot break large rock at the top;1;2540
+;(11, 4);;(8, 4);False;1;2541
+;(11, 4);;(8, 4);Robot break large rock at the top;1;2542
+;(11, 4);;(8, 4);False;1;2543
+;(11, 4);;(8, 4);Robot break large rock at the top;1;2544
+;(11, 4);;(8, 4);False;1;2545
+;(11, 4);;(8, 4);Robot break large rock at the top;1;2546
+;(11, 4);;(8, 4);False;1;2547
+;(11, 4);;(8, 4);Robot break large rock at the top;1;2548
+;(11, 4);;(8, 4);False;1;2549
+;(11, 4);;(8, 4);Robot break large rock at the top;1;2550
+;(11, 4);;(8, 4);False;1;2551
+MoveSouth;(11, 5);;(8, 4);Robot break large rock at the top;1;2552
+;(11, 5);;(8, 4);False;1;2553
+;(11, 5);;(8, 4);Robot break large rock at the top;1;2554
+;(11, 5);;(8, 4);False;1;2555
+MoveSouth;(11, 6);;(8, 4);Robot break large rock at the top;1;2556
+;(11, 6);;(8, 4);False;1;2557
+;(11, 6);;(8, 4);Robot break large rock at the top;1;2558
+;(11, 6);;(8, 4);False;1;2559
+MoveSouth;(11, 7);;(8, 4);Robot break large rock at the top;1;2560
+;(11, 7);;(8, 4);False;1;2561
+;(11, 7);;(8, 4);Robot break large rock at the top;1;2562
+;(11, 7);;(8, 4);False;1;2563
+MoveSouth;(11, 8);;(8, 4);Robot break large rock at the top;1;2564
+;(11, 8);;(8, 4);False;1;2565
+;(11, 8);;(8, 4);Robot break large rock at the top;1;2566
+;(11, 8);;(8, 4);False;1;2567
+MoveSouth;(11, 9);;(8, 4);Robot break large rock at the top;1;2568
+;(11, 9);;(8, 4);False;1;2569
+;(11, 9);;(8, 4);Robot break large rock at the top;1;2570
+;(11, 9);;(8, 4);False;1;2571
+MoveSouth;(11, 10);;(8, 4);Robot break large rock at the top;1;2572
+;(11, 10);;(8, 4);False;1;2573
+;(11, 10);;(8, 4);Robot break large rock at the top;1;2574
+;(11, 10);;(8, 4);False;1;2575
+;(11, 10);;(8, 4);Robot break large rock at the top;1;2576
+;(11, 10);;(8, 4);False;1;2577
+;(11, 10);;(8, 4);Robot break large rock at the top;1;2578
+;(11, 10);;(8, 4);False;1;2579
+MoveEast;(12, 10);;(8, 4);Robot break large rock at the top;1;2580
+;(12, 10);;(8, 4);False;1;2581
+;(12, 10);;(8, 4);Robot break large rock at the top;1;2582
+;(12, 10);;(8, 4);False;1;2583
+;(12, 10);;(8, 4);Robot break large rock at the top;1;2584
+MoveEast;(13, 10);;(8, 4);False;1;2585
+;(13, 10);;(8, 4);Robot break large rock at the top;1;2586
+;(13, 10);;(8, 4);False;1;2587
+;(13, 10);;(8, 4);Robot break large rock at the top;1;2588
+;(13, 10);;(8, 4);False;1;2589
+;(13, 10);;(8, 4);Robot break large rock at the top;1;2590
+;(13, 10);;(8, 4);False;1;2591
+;(13, 10);;(8, 4);Robot break large rock at the top;1;2592
+;(13, 10);;(8, 4);False;1;2593
+;(13, 10);;(8, 4);Robot break large rock at the top;1;2594
+;(13, 10);;(8, 4);False;1;2595
+;(13, 10);;(8, 4);Robot break large rock at the top;1;2596
+;(13, 10);;(8, 4);False;1;2597
+;(13, 10);;(8, 4);Robot break large rock at the top;1;2598
+GrabObject;(13, 10);;(8, 4);False;1;2599
+;(13, 10);;(8, 4);Robot break large rock at the top;1;2600
+;(13, 10);;(8, 4);False;1;2601
+MoveEast;(14, 10);;(8, 4);Robot break large rock at the top;1;2602
+;(14, 10);;(8, 4);False;1;2603
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2604
+;(14, 10);;(8, 4);False;1;2605
+MoveEast;(15, 10);;(8, 4);Robot break large rock at the top;1;2606
+;(15, 10);;(8, 4);False;1;2607
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2608
+;(15, 10);;(8, 4);False;1;2609
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2610
+;(15, 10);;(8, 4);False;1;2611
+MoveEast;(16, 10);;(8, 4);Robot break large rock at the top;1;2612
+;(16, 10);;(8, 4);False;1;2613
+;(16, 10);;(8, 4);Robot break large rock at the top;1;2614
+;(16, 10);;(8, 4);False;1;2615
+;(16, 10);;(8, 4);Robot break large rock at the top;1;2616
+DropObject;(16, 10);;(8, 4);False;1;2617
+;(16, 10);;(8, 4);Robot break large rock at the top;1;2618
+;(16, 10);;(8, 4);False;1;2619
+;(16, 10);;(8, 4);Robot break large rock at the top;1;2620
+;(16, 10);;(8, 4);False;1;2621
+MoveWest;(15, 10);;(8, 4);Robot break large rock at the top;1;2622
+;(15, 10);;(8, 4);False;1;2623
+;(15, 10);;(8, 4);Robot break large rock at the top;1;2624
+;(15, 10);;(8, 4);False;1;2625
+MoveWest;(14, 10);;(8, 4);Robot break large rock at the top;1;2626
+;(14, 10);;(8, 4);False;1;2627
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2628
+;(14, 10);;(8, 4);False;1;2629
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2630
+;(14, 10);;(8, 4);False;1;2631
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2632
+;(14, 10);;(8, 4);False;1;2633
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2634
+;(14, 10);;(8, 4);False;1;2635
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2636
+;(14, 10);;(8, 4);False;1;2637
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2638
+;(14, 10);;(8, 4);False;1;2639
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2640
+;(14, 10);;(8, 4);False;1;2641
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2642
+;(14, 10);;(8, 4);False;1;2643
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2644
+;(14, 10);;(8, 4);False;1;2645
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2646
+;(14, 10);;(8, 4);False;1;2647
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2648
+;(14, 10);;(8, 4);False;1;2649
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2650
+;(14, 10);;(8, 4);False;1;2651
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2652
+;(14, 10);;(8, 4);False;1;2653
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2654
+;(14, 10);;(8, 4);False;1;2655
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2656
+;(14, 10);;(8, 4);False;1;2657
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2658
+;(14, 10);;(8, 4);False;1;2659
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2660
+;(14, 10);;(8, 4);False;1;2661
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2662
+;(14, 10);;(8, 4);False;1;2663
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2664
+;(14, 10);;(8, 4);False;1;2665
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2666
+;(14, 10);;(8, 4);False;1;2667
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2668
+;(14, 10);;(8, 4);False;1;2669
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2670
+;(14, 10);;(8, 4);False;1;2671
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2672
+;(14, 10);;(8, 4);False;1;2673
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2674
+;(14, 10);;(8, 4);False;1;2675
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2676
+;(14, 10);;(8, 4);False;1;2677
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2678
+;(14, 10);;(8, 4);False;1;2679
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2680
+;(14, 10);;(8, 4);False;1;2681
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2682
+;(14, 10);;(8, 4);False;1;2683
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2684
+;(14, 10);;(8, 4);False;1;2685
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2686
+;(14, 10);;(8, 4);False;1;2687
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2688
+;(14, 10);;(8, 4);False;1;2689
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2690
+;(14, 10);;(8, 4);False;1;2691
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2692
+;(14, 10);;(8, 4);False;1;2693
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2694
+;(14, 10);;(8, 4);False;1;2695
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2696
+;(14, 10);;(8, 4);False;1;2697
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2698
+;(14, 10);;(8, 4);False;1;2699
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2700
+;(14, 10);;(8, 4);False;1;2701
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2702
+;(14, 10);;(8, 4);False;1;2703
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2704
+;(14, 10);;(8, 4);False;1;2705
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2706
+;(14, 10);;(8, 4);False;1;2707
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2708
+;(14, 10);;(8, 4);False;1;2709
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2710
+;(14, 10);;(8, 4);False;1;2711
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2712
+;(14, 10);;(8, 4);False;1;2713
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2714
+;(14, 10);;(8, 4);False;1;2715
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2716
+;(14, 10);;(8, 4);False;1;2717
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2718
+;(14, 10);;(8, 4);False;1;2719
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2720
+;(14, 10);;(8, 4);False;1;2721
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2722
+;(14, 10);;(8, 4);False;1;2723
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2724
+;(14, 10);;(8, 4);False;1;2725
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2726
+;(14, 10);;(8, 4);False;1;2727
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2728
+;(14, 10);;(8, 4);False;1;2729
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2730
+;(14, 10);;(8, 4);False;1;2731
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2732
+;(14, 10);;(8, 4);False;1;2733
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2734
+;(14, 10);;(8, 4);False;1;2735
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2736
+;(14, 10);;(8, 4);False;1;2737
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2738
+;(14, 10);;(8, 4);False;1;2739
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2740
+;(14, 10);;(8, 4);False;1;2741
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2742
+;(14, 10);;(8, 4);False;1;2743
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2744
+;(14, 10);;(8, 4);False;1;2745
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2746
+;(14, 10);;(8, 4);False;1;2747
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2748
+;(14, 10);;(8, 4);False;1;2749
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2750
+;(14, 10);;(8, 4);False;1;2751
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2752
+;(14, 10);;(8, 4);False;1;2753
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2754
+;(14, 10);;(8, 4);False;1;2755
+;(14, 10);;(8, 4);Robot break large rock at the top;1;2756
+MoveNorth;(14, 9);;(8, 4);False;1;2757
+;(14, 9);;(8, 4);Robot break large rock at the top;1;2758
+;(14, 9);;(8, 4);False;1;2759
+;(14, 9);;(8, 4);Robot break large rock at the top;1;2760
+MoveNorth;(14, 8);;(8, 4);False;1;2761
+;(14, 8);;(8, 4);Robot break large rock at the top;1;2762
+;(14, 8);;(8, 4);False;1;2763
+;(14, 8);;(8, 4);Robot break large rock at the top;1;2764
+;(14, 8);;(8, 4);False;1;2765
+MoveNorth;(14, 7);;(8, 4);Robot break large rock at the top;1;2766
+;(14, 7);;(8, 4);False;1;2767
+;(14, 7);;(8, 4);Robot break large rock at the top;1;2768
+;(14, 7);;(8, 4);False;1;2769
+;(14, 7);;(8, 4);Robot break large rock at the top;1;2770
+;(14, 7);;(8, 4);False;1;2771
+;(14, 7);;(8, 4);Robot break large rock at the top;1;2772
+;(14, 7);;(8, 4);False;1;2773
+;(14, 7);;(8, 4);Robot break large rock at the top;1;2774
+MoveSouth;(14, 8);;(8, 4);False;1;2775
+;(14, 8);;(8, 4);Robot break large rock at the top;1;2776
+;(14, 8);;(8, 4);False;1;2777
+;(14, 8);;(8, 4);Robot break large rock at the top;1;2778
+;(14, 8);;(8, 4);False;1;2779
+;(14, 8);;(8, 4);Robot break large rock at the top;1;2780
+;(14, 8);;(8, 4);False;1;2781
+;(14, 8);;(8, 4);Robot break large rock at the top;1;2782
+;(14, 8);;(8, 4);False;1;2783
+MoveWest;(13, 8);;(8, 4);Robot break large rock at the top;1;2784
+;(13, 8);;(8, 4);False;1;2785
+;(13, 8);;(8, 4);Robot break large rock at the top;1;2786
+;(13, 8);;(8, 4);False;1;2787
+MoveNorth;(13, 7);;(8, 4);Robot break large rock at the top;1;2788
+;(13, 7);;(8, 4);False;1;2789
+;(13, 7);;(8, 4);Robot break large rock at the top;1;2790
+;(13, 7);;(8, 4);False;1;2791
+;(13, 7);;(8, 4);Robot break large rock at the top;1;2792
+MoveNorth;(13, 6);;(8, 4);False;1;2793
+;(13, 6);;(8, 4);Robot break large rock at the top;1;2794
+;(13, 6);;(8, 4);False;1;2795
+;(13, 6);;(8, 4);Robot break large rock at the top;1;2796
+MoveNorth;(13, 5);;(8, 4);False;1;2797
+;(13, 5);;(8, 4);Robot break large rock at the top;1;2798
+;(13, 5);;(8, 4);False;1;2799
+;(13, 5);;(8, 4);Robot break large rock at the top;1;2800
+;(13, 5);;(8, 4);False;1;2801
+;(13, 5);;(8, 4);Robot break large rock at the top;1;2802
+;(13, 5);;(8, 4);False;1;2803
+;(13, 5);;(8, 4);Robot break large rock at the top;1;2804
+MoveNorth;(13, 4);;(8, 4);False;1;2805
+;(13, 4);;(8, 4);Robot break large rock at the top;1;2806
+;(13, 4);;(8, 4);False;1;2807
+;(13, 4);;(8, 4);Robot break large rock at the top;1;2808
+;(13, 4);;(8, 4);False;1;2809
+MoveNorth;(13, 3);;(8, 4);Robot break large rock at the top;1;2810
+;(13, 3);;(8, 4);False;1;2811
+;(13, 3);;(8, 4);Robot break large rock at the top;1;2812
+;(13, 3);;(8, 4);False;1;2813
+;(13, 3);;(8, 4);Robot break large rock at the top;1;2814
+;(13, 3);;(8, 4);False;1;2815
+;(13, 3);;(8, 4);Robot break large rock at the top;1;2816
+;(13, 3);;(8, 4);False;1;2817
+MoveWest;(12, 3);;(8, 4);Robot break large rock at the top;1;2818
+;(12, 3);;(8, 4);False;1;2819
+;(12, 3);;(8, 4);Robot break large rock at the top;1;2820
+MoveWest;(11, 3);;(8, 4);False;1;2821
+;(11, 3);;(8, 4);Robot break large rock at the top;1;2822
+;(11, 3);;(8, 4);False;1;2823
+MoveWest;(10, 3);;(8, 4);Robot break large rock at the top;1;2824
+;(10, 3);;(8, 4);False;1;2825
+;(10, 3);;(8, 4);Robot break large rock at the top;1;2826
+MoveWest;(9, 3);;(8, 4);False;1;2827
+;(9, 3);;(8, 4);Robot break large rock at the top;1;2828
+;(9, 3);;(8, 4);False;1;2829
+MoveWest;(8, 3);;(8, 4);Robot break large rock at the top;1;2830
+;(8, 3);;(8, 4);False;1;2831
+;(8, 3);;(8, 4);Robot break large rock at the top;1;2832
+;(8, 3);;(8, 4);False;1;2833
+;(8, 3);;(8, 4);Robot break large rock at the top;1;2834
+MoveSouth;(8, 4);;(8, 4);False;1;2835
+;(8, 4);;(8, 4);Robot break large rock at the top;1;2836
+;(8, 4);;(8, 4);False;1;2837
+;(8, 4);;(8, 4);Robot break large rock at the top;1;2838
+;(8, 4);;(8, 4);False;1;2839
+;(8, 4);;(8, 4);Robot break large rock at the top;1;2840
+;(8, 4);;(8, 4);False;1;2841
+;(8, 4);;(8, 4);Robot break large rock at the top;1;2842
+;(8, 4);;(8, 4);False;1;2843
+;(8, 4);;(8, 4);Robot break large rock at the top;1;2844
+;(8, 4);;(8, 4);False;1;2845
+;(8, 4);;(8, 4);Robot break large rock at the top;1;2846
+;(8, 4);;(8, 4);False;1;2847
+;(8, 4);;(8, 4);Robot break large rock at the top;1;2848
+;(8, 4);;(8, 4);False;1;2849
+;(8, 4);;(8, 4);Robot break large rock at the top;1;2850
+;(8, 4);;(8, 4);False;1;2851
+;(8, 4);;(8, 4);Robot break large rock at the top;1;2852
+;(8, 4);;(8, 4);False;1;2853
+;(8, 4);;(8, 4);Robot break large rock at the top;1;2854
+GrabObject;(8, 4);;(8, 4);False;1;2855
+;(8, 4);;(8, 4);Robot break large rock at the top;1;2856
+;(8, 4);;(8, 4);False;1;2857
+;(8, 4);;(8, 4);Robot break large rock at the top;1;2858
+MoveWest;(7, 4);;(8, 4);False;1;2859
+;(7, 4);;(8, 4);Robot break large rock at the top;1;2860
+;(7, 4);;(8, 4);False;1;2861
+;(7, 4);;(8, 4);Robot break large rock at the top;1;2862
+;(7, 4);;(8, 4);False;1;2863
+;(7, 4);;(8, 4);Robot break large rock at the top;1;2864
+MoveSouth;(7, 5);;(8, 4);False;1;2865
+;(7, 5);;(8, 4);Robot break large rock at the top;1;2866
+;(7, 5);;(8, 4);False;1;2867
+MoveSouth;(7, 6);;(8, 4);Robot break large rock at the top;1;2868
+;(7, 6);;(8, 4);False;1;2869
+;(7, 6);;(8, 4);Robot break large rock at the top;1;2870
+;(7, 6);;(8, 4);False;1;2871
+;(7, 6);;(8, 4);Robot break large rock at the top;1;2872
+MoveSouth;(7, 7);;(8, 4);False;1;2873
+;(7, 7);;(8, 4);Robot break large rock at the top;1;2874
+;(7, 7);;(8, 4);False;1;2875
+;(7, 7);;(8, 4);Robot break large rock at the top;1;2876
+GrabObject;(7, 7);;(8, 4);False;1;2877
+;(7, 7);;(8, 4);Robot break large rock at the top;1;2878
+;(7, 7);;(8, 4);False;1;2879
+;(7, 7);;(8, 4);Robot break large rock at the top;1;2880
+;(7, 7);;(8, 4);False;1;2881
+;(7, 7);;(8, 4);Robot break large rock at the top;1;2882
+;(7, 7);;(8, 4);False;1;2883
+;(7, 7);;(8, 4);Robot break large rock at the top;1;2884
+MoveEast;(8, 7);;(8, 4);False;1;2885
+;(8, 7);;(8, 4);Robot break large rock at the top;1;2886
+;(8, 7);;(8, 4);False;1;2887
+;(8, 7);;(8, 4);Robot break large rock at the top;1;2888
+;(8, 7);;(8, 4);False;1;2889
+MoveEast;(9, 7);;(8, 4);Robot break large rock at the top;1;2890
+;(9, 7);;(8, 4);False;1;2891
+MoveEast;(10, 7);;(8, 4);Robot break large rock at the top;1;2892
+;(10, 7);;(8, 4);False;1;2893
+;(10, 7);;(8, 4);Robot break large rock at the top;1;2894
+;(10, 7);;(8, 4);False;1;2895
+;(10, 7);;(8, 4);Robot break large rock at the top;1;2896
+MoveEast;(11, 7);;(8, 4);False;1;2897
+;(11, 7);;(8, 4);Robot break large rock at the top;1;2898
+;(11, 7);;(8, 4);False;1;2899
+;(11, 7);;(8, 4);Robot break large rock at the top;1;2900
+;(11, 7);;(8, 4);False;1;2901
+;(11, 7);;(8, 4);Robot break large rock at the top;1;2902
+MoveEast;(12, 7);;(8, 4);False;1;2903
+;(12, 7);;(8, 4);Robot break large rock at the top;1;2904
+;(12, 7);;(8, 4);False;1;2905
+;(12, 7);;(8, 4);Robot break large rock at the top;1;2906
+;(12, 7);;(8, 4);False;1;2907
+MoveEast;(13, 7);;(8, 4);Robot break large rock at the top;1;2908
+;(13, 7);;(8, 4);False;1;2909
+;(13, 7);;(8, 4);Robot break large rock at the top;1;2910
+;(13, 7);;(8, 4);False;1;2911
+MoveSouth;(13, 8);;(8, 4);Robot break large rock at the top;1;2912
+;(13, 8);;(8, 4);False;1;2913
+;(13, 8);;(8, 4);Robot break large rock at the top;1;2914
+;(13, 8);;(8, 4);False;1;2915
+MoveSouth;(13, 9);;(8, 4);Robot break large rock at the top;1;2916
+;(13, 9);;(8, 4);False;1;2917
+;(13, 9);;(8, 4);Robot break large rock at the top;1;2918
+;(13, 9);;(8, 4);False;1;2919
+MoveSouth;(13, 10);;(8, 4);Robot break large rock at the top;1;2920
+;(13, 10);;(8, 4);False;1;2921
+;(13, 10);;(8, 4);Robot break large rock at the top;1;2922
+;(13, 10);;(8, 4);False;1;2923
+MoveSouth;(13, 11);;(8, 4);Robot break large rock at the top;1;2924
+;(13, 11);;(8, 4);False;1;2925
+;(13, 11);;(8, 4);Robot break large rock at the top;1;2926
+;(13, 11);;(8, 4);False;1;2927
+;(13, 11);;(8, 4);Robot break large rock at the top;1;2928
+;(13, 11);;(8, 4);False;1;2929
+MoveWest;(12, 11);;(8, 4);Robot break large rock at the top;1;2930
+;(12, 11);;(8, 4);False;1;2931
+;(12, 11);;(8, 4);Robot break large rock at the top;1;2932
+;(12, 11);;(8, 4);False;1;2933
+;(12, 11);;(8, 4);Robot break large rock at the top;1;2934
+;(12, 11);;(8, 4);False;1;2935
+MoveWest;(11, 11);;(8, 4);Robot break large rock at the top;1;2936
+;(11, 11);;(8, 4);False;1;2937
+;(11, 11);;(8, 4);Robot break large rock at the top;1;2938
+MoveNorth;(11, 10);;(8, 4);False;1;2939
+;(11, 10);;(8, 4);Robot break large rock at the top;1;2940
+;(11, 10);;(8, 4);False;1;2941
+GrabObject;(11, 10);;(8, 4);Robot break large rock at the top;1;2942
+;(11, 10);;(8, 4);False;1;2943
+;(11, 10);;(8, 4);Robot break large rock at the top;1;2944
+;(11, 10);;(8, 4);False;1;2945
+;(11, 10);;(8, 4);Robot break large rock at the top;1;2946
+;(11, 10);;(8, 4);False;1;2947
+;(11, 10);;(8, 4);Robot break large rock at the top;1;2948
+;(11, 10);;(8, 4);False;1;2949
+DropObject;(11, 10);;(8, 4);Robot break large rock at the top;1;2950
+;(11, 10);;(8, 4);False;1;2951
+;(11, 10);;(8, 4);Robot break large rock at the top;1;2952
+;(11, 10);;(8, 4);False;1;2953
+;(11, 10);;(8, 4);Robot break large rock at the top;1;2954
+;(11, 10);;(8, 4);False;1;2955
+;(11, 10);;(8, 4);Robot break large rock at the top;1;2956
+;(11, 10);;(8, 4);False;1;2957
+;(11, 10);;(8, 4);Robot break large rock at the top;1;2958
+MoveEast;(12, 10);;(8, 4);False;1;2959
+;(12, 10);;(8, 4);Robot break large rock at the top;1;2960
+;(12, 10);;(8, 4);False;1;2961
+;(12, 10);;(8, 4);Robot break large rock at the top;1;2962
+MoveEast;(13, 10);;(8, 4);False;1;2963
+;(13, 10);;(8, 4);Robot break large rock at the top;1;2964
+;(13, 10);;(8, 4);False;1;2965
+;(13, 10);;(8, 4);Robot break large rock at the top;1;2966
+;(13, 10);;(8, 4);False;1;2967
+;(13, 10);;(8, 4);Robot break large rock at the top;1;2968
+;(13, 10);;(8, 4);False;1;2969
+;(13, 10);;(8, 4);Robot break large rock at the top;1;2970
+;(13, 10);;(8, 4);False;1;2971
+;(13, 10);;(8, 4);Robot break large rock at the top;1;2972
+;(13, 10);;(8, 4);False;1;2973
+;(13, 10);;(8, 4);Robot break large rock at the top;1;2974
+;(13, 10);;(8, 4);False;1;2975
+;(13, 10);;(8, 4);Robot break large rock at the top;1;2976
+;(13, 10);;(8, 4);False;1;2977
+;(13, 10);;(8, 4);Robot break large rock at the top;1;2978
+;(13, 10);;(8, 4);False;1;2979
+;(13, 10);;(8, 4);Robot break large rock at the top;1;2980
+;(13, 10);;(8, 4);False;1;2981
+;(13, 10);;(8, 4);Robot break large rock at the top;1;2982
+;(13, 10);;(8, 4);False;1;2983
+;(13, 10);;(8, 4);Robot break large rock at the top;1;2984
+;(13, 10);;(8, 4);False;1;2985
+;(13, 10);;(8, 4);Robot break large rock at the top;1;2986
+;(13, 10);;(8, 4);False;1;2987
+;(13, 10);;(8, 4);Robot break large rock at the top;1;2988
+;(13, 10);;(8, 4);False;1;2989
+;(13, 10);;(8, 4);Robot break large rock at the top;1;2990
+;(13, 10);;(8, 4);False;1;2991
+;(13, 10);;(8, 4);Robot break large rock at the top;1;2992
+;(13, 10);;(8, 4);False;1;2993
+;(13, 10);;(8, 4);Robot break large rock at the top;1;2994
+;(13, 10);;(8, 4);False;1;2995
+;(13, 10);;(8, 4);Robot break large rock at the top;1;2996
+;(13, 10);;(8, 4);False;1;2997
+;(13, 10);;(8, 4);Robot break large rock at the top;1;2998
+;(13, 10);;(8, 4);False;1;2999
+;(13, 10);;(8, 4);False;1;3000
+;(13, 10);;(8, 4);False;1;3001
+;(13, 10);;(8, 4);False;1;3002
+;(13, 10);;(8, 4);False;1;3003
+;(13, 10);;(8, 4);False;1;3004
+;(13, 10);;(8, 4);False;1;3005
+;(13, 10);;(8, 4);False;1;3006
+;(13, 10);;(8, 4);False;1;3007
+;(13, 10);;(8, 4);False;1;3008
+;(13, 10);;(8, 4);False;1;3009
+;(13, 10);;(8, 4);False;1;3010
+;(13, 10);;(8, 4);False;1;3011
+;(13, 10);;(8, 4);False;1;3012
+;(13, 10);;(8, 4);False;1;3013
+;(13, 10);;(8, 4);False;1;3014
+;(13, 10);;(8, 4);False;1;3015
+;(13, 10);;(8, 4);False;1;3016
+;(13, 10);;(8, 4);False;1;3017
+;(13, 10);;(8, 4);False;1;3018
+;(13, 10);;(8, 4);False;1;3019
