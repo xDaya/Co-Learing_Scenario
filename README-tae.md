@@ -86,7 +86,8 @@ In the phase 2, the agent can take advantage of the CPs that were collected in t
 
 ### Entities and relations
 
-![alt text](image.png)
+<!-- ![alt text](image.png) -->
+![alt text](image-1.png)
 
 This is the only vocabulary used. "Robot", "Human", and "Victim" can only be used to
 describe situations where they work as objects (yellow). They can't be used as part of

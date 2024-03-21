@@ -7,11 +7,11 @@
     <rdf:type rdf:resource="http://example.org/myOntology#Robot"/>
     <ex:moveTo rdf:resource="http://example.org/myOntology#rock1"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/myOntology#rock1">
-    <rdf:type rdf:resource="http://example.org/myOntology#LargeRock"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://example.org/myOntology#human1">
     <rdf:type rdf:resource="http://example.org/myOntology#Human"/>
     <ex:pickUp rdf:resource="http://example.org/myOntology#rock1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/myOntology#rock1">
+    <rdf:type rdf:resource="http://example.org/myOntology#LargeRock"/>
   </rdf:Description>
 </rdf:RDF>

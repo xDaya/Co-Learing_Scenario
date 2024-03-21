@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://example.org/myOntology#"
-    xml:base="http://example.org/myOntology"
+<rdf:RDF xmlns="http://example.org/coLearningOntology#"
+    xml:base="http://example.org/coLearningOntology"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:owl="http://www.w3.org/2002/07/owl#"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-    <owl:Ontology rdf:about="http://example.org/myOntology">
+    <owl:Ontology rdf:about="http://example.org/coLearningOntology">
         <owl:versionInfo>1.0</owl:versionInfo>
     </owl:Ontology>
 
@@ -47,6 +47,31 @@
         <rdfs:subClassOf rdf:resource="#ActorAction" />
     </owl:Class>
 
+    <!-- Union Domain Class Definitions -->
+    <owl:Class rdf:about="#ActorOrObject">
+        <owl:unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="#Actor" />
+            <rdf:Description rdf:about="#Object" />
+        </owl:unionOf>
+    </owl:Class>
+
+    <owl:Class rdf:about="#RockPileOrField">
+        <owl:unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="#RockPile" />
+            <rdf:Description rdf:about="#Field" />
+        </owl:unionOf>
+    </owl:Class>
+
+    <owl:Class rdf:about="#ObjectExceptField">
+        <owl:unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="#RockPile" />
+            <rdf:Description rdf:about="#LargeRock" />
+            <rdf:Description rdf:about="#SmallRock" />
+            <rdf:Description rdf:about="#BrownRock" />
+        </owl:unionOf>
+    </owl:Class>
+
+
     <!-- Property (relation) definitions -->
     <owl:ObjectProperty rdf:about="#hasState">
         <rdfs:domain rdf:resource="#Actor" />
@@ -69,18 +94,27 @@
         <rdfs:range rdf:resource="#Object" />
     </owl:ObjectProperty>
     <owl:ObjectProperty rdf:about="#topOf">
-        <rdfs:range rdf:resource="#RockPile" />
+        <rdfs:domain rdf:resource="#ActorOrObject" />
+        <rdfs:range rdf:resource="#ObjectExceptField" />
     </owl:ObjectProperty>
     <owl:ObjectProperty rdf:about="#above">
+        <rdfs:domain rdf:resource="#ActorOrObject" />
         <rdfs:range rdf:resource="#RockPile" />
     </owl:ObjectProperty>
     <owl:ObjectProperty rdf:about="#bottomOf">
+        <rdfs:domain rdf:resource="#ActorOrObject" />
         <rdfs:range rdf:resource="#RockPile" />
     </owl:ObjectProperty>
     <owl:ObjectProperty rdf:about="#rightSideOf">
-        <rdfs:range rdf:resource="#Object" />
+        <rdfs:domain rdf:resource="#ActorOrObject" />
+        <rdfs:range rdf:resource="#RockPileOrField" />
     </owl:ObjectProperty>
     <owl:ObjectProperty rdf:about="#leftSideOf">
-        <rdfs:range rdf:resource="#Object" />
+        <rdfs:domain rdf:resource="#ActorOrObject" />
+        <rdfs:range rdf:resource="#RockPileOrField" />
     </owl:ObjectProperty>
+    <!-- <owl:ObjectProperty rdf:about="#in">
+        <rdfs:domain rdf:resource="#ActorOrObject" />
+        <rdfs:range rdf:resource="#Object" />
+    </owl:ObjectProperty> -->
 </rdf:RDF>
