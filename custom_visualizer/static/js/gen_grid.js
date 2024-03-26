@@ -91,8 +91,8 @@ function draw(state, world_settings, new_messages, accessible_chatrooms, new_tic
         //    }
         //
         //    if (state['rewardgod']['level'] > 0){
-                setTimeout(window.alert('You finished this level. Check the result below.'), 0)
-                alert_sent = true;
+              setTimeout(window.alert('You finished this level. Check the result below.'), 0)
+              alert_sent = true;
         //    }
         }
         return;
