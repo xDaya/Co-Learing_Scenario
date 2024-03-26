@@ -79,9 +79,9 @@ class RobotPartner(AgentBrain):
             for y in range(0, 11):
                 self.field_locations.append((x, y))
 
-        self.condition = 2
+        self.condition = 0
 
-        self.exp_condition = 'ontology'
+        self.exp_condition = 'baseline'
 
         self.database_name = None
 
