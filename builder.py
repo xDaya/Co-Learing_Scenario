@@ -54,7 +54,7 @@ def create_builder(round, level, participant_nr):
     factory = WorldBuilder(shape=[20, 12], run_matrx_visualizer=False, visualization_bg_clr="#ffffff",
                            visualization_bg_img=background_image, tick_duration=0.05, simulation_goal=USAR_Goal())
 
-    condition = 'baseline'
+    condition = 'communication'
 
     # Add loggers
     current_exp_folder = datetime.now().strftime(str(participant_nr) + "_round" + str(round) + "_exp_at_time_%Hh-%Mm-%Ss_date_%dd-%mm-%Yy")
