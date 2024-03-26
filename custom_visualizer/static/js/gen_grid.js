@@ -82,7 +82,7 @@ function draw(state, world_settings, new_messages, accessible_chatrooms, new_tic
 
     // if we already processed this tick (MATRX is paused), stop and return
     if (latest_tick_processed == current_tick && !redraw_required) {
-        //if (state['rewardgod']['goal_reached'] && !alert_sent){
+        if (state['rewardgod']['goal_reached'] && !alert_sent){
         //    if (state['rewardgod']['level'] > 0){
         //        document.getElementById('cp').classList.add('show')
         //        if (document.getElementById('chat').classList.contains('show')){
@@ -91,10 +91,10 @@ function draw(state, world_settings, new_messages, accessible_chatrooms, new_tic
         //    }
         //
         //    if (state['rewardgod']['level'] > 0){
-        //        setTimeout(window.alert('You finished this level. If you want to, you can still store some sequences of collaborative actions in the Collaboration Book. Close the Collaboration Book when you are done.'), 0)
-        //        alert_sent = true;
+                setTimeout(window.alert('You finished this level. Check the result below.'), 0)
+                alert_sent = true;
         //    }
-        //}
+        }
         return;
     }
 
