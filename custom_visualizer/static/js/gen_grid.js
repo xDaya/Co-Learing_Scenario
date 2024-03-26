@@ -308,7 +308,10 @@ function draw(state, world_settings, new_messages, accessible_chatrooms, new_tic
     //}
 
     if (state['final_goal']['goal_reached']){
-        $("#endscreen").css("display", "block");
+        function refreshScreen() {
+            $("#endscreen").css("display", "block");
+        }
+        setTimeout(refreshScreen, 50)
     }
 
     // all objects have been redrawn, so this can be set to false again
