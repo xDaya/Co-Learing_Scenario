@@ -51,6 +51,22 @@ def create_builder(round, level, participant_nr):
     background_image = '/images/background.png'
     if level == 0:
         background_image = '/images/background_practice.png'
+    elif round == 1:
+        background_image = '/images/background_r1.png'
+    elif round == 2:
+        background_image = '/images/background_r2.png'
+    elif round == 3:
+        background_image = '/images/background_r3.png'
+    elif round == 4:
+        background_image = '/images/background_r4.png'
+    elif round == 5:
+        background_image = '/images/background_r5.png'
+    elif round == 6:
+        background_image = '/images/background_r6.png'
+    elif round == 7:
+        background_image = '/images/background_r7.png'
+    elif round == 8:
+        background_image = '/images/background_r8.png'
     factory = WorldBuilder(shape=[20, 12], run_matrx_visualizer=False, visualization_bg_clr="#ffffff",
                            visualization_bg_img=background_image, tick_duration=0.05, simulation_goal=USAR_Goal())
 
