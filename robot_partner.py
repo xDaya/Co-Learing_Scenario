@@ -1442,7 +1442,10 @@ class RobotPartner(AgentBrain):
                 self.delay_cp_reset = True
                 return
             # Check if we're dealing with a large or a small rock
-            object_size = action['resource']['size']
+            if 'resource' in action.keys():
+                object_size = action['resource']['size']
+            else:
+                return
             if 'large' in object_size:
                 # We have to pick up a large rock
                 # Find all relevant objects first, according to size
