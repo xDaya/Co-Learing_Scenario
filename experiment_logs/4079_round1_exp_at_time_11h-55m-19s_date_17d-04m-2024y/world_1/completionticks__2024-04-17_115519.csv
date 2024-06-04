@@ -1,0 +1,6 @@
+tick;corrected_tick;remaining_distance;victim_harm;idle_time_robot;q_table_cps;q_table_cps_runs;q_table_basic;world_nr;tick_nr
+3019;3000;24;600;3;;;"                     Move back and forth  Stand Still  Pick up   Drop  Break
+[4, 'equal', False]                 -7.5          0.0     0.00  0.000      0
+[4, 'equal', True]                  -7.0         -3.5    -1.00  0.000      0
+[4, 'robot', True]                  -7.0         -3.5    -3.25 -5.200    -48
+[3, 'robot', True]                  -7.0        -30.0    -7.50 -5.375      0";1;3019

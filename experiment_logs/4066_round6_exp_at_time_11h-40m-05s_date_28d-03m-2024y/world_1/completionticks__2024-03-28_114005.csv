@@ -1,0 +1,16 @@
+tick;corrected_tick;remaining_distance;victim_harm;idle_time_robot;q_table_cps;q_table_cps_runs;q_table_basic;world_nr;tick_nr
+446;427;31;600;13;"                     Pick up top rock  if brown rock on top pick up large rock on the side
+[4, 'equal', False]            -131.0                                                  -86
+[4, 'robot', False]             195.0                                                    0
+[2, 'robot', False]              91.0                                                    0
+[4, 'equal', True]              238.0                                                    0
+[3, 'equal', True]                0.0                                                 -942
+[3, 'robot', False]             151.0                                                    0
+[1, 'robot', False]               6.0                                                    0";"                     Pick up top rock  if brown rock on top pick up large rock on the side
+[4, 'equal', False]              12.0                                                    1
+[4, 'robot', False]               5.0                                                    0
+[2, 'robot', False]               3.0                                                    0
+[4, 'equal', True]                6.0                                                    0
+[3, 'equal', True]                0.0                                                    2
+[3, 'robot', False]               4.0                                                    0
+[1, 'robot', False]               2.0                                                    0";;1;446

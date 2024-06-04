@@ -1,0 +1,28 @@
+tick;corrected_tick;remaining_distance;victim_harm;idle_time_robot;q_table_cps;q_table_cps_runs;q_table_basic;world_nr;tick_nr
+874;855;30;600;1;"                     pick up large rock  test2
+[4, 'robot', True]                  0.0    0.0
+[4, 'equal', False]              -844.0    0.0
+[4, 'equal', True]                  0.0    0.0
+[1, 'robot', True]               -352.0    0.0
+[3, 'robot', True]              -2312.0    NaN";"                     pick up large rock  test2
+[4, 'robot', True]                  0.0    0.0
+[4, 'equal', False]                 2.0    0.0
+[4, 'equal', True]                  0.0    0.0
+[1, 'robot', True]                  1.0    0.0
+[3, 'robot', True]                  1.0    NaN";"                     Move back and forth  Stand Still    Pick up    Drop      Break
+[4, 'equal', False]               -9.600    -7.003658 -10.364000  -8.280 -10.000000
+[4, 'equal', True]               -12.807   -10.298164  -5.359375 -19.400 -12.310000
+[4, 'robot', True]                -7.500   -35.250000  -3.650000  -6.575  -2.603125
+[3, 'robot', False]               -7.000    -3.500000  -2.500000 -27.000 -26.000000
+[4, 'robot', False]               -4.000    -0.500000  -2.650000  -3.000  -4.707412
+[3, 'equal', False]               -6.000    -5.700000 -31.000000  -1.500  -6.200000
+[3, 'human', True]                 0.000     0.000000   0.000000   0.000  -4.000000
+[3, 'human', False]               -7.200    -6.620000  -6.820000  -6.200  -4.760000
+[2, 'human', False]              -22.000   -25.444000 -15.435000  -2.460 -12.330500
+[2, 'human', True]                -7.000    -3.500000   1.000000   0.000   0.000000
+[2, 'equal', True]                 0.000     0.000000   0.000000  -5.000   0.000000
+[2, 'robot', True]                -7.000     0.000000  -2.000000   0.000   0.000000
+[2, 'robot', False]               -4.000     0.000000   0.000000   0.000  -1.000000
+[1, 'robot', False]               -4.000    -3.500000   0.000000   0.000   0.000000
+[1, 'robot', True]                 0.000    -2.000000   0.000000   0.000   0.000000
+[4, 'human', True]                 0.000     0.000000  -1.595000   0.000   0.000000";1;874

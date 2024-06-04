@@ -1,0 +1,33 @@
+tick;corrected_tick;remaining_distance;victim_harm;idle_time_robot;q_table_cps;q_table_cps_runs;q_table_basic;world_nr;tick_nr
+1237;1218;;100;1;"                     Pick up top rock  Pick up brown rock 
+[4, 'equal', False]             -55.0                  0.0
+[4, 'robot', False]               0.0                  0.0
+[2, 'robot', False]              91.0                  0.0
+[4, 'equal', True]              238.0                  0.0
+[3, 'equal', True]                0.0                  0.0
+[3, 'robot', False]             151.0                  NaN";"                     Pick up top rock  Pick up brown rock 
+[4, 'equal', False]              10.0                  0.0
+[4, 'robot', False]               0.0                  0.0
+[2, 'robot', False]               3.0                  0.0
+[4, 'equal', True]                6.0                  0.0
+[3, 'equal', True]                0.0                  0.0
+[3, 'robot', False]               4.0                  NaN";"                     Move back and forth  Stand Still    Pick up    Drop      Break
+[4, 'equal', False]               -9.500   -10.511200  -2.431101  -8.300 -13.679200
+[4, 'equal', True]               -12.600   -20.540000  -4.340000 -10.280  -9.000000
+[4, 'robot', False]               -4.000   -18.000000  -7.270000 -55.000 -14.961260
+[4, 'robot', True]               -12.330   -13.800000  -3.500000 -13.816 -14.475000
+[3, 'robot', False]              -11.040   -11.355334 -11.820800 -52.940 -10.925344
+[3, 'robot', True]                 0.000     0.000000   0.000000   0.000  -1.290000
+[2, 'robot', False]               -6.000   -10.970000  -6.400000  -5.060  -9.100000
+[2, 'equal', False]               -6.125    -5.250000  -5.000000   0.000  -4.500000
+[2, 'equal', True]               -31.000    -3.650000   0.000000 -26.750  -4.000000
+[3, 'equal', False]              -21.075    -5.625000  -5.570000  -3.000  -9.500000
+[2, 'human', False]               -6.000    -5.250000  -1.137500   0.000  -4.500000
+[1, 'human', False]                0.000     0.000000   0.000000   0.000 -25.500000
+[4, 'human', False]               -7.000    -0.500000  -6.500000   0.000   0.000000
+[4, 'human', True]                -4.150    -3.500000  -2.000000  -1.000   0.000000
+[3, 'human', True]                -7.000    -3.500000  -2.625000  -1.500  -5.000000
+[3, 'human', False]               -4.000    -3.900000  -3.820000 -13.575  -4.500000
+[2, 'human', True]                -7.000    -3.500000   0.000000  -3.965  -4.500000
+[3, 'equal', True]                -7.000    -3.500000   0.000000   0.000   0.000000
+[1, 'robot', False]                0.000     0.000000   0.000000   0.000   5.500000";1;1237

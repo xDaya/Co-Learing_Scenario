@@ -1,0 +1,4 @@
+tick;corrected_tick;remaining_distance;victim_harm;idle_time_robot;q_table_cps;q_table_cps_runs;q_table_basic;world_nr;tick_nr
+3019;3000;29;500;412;"                     Label  large rock pick up   Label1  Label2
+[4, 'equal', False]    NaN                 NaN -26899.0       0";"                     Label  large rock pick up  Label1  Label2
+[4, 'equal', False]    NaN                 NaN   104.0       0";;1;3019

@@ -1,0 +1,3021 @@
+human_selector_action;human_selector_location;robot_action;robot_location;robot_executing_cp;world_nr;tick_nr
+;(3, 4);;(4, 4);False;1;0
+MoveEast;(4, 4);;(4, 4);False;1;1
+;(4, 4);;(4, 4);Brown rock and small rocks;1;2
+;(4, 4);;(4, 4);False;1;3
+;(4, 4);;(4, 4);Brown rock and small rocks;1;4
+;(4, 4);;(4, 4);False;1;5
+;(4, 4);;(4, 4);Remove big rock;1;6
+;(4, 4);;(4, 4);Remove big rock;1;7
+;(4, 4);;(4, 4);Remove big rock;1;8
+;(4, 4);;(4, 4);Remove big rock;1;9
+MoveEast;(5, 4);;(4, 4);Remove big rock;1;10
+;(5, 4);;(4, 4);Remove big rock;1;11
+;(5, 4);;(4, 4);Remove big rock;1;12
+MoveEast;(6, 4);;(4, 4);Remove big rock;1;13
+;(6, 4);;(4, 4);Remove big rock;1;14
+MoveEast;(7, 4);;(4, 4);Remove big rock;1;15
+;(7, 4);;(4, 4);Remove big rock;1;16
+;(7, 4);;(4, 4);Remove big rock;1;17
+;(7, 4);;(4, 4);Remove big rock;1;18
+;(7, 4);;(4, 4);Remove big rock;1;19
+;(7, 4);;(4, 4);Remove big rock;1;20
+;(7, 4);;(4, 4);Remove big rock;1;21
+MoveEast;(8, 4);;(4, 4);Remove big rock;1;22
+;(8, 4);;(4, 4);Remove big rock;1;23
+MoveEast;(9, 4);;(4, 4);Remove big rock;1;24
+;(9, 4);;(4, 4);Remove big rock;1;25
+MoveEast;(10, 4);;(4, 4);Remove big rock;1;26
+;(10, 4);;(4, 4);Remove big rock;1;27
+;(10, 4);;(4, 4);Remove big rock;1;28
+;(10, 4);;(4, 4);Remove big rock;1;29
+;(10, 4);;(4, 4);Remove big rock;1;30
+;(10, 4);;(4, 4);Remove big rock;1;31
+;(10, 4);;(4, 4);Remove big rock;1;32
+;(10, 4);;(4, 4);Remove big rock;1;33
+;(10, 4);;(4, 4);Remove big rock;1;34
+MoveNorth;(10, 3);;(4, 4);Remove big rock;1;35
+;(10, 3);;(4, 4);Remove big rock;1;36
+;(10, 3);;(4, 4);Remove big rock;1;37
+;(10, 3);;(4, 4);Remove big rock;1;38
+;(10, 3);;(4, 4);Remove big rock;1;39
+;(10, 3);;(4, 4);Remove big rock;1;40
+;(10, 3);;(4, 4);Remove big rock;1;41
+;(10, 3);;(4, 4);Remove big rock;1;42
+;(10, 3);;(4, 4);Remove big rock;1;43
+;(10, 3);;(4, 4);Remove big rock;1;44
+;(10, 3);;(4, 4);Remove big rock;1;45
+MoveWest;(9, 3);;(4, 4);Remove big rock;1;46
+;(9, 3);;(4, 4);Remove big rock;1;47
+;(9, 3);;(4, 4);Remove big rock;1;48
+;(9, 3);;(4, 4);Remove big rock;1;49
+;(9, 3);;(4, 4);Remove big rock;1;50
+;(9, 3);;(4, 4);Remove big rock;1;51
+;(9, 3);;(4, 4);Remove big rock;1;52
+;(9, 3);;(4, 4);Remove big rock;1;53
+;(9, 3);;(4, 4);Remove big rock;1;54
+;(9, 3);;(4, 4);Remove big rock;1;55
+;(9, 3);;(4, 4);Remove big rock;1;56
+;(9, 3);;(4, 4);Remove big rock;1;57
+;(9, 3);;(4, 4);Remove big rock;1;58
+;(9, 3);;(4, 4);Remove big rock;1;59
+;(9, 3);;(4, 4);Remove big rock;1;60
+;(9, 3);;(4, 4);Remove big rock;1;61
+;(9, 3);;(4, 4);Remove big rock;1;62
+;(9, 3);;(4, 4);Remove big rock;1;63
+;(9, 3);;(4, 4);Remove big rock;1;64
+;(9, 3);;(4, 4);Remove big rock;1;65
+;(9, 3);;(4, 4);Remove big rock;1;66
+;(9, 3);;(4, 4);Remove big rock;1;67
+;(9, 3);;(4, 4);Remove big rock;1;68
+;(9, 3);;(4, 4);Remove big rock;1;69
+;(9, 3);;(4, 4);Remove big rock;1;70
+;(9, 3);;(4, 4);Remove big rock;1;71
+;(9, 3);;(4, 4);Remove big rock;1;72
+;(9, 3);;(4, 4);Remove big rock;1;73
+;(9, 3);;(4, 4);Remove big rock;1;74
+;(9, 3);;(4, 4);Remove big rock;1;75
+;(9, 3);;(4, 4);Remove big rock;1;76
+;(9, 3);;(4, 4);Remove big rock;1;77
+;(9, 3);;(4, 4);Remove big rock;1;78
+;(9, 3);;(4, 4);Remove big rock;1;79
+;(9, 3);;(4, 4);Remove big rock;1;80
+;(9, 3);;(4, 4);Remove big rock;1;81
+;(9, 3);;(4, 4);Remove big rock;1;82
+;(9, 3);;(4, 4);Remove big rock;1;83
+;(9, 3);;(4, 4);Remove big rock;1;84
+;(9, 3);;(4, 4);Remove big rock;1;85
+;(9, 3);;(4, 4);Remove big rock;1;86
+GrabObject;(9, 3);;(4, 4);Remove big rock;1;87
+;(9, 3);;(4, 4);Remove big rock;1;88
+;(9, 3);;(4, 4);Remove big rock;1;89
+;(9, 3);;(4, 4);Remove big rock;1;90
+;(9, 3);;(4, 4);Remove big rock;1;91
+MoveWest;(8, 3);;(4, 4);Remove big rock;1;92
+;(8, 3);;(4, 4);Remove big rock;1;93
+;(8, 3);;(4, 4);Remove big rock;1;94
+;(8, 3);;(4, 4);Remove big rock;1;95
+;(8, 3);;(4, 4);Remove big rock;1;96
+MoveWest;(7, 3);;(4, 4);Remove big rock;1;97
+;(7, 3);;(4, 4);Remove big rock;1;98
+;(7, 3);;(4, 4);Remove big rock;1;99
+MoveWest;(6, 3);;(4, 4);Remove big rock;1;100
+;(6, 3);;(4, 4);Remove big rock;1;101
+;(6, 3);;(4, 4);Remove big rock;1;102
+MoveWest;(5, 3);;(4, 4);Remove big rock;1;103
+;(5, 3);;(4, 4);Remove big rock;1;104
+;(5, 3);;(4, 4);Remove big rock;1;105
+MoveWest;(4, 3);;(4, 4);Remove big rock;1;106
+;(4, 3);;(4, 4);Remove big rock;1;107
+;(4, 3);;(4, 4);Remove big rock;1;108
+MoveWest;(3, 3);;(4, 4);Remove big rock;1;109
+;(3, 3);;(4, 4);Remove big rock;1;110
+;(3, 3);;(4, 4);Remove big rock;1;111
+MoveWest;(2, 3);;(4, 4);Remove big rock;1;112
+;(2, 3);;(4, 4);Remove big rock;1;113
+;(2, 3);;(4, 4);Remove big rock;1;114
+MoveWest;(1, 3);;(4, 4);Remove big rock;1;115
+;(1, 3);;(4, 4);Remove big rock;1;116
+;(1, 3);;(4, 4);Remove big rock;1;117
+;(1, 3);;(4, 4);Remove big rock;1;118
+;(1, 3);;(4, 4);Remove big rock;1;119
+;(1, 3);;(4, 4);Remove big rock;1;120
+;(1, 3);;(4, 4);Remove big rock;1;121
+;(1, 3);;(4, 4);Remove big rock;1;122
+;(1, 3);;(4, 4);Remove big rock;1;123
+;(1, 3);;(4, 4);Remove big rock;1;124
+;(1, 3);;(4, 4);Remove big rock;1;125
+;(1, 3);;(4, 4);Remove big rock;1;126
+;(1, 3);;(4, 4);Remove big rock;1;127
+;(1, 3);;(4, 4);Remove big rock;1;128
+;(1, 3);;(4, 4);Remove big rock;1;129
+;(1, 3);;(4, 4);Remove big rock;1;130
+;(1, 3);;(4, 4);Remove big rock;1;131
+;(1, 3);;(4, 4);Remove big rock;1;132
+;(1, 3);;(4, 4);Remove big rock;1;133
+GrabObject;(1, 3);;(4, 4);Remove big rock;1;134
+;(1, 3);;(4, 4);Remove big rock;1;135
+;(1, 3);;(4, 4);Remove big rock;1;136
+;(1, 3);;(4, 4);Remove big rock;1;137
+;(1, 3);;(4, 4);Remove big rock;1;138
+;(1, 3);;(4, 4);Remove big rock;1;139
+;(1, 3);;(4, 4);Remove big rock;1;140
+;(1, 3);;(4, 4);Remove big rock;1;141
+;(1, 3);;(4, 4);Remove big rock;1;142
+;(1, 3);;(4, 4);Remove big rock;1;143
+;(1, 3);;(4, 4);Remove big rock;1;144
+;(1, 3);;(4, 4);Remove big rock;1;145
+DropObject;(1, 3);;(4, 4);Remove big rock;1;146
+;(1, 3);;(4, 4);Remove big rock;1;147
+;(1, 3);;(4, 4);Remove big rock;1;148
+;(1, 3);;(4, 4);Remove big rock;1;149
+;(1, 3);;(4, 4);Remove big rock;1;150
+;(1, 3);;(4, 4);Remove big rock;1;151
+;(1, 3);;(4, 4);Remove big rock;1;152
+;(1, 3);;(4, 4);Remove big rock;1;153
+;(1, 3);;(4, 4);Remove big rock;1;154
+;(1, 3);;(4, 4);Remove big rock;1;155
+;(1, 3);;(4, 4);Remove big rock;1;156
+;(1, 3);;(4, 4);Remove big rock;1;157
+;(1, 3);;(4, 4);Remove big rock;1;158
+;(1, 3);;(4, 4);Remove big rock;1;159
+;(1, 3);;(4, 4);Remove big rock;1;160
+;(1, 3);;(4, 4);Remove big rock;1;161
+;(1, 3);;(4, 4);Remove big rock;1;162
+;(1, 3);;(4, 4);Remove big rock;1;163
+;(1, 3);;(4, 4);Remove big rock;1;164
+;(1, 3);;(4, 4);Remove big rock;1;165
+;(1, 3);;(4, 4);Remove big rock;1;166
+;(1, 3);;(4, 4);Remove big rock;1;167
+;(1, 3);;(4, 4);Remove big rock;1;168
+;(1, 3);;(4, 4);Remove big rock;1;169
+;(1, 3);MoveSouthEast;(4, 4);Remove big rock;1;170
+;(1, 3);MoveSouthEast;(4, 4);Remove big rock;1;171
+;(1, 3);MoveSouthEast;(4, 4);Remove big rock;1;172
+;(1, 3);MoveSouthEast;(4, 4);Remove big rock;1;173
+;(1, 3);MoveSouthEast;(4, 4);Remove big rock;1;174
+;(1, 3);MoveSouthEast;(4, 4);Remove big rock;1;175
+;(1, 3);MoveSouthEast;(4, 4);Remove big rock;1;176
+;(1, 3);MoveSouthEast;(4, 4);Remove big rock;1;177
+;(1, 3);MoveSouthEast;(4, 4);Remove big rock;1;178
+;(1, 3);MoveSouthEast;(4, 4);Remove big rock;1;179
+;(1, 3);MoveSouthEast;(5, 5);Remove big rock;1;180
+;(1, 3);MoveEast;(5, 5);Remove big rock;1;181
+;(1, 3);MoveEast;(5, 5);Remove big rock;1;182
+MoveSouth;(1, 4);MoveEast;(5, 5);Remove big rock;1;183
+;(1, 4);MoveEast;(5, 5);Remove big rock;1;184
+;(1, 4);MoveEast;(5, 5);Remove big rock;1;185
+;(1, 4);MoveEast;(5, 5);Remove big rock;1;186
+;(1, 4);MoveEast;(5, 5);Remove big rock;1;187
+MoveSouth;(1, 5);MoveEast;(5, 5);Remove big rock;1;188
+;(1, 5);MoveEast;(5, 5);Remove big rock;1;189
+;(1, 5);MoveEast;(5, 5);Remove big rock;1;190
+MoveSouth;(1, 6);MoveEast;(6, 5);Remove big rock;1;191
+;(1, 6);MoveSouthEast;(6, 5);Remove big rock;1;192
+;(1, 6);MoveSouthEast;(6, 5);Remove big rock;1;193
+;(1, 6);MoveSouthEast;(6, 5);Remove big rock;1;194
+;(1, 6);MoveSouthEast;(6, 5);Remove big rock;1;195
+;(1, 6);MoveSouthEast;(6, 5);Remove big rock;1;196
+;(1, 6);MoveSouthEast;(6, 5);Remove big rock;1;197
+;(1, 6);MoveSouthEast;(6, 5);Remove big rock;1;198
+;(1, 6);MoveSouthEast;(6, 5);Remove big rock;1;199
+;(1, 6);MoveSouthEast;(6, 5);Remove big rock;1;200
+;(1, 6);MoveSouthEast;(6, 5);Remove big rock;1;201
+;(1, 6);MoveSouthEast;(7, 6);Remove big rock;1;202
+;(1, 6);MoveSouthEast;(7, 6);Remove big rock;1;203
+;(1, 6);MoveSouthEast;(7, 6);Remove big rock;1;204
+;(1, 6);MoveSouthEast;(7, 6);Remove big rock;1;205
+;(1, 6);MoveSouthEast;(7, 6);Remove big rock;1;206
+;(1, 6);MoveSouthEast;(7, 6);Remove big rock;1;207
+;(1, 6);MoveSouthEast;(7, 6);Remove big rock;1;208
+;(1, 6);MoveSouthEast;(7, 6);Remove big rock;1;209
+;(1, 6);MoveSouthEast;(7, 6);Remove big rock;1;210
+;(1, 6);MoveSouthEast;(7, 6);Remove big rock;1;211
+;(1, 6);MoveSouthEast;(7, 6);Remove big rock;1;212
+;(1, 6);MoveSouthEast;(8, 7);Remove big rock;1;213
+;(1, 6);MoveEast;(8, 7);Remove big rock;1;214
+;(1, 6);MoveEast;(8, 7);Remove big rock;1;215
+;(1, 6);MoveEast;(8, 7);Remove big rock;1;216
+;(1, 6);MoveEast;(8, 7);Remove big rock;1;217
+;(1, 6);MoveEast;(8, 7);Remove big rock;1;218
+;(1, 6);MoveEast;(8, 7);Remove big rock;1;219
+;(1, 6);MoveEast;(8, 7);Remove big rock;1;220
+;(1, 6);MoveEast;(8, 7);Remove big rock;1;221
+;(1, 6);MoveEast;(8, 7);Remove big rock;1;222
+;(1, 6);MoveEast;(8, 7);Remove big rock;1;223
+;(1, 6);MoveEast;(9, 7);Remove big rock;1;224
+;(1, 6);MoveSouthEast;(9, 7);Remove big rock;1;225
+;(1, 6);MoveSouthEast;(9, 7);Remove big rock;1;226
+;(1, 6);MoveSouthEast;(9, 7);Remove big rock;1;227
+;(1, 6);MoveSouthEast;(9, 7);Remove big rock;1;228
+;(1, 6);MoveSouthEast;(9, 7);Remove big rock;1;229
+;(1, 6);MoveSouthEast;(9, 7);Remove big rock;1;230
+;(1, 6);MoveSouthEast;(9, 7);Remove big rock;1;231
+;(1, 6);MoveSouthEast;(9, 7);Remove big rock;1;232
+;(1, 6);MoveSouthEast;(9, 7);Remove big rock;1;233
+;(1, 6);MoveSouthEast;(9, 7);Remove big rock;1;234
+;(1, 6);MoveSouthEast;(10, 8);Remove big rock;1;235
+;(1, 6);GrabLargeObject;(10, 8);Remove big rock;1;236
+;(1, 6);GrabLargeObject;(10, 8);Remove big rock;1;237
+;(1, 6);GrabLargeObject;(10, 8);Remove big rock;1;238
+;(1, 6);GrabLargeObject;(10, 8);Remove big rock;1;239
+;(1, 6);GrabLargeObject;(10, 8);Remove big rock;1;240
+;(1, 6);GrabLargeObject;(10, 8);Remove big rock;1;241
+;(1, 6);GrabLargeObject;(10, 8);Remove big rock;1;242
+;(1, 6);GrabLargeObject;(10, 8);Remove big rock;1;243
+;(1, 6);GrabLargeObject;(10, 8);Remove big rock;1;244
+;(1, 6);GrabLargeObject;(10, 8);Remove big rock;1;245
+;(1, 6);GrabLargeObject;(10, 8);Remove big rock;1;246
+;(1, 6);;(10, 8);Remove big rock;1;247
+;(1, 6);;(10, 8);False;1;248
+;(1, 6);;(10, 8);Remove large rock top;1;249
+;(1, 6);;(10, 8);False;1;250
+;(1, 6);;(10, 8);Remove large rock top;1;251
+;(1, 6);;(10, 8);False;1;252
+;(1, 6);;(10, 8);Remove large rock top;1;253
+;(1, 6);;(10, 8);False;1;254
+;(1, 6);;(10, 8);Remove large rock top;1;255
+;(1, 6);;(10, 8);False;1;256
+;(1, 6);;(10, 8);Remove large rock top;1;257
+;(1, 6);;(10, 8);False;1;258
+;(1, 6);;(10, 8);Remove large rock top;1;259
+;(1, 6);;(10, 8);False;1;260
+;(1, 6);;(10, 8);Remove large rock top;1;261
+;(1, 6);;(10, 8);False;1;262
+;(1, 6);;(10, 8);Remove large rock top;1;263
+;(1, 6);;(10, 8);False;1;264
+;(1, 6);;(10, 8);Remove large rock top;1;265
+;(1, 6);;(10, 8);False;1;266
+;(1, 6);;(10, 8);Remove large rock top;1;267
+;(1, 6);;(10, 8);False;1;268
+;(1, 6);;(10, 8);Remove large rock top;1;269
+;(1, 6);;(10, 8);False;1;270
+;(1, 6);;(10, 8);Remove large rock top;1;271
+;(1, 6);;(10, 8);False;1;272
+;(1, 6);;(10, 8);Remove large rock top;1;273
+;(1, 6);;(10, 8);False;1;274
+;(1, 6);;(10, 8);Remove large rock top;1;275
+;(1, 6);;(10, 8);False;1;276
+;(1, 6);;(10, 8);Remove large rock top;1;277
+;(1, 6);;(10, 8);False;1;278
+;(1, 6);;(10, 8);Remove large rock top;1;279
+;(1, 6);;(10, 8);False;1;280
+;(1, 6);;(10, 8);Remove large rock top;1;281
+;(1, 6);;(10, 8);False;1;282
+;(1, 6);;(10, 8);Remove large rock top;1;283
+;(1, 6);;(10, 8);False;1;284
+;(1, 6);;(10, 8);Remove large rock top;1;285
+;(1, 6);;(10, 8);False;1;286
+;(1, 6);;(10, 8);Remove large rock top;1;287
+;(1, 6);;(10, 8);False;1;288
+;(1, 6);;(10, 8);Remove large rock top;1;289
+;(1, 6);;(10, 8);False;1;290
+;(1, 6);;(10, 8);Remove large rock top;1;291
+;(1, 6);;(10, 8);False;1;292
+;(1, 6);;(10, 8);Remove large rock top;1;293
+;(1, 6);;(10, 8);False;1;294
+;(1, 6);;(10, 8);Remove large rock top;1;295
+;(1, 6);;(10, 8);False;1;296
+;(1, 6);;(10, 8);Remove large rock top;1;297
+;(1, 6);;(10, 8);False;1;298
+;(1, 6);;(10, 8);Remove large rock top;1;299
+;(1, 6);;(10, 8);False;1;300
+;(1, 6);;(10, 8);Remove large rock top;1;301
+;(1, 6);;(10, 8);False;1;302
+;(1, 6);;(10, 8);Remove large rock top;1;303
+;(1, 6);;(10, 8);False;1;304
+;(1, 6);;(10, 8);Remove large rock top;1;305
+;(1, 6);;(10, 8);False;1;306
+;(1, 6);;(10, 8);Remove large rock top;1;307
+;(1, 6);;(10, 8);False;1;308
+;(1, 6);;(10, 8);Remove large rock top;1;309
+;(1, 6);;(10, 8);False;1;310
+;(1, 6);;(10, 8);Remove big rock;1;311
+;(1, 6);;(10, 8);False;1;312
+;(1, 6);;(10, 8);Remove big rock;1;313
+;(1, 6);;(10, 8);False;1;314
+;(1, 6);;(10, 8);Remove big rock;1;315
+;(1, 6);;(10, 8);False;1;316
+;(1, 6);;(10, 8);Remove big rock;1;317
+;(1, 6);;(10, 8);False;1;318
+;(1, 6);;(10, 8);Remove big rock;1;319
+;(1, 6);;(10, 8);False;1;320
+;(1, 6);;(10, 8);Remove big rock;1;321
+;(1, 6);;(10, 8);False;1;322
+;(1, 6);;(10, 8);Remove big rock;1;323
+;(1, 6);;(10, 8);False;1;324
+;(1, 6);;(10, 8);Remove big rock;1;325
+;(1, 6);;(10, 8);False;1;326
+;(1, 6);;(10, 8);Remove big rock;1;327
+;(1, 6);;(10, 8);False;1;328
+;(1, 6);;(10, 8);Remove large rock top;1;329
+;(1, 6);;(10, 8);False;1;330
+;(1, 6);;(10, 8);Remove big rock;1;331
+;(1, 6);;(10, 8);False;1;332
+;(1, 6);;(10, 8);Remove big rock;1;333
+;(1, 6);;(10, 8);False;1;334
+;(1, 6);;(10, 8);Remove big rock;1;335
+;(1, 6);;(10, 8);False;1;336
+;(1, 6);;(10, 8);Remove big rock;1;337
+;(1, 6);;(10, 8);False;1;338
+;(1, 6);;(10, 8);Remove big rock;1;339
+;(1, 6);;(10, 8);False;1;340
+;(1, 6);;(10, 8);Remove big rock;1;341
+;(1, 6);;(10, 8);False;1;342
+;(1, 6);;(10, 8);Remove big rock;1;343
+;(1, 6);;(10, 8);False;1;344
+;(1, 6);;(10, 8);Remove big rock;1;345
+;(1, 6);;(10, 8);False;1;346
+;(1, 6);;(10, 8);Remove big rock;1;347
+;(1, 6);;(10, 8);False;1;348
+;(1, 6);;(10, 8);Remove big rock;1;349
+;(1, 6);;(10, 8);False;1;350
+;(1, 6);;(10, 8);Remove big rock;1;351
+;(1, 6);;(10, 8);False;1;352
+;(1, 6);;(10, 8);Remove big rock;1;353
+;(1, 6);;(10, 8);False;1;354
+MoveEast;(2, 6);;(10, 8);Remove big rock;1;355
+MoveEast;(3, 6);;(10, 8);False;1;356
+;(3, 6);;(10, 8);Remove large rock top;1;357
+;(3, 6);;(10, 8);False;1;358
+MoveEast;(4, 6);;(10, 8);Remove large rock top;1;359
+MoveEast;(5, 6);;(10, 8);False;1;360
+;(5, 6);;(10, 8);Remove large rock top;1;361
+MoveEast;(6, 6);;(10, 8);False;1;362
+;(6, 6);;(10, 8);Remove large rock top;1;363
+MoveEast;(7, 6);;(10, 8);False;1;364
+;(7, 6);;(10, 8);Remove large rock top;1;365
+;(7, 6);;(10, 8);False;1;366
+MoveEast;(8, 6);;(10, 8);Remove large rock top;1;367
+;(8, 6);;(10, 8);False;1;368
+;(8, 6);;(10, 8);Remove large rock top;1;369
+MoveEast;(9, 6);;(10, 8);False;1;370
+;(9, 6);;(10, 8);Remove large rock top;1;371
+MoveEast;(10, 6);;(10, 8);False;1;372
+;(10, 6);;(10, 8);Remove large rock top;1;373
+;(10, 6);;(10, 8);False;1;374
+;(10, 6);;(10, 8);Remove large rock top;1;375
+MoveEast;(11, 6);;(10, 8);False;1;376
+;(11, 6);;(10, 8);Remove big rock;1;377
+;(11, 6);;(10, 8);False;1;378
+;(11, 6);;(10, 8);Remove large rock top;1;379
+;(11, 6);;(10, 8);False;1;380
+;(11, 6);;(10, 8);Remove big rock;1;381
+;(11, 6);;(10, 8);False;1;382
+;(11, 6);;(10, 8);Remove big rock;1;383
+;(11, 6);;(10, 8);False;1;384
+;(11, 6);;(10, 8);Remove big rock;1;385
+;(11, 6);;(10, 8);False;1;386
+;(11, 6);;(10, 8);Remove big rock;1;387
+;(11, 6);;(10, 8);False;1;388
+MoveSouth;(11, 7);;(10, 8);Remove big rock;1;389
+;(11, 7);;(10, 8);False;1;390
+;(11, 7);;(10, 8);Remove large rock top;1;391
+;(11, 7);;(10, 8);False;1;392
+;(11, 7);;(10, 8);Remove large rock top;1;393
+;(11, 7);;(10, 8);False;1;394
+;(11, 7);;(10, 8);Remove big rock;1;395
+;(11, 7);;(10, 8);False;1;396
+MoveSouth;(11, 8);;(10, 8);Remove big rock;1;397
+;(11, 8);;(10, 8);False;1;398
+;(11, 8);;(10, 8);Remove large rock top;1;399
+;(11, 8);;(10, 8);False;1;400
+;(11, 8);;(10, 8);Remove large rock top;1;401
+;(11, 8);;(10, 8);False;1;402
+;(11, 8);;(10, 8);Remove big rock;1;403
+;(11, 8);;(10, 8);False;1;404
+MoveEast;(12, 8);;(10, 8);Remove big rock;1;405
+;(12, 8);;(10, 8);False;1;406
+;(12, 8);;(10, 8);Remove large rock top;1;407
+;(12, 8);;(10, 8);False;1;408
+;(12, 8);;(10, 8);Remove large rock top;1;409
+;(12, 8);;(10, 8);False;1;410
+;(12, 8);;(10, 8);Remove big rock;1;411
+;(12, 8);;(10, 8);False;1;412
+;(12, 8);;(10, 8);Remove big rock;1;413
+;(12, 8);;(10, 8);False;1;414
+;(12, 8);;(10, 8);Remove big rock;1;415
+;(12, 8);;(10, 8);False;1;416
+;(12, 8);;(10, 8);Remove big rock;1;417
+;(12, 8);;(10, 8);False;1;418
+;(12, 8);;(10, 8);Remove big rock;1;419
+;(12, 8);;(10, 8);False;1;420
+;(12, 8);;(10, 8);Remove big rock;1;421
+;(12, 8);;(10, 8);False;1;422
+;(12, 8);;(10, 8);Remove big rock;1;423
+;(12, 8);;(10, 8);False;1;424
+;(12, 8);;(10, 8);Remove big rock;1;425
+GrabObject;(12, 8);;(10, 8);False;1;426
+;(12, 8);;(10, 8);Remove big rock;1;427
+;(12, 8);;(10, 8);False;1;428
+;(12, 8);;(10, 8);Remove big rock;1;429
+;(12, 8);;(10, 8);False;1;430
+;(12, 8);;(10, 8);Remove big rock;1;431
+MoveEast;(13, 8);;(10, 8);False;1;432
+;(13, 8);;(10, 8);Remove big rock;1;433
+;(13, 8);;(10, 8);False;1;434
+MoveEast;(14, 8);;(10, 8);Remove large rock top;1;435
+;(14, 8);;(10, 8);False;1;436
+;(14, 8);;(10, 8);Remove large rock top;1;437
+MoveEast;(15, 8);;(10, 8);False;1;438
+;(15, 8);;(10, 8);Remove large rock top;1;439
+;(15, 8);;(10, 8);False;1;440
+;(15, 8);;(10, 8);Brown rock and small rocks;1;441
+MoveEast;(16, 8);;(10, 8);Brown rock and small rocks;1;442
+;(16, 8);MoveWest;(10, 8);Brown rock and small rocks;1;443
+MoveEast;(17, 8);MoveWest;(10, 8);Brown rock and small rocks;1;444
+;(17, 8);MoveWest;(10, 8);Brown rock and small rocks;1;445
+;(17, 8);MoveWest;(10, 8);Brown rock and small rocks;1;446
+MoveEast;(18, 8);MoveWest;(10, 8);Brown rock and small rocks;1;447
+;(18, 8);MoveWest;(10, 8);Brown rock and small rocks;1;448
+;(18, 8);MoveWest;(10, 8);Brown rock and small rocks;1;449
+;(18, 8);MoveWest;(10, 8);Brown rock and small rocks;1;450
+;(18, 8);MoveWest;(10, 8);Brown rock and small rocks;1;451
+;(18, 8);MoveWest;(10, 8);Brown rock and small rocks;1;452
+;(18, 8);MoveWest;(9, 8);Brown rock and small rocks;1;453
+;(18, 8);MoveWest;(9, 8);Brown rock and small rocks;1;454
+;(18, 8);MoveWest;(9, 8);Brown rock and small rocks;1;455
+;(18, 8);MoveWest;(9, 8);Brown rock and small rocks;1;456
+;(18, 8);MoveWest;(9, 8);Brown rock and small rocks;1;457
+DropObject;(18, 8);MoveWest;(9, 8);Brown rock and small rocks;1;458
+;(18, 8);MoveWest;(9, 8);Brown rock and small rocks;1;459
+;(18, 8);MoveWest;(9, 8);Brown rock and small rocks;1;460
+;(18, 8);MoveWest;(9, 8);Brown rock and small rocks;1;461
+;(18, 8);MoveWest;(9, 8);Brown rock and small rocks;1;462
+MoveWest;(17, 8);MoveWest;(9, 8);Brown rock and small rocks;1;463
+;(17, 8);MoveWest;(8, 8);Brown rock and small rocks;1;464
+;(17, 8);MoveWest;(8, 8);Brown rock and small rocks;1;465
+;(17, 8);MoveWest;(8, 8);Brown rock and small rocks;1;466
+MoveWest;(16, 8);MoveWest;(8, 8);Brown rock and small rocks;1;467
+;(16, 8);MoveWest;(8, 8);Brown rock and small rocks;1;468
+;(16, 8);MoveWest;(8, 8);Brown rock and small rocks;1;469
+;(16, 8);MoveWest;(8, 8);Brown rock and small rocks;1;470
+MoveWest;(15, 8);MoveWest;(8, 8);Brown rock and small rocks;1;471
+;(15, 8);MoveWest;(8, 8);Brown rock and small rocks;1;472
+;(15, 8);MoveWest;(8, 8);Brown rock and small rocks;1;473
+MoveWest;(14, 8);MoveWest;(8, 8);Brown rock and small rocks;1;474
+;(14, 8);MoveWest;(7, 8);Brown rock and small rocks;1;475
+;(14, 8);MoveWest;(7, 8);Brown rock and small rocks;1;476
+MoveWest;(13, 8);MoveWest;(7, 8);Brown rock and small rocks;1;477
+;(13, 8);MoveWest;(7, 8);Brown rock and small rocks;1;478
+;(13, 8);MoveWest;(7, 8);Brown rock and small rocks;1;479
+;(13, 8);MoveWest;(7, 8);Brown rock and small rocks;1;480
+MoveWest;(12, 8);MoveWest;(7, 8);Brown rock and small rocks;1;481
+;(12, 8);MoveWest;(7, 8);Brown rock and small rocks;1;482
+;(12, 8);MoveWest;(7, 8);Brown rock and small rocks;1;483
+;(12, 8);MoveWest;(7, 8);Brown rock and small rocks;1;484
+;(12, 8);MoveWest;(7, 8);Brown rock and small rocks;1;485
+;(12, 8);MoveWest;(6, 8);Brown rock and small rocks;1;486
+;(12, 8);MoveWest;(6, 8);Brown rock and small rocks;1;487
+;(12, 8);MoveWest;(6, 8);Brown rock and small rocks;1;488
+MoveSouth;(12, 9);MoveWest;(6, 8);Brown rock and small rocks;1;489
+;(12, 9);MoveWest;(6, 8);Brown rock and small rocks;1;490
+;(12, 9);MoveWest;(6, 8);Brown rock and small rocks;1;491
+;(12, 9);MoveWest;(6, 8);Brown rock and small rocks;1;492
+;(12, 9);MoveWest;(6, 8);Brown rock and small rocks;1;493
+;(12, 9);MoveWest;(6, 8);Brown rock and small rocks;1;494
+;(12, 9);MoveWest;(6, 8);Brown rock and small rocks;1;495
+;(12, 9);MoveWest;(6, 8);Brown rock and small rocks;1;496
+;(12, 9);MoveWest;(5, 8);Brown rock and small rocks;1;497
+;(12, 9);MoveNorthWest;(5, 8);Brown rock and small rocks;1;498
+;(12, 9);MoveNorthWest;(5, 8);Brown rock and small rocks;1;499
+;(12, 9);MoveNorthWest;(5, 8);Brown rock and small rocks;1;500
+;(12, 9);MoveNorthWest;(5, 8);Brown rock and small rocks;1;501
+;(12, 9);MoveNorthWest;(5, 8);Brown rock and small rocks;1;502
+;(12, 9);MoveNorthWest;(5, 8);Brown rock and small rocks;1;503
+;(12, 9);MoveNorthWest;(5, 8);Brown rock and small rocks;1;504
+;(12, 9);MoveNorthWest;(5, 8);Brown rock and small rocks;1;505
+;(12, 9);MoveNorthWest;(5, 8);Brown rock and small rocks;1;506
+;(12, 9);MoveNorthWest;(5, 8);Brown rock and small rocks;1;507
+;(12, 9);MoveNorthWest;(4, 7);Brown rock and small rocks;1;508
+;(12, 9);MoveWest;(4, 7);Brown rock and small rocks;1;509
+;(12, 9);MoveWest;(4, 7);Brown rock and small rocks;1;510
+;(12, 9);MoveWest;(4, 7);Brown rock and small rocks;1;511
+;(12, 9);MoveWest;(4, 7);Brown rock and small rocks;1;512
+;(12, 9);MoveWest;(4, 7);Brown rock and small rocks;1;513
+;(12, 9);MoveWest;(4, 7);Brown rock and small rocks;1;514
+;(12, 9);MoveWest;(4, 7);Brown rock and small rocks;1;515
+;(12, 9);MoveWest;(4, 7);Brown rock and small rocks;1;516
+;(12, 9);MoveWest;(4, 7);Brown rock and small rocks;1;517
+GrabObject;(12, 9);MoveWest;(4, 7);Brown rock and small rocks;1;518
+;(12, 9);MoveWest;(3, 7);Brown rock and small rocks;1;519
+;(12, 9);MoveNorthWest;(3, 7);Brown rock and small rocks;1;520
+;(12, 9);MoveNorthWest;(3, 7);Brown rock and small rocks;1;521
+;(12, 9);MoveNorthWest;(3, 7);Brown rock and small rocks;1;522
+;(12, 9);MoveNorthWest;(3, 7);Brown rock and small rocks;1;523
+MoveEast;(13, 9);MoveNorthWest;(3, 7);Brown rock and small rocks;1;524
+;(13, 9);MoveNorthWest;(3, 7);Brown rock and small rocks;1;525
+;(13, 9);MoveNorthWest;(3, 7);Brown rock and small rocks;1;526
+MoveEast;(14, 9);MoveNorthWest;(3, 7);Brown rock and small rocks;1;527
+;(14, 9);MoveNorthWest;(3, 7);Brown rock and small rocks;1;528
+;(14, 9);MoveNorthWest;(3, 7);Brown rock and small rocks;1;529
+MoveEast;(15, 9);MoveNorthWest;(2, 6);Brown rock and small rocks;1;530
+;(15, 9);MoveWest;(2, 6);Brown rock and small rocks;1;531
+;(15, 9);MoveWest;(2, 6);Brown rock and small rocks;1;532
+;(15, 9);MoveWest;(2, 6);Brown rock and small rocks;1;533
+MoveEast;(16, 9);MoveWest;(2, 6);Brown rock and small rocks;1;534
+;(16, 9);MoveWest;(2, 6);Brown rock and small rocks;1;535
+;(16, 9);MoveWest;(2, 6);Brown rock and small rocks;1;536
+MoveEast;(17, 9);MoveWest;(2, 6);Brown rock and small rocks;1;537
+;(17, 9);MoveWest;(2, 6);Brown rock and small rocks;1;538
+;(17, 9);MoveWest;(2, 6);Brown rock and small rocks;1;539
+MoveEast;(18, 9);MoveWest;(2, 6);Brown rock and small rocks;1;540
+;(18, 9);MoveWest;(1, 6);Brown rock and small rocks;1;541
+;(18, 9);DropLargeObject;(1, 6);Brown rock and small rocks;1;542
+;(18, 9);DropLargeObject;(1, 6);Brown rock and small rocks;1;543
+;(18, 9);DropLargeObject;(1, 6);Brown rock and small rocks;1;544
+;(18, 9);DropLargeObject;(1, 6);Brown rock and small rocks;1;545
+;(18, 9);DropLargeObject;(1, 6);Brown rock and small rocks;1;546
+;(18, 9);DropLargeObject;(1, 6);Brown rock and small rocks;1;547
+;(18, 9);DropLargeObject;(1, 6);Brown rock and small rocks;1;548
+DropObject;(18, 9);DropLargeObject;(1, 6);Brown rock and small rocks;1;549
+;(18, 9);DropLargeObject;(1, 6);Brown rock and small rocks;1;550
+;(18, 9);DropLargeObject;(1, 6);Brown rock and small rocks;1;551
+;(18, 9);DropLargeObject;(1, 6);Brown rock and small rocks;1;552
+MoveWest;(17, 9);;(1, 6);Brown rock and small rocks;1;553
+;(17, 9);;(1, 6);Brown rock and small rocks;1;554
+;(17, 9);;(1, 6);Brown rock and small rocks;1;555
+;(17, 9);;(1, 6);Brown rock and small rocks;1;556
+MoveWest;(16, 9);;(1, 6);Brown rock and small rocks;1;557
+;(16, 9);;(1, 6);Brown rock and small rocks;1;558
+;(16, 9);;(1, 6);Brown rock and small rocks;1;559
+;(16, 9);;(1, 6);Brown rock and small rocks;1;560
+MoveWest;(15, 9);;(1, 6);Brown rock and small rocks;1;561
+;(15, 9);;(1, 6);Brown rock and small rocks;1;562
+;(15, 9);;(1, 6);Brown rock and small rocks;1;563
+MoveWest;(14, 9);;(1, 6);Brown rock and small rocks;1;564
+;(14, 9);;(1, 6);Brown rock and small rocks;1;565
+;(14, 9);;(1, 6);Brown rock and small rocks;1;566
+MoveWest;(13, 9);;(1, 6);Brown rock and small rocks;1;567
+;(13, 9);;(1, 6);Brown rock and small rocks;1;568
+;(13, 9);;(1, 6);Brown rock and small rocks;1;569
+;(13, 9);;(1, 6);Brown rock and small rocks;1;570
+MoveWest;(12, 9);;(1, 6);Brown rock and small rocks;1;571
+;(12, 9);;(1, 6);Brown rock and small rocks;1;572
+;(12, 9);;(1, 6);Brown rock and small rocks;1;573
+MoveWest;(11, 9);;(1, 6);Brown rock and small rocks;1;574
+;(11, 9);;(1, 6);Brown rock and small rocks;1;575
+;(11, 9);;(1, 6);Brown rock and small rocks;1;576
+;(11, 9);;(1, 6);Brown rock and small rocks;1;577
+;(11, 9);;(1, 6);Brown rock and small rocks;1;578
+;(11, 9);;(1, 6);Brown rock and small rocks;1;579
+;(11, 9);;(1, 6);Brown rock and small rocks;1;580
+;(11, 9);;(1, 6);Brown rock and small rocks;1;581
+;(11, 9);;(1, 6);Brown rock and small rocks;1;582
+;(11, 9);;(1, 6);Brown rock and small rocks;1;583
+;(11, 9);;(1, 6);Brown rock and small rocks;1;584
+;(11, 9);;(1, 6);Brown rock and small rocks;1;585
+;(11, 9);;(1, 6);Brown rock and small rocks;1;586
+;(11, 9);;(1, 6);Brown rock and small rocks;1;587
+;(11, 9);;(1, 6);Brown rock and small rocks;1;588
+;(11, 9);;(1, 6);Brown rock and small rocks;1;589
+;(11, 9);;(1, 6);Brown rock and small rocks;1;590
+;(11, 9);;(1, 6);Brown rock and small rocks;1;591
+;(11, 9);;(1, 6);Brown rock and small rocks;1;592
+;(11, 9);;(1, 6);Brown rock and small rocks;1;593
+;(11, 9);;(1, 6);Brown rock and small rocks;1;594
+;(11, 9);;(1, 6);Brown rock and small rocks;1;595
+;(11, 9);;(1, 6);Brown rock and small rocks;1;596
+GrabObject;(11, 9);;(1, 6);Brown rock and small rocks;1;597
+;(11, 9);;(1, 6);Brown rock and small rocks;1;598
+;(11, 9);;(1, 6);Brown rock and small rocks;1;599
+MoveEast;(12, 9);;(1, 6);Brown rock and small rocks;1;600
+;(12, 9);;(1, 6);Brown rock and small rocks;1;601
+;(12, 9);;(1, 6);Brown rock and small rocks;1;602
+;(12, 9);;(1, 6);Brown rock and small rocks;1;603
+MoveEast;(13, 9);;(1, 6);Brown rock and small rocks;1;604
+;(13, 9);;(1, 6);Brown rock and small rocks;1;605
+;(13, 9);;(1, 6);Brown rock and small rocks;1;606
+MoveEast;(14, 9);;(1, 6);Brown rock and small rocks;1;607
+;(14, 9);;(1, 6);Brown rock and small rocks;1;608
+;(14, 9);;(1, 6);Brown rock and small rocks;1;609
+MoveEast;(15, 9);;(1, 6);Brown rock and small rocks;1;610
+;(15, 9);;(1, 6);Brown rock and small rocks;1;611
+;(15, 9);;(1, 6);Brown rock and small rocks;1;612
+;(15, 9);;(1, 6);Brown rock and small rocks;1;613
+MoveEast;(16, 9);;(1, 6);Brown rock and small rocks;1;614
+;(16, 9);;(1, 6);Brown rock and small rocks;1;615
+;(16, 9);;(1, 6);Brown rock and small rocks;1;616
+MoveEast;(17, 9);;(1, 6);Brown rock and small rocks;1;617
+;(17, 9);;(1, 6);Brown rock and small rocks;1;618
+;(17, 9);;(1, 6);Brown rock and small rocks;1;619
+MoveEast;(18, 9);;(1, 6);Brown rock and small rocks;1;620
+;(18, 9);;(1, 6);Brown rock and small rocks;1;621
+;(18, 9);;(1, 6);Brown rock and small rocks;1;622
+;(18, 9);;(1, 6);Brown rock and small rocks;1;623
+;(18, 9);;(1, 6);Brown rock and small rocks;1;624
+;(18, 9);;(1, 6);Brown rock and small rocks;1;625
+;(18, 9);;(1, 6);Brown rock and small rocks;1;626
+;(18, 9);;(1, 6);Brown rock and small rocks;1;627
+;(18, 9);;(1, 6);Brown rock and small rocks;1;628
+DropObject;(18, 9);;(1, 6);Brown rock and small rocks;1;629
+;(18, 9);;(1, 6);Brown rock and small rocks;1;630
+;(18, 9);;(1, 6);Brown rock and small rocks;1;631
+;(18, 9);;(1, 6);Brown rock and small rocks;1;632
+MoveWest;(17, 9);;(1, 6);Brown rock and small rocks;1;633
+;(17, 9);;(1, 6);Brown rock and small rocks;1;634
+;(17, 9);;(1, 6);Brown rock and small rocks;1;635
+MoveWest;(16, 9);;(1, 6);Brown rock and small rocks;1;636
+;(16, 9);;(1, 6);Brown rock and small rocks;1;637
+;(16, 9);;(1, 6);Brown rock and small rocks;1;638
+;(16, 9);;(1, 6);Brown rock and small rocks;1;639
+MoveWest;(15, 9);;(1, 6);Brown rock and small rocks;1;640
+;(15, 9);;(1, 6);Brown rock and small rocks;1;641
+;(15, 9);;(1, 6);Brown rock and small rocks;1;642
+MoveWest;(14, 9);;(1, 6);Brown rock and small rocks;1;643
+;(14, 9);;(1, 6);Brown rock and small rocks;1;644
+;(14, 9);;(1, 6);Brown rock and small rocks;1;645
+;(14, 9);;(1, 6);Brown rock and small rocks;1;646
+MoveWest;(13, 9);;(1, 6);Brown rock and small rocks;1;647
+;(13, 9);;(1, 6);Brown rock and small rocks;1;648
+;(13, 9);;(1, 6);Brown rock and small rocks;1;649
+;(13, 9);;(1, 6);Brown rock and small rocks;1;650
+MoveWest;(12, 9);;(1, 6);Brown rock and small rocks;1;651
+;(12, 9);;(1, 6);Brown rock and small rocks;1;652
+;(12, 9);;(1, 6);Brown rock and small rocks;1;653
+;(12, 9);;(1, 6);Brown rock and small rocks;1;654
+;(12, 9);;(1, 6);Brown rock and small rocks;1;655
+;(12, 9);;(1, 6);Brown rock and small rocks;1;656
+;(12, 9);;(1, 6);Brown rock and small rocks;1;657
+;(12, 9);;(1, 6);Brown rock and small rocks;1;658
+MoveSouth;(12, 10);;(1, 6);Brown rock and small rocks;1;659
+;(12, 10);;(1, 6);Brown rock and small rocks;1;660
+;(12, 10);;(1, 6);Brown rock and small rocks;1;661
+;(12, 10);;(1, 6);Brown rock and small rocks;1;662
+;(12, 10);;(1, 6);Brown rock and small rocks;1;663
+;(12, 10);;(1, 6);Brown rock and small rocks;1;664
+;(12, 10);;(1, 6);Brown rock and small rocks;1;665
+;(12, 10);;(1, 6);Brown rock and small rocks;1;666
+;(12, 10);;(1, 6);Brown rock and small rocks;1;667
+;(12, 10);;(1, 6);Brown rock and small rocks;1;668
+;(12, 10);;(1, 6);Brown rock and small rocks;1;669
+;(12, 10);;(1, 6);Brown rock and small rocks;1;670
+;(12, 10);;(1, 6);Brown rock and small rocks;1;671
+;(12, 10);;(1, 6);Brown rock and small rocks;1;672
+;(12, 10);;(1, 6);Brown rock and small rocks;1;673
+;(12, 10);;(1, 6);Brown rock and small rocks;1;674
+GrabObject;(12, 10);;(1, 6);Brown rock and small rocks;1;675
+;(12, 10);;(1, 6);Brown rock and small rocks;1;676
+;(12, 10);;(1, 6);Brown rock and small rocks;1;677
+;(12, 10);;(1, 6);Brown rock and small rocks;1;678
+;(12, 10);;(1, 6);Brown rock and small rocks;1;679
+MoveEast;(13, 10);;(1, 6);Brown rock and small rocks;1;680
+;(13, 10);;(1, 6);Brown rock and small rocks;1;681
+;(13, 10);;(1, 6);Brown rock and small rocks;1;682
+;(13, 10);;(1, 6);Brown rock and small rocks;1;683
+MoveEast;(14, 10);;(1, 6);Brown rock and small rocks;1;684
+;(14, 10);;(1, 6);Brown rock and small rocks;1;685
+;(14, 10);;(1, 6);Brown rock and small rocks;1;686
+MoveEast;(15, 10);;(1, 6);Brown rock and small rocks;1;687
+;(15, 10);;(1, 6);Brown rock and small rocks;1;688
+;(15, 10);;(1, 6);Brown rock and small rocks;1;689
+MoveEast;(16, 10);;(1, 6);Brown rock and small rocks;1;690
+;(16, 10);;(1, 6);Brown rock and small rocks;1;691
+;(16, 10);;(1, 6);Brown rock and small rocks;1;692
+;(16, 10);;(1, 6);Brown rock and small rocks;1;693
+MoveEast;(17, 10);;(1, 6);Brown rock and small rocks;1;694
+;(17, 10);;(1, 6);Brown rock and small rocks;1;695
+;(17, 10);;(1, 6);Brown rock and small rocks;1;696
+MoveEast;(18, 10);;(1, 6);Brown rock and small rocks;1;697
+;(18, 10);;(1, 6);Brown rock and small rocks;1;698
+;(18, 10);;(1, 6);Brown rock and small rocks;1;699
+;(18, 10);;(1, 6);Brown rock and small rocks;1;700
+;(18, 10);;(1, 6);Brown rock and small rocks;1;701
+;(18, 10);;(1, 6);Brown rock and small rocks;1;702
+;(18, 10);;(1, 6);Brown rock and small rocks;1;703
+;(18, 10);;(1, 6);Brown rock and small rocks;1;704
+DropObject;(18, 10);;(1, 6);Brown rock and small rocks;1;705
+;(18, 10);;(1, 6);Brown rock and small rocks;1;706
+;(18, 10);;(1, 6);Brown rock and small rocks;1;707
+;(18, 10);;(1, 6);Brown rock and small rocks;1;708
+;(18, 10);;(1, 6);Brown rock and small rocks;1;709
+MoveWest;(17, 10);;(1, 6);Brown rock and small rocks;1;710
+;(17, 10);;(1, 6);Brown rock and small rocks;1;711
+;(17, 10);;(1, 6);Brown rock and small rocks;1;712
+;(17, 10);;(1, 6);Brown rock and small rocks;1;713
+MoveWest;(16, 10);;(1, 6);Brown rock and small rocks;1;714
+;(16, 10);;(1, 6);Brown rock and small rocks;1;715
+;(16, 10);;(1, 6);Brown rock and small rocks;1;716
+;(16, 10);;(1, 6);Brown rock and small rocks;1;717
+MoveWest;(15, 10);;(1, 6);Brown rock and small rocks;1;718
+;(15, 10);;(1, 6);Brown rock and small rocks;1;719
+;(15, 10);;(1, 6);Brown rock and small rocks;1;720
+MoveWest;(14, 10);;(1, 6);Brown rock and small rocks;1;721
+;(14, 10);;(1, 6);Brown rock and small rocks;1;722
+;(14, 10);;(1, 6);Brown rock and small rocks;1;723
+MoveWest;(13, 10);;(1, 6);Brown rock and small rocks;1;724
+;(13, 10);;(1, 6);Brown rock and small rocks;1;725
+;(13, 10);;(1, 6);Brown rock and small rocks;1;726
+;(13, 10);;(1, 6);Brown rock and small rocks;1;727
+MoveWest;(12, 10);;(1, 6);Brown rock and small rocks;1;728
+;(12, 10);;(1, 6);Brown rock and small rocks;1;729
+;(12, 10);;(1, 6);Brown rock and small rocks;1;730
+;(12, 10);;(1, 6);Brown rock and small rocks;1;731
+MoveWest;(11, 10);;(1, 6);Brown rock and small rocks;1;732
+;(11, 10);;(1, 6);Brown rock and small rocks;1;733
+;(11, 10);;(1, 6);Brown rock and small rocks;1;734
+;(11, 10);;(1, 6);Brown rock and small rocks;1;735
+;(11, 10);;(1, 6);Brown rock and small rocks;1;736
+;(11, 10);;(1, 6);Brown rock and small rocks;1;737
+;(11, 10);;(1, 6);Brown rock and small rocks;1;738
+;(11, 10);;(1, 6);Brown rock and small rocks;1;739
+;(11, 10);;(1, 6);Brown rock and small rocks;1;740
+;(11, 10);;(1, 6);Brown rock and small rocks;1;741
+;(11, 10);;(1, 6);Brown rock and small rocks;1;742
+;(11, 10);;(1, 6);Brown rock and small rocks;1;743
+;(11, 10);;(1, 6);Brown rock and small rocks;1;744
+;(11, 10);;(1, 6);Brown rock and small rocks;1;745
+;(11, 10);;(1, 6);Brown rock and small rocks;1;746
+;(11, 10);;(1, 6);Brown rock and small rocks;1;747
+GrabObject;(11, 10);;(1, 6);Brown rock and small rocks;1;748
+;(11, 10);;(1, 6);Brown rock and small rocks;1;749
+;(11, 10);;(1, 6);Brown rock and small rocks;1;750
+;(11, 10);;(1, 6);Brown rock and small rocks;1;751
+;(11, 10);;(1, 6);Brown rock and small rocks;1;752
+;(11, 10);;(1, 6);Brown rock and small rocks;1;753
+MoveEast;(12, 10);;(1, 6);Brown rock and small rocks;1;754
+;(12, 10);;(1, 6);Brown rock and small rocks;1;755
+;(12, 10);;(1, 6);Brown rock and small rocks;1;756
+MoveEast;(13, 10);;(1, 6);Brown rock and small rocks;1;757
+;(13, 10);;(1, 6);Brown rock and small rocks;1;758
+;(13, 10);;(1, 6);Brown rock and small rocks;1;759
+MoveEast;(14, 10);;(1, 6);Brown rock and small rocks;1;760
+;(14, 10);;(1, 6);Brown rock and small rocks;1;761
+;(14, 10);;(1, 6);Brown rock and small rocks;1;762
+MoveEast;(15, 10);;(1, 6);Brown rock and small rocks;1;763
+;(15, 10);;(1, 6);Brown rock and small rocks;1;764
+;(15, 10);;(1, 6);Brown rock and small rocks;1;765
+MoveEast;(16, 10);;(1, 6);Brown rock and small rocks;1;766
+;(16, 10);;(1, 6);Brown rock and small rocks;1;767
+;(16, 10);;(1, 6);Brown rock and small rocks;1;768
+;(16, 10);;(1, 6);Brown rock and small rocks;1;769
+MoveEast;(17, 10);;(1, 6);Brown rock and small rocks;1;770
+;(17, 10);;(1, 6);Brown rock and small rocks;1;771
+;(17, 10);;(1, 6);Brown rock and small rocks;1;772
+;(17, 10);;(1, 6);Brown rock and small rocks;1;773
+;(17, 10);;(1, 6);Brown rock and small rocks;1;774
+;(17, 10);;(1, 6);Brown rock and small rocks;1;775
+;(17, 10);;(1, 6);Brown rock and small rocks;1;776
+;(17, 10);;(1, 6);Brown rock and small rocks;1;777
+;(17, 10);;(1, 6);Brown rock and small rocks;1;778
+;(17, 10);;(1, 6);Brown rock and small rocks;1;779
+;(17, 10);;(1, 6);Brown rock and small rocks;1;780
+DropObject;(17, 10);;(1, 6);Brown rock and small rocks;1;781
+;(17, 10);;(1, 6);Brown rock and small rocks;1;782
+;(17, 10);;(1, 6);Brown rock and small rocks;1;783
+;(17, 10);;(1, 6);Brown rock and small rocks;1;784
+MoveWest;(16, 10);;(1, 6);Brown rock and small rocks;1;785
+;(16, 10);;(1, 6);Brown rock and small rocks;1;786
+;(16, 10);;(1, 6);Brown rock and small rocks;1;787
+;(16, 10);;(1, 6);Brown rock and small rocks;1;788
+MoveWest;(15, 10);;(1, 6);Brown rock and small rocks;1;789
+;(15, 10);;(1, 6);Brown rock and small rocks;1;790
+;(15, 10);;(1, 6);Brown rock and small rocks;1;791
+;(15, 10);;(1, 6);Brown rock and small rocks;1;792
+MoveWest;(14, 10);;(1, 6);Brown rock and small rocks;1;793
+;(14, 10);;(1, 6);Brown rock and small rocks;1;794
+;(14, 10);;(1, 6);Brown rock and small rocks;1;795
+MoveWest;(13, 10);;(1, 6);Brown rock and small rocks;1;796
+;(13, 10);;(1, 6);Brown rock and small rocks;1;797
+;(13, 10);;(1, 6);Brown rock and small rocks;1;798
+;(13, 10);;(1, 6);Brown rock and small rocks;1;799
+MoveWest;(12, 10);;(1, 6);Brown rock and small rocks;1;800
+;(12, 10);;(1, 6);Brown rock and small rocks;1;801
+;(12, 10);;(1, 6);Brown rock and small rocks;1;802
+;(12, 10);;(1, 6);Brown rock and small rocks;1;803
+MoveWest;(11, 10);;(1, 6);Brown rock and small rocks;1;804
+;(11, 10);;(1, 6);Brown rock and small rocks;1;805
+;(11, 10);;(1, 6);Brown rock and small rocks;1;806
+;(11, 10);;(1, 6);Brown rock and small rocks;1;807
+;(11, 10);;(1, 6);Brown rock and small rocks;1;808
+;(11, 10);;(1, 6);Brown rock and small rocks;1;809
+;(11, 10);;(1, 6);Brown rock and small rocks;1;810
+;(11, 10);;(1, 6);Brown rock and small rocks;1;811
+MoveNorth;(11, 9);;(1, 6);Brown rock and small rocks;1;812
+;(11, 9);;(1, 6);Brown rock and small rocks;1;813
+;(11, 9);;(1, 6);Brown rock and small rocks;1;814
+;(11, 9);;(1, 6);Brown rock and small rocks;1;815
+MoveNorth;(11, 8);;(1, 6);Brown rock and small rocks;1;816
+;(11, 8);;(1, 6);Brown rock and small rocks;1;817
+;(11, 8);;(1, 6);Brown rock and small rocks;1;818
+MoveNorth;(11, 7);;(1, 6);Brown rock and small rocks;1;819
+;(11, 7);;(1, 6);Brown rock and small rocks;1;820
+;(11, 7);;(1, 6);Brown rock and small rocks;1;821
+;(11, 7);;(1, 6);Brown rock and small rocks;1;822
+;(11, 7);;(1, 6);Brown rock and small rocks;1;823
+;(11, 7);;(1, 6);Brown rock and small rocks;1;824
+;(11, 7);;(1, 6);Brown rock and small rocks;1;825
+;(11, 7);;(1, 6);Brown rock and small rocks;1;826
+;(11, 7);;(1, 6);Brown rock and small rocks;1;827
+;(11, 7);;(1, 6);Brown rock and small rocks;1;828
+;(11, 7);;(1, 6);Brown rock and small rocks;1;829
+;(11, 7);;(1, 6);Brown rock and small rocks;1;830
+;(11, 7);;(1, 6);Brown rock and small rocks;1;831
+MoveWest;(10, 7);;(1, 6);Brown rock and small rocks;1;832
+;(10, 7);;(1, 6);Brown rock and small rocks;1;833
+;(10, 7);;(1, 6);Brown rock and small rocks;1;834
+;(10, 7);;(1, 6);Brown rock and small rocks;1;835
+;(10, 7);;(1, 6);Brown rock and small rocks;1;836
+;(10, 7);;(1, 6);Brown rock and small rocks;1;837
+;(10, 7);;(1, 6);Brown rock and small rocks;1;838
+;(10, 7);;(1, 6);Brown rock and small rocks;1;839
+MoveNorth;(10, 6);;(1, 6);Brown rock and small rocks;1;840
+;(10, 6);;(1, 6);Brown rock and small rocks;1;841
+;(10, 6);;(1, 6);Brown rock and small rocks;1;842
+;(10, 6);;(1, 6);Brown rock and small rocks;1;843
+;(10, 6);;(1, 6);Brown rock and small rocks;1;844
+;(10, 6);;(1, 6);Brown rock and small rocks;1;845
+;(10, 6);;(1, 6);Brown rock and small rocks;1;846
+;(10, 6);;(1, 6);Brown rock and small rocks;1;847
+;(10, 6);;(1, 6);Brown rock and small rocks;1;848
+;(10, 6);;(1, 6);Brown rock and small rocks;1;849
+;(10, 6);;(1, 6);Brown rock and small rocks;1;850
+;(10, 6);;(1, 6);Brown rock and small rocks;1;851
+;(10, 6);;(1, 6);Brown rock and small rocks;1;852
+;(10, 6);;(1, 6);Brown rock and small rocks;1;853
+;(10, 6);;(1, 6);Brown rock and small rocks;1;854
+;(10, 6);;(1, 6);Brown rock and small rocks;1;855
+;(10, 6);;(1, 6);Brown rock and small rocks;1;856
+;(10, 6);;(1, 6);Brown rock and small rocks;1;857
+;(10, 6);;(1, 6);Brown rock and small rocks;1;858
+;(10, 6);;(1, 6);Brown rock and small rocks;1;859
+;(10, 6);;(1, 6);Brown rock and small rocks;1;860
+;(10, 6);;(1, 6);Brown rock and small rocks;1;861
+GrabObject;(10, 6);;(1, 6);Brown rock and small rocks;1;862
+;(10, 6);;(1, 6);Brown rock and small rocks;1;863
+;(10, 6);;(1, 6);Brown rock and small rocks;1;864
+;(10, 6);;(1, 6);Brown rock and small rocks;1;865
+;(10, 6);;(1, 6);Brown rock and small rocks;1;866
+;(10, 6);;(1, 6);Brown rock and small rocks;1;867
+;(10, 6);;(1, 6);Brown rock and small rocks;1;868
+;(10, 6);;(1, 6);Brown rock and small rocks;1;869
+MoveEast;(11, 6);;(1, 6);Brown rock and small rocks;1;870
+;(11, 6);;(1, 6);Brown rock and small rocks;1;871
+;(11, 6);;(1, 6);Brown rock and small rocks;1;872
+;(11, 6);;(1, 6);Brown rock and small rocks;1;873
+MoveEast;(12, 6);;(1, 6);Brown rock and small rocks;1;874
+;(12, 6);;(1, 6);Brown rock and small rocks;1;875
+;(12, 6);;(1, 6);Brown rock and small rocks;1;876
+;(12, 6);;(1, 6);Brown rock and small rocks;1;877
+MoveEast;(13, 6);;(1, 6);Brown rock and small rocks;1;878
+;(13, 6);;(1, 6);Brown rock and small rocks;1;879
+;(13, 6);;(1, 6);Brown rock and small rocks;1;880
+MoveEast;(14, 6);;(1, 6);Brown rock and small rocks;1;881
+;(14, 6);;(1, 6);Brown rock and small rocks;1;882
+;(14, 6);;(1, 6);Brown rock and small rocks;1;883
+MoveEast;(15, 6);;(1, 6);Brown rock and small rocks;1;884
+;(15, 6);;(1, 6);Brown rock and small rocks;1;885
+;(15, 6);;(1, 6);Brown rock and small rocks;1;886
+MoveEast;(16, 6);;(1, 6);Brown rock and small rocks;1;887
+;(16, 6);;(1, 6);Brown rock and small rocks;1;888
+;(16, 6);;(1, 6);Brown rock and small rocks;1;889
+MoveEast;(17, 6);;(1, 6);Brown rock and small rocks;1;890
+;(17, 6);;(1, 6);Brown rock and small rocks;1;891
+;(17, 6);;(1, 6);Brown rock and small rocks;1;892
+;(17, 6);;(1, 6);Brown rock and small rocks;1;893
+;(17, 6);;(1, 6);Brown rock and small rocks;1;894
+;(17, 6);;(1, 6);Brown rock and small rocks;1;895
+;(17, 6);;(1, 6);Brown rock and small rocks;1;896
+;(17, 6);;(1, 6);Brown rock and small rocks;1;897
+;(17, 6);;(1, 6);Brown rock and small rocks;1;898
+;(17, 6);;(1, 6);Brown rock and small rocks;1;899
+;(17, 6);;(1, 6);Brown rock and small rocks;1;900
+;(17, 6);;(1, 6);Brown rock and small rocks;1;901
+;(17, 6);;(1, 6);Brown rock and small rocks;1;902
+DropObject;(17, 6);;(1, 6);Brown rock and small rocks;1;903
+;(17, 6);;(1, 6);Brown rock and small rocks;1;904
+;(17, 6);;(1, 6);Brown rock and small rocks;1;905
+;(17, 6);;(1, 6);Brown rock and small rocks;1;906
+;(17, 6);;(1, 6);Brown rock and small rocks;1;907
+;(17, 6);;(1, 6);Brown rock and small rocks;1;908
+;(17, 6);;(1, 6);Brown rock and small rocks;1;909
+;(17, 6);;(1, 6);Brown rock and small rocks;1;910
+;(17, 6);;(1, 6);Brown rock and small rocks;1;911
+;(17, 6);;(1, 6);Brown rock and small rocks;1;912
+;(17, 6);;(1, 6);Brown rock and small rocks;1;913
+;(17, 6);;(1, 6);Brown rock and small rocks;1;914
+;(17, 6);;(1, 6);Brown rock and small rocks;1;915
+;(17, 6);;(1, 6);Brown rock and small rocks;1;916
+;(17, 6);;(1, 6);Brown rock and small rocks;1;917
+;(17, 6);;(1, 6);Brown rock and small rocks;1;918
+;(17, 6);;(1, 6);Brown rock and small rocks;1;919
+;(17, 6);;(1, 6);Brown rock and small rocks;1;920
+;(17, 6);;(1, 6);Brown rock and small rocks;1;921
+;(17, 6);;(1, 6);Brown rock and small rocks;1;922
+;(17, 6);;(1, 6);Brown rock and small rocks;1;923
+;(17, 6);;(1, 6);Brown rock and small rocks;1;924
+;(17, 6);;(1, 6);Brown rock and small rocks;1;925
+;(17, 6);;(1, 6);Brown rock and small rocks;1;926
+;(17, 6);;(1, 6);Brown rock and small rocks;1;927
+;(17, 6);;(1, 6);Brown rock and small rocks;1;928
+;(17, 6);;(1, 6);Brown rock and small rocks;1;929
+;(17, 6);;(1, 6);Brown rock and small rocks;1;930
+;(17, 6);;(1, 6);Brown rock and small rocks;1;931
+;(17, 6);;(1, 6);Brown rock and small rocks;1;932
+;(17, 6);;(1, 6);Brown rock and small rocks;1;933
+;(17, 6);;(1, 6);Brown rock and small rocks;1;934
+;(17, 6);;(1, 6);Brown rock and small rocks;1;935
+;(17, 6);;(1, 6);Brown rock and small rocks;1;936
+;(17, 6);;(1, 6);Brown rock and small rocks;1;937
+;(17, 6);;(1, 6);Brown rock and small rocks;1;938
+;(17, 6);;(1, 6);Brown rock and small rocks;1;939
+;(17, 6);;(1, 6);Brown rock and small rocks;1;940
+;(17, 6);;(1, 6);Brown rock and small rocks;1;941
+;(17, 6);;(1, 6);Brown rock and small rocks;1;942
+;(17, 6);;(1, 6);Brown rock and small rocks;1;943
+;(17, 6);;(1, 6);Brown rock and small rocks;1;944
+;(17, 6);;(1, 6);Brown rock and small rocks;1;945
+;(17, 6);;(1, 6);Brown rock and small rocks;1;946
+;(17, 6);;(1, 6);Brown rock and small rocks;1;947
+;(17, 6);;(1, 6);Brown rock and small rocks;1;948
+;(17, 6);;(1, 6);Brown rock and small rocks;1;949
+;(17, 6);;(1, 6);Brown rock and small rocks;1;950
+;(17, 6);;(1, 6);Brown rock and small rocks;1;951
+;(17, 6);;(1, 6);Brown rock and small rocks;1;952
+;(17, 6);;(1, 6);Brown rock and small rocks;1;953
+;(17, 6);;(1, 6);Brown rock and small rocks;1;954
+;(17, 6);;(1, 6);Brown rock and small rocks;1;955
+;(17, 6);;(1, 6);Brown rock and small rocks;1;956
+;(17, 6);;(1, 6);Brown rock and small rocks;1;957
+;(17, 6);;(1, 6);Brown rock and small rocks;1;958
+;(17, 6);;(1, 6);Brown rock and small rocks;1;959
+;(17, 6);;(1, 6);Brown rock and small rocks;1;960
+;(17, 6);;(1, 6);Brown rock and small rocks;1;961
+;(17, 6);;(1, 6);Brown rock and small rocks;1;962
+;(17, 6);;(1, 6);Brown rock and small rocks;1;963
+;(17, 6);;(1, 6);Brown rock and small rocks;1;964
+;(17, 6);;(1, 6);Brown rock and small rocks;1;965
+;(17, 6);;(1, 6);Brown rock and small rocks;1;966
+;(17, 6);;(1, 6);Brown rock and small rocks;1;967
+;(17, 6);;(1, 6);Brown rock and small rocks;1;968
+;(17, 6);;(1, 6);Brown rock and small rocks;1;969
+;(17, 6);;(1, 6);Brown rock and small rocks;1;970
+;(17, 6);;(1, 6);Brown rock and small rocks;1;971
+;(17, 6);;(1, 6);Brown rock and small rocks;1;972
+;(17, 6);;(1, 6);Brown rock and small rocks;1;973
+;(17, 6);;(1, 6);Brown rock and small rocks;1;974
+;(17, 6);;(1, 6);Brown rock and small rocks;1;975
+;(17, 6);;(1, 6);Brown rock and small rocks;1;976
+;(17, 6);;(1, 6);Brown rock and small rocks;1;977
+;(17, 6);;(1, 6);Brown rock and small rocks;1;978
+;(17, 6);;(1, 6);Brown rock and small rocks;1;979
+;(17, 6);;(1, 6);Brown rock and small rocks;1;980
+;(17, 6);;(1, 6);Brown rock and small rocks;1;981
+;(17, 6);;(1, 6);Brown rock and small rocks;1;982
+;(17, 6);;(1, 6);Brown rock and small rocks;1;983
+;(17, 6);;(1, 6);Brown rock and small rocks;1;984
+;(17, 6);;(1, 6);Brown rock and small rocks;1;985
+;(17, 6);;(1, 6);Brown rock and small rocks;1;986
+;(17, 6);;(1, 6);Brown rock and small rocks;1;987
+;(17, 6);;(1, 6);Brown rock and small rocks;1;988
+;(17, 6);;(1, 6);Brown rock and small rocks;1;989
+;(17, 6);;(1, 6);Brown rock and small rocks;1;990
+;(17, 6);;(1, 6);Brown rock and small rocks;1;991
+;(17, 6);;(1, 6);Brown rock and small rocks;1;992
+;(17, 6);;(1, 6);Brown rock and small rocks;1;993
+;(17, 6);;(1, 6);Brown rock and small rocks;1;994
+;(17, 6);;(1, 6);Brown rock and small rocks;1;995
+;(17, 6);;(1, 6);Brown rock and small rocks;1;996
+;(17, 6);;(1, 6);Brown rock and small rocks;1;997
+;(17, 6);;(1, 6);Brown rock and small rocks;1;998
+;(17, 6);;(1, 6);Brown rock and small rocks;1;999
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1000
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1001
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1002
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1003
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1004
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1005
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1006
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1007
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1008
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1009
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1010
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1011
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1012
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1013
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1014
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1015
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1016
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1017
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1018
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1019
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1020
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1021
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1022
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1023
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1024
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1025
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1026
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1027
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1028
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1029
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1030
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1031
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1032
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1033
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1034
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1035
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1036
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1037
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1038
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1039
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1040
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1041
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1042
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1043
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1044
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1045
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1046
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1047
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1048
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1049
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1050
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1051
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1052
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1053
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1054
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1055
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1056
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1057
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1058
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1059
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1060
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1061
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1062
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1063
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1064
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1065
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1066
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1067
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1068
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1069
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1070
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1071
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1072
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1073
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1074
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1075
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1076
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1077
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1078
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1079
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1080
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1081
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1082
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1083
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1084
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1085
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1086
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1087
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1088
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1089
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1090
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1091
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1092
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1093
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1094
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1095
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1096
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1097
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1098
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1099
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1100
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1101
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1102
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1103
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1104
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1105
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1106
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1107
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1108
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1109
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1110
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1111
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1112
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1113
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1114
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1115
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1116
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1117
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1118
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1119
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1120
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1121
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1122
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1123
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1124
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1125
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1126
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1127
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1128
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1129
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1130
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1131
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1132
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1133
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1134
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1135
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1136
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1137
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1138
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1139
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1140
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1141
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1142
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1143
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1144
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1145
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1146
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1147
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1148
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1149
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1150
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1151
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1152
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1153
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1154
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1155
+;(17, 6);;(1, 6);Brown rock and small rocks;1;1156
+MoveWest;(16, 6);;(1, 6);Brown rock and small rocks;1;1157
+;(16, 6);;(1, 6);Brown rock and small rocks;1;1158
+;(16, 6);;(1, 6);Brown rock and small rocks;1;1159
+MoveWest;(15, 6);;(1, 6);Brown rock and small rocks;1;1160
+;(15, 6);;(1, 6);Brown rock and small rocks;1;1161
+;(15, 6);;(1, 6);Brown rock and small rocks;1;1162
+;(15, 6);;(1, 6);Brown rock and small rocks;1;1163
+;(15, 6);;(1, 6);Brown rock and small rocks;1;1164
+;(15, 6);;(1, 6);Brown rock and small rocks;1;1165
+MoveWest;(14, 6);;(1, 6);Brown rock and small rocks;1;1166
+;(14, 6);;(1, 6);Brown rock and small rocks;1;1167
+;(14, 6);;(1, 6);Brown rock and small rocks;1;1168
+MoveWest;(13, 6);;(1, 6);Brown rock and small rocks;1;1169
+;(13, 6);;(1, 6);Brown rock and small rocks;1;1170
+;(13, 6);;(1, 6);Brown rock and small rocks;1;1171
+;(13, 6);;(1, 6);Brown rock and small rocks;1;1172
+MoveWest;(12, 6);;(1, 6);Brown rock and small rocks;1;1173
+;(12, 6);;(1, 6);Brown rock and small rocks;1;1174
+;(12, 6);;(1, 6);Brown rock and small rocks;1;1175
+MoveWest;(11, 6);;(1, 6);Brown rock and small rocks;1;1176
+;(11, 6);;(1, 6);Brown rock and small rocks;1;1177
+;(11, 6);;(1, 6);Brown rock and small rocks;1;1178
+;(11, 6);;(1, 6);Brown rock and small rocks;1;1179
+MoveWest;(10, 6);;(1, 6);Brown rock and small rocks;1;1180
+;(10, 6);;(1, 6);Brown rock and small rocks;1;1181
+;(10, 6);;(1, 6);Brown rock and small rocks;1;1182
+MoveWest;(9, 6);;(1, 6);Brown rock and small rocks;1;1183
+;(9, 6);;(1, 6);Brown rock and small rocks;1;1184
+;(9, 6);;(1, 6);Brown rock and small rocks;1;1185
+;(9, 6);;(1, 6);Brown rock and small rocks;1;1186
+MoveWest;(8, 6);;(1, 6);Brown rock and small rocks;1;1187
+;(8, 6);;(1, 6);Brown rock and small rocks;1;1188
+;(8, 6);;(1, 6);Brown rock and small rocks;1;1189
+;(8, 6);;(1, 6);Brown rock and small rocks;1;1190
+MoveWest;(7, 6);;(1, 6);Brown rock and small rocks;1;1191
+;(7, 6);;(1, 6);Brown rock and small rocks;1;1192
+;(7, 6);;(1, 6);Brown rock and small rocks;1;1193
+;(7, 6);;(1, 6);Brown rock and small rocks;1;1194
+;(7, 6);;(1, 6);Brown rock and small rocks;1;1195
+;(7, 6);;(1, 6);Brown rock and small rocks;1;1196
+;(7, 6);;(1, 6);Brown rock and small rocks;1;1197
+;(7, 6);;(1, 6);Brown rock and small rocks;1;1198
+;(7, 6);;(1, 6);Brown rock and small rocks;1;1199
+;(7, 6);;(1, 6);Brown rock and small rocks;1;1200
+;(7, 6);;(1, 6);Brown rock and small rocks;1;1201
+;(7, 6);;(1, 6);Brown rock and small rocks;1;1202
+;(7, 6);;(1, 6);Brown rock and small rocks;1;1203
+MoveWest;(6, 6);;(1, 6);Brown rock and small rocks;1;1204
+;(6, 6);;(1, 6);Brown rock and small rocks;1;1205
+;(6, 6);;(1, 6);Brown rock and small rocks;1;1206
+;(6, 6);;(1, 6);Brown rock and small rocks;1;1207
+;(6, 6);;(1, 6);Brown rock and small rocks;1;1208
+;(6, 6);;(1, 6);Brown rock and small rocks;1;1209
+;(6, 6);;(1, 6);Brown rock and small rocks;1;1210
+;(6, 6);;(1, 6);Brown rock and small rocks;1;1211
+;(6, 6);;(1, 6);Brown rock and small rocks;1;1212
+;(6, 6);;(1, 6);Brown rock and small rocks;1;1213
+;(6, 6);;(1, 6);Brown rock and small rocks;1;1214
+;(6, 6);;(1, 6);Brown rock and small rocks;1;1215
+;(6, 6);;(1, 6);Brown rock and small rocks;1;1216
+;(6, 6);;(1, 6);Brown rock and small rocks;1;1217
+;(6, 6);;(1, 6);Brown rock and small rocks;1;1218
+;(6, 6);;(1, 6);Brown rock and small rocks;1;1219
+;(6, 6);;(1, 6);Brown rock and small rocks;1;1220
+;(6, 6);;(1, 6);Brown rock and small rocks;1;1221
+;(6, 6);;(1, 6);Brown rock and small rocks;1;1222
+;(6, 6);;(1, 6);Brown rock and small rocks;1;1223
+;(6, 6);;(1, 6);Brown rock and small rocks;1;1224
+;(6, 6);;(1, 6);Brown rock and small rocks;1;1225
+;(6, 6);;(1, 6);Brown rock and small rocks;1;1226
+;(6, 6);;(1, 6);Brown rock and small rocks;1;1227
+;(6, 6);;(1, 6);Brown rock and small rocks;1;1228
+;(6, 6);;(1, 6);Brown rock and small rocks;1;1229
+;(6, 6);;(1, 6);Brown rock and small rocks;1;1230
+;(6, 6);;(1, 6);Brown rock and small rocks;1;1231
+;(6, 6);;(1, 6);Brown rock and small rocks;1;1232
+;(6, 6);;(1, 6);Brown rock and small rocks;1;1233
+GrabObject;(6, 6);;(1, 6);Brown rock and small rocks;1;1234
+;(6, 6);;(1, 6);Brown rock and small rocks;1;1235
+;(6, 6);;(1, 6);Brown rock and small rocks;1;1236
+;(6, 6);;(1, 6);Brown rock and small rocks;1;1237
+;(6, 6);;(1, 6);Brown rock and small rocks;1;1238
+;(6, 6);;(1, 6);Brown rock and small rocks;1;1239
+MoveWest;(5, 6);;(1, 6);Brown rock and small rocks;1;1240
+;(5, 6);;(1, 6);Brown rock and small rocks;1;1241
+;(5, 6);;(1, 6);Brown rock and small rocks;1;1242
+;(5, 6);;(1, 6);Brown rock and small rocks;1;1243
+MoveWest;(4, 6);;(1, 6);Brown rock and small rocks;1;1244
+;(4, 6);;(1, 6);Brown rock and small rocks;1;1245
+;(4, 6);;(1, 6);Brown rock and small rocks;1;1246
+MoveWest;(3, 6);;(1, 6);Brown rock and small rocks;1;1247
+;(3, 6);;(1, 6);Brown rock and small rocks;1;1248
+;(3, 6);;(1, 6);Brown rock and small rocks;1;1249
+;(3, 6);;(1, 6);Brown rock and small rocks;1;1250
+MoveWest;(2, 6);;(1, 6);Brown rock and small rocks;1;1251
+;(2, 6);;(1, 6);Brown rock and small rocks;1;1252
+;(2, 6);;(1, 6);Brown rock and small rocks;1;1253
+MoveWest;(1, 6);;(1, 6);Brown rock and small rocks;1;1254
+;(1, 6);;(1, 6);Brown rock and small rocks;1;1255
+;(1, 6);;(1, 6);Brown rock and small rocks;1;1256
+;(1, 6);;(1, 6);Brown rock and small rocks;1;1257
+;(1, 6);;(1, 6);Brown rock and small rocks;1;1258
+MoveWest;(0, 6);;(1, 6);Brown rock and small rocks;1;1259
+;(0, 6);;(1, 6);Brown rock and small rocks;1;1260
+;(0, 6);;(1, 6);Brown rock and small rocks;1;1261
+;(0, 6);;(1, 6);Brown rock and small rocks;1;1262
+;(0, 6);;(1, 6);Brown rock and small rocks;1;1263
+;(0, 6);;(1, 6);Brown rock and small rocks;1;1264
+;(0, 6);;(1, 6);Brown rock and small rocks;1;1265
+;(0, 6);;(1, 6);Brown rock and small rocks;1;1266
+;(0, 6);;(1, 6);Brown rock and small rocks;1;1267
+;(0, 6);;(1, 6);Brown rock and small rocks;1;1268
+;(0, 6);;(1, 6);Brown rock and small rocks;1;1269
+;(0, 6);;(1, 6);Brown rock and small rocks;1;1270
+DropObject;(0, 6);;(1, 6);Brown rock and small rocks;1;1271
+;(0, 6);;(1, 6);Brown rock and small rocks;1;1272
+;(0, 6);;(1, 6);Brown rock and small rocks;1;1273
+;(0, 6);;(1, 6);Brown rock and small rocks;1;1274
+;(0, 6);;(1, 6);Brown rock and small rocks;1;1275
+MoveEast;(1, 6);;(1, 6);Brown rock and small rocks;1;1276
+;(1, 6);;(1, 6);Brown rock and small rocks;1;1277
+;(1, 6);;(1, 6);Brown rock and small rocks;1;1278
+;(1, 6);;(1, 6);Brown rock and small rocks;1;1279
+MoveEast;(2, 6);;(1, 6);Brown rock and small rocks;1;1280
+;(2, 6);;(1, 6);Brown rock and small rocks;1;1281
+;(2, 6);;(1, 6);Brown rock and small rocks;1;1282
+MoveEast;(3, 6);;(1, 6);Brown rock and small rocks;1;1283
+;(3, 6);;(1, 6);Brown rock and small rocks;1;1284
+;(3, 6);;(1, 6);Brown rock and small rocks;1;1285
+MoveEast;(4, 6);;(1, 6);Brown rock and small rocks;1;1286
+;(4, 6);;(1, 6);Brown rock and small rocks;1;1287
+;(4, 6);;(1, 6);Brown rock and small rocks;1;1288
+MoveEast;(5, 6);;(1, 6);Brown rock and small rocks;1;1289
+;(5, 6);;(1, 6);Brown rock and small rocks;1;1290
+;(5, 6);;(1, 6);Brown rock and small rocks;1;1291
+;(5, 6);;(1, 6);Brown rock and small rocks;1;1292
+MoveEast;(6, 6);;(1, 6);Brown rock and small rocks;1;1293
+;(6, 6);;(1, 6);Brown rock and small rocks;1;1294
+;(6, 6);;(1, 6);Brown rock and small rocks;1;1295
+MoveEast;(7, 6);;(1, 6);Brown rock and small rocks;1;1296
+;(7, 6);;(1, 6);Brown rock and small rocks;1;1297
+;(7, 6);;(1, 6);Brown rock and small rocks;1;1298
+;(7, 6);;(1, 6);Brown rock and small rocks;1;1299
+MoveEast;(8, 6);;(1, 6);Brown rock and small rocks;1;1300
+;(8, 6);;(1, 6);Brown rock and small rocks;1;1301
+;(8, 6);;(1, 6);Brown rock and small rocks;1;1302
+;(8, 6);;(1, 6);Brown rock and small rocks;1;1303
+;(8, 6);;(1, 6);Brown rock and small rocks;1;1304
+;(8, 6);;(1, 6);Brown rock and small rocks;1;1305
+;(8, 6);;(1, 6);Brown rock and small rocks;1;1306
+;(8, 6);;(1, 6);Brown rock and small rocks;1;1307
+;(8, 6);;(1, 6);Brown rock and small rocks;1;1308
+MoveWest;(7, 6);;(1, 6);Brown rock and small rocks;1;1309
+;(7, 6);;(1, 6);Brown rock and small rocks;1;1310
+;(7, 6);;(1, 6);Brown rock and small rocks;1;1311
+;(7, 6);;(1, 6);Brown rock and small rocks;1;1312
+;(7, 6);;(1, 6);Brown rock and small rocks;1;1313
+;(7, 6);;(1, 6);Brown rock and small rocks;1;1314
+;(7, 6);;(1, 6);Brown rock and small rocks;1;1315
+;(7, 6);;(1, 6);Brown rock and small rocks;1;1316
+;(7, 6);;(1, 6);Brown rock and small rocks;1;1317
+;(7, 6);;(1, 6);Brown rock and small rocks;1;1318
+;(7, 6);;(1, 6);Brown rock and small rocks;1;1319
+;(7, 6);;(1, 6);Brown rock and small rocks;1;1320
+;(7, 6);;(1, 6);Brown rock and small rocks;1;1321
+;(7, 6);;(1, 6);Brown rock and small rocks;1;1322
+;(7, 6);;(1, 6);Brown rock and small rocks;1;1323
+;(7, 6);;(1, 6);Brown rock and small rocks;1;1324
+GrabObject;(7, 6);;(1, 6);Brown rock and small rocks;1;1325
+;(7, 6);;(1, 6);Brown rock and small rocks;1;1326
+;(7, 6);;(1, 6);Brown rock and small rocks;1;1327
+;(7, 6);;(1, 6);Brown rock and small rocks;1;1328
+;(7, 6);;(1, 6);Brown rock and small rocks;1;1329
+;(7, 6);;(1, 6);Brown rock and small rocks;1;1330
+;(7, 6);;(1, 6);Brown rock and small rocks;1;1331
+;(7, 6);;(1, 6);Brown rock and small rocks;1;1332
+MoveWest;(6, 6);;(1, 6);Brown rock and small rocks;1;1333
+;(6, 6);;(1, 6);Brown rock and small rocks;1;1334
+;(6, 6);;(1, 6);Brown rock and small rocks;1;1335
+MoveWest;(5, 6);;(1, 6);Brown rock and small rocks;1;1336
+;(5, 6);;(1, 6);Brown rock and small rocks;1;1337
+;(5, 6);;(1, 6);Brown rock and small rocks;1;1338
+;(5, 6);;(1, 6);Brown rock and small rocks;1;1339
+MoveWest;(4, 6);;(1, 6);Brown rock and small rocks;1;1340
+;(4, 6);;(1, 6);Brown rock and small rocks;1;1341
+;(4, 6);;(1, 6);Brown rock and small rocks;1;1342
+MoveWest;(3, 6);;(1, 6);Brown rock and small rocks;1;1343
+;(3, 6);;(1, 6);Brown rock and small rocks;1;1344
+;(3, 6);;(1, 6);Brown rock and small rocks;1;1345
+;(3, 6);;(1, 6);Brown rock and small rocks;1;1346
+MoveWest;(2, 6);;(1, 6);Brown rock and small rocks;1;1347
+;(2, 6);;(1, 6);Brown rock and small rocks;1;1348
+;(2, 6);;(1, 6);Brown rock and small rocks;1;1349
+;(2, 6);;(1, 6);Brown rock and small rocks;1;1350
+MoveWest;(1, 6);;(1, 6);Brown rock and small rocks;1;1351
+;(1, 6);;(1, 6);Brown rock and small rocks;1;1352
+;(1, 6);;(1, 6);Brown rock and small rocks;1;1353
+MoveWest;(0, 6);;(1, 6);Brown rock and small rocks;1;1354
+;(0, 6);;(1, 6);Brown rock and small rocks;1;1355
+;(0, 6);;(1, 6);Brown rock and small rocks;1;1356
+;(0, 6);;(1, 6);Brown rock and small rocks;1;1357
+;(0, 6);;(1, 6);Brown rock and small rocks;1;1358
+;(0, 6);;(1, 6);Brown rock and small rocks;1;1359
+;(0, 6);;(1, 6);Brown rock and small rocks;1;1360
+;(0, 6);;(1, 6);Brown rock and small rocks;1;1361
+;(0, 6);;(1, 6);Brown rock and small rocks;1;1362
+;(0, 6);;(1, 6);Brown rock and small rocks;1;1363
+;(0, 6);;(1, 6);Brown rock and small rocks;1;1364
+;(0, 6);;(1, 6);Brown rock and small rocks;1;1365
+;(0, 6);;(1, 6);Brown rock and small rocks;1;1366
+DropObject;(0, 6);;(1, 6);Brown rock and small rocks;1;1367
+;(0, 6);;(1, 6);Brown rock and small rocks;1;1368
+;(0, 6);;(1, 6);Brown rock and small rocks;1;1369
+;(0, 6);;(1, 6);Brown rock and small rocks;1;1370
+MoveEast;(1, 6);;(1, 6);Brown rock and small rocks;1;1371
+;(1, 6);;(1, 6);Brown rock and small rocks;1;1372
+;(1, 6);;(1, 6);Brown rock and small rocks;1;1373
+;(1, 6);;(1, 6);Brown rock and small rocks;1;1374
+MoveEast;(2, 6);;(1, 6);Brown rock and small rocks;1;1375
+;(2, 6);;(1, 6);Brown rock and small rocks;1;1376
+;(2, 6);;(1, 6);Brown rock and small rocks;1;1377
+MoveEast;(3, 6);;(1, 6);Brown rock and small rocks;1;1378
+;(3, 6);;(1, 6);Brown rock and small rocks;1;1379
+;(3, 6);;(1, 6);Brown rock and small rocks;1;1380
+MoveEast;(4, 6);;(1, 6);Brown rock and small rocks;1;1381
+;(4, 6);;(1, 6);Brown rock and small rocks;1;1382
+;(4, 6);;(1, 6);Brown rock and small rocks;1;1383
+;(4, 6);;(1, 6);Brown rock and small rocks;1;1384
+MoveEast;(5, 6);;(1, 6);Brown rock and small rocks;1;1385
+;(5, 6);;(1, 6);Brown rock and small rocks;1;1386
+;(5, 6);;(1, 6);Brown rock and small rocks;1;1387
+MoveEast;(6, 6);;(1, 6);Brown rock and small rocks;1;1388
+;(6, 6);;(1, 6);Brown rock and small rocks;1;1389
+;(6, 6);;(1, 6);Brown rock and small rocks;1;1390
+MoveEast;(7, 6);;(1, 6);Brown rock and small rocks;1;1391
+;(7, 6);;(1, 6);Brown rock and small rocks;1;1392
+;(7, 6);;(1, 6);Brown rock and small rocks;1;1393
+;(7, 6);;(1, 6);Brown rock and small rocks;1;1394
+;(7, 6);;(1, 6);Brown rock and small rocks;1;1395
+;(7, 6);;(1, 6);Brown rock and small rocks;1;1396
+;(7, 6);;(1, 6);Brown rock and small rocks;1;1397
+MoveSouth;(7, 7);;(1, 6);Brown rock and small rocks;1;1398
+;(7, 7);;(1, 6);Brown rock and small rocks;1;1399
+;(7, 7);;(1, 6);Brown rock and small rocks;1;1400
+;(7, 7);;(1, 6);Brown rock and small rocks;1;1401
+;(7, 7);;(1, 6);Brown rock and small rocks;1;1402
+;(7, 7);;(1, 6);Brown rock and small rocks;1;1403
+;(7, 7);;(1, 6);Brown rock and small rocks;1;1404
+;(7, 7);;(1, 6);Brown rock and small rocks;1;1405
+;(7, 7);;(1, 6);Brown rock and small rocks;1;1406
+;(7, 7);;(1, 6);Brown rock and small rocks;1;1407
+MoveWest;(6, 7);;(1, 6);Brown rock and small rocks;1;1408
+;(6, 7);;(1, 6);Brown rock and small rocks;1;1409
+;(6, 7);;(1, 6);Brown rock and small rocks;1;1410
+;(6, 7);;(1, 6);Brown rock and small rocks;1;1411
+;(6, 7);;(1, 6);Brown rock and small rocks;1;1412
+;(6, 7);;(1, 6);Brown rock and small rocks;1;1413
+;(6, 7);;(1, 6);Brown rock and small rocks;1;1414
+;(6, 7);;(1, 6);Brown rock and small rocks;1;1415
+;(6, 7);;(1, 6);Brown rock and small rocks;1;1416
+GrabObject;(6, 7);;(1, 6);Brown rock and small rocks;1;1417
+;(6, 7);;(1, 6);Brown rock and small rocks;1;1418
+;(6, 7);;(1, 6);Brown rock and small rocks;1;1419
+;(6, 7);;(1, 6);Brown rock and small rocks;1;1420
+;(6, 7);;(1, 6);Brown rock and small rocks;1;1421
+;(6, 7);;(1, 6);Brown rock and small rocks;1;1422
+;(6, 7);;(1, 6);Brown rock and small rocks;1;1423
+MoveWest;(5, 7);;(1, 6);Brown rock and small rocks;1;1424
+;(5, 7);;(1, 6);Brown rock and small rocks;1;1425
+;(5, 7);;(1, 6);Brown rock and small rocks;1;1426
+;(5, 7);;(1, 6);Brown rock and small rocks;1;1427
+MoveWest;(4, 7);;(1, 6);Brown rock and small rocks;1;1428
+;(4, 7);;(1, 6);Brown rock and small rocks;1;1429
+;(4, 7);;(1, 6);Brown rock and small rocks;1;1430
+;(4, 7);;(1, 6);Brown rock and small rocks;1;1431
+MoveWest;(3, 7);;(1, 6);Brown rock and small rocks;1;1432
+;(3, 7);;(1, 6);Brown rock and small rocks;1;1433
+;(3, 7);;(1, 6);Brown rock and small rocks;1;1434
+;(3, 7);;(1, 6);Brown rock and small rocks;1;1435
+MoveWest;(2, 7);;(1, 6);Brown rock and small rocks;1;1436
+;(2, 7);;(1, 6);Brown rock and small rocks;1;1437
+;(2, 7);;(1, 6);Brown rock and small rocks;1;1438
+MoveWest;(1, 7);;(1, 6);Brown rock and small rocks;1;1439
+;(1, 7);;(1, 6);Brown rock and small rocks;1;1440
+;(1, 7);;(1, 6);Brown rock and small rocks;1;1441
+MoveWest;(0, 7);;(1, 6);Brown rock and small rocks;1;1442
+;(0, 7);;(1, 6);Brown rock and small rocks;1;1443
+;(0, 7);;(1, 6);Brown rock and small rocks;1;1444
+;(0, 7);;(1, 6);Brown rock and small rocks;1;1445
+MoveWest;(0, 7);;(1, 6);Brown rock and small rocks;1;1446
+;(0, 7);;(1, 6);Brown rock and small rocks;1;1447
+;(0, 7);;(1, 6);Brown rock and small rocks;1;1448
+;(0, 7);;(1, 6);Brown rock and small rocks;1;1449
+;(0, 7);;(1, 6);Brown rock and small rocks;1;1450
+;(0, 7);;(1, 6);Brown rock and small rocks;1;1451
+;(0, 7);;(1, 6);Brown rock and small rocks;1;1452
+;(0, 7);;(1, 6);Brown rock and small rocks;1;1453
+;(0, 7);;(1, 6);Brown rock and small rocks;1;1454
+DropObject;(0, 7);;(1, 6);Brown rock and small rocks;1;1455
+;(0, 7);;(1, 6);Brown rock and small rocks;1;1456
+;(0, 7);;(1, 6);Brown rock and small rocks;1;1457
+;(0, 7);;(1, 6);Brown rock and small rocks;1;1458
+;(0, 7);;(1, 6);Brown rock and small rocks;1;1459
+;(0, 7);;(1, 6);Brown rock and small rocks;1;1460
+MoveEast;(1, 7);;(1, 6);Brown rock and small rocks;1;1461
+;(1, 7);;(1, 6);Brown rock and small rocks;1;1462
+;(1, 7);;(1, 6);Brown rock and small rocks;1;1463
+;(1, 7);;(1, 6);Brown rock and small rocks;1;1464
+MoveEast;(2, 7);;(1, 6);Brown rock and small rocks;1;1465
+;(2, 7);;(1, 6);Brown rock and small rocks;1;1466
+;(2, 7);;(1, 6);Brown rock and small rocks;1;1467
+;(2, 7);;(1, 6);Brown rock and small rocks;1;1468
+MoveEast;(3, 7);;(1, 6);Brown rock and small rocks;1;1469
+;(3, 7);;(1, 6);Brown rock and small rocks;1;1470
+;(3, 7);;(1, 6);Brown rock and small rocks;1;1471
+MoveEast;(4, 7);;(1, 6);Brown rock and small rocks;1;1472
+;(4, 7);;(1, 6);Brown rock and small rocks;1;1473
+;(4, 7);;(1, 6);Brown rock and small rocks;1;1474
+MoveEast;(5, 7);;(1, 6);Brown rock and small rocks;1;1475
+;(5, 7);;(1, 6);Brown rock and small rocks;1;1476
+;(5, 7);;(1, 6);Brown rock and small rocks;1;1477
+;(5, 7);;(1, 6);Brown rock and small rocks;1;1478
+MoveEast;(6, 7);;(1, 6);Brown rock and small rocks;1;1479
+;(6, 7);;(1, 6);Brown rock and small rocks;1;1480
+;(6, 7);;(1, 6);Brown rock and small rocks;1;1481
+MoveEast;(7, 7);;(1, 6);Brown rock and small rocks;1;1482
+;(7, 7);;(1, 6);Brown rock and small rocks;1;1483
+;(7, 7);;(1, 6);Brown rock and small rocks;1;1484
+MoveEast;(8, 7);;(1, 6);Brown rock and small rocks;1;1485
+;(8, 7);;(1, 6);Brown rock and small rocks;1;1486
+;(8, 7);;(1, 6);Brown rock and small rocks;1;1487
+;(8, 7);;(1, 6);Brown rock and small rocks;1;1488
+;(8, 7);;(1, 6);Brown rock and small rocks;1;1489
+;(8, 7);;(1, 6);Brown rock and small rocks;1;1490
+;(8, 7);;(1, 6);Brown rock and small rocks;1;1491
+;(8, 7);;(1, 6);Brown rock and small rocks;1;1492
+;(8, 7);;(1, 6);Brown rock and small rocks;1;1493
+;(8, 7);;(1, 6);Brown rock and small rocks;1;1494
+;(8, 7);;(1, 6);Brown rock and small rocks;1;1495
+;(8, 7);;(1, 6);Brown rock and small rocks;1;1496
+MoveWest;(7, 7);;(1, 6);Brown rock and small rocks;1;1497
+;(7, 7);;(1, 6);Brown rock and small rocks;1;1498
+;(7, 7);;(1, 6);Brown rock and small rocks;1;1499
+;(7, 7);;(1, 6);Brown rock and small rocks;1;1500
+;(7, 7);;(1, 6);Brown rock and small rocks;1;1501
+;(7, 7);;(1, 6);Brown rock and small rocks;1;1502
+;(7, 7);;(1, 6);Brown rock and small rocks;1;1503
+;(7, 7);;(1, 6);Brown rock and small rocks;1;1504
+;(7, 7);;(1, 6);Brown rock and small rocks;1;1505
+GrabObject;(7, 7);;(1, 6);Brown rock and small rocks;1;1506
+;(7, 7);;(1, 6);Brown rock and small rocks;1;1507
+;(7, 7);;(1, 6);Brown rock and small rocks;1;1508
+;(7, 7);;(1, 6);Brown rock and small rocks;1;1509
+;(7, 7);;(1, 6);Brown rock and small rocks;1;1510
+;(7, 7);;(1, 6);Brown rock and small rocks;1;1511
+;(7, 7);;(1, 6);Brown rock and small rocks;1;1512
+;(7, 7);;(1, 6);Brown rock and small rocks;1;1513
+;(7, 7);;(1, 6);Brown rock and small rocks;1;1514
+MoveWest;(6, 7);;(1, 6);Brown rock and small rocks;1;1515
+;(6, 7);;(1, 6);Brown rock and small rocks;1;1516
+;(6, 7);;(1, 6);Brown rock and small rocks;1;1517
+;(6, 7);;(1, 6);Brown rock and small rocks;1;1518
+;(6, 7);;(1, 6);Brown rock and small rocks;1;1519
+MoveWest;(5, 7);;(1, 6);Brown rock and small rocks;1;1520
+;(5, 7);;(1, 6);Brown rock and small rocks;1;1521
+;(5, 7);;(1, 6);Brown rock and small rocks;1;1522
+MoveWest;(4, 7);;(1, 6);Brown rock and small rocks;1;1523
+;(4, 7);;(1, 6);Brown rock and small rocks;1;1524
+;(4, 7);;(1, 6);Brown rock and small rocks;1;1525
+;(4, 7);;(1, 6);Brown rock and small rocks;1;1526
+MoveWest;(3, 7);;(1, 6);Brown rock and small rocks;1;1527
+;(3, 7);;(1, 6);Brown rock and small rocks;1;1528
+;(3, 7);;(1, 6);Brown rock and small rocks;1;1529
+;(3, 7);;(1, 6);Brown rock and small rocks;1;1530
+MoveWest;(2, 7);;(1, 6);Brown rock and small rocks;1;1531
+;(2, 7);;(1, 6);Brown rock and small rocks;1;1532
+;(2, 7);;(1, 6);Brown rock and small rocks;1;1533
+;(2, 7);;(1, 6);Brown rock and small rocks;1;1534
+MoveWest;(1, 7);;(1, 6);Brown rock and small rocks;1;1535
+;(1, 7);;(1, 6);Brown rock and small rocks;1;1536
+;(1, 7);;(1, 6);Brown rock and small rocks;1;1537
+MoveWest;(0, 7);;(1, 6);Brown rock and small rocks;1;1538
+;(0, 7);;(1, 6);Brown rock and small rocks;1;1539
+;(0, 7);;(1, 6);Brown rock and small rocks;1;1540
+;(0, 7);;(1, 6);Brown rock and small rocks;1;1541
+;(0, 7);;(1, 6);Brown rock and small rocks;1;1542
+;(0, 7);;(1, 6);Brown rock and small rocks;1;1543
+;(0, 7);;(1, 6);Brown rock and small rocks;1;1544
+;(0, 7);;(1, 6);Brown rock and small rocks;1;1545
+;(0, 7);;(1, 6);Brown rock and small rocks;1;1546
+;(0, 7);;(1, 6);Brown rock and small rocks;1;1547
+;(0, 7);;(1, 6);Brown rock and small rocks;1;1548
+;(0, 7);;(1, 6);Brown rock and small rocks;1;1549
+DropObject;(0, 7);;(1, 6);Brown rock and small rocks;1;1550
+;(0, 7);;(1, 6);Brown rock and small rocks;1;1551
+;(0, 7);;(1, 6);Brown rock and small rocks;1;1552
+;(0, 7);;(1, 6);Brown rock and small rocks;1;1553
+MoveEast;(1, 7);;(1, 6);Brown rock and small rocks;1;1554
+;(1, 7);;(1, 6);Brown rock and small rocks;1;1555
+;(1, 7);;(1, 6);Brown rock and small rocks;1;1556
+;(1, 7);;(1, 6);Brown rock and small rocks;1;1557
+MoveEast;(2, 7);;(1, 6);Brown rock and small rocks;1;1558
+;(2, 7);;(1, 6);Brown rock and small rocks;1;1559
+;(2, 7);;(1, 6);Brown rock and small rocks;1;1560
+MoveEast;(3, 7);;(1, 6);Brown rock and small rocks;1;1561
+;(3, 7);;(1, 6);Brown rock and small rocks;1;1562
+;(3, 7);;(1, 6);Brown rock and small rocks;1;1563
+MoveEast;(4, 7);;(1, 6);Brown rock and small rocks;1;1564
+;(4, 7);;(1, 6);Brown rock and small rocks;1;1565
+;(4, 7);;(1, 6);Brown rock and small rocks;1;1566
+;(4, 7);;(1, 6);Brown rock and small rocks;1;1567
+;(4, 7);;(1, 6);Brown rock and small rocks;1;1568
+MoveEast;(5, 7);;(1, 6);Brown rock and small rocks;1;1569
+;(5, 7);;(1, 6);Brown rock and small rocks;1;1570
+MoveEast;(6, 7);;(1, 6);Brown rock and small rocks;1;1571
+;(6, 7);;(1, 6);Brown rock and small rocks;1;1572
+;(6, 7);;(1, 6);Brown rock and small rocks;1;1573
+;(6, 7);;(1, 6);Brown rock and small rocks;1;1574
+MoveEast;(7, 7);;(1, 6);Brown rock and small rocks;1;1575
+;(7, 7);;(1, 6);Brown rock and small rocks;1;1576
+;(7, 7);;(1, 6);Brown rock and small rocks;1;1577
+;(7, 7);;(1, 6);Brown rock and small rocks;1;1578
+;(7, 7);;(1, 6);Brown rock and small rocks;1;1579
+;(7, 7);;(1, 6);Brown rock and small rocks;1;1580
+;(7, 7);;(1, 6);Brown rock and small rocks;1;1581
+MoveSouth;(7, 8);;(1, 6);Brown rock and small rocks;1;1582
+;(7, 8);;(1, 6);Brown rock and small rocks;1;1583
+;(7, 8);;(1, 6);Brown rock and small rocks;1;1584
+;(7, 8);;(1, 6);Brown rock and small rocks;1;1585
+;(7, 8);;(1, 6);Brown rock and small rocks;1;1586
+;(7, 8);;(1, 6);Brown rock and small rocks;1;1587
+;(7, 8);;(1, 6);Brown rock and small rocks;1;1588
+;(7, 8);;(1, 6);Brown rock and small rocks;1;1589
+;(7, 8);;(1, 6);Brown rock and small rocks;1;1590
+MoveWest;(6, 8);;(1, 6);Brown rock and small rocks;1;1591
+;(6, 8);;(1, 6);Brown rock and small rocks;1;1592
+;(6, 8);;(1, 6);Brown rock and small rocks;1;1593
+;(6, 8);;(1, 6);Brown rock and small rocks;1;1594
+;(6, 8);;(1, 6);Brown rock and small rocks;1;1595
+;(6, 8);;(1, 6);Brown rock and small rocks;1;1596
+;(6, 8);;(1, 6);Brown rock and small rocks;1;1597
+;(6, 8);;(1, 6);Brown rock and small rocks;1;1598
+;(6, 8);;(1, 6);Brown rock and small rocks;1;1599
+GrabObject;(6, 8);;(1, 6);Brown rock and small rocks;1;1600
+;(6, 8);;(1, 6);Brown rock and small rocks;1;1601
+;(6, 8);;(1, 6);Brown rock and small rocks;1;1602
+;(6, 8);;(1, 6);Brown rock and small rocks;1;1603
+;(6, 8);;(1, 6);Brown rock and small rocks;1;1604
+;(6, 8);;(1, 6);Brown rock and small rocks;1;1605
+;(6, 8);;(1, 6);Brown rock and small rocks;1;1606
+MoveWest;(5, 8);;(1, 6);Brown rock and small rocks;1;1607
+;(5, 8);;(1, 6);Brown rock and small rocks;1;1608
+;(5, 8);;(1, 6);Brown rock and small rocks;1;1609
+MoveWest;(4, 8);;(1, 6);Brown rock and small rocks;1;1610
+;(4, 8);;(1, 6);Brown rock and small rocks;1;1611
+;(4, 8);;(1, 6);Brown rock and small rocks;1;1612
+;(4, 8);;(1, 6);Brown rock and small rocks;1;1613
+MoveWest;(3, 8);;(1, 6);Brown rock and small rocks;1;1614
+;(3, 8);;(1, 6);Brown rock and small rocks;1;1615
+;(3, 8);;(1, 6);Brown rock and small rocks;1;1616
+MoveWest;(2, 8);;(1, 6);Brown rock and small rocks;1;1617
+;(2, 8);;(1, 6);Brown rock and small rocks;1;1618
+;(2, 8);;(1, 6);Brown rock and small rocks;1;1619
+;(2, 8);;(1, 6);Brown rock and small rocks;1;1620
+MoveWest;(1, 8);;(1, 6);Brown rock and small rocks;1;1621
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1622
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1623
+MoveWest;(0, 8);;(1, 6);Brown rock and small rocks;1;1624
+;(0, 8);;(1, 6);Brown rock and small rocks;1;1625
+;(0, 8);;(1, 6);Brown rock and small rocks;1;1626
+;(0, 8);;(1, 6);Brown rock and small rocks;1;1627
+;(0, 8);;(1, 6);Brown rock and small rocks;1;1628
+MoveWest;(0, 8);;(1, 6);Brown rock and small rocks;1;1629
+;(0, 8);;(1, 6);Brown rock and small rocks;1;1630
+;(0, 8);;(1, 6);Brown rock and small rocks;1;1631
+;(0, 8);;(1, 6);Brown rock and small rocks;1;1632
+;(0, 8);;(1, 6);Brown rock and small rocks;1;1633
+;(0, 8);;(1, 6);Brown rock and small rocks;1;1634
+;(0, 8);;(1, 6);Brown rock and small rocks;1;1635
+;(0, 8);;(1, 6);Brown rock and small rocks;1;1636
+;(0, 8);;(1, 6);Brown rock and small rocks;1;1637
+;(0, 8);;(1, 6);Brown rock and small rocks;1;1638
+;(0, 8);;(1, 6);Brown rock and small rocks;1;1639
+;(0, 8);;(1, 6);Brown rock and small rocks;1;1640
+;(0, 8);;(1, 6);Brown rock and small rocks;1;1641
+;(0, 8);;(1, 6);Brown rock and small rocks;1;1642
+;(0, 8);;(1, 6);Brown rock and small rocks;1;1643
+;(0, 8);;(1, 6);Brown rock and small rocks;1;1644
+;(0, 8);;(1, 6);Brown rock and small rocks;1;1645
+;(0, 8);;(1, 6);Brown rock and small rocks;1;1646
+;(0, 8);;(1, 6);Brown rock and small rocks;1;1647
+DropObject;(0, 8);;(1, 6);Brown rock and small rocks;1;1648
+;(0, 8);;(1, 6);Brown rock and small rocks;1;1649
+;(0, 8);;(1, 6);Brown rock and small rocks;1;1650
+;(0, 8);;(1, 6);Brown rock and small rocks;1;1651
+;(0, 8);;(1, 6);Brown rock and small rocks;1;1652
+MoveEast;(1, 8);;(1, 6);Brown rock and small rocks;1;1653
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1654
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1655
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1656
+MoveEast;(2, 8);;(1, 6);Brown rock and small rocks;1;1657
+;(2, 8);;(1, 6);Brown rock and small rocks;1;1658
+;(2, 8);;(1, 6);Brown rock and small rocks;1;1659
+;(2, 8);;(1, 6);Brown rock and small rocks;1;1660
+MoveEast;(3, 8);;(1, 6);Brown rock and small rocks;1;1661
+;(3, 8);;(1, 6);Brown rock and small rocks;1;1662
+;(3, 8);;(1, 6);Brown rock and small rocks;1;1663
+MoveEast;(4, 8);;(1, 6);Brown rock and small rocks;1;1664
+;(4, 8);;(1, 6);Brown rock and small rocks;1;1665
+;(4, 8);;(1, 6);Brown rock and small rocks;1;1666
+;(4, 8);;(1, 6);Brown rock and small rocks;1;1667
+MoveEast;(5, 8);;(1, 6);Brown rock and small rocks;1;1668
+;(5, 8);;(1, 6);Brown rock and small rocks;1;1669
+;(5, 8);;(1, 6);Brown rock and small rocks;1;1670
+;(5, 8);;(1, 6);Brown rock and small rocks;1;1671
+MoveEast;(6, 8);;(1, 6);Brown rock and small rocks;1;1672
+;(6, 8);;(1, 6);Brown rock and small rocks;1;1673
+;(6, 8);;(1, 6);Brown rock and small rocks;1;1674
+MoveEast;(7, 8);;(1, 6);Brown rock and small rocks;1;1675
+;(7, 8);;(1, 6);Brown rock and small rocks;1;1676
+;(7, 8);;(1, 6);Brown rock and small rocks;1;1677
+;(7, 8);;(1, 6);Brown rock and small rocks;1;1678
+;(7, 8);;(1, 6);Brown rock and small rocks;1;1679
+;(7, 8);;(1, 6);Brown rock and small rocks;1;1680
+;(7, 8);;(1, 6);Brown rock and small rocks;1;1681
+;(7, 8);;(1, 6);Brown rock and small rocks;1;1682
+;(7, 8);;(1, 6);Brown rock and small rocks;1;1683
+;(7, 8);;(1, 6);Brown rock and small rocks;1;1684
+;(7, 8);;(1, 6);Brown rock and small rocks;1;1685
+;(7, 8);;(1, 6);Brown rock and small rocks;1;1686
+;(7, 8);;(1, 6);Brown rock and small rocks;1;1687
+;(7, 8);;(1, 6);Brown rock and small rocks;1;1688
+;(7, 8);;(1, 6);Brown rock and small rocks;1;1689
+;(7, 8);;(1, 6);Brown rock and small rocks;1;1690
+;(7, 8);;(1, 6);Brown rock and small rocks;1;1691
+;(7, 8);;(1, 6);Brown rock and small rocks;1;1692
+;(7, 8);;(1, 6);Brown rock and small rocks;1;1693
+;(7, 8);;(1, 6);Brown rock and small rocks;1;1694
+;(7, 8);;(1, 6);Brown rock and small rocks;1;1695
+;(7, 8);;(1, 6);Brown rock and small rocks;1;1696
+;(7, 8);;(1, 6);Brown rock and small rocks;1;1697
+;(7, 8);;(1, 6);Brown rock and small rocks;1;1698
+;(7, 8);;(1, 6);Brown rock and small rocks;1;1699
+;(7, 8);;(1, 6);Brown rock and small rocks;1;1700
+;(7, 8);;(1, 6);Brown rock and small rocks;1;1701
+;(7, 8);;(1, 6);Brown rock and small rocks;1;1702
+GrabObject;(7, 8);;(1, 6);Brown rock and small rocks;1;1703
+;(7, 8);;(1, 6);Brown rock and small rocks;1;1704
+;(7, 8);;(1, 6);Brown rock and small rocks;1;1705
+;(7, 8);;(1, 6);Brown rock and small rocks;1;1706
+;(7, 8);;(1, 6);Brown rock and small rocks;1;1707
+;(7, 8);;(1, 6);Brown rock and small rocks;1;1708
+;(7, 8);;(1, 6);Brown rock and small rocks;1;1709
+;(7, 8);;(1, 6);Brown rock and small rocks;1;1710
+MoveWest;(6, 8);;(1, 6);Brown rock and small rocks;1;1711
+;(6, 8);;(1, 6);Brown rock and small rocks;1;1712
+;(6, 8);;(1, 6);Brown rock and small rocks;1;1713
+;(6, 8);;(1, 6);Brown rock and small rocks;1;1714
+MoveWest;(5, 8);;(1, 6);Brown rock and small rocks;1;1715
+;(5, 8);;(1, 6);Brown rock and small rocks;1;1716
+;(5, 8);;(1, 6);Brown rock and small rocks;1;1717
+;(5, 8);;(1, 6);Brown rock and small rocks;1;1718
+MoveWest;(4, 8);;(1, 6);Brown rock and small rocks;1;1719
+;(4, 8);;(1, 6);Brown rock and small rocks;1;1720
+;(4, 8);;(1, 6);Brown rock and small rocks;1;1721
+;(4, 8);;(1, 6);Brown rock and small rocks;1;1722
+;(4, 8);;(1, 6);Brown rock and small rocks;1;1723
+;(4, 8);;(1, 6);Brown rock and small rocks;1;1724
+MoveWest;(3, 8);;(1, 6);Brown rock and small rocks;1;1725
+;(3, 8);;(1, 6);Brown rock and small rocks;1;1726
+;(3, 8);;(1, 6);Brown rock and small rocks;1;1727
+;(3, 8);;(1, 6);Brown rock and small rocks;1;1728
+MoveWest;(2, 8);;(1, 6);Brown rock and small rocks;1;1729
+;(2, 8);;(1, 6);Brown rock and small rocks;1;1730
+;(2, 8);;(1, 6);Brown rock and small rocks;1;1731
+MoveWest;(1, 8);;(1, 6);Brown rock and small rocks;1;1732
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1733
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1734
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1735
+MoveWest;(0, 8);;(1, 6);Brown rock and small rocks;1;1736
+;(0, 8);;(1, 6);Brown rock and small rocks;1;1737
+;(0, 8);;(1, 6);Brown rock and small rocks;1;1738
+MoveWest;(0, 8);;(1, 6);Brown rock and small rocks;1;1739
+;(0, 8);;(1, 6);Brown rock and small rocks;1;1740
+;(0, 8);;(1, 6);Brown rock and small rocks;1;1741
+;(0, 8);;(1, 6);Brown rock and small rocks;1;1742
+;(0, 8);;(1, 6);Brown rock and small rocks;1;1743
+;(0, 8);;(1, 6);Brown rock and small rocks;1;1744
+;(0, 8);;(1, 6);Brown rock and small rocks;1;1745
+;(0, 8);;(1, 6);Brown rock and small rocks;1;1746
+MoveEast;(1, 8);;(1, 6);Brown rock and small rocks;1;1747
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1748
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1749
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1750
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1751
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1752
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1753
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1754
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1755
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1756
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1757
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1758
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1759
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1760
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1761
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1762
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1763
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1764
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1765
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1766
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1767
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1768
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1769
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1770
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1771
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1772
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1773
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1774
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1775
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1776
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1777
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1778
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1779
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1780
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1781
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1782
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1783
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1784
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1785
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1786
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1787
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1788
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1789
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1790
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1791
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1792
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1793
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1794
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1795
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1796
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1797
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1798
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1799
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1800
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1801
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1802
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1803
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1804
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1805
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1806
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1807
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1808
+GrabObject;(1, 8);;(1, 6);Brown rock and small rocks;1;1809
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1810
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1811
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1812
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1813
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1814
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1815
+DropObject;(1, 8);;(1, 6);Brown rock and small rocks;1;1816
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1817
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1818
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1819
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1820
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1821
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1822
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1823
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1824
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1825
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1826
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1827
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1828
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1829
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1830
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1831
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1832
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1833
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1834
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1835
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1836
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1837
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1838
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1839
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1840
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1841
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1842
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1843
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1844
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1845
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1846
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1847
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1848
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1849
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1850
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1851
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1852
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1853
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1854
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1855
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1856
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1857
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1858
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1859
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1860
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1861
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1862
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1863
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1864
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1865
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1866
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1867
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1868
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1869
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1870
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1871
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1872
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1873
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1874
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1875
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1876
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1877
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1878
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1879
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1880
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1881
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1882
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1883
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1884
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1885
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1886
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1887
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1888
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1889
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1890
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1891
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1892
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1893
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1894
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1895
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1896
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1897
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1898
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1899
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1900
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1901
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1902
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1903
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1904
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1905
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1906
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1907
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1908
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1909
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1910
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1911
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1912
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1913
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1914
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1915
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1916
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1917
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1918
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1919
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1920
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1921
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1922
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1923
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1924
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1925
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1926
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1927
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1928
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1929
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1930
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1931
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1932
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1933
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1934
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1935
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1936
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1937
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1938
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1939
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1940
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1941
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1942
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1943
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1944
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1945
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1946
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1947
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1948
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1949
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1950
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1951
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1952
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1953
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1954
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1955
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1956
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1957
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1958
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1959
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1960
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1961
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1962
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1963
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1964
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1965
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1966
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1967
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1968
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1969
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1970
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1971
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1972
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1973
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1974
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1975
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1976
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1977
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1978
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1979
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1980
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1981
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1982
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1983
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1984
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1985
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1986
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1987
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1988
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1989
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1990
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1991
+;(1, 8);;(1, 6);Brown rock and small rocks;1;1992
+MoveEast;(2, 8);;(1, 6);Brown rock and small rocks;1;1993
+;(2, 8);;(1, 6);Brown rock and small rocks;1;1994
+;(2, 8);;(1, 6);Brown rock and small rocks;1;1995
+MoveEast;(3, 8);;(1, 6);Brown rock and small rocks;1;1996
+;(3, 8);;(1, 6);Brown rock and small rocks;1;1997
+;(3, 8);;(1, 6);Brown rock and small rocks;1;1998
+MoveEast;(4, 8);;(1, 6);Brown rock and small rocks;1;1999
+;(4, 8);;(1, 6);Brown rock and small rocks;1;2000
+;(4, 8);;(1, 6);Brown rock and small rocks;1;2001
+MoveEast;(5, 8);;(1, 6);Brown rock and small rocks;1;2002
+;(5, 8);;(1, 6);Brown rock and small rocks;1;2003
+;(5, 8);;(1, 6);Brown rock and small rocks;1;2004
+;(5, 8);;(1, 6);Brown rock and small rocks;1;2005
+MoveEast;(6, 8);;(1, 6);Brown rock and small rocks;1;2006
+;(6, 8);;(1, 6);Brown rock and small rocks;1;2007
+;(6, 8);;(1, 6);Brown rock and small rocks;1;2008
+MoveEast;(7, 8);;(1, 6);Brown rock and small rocks;1;2009
+;(7, 8);;(1, 6);Brown rock and small rocks;1;2010
+;(7, 8);;(1, 6);Brown rock and small rocks;1;2011
+;(7, 8);;(1, 6);Brown rock and small rocks;1;2012
+;(7, 8);;(1, 6);Brown rock and small rocks;1;2013
+;(7, 8);;(1, 6);Brown rock and small rocks;1;2014
+;(7, 8);;(1, 6);Brown rock and small rocks;1;2015
+;(7, 8);;(1, 6);Brown rock and small rocks;1;2016
+MoveWest;(6, 8);;(1, 6);Brown rock and small rocks;1;2017
+;(6, 8);;(1, 6);Brown rock and small rocks;1;2018
+;(6, 8);;(1, 6);Brown rock and small rocks;1;2019
+;(6, 8);;(1, 6);Brown rock and small rocks;1;2020
+;(6, 8);;(1, 6);Brown rock and small rocks;1;2021
+;(6, 8);;(1, 6);Brown rock and small rocks;1;2022
+;(6, 8);;(1, 6);Brown rock and small rocks;1;2023
+;(6, 8);;(1, 6);Brown rock and small rocks;1;2024
+;(6, 8);;(1, 6);Brown rock and small rocks;1;2025
+;(6, 8);;(1, 6);Brown rock and small rocks;1;2026
+;(6, 8);;(1, 6);Brown rock and small rocks;1;2027
+;(6, 8);;(1, 6);Brown rock and small rocks;1;2028
+;(6, 8);;(1, 6);Brown rock and small rocks;1;2029
+;(6, 8);;(1, 6);Brown rock and small rocks;1;2030
+MoveEast;(7, 8);;(1, 6);Brown rock and small rocks;1;2031
+;(7, 8);;(1, 6);Brown rock and small rocks;1;2032
+;(7, 8);;(1, 6);Brown rock and small rocks;1;2033
+;(7, 8);;(1, 6);Brown rock and small rocks;1;2034
+MoveEast;(8, 8);;(1, 6);Brown rock and small rocks;1;2035
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2036
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2037
+MoveEast;(9, 8);;(1, 6);Brown rock and small rocks;1;2038
+;(9, 8);;(1, 6);Brown rock and small rocks;1;2039
+;(9, 8);;(1, 6);Brown rock and small rocks;1;2040
+;(9, 8);;(1, 6);Brown rock and small rocks;1;2041
+MoveEast;(10, 8);;(1, 6);Brown rock and small rocks;1;2042
+;(10, 8);;(1, 6);Brown rock and small rocks;1;2043
+;(10, 8);;(1, 6);Brown rock and small rocks;1;2044
+;(10, 8);;(1, 6);Brown rock and small rocks;1;2045
+;(10, 8);;(1, 6);Brown rock and small rocks;1;2046
+;(10, 8);;(1, 6);Brown rock and small rocks;1;2047
+;(10, 8);;(1, 6);Brown rock and small rocks;1;2048
+MoveWest;(9, 8);;(1, 6);Brown rock and small rocks;1;2049
+;(9, 8);;(1, 6);Brown rock and small rocks;1;2050
+;(9, 8);;(1, 6);Brown rock and small rocks;1;2051
+;(9, 8);;(1, 6);Brown rock and small rocks;1;2052
+;(9, 8);;(1, 6);Brown rock and small rocks;1;2053
+;(9, 8);;(1, 6);Brown rock and small rocks;1;2054
+;(9, 8);;(1, 6);Brown rock and small rocks;1;2055
+;(9, 8);;(1, 6);Brown rock and small rocks;1;2056
+;(9, 8);;(1, 6);Brown rock and small rocks;1;2057
+MoveSouth;(9, 9);;(1, 6);Brown rock and small rocks;1;2058
+;(9, 9);;(1, 6);Brown rock and small rocks;1;2059
+;(9, 9);;(1, 6);Brown rock and small rocks;1;2060
+;(9, 9);;(1, 6);Brown rock and small rocks;1;2061
+;(9, 9);;(1, 6);Brown rock and small rocks;1;2062
+;(9, 9);;(1, 6);Brown rock and small rocks;1;2063
+;(9, 9);;(1, 6);Brown rock and small rocks;1;2064
+;(9, 9);;(1, 6);Brown rock and small rocks;1;2065
+;(9, 9);;(1, 6);Brown rock and small rocks;1;2066
+;(9, 9);;(1, 6);Brown rock and small rocks;1;2067
+;(9, 9);;(1, 6);Brown rock and small rocks;1;2068
+;(9, 9);;(1, 6);Brown rock and small rocks;1;2069
+;(9, 9);;(1, 6);Brown rock and small rocks;1;2070
+;(9, 9);;(1, 6);Brown rock and small rocks;1;2071
+;(9, 9);;(1, 6);Brown rock and small rocks;1;2072
+;(9, 9);;(1, 6);Brown rock and small rocks;1;2073
+;(9, 9);;(1, 6);Brown rock and small rocks;1;2074
+;(9, 9);;(1, 6);Brown rock and small rocks;1;2075
+;(9, 9);;(1, 6);Brown rock and small rocks;1;2076
+;(9, 9);;(1, 6);Brown rock and small rocks;1;2077
+;(9, 9);;(1, 6);Brown rock and small rocks;1;2078
+;(9, 9);;(1, 6);Brown rock and small rocks;1;2079
+;(9, 9);;(1, 6);Brown rock and small rocks;1;2080
+MoveNorth;(9, 8);;(1, 6);Brown rock and small rocks;1;2081
+;(9, 8);;(1, 6);Brown rock and small rocks;1;2082
+;(9, 8);;(1, 6);Brown rock and small rocks;1;2083
+;(9, 8);;(1, 6);Brown rock and small rocks;1;2084
+;(9, 8);;(1, 6);Brown rock and small rocks;1;2085
+;(9, 8);;(1, 6);Brown rock and small rocks;1;2086
+;(9, 8);;(1, 6);Brown rock and small rocks;1;2087
+;(9, 8);;(1, 6);Brown rock and small rocks;1;2088
+;(9, 8);;(1, 6);Brown rock and small rocks;1;2089
+;(9, 8);;(1, 6);Brown rock and small rocks;1;2090
+;(9, 8);;(1, 6);Brown rock and small rocks;1;2091
+;(9, 8);;(1, 6);Brown rock and small rocks;1;2092
+;(9, 8);;(1, 6);Brown rock and small rocks;1;2093
+;(9, 8);;(1, 6);Brown rock and small rocks;1;2094
+;(9, 8);;(1, 6);Brown rock and small rocks;1;2095
+;(9, 8);;(1, 6);Brown rock and small rocks;1;2096
+MoveWest;(8, 8);;(1, 6);Brown rock and small rocks;1;2097
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2098
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2099
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2100
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2101
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2102
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2103
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2104
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2105
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2106
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2107
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2108
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2109
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2110
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2111
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2112
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2113
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2114
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2115
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2116
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2117
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2118
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2119
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2120
+MoveSouth;(8, 9);;(1, 6);Brown rock and small rocks;1;2121
+;(8, 9);;(1, 6);Brown rock and small rocks;1;2122
+;(8, 9);;(1, 6);Brown rock and small rocks;1;2123
+;(8, 9);;(1, 6);Brown rock and small rocks;1;2124
+;(8, 9);;(1, 6);Brown rock and small rocks;1;2125
+;(8, 9);;(1, 6);Brown rock and small rocks;1;2126
+;(8, 9);;(1, 6);Brown rock and small rocks;1;2127
+;(8, 9);;(1, 6);Brown rock and small rocks;1;2128
+;(8, 9);;(1, 6);Brown rock and small rocks;1;2129
+MoveSouth;(8, 10);;(1, 6);Brown rock and small rocks;1;2130
+;(8, 10);;(1, 6);Brown rock and small rocks;1;2131
+;(8, 10);;(1, 6);Brown rock and small rocks;1;2132
+;(8, 10);;(1, 6);Brown rock and small rocks;1;2133
+;(8, 10);;(1, 6);Brown rock and small rocks;1;2134
+;(8, 10);;(1, 6);Brown rock and small rocks;1;2135
+;(8, 10);;(1, 6);Brown rock and small rocks;1;2136
+;(8, 10);;(1, 6);Brown rock and small rocks;1;2137
+;(8, 10);;(1, 6);Brown rock and small rocks;1;2138
+;(8, 10);;(1, 6);Brown rock and small rocks;1;2139
+;(8, 10);;(1, 6);Brown rock and small rocks;1;2140
+;(8, 10);;(1, 6);Brown rock and small rocks;1;2141
+;(8, 10);;(1, 6);Brown rock and small rocks;1;2142
+;(8, 10);;(1, 6);Brown rock and small rocks;1;2143
+;(8, 10);;(1, 6);Brown rock and small rocks;1;2144
+;(8, 10);;(1, 6);Brown rock and small rocks;1;2145
+;(8, 10);;(1, 6);Brown rock and small rocks;1;2146
+;(8, 10);;(1, 6);Brown rock and small rocks;1;2147
+;(8, 10);;(1, 6);Brown rock and small rocks;1;2148
+;(8, 10);;(1, 6);Brown rock and small rocks;1;2149
+;(8, 10);;(1, 6);Brown rock and small rocks;1;2150
+;(8, 10);;(1, 6);Brown rock and small rocks;1;2151
+;(8, 10);;(1, 6);Brown rock and small rocks;1;2152
+;(8, 10);;(1, 6);Brown rock and small rocks;1;2153
+;(8, 10);;(1, 6);Brown rock and small rocks;1;2154
+;(8, 10);;(1, 6);Brown rock and small rocks;1;2155
+;(8, 10);;(1, 6);Brown rock and small rocks;1;2156
+;(8, 10);;(1, 6);Brown rock and small rocks;1;2157
+;(8, 10);;(1, 6);Brown rock and small rocks;1;2158
+;(8, 10);;(1, 6);Brown rock and small rocks;1;2159
+;(8, 10);;(1, 6);Brown rock and small rocks;1;2160
+;(8, 10);;(1, 6);Brown rock and small rocks;1;2161
+;(8, 10);;(1, 6);Brown rock and small rocks;1;2162
+;(8, 10);;(1, 6);Brown rock and small rocks;1;2163
+MoveNorth;(8, 9);;(1, 6);Brown rock and small rocks;1;2164
+;(8, 9);;(1, 6);Brown rock and small rocks;1;2165
+;(8, 9);;(1, 6);Brown rock and small rocks;1;2166
+;(8, 9);;(1, 6);Brown rock and small rocks;1;2167
+;(8, 9);;(1, 6);Brown rock and small rocks;1;2168
+;(8, 9);;(1, 6);Brown rock and small rocks;1;2169
+MoveNorth;(8, 8);;(1, 6);Brown rock and small rocks;1;2170
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2171
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2172
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2173
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2174
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2175
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2176
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2177
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2178
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2179
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2180
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2181
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2182
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2183
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2184
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2185
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2186
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2187
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2188
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2189
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2190
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2191
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2192
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2193
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2194
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2195
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2196
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2197
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2198
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2199
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2200
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2201
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2202
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2203
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2204
+;(8, 8);;(1, 6);Brown rock and small rocks;1;2205
+MoveEast;(9, 8);;(1, 6);Brown rock and small rocks;1;2206
+;(9, 8);;(1, 6);Brown rock and small rocks;1;2207
+;(9, 8);;(1, 6);Brown rock and small rocks;1;2208
+;(9, 8);;(1, 6);Brown rock and small rocks;1;2209
+;(9, 8);;(1, 6);Brown rock and small rocks;1;2210
+;(9, 8);;(1, 6);Brown rock and small rocks;1;2211
+;(9, 8);;(1, 6);Brown rock and small rocks;1;2212
+;(9, 8);;(1, 6);Brown rock and small rocks;1;2213
+MoveNorth;(9, 7);;(1, 6);Brown rock and small rocks;1;2214
+;(9, 7);;(1, 6);Brown rock and small rocks;1;2215
+;(9, 7);;(1, 6);Brown rock and small rocks;1;2216
+MoveNorth;(9, 6);;(1, 6);Brown rock and small rocks;1;2217
+;(9, 6);;(1, 6);Brown rock and small rocks;1;2218
+;(9, 6);;(1, 6);Brown rock and small rocks;1;2219
+;(9, 6);;(1, 6);Brown rock and small rocks;1;2220
+MoveNorth;(9, 5);;(1, 6);Brown rock and small rocks;1;2221
+;(9, 5);;(1, 6);Brown rock and small rocks;1;2222
+;(9, 5);;(1, 6);Brown rock and small rocks;1;2223
+;(9, 5);;(1, 6);Brown rock and small rocks;1;2224
+;(9, 5);;(1, 6);Brown rock and small rocks;1;2225
+;(9, 5);;(1, 6);Brown rock and small rocks;1;2226
+;(9, 5);;(1, 6);Brown rock and small rocks;1;2227
+;(9, 5);;(1, 6);Brown rock and small rocks;1;2228
+MoveNorth;(9, 4);;(1, 6);Brown rock and small rocks;1;2229
+;(9, 4);;(1, 6);Brown rock and small rocks;1;2230
+;(9, 4);;(1, 6);Brown rock and small rocks;1;2231
+;(9, 4);;(1, 6);Brown rock and small rocks;1;2232
+;(9, 4);;(1, 6);Brown rock and small rocks;1;2233
+;(9, 4);;(1, 6);Brown rock and small rocks;1;2234
+;(9, 4);;(1, 6);Brown rock and small rocks;1;2235
+;(9, 4);;(1, 6);Brown rock and small rocks;1;2236
+;(9, 4);;(1, 6);Brown rock and small rocks;1;2237
+;(9, 4);;(1, 6);Brown rock and small rocks;1;2238
+;(9, 4);;(1, 6);Brown rock and small rocks;1;2239
+;(9, 4);;(1, 6);Brown rock and small rocks;1;2240
+;(9, 4);;(1, 6);Brown rock and small rocks;1;2241
+;(9, 4);;(1, 6);Brown rock and small rocks;1;2242
+;(9, 4);;(1, 6);Brown rock and small rocks;1;2243
+;(9, 4);;(1, 6);Brown rock and small rocks;1;2244
+;(9, 4);;(1, 6);Brown rock and small rocks;1;2245
+;(9, 4);;(1, 6);Brown rock and small rocks;1;2246
+;(9, 4);;(1, 6);Brown rock and small rocks;1;2247
+;(9, 4);;(1, 6);Brown rock and small rocks;1;2248
+;(9, 4);;(1, 6);Brown rock and small rocks;1;2249
+;(9, 4);;(1, 6);Brown rock and small rocks;1;2250
+;(9, 4);;(1, 6);Brown rock and small rocks;1;2251
+;(9, 4);;(1, 6);Brown rock and small rocks;1;2252
+;(9, 4);;(1, 6);Brown rock and small rocks;1;2253
+GrabObject;(9, 4);;(1, 6);Brown rock and small rocks;1;2254
+;(9, 4);;(1, 6);Brown rock and small rocks;1;2255
+;(9, 4);;(1, 6);Brown rock and small rocks;1;2256
+;(9, 4);;(1, 6);Brown rock and small rocks;1;2257
+;(9, 4);;(1, 6);Brown rock and small rocks;1;2258
+;(9, 4);;(1, 6);Brown rock and small rocks;1;2259
+;(9, 4);;(1, 6);Brown rock and small rocks;1;2260
+;(9, 4);;(1, 6);Brown rock and small rocks;1;2261
+;(9, 4);;(1, 6);Brown rock and small rocks;1;2262
+;(9, 4);;(1, 6);Brown rock and small rocks;1;2263
+MoveEast;(10, 4);;(1, 6);Brown rock and small rocks;1;2264
+;(10, 4);;(1, 6);Brown rock and small rocks;1;2265
+;(10, 4);;(1, 6);Brown rock and small rocks;1;2266
+;(10, 4);;(1, 6);Brown rock and small rocks;1;2267
+MoveEast;(11, 4);;(1, 6);Brown rock and small rocks;1;2268
+;(11, 4);;(1, 6);Brown rock and small rocks;1;2269
+;(11, 4);;(1, 6);Brown rock and small rocks;1;2270
+;(11, 4);;(1, 6);Brown rock and small rocks;1;2271
+;(11, 4);;(1, 6);Brown rock and small rocks;1;2272
+;(11, 4);;(1, 6);Brown rock and small rocks;1;2273
+MoveWest;(10, 4);;(1, 6);Brown rock and small rocks;1;2274
+;(10, 4);;(1, 6);Brown rock and small rocks;1;2275
+;(10, 4);;(1, 6);Brown rock and small rocks;1;2276
+;(10, 4);;(1, 6);Brown rock and small rocks;1;2277
+;(10, 4);;(1, 6);Brown rock and small rocks;1;2278
+;(10, 4);;(1, 6);Brown rock and small rocks;1;2279
+;(10, 4);;(1, 6);Brown rock and small rocks;1;2280
+;(10, 4);;(1, 6);Brown rock and small rocks;1;2281
+;(10, 4);;(1, 6);Brown rock and small rocks;1;2282
+;(10, 4);;(1, 6);Brown rock and small rocks;1;2283
+;(10, 4);;(1, 6);Brown rock and small rocks;1;2284
+;(10, 4);;(1, 6);Brown rock and small rocks;1;2285
+;(10, 4);;(1, 6);Brown rock and small rocks;1;2286
+;(10, 4);;(1, 6);Brown rock and small rocks;1;2287
+;(10, 4);;(1, 6);Brown rock and small rocks;1;2288
+;(10, 4);;(1, 6);Brown rock and small rocks;1;2289
+;(10, 4);;(1, 6);Brown rock and small rocks;1;2290
+MoveSouth;(10, 5);;(1, 6);Brown rock and small rocks;1;2291
+;(10, 5);;(1, 6);Brown rock and small rocks;1;2292
+;(10, 5);;(1, 6);Brown rock and small rocks;1;2293
+;(10, 5);;(1, 6);Brown rock and small rocks;1;2294
+;(10, 5);;(1, 6);Brown rock and small rocks;1;2295
+;(10, 5);;(1, 6);Brown rock and small rocks;1;2296
+;(10, 5);;(1, 6);Brown rock and small rocks;1;2297
+;(10, 5);;(1, 6);Brown rock and small rocks;1;2298
+;(10, 5);;(1, 6);Brown rock and small rocks;1;2299
+;(10, 5);;(1, 6);Brown rock and small rocks;1;2300
+;(10, 5);;(1, 6);Brown rock and small rocks;1;2301
+;(10, 5);;(1, 6);Brown rock and small rocks;1;2302
+;(10, 5);;(1, 6);Brown rock and small rocks;1;2303
+;(10, 5);;(1, 6);Brown rock and small rocks;1;2304
+;(10, 5);;(1, 6);Brown rock and small rocks;1;2305
+;(10, 5);;(1, 6);Brown rock and small rocks;1;2306
+;(10, 5);;(1, 6);Brown rock and small rocks;1;2307
+;(10, 5);;(1, 6);Brown rock and small rocks;1;2308
+;(10, 5);;(1, 6);Brown rock and small rocks;1;2309
+;(10, 5);;(1, 6);Brown rock and small rocks;1;2310
+;(10, 5);;(1, 6);Brown rock and small rocks;1;2311
+;(10, 5);;(1, 6);Brown rock and small rocks;1;2312
+;(10, 5);;(1, 6);Brown rock and small rocks;1;2313
+;(10, 5);;(1, 6);Brown rock and small rocks;1;2314
+;(10, 5);;(1, 6);Brown rock and small rocks;1;2315
+;(10, 5);;(1, 6);Brown rock and small rocks;1;2316
+;(10, 5);;(1, 6);Brown rock and small rocks;1;2317
+;(10, 5);;(1, 6);Brown rock and small rocks;1;2318
+;(10, 5);;(1, 6);Brown rock and small rocks;1;2319
+;(10, 5);;(1, 6);Brown rock and small rocks;1;2320
+;(10, 5);;(1, 6);Brown rock and small rocks;1;2321
+;(10, 5);;(1, 6);Brown rock and small rocks;1;2322
+;(10, 5);;(1, 6);Brown rock and small rocks;1;2323
+;(10, 5);;(1, 6);Brown rock and small rocks;1;2324
+;(10, 5);;(1, 6);Brown rock and small rocks;1;2325
+;(10, 5);;(1, 6);Brown rock and small rocks;1;2326
+;(10, 5);;(1, 6);Brown rock and small rocks;1;2327
+;(10, 5);;(1, 6);Brown rock and small rocks;1;2328
+;(10, 5);;(1, 6);Brown rock and small rocks;1;2329
+;(10, 5);;(1, 6);Brown rock and small rocks;1;2330
+;(10, 5);;(1, 6);Brown rock and small rocks;1;2331
+;(10, 5);;(1, 6);Brown rock and small rocks;1;2332
+;(10, 5);;(1, 6);Brown rock and small rocks;1;2333
+MoveWest;(9, 5);;(1, 6);Brown rock and small rocks;1;2334
+;(9, 5);;(1, 6);Brown rock and small rocks;1;2335
+;(9, 5);;(1, 6);Brown rock and small rocks;1;2336
+;(9, 5);;(1, 6);Brown rock and small rocks;1;2337
+;(9, 5);;(1, 6);Brown rock and small rocks;1;2338
+;(9, 5);;(1, 6);Brown rock and small rocks;1;2339
+;(9, 5);;(1, 6);Brown rock and small rocks;1;2340
+;(9, 5);;(1, 6);Brown rock and small rocks;1;2341
+;(9, 5);;(1, 6);Brown rock and small rocks;1;2342
+MoveWest;(8, 5);;(1, 6);Brown rock and small rocks;1;2343
+MoveWest;(7, 5);;(1, 6);Brown rock and small rocks;1;2344
+MoveWest;(6, 5);;(1, 6);Brown rock and small rocks;1;2345
+MoveWest;(5, 5);;(1, 6);Brown rock and small rocks;1;2346
+MoveWest;(4, 5);;(1, 6);Brown rock and small rocks;1;2347
+MoveWest;(3, 5);;(1, 6);Brown rock and small rocks;1;2348
+MoveWest;(2, 5);;(1, 6);Brown rock and small rocks;1;2349
+MoveWest;(1, 5);;(1, 6);Brown rock and small rocks;1;2350
+MoveWest;(0, 5);;(1, 6);Brown rock and small rocks;1;2351
+MoveWest;(0, 5);;(1, 6);Brown rock and small rocks;1;2352
+MoveWest;(0, 5);;(1, 6);Brown rock and small rocks;1;2353
+;(0, 5);;(1, 6);Brown rock and small rocks;1;2354
+;(0, 5);;(1, 6);Brown rock and small rocks;1;2355
+;(0, 5);;(1, 6);Brown rock and small rocks;1;2356
+;(0, 5);;(1, 6);Brown rock and small rocks;1;2357
+;(0, 5);;(1, 6);Brown rock and small rocks;1;2358
+;(0, 5);;(1, 6);Brown rock and small rocks;1;2359
+;(0, 5);;(1, 6);Brown rock and small rocks;1;2360
+;(0, 5);;(1, 6);Brown rock and small rocks;1;2361
+MoveSouth;(0, 6);;(1, 6);Brown rock and small rocks;1;2362
+;(0, 6);;(1, 6);Brown rock and small rocks;1;2363
+;(0, 6);;(1, 6);Brown rock and small rocks;1;2364
+;(0, 6);;(1, 6);Brown rock and small rocks;1;2365
+MoveSouth;(0, 7);;(1, 6);Brown rock and small rocks;1;2366
+;(0, 7);;(1, 6);Brown rock and small rocks;1;2367
+;(0, 7);;(1, 6);Brown rock and small rocks;1;2368
+;(0, 7);;(1, 6);Brown rock and small rocks;1;2369
+;(0, 7);;(1, 6);Brown rock and small rocks;1;2370
+;(0, 7);;(1, 6);Brown rock and small rocks;1;2371
+;(0, 7);;(1, 6);Brown rock and small rocks;1;2372
+;(0, 7);;(1, 6);Brown rock and small rocks;1;2373
+MoveSouth;(0, 8);;(1, 6);Brown rock and small rocks;1;2374
+;(0, 8);;(1, 6);Brown rock and small rocks;1;2375
+;(0, 8);;(1, 6);Brown rock and small rocks;1;2376
+;(0, 8);;(1, 6);Brown rock and small rocks;1;2377
+;(0, 8);;(1, 6);Brown rock and small rocks;1;2378
+;(0, 8);;(1, 6);Brown rock and small rocks;1;2379
+MoveEast;(1, 8);;(1, 6);Brown rock and small rocks;1;2380
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2381
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2382
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2383
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2384
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2385
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2386
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2387
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2388
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2389
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2390
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2391
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2392
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2393
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2394
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2395
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2396
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2397
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2398
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2399
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2400
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2401
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2402
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2403
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2404
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2405
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2406
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2407
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2408
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2409
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2410
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2411
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2412
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2413
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2414
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2415
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2416
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2417
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2418
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2419
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2420
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2421
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2422
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2423
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2424
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2425
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2426
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2427
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2428
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2429
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2430
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2431
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2432
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2433
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2434
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2435
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2436
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2437
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2438
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2439
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2440
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2441
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2442
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2443
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2444
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2445
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2446
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2447
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2448
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2449
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2450
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2451
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2452
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2453
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2454
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2455
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2456
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2457
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2458
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2459
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2460
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2461
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2462
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2463
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2464
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2465
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2466
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2467
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2468
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2469
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2470
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2471
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2472
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2473
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2474
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2475
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2476
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2477
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2478
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2479
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2480
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2481
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2482
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2483
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2484
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2485
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2486
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2487
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2488
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2489
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2490
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2491
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2492
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2493
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2494
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2495
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2496
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2497
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2498
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2499
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2500
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2501
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2502
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2503
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2504
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2505
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2506
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2507
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2508
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2509
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2510
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2511
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2512
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2513
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2514
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2515
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2516
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2517
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2518
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2519
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2520
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2521
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2522
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2523
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2524
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2525
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2526
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2527
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2528
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2529
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2530
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2531
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2532
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2533
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2534
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2535
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2536
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2537
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2538
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2539
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2540
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2541
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2542
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2543
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2544
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2545
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2546
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2547
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2548
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2549
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2550
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2551
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2552
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2553
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2554
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2555
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2556
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2557
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2558
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2559
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2560
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2561
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2562
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2563
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2564
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2565
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2566
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2567
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2568
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2569
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2570
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2571
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2572
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2573
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2574
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2575
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2576
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2577
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2578
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2579
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2580
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2581
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2582
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2583
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2584
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2585
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2586
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2587
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2588
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2589
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2590
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2591
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2592
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2593
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2594
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2595
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2596
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2597
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2598
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2599
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2600
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2601
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2602
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2603
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2604
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2605
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2606
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2607
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2608
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2609
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2610
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2611
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2612
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2613
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2614
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2615
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2616
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2617
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2618
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2619
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2620
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2621
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2622
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2623
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2624
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2625
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2626
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2627
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2628
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2629
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2630
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2631
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2632
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2633
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2634
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2635
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2636
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2637
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2638
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2639
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2640
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2641
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2642
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2643
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2644
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2645
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2646
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2647
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2648
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2649
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2650
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2651
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2652
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2653
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2654
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2655
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2656
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2657
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2658
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2659
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2660
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2661
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2662
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2663
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2664
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2665
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2666
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2667
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2668
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2669
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2670
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2671
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2672
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2673
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2674
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2675
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2676
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2677
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2678
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2679
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2680
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2681
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2682
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2683
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2684
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2685
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2686
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2687
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2688
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2689
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2690
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2691
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2692
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2693
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2694
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2695
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2696
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2697
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2698
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2699
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2700
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2701
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2702
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2703
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2704
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2705
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2706
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2707
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2708
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2709
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2710
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2711
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2712
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2713
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2714
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2715
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2716
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2717
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2718
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2719
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2720
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2721
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2722
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2723
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2724
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2725
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2726
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2727
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2728
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2729
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2730
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2731
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2732
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2733
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2734
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2735
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2736
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2737
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2738
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2739
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2740
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2741
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2742
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2743
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2744
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2745
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2746
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2747
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2748
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2749
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2750
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2751
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2752
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2753
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2754
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2755
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2756
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2757
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2758
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2759
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2760
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2761
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2762
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2763
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2764
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2765
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2766
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2767
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2768
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2769
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2770
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2771
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2772
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2773
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2774
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2775
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2776
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2777
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2778
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2779
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2780
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2781
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2782
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2783
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2784
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2785
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2786
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2787
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2788
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2789
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2790
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2791
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2792
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2793
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2794
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2795
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2796
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2797
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2798
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2799
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2800
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2801
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2802
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2803
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2804
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2805
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2806
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2807
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2808
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2809
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2810
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2811
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2812
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2813
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2814
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2815
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2816
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2817
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2818
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2819
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2820
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2821
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2822
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2823
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2824
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2825
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2826
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2827
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2828
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2829
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2830
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2831
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2832
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2833
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2834
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2835
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2836
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2837
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2838
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2839
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2840
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2841
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2842
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2843
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2844
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2845
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2846
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2847
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2848
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2849
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2850
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2851
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2852
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2853
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2854
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2855
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2856
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2857
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2858
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2859
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2860
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2861
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2862
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2863
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2864
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2865
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2866
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2867
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2868
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2869
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2870
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2871
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2872
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2873
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2874
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2875
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2876
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2877
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2878
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2879
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2880
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2881
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2882
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2883
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2884
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2885
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2886
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2887
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2888
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2889
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2890
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2891
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2892
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2893
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2894
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2895
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2896
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2897
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2898
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2899
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2900
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2901
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2902
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2903
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2904
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2905
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2906
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2907
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2908
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2909
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2910
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2911
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2912
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2913
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2914
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2915
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2916
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2917
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2918
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2919
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2920
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2921
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2922
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2923
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2924
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2925
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2926
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2927
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2928
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2929
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2930
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2931
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2932
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2933
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2934
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2935
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2936
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2937
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2938
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2939
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2940
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2941
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2942
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2943
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2944
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2945
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2946
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2947
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2948
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2949
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2950
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2951
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2952
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2953
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2954
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2955
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2956
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2957
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2958
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2959
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2960
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2961
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2962
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2963
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2964
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2965
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2966
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2967
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2968
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2969
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2970
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2971
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2972
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2973
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2974
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2975
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2976
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2977
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2978
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2979
+;(1, 8);;(1, 6);Brown rock and small rocks;1;2980
+MoveEast;(2, 8);;(1, 6);Brown rock and small rocks;1;2981
+;(2, 8);;(1, 6);Brown rock and small rocks;1;2982
+;(2, 8);;(1, 6);Brown rock and small rocks;1;2983
+;(2, 8);;(1, 6);Brown rock and small rocks;1;2984
+;(2, 8);;(1, 6);Brown rock and small rocks;1;2985
+;(2, 8);;(1, 6);Brown rock and small rocks;1;2986
+;(2, 8);;(1, 6);Brown rock and small rocks;1;2987
+;(2, 8);;(1, 6);Brown rock and small rocks;1;2988
+;(2, 8);;(1, 6);Brown rock and small rocks;1;2989
+;(2, 8);;(1, 6);Brown rock and small rocks;1;2990
+;(2, 8);;(1, 6);Brown rock and small rocks;1;2991
+;(2, 8);;(1, 6);Brown rock and small rocks;1;2992
+;(2, 8);;(1, 6);Brown rock and small rocks;1;2993
+;(2, 8);;(1, 6);Brown rock and small rocks;1;2994
+;(2, 8);;(1, 6);Brown rock and small rocks;1;2995
+;(2, 8);;(1, 6);Brown rock and small rocks;1;2996
+;(2, 8);;(1, 6);Brown rock and small rocks;1;2997
+;(2, 8);;(1, 6);Brown rock and small rocks;1;2998
+;(2, 8);;(1, 6);Brown rock and small rocks;1;2999
+;(2, 8);;(1, 6);Brown rock and small rocks;1;3000
+;(2, 8);;(1, 6);Brown rock and small rocks;1;3001
+;(2, 8);;(1, 6);Brown rock and small rocks;1;3002
+;(2, 8);;(1, 6);Brown rock and small rocks;1;3003
+;(2, 8);;(1, 6);Brown rock and small rocks;1;3004
+;(2, 8);;(1, 6);Brown rock and small rocks;1;3005
+;(2, 8);;(1, 6);Brown rock and small rocks;1;3006
+;(2, 8);;(1, 6);Brown rock and small rocks;1;3007
+;(2, 8);;(1, 6);Brown rock and small rocks;1;3008
+;(2, 8);;(1, 6);Brown rock and small rocks;1;3009
+;(2, 8);;(1, 6);Brown rock and small rocks;1;3010
+;(2, 8);;(1, 6);Brown rock and small rocks;1;3011
+;(2, 8);;(1, 6);Brown rock and small rocks;1;3012
+;(2, 8);;(1, 6);Brown rock and small rocks;1;3013
+;(2, 8);;(1, 6);Brown rock and small rocks;1;3014
+;(2, 8);;(1, 6);Brown rock and small rocks;1;3015
+;(2, 8);;(1, 6);Brown rock and small rocks;1;3016
+;(2, 8);;(1, 6);Brown rock and small rocks;1;3017
+;(2, 8);;(1, 6);Brown rock and small rocks;1;3018
+;(2, 8);;(1, 6);Brown rock and small rocks;1;3019

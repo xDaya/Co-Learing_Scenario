@@ -1,0 +1,20 @@
+tick;corrected_tick;remaining_distance;victim_harm;idle_time_robot;q_table_cps;q_table_cps_runs;q_table_basic;world_nr;tick_nr
+3019;3000;28;0;2834;"                         s1  Stand still robot  Bottom Rock
+[4, 'equal', False] -2148.0                NaN      -1772.0
+[4, 'equal', True]      NaN            -2837.0          0.0
+[2, 'robot', False]  -295.0                NaN          0.0
+[1, 'robot', False]  -319.0                NaN          0.0
+[4, 'human', False] -2244.0                NaN          0.0
+[4, 'robot', False]   -37.0                NaN          NaN
+[3, 'robot', True]      NaN             -528.0          NaN
+[3, 'equal', False]  -113.0                NaN          NaN
+[2, 'equal', False]     NaN                NaN       -164.0";"                       s1  Stand still robot  Bottom Rock
+[4, 'equal', False]  10.0                NaN          2.0
+[4, 'equal', True]    NaN                1.0          0.0
+[2, 'robot', False]  11.0                NaN          0.0
+[1, 'robot', False]   7.0                NaN          0.0
+[4, 'human', False]   7.0                NaN          0.0
+[4, 'robot', False]   5.0                NaN          NaN
+[3, 'robot', True]    NaN                1.0          NaN
+[3, 'equal', False]   3.0                NaN          NaN
+[2, 'equal', False]   NaN                NaN          1.0";;1;3019

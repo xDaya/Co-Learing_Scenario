@@ -1,0 +1,6 @@
+tick;corrected_tick;remaining_distance;victim_harm;idle_time_robot;q_table_cps;q_table_cps_runs;q_table_basic;world_nr;tick_nr
+3019;3000;36;0;2999;"                     Move Large   Break
+[4, 'equal', False]         NaN -6304.0
+[4, 'human', True]          NaN  -574.0";"                     Move Large  Break
+[4, 'equal', False]         NaN    2.0
+[4, 'human', True]          NaN    1.0";;1;3019

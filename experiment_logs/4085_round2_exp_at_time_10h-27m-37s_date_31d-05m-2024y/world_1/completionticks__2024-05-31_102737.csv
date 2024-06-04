@@ -1,0 +1,14 @@
+tick;corrected_tick;remaining_distance;victim_harm;idle_time_robot;q_table_cps;q_table_cps_runs;q_table_basic;world_nr;tick_nr
+1328;1309;;0;25;"                     large rock robot 
+[4, 'equal', False]              328.0";"                     large rock robot 
+[4, 'equal', False]                6.0";"                     Move back and forth  Stand Still  Pick up  Drop    Break
+[4, 'equal', False]                -11.6   -28.159375   -6.725  -2.0 -13.4375
+[4, 'equal', True]                  -7.0    -3.500000   -4.500   0.0  -3.1000
+[4, 'robot', True]                   0.0     0.000000    0.000  -4.0   0.0000
+[4, 'robot', False]                 -5.1    -1.100000    0.000   0.0   0.0000
+[3, 'equal', False]                 -7.0    -3.500000   -1.500  -1.5   0.0000
+[3, 'equal', True]                   0.0     0.000000    0.000   0.0  -4.5000
+[3, 'human', False]                 -4.0     0.000000    0.000   0.0 -15.0000
+[2, 'human', False]                 -4.0    -3.500000   -2.000   0.0   0.0000
+[2, 'equal', True]                   0.0     0.000000    0.000  -2.5   0.0000
+[2, 'human', True]                 -38.5     0.000000    0.000   0.0  -4.0000";1;1328

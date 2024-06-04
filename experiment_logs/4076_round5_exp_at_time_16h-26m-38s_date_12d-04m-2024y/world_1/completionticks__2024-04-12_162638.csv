@@ -1,0 +1,24 @@
+tick;corrected_tick;remaining_distance;victim_harm;idle_time_robot;q_table_cps;q_table_cps_runs;q_table_basic;world_nr;tick_nr
+1201;1182;31;700;1;"                         s1  Stand still robot  Bottom Rock
+[4, 'equal', False] -2148.0                NaN        -37.0
+[4, 'equal', True]      NaN            -2837.0          0.0
+[2, 'robot', False]  -295.0                NaN          0.0
+[1, 'robot', False]  -319.0                NaN          0.0
+[4, 'human', False] -2244.0                NaN          0.0
+[4, 'robot', False]   -37.0                NaN          NaN";"                       s1  Stand still robot  Bottom Rock
+[4, 'equal', False]  10.0                NaN          1.0
+[4, 'equal', True]    NaN                1.0          0.0
+[2, 'robot', False]  11.0                NaN          0.0
+[1, 'robot', False]   7.0                NaN          0.0
+[4, 'human', False]   7.0                NaN          0.0
+[4, 'robot', False]   5.0                NaN          NaN";"                     Move back and forth  Stand Still  Pick up    Drop  Break
+[2, 'robot', False]                -6.50        -6.00     -6.7  -5.500 -12.85
+[2, 'robot', True]                  0.00         0.00      0.0   0.000   0.00
+[1, 'robot', False]                -5.00        -2.50     -2.0  -3.900   0.00
+[4, 'equal', False]                -4.50        -4.00     -2.0   0.000   1.00
+[4, 'equal', True]                 -5.00         0.00      0.0   0.000   0.00
+[4, 'human', False]                -3.00        -3.50      0.0   0.000  -4.20
+[1, 'robot', True]                 -7.00        -4.00     -7.5  -1.375   0.00
+[4, 'robot', True]                 -7.00       -11.80     -2.0 -16.000  -9.90
+[4, 'robot', False]               -13.75       -10.75    -11.0   0.000  -5.00
+[3, 'robot', True]                  0.00         0.00    -26.5   0.000   0.00";1;1201

@@ -1,0 +1,21 @@
+tick;corrected_tick;remaining_distance;victim_harm;idle_time_robot;q_table_cps;q_table_cps_runs;q_table_basic;world_nr;tick_nr
+2601;2582;;0;1;"                     Remove big rock  Remove large rock top  Large rock on human
+[3, 'human', True]           -1117.0                    0.0                  0.0
+[4, 'equal', False]              0.0                   48.0                  0.0
+[4, 'robot', False]           -498.0                    NaN                  0.0
+[3, 'robot', True]               NaN                   60.0                  0.0
+[2, 'robot', False]              NaN                -2239.0                  NaN";"                     Remove big rock  Remove large rock top  Large rock on human
+[3, 'human', True]               3.0                    0.0                  0.0
+[4, 'equal', False]              0.0                    3.0                  0.0
+[4, 'robot', False]              2.0                    NaN                  0.0
+[3, 'robot', True]               NaN                    2.0                  0.0
+[2, 'robot', False]              NaN                    4.0                  NaN";"                     Move back and forth  Stand Still  Pick up  Drop  Break
+[4, 'equal', False]                 -7.2        -6.14    -9.20  -4.6 -5.750
+[4, 'human', False]                 -4.0         0.00     0.00  -4.5  0.000
+[3, 'human', False]                 -4.0        -3.90    -6.65   0.0 -6.075
+[3, 'human', True]                  -3.0        -3.50     0.00   0.0  0.000
+[2, 'equal', True]                  -7.0         0.00     0.00 -41.5  0.000
+[2, 'equal', False]                -28.5         0.00     0.00   0.0 -8.500
+[2, 'robot', False]                 -4.0        -0.50    -2.15  -3.0  0.000
+[1, 'robot', True]                   0.0        -4.00     0.00   0.0  0.000
+[1, 'robot', False]                 -7.0        -3.50     0.00   6.0  0.000";1;2601

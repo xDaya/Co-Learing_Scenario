@@ -1,0 +1,251 @@
+human_selector_action;human_selector_location;robot_action;robot_location;robot_executing_cp;world_nr;tick_nr
+;(3, 4);;(4, 4);False;1;0
+;(3, 4);;(4, 4);False;1;1
+;(3, 4);;(4, 4);Break big rocks on top;1;2
+;(3, 4);;(4, 4);Break big rocks on top;1;3
+;(3, 4);MoveEast;(4, 4);Break big rocks on top;1;4
+;(3, 4);MoveEast;(4, 4);Break big rocks on top;1;5
+;(3, 4);MoveEast;(4, 4);Break big rocks on top;1;6
+;(3, 4);MoveEast;(4, 4);Break big rocks on top;1;7
+;(3, 4);MoveEast;(4, 4);Break big rocks on top;1;8
+;(3, 4);MoveEast;(4, 4);Break big rocks on top;1;9
+;(3, 4);MoveEast;(4, 4);Break big rocks on top;1;10
+;(3, 4);MoveEast;(4, 4);Break big rocks on top;1;11
+;(3, 4);MoveEast;(4, 4);Break big rocks on top;1;12
+;(3, 4);MoveEast;(4, 4);Break big rocks on top;1;13
+;(3, 4);MoveEast;(5, 4);Break big rocks on top;1;14
+;(3, 4);MoveNorthEast;(5, 4);Break big rocks on top;1;15
+;(3, 4);MoveNorthEast;(5, 4);Break big rocks on top;1;16
+;(3, 4);MoveNorthEast;(5, 4);Break big rocks on top;1;17
+;(3, 4);MoveNorthEast;(5, 4);Break big rocks on top;1;18
+;(3, 4);MoveNorthEast;(5, 4);Break big rocks on top;1;19
+;(3, 4);MoveNorthEast;(5, 4);Break big rocks on top;1;20
+;(3, 4);MoveNorthEast;(5, 4);Break big rocks on top;1;21
+;(3, 4);MoveNorthEast;(5, 4);Break big rocks on top;1;22
+;(3, 4);MoveNorthEast;(5, 4);Break big rocks on top;1;23
+;(3, 4);MoveNorthEast;(5, 4);Break big rocks on top;1;24
+;(3, 4);MoveNorthEast;(6, 3);Break big rocks on top;1;25
+;(3, 4);MoveEast;(6, 3);Break big rocks on top;1;26
+;(3, 4);MoveEast;(6, 3);Break big rocks on top;1;27
+;(3, 4);MoveEast;(6, 3);Break big rocks on top;1;28
+;(3, 4);MoveEast;(6, 3);Break big rocks on top;1;29
+;(3, 4);MoveEast;(6, 3);Break big rocks on top;1;30
+;(3, 4);MoveEast;(6, 3);Break big rocks on top;1;31
+;(3, 4);MoveEast;(6, 3);Break big rocks on top;1;32
+;(3, 4);MoveEast;(6, 3);Break big rocks on top;1;33
+;(3, 4);MoveEast;(6, 3);Break big rocks on top;1;34
+;(3, 4);MoveEast;(6, 3);Break big rocks on top;1;35
+;(3, 4);MoveEast;(7, 3);Break big rocks on top;1;36
+;(3, 4);MoveNorthEast;(7, 3);Break big rocks on top;1;37
+;(3, 4);MoveNorthEast;(7, 3);Break big rocks on top;1;38
+;(3, 4);MoveNorthEast;(7, 3);Break big rocks on top;1;39
+;(3, 4);MoveNorthEast;(7, 3);Break big rocks on top;1;40
+;(3, 4);MoveNorthEast;(7, 3);Break big rocks on top;1;41
+;(3, 4);MoveNorthEast;(7, 3);Break big rocks on top;1;42
+;(3, 4);MoveNorthEast;(7, 3);Break big rocks on top;1;43
+;(3, 4);MoveNorthEast;(7, 3);Break big rocks on top;1;44
+;(3, 4);MoveNorthEast;(7, 3);Break big rocks on top;1;45
+MoveEast;(4, 4);MoveNorthEast;(7, 3);Break big rocks on top;1;46
+;(4, 4);MoveNorthEast;(8, 2);Break big rocks on top;1;47
+;(4, 4);MoveEast;(8, 2);Break big rocks on top;1;48
+;(4, 4);MoveEast;(8, 2);Break big rocks on top;1;49
+;(4, 4);MoveEast;(8, 2);Break big rocks on top;1;50
+MoveEast;(5, 4);MoveEast;(8, 2);Break big rocks on top;1;51
+;(5, 4);MoveEast;(8, 2);Break big rocks on top;1;52
+;(5, 4);MoveEast;(8, 2);Break big rocks on top;1;53
+;(5, 4);MoveEast;(8, 2);Break big rocks on top;1;54
+MoveEast;(6, 4);MoveEast;(8, 2);Break big rocks on top;1;55
+;(6, 4);MoveEast;(8, 2);Break big rocks on top;1;56
+;(6, 4);MoveEast;(8, 2);Break big rocks on top;1;57
+;(6, 4);MoveEast;(9, 2);Break big rocks on top;1;58
+MoveEast;(7, 4);Idle;(9, 2);Break big rocks on top;1;59
+;(7, 4);Idle;(9, 2);Break big rocks on top;1;60
+;(7, 4);Idle;(9, 2);Break big rocks on top;1;61
+;(7, 4);Idle;(9, 2);Break big rocks on top;1;62
+;(7, 4);Idle;(9, 2);Break big rocks on top;1;63
+;(7, 4);Idle;(9, 2);Break big rocks on top;1;64
+;(7, 4);Idle;(9, 2);Break big rocks on top;1;65
+MoveEast;(8, 4);Idle;(9, 2);Break big rocks on top;1;66
+;(8, 4);Idle;(9, 2);Break big rocks on top;1;67
+;(8, 4);Idle;(9, 2);Break big rocks on top;1;68
+;(8, 4);Idle;(9, 2);Break big rocks on top;1;69
+;(8, 4);Idle;(9, 2);Break big rocks on top;1;70
+;(8, 4);Idle;(9, 2);Break big rocks on top;1;71
+;(8, 4);Idle;(9, 2);Break big rocks on top;1;72
+MoveEast;(9, 4);Idle;(9, 2);Break big rocks on top;1;73
+;(9, 4);Idle;(9, 2);Break big rocks on top;1;74
+;(9, 4);Idle;(9, 2);Break big rocks on top;1;75
+;(9, 4);Idle;(9, 2);Break big rocks on top;1;76
+;(9, 4);Idle;(9, 2);Break big rocks on top;1;77
+MoveEast;(10, 4);Idle;(9, 2);Break big rocks on top;1;78
+;(10, 4);Idle;(9, 2);Break big rocks on top;1;79
+;(10, 4);Idle;(9, 2);Break big rocks on top;1;80
+;(10, 4);Idle;(9, 2);Break big rocks on top;1;81
+;(10, 4);Idle;(9, 2);Break big rocks on top;1;82
+;(10, 4);Idle;(9, 2);Break big rocks on top;1;83
+;(10, 4);Idle;(9, 2);Break big rocks on top;1;84
+;(10, 4);Idle;(9, 2);Break big rocks on top;1;85
+;(10, 4);Idle;(9, 2);Break big rocks on top;1;86
+;(10, 4);Idle;(9, 2);Break big rocks on top;1;87
+;(10, 4);Idle;(9, 2);Break big rocks on top;1;88
+;(10, 4);Idle;(9, 2);Break big rocks on top;1;89
+MoveWest;(9, 4);Idle;(9, 2);Break big rocks on top;1;90
+;(9, 4);Idle;(9, 2);Break big rocks on top;1;91
+;(9, 4);Idle;(9, 2);Break big rocks on top;1;92
+;(9, 4);Idle;(9, 2);Break big rocks on top;1;93
+;(9, 4);Idle;(9, 2);Break big rocks on top;1;94
+;(9, 4);Idle;(9, 2);Break big rocks on top;1;95
+;(9, 4);Idle;(9, 2);Break big rocks on top;1;96
+;(9, 4);Idle;(9, 2);Break big rocks on top;1;97
+;(9, 4);Idle;(9, 2);Break big rocks on top;1;98
+;(9, 4);Idle;(9, 2);Break big rocks on top;1;99
+;(9, 4);Idle;(9, 2);Break big rocks on top;1;100
+;(9, 4);Idle;(9, 2);Break big rocks on top;1;101
+;(9, 4);Idle;(9, 2);Break big rocks on top;1;102
+;(9, 4);Idle;(9, 2);Break big rocks on top;1;103
+;(9, 4);Idle;(9, 2);Break big rocks on top;1;104
+;(9, 4);Idle;(9, 2);Break big rocks on top;1;105
+;(9, 4);Idle;(9, 2);Break big rocks on top;1;106
+;(9, 4);Idle;(9, 2);Break big rocks on top;1;107
+;(9, 4);Idle;(9, 2);Break big rocks on top;1;108
+;(9, 4);Idle;(9, 2);Break big rocks on top;1;109
+;(9, 4);Idle;(9, 2);Break big rocks on top;1;110
+;(9, 4);Idle;(9, 2);Break big rocks on top;1;111
+;(9, 4);Idle;(9, 2);Break big rocks on top;1;112
+;(9, 4);Idle;(9, 2);Break big rocks on top;1;113
+;(9, 4);;(9, 2);Break big rocks on top;1;114
+;(9, 4);;(9, 2);Break big rocks on top;1;115
+;(9, 4);;(9, 2);Break big rocks on top;1;116
+;(9, 4);BreakObject;(9, 2);Break big rocks on top;1;117
+;(9, 4);BreakObject;(9, 2);Break big rocks on top;1;118
+;(9, 4);BreakObject;(9, 2);Break big rocks on top;1;119
+;(9, 4);BreakObject;(9, 2);Break big rocks on top;1;120
+;(9, 4);BreakObject;(9, 2);Break big rocks on top;1;121
+GrabObject;(9, 4);BreakObject;(9, 2);Break big rocks on top;1;122
+;(9, 4);BreakObject;(9, 2);Break big rocks on top;1;123
+;(9, 4);BreakObject;(9, 2);Break big rocks on top;1;124
+MoveWest;(8, 4);BreakObject;(9, 2);Break big rocks on top;1;125
+;(8, 4);BreakObject;(9, 2);Break big rocks on top;1;126
+;(8, 4);BreakObject;(9, 2);Break big rocks on top;1;127
+;(8, 4);;(9, 2);Break big rocks on top;1;128
+MoveWest;(7, 4);;(9, 2);False;1;129
+;(7, 4);;(9, 2);Break big rocks at the bottom;1;130
+MoveWest;(6, 4);;(9, 2);Break big rocks at the bottom;1;131
+;(6, 4);;(9, 2);Break big rocks at the bottom;1;132
+;(6, 4);;(9, 2);Break big rocks at the bottom;1;133
+;(6, 4);;(9, 2);Break big rocks at the bottom;1;134
+;(6, 4);;(9, 2);Break big rocks at the bottom;1;135
+MoveWest;(5, 4);;(9, 2);Break big rocks at the bottom;1;136
+;(5, 4);;(9, 2);Break big rocks at the bottom;1;137
+;(5, 4);;(9, 2);Break big rocks at the bottom;1;138
+MoveWest;(4, 4);;(9, 2);Break big rocks at the bottom;1;139
+;(4, 4);;(9, 2);Break big rocks at the bottom;1;140
+;(4, 4);;(9, 2);Break big rocks at the bottom;1;141
+MoveWest;(3, 4);;(9, 2);Break big rocks at the bottom;1;142
+;(3, 4);;(9, 2);Break big rocks at the bottom;1;143
+;(3, 4);;(9, 2);Break big rocks at the bottom;1;144
+MoveWest;(2, 4);;(9, 2);Break big rocks at the bottom;1;145
+;(2, 4);;(9, 2);Break big rocks at the bottom;1;146
+;(2, 4);;(9, 2);Break big rocks at the bottom;1;147
+;(2, 4);;(9, 2);Break big rocks at the bottom;1;148
+MoveWest;(1, 4);;(9, 2);Break big rocks at the bottom;1;149
+;(1, 4);;(9, 2);Break big rocks at the bottom;1;150
+;(1, 4);;(9, 2);Break big rocks at the bottom;1;151
+MoveWest;(0, 4);;(9, 2);Break big rocks at the bottom;1;152
+;(0, 4);;(9, 2);Break big rocks at the bottom;1;153
+;(0, 4);;(9, 2);Break big rocks at the bottom;1;154
+;(0, 4);;(9, 2);Break big rocks at the bottom;1;155
+;(0, 4);;(9, 2);Break big rocks at the bottom;1;156
+;(0, 4);;(9, 2);Break big rocks at the bottom;1;157
+;(0, 4);;(9, 2);Break big rocks at the bottom;1;158
+;(0, 4);;(9, 2);Break big rocks at the bottom;1;159
+DropObject;(0, 4);;(9, 2);Break big rocks at the bottom;1;160
+;(0, 4);;(9, 2);Break big rocks at the bottom;1;161
+;(0, 4);;(9, 2);Break big rocks at the bottom;1;162
+;(0, 4);;(9, 2);Break big rocks at the bottom;1;163
+MoveEast;(1, 4);;(9, 2);Break big rocks at the bottom;1;164
+;(1, 4);;(9, 2);Break big rocks at the bottom;1;165
+;(1, 4);;(9, 2);Break big rocks at the bottom;1;166
+;(1, 4);;(9, 2);Break big rocks at the bottom;1;167
+MoveEast;(2, 4);;(9, 2);Break big rocks at the bottom;1;168
+;(2, 4);;(9, 2);Break big rocks at the bottom;1;169
+;(2, 4);;(9, 2);Break big rocks at the bottom;1;170
+;(2, 4);;(9, 2);Break big rocks at the bottom;1;171
+MoveEast;(3, 4);;(9, 2);Break big rocks at the bottom;1;172
+;(3, 4);;(9, 2);Break big rocks at the bottom;1;173
+;(3, 4);;(9, 2);Break big rocks at the bottom;1;174
+MoveEast;(4, 4);;(9, 2);Break big rocks at the bottom;1;175
+;(4, 4);;(9, 2);Break big rocks at the bottom;1;176
+;(4, 4);;(9, 2);Break big rocks at the bottom;1;177
+MoveEast;(5, 4);;(9, 2);Break big rocks at the bottom;1;178
+;(5, 4);;(9, 2);Break big rocks at the bottom;1;179
+;(5, 4);;(9, 2);Break big rocks at the bottom;1;180
+;(5, 4);;(9, 2);Break big rocks at the bottom;1;181
+;(5, 4);;(9, 2);Break big rocks at the bottom;1;182
+MoveEast;(6, 4);;(9, 2);Break big rocks at the bottom;1;183
+;(6, 4);;(9, 2);Break big rocks at the bottom;1;184
+;(6, 4);;(9, 2);Break big rocks at the bottom;1;185
+;(6, 4);;(9, 2);Break big rocks at the bottom;1;186
+;(6, 4);;(9, 2);Break big rocks at the bottom;1;187
+MoveEast;(7, 4);;(9, 2);Break big rocks at the bottom;1;188
+;(7, 4);;(9, 2);Break big rocks at the bottom;1;189
+;(7, 4);;(9, 2);Break big rocks at the bottom;1;190
+;(7, 4);;(9, 2);Break big rocks at the bottom;1;191
+;(7, 4);;(9, 2);Break big rocks at the bottom;1;192
+;(7, 4);;(9, 2);Break big rocks at the bottom;1;193
+MoveEast;(8, 4);;(9, 2);Break big rocks at the bottom;1;194
+;(8, 4);;(9, 2);Break big rocks at the bottom;1;195
+;(8, 4);;(9, 2);Break big rocks at the bottom;1;196
+;(8, 4);;(9, 2);Break big rocks at the bottom;1;197
+MoveEast;(9, 4);;(9, 2);Break big rocks at the bottom;1;198
+;(9, 4);;(9, 2);Break big rocks at the bottom;1;199
+;(9, 4);;(9, 2);Break big rocks at the bottom;1;200
+;(9, 4);;(9, 2);Break big rocks at the bottom;1;201
+;(9, 4);;(9, 2);Break big rocks at the bottom;1;202
+;(9, 4);;(9, 2);Break big rocks at the bottom;1;203
+MoveEast;(10, 4);;(9, 2);Break big rocks at the bottom;1;204
+;(10, 4);;(9, 2);Break big rocks at the bottom;1;205
+;(10, 4);;(9, 2);Break big rocks at the bottom;1;206
+;(10, 4);;(9, 2);Break big rocks at the bottom;1;207
+;(10, 4);;(9, 2);Break big rocks at the bottom;1;208
+;(10, 4);;(9, 2);Break big rocks at the bottom;1;209
+;(10, 4);;(9, 2);Break big rocks at the bottom;1;210
+;(10, 4);;(9, 2);Break big rocks at the bottom;1;211
+;(10, 4);;(9, 2);Break big rocks at the bottom;1;212
+MoveNorth;(10, 3);;(9, 2);Break big rocks at the bottom;1;213
+;(10, 3);;(9, 2);Break big rocks at the bottom;1;214
+;(10, 3);;(9, 2);Break big rocks at the bottom;1;215
+;(10, 3);;(9, 2);Break big rocks at the bottom;1;216
+;(10, 3);;(9, 2);Break big rocks at the bottom;1;217
+;(10, 3);;(9, 2);Break big rocks at the bottom;1;218
+;(10, 3);;(9, 2);Break big rocks at the bottom;1;219
+;(10, 3);;(9, 2);Break big rocks at the bottom;1;220
+;(10, 3);;(9, 2);Break big rocks at the bottom;1;221
+;(10, 3);;(9, 2);Break big rocks at the bottom;1;222
+;(10, 3);;(9, 2);Break big rocks at the bottom;1;223
+MoveNorth;(10, 2);;(9, 2);Break big rocks at the bottom;1;224
+;(10, 2);;(9, 2);Break big rocks at the bottom;1;225
+;(10, 2);;(9, 2);Break big rocks at the bottom;1;226
+;(10, 2);;(9, 2);Break big rocks at the bottom;1;227
+;(10, 2);;(9, 2);Break big rocks at the bottom;1;228
+;(10, 2);;(9, 2);Break big rocks at the bottom;1;229
+;(10, 2);;(9, 2);Break big rocks at the bottom;1;230
+;(10, 2);;(9, 2);Break big rocks at the bottom;1;231
+;(10, 2);;(9, 2);Break big rocks at the bottom;1;232
+;(10, 2);;(9, 2);Break big rocks at the bottom;1;233
+;(10, 2);;(9, 2);Break big rocks at the bottom;1;234
+;(10, 2);;(9, 2);Break big rocks at the bottom;1;235
+DropObject;(10, 2);;(9, 2);Break big rocks at the bottom;1;236
+;(10, 2);;(9, 2);Break big rocks at the bottom;1;237
+;(10, 2);;(9, 2);Break big rocks at the bottom;1;238
+;(10, 2);;(9, 2);Break big rocks at the bottom;1;239
+;(10, 2);;(9, 2);Break big rocks at the bottom;1;240
+;(10, 2);;(9, 2);Break big rocks at the bottom;1;241
+;(10, 2);;(9, 2);Break big rocks at the bottom;1;242
+;(10, 2);;(9, 2);Break big rocks at the bottom;1;243
+;(10, 2);;(9, 2);Break big rocks at the bottom;1;244
+;(10, 2);;(9, 2);Break big rocks at the bottom;1;245
+;(10, 2);;(9, 2);Break big rocks at the bottom;1;246
+;(10, 2);;(9, 2);Break big rocks at the bottom;1;247
+;(10, 2);;(9, 2);Break big rocks at the bottom;1;248
+GrabObject;(10, 2);;(9, 2);Break big rocks at the bottom;1;249

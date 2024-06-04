@@ -1,0 +1,8 @@
+tick;corrected_tick;remaining_distance;victim_harm;idle_time_robot;q_table_cps;q_table_cps_runs;q_table_basic;world_nr;tick_nr
+3019;3000;30;0;2518;"                     simultaneous removing small rocks  robot removing large rock  robot removing brown rock
+[2, 'robot', True]                              -254.0                        0.0                          0
+[4, 'equal', False]                            -8158.0                    -2603.0                          0
+[4, 'equal', True]                                 NaN                    -1376.0                          0";"                     simultaneous removing small rocks  robot removing large rock  robot removing brown rock
+[2, 'robot', True]                                 1.0                        0.0                          0
+[4, 'equal', False]                                9.0                        5.0                          0
+[4, 'equal', True]                                 NaN                        1.0                          0";;1;3019

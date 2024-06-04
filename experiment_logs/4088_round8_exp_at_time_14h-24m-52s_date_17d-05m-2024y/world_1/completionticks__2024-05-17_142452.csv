@@ -1,0 +1,18 @@
+tick;corrected_tick;remaining_distance;victim_harm;idle_time_robot;q_table_cps;q_table_cps_runs;q_table_basic;world_nr;tick_nr
+3019;3000;10;300;4;"                      Label  wacht als totdat ik aangeef dat je wat moet doen  wachten 
+[4, 'robot', True]  -1147.0                                                 0         0
+[4, 'equal', False]  -688.0                                                 0         0
+[4, 'robot', False] -3492.0                                              -159         0
+[3, 'robot', False] -1913.0                                                 0         0";"                     Label  wacht als totdat ik aangeef dat je wat moet doen  wachten 
+[4, 'robot', True]     4.0                                                 0         0
+[4, 'equal', False]   14.0                                                 0         0
+[4, 'robot', False]   12.0                                                 8         0
+[3, 'robot', False]    9.0                                                 0         0";"                     Move back and forth  Stand Still    Pick up       Drop      Break
+[4, 'equal', False]            -5.500000    -5.750000  -4.574189  -1.492000  -7.200000
+[4, 'equal', True]             -4.000000    -3.500000  -2.275500   0.000000   0.000000
+[4, 'robot', True]             -7.303440    -8.180000  -3.440950  -7.194250  -9.744570
+[3, 'robot', True]            -14.392383   -19.000000  -1.500000 -28.450000  -6.785500
+[4, 'robot', False]           -35.005000   -17.640672 -14.658150 -11.479000 -14.854625
+[3, 'robot', False]            -7.450000    -7.628000  -9.508896  -7.565836  -8.000000
+[2, 'robot', False]           -11.760000   -29.124554 -16.200000 -26.500000 -13.500000
+[2, 'robot', True]             -7.000000    -3.500000  -0.200000 -28.810000  -4.500000";1;3019

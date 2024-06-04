@@ -1,0 +1,14 @@
+tick;corrected_tick;remaining_distance;victim_harm;idle_time_robot;q_table_cps;q_table_cps_runs;q_table_basic;world_nr;tick_nr
+3019;3000;17;600;1;"                     verwijder grote rock van top  verwijder grote rock
+[4, 'robot', True]                        -3163.0                   0.0
+[4, 'equal', False]                        -119.0                   NaN";"                     verwijder grote rock van top  verwijder grote rock
+[4, 'robot', True]                           26.0                   0.0
+[4, 'equal', False]                           3.0                   NaN";"                     Move back and forth  Stand Still  Pick up    Drop  Break
+[4, 'equal', False]            -4.000000        -3.50   -4.500   0.000   -7.2
+[4, 'equal', True]             -4.000000        -3.50    0.400   0.000    0.0
+[4, 'robot', True]             -4.000000        -5.85   -5.500  -4.675   -3.5
+[3, 'robot', True]            -14.392383       -19.00   -1.500 -28.450  -12.2
+[4, 'robot', False]           -35.005000         0.00   -2.700   0.000    0.0
+[3, 'robot', False]            -7.450000        -3.95    2.184  -5.750    0.0
+[2, 'robot', False]            -4.500000        -3.50   -1.500 -26.500    0.0
+[2, 'robot', True]              0.000000         0.00   -1.500   0.000    0.0";1;3019

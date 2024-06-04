@@ -1,0 +1,11 @@
+tick;corrected_tick;remaining_distance;victim_harm;idle_time_robot;q_table_cps;q_table_cps_runs;q_table_basic;world_nr;tick_nr
+3019;3000;12;500;1;"                    break large rock when in bottom
+[2, 'robot', True]                              5.0";"                    break large rock when in bottom
+[2, 'robot', True]                              1.0";"                     Move back and forth  Stand Still  Pick up   Drop  Break
+[4, 'equal', False]                   -4        -3.90   -3.750   0.00   -4.5
+[4, 'robot', False]                   -4         0.00    0.000  -1.50    0.0
+[4, 'equal', True]                     0        -3.65    0.000   0.00    0.0
+[3, 'robot', True]                    -4        -3.50  -14.360  -4.25    0.0
+[3, 'robot', False]                   -4        -2.25   -6.000  -6.00   -9.0
+[2, 'robot', True]                    -7        -3.65    0.000 -28.75   -6.0
+[2, 'robot', False]                   -7        -3.75   -6.475 -17.65   -6.5";1;3019

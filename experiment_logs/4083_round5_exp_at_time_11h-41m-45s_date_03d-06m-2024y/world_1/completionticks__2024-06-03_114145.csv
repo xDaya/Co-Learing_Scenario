@@ -1,0 +1,24 @@
+tick;corrected_tick;remaining_distance;victim_harm;idle_time_robot;q_table_cps;q_table_cps_runs;q_table_basic;world_nr;tick_nr
+3019;3000;9;800;1;"                       Good  Do soemthing  Only small rocks  Do something when only big rock
+[4, 'equal', False] -5852.0           0.0             -50.0                              0.0
+[3, 'equal', False]     0.0           0.0               0.0                              0.0
+[2, 'robot', False]     0.0           0.0               0.0                              0.0
+[3, 'robot', False]     NaN           NaN            -184.0                              NaN
+[2, 'robot', True]      NaN           NaN            -285.0                              NaN";"                     Good  Do soemthing  Only small rocks  Do something when only big rock
+[4, 'equal', False]   4.0           0.0               2.0                              0.0
+[3, 'equal', False]   0.0           0.0               0.0                              0.0
+[2, 'robot', False]   0.0           0.0               0.0                              0.0
+[3, 'robot', False]   NaN           NaN               1.0                              NaN
+[2, 'robot', True]    NaN           NaN               1.0                              NaN";"                     Move back and forth  Stand Still    Pick up    Drop      Break
+[4, 'equal', False]            -10.67500     -7.64599 -10.518800  -6.720 -10.918800
+[4, 'equal', True]              -4.15000     -4.67000  -4.375000   0.000  -5.251260
+[3, 'robot', True]              -7.00000     -3.65000   0.000000  -3.000   0.000000
+[3, 'robot', False]             -4.00000     -4.76000  -6.150000  -5.095  -1.499375
+[3, 'equal', False]             -7.00000    -18.45125  -3.081250  -4.000  -7.456250
+[3, 'equal', True]              -4.00000     -3.50000 -26.000000  -5.500  -2.500000
+[4, 'robot', False]             -5.87563     -2.27500  -1.449812  -2.500   0.000000
+[2, 'equal', False]             -4.00000     -8.40000   1.240000  -2.650  -5.650000
+[2, 'robot', False]             -9.96000     -5.51000  -7.695000 -16.695 -26.000000
+[2, 'robot', True]              -7.19500     -3.50000  -0.750000 -24.000  -5.000000
+[1, 'robot', False]             -7.00000      0.00000  -1.000000   0.000   0.000000
+[1, 'robot', True]             -30.50000      0.00000  -1.000000   0.000   0.000000";1;3019

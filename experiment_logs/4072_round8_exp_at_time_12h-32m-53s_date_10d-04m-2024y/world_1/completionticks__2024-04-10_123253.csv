@@ -1,0 +1,20 @@
+tick;corrected_tick;remaining_distance;victim_harm;idle_time_robot;q_table_cps;q_table_cps_runs;q_table_basic;world_nr;tick_nr
+3019;3000;23;100;1164;"                     large rock pick up  Label  large rock pick up1  large rock break
+[4, 'equal', False]                 NaN    0.0                  0.0               0.0
+[4, 'human', False]             -1358.0    NaN                  0.0               0.0
+[3, 'equal', True]              -1207.0    NaN                  NaN               NaN";"                     large rock pick up  Label  large rock pick up1  large rock break
+[4, 'equal', False]                 NaN    0.0                  0.0               0.0
+[4, 'human', False]                 1.0    NaN                  0.0               0.0
+[3, 'equal', True]                  1.0    NaN                  NaN               NaN";"                     Move back and forth  Stand Still    Pick up       Drop      Break
+[4, 'equal', False]           -13.000000    -6.174000  -9.895296 -12.288000 -12.800000
+[4, 'equal', True]             -7.600000    -4.752300  -1.698000  -7.651840  -2.891450
+[4, 'robot', False]            -7.710000   -13.608000  -2.995305  -8.500000  -8.880850
+[4, 'robot', True]             -7.904032    -8.218589  -0.700000 -33.402016  -4.748645
+[3, 'robot', False]           -11.620000    -5.935761 -26.000000  -8.152000 -10.500000
+[3, 'robot', True]             -7.000000    -5.576207 -26.432000   0.000000  -8.047500
+[3, 'equal', False]           -34.000000     0.000000   0.000000   0.000000  -4.000000
+[3, 'equal', True]             -7.000000    -6.300000  -5.000000  -4.674000  -5.000000
+[2, 'robot', False]           -27.091840   -33.475637 -28.402800 -43.500000 -12.627552
+[2, 'robot', True]             -3.541840    -6.095437   1.527200   0.000000   0.000000
+[4, 'human', True]             -7.000000    -3.500000   0.000000   0.000000  -3.500000
+[4, 'human', False]             0.000000     0.000000  -4.000000   0.000000   0.000000";1;3019

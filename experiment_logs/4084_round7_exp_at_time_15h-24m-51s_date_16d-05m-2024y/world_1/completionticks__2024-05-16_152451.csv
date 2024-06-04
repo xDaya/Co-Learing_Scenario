@@ -1,0 +1,22 @@
+tick;corrected_tick;remaining_distance;victim_harm;idle_time_robot;q_table_cps;q_table_cps_runs;q_table_basic;world_nr;tick_nr
+3019;3000;23;0;1611;"                     large rock top move away  practice what to do with brown rock  brown rock  Label
+[2, 'robot', True]                        0.0                                  NaN           0      0
+[4, 'robot', True]                   -14440.0                                  NaN         -98      0
+[4, 'equal', False]                    -559.0                                  NaN           0      0
+[4, 'robot', False]                   -1770.0                                  NaN           0      0
+[3, 'robot', False]                     -64.0                                  NaN           0      0
+[3, 'robot', True]                        NaN                               -288.0           0      0";"                     large rock top move away  practice what to do with brown rock  brown rock  Label
+[2, 'robot', True]                        0.0                                  NaN           0      0
+[4, 'robot', True]                       10.0                                  NaN           3      0
+[4, 'equal', False]                       3.0                                  NaN           0      0
+[4, 'robot', False]                       1.0                                  NaN           0      0
+[3, 'robot', False]                       2.0                                  NaN           0      0
+[3, 'robot', True]                        NaN                                  1.0           0      0";"                     Move back and forth  Stand Still    Pick up       Drop      Break
+[4, 'equal', False]            -6.750000    -6.600000  -8.687500  -4.750000 -13.350000
+[4, 'robot', False]            -8.430000    -9.442400 -12.000000 -17.750000 -17.250000
+[4, 'equal', True]             -7.500000    -5.325000  -5.941577   0.000000  -7.806250
+[3, 'robot', True]            -41.527572    -5.520000 -14.360000 -11.766586  -5.484640
+[3, 'robot', False]            -9.318870   -10.240192  -9.911046  -9.865270 -33.295661
+[2, 'robot', True]            -12.442500    -9.160781   0.000000 -28.750000  -6.000000
+[2, 'robot', False]           -10.500000    -8.705000  -9.680000 -17.650000 -31.200000
+[4, 'robot', True]             -7.000000    -6.300000  -3.000000  -9.408000 -19.940000";1;3019

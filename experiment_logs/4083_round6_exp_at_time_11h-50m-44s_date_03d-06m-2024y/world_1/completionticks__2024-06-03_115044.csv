@@ -1,0 +1,12 @@
+tick;corrected_tick;remaining_distance;victim_harm;idle_time_robot;q_table_cps;q_table_cps_runs;q_table_basic;world_nr;tick_nr
+3019;3000;24;800;2922;"                       Good  Only small rocks  Do something when only big rock  Brown rock on top  Brown rock on top + large rock on bottom
+[4, 'equal', False] -5852.0             -50.0                              0.0              -5244                                         0
+[3, 'equal', False]     0.0               0.0                              0.0                  0                                         0
+[2, 'robot', False]     0.0               0.0                              0.0                  0                                         0
+[3, 'robot', False]     NaN            -184.0                              NaN                  0                                         0
+[2, 'robot', True]      NaN            -285.0                              NaN                  0                                         0";"                     Good  Only small rocks  Do something when only big rock  Brown rock on top  Brown rock on top + large rock on bottom
+[4, 'equal', False]   4.0               2.0                              0.0                  3                                         0
+[3, 'equal', False]   0.0               0.0                              0.0                  0                                         0
+[2, 'robot', False]   0.0               0.0                              0.0                  0                                         0
+[3, 'robot', False]   NaN               1.0                              NaN                  0                                         0
+[2, 'robot', True]    NaN               1.0                              NaN                  0                                         0";;1;3019

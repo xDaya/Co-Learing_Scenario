@@ -1,0 +1,6 @@
+tick;corrected_tick;remaining_distance;victim_harm;idle_time_robot;q_table_cps;q_table_cps_runs;q_table_basic;world_nr;tick_nr
+3019;3000;41;0;2999;"                     let go of small rock
+[4, 'robot', True]                    0.0
+[4, 'equal', False]               -3090.0";"                     let go of small rock
+[4, 'robot', True]                    0.0
+[4, 'equal', False]                   1.0";;1;3019

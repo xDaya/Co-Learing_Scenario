@@ -1,0 +1,26 @@
+tick;corrected_tick;remaining_distance;victim_harm;idle_time_robot;q_table_cps;q_table_cps_runs;q_table_basic;world_nr;tick_nr
+3019;3000;16;700;849;"                     pick top rock  pick top rock 2
+[3, 'robot', True]         -1119.0              NaN
+[4, 'equal', False]        -1779.0              NaN
+[4, 'robot', False]        -2123.0              NaN
+[2, 'robot', False]            NaN              NaN
+[1, 'robot', True]          -974.0              NaN
+[3, 'equal', True]             NaN          -1071.0";"                     pick top rock  pick top rock 2
+[3, 'robot', True]             1.0              NaN
+[4, 'equal', False]            8.0              NaN
+[4, 'robot', False]            4.0              NaN
+[2, 'robot', False]            NaN              NaN
+[1, 'robot', True]             1.0              NaN
+[3, 'equal', True]             NaN              2.0";"                     Move back and forth  Stand Still    Pick up   Drop  Break
+[4, 'equal', False]               -9.500    -6.688212  -7.179447  -8.86  -7.56
+[4, 'robot', False]               -4.000    -3.000000  -1.500000   1.50   0.00
+[3, 'equal', False]               -6.700    -2.480000  -4.700000  -2.20 -79.50
+[3, 'robot', True]                -3.000    -3.500000   0.000000  -1.94   0.00
+[4, 'equal', True]                -4.000     0.000000  -0.807000   0.00   0.00
+[4, 'robot', True]                -6.874    -3.500000   0.000000   0.00   0.00
+[2, 'robot', False]               -3.500    -3.800000 -11.400000  -3.44  -6.44
+[1, 'robot', False]                0.000     0.000000   0.000000   0.00   6.50
+[4, 'human', False]                0.000    -4.578659   0.000000   0.00   0.00
+[3, 'human', False]               -7.000    -0.500000  -4.150000 -24.50  -4.50
+[3, 'human', True]               -37.000    -3.500000   0.000000   0.00  -5.50
+[3, 'equal', True]                -4.060     0.000000   0.000000  -2.50   0.00";1;3019

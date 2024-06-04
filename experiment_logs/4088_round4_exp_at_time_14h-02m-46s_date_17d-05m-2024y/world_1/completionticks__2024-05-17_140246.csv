@@ -1,0 +1,18 @@
+tick;corrected_tick;remaining_distance;victim_harm;idle_time_robot;q_table_cps;q_table_cps_runs;q_table_basic;world_nr;tick_nr
+3019;3000;12;100;1;"                      Label
+[4, 'robot', True]      0.0
+[4, 'equal', False]  -437.0
+[4, 'robot', False] -3492.0
+[3, 'robot', False] -1913.0";"                     Label
+[4, 'robot', True]     0.0
+[4, 'equal', False]    6.0
+[4, 'robot', False]   12.0
+[3, 'robot', False]    9.0";"                     Move back and forth  Stand Still  Pick up     Drop    Break
+[4, 'equal', False]            -5.500000     -5.75000 -0.84175   1.2600  -7.2000
+[4, 'equal', True]             -4.000000     -3.50000  0.40000   0.0000   0.0000
+[4, 'robot', True]             -7.303440     -5.85000 -5.50000  -5.4375  -6.3000
+[3, 'robot', True]            -14.392383    -19.00000 -1.50000 -28.4500 -12.2000
+[4, 'robot', False]           -35.005000     -2.67584 -2.70000  -4.0000  -6.4025
+[3, 'robot', False]            -7.450000     -5.16000 -5.63612  -5.7500  -6.1000
+[2, 'robot', False]            -9.700000     -6.56250 -1.50000 -26.5000 -13.5000
+[2, 'robot', True]             -7.000000     -3.50000 -0.20000 -28.8100  -4.5000";1;3019

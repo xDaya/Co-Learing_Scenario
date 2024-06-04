@@ -1,0 +1,3021 @@
+human_selector_action;human_selector_location;robot_action;robot_location;robot_executing_cp;world_nr;tick_nr
+;(3, 4);;(4, 4);False;1;0
+;(3, 4);;(4, 4);False;1;1
+;(3, 4);;(4, 4);Pick up big rocks on top;1;2
+;(3, 4);;(4, 4);Pick up big rocks on top;1;3
+;(3, 4);;(4, 4);Pick up big rocks on top;1;4
+;(3, 4);;(4, 4);Pick up big rocks on top;1;5
+;(3, 4);;(4, 4);Pick up big rocks on top;1;6
+;(3, 4);;(4, 4);Pick up big rocks on top;1;7
+;(3, 4);;(4, 4);Pick up big rocks on top;1;8
+;(3, 4);;(4, 4);Pick up big rocks on top;1;9
+;(3, 4);;(4, 4);Pick up big rocks on top;1;10
+;(3, 4);;(4, 4);Pick up big rocks on top;1;11
+;(3, 4);;(4, 4);Pick up big rocks on top;1;12
+;(3, 4);;(4, 4);Pick up big rocks on top;1;13
+;(3, 4);;(4, 4);Pick up big rocks on top;1;14
+;(3, 4);;(4, 4);Pick up big rocks on top;1;15
+;(3, 4);;(4, 4);Pick up big rocks on top;1;16
+;(3, 4);;(4, 4);Pick up big rocks on top;1;17
+;(3, 4);;(4, 4);Pick up big rocks on top;1;18
+;(3, 4);;(4, 4);Pick up big rocks on top;1;19
+;(3, 4);;(4, 4);Pick up big rocks on top;1;20
+;(3, 4);;(4, 4);Pick up big rocks on top;1;21
+;(3, 4);;(4, 4);Pick up big rocks on top;1;22
+;(3, 4);;(4, 4);Pick up big rocks on top;1;23
+;(3, 4);;(4, 4);Pick up big rocks on top;1;24
+;(3, 4);;(4, 4);Pick up big rocks on top;1;25
+;(3, 4);;(4, 4);Pick up big rocks on top;1;26
+;(3, 4);;(4, 4);Pick up big rocks on top;1;27
+;(3, 4);;(4, 4);Pick up big rocks on top;1;28
+MoveEast;(4, 4);;(4, 4);Pick up big rocks on top;1;29
+;(4, 4);;(4, 4);Pick up big rocks on top;1;30
+;(4, 4);;(4, 4);Pick up big rocks on top;1;31
+;(4, 4);;(4, 4);Pick up big rocks on top;1;32
+;(4, 4);;(4, 4);Pick up big rocks on top;1;33
+;(4, 4);;(4, 4);Pick up big rocks on top;1;34
+;(4, 4);;(4, 4);Pick up big rocks on top;1;35
+;(4, 4);;(4, 4);Pick up big rocks on top;1;36
+;(4, 4);;(4, 4);Pick up big rocks on top;1;37
+;(4, 4);;(4, 4);Pick up big rocks on top;1;38
+;(4, 4);;(4, 4);Pick up big rocks on top;1;39
+;(4, 4);;(4, 4);Pick up big rocks on top;1;40
+;(4, 4);;(4, 4);Pick up big rocks on top;1;41
+;(4, 4);;(4, 4);Pick up big rocks on top;1;42
+;(4, 4);;(4, 4);Pick up big rocks on top;1;43
+;(4, 4);;(4, 4);Pick up big rocks on top;1;44
+;(4, 4);;(4, 4);Pick up big rocks on top;1;45
+;(4, 4);;(4, 4);Pick up big rocks on top;1;46
+;(4, 4);;(4, 4);Pick up big rocks on top;1;47
+;(4, 4);;(4, 4);Pick up big rocks on top;1;48
+;(4, 4);;(4, 4);Pick up big rocks on top;1;49
+;(4, 4);;(4, 4);Pick up big rocks on top;1;50
+;(4, 4);;(4, 4);Pick up big rocks on top;1;51
+;(4, 4);;(4, 4);Pick up big rocks on top;1;52
+;(4, 4);;(4, 4);Pick up big rocks on top;1;53
+;(4, 4);;(4, 4);Pick up big rocks on top;1;54
+;(4, 4);;(4, 4);Pick up big rocks on top;1;55
+;(4, 4);;(4, 4);Pick up big rocks on top;1;56
+;(4, 4);;(4, 4);Pick up big rocks on top;1;57
+;(4, 4);;(4, 4);Pick up big rocks on top;1;58
+;(4, 4);;(4, 4);Pick up big rocks on top;1;59
+;(4, 4);;(4, 4);Pick up big rocks on top;1;60
+;(4, 4);;(4, 4);Pick up big rocks on top;1;61
+;(4, 4);;(4, 4);Pick up big rocks on top;1;62
+;(4, 4);;(4, 4);Pick up big rocks on top;1;63
+;(4, 4);;(4, 4);Pick up big rocks on top;1;64
+;(4, 4);;(4, 4);Pick up big rocks on top;1;65
+;(4, 4);;(4, 4);Pick up big rocks on top;1;66
+;(4, 4);;(4, 4);Pick up big rocks on top;1;67
+;(4, 4);;(4, 4);Pick up big rocks on top;1;68
+;(4, 4);;(4, 4);Pick up big rocks on top;1;69
+;(4, 4);;(4, 4);Pick up big rocks on top;1;70
+;(4, 4);;(4, 4);Pick up big rocks on top;1;71
+;(4, 4);;(4, 4);Pick up big rocks on top;1;72
+;(4, 4);;(4, 4);Pick up big rocks on top;1;73
+;(4, 4);;(4, 4);Pick up big rocks on top;1;74
+;(4, 4);;(4, 4);Pick up big rocks on top;1;75
+;(4, 4);;(4, 4);Pick up big rocks on top;1;76
+;(4, 4);;(4, 4);Pick up big rocks on top;1;77
+;(4, 4);;(4, 4);Pick up big rocks on top;1;78
+;(4, 4);;(4, 4);Pick up big rocks on top;1;79
+;(4, 4);;(4, 4);Pick up big rocks on top;1;80
+MoveEast;(5, 4);;(4, 4);Pick up big rocks on top;1;81
+;(5, 4);;(4, 4);Pick up big rocks on top;1;82
+;(5, 4);;(4, 4);Pick up big rocks on top;1;83
+;(5, 4);;(4, 4);Pick up big rocks on top;1;84
+;(5, 4);;(4, 4);Pick up big rocks on top;1;85
+;(5, 4);;(4, 4);Pick up big rocks on top;1;86
+MoveEast;(6, 4);;(4, 4);Pick up big rocks on top;1;87
+;(6, 4);;(4, 4);Pick up big rocks on top;1;88
+;(6, 4);;(4, 4);Pick up big rocks on top;1;89
+MoveEast;(7, 4);;(4, 4);Pick up big rocks on top;1;90
+;(7, 4);;(4, 4);Pick up big rocks on top;1;91
+;(7, 4);;(4, 4);Pick up big rocks on top;1;92
+;(7, 4);;(4, 4);Pick up big rocks on top;1;93
+MoveEast;(8, 4);;(4, 4);Pick up big rocks on top;1;94
+;(8, 4);;(4, 4);Pick up big rocks on top;1;95
+;(8, 4);;(4, 4);Pick up big rocks on top;1;96
+;(8, 4);;(4, 4);Pick up big rocks on top;1;97
+;(8, 4);;(4, 4);Pick up big rocks on top;1;98
+;(8, 4);;(4, 4);Pick up big rocks on top;1;99
+;(8, 4);;(4, 4);Pick up big rocks on top;1;100
+;(8, 4);;(4, 4);Pick up big rocks on top;1;101
+;(8, 4);;(4, 4);Pick up big rocks on top;1;102
+;(8, 4);;(4, 4);Pick up big rocks on top;1;103
+;(8, 4);;(4, 4);Pick up big rocks on top;1;104
+MoveEast;(9, 4);;(4, 4);Pick up big rocks on top;1;105
+;(9, 4);;(4, 4);Pick up big rocks on top;1;106
+;(9, 4);;(4, 4);Pick up big rocks on top;1;107
+;(9, 4);;(4, 4);Pick up big rocks on top;1;108
+;(9, 4);;(4, 4);Pick up big rocks on top;1;109
+;(9, 4);;(4, 4);Pick up big rocks on top;1;110
+;(9, 4);;(4, 4);Pick up big rocks on top;1;111
+;(9, 4);;(4, 4);Pick up big rocks on top;1;112
+;(9, 4);;(4, 4);Pick up big rocks on top;1;113
+MoveEast;(10, 4);;(4, 4);Pick up big rocks on top;1;114
+;(10, 4);;(4, 4);Pick up big rocks on top;1;115
+;(10, 4);;(4, 4);Pick up big rocks on top;1;116
+;(10, 4);;(4, 4);Pick up big rocks on top;1;117
+MoveEast;(11, 4);;(4, 4);Pick up big rocks on top;1;118
+;(11, 4);;(4, 4);Pick up big rocks on top;1;119
+;(11, 4);;(4, 4);Pick up big rocks on top;1;120
+;(11, 4);;(4, 4);Pick up big rocks on top;1;121
+;(11, 4);;(4, 4);Pick up big rocks on top;1;122
+MoveEast;(12, 4);;(4, 4);Pick up big rocks on top;1;123
+;(12, 4);;(4, 4);Pick up big rocks on top;1;124
+;(12, 4);;(4, 4);Pick up big rocks on top;1;125
+;(12, 4);;(4, 4);Pick up big rocks on top;1;126
+;(12, 4);;(4, 4);Pick up big rocks on top;1;127
+;(12, 4);;(4, 4);Pick up big rocks on top;1;128
+;(12, 4);;(4, 4);Pick up big rocks on top;1;129
+MoveSouth;(12, 5);;(4, 4);Pick up big rocks on top;1;130
+;(12, 5);;(4, 4);Pick up big rocks on top;1;131
+;(12, 5);;(4, 4);Pick up big rocks on top;1;132
+;(12, 5);;(4, 4);Pick up big rocks on top;1;133
+;(12, 5);;(4, 4);Pick up big rocks on top;1;134
+MoveSouth;(12, 6);;(4, 4);Pick up big rocks on top;1;135
+;(12, 6);;(4, 4);Pick up big rocks on top;1;136
+;(12, 6);;(4, 4);Pick up big rocks on top;1;137
+;(12, 6);;(4, 4);Pick up big rocks on top;1;138
+MoveSouth;(12, 7);;(4, 4);Pick up big rocks on top;1;139
+;(12, 7);;(4, 4);Pick up big rocks on top;1;140
+;(12, 7);;(4, 4);Pick up big rocks on top;1;141
+;(12, 7);;(4, 4);Pick up big rocks on top;1;142
+;(12, 7);;(4, 4);Pick up big rocks on top;1;143
+;(12, 7);;(4, 4);Pick up big rocks on top;1;144
+MoveSouth;(12, 8);;(4, 4);Pick up big rocks on top;1;145
+;(12, 8);;(4, 4);Pick up big rocks on top;1;146
+;(12, 8);;(4, 4);Pick up big rocks on top;1;147
+;(12, 8);;(4, 4);Pick up big rocks on top;1;148
+;(12, 8);;(4, 4);Pick up big rocks on top;1;149
+;(12, 8);;(4, 4);Pick up big rocks on top;1;150
+;(12, 8);;(4, 4);Pick up big rocks on top;1;151
+;(12, 8);;(4, 4);Pick up big rocks on top;1;152
+;(12, 8);;(4, 4);Pick up big rocks on top;1;153
+;(12, 8);;(4, 4);Pick up big rocks on top;1;154
+;(12, 8);;(4, 4);Pick up big rocks on top;1;155
+;(12, 8);;(4, 4);Pick up big rocks on top;1;156
+;(12, 8);;(4, 4);Pick up big rocks on top;1;157
+;(12, 8);;(4, 4);Pick up big rocks on top;1;158
+;(12, 8);;(4, 4);Pick up big rocks on top;1;159
+;(12, 8);;(4, 4);Pick up big rocks on top;1;160
+;(12, 8);;(4, 4);Pick up big rocks on top;1;161
+;(12, 8);;(4, 4);Pick up big rocks on top;1;162
+;(12, 8);;(4, 4);Pick up big rocks on top;1;163
+;(12, 8);;(4, 4);Pick up big rocks on top;1;164
+;(12, 8);;(4, 4);Pick up big rocks on top;1;165
+;(12, 8);;(4, 4);Pick up big rocks on top;1;166
+;(12, 8);;(4, 4);Pick up big rocks on top;1;167
+;(12, 8);;(4, 4);Pick up big rocks on top;1;168
+MoveSouth;(12, 9);;(4, 4);Pick up big rocks on top;1;169
+;(12, 9);;(4, 4);Pick up big rocks on top;1;170
+;(12, 9);;(4, 4);Pick up big rocks on top;1;171
+;(12, 9);;(4, 4);Pick up big rocks on top;1;172
+;(12, 9);;(4, 4);Pick up big rocks on top;1;173
+;(12, 9);;(4, 4);Pick up big rocks on top;1;174
+MoveWest;(11, 9);;(4, 4);Pick up big rocks on top;1;175
+;(11, 9);;(4, 4);Pick up big rocks on top;1;176
+;(11, 9);;(4, 4);Pick up big rocks on top;1;177
+;(11, 9);;(4, 4);Pick up big rocks on top;1;178
+;(11, 9);;(4, 4);Pick up big rocks on top;1;179
+MoveWest;(10, 9);;(4, 4);Pick up big rocks on top;1;180
+;(10, 9);;(4, 4);Pick up big rocks on top;1;181
+;(10, 9);;(4, 4);Pick up big rocks on top;1;182
+;(10, 9);;(4, 4);Pick up big rocks on top;1;183
+;(10, 9);;(4, 4);Pick up big rocks on top;1;184
+;(10, 9);;(4, 4);Pick up big rocks on top;1;185
+MoveNorth;(10, 8);;(4, 4);Pick up big rocks on top;1;186
+;(10, 8);;(4, 4);Pick up big rocks on top;1;187
+;(10, 8);;(4, 4);Pick up big rocks on top;1;188
+;(10, 8);;(4, 4);Pick up big rocks on top;1;189
+MoveNorth;(10, 7);;(4, 4);Pick up big rocks on top;1;190
+;(10, 7);;(4, 4);Pick up big rocks on top;1;191
+;(10, 7);;(4, 4);Pick up big rocks on top;1;192
+;(10, 7);;(4, 4);Pick up big rocks on top;1;193
+;(10, 7);;(4, 4);Pick up big rocks on top;1;194
+;(10, 7);;(4, 4);Pick up big rocks on top;1;195
+;(10, 7);;(4, 4);Pick up big rocks on top;1;196
+;(10, 7);;(4, 4);Pick up big rocks on top;1;197
+;(10, 7);;(4, 4);Pick up big rocks on top;1;198
+;(10, 7);;(4, 4);Pick up big rocks on top;1;199
+;(10, 7);;(4, 4);Pick up big rocks on top;1;200
+;(10, 7);;(4, 4);Pick up big rocks on top;1;201
+;(10, 7);;(4, 4);Pick up big rocks on top;1;202
+;(10, 7);;(4, 4);Pick up big rocks on top;1;203
+;(10, 7);;(4, 4);Pick up big rocks on top;1;204
+;(10, 7);;(4, 4);Pick up big rocks on top;1;205
+;(10, 7);;(4, 4);Pick up big rocks on top;1;206
+;(10, 7);;(4, 4);Pick up big rocks on top;1;207
+;(10, 7);;(4, 4);Pick up big rocks on top;1;208
+;(10, 7);;(4, 4);Pick up big rocks on top;1;209
+;(10, 7);;(4, 4);Pick up big rocks on top;1;210
+;(10, 7);;(4, 4);Pick up big rocks on top;1;211
+;(10, 7);;(4, 4);Pick up big rocks on top;1;212
+;(10, 7);;(4, 4);Pick up big rocks on top;1;213
+;(10, 7);;(4, 4);Pick up big rocks on top;1;214
+;(10, 7);;(4, 4);Pick up big rocks on top;1;215
+;(10, 7);;(4, 4);Pick up big rocks on top;1;216
+;(10, 7);;(4, 4);Pick up big rocks on top;1;217
+;(10, 7);;(4, 4);Pick up big rocks on top;1;218
+;(10, 7);;(4, 4);Pick up big rocks on top;1;219
+;(10, 7);;(4, 4);Pick up big rocks on top;1;220
+;(10, 7);;(4, 4);Pick up big rocks on top;1;221
+;(10, 7);;(4, 4);Pick up big rocks on top;1;222
+;(10, 7);;(4, 4);Pick up big rocks on top;1;223
+;(10, 7);;(4, 4);Pick up big rocks on top;1;224
+;(10, 7);;(4, 4);Pick up big rocks on top;1;225
+;(10, 7);;(4, 4);Pick up big rocks on top;1;226
+;(10, 7);;(4, 4);Pick up big rocks on top;1;227
+;(10, 7);;(4, 4);Pick up big rocks on top;1;228
+;(10, 7);;(4, 4);Pick up big rocks on top;1;229
+;(10, 7);;(4, 4);Pick up big rocks on top;1;230
+;(10, 7);;(4, 4);Pick up big rocks on top;1;231
+;(10, 7);;(4, 4);Pick up big rocks on top;1;232
+;(10, 7);;(4, 4);Pick up big rocks on top;1;233
+;(10, 7);;(4, 4);Pick up big rocks on top;1;234
+;(10, 7);;(4, 4);Pick up big rocks on top;1;235
+;(10, 7);;(4, 4);Pick up big rocks on top;1;236
+;(10, 7);;(4, 4);Pick up big rocks on top;1;237
+;(10, 7);;(4, 4);Pick up big rocks on top;1;238
+;(10, 7);;(4, 4);Pick up big rocks on top;1;239
+;(10, 7);;(4, 4);Pick up big rocks on top;1;240
+;(10, 7);;(4, 4);Pick up big rocks on top;1;241
+;(10, 7);;(4, 4);Pick up big rocks on top;1;242
+;(10, 7);;(4, 4);Pick up big rocks on top;1;243
+;(10, 7);;(4, 4);Pick up big rocks on top;1;244
+;(10, 7);;(4, 4);Pick up big rocks on top;1;245
+;(10, 7);;(4, 4);Pick up big rocks on top;1;246
+;(10, 7);;(4, 4);Pick up big rocks on top;1;247
+;(10, 7);;(4, 4);Pick up big rocks on top;1;248
+;(10, 7);;(4, 4);Pick up big rocks on top;1;249
+;(10, 7);;(4, 4);Pick up big rocks on top;1;250
+;(10, 7);;(4, 4);Pick up big rocks on top;1;251
+;(10, 7);;(4, 4);Pick up big rocks on top;1;252
+;(10, 7);;(4, 4);Pick up big rocks on top;1;253
+;(10, 7);;(4, 4);Pick up big rocks on top;1;254
+;(10, 7);;(4, 4);Pick up big rocks on top;1;255
+;(10, 7);;(4, 4);Pick up big rocks on top;1;256
+;(10, 7);;(4, 4);Pick up big rocks on top;1;257
+;(10, 7);;(4, 4);Pick up big rocks on top;1;258
+;(10, 7);;(4, 4);Pick up big rocks on top;1;259
+;(10, 7);;(4, 4);Pick up big rocks on top;1;260
+;(10, 7);;(4, 4);Pick up big rocks on top;1;261
+;(10, 7);;(4, 4);Pick up big rocks on top;1;262
+;(10, 7);;(4, 4);Pick up big rocks on top;1;263
+;(10, 7);;(4, 4);Pick up big rocks on top;1;264
+;(10, 7);;(4, 4);Pick up big rocks on top;1;265
+;(10, 7);;(4, 4);Pick up big rocks on top;1;266
+;(10, 7);;(4, 4);Pick up big rocks on top;1;267
+;(10, 7);;(4, 4);Pick up big rocks on top;1;268
+;(10, 7);;(4, 4);Pick up big rocks on top;1;269
+;(10, 7);;(4, 4);Pick up big rocks on top;1;270
+;(10, 7);;(4, 4);Pick up big rocks on top;1;271
+;(10, 7);;(4, 4);Pick up big rocks on top;1;272
+;(10, 7);;(4, 4);Pick up big rocks on top;1;273
+;(10, 7);;(4, 4);Pick up big rocks on top;1;274
+;(10, 7);;(4, 4);Pick up big rocks on top;1;275
+;(10, 7);;(4, 4);Pick up big rocks on top;1;276
+;(10, 7);;(4, 4);Pick up big rocks on top;1;277
+;(10, 7);;(4, 4);Pick up big rocks on top;1;278
+;(10, 7);;(4, 4);Pick up big rocks on top;1;279
+;(10, 7);;(4, 4);Pick up big rocks on top;1;280
+;(10, 7);;(4, 4);Pick up big rocks on top;1;281
+;(10, 7);;(4, 4);Pick up big rocks on top;1;282
+;(10, 7);;(4, 4);Pick up big rocks on top;1;283
+;(10, 7);;(4, 4);Pick up big rocks on top;1;284
+;(10, 7);;(4, 4);Pick up big rocks on top;1;285
+;(10, 7);;(4, 4);Pick up big rocks on top;1;286
+;(10, 7);;(4, 4);Pick up big rocks on top;1;287
+;(10, 7);;(4, 4);Pick up big rocks on top;1;288
+;(10, 7);;(4, 4);Pick up big rocks on top;1;289
+;(10, 7);;(4, 4);Pick up big rocks on top;1;290
+;(10, 7);;(4, 4);Pick up big rocks on top;1;291
+;(10, 7);;(4, 4);Pick up big rocks on top;1;292
+;(10, 7);;(4, 4);Pick up big rocks on top;1;293
+;(10, 7);;(4, 4);Pick up big rocks on top;1;294
+;(10, 7);;(4, 4);Pick up big rocks on top;1;295
+;(10, 7);;(4, 4);Pick up big rocks on top;1;296
+;(10, 7);;(4, 4);Pick up big rocks on top;1;297
+;(10, 7);;(4, 4);Pick up big rocks on top;1;298
+;(10, 7);;(4, 4);Pick up big rocks on top;1;299
+;(10, 7);;(4, 4);Pick up big rocks on top;1;300
+;(10, 7);;(4, 4);Pick up big rocks on top;1;301
+;(10, 7);;(4, 4);Pick up big rocks on top;1;302
+;(10, 7);;(4, 4);Pick up big rocks on top;1;303
+;(10, 7);;(4, 4);Pick up big rocks on top;1;304
+;(10, 7);;(4, 4);Pick up big rocks on top;1;305
+;(10, 7);;(4, 4);Pick up big rocks on top;1;306
+;(10, 7);;(4, 4);Pick up big rocks on top;1;307
+;(10, 7);;(4, 4);Pick up big rocks on top;1;308
+;(10, 7);;(4, 4);Pick up big rocks on top;1;309
+;(10, 7);;(4, 4);Pick up big rocks on top;1;310
+;(10, 7);;(4, 4);Pick up big rocks on top;1;311
+;(10, 7);;(4, 4);Pick up big rocks on top;1;312
+;(10, 7);;(4, 4);Pick up big rocks on top;1;313
+;(10, 7);;(4, 4);Pick up big rocks on top;1;314
+;(10, 7);;(4, 4);Pick up big rocks on top;1;315
+;(10, 7);;(4, 4);Pick up big rocks on top;1;316
+;(10, 7);;(4, 4);Pick up big rocks on top;1;317
+;(10, 7);;(4, 4);Pick up big rocks on top;1;318
+;(10, 7);;(4, 4);Pick up big rocks on top;1;319
+;(10, 7);;(4, 4);Pick up big rocks on top;1;320
+;(10, 7);;(4, 4);Pick up big rocks on top;1;321
+;(10, 7);;(4, 4);Pick up big rocks on top;1;322
+;(10, 7);;(4, 4);Pick up big rocks on top;1;323
+;(10, 7);;(4, 4);Pick up big rocks on top;1;324
+;(10, 7);;(4, 4);Pick up big rocks on top;1;325
+;(10, 7);;(4, 4);Pick up big rocks on top;1;326
+;(10, 7);;(4, 4);Pick up big rocks on top;1;327
+;(10, 7);;(4, 4);Pick up big rocks on top;1;328
+;(10, 7);;(4, 4);Pick up big rocks on top;1;329
+;(10, 7);;(4, 4);Pick up big rocks on top;1;330
+;(10, 7);;(4, 4);Pick up big rocks on top;1;331
+;(10, 7);;(4, 4);Pick up big rocks on top;1;332
+;(10, 7);;(4, 4);Pick up big rocks on top;1;333
+;(10, 7);;(4, 4);Pick up big rocks on top;1;334
+;(10, 7);;(4, 4);Pick up big rocks on top;1;335
+;(10, 7);;(4, 4);Pick up big rocks on top;1;336
+;(10, 7);;(4, 4);Pick up big rocks on top;1;337
+;(10, 7);;(4, 4);Pick up big rocks on top;1;338
+;(10, 7);;(4, 4);Pick up big rocks on top;1;339
+;(10, 7);;(4, 4);Pick up big rocks on top;1;340
+;(10, 7);;(4, 4);Pick up big rocks on top;1;341
+;(10, 7);;(4, 4);Pick up big rocks on top;1;342
+;(10, 7);;(4, 4);Pick up big rocks on top;1;343
+;(10, 7);;(4, 4);Pick up big rocks on top;1;344
+;(10, 7);;(4, 4);Pick up big rocks on top;1;345
+;(10, 7);;(4, 4);Pick up big rocks on top;1;346
+;(10, 7);;(4, 4);Pick up big rocks on top;1;347
+;(10, 7);;(4, 4);Pick up big rocks on top;1;348
+;(10, 7);;(4, 4);Pick up big rocks on top;1;349
+;(10, 7);;(4, 4);Pick up big rocks on top;1;350
+;(10, 7);;(4, 4);Pick up big rocks on top;1;351
+;(10, 7);;(4, 4);Pick up big rocks on top;1;352
+;(10, 7);;(4, 4);Pick up big rocks on top;1;353
+;(10, 7);;(4, 4);Pick up big rocks on top;1;354
+;(10, 7);;(4, 4);Pick up big rocks on top;1;355
+;(10, 7);;(4, 4);Pick up big rocks on top;1;356
+;(10, 7);;(4, 4);Pick up big rocks on top;1;357
+;(10, 7);;(4, 4);Pick up big rocks on top;1;358
+;(10, 7);;(4, 4);Pick up big rocks on top;1;359
+;(10, 7);;(4, 4);Pick up big rocks on top;1;360
+;(10, 7);;(4, 4);Pick up big rocks on top;1;361
+;(10, 7);;(4, 4);Pick up big rocks on top;1;362
+;(10, 7);;(4, 4);Pick up big rocks on top;1;363
+;(10, 7);;(4, 4);Pick up big rocks on top;1;364
+;(10, 7);;(4, 4);Pick up big rocks on top;1;365
+;(10, 7);;(4, 4);Pick up big rocks on top;1;366
+;(10, 7);;(4, 4);Pick up big rocks on top;1;367
+;(10, 7);;(4, 4);Pick up big rocks on top;1;368
+;(10, 7);;(4, 4);Pick up big rocks on top;1;369
+;(10, 7);;(4, 4);Pick up big rocks on top;1;370
+;(10, 7);;(4, 4);Pick up big rocks on top;1;371
+;(10, 7);;(4, 4);Pick up big rocks on top;1;372
+;(10, 7);;(4, 4);Pick up big rocks on top;1;373
+;(10, 7);;(4, 4);Pick up big rocks on top;1;374
+;(10, 7);;(4, 4);Pick up big rocks on top;1;375
+;(10, 7);;(4, 4);Pick up big rocks on top;1;376
+;(10, 7);;(4, 4);Pick up big rocks on top;1;377
+;(10, 7);;(4, 4);Pick up big rocks on top;1;378
+;(10, 7);;(4, 4);Pick up big rocks on top;1;379
+;(10, 7);;(4, 4);Pick up big rocks on top;1;380
+;(10, 7);;(4, 4);Pick up big rocks on top;1;381
+;(10, 7);;(4, 4);Pick up big rocks on top;1;382
+;(10, 7);;(4, 4);Pick up big rocks on top;1;383
+;(10, 7);;(4, 4);Pick up big rocks on top;1;384
+;(10, 7);;(4, 4);Pick up big rocks on top;1;385
+;(10, 7);;(4, 4);Pick up big rocks on top;1;386
+;(10, 7);;(4, 4);Pick up big rocks on top;1;387
+;(10, 7);;(4, 4);Pick up big rocks on top;1;388
+;(10, 7);;(4, 4);Pick up big rocks on top;1;389
+;(10, 7);;(4, 4);Pick up big rocks on top;1;390
+;(10, 7);;(4, 4);Pick up big rocks on top;1;391
+;(10, 7);;(4, 4);Pick up big rocks on top;1;392
+;(10, 7);;(4, 4);Pick up big rocks on top;1;393
+;(10, 7);;(4, 4);Pick up big rocks on top;1;394
+;(10, 7);;(4, 4);Pick up big rocks on top;1;395
+;(10, 7);;(4, 4);Pick up big rocks on top;1;396
+;(10, 7);;(4, 4);Pick up big rocks on top;1;397
+;(10, 7);;(4, 4);Pick up big rocks on top;1;398
+;(10, 7);;(4, 4);Pick up big rocks on top;1;399
+;(10, 7);;(4, 4);Pick up big rocks on top;1;400
+;(10, 7);;(4, 4);Pick up big rocks on top;1;401
+;(10, 7);;(4, 4);Pick up big rocks on top;1;402
+;(10, 7);;(4, 4);Pick up big rocks on top;1;403
+;(10, 7);;(4, 4);Pick up big rocks on top;1;404
+;(10, 7);;(4, 4);Pick up big rocks on top;1;405
+;(10, 7);;(4, 4);Pick up big rocks on top;1;406
+;(10, 7);;(4, 4);Pick up big rocks on top;1;407
+;(10, 7);;(4, 4);Pick up big rocks on top;1;408
+;(10, 7);;(4, 4);Pick up big rocks on top;1;409
+;(10, 7);;(4, 4);Pick up big rocks on top;1;410
+;(10, 7);;(4, 4);Pick up big rocks on top;1;411
+;(10, 7);;(4, 4);Pick up big rocks on top;1;412
+;(10, 7);;(4, 4);Pick up big rocks on top;1;413
+;(10, 7);;(4, 4);Pick up big rocks on top;1;414
+;(10, 7);;(4, 4);Pick up big rocks on top;1;415
+;(10, 7);;(4, 4);Pick up big rocks on top;1;416
+;(10, 7);;(4, 4);Pick up big rocks on top;1;417
+;(10, 7);;(4, 4);Pick up big rocks on top;1;418
+;(10, 7);;(4, 4);Pick up big rocks on top;1;419
+;(10, 7);;(4, 4);Pick up big rocks on top;1;420
+;(10, 7);;(4, 4);Pick up big rocks on top;1;421
+;(10, 7);;(4, 4);Pick up big rocks on top;1;422
+;(10, 7);;(4, 4);Pick up big rocks on top;1;423
+;(10, 7);;(4, 4);Pick up big rocks on top;1;424
+;(10, 7);;(4, 4);Pick up big rocks on top;1;425
+;(10, 7);;(4, 4);Pick up big rocks on top;1;426
+;(10, 7);;(4, 4);Pick up big rocks on top;1;427
+;(10, 7);;(4, 4);Pick up big rocks on top;1;428
+;(10, 7);;(4, 4);Pick up big rocks on top;1;429
+;(10, 7);;(4, 4);Pick up big rocks on top;1;430
+;(10, 7);;(4, 4);Pick up big rocks on top;1;431
+;(10, 7);;(4, 4);Pick up big rocks on top;1;432
+;(10, 7);;(4, 4);Pick up big rocks on top;1;433
+;(10, 7);;(4, 4);Pick up big rocks on top;1;434
+;(10, 7);;(4, 4);Pick up big rocks on top;1;435
+;(10, 7);;(4, 4);Pick up big rocks on top;1;436
+;(10, 7);;(4, 4);Pick up big rocks on top;1;437
+;(10, 7);;(4, 4);Pick up big rocks on top;1;438
+;(10, 7);;(4, 4);Pick up big rocks on top;1;439
+;(10, 7);;(4, 4);Pick up big rocks on top;1;440
+;(10, 7);;(4, 4);Pick up big rocks on top;1;441
+;(10, 7);;(4, 4);Pick up big rocks on top;1;442
+;(10, 7);;(4, 4);Pick up big rocks on top;1;443
+;(10, 7);;(4, 4);Pick up big rocks on top;1;444
+;(10, 7);;(4, 4);Pick up big rocks on top;1;445
+;(10, 7);;(4, 4);Pick up big rocks on top;1;446
+;(10, 7);;(4, 4);Pick up big rocks on top;1;447
+;(10, 7);;(4, 4);Pick up big rocks on top;1;448
+;(10, 7);;(4, 4);Pick up big rocks on top;1;449
+;(10, 7);;(4, 4);Pick up big rocks on top;1;450
+;(10, 7);;(4, 4);Pick up big rocks on top;1;451
+;(10, 7);;(4, 4);Pick up big rocks on top;1;452
+;(10, 7);;(4, 4);Pick up big rocks on top;1;453
+;(10, 7);;(4, 4);Pick up big rocks on top;1;454
+;(10, 7);;(4, 4);Pick up big rocks on top;1;455
+;(10, 7);;(4, 4);Pick up big rocks on top;1;456
+;(10, 7);;(4, 4);Pick up big rocks on top;1;457
+;(10, 7);;(4, 4);Pick up big rocks on top;1;458
+;(10, 7);;(4, 4);Pick up big rocks on top;1;459
+;(10, 7);;(4, 4);Pick up big rocks on top;1;460
+;(10, 7);;(4, 4);Pick up big rocks on top;1;461
+;(10, 7);;(4, 4);Pick up big rocks on top;1;462
+;(10, 7);;(4, 4);Pick up big rocks on top;1;463
+;(10, 7);;(4, 4);Pick up big rocks on top;1;464
+;(10, 7);;(4, 4);Pick up big rocks on top;1;465
+;(10, 7);;(4, 4);Pick up big rocks on top;1;466
+;(10, 7);;(4, 4);Pick up big rocks on top;1;467
+;(10, 7);;(4, 4);Pick up big rocks on top;1;468
+;(10, 7);;(4, 4);Pick up big rocks on top;1;469
+;(10, 7);;(4, 4);Pick up big rocks on top;1;470
+;(10, 7);;(4, 4);Pick up big rocks on top;1;471
+;(10, 7);;(4, 4);Pick up big rocks on top;1;472
+;(10, 7);;(4, 4);Pick up big rocks on top;1;473
+;(10, 7);;(4, 4);Pick up big rocks on top;1;474
+;(10, 7);;(4, 4);Pick up big rocks on top;1;475
+;(10, 7);;(4, 4);Pick up big rocks on top;1;476
+;(10, 7);;(4, 4);Pick up big rocks on top;1;477
+;(10, 7);;(4, 4);Pick up big rocks on top;1;478
+;(10, 7);;(4, 4);Pick up big rocks on top;1;479
+;(10, 7);;(4, 4);Pick up big rocks on top;1;480
+;(10, 7);;(4, 4);Pick up big rocks on top;1;481
+;(10, 7);;(4, 4);Pick up big rocks on top;1;482
+;(10, 7);;(4, 4);Pick up big rocks on top;1;483
+;(10, 7);;(4, 4);Pick up big rocks on top;1;484
+;(10, 7);;(4, 4);Pick up big rocks on top;1;485
+;(10, 7);;(4, 4);Pick up big rocks on top;1;486
+;(10, 7);;(4, 4);Pick up big rocks on top;1;487
+;(10, 7);;(4, 4);Pick up big rocks on top;1;488
+;(10, 7);;(4, 4);Pick up big rocks on top;1;489
+;(10, 7);;(4, 4);Pick up big rocks on top;1;490
+;(10, 7);;(4, 4);Pick up big rocks on top;1;491
+;(10, 7);;(4, 4);Pick up big rocks on top;1;492
+;(10, 7);;(4, 4);Pick up big rocks on top;1;493
+;(10, 7);;(4, 4);Pick up big rocks on top;1;494
+;(10, 7);;(4, 4);Pick up big rocks on top;1;495
+;(10, 7);;(4, 4);Pick up big rocks on top;1;496
+;(10, 7);;(4, 4);Pick up big rocks on top;1;497
+MoveEast;(11, 7);;(4, 4);Pick up big rocks on top;1;498
+;(11, 7);;(4, 4);Pick up big rocks on top;1;499
+;(11, 7);;(4, 4);Pick up big rocks on top;1;500
+;(11, 7);;(4, 4);Pick up big rocks on top;1;501
+;(11, 7);;(4, 4);Pick up big rocks on top;1;502
+;(11, 7);;(4, 4);Pick up big rocks on top;1;503
+MoveSouth;(11, 8);;(4, 4);Pick up big rocks on top;1;504
+;(11, 8);;(4, 4);Pick up big rocks on top;1;505
+;(11, 8);;(4, 4);Pick up big rocks on top;1;506
+;(11, 8);;(4, 4);Pick up big rocks on top;1;507
+MoveWest;(10, 8);;(4, 4);Pick up big rocks on top;1;508
+;(10, 8);;(4, 4);Pick up big rocks on top;1;509
+;(10, 8);;(4, 4);Pick up big rocks on top;1;510
+;(10, 8);;(4, 4);Pick up big rocks on top;1;511
+;(10, 8);;(4, 4);Pick up big rocks on top;1;512
+;(10, 8);;(4, 4);Pick up big rocks on top;1;513
+;(10, 8);;(4, 4);Pick up big rocks on top;1;514
+MoveWest;(9, 8);;(4, 4);Pick up big rocks on top;1;515
+;(9, 8);;(4, 4);Pick up big rocks on top;1;516
+;(9, 8);;(4, 4);Pick up big rocks on top;1;517
+;(9, 8);;(4, 4);Pick up big rocks on top;1;518
+;(9, 8);;(4, 4);Pick up big rocks on top;1;519
+MoveWest;(8, 8);;(4, 4);Pick up big rocks on top;1;520
+;(8, 8);;(4, 4);Pick up big rocks on top;1;521
+;(8, 8);;(4, 4);Pick up big rocks on top;1;522
+;(8, 8);;(4, 4);Pick up big rocks on top;1;523
+;(8, 8);;(4, 4);Pick up big rocks on top;1;524
+;(8, 8);;(4, 4);Pick up big rocks on top;1;525
+;(8, 8);;(4, 4);Pick up big rocks on top;1;526
+;(8, 8);;(4, 4);Pick up big rocks on top;1;527
+;(8, 8);;(4, 4);Pick up big rocks on top;1;528
+;(8, 8);;(4, 4);Pick up big rocks on top;1;529
+MoveWest;(7, 8);;(4, 4);Pick up big rocks on top;1;530
+;(7, 8);;(4, 4);Pick up big rocks on top;1;531
+;(7, 8);;(4, 4);Pick up big rocks on top;1;532
+;(7, 8);;(4, 4);Pick up big rocks on top;1;533
+;(7, 8);;(4, 4);Pick up big rocks on top;1;534
+;(7, 8);;(4, 4);Pick up big rocks on top;1;535
+;(7, 8);;(4, 4);Pick up big rocks on top;1;536
+;(7, 8);;(4, 4);Pick up big rocks on top;1;537
+;(7, 8);;(4, 4);Pick up big rocks on top;1;538
+;(7, 8);;(4, 4);Pick up big rocks on top;1;539
+;(7, 8);;(4, 4);Pick up big rocks on top;1;540
+;(7, 8);;(4, 4);Pick up big rocks on top;1;541
+;(7, 8);;(4, 4);Pick up big rocks on top;1;542
+;(7, 8);;(4, 4);Pick up big rocks on top;1;543
+;(7, 8);;(4, 4);Pick up big rocks on top;1;544
+;(7, 8);;(4, 4);Pick up big rocks on top;1;545
+;(7, 8);;(4, 4);Pick up big rocks on top;1;546
+;(7, 8);;(4, 4);Pick up big rocks on top;1;547
+;(7, 8);;(4, 4);Pick up big rocks on top;1;548
+;(7, 8);;(4, 4);Pick up big rocks on top;1;549
+;(7, 8);;(4, 4);Pick up big rocks on top;1;550
+;(7, 8);;(4, 4);Pick up big rocks on top;1;551
+;(7, 8);;(4, 4);Pick up big rocks on top;1;552
+;(7, 8);;(4, 4);Pick up big rocks on top;1;553
+GrabObject;(7, 8);;(4, 4);Pick up big rocks on top;1;554
+;(7, 8);;(4, 4);Pick up big rocks on top;1;555
+;(7, 8);;(4, 4);Pick up big rocks on top;1;556
+;(7, 8);;(4, 4);Pick up big rocks on top;1;557
+;(7, 8);;(4, 4);Pick up big rocks on top;1;558
+;(7, 8);;(4, 4);Pick up big rocks on top;1;559
+;(7, 8);;(4, 4);Pick up big rocks on top;1;560
+MoveWest;(6, 8);;(4, 4);Pick up big rocks on top;1;561
+;(6, 8);;(4, 4);Pick up big rocks on top;1;562
+;(6, 8);;(4, 4);Pick up big rocks on top;1;563
+;(6, 8);;(4, 4);Pick up big rocks on top;1;564
+MoveWest;(5, 8);;(4, 4);Pick up big rocks on top;1;565
+;(5, 8);;(4, 4);Pick up big rocks on top;1;566
+;(5, 8);;(4, 4);Pick up big rocks on top;1;567
+;(5, 8);;(4, 4);Pick up big rocks on top;1;568
+;(5, 8);;(4, 4);Pick up big rocks on top;1;569
+MoveWest;(4, 8);;(4, 4);Pick up big rocks on top;1;570
+;(4, 8);;(4, 4);Pick up big rocks on top;1;571
+;(4, 8);;(4, 4);Pick up big rocks on top;1;572
+;(4, 8);;(4, 4);Pick up big rocks on top;1;573
+;(4, 8);;(4, 4);Pick up big rocks on top;1;574
+MoveWest;(3, 8);;(4, 4);Pick up big rocks on top;1;575
+;(3, 8);;(4, 4);Pick up big rocks on top;1;576
+;(3, 8);;(4, 4);Pick up big rocks on top;1;577
+;(3, 8);;(4, 4);Pick up big rocks on top;1;578
+;(3, 8);;(4, 4);Pick up big rocks on top;1;579
+;(3, 8);;(4, 4);Pick up big rocks on top;1;580
+;(3, 8);;(4, 4);Pick up big rocks on top;1;581
+;(3, 8);;(4, 4);Pick up big rocks on top;1;582
+;(3, 8);;(4, 4);Pick up big rocks on top;1;583
+;(3, 8);;(4, 4);Pick up big rocks on top;1;584
+;(3, 8);;(4, 4);Pick up big rocks on top;1;585
+;(3, 8);;(4, 4);Pick up big rocks on top;1;586
+;(3, 8);;(4, 4);Pick up big rocks on top;1;587
+DropObject;(3, 8);;(4, 4);Pick up big rocks on top;1;588
+;(3, 8);;(4, 4);Pick up big rocks on top;1;589
+;(3, 8);;(4, 4);Pick up big rocks on top;1;590
+;(3, 8);;(4, 4);Pick up big rocks on top;1;591
+MoveEast;(4, 8);;(4, 4);Pick up big rocks on top;1;592
+;(4, 8);;(4, 4);Pick up big rocks on top;1;593
+;(4, 8);;(4, 4);Pick up big rocks on top;1;594
+;(4, 8);;(4, 4);Pick up big rocks on top;1;595
+;(4, 8);;(4, 4);Pick up big rocks on top;1;596
+MoveEast;(5, 8);;(4, 4);Pick up big rocks on top;1;597
+;(5, 8);;(4, 4);Pick up big rocks on top;1;598
+;(5, 8);;(4, 4);Pick up big rocks on top;1;599
+;(5, 8);;(4, 4);Pick up big rocks on top;1;600
+MoveEast;(6, 8);;(4, 4);Pick up big rocks on top;1;601
+;(6, 8);;(4, 4);Pick up big rocks on top;1;602
+;(6, 8);;(4, 4);Pick up big rocks on top;1;603
+;(6, 8);;(4, 4);Pick up big rocks on top;1;604
+MoveEast;(7, 8);;(4, 4);Pick up big rocks on top;1;605
+;(7, 8);;(4, 4);Pick up big rocks on top;1;606
+;(7, 8);;(4, 4);Pick up big rocks on top;1;607
+;(7, 8);;(4, 4);Pick up big rocks on top;1;608
+;(7, 8);;(4, 4);Pick up big rocks on top;1;609
+MoveEast;(8, 8);;(4, 4);Pick up big rocks on top;1;610
+;(8, 8);;(4, 4);Pick up big rocks on top;1;611
+;(8, 8);;(4, 4);Pick up big rocks on top;1;612
+;(8, 8);;(4, 4);Pick up big rocks on top;1;613
+;(8, 8);;(4, 4);Pick up big rocks on top;1;614
+;(8, 8);;(4, 4);Pick up big rocks on top;1;615
+;(8, 8);;(4, 4);Pick up big rocks on top;1;616
+;(8, 8);;(4, 4);Pick up big rocks on top;1;617
+;(8, 8);;(4, 4);Pick up big rocks on top;1;618
+;(8, 8);;(4, 4);Pick up big rocks on top;1;619
+;(8, 8);;(4, 4);Pick up big rocks on top;1;620
+GrabObject;(8, 8);;(4, 4);Pick up big rocks on top;1;621
+;(8, 8);;(4, 4);Pick up big rocks on top;1;622
+;(8, 8);;(4, 4);Pick up big rocks on top;1;623
+;(8, 8);;(4, 4);Pick up big rocks on top;1;624
+;(8, 8);;(4, 4);Pick up big rocks on top;1;625
+;(8, 8);;(4, 4);Pick up big rocks on top;1;626
+MoveWest;(7, 8);;(4, 4);Pick up big rocks on top;1;627
+;(7, 8);;(4, 4);Pick up big rocks on top;1;628
+;(7, 8);;(4, 4);Pick up big rocks on top;1;629
+;(7, 8);;(4, 4);Pick up big rocks on top;1;630
+MoveWest;(6, 8);;(4, 4);Pick up big rocks on top;1;631
+;(6, 8);;(4, 4);Pick up big rocks on top;1;632
+;(6, 8);;(4, 4);Pick up big rocks on top;1;633
+MoveWest;(5, 8);;(4, 4);Pick up big rocks on top;1;634
+;(5, 8);;(4, 4);Pick up big rocks on top;1;635
+;(5, 8);;(4, 4);Pick up big rocks on top;1;636
+MoveWest;(4, 8);;(4, 4);Pick up big rocks on top;1;637
+;(4, 8);;(4, 4);Pick up big rocks on top;1;638
+;(4, 8);;(4, 4);Pick up big rocks on top;1;639
+MoveWest;(3, 8);;(4, 4);Pick up big rocks on top;1;640
+;(3, 8);;(4, 4);Pick up big rocks on top;1;641
+;(3, 8);;(4, 4);Pick up big rocks on top;1;642
+;(3, 8);;(4, 4);Pick up big rocks on top;1;643
+MoveWest;(2, 8);;(4, 4);Pick up big rocks on top;1;644
+;(2, 8);;(4, 4);Pick up big rocks on top;1;645
+;(2, 8);;(4, 4);Pick up big rocks on top;1;646
+;(2, 8);;(4, 4);Pick up big rocks on top;1;647
+;(2, 8);;(4, 4);Pick up big rocks on top;1;648
+;(2, 8);;(4, 4);Pick up big rocks on top;1;649
+;(2, 8);;(4, 4);Pick up big rocks on top;1;650
+;(2, 8);;(4, 4);Pick up big rocks on top;1;651
+DropObject;(2, 8);;(4, 4);Pick up big rocks on top;1;652
+;(2, 8);;(4, 4);Pick up big rocks on top;1;653
+;(2, 8);;(4, 4);Pick up big rocks on top;1;654
+;(2, 8);;(4, 4);Pick up big rocks on top;1;655
+;(2, 8);;(4, 4);Pick up big rocks on top;1;656
+;(2, 8);;(4, 4);Pick up big rocks on top;1;657
+MoveEast;(3, 8);;(4, 4);Pick up big rocks on top;1;658
+;(3, 8);;(4, 4);Pick up big rocks on top;1;659
+;(3, 8);;(4, 4);Pick up big rocks on top;1;660
+;(3, 8);;(4, 4);Pick up big rocks on top;1;661
+MoveEast;(4, 8);;(4, 4);Pick up big rocks on top;1;662
+;(4, 8);;(4, 4);Pick up big rocks on top;1;663
+;(4, 8);;(4, 4);Pick up big rocks on top;1;664
+;(4, 8);;(4, 4);Pick up big rocks on top;1;665
+MoveEast;(5, 8);;(4, 4);Pick up big rocks on top;1;666
+;(5, 8);;(4, 4);Pick up big rocks on top;1;667
+;(5, 8);;(4, 4);Pick up big rocks on top;1;668
+;(5, 8);;(4, 4);Pick up big rocks on top;1;669
+MoveEast;(6, 8);;(4, 4);Pick up big rocks on top;1;670
+;(6, 8);;(4, 4);Pick up big rocks on top;1;671
+;(6, 8);;(4, 4);Pick up big rocks on top;1;672
+;(6, 8);;(4, 4);Pick up big rocks on top;1;673
+;(6, 8);;(4, 4);Pick up big rocks on top;1;674
+;(6, 8);;(4, 4);Pick up big rocks on top;1;675
+;(6, 8);;(4, 4);Pick up big rocks on top;1;676
+;(6, 8);;(4, 4);Pick up big rocks on top;1;677
+;(6, 8);;(4, 4);Pick up big rocks on top;1;678
+;(6, 8);;(4, 4);Pick up big rocks on top;1;679
+;(6, 8);;(4, 4);Pick up big rocks on top;1;680
+;(6, 8);;(4, 4);Pick up big rocks on top;1;681
+;(6, 8);;(4, 4);Pick up big rocks on top;1;682
+;(6, 8);;(4, 4);Pick up big rocks on top;1;683
+;(6, 8);;(4, 4);Pick up big rocks on top;1;684
+;(6, 8);;(4, 4);Pick up big rocks on top;1;685
+;(6, 8);;(4, 4);Pick up big rocks on top;1;686
+;(6, 8);;(4, 4);Pick up big rocks on top;1;687
+;(6, 8);;(4, 4);Pick up big rocks on top;1;688
+;(6, 8);;(4, 4);Pick up big rocks on top;1;689
+;(6, 8);;(4, 4);Pick up big rocks on top;1;690
+;(6, 8);;(4, 4);Pick up big rocks on top;1;691
+;(6, 8);;(4, 4);Pick up big rocks on top;1;692
+;(6, 8);;(4, 4);Pick up big rocks on top;1;693
+;(6, 8);;(4, 4);Pick up big rocks on top;1;694
+;(6, 8);;(4, 4);Pick up big rocks on top;1;695
+;(6, 8);;(4, 4);Pick up big rocks on top;1;696
+;(6, 8);;(4, 4);Pick up big rocks on top;1;697
+;(6, 8);;(4, 4);Pick up big rocks on top;1;698
+;(6, 8);;(4, 4);Pick up big rocks on top;1;699
+;(6, 8);;(4, 4);Pick up big rocks on top;1;700
+;(6, 8);;(4, 4);Pick up big rocks on top;1;701
+;(6, 8);;(4, 4);Pick up big rocks on top;1;702
+;(6, 8);;(4, 4);Pick up big rocks on top;1;703
+;(6, 8);;(4, 4);Pick up big rocks on top;1;704
+;(6, 8);;(4, 4);Pick up big rocks on top;1;705
+;(6, 8);;(4, 4);Pick up big rocks on top;1;706
+;(6, 8);;(4, 4);Pick up big rocks on top;1;707
+;(6, 8);;(4, 4);Pick up big rocks on top;1;708
+;(6, 8);;(4, 4);Pick up big rocks on top;1;709
+;(6, 8);;(4, 4);Pick up big rocks on top;1;710
+;(6, 8);;(4, 4);Pick up big rocks on top;1;711
+;(6, 8);;(4, 4);Pick up big rocks on top;1;712
+;(6, 8);;(4, 4);Pick up big rocks on top;1;713
+;(6, 8);;(4, 4);Pick up big rocks on top;1;714
+;(6, 8);;(4, 4);Pick up big rocks on top;1;715
+;(6, 8);;(4, 4);Pick up big rocks on top;1;716
+;(6, 8);;(4, 4);Pick up big rocks on top;1;717
+;(6, 8);;(4, 4);Pick up big rocks on top;1;718
+;(6, 8);;(4, 4);Pick up big rocks on top;1;719
+;(6, 8);;(4, 4);Pick up big rocks on top;1;720
+;(6, 8);;(4, 4);Pick up big rocks on top;1;721
+;(6, 8);;(4, 4);Pick up big rocks on top;1;722
+;(6, 8);;(4, 4);Pick up big rocks on top;1;723
+;(6, 8);;(4, 4);Pick up big rocks on top;1;724
+;(6, 8);;(4, 4);Pick up big rocks on top;1;725
+;(6, 8);;(4, 4);Pick up big rocks on top;1;726
+;(6, 8);;(4, 4);Pick up big rocks on top;1;727
+;(6, 8);;(4, 4);Pick up big rocks on top;1;728
+;(6, 8);;(4, 4);Pick up big rocks on top;1;729
+;(6, 8);;(4, 4);Pick up big rocks on top;1;730
+;(6, 8);;(4, 4);Pick up big rocks on top;1;731
+;(6, 8);;(4, 4);Pick up big rocks on top;1;732
+;(6, 8);;(4, 4);Pick up big rocks on top;1;733
+;(6, 8);;(4, 4);Pick up big rocks on top;1;734
+;(6, 8);;(4, 4);Pick up big rocks on top;1;735
+;(6, 8);;(4, 4);Pick up big rocks on top;1;736
+;(6, 8);;(4, 4);Pick up big rocks on top;1;737
+;(6, 8);;(4, 4);Pick up big rocks on top;1;738
+;(6, 8);;(4, 4);Pick up big rocks on top;1;739
+;(6, 8);;(4, 4);Pick up big rocks on top;1;740
+;(6, 8);;(4, 4);Pick up big rocks on top;1;741
+;(6, 8);;(4, 4);Pick up big rocks on top;1;742
+;(6, 8);;(4, 4);Pick up big rocks on top;1;743
+;(6, 8);;(4, 4);Pick up big rocks on top;1;744
+;(6, 8);;(4, 4);Pick up big rocks on top;1;745
+;(6, 8);;(4, 4);Pick up big rocks on top;1;746
+;(6, 8);;(4, 4);Pick up big rocks on top;1;747
+;(6, 8);;(4, 4);Pick up big rocks on top;1;748
+;(6, 8);;(4, 4);Pick up big rocks on top;1;749
+;(6, 8);;(4, 4);Pick up big rocks on top;1;750
+;(6, 8);;(4, 4);Pick up big rocks on top;1;751
+;(6, 8);;(4, 4);Pick up big rocks on top;1;752
+;(6, 8);;(4, 4);Pick up big rocks on top;1;753
+;(6, 8);;(4, 4);Pick up big rocks on top;1;754
+;(6, 8);;(4, 4);Pick up big rocks on top;1;755
+;(6, 8);;(4, 4);Pick up big rocks on top;1;756
+;(6, 8);;(4, 4);Pick up big rocks on top;1;757
+;(6, 8);;(4, 4);Pick up big rocks on top;1;758
+;(6, 8);;(4, 4);Pick up big rocks on top;1;759
+;(6, 8);;(4, 4);Pick up big rocks on top;1;760
+;(6, 8);;(4, 4);Pick up big rocks on top;1;761
+;(6, 8);;(4, 4);Pick up big rocks on top;1;762
+;(6, 8);;(4, 4);Pick up big rocks on top;1;763
+;(6, 8);;(4, 4);Pick up big rocks on top;1;764
+;(6, 8);;(4, 4);Pick up big rocks on top;1;765
+;(6, 8);;(4, 4);Pick up big rocks on top;1;766
+;(6, 8);;(4, 4);Pick up big rocks on top;1;767
+;(6, 8);;(4, 4);Pick up big rocks on top;1;768
+;(6, 8);;(4, 4);Pick up big rocks on top;1;769
+;(6, 8);;(4, 4);Pick up big rocks on top;1;770
+;(6, 8);;(4, 4);Pick up big rocks on top;1;771
+;(6, 8);;(4, 4);Pick up big rocks on top;1;772
+;(6, 8);;(4, 4);Pick up big rocks on top;1;773
+;(6, 8);;(4, 4);Pick up big rocks on top;1;774
+;(6, 8);;(4, 4);Pick up big rocks on top;1;775
+;(6, 8);;(4, 4);Pick up big rocks on top;1;776
+;(6, 8);;(4, 4);Pick up big rocks on top;1;777
+;(6, 8);;(4, 4);Pick up big rocks on top;1;778
+;(6, 8);;(4, 4);Pick up big rocks on top;1;779
+;(6, 8);;(4, 4);Pick up big rocks on top;1;780
+;(6, 8);;(4, 4);Pick up big rocks on top;1;781
+;(6, 8);;(4, 4);Pick up big rocks on top;1;782
+;(6, 8);;(4, 4);Pick up big rocks on top;1;783
+;(6, 8);;(4, 4);Pick up big rocks on top;1;784
+;(6, 8);;(4, 4);Pick up big rocks on top;1;785
+;(6, 8);;(4, 4);Pick up big rocks on top;1;786
+;(6, 8);;(4, 4);Pick up big rocks on top;1;787
+;(6, 8);;(4, 4);Pick up big rocks on top;1;788
+;(6, 8);;(4, 4);Pick up big rocks on top;1;789
+;(6, 8);;(4, 4);Pick up big rocks on top;1;790
+;(6, 8);;(4, 4);Pick up big rocks on top;1;791
+;(6, 8);;(4, 4);Pick up big rocks on top;1;792
+;(6, 8);;(4, 4);Pick up big rocks on top;1;793
+;(6, 8);;(4, 4);Pick up big rocks on top;1;794
+;(6, 8);;(4, 4);Pick up big rocks on top;1;795
+;(6, 8);;(4, 4);Pick up big rocks on top;1;796
+;(6, 8);;(4, 4);Pick up big rocks on top;1;797
+;(6, 8);;(4, 4);Pick up big rocks on top;1;798
+;(6, 8);;(4, 4);Pick up big rocks on top;1;799
+;(6, 8);;(4, 4);Pick up big rocks on top;1;800
+;(6, 8);;(4, 4);Pick up big rocks on top;1;801
+;(6, 8);;(4, 4);Pick up big rocks on top;1;802
+;(6, 8);;(4, 4);Pick up big rocks on top;1;803
+;(6, 8);;(4, 4);Pick up big rocks on top;1;804
+MoveEast;(7, 8);;(4, 4);Pick up big rocks on top;1;805
+;(7, 8);;(4, 4);Pick up big rocks on top;1;806
+;(7, 8);;(4, 4);Pick up big rocks on top;1;807
+;(7, 8);;(4, 4);Pick up big rocks on top;1;808
+;(7, 8);;(4, 4);Pick up big rocks on top;1;809
+;(7, 8);;(4, 4);Pick up big rocks on top;1;810
+MoveEast;(8, 8);;(4, 4);Pick up big rocks on top;1;811
+;(8, 8);;(4, 4);Pick up big rocks on top;1;812
+;(8, 8);;(4, 4);Pick up big rocks on top;1;813
+;(8, 8);;(4, 4);Pick up big rocks on top;1;814
+MoveEast;(9, 8);;(4, 4);Pick up big rocks on top;1;815
+;(9, 8);;(4, 4);Pick up big rocks on top;1;816
+;(9, 8);;(4, 4);Pick up big rocks on top;1;817
+;(9, 8);;(4, 4);Pick up big rocks on top;1;818
+;(9, 8);;(4, 4);Pick up big rocks on top;1;819
+MoveEast;(10, 8);;(4, 4);Pick up big rocks on top;1;820
+;(10, 8);;(4, 4);Pick up big rocks on top;1;821
+;(10, 8);;(4, 4);Pick up big rocks on top;1;822
+;(10, 8);;(4, 4);Pick up big rocks on top;1;823
+;(10, 8);;(4, 4);Pick up big rocks on top;1;824
+;(10, 8);;(4, 4);Pick up big rocks on top;1;825
+;(10, 8);;(4, 4);Pick up big rocks on top;1;826
+;(10, 8);;(4, 4);Pick up big rocks on top;1;827
+;(10, 8);;(4, 4);Pick up big rocks on top;1;828
+;(10, 8);;(4, 4);Pick up big rocks on top;1;829
+MoveWest;(9, 8);;(4, 4);Pick up big rocks on top;1;830
+;(9, 8);;(4, 4);Pick up big rocks on top;1;831
+;(9, 8);;(4, 4);Pick up big rocks on top;1;832
+;(9, 8);;(4, 4);Pick up big rocks on top;1;833
+;(9, 8);;(4, 4);Pick up big rocks on top;1;834
+;(9, 8);;(4, 4);Pick up big rocks on top;1;835
+;(9, 8);;(4, 4);Pick up big rocks on top;1;836
+;(9, 8);;(4, 4);Pick up big rocks on top;1;837
+MoveNorth;(9, 7);;(4, 4);Pick up big rocks on top;1;838
+;(9, 7);;(4, 4);Pick up big rocks on top;1;839
+;(9, 7);;(4, 4);Pick up big rocks on top;1;840
+;(9, 7);;(4, 4);Pick up big rocks on top;1;841
+MoveNorth;(9, 6);;(4, 4);Pick up big rocks on top;1;842
+;(9, 6);;(4, 4);Pick up big rocks on top;1;843
+;(9, 6);;(4, 4);Pick up big rocks on top;1;844
+;(9, 6);;(4, 4);Pick up big rocks on top;1;845
+;(9, 6);;(4, 4);Pick up big rocks on top;1;846
+MoveNorth;(9, 5);;(4, 4);Pick up big rocks on top;1;847
+;(9, 5);;(4, 4);Pick up big rocks on top;1;848
+;(9, 5);;(4, 4);Pick up big rocks on top;1;849
+;(9, 5);;(4, 4);Pick up big rocks on top;1;850
+MoveNorth;(9, 4);;(4, 4);Pick up big rocks on top;1;851
+;(9, 4);;(4, 4);Pick up big rocks on top;1;852
+;(9, 4);;(4, 4);Pick up big rocks on top;1;853
+;(9, 4);;(4, 4);Pick up big rocks on top;1;854
+;(9, 4);;(4, 4);Pick up big rocks on top;1;855
+;(9, 4);;(4, 4);Pick up big rocks on top;1;856
+;(9, 4);;(4, 4);Pick up big rocks on top;1;857
+;(9, 4);;(4, 4);Pick up big rocks on top;1;858
+;(9, 4);;(4, 4);Pick up big rocks on top;1;859
+;(9, 4);;(4, 4);Pick up big rocks on top;1;860
+;(9, 4);;(4, 4);Pick up big rocks on top;1;861
+;(9, 4);;(4, 4);Pick up big rocks on top;1;862
+;(9, 4);;(4, 4);Pick up big rocks on top;1;863
+;(9, 4);;(4, 4);Pick up big rocks on top;1;864
+;(9, 4);;(4, 4);Pick up big rocks on top;1;865
+;(9, 4);;(4, 4);Pick up big rocks on top;1;866
+;(9, 4);;(4, 4);Pick up big rocks on top;1;867
+;(9, 4);;(4, 4);Pick up big rocks on top;1;868
+;(9, 4);;(4, 4);Pick up big rocks on top;1;869
+;(9, 4);;(4, 4);Pick up big rocks on top;1;870
+;(9, 4);;(4, 4);Pick up big rocks on top;1;871
+;(9, 4);;(4, 4);Pick up big rocks on top;1;872
+;(9, 4);;(4, 4);Pick up big rocks on top;1;873
+;(9, 4);;(4, 4);Pick up big rocks on top;1;874
+;(9, 4);;(4, 4);Pick up big rocks on top;1;875
+;(9, 4);;(4, 4);Pick up big rocks on top;1;876
+GrabObject;(9, 4);;(4, 4);Pick up big rocks on top;1;877
+;(9, 4);;(4, 4);Pick up big rocks on top;1;878
+;(9, 4);;(4, 4);Pick up big rocks on top;1;879
+MoveWest;(8, 4);;(4, 4);Pick up big rocks on top;1;880
+;(8, 4);;(4, 4);Pick up big rocks on top;1;881
+;(8, 4);;(4, 4);Pick up big rocks on top;1;882
+;(8, 4);;(4, 4);Pick up big rocks on top;1;883
+MoveWest;(7, 4);;(4, 4);Pick up big rocks on top;1;884
+;(7, 4);;(4, 4);Pick up big rocks on top;1;885
+;(7, 4);;(4, 4);Pick up big rocks on top;1;886
+MoveWest;(6, 4);;(4, 4);Pick up big rocks on top;1;887
+;(6, 4);;(4, 4);Pick up big rocks on top;1;888
+;(6, 4);;(4, 4);Pick up big rocks on top;1;889
+MoveWest;(5, 4);;(4, 4);Pick up big rocks on top;1;890
+;(5, 4);;(4, 4);Pick up big rocks on top;1;891
+;(5, 4);;(4, 4);Pick up big rocks on top;1;892
+MoveWest;(4, 4);;(4, 4);Pick up big rocks on top;1;893
+;(4, 4);;(4, 4);Pick up big rocks on top;1;894
+;(4, 4);;(4, 4);Pick up big rocks on top;1;895
+MoveWest;(3, 4);;(4, 4);Pick up big rocks on top;1;896
+;(3, 4);;(4, 4);Pick up big rocks on top;1;897
+;(3, 4);;(4, 4);Pick up big rocks on top;1;898
+MoveWest;(2, 4);;(4, 4);Pick up big rocks on top;1;899
+;(2, 4);;(4, 4);Pick up big rocks on top;1;900
+;(2, 4);;(4, 4);Pick up big rocks on top;1;901
+MoveWest;(1, 4);;(4, 4);Pick up big rocks on top;1;902
+;(1, 4);;(4, 4);Pick up big rocks on top;1;903
+;(1, 4);;(4, 4);Pick up big rocks on top;1;904
+MoveWest;(0, 4);;(4, 4);Pick up big rocks on top;1;905
+;(0, 4);;(4, 4);Pick up big rocks on top;1;906
+;(0, 4);;(4, 4);Pick up big rocks on top;1;907
+DropObject;(0, 4);;(4, 4);Pick up big rocks on top;1;908
+;(0, 4);;(4, 4);Pick up big rocks on top;1;909
+MoveEast;(1, 4);;(4, 4);Pick up big rocks on top;1;910
+;(1, 4);;(4, 4);Pick up big rocks on top;1;911
+;(1, 4);;(4, 4);Pick up big rocks on top;1;912
+;(1, 4);;(4, 4);Pick up big rocks on top;1;913
+MoveEast;(2, 4);;(4, 4);Pick up big rocks on top;1;914
+;(2, 4);;(4, 4);Pick up big rocks on top;1;915
+;(2, 4);;(4, 4);Pick up big rocks on top;1;916
+MoveEast;(3, 4);;(4, 4);Pick up big rocks on top;1;917
+;(3, 4);;(4, 4);Pick up big rocks on top;1;918
+;(3, 4);;(4, 4);Pick up big rocks on top;1;919
+MoveEast;(4, 4);;(4, 4);Pick up big rocks on top;1;920
+;(4, 4);;(4, 4);Pick up big rocks on top;1;921
+;(4, 4);;(4, 4);Pick up big rocks on top;1;922
+MoveEast;(5, 4);;(4, 4);Pick up big rocks on top;1;923
+;(5, 4);;(4, 4);Pick up big rocks on top;1;924
+;(5, 4);;(4, 4);Pick up big rocks on top;1;925
+MoveEast;(6, 4);;(4, 4);Pick up big rocks on top;1;926
+;(6, 4);;(4, 4);Pick up big rocks on top;1;927
+;(6, 4);;(4, 4);Pick up big rocks on top;1;928
+MoveEast;(7, 4);;(4, 4);Pick up big rocks on top;1;929
+;(7, 4);;(4, 4);Pick up big rocks on top;1;930
+;(7, 4);;(4, 4);Pick up big rocks on top;1;931
+MoveEast;(8, 4);;(4, 4);Pick up big rocks on top;1;932
+;(8, 4);;(4, 4);Pick up big rocks on top;1;933
+;(8, 4);;(4, 4);Pick up big rocks on top;1;934
+MoveEast;(9, 4);;(4, 4);Pick up big rocks on top;1;935
+;(9, 4);;(4, 4);Pick up big rocks on top;1;936
+;(9, 4);;(4, 4);Pick up big rocks on top;1;937
+MoveEast;(10, 4);;(4, 4);Pick up big rocks on top;1;938
+;(10, 4);;(4, 4);Pick up big rocks on top;1;939
+;(10, 4);;(4, 4);Pick up big rocks on top;1;940
+;(10, 4);;(4, 4);Pick up big rocks on top;1;941
+;(10, 4);;(4, 4);Pick up big rocks on top;1;942
+MoveSouth;(10, 5);;(4, 4);Pick up big rocks on top;1;943
+;(10, 5);;(4, 4);Pick up big rocks on top;1;944
+;(10, 5);;(4, 4);Pick up big rocks on top;1;945
+;(10, 5);;(4, 4);Pick up big rocks on top;1;946
+;(10, 5);;(4, 4);Pick up big rocks on top;1;947
+;(10, 5);;(4, 4);Pick up big rocks on top;1;948
+;(10, 5);;(4, 4);Pick up big rocks on top;1;949
+;(10, 5);;(4, 4);Pick up big rocks on top;1;950
+;(10, 5);;(4, 4);Pick up big rocks on top;1;951
+MoveWest;(9, 5);;(4, 4);Pick up big rocks on top;1;952
+;(9, 5);;(4, 4);Pick up big rocks on top;1;953
+;(9, 5);;(4, 4);Pick up big rocks on top;1;954
+;(9, 5);;(4, 4);Pick up big rocks on top;1;955
+;(9, 5);;(4, 4);Pick up big rocks on top;1;956
+;(9, 5);;(4, 4);Pick up big rocks on top;1;957
+;(9, 5);;(4, 4);Pick up big rocks on top;1;958
+GrabObject;(9, 5);;(4, 4);Pick up big rocks on top;1;959
+;(9, 5);;(4, 4);Pick up big rocks on top;1;960
+;(9, 5);;(4, 4);Pick up big rocks on top;1;961
+MoveWest;(8, 5);;(4, 4);Pick up big rocks on top;1;962
+;(8, 5);;(4, 4);Pick up big rocks on top;1;963
+;(8, 5);;(4, 4);Pick up big rocks on top;1;964
+;(8, 5);;(4, 4);Pick up big rocks on top;1;965
+MoveWest;(7, 5);;(4, 4);Pick up big rocks on top;1;966
+;(7, 5);;(4, 4);Pick up big rocks on top;1;967
+;(7, 5);;(4, 4);Pick up big rocks on top;1;968
+MoveWest;(6, 5);;(4, 4);Pick up big rocks on top;1;969
+;(6, 5);;(4, 4);Pick up big rocks on top;1;970
+;(6, 5);;(4, 4);Pick up big rocks on top;1;971
+MoveWest;(5, 5);;(4, 4);Pick up big rocks on top;1;972
+;(5, 5);;(4, 4);Pick up big rocks on top;1;973
+;(5, 5);;(4, 4);Pick up big rocks on top;1;974
+;(5, 5);;(4, 4);Pick up big rocks on top;1;975
+MoveWest;(4, 5);;(4, 4);Pick up big rocks on top;1;976
+;(4, 5);;(4, 4);Pick up big rocks on top;1;977
+;(4, 5);;(4, 4);Pick up big rocks on top;1;978
+MoveWest;(3, 5);;(4, 4);Pick up big rocks on top;1;979
+;(3, 5);;(4, 4);Pick up big rocks on top;1;980
+;(3, 5);;(4, 4);Pick up big rocks on top;1;981
+MoveWest;(2, 5);;(4, 4);Pick up big rocks on top;1;982
+;(2, 5);;(4, 4);Pick up big rocks on top;1;983
+;(2, 5);;(4, 4);Pick up big rocks on top;1;984
+;(2, 5);;(4, 4);Pick up big rocks on top;1;985
+MoveWest;(1, 5);;(4, 4);Pick up big rocks on top;1;986
+;(1, 5);;(4, 4);Pick up big rocks on top;1;987
+;(1, 5);;(4, 4);Pick up big rocks on top;1;988
+;(1, 5);;(4, 4);Pick up big rocks on top;1;989
+;(1, 5);;(4, 4);Pick up big rocks on top;1;990
+;(1, 5);;(4, 4);Pick up big rocks on top;1;991
+;(1, 5);;(4, 4);Pick up big rocks on top;1;992
+MoveWest;(0, 5);;(4, 4);Pick up big rocks on top;1;993
+;(0, 5);;(4, 4);Pick up big rocks on top;1;994
+;(0, 5);;(4, 4);Pick up big rocks on top;1;995
+;(0, 5);;(4, 4);Pick up big rocks on top;1;996
+;(0, 5);;(4, 4);Pick up big rocks on top;1;997
+;(0, 5);;(4, 4);Pick up big rocks on top;1;998
+;(0, 5);;(4, 4);Pick up big rocks on top;1;999
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1000
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1001
+DropObject;(0, 5);;(4, 4);Pick up big rocks on top;1;1002
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1003
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1004
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1005
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1006
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1007
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1008
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1009
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1010
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1011
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1012
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1013
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1014
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1015
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1016
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1017
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1018
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1019
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1020
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1021
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1022
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1023
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1024
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1025
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1026
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1027
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1028
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1029
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1030
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1031
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1032
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1033
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1034
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1035
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1036
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1037
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1038
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1039
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1040
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1041
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1042
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1043
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1044
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1045
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1046
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1047
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1048
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1049
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1050
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1051
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1052
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1053
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1054
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1055
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1056
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1057
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1058
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1059
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1060
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1061
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1062
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1063
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1064
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1065
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1066
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1067
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1068
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1069
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1070
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1071
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1072
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1073
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1074
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1075
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1076
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1077
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1078
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1079
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1080
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1081
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1082
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1083
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1084
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1085
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1086
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1087
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1088
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1089
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1090
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1091
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1092
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1093
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1094
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1095
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1096
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1097
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1098
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1099
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1100
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1101
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1102
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1103
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1104
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1105
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1106
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1107
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1108
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1109
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1110
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1111
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1112
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1113
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1114
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1115
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1116
+;(0, 5);;(4, 4);Pick up big rocks on top;1;1117
+MoveEast;(1, 5);;(4, 4);Pick up big rocks on top;1;1118
+;(1, 5);;(4, 4);Pick up big rocks on top;1;1119
+;(1, 5);;(4, 4);Pick up big rocks on top;1;1120
+;(1, 5);;(4, 4);Pick up big rocks on top;1;1121
+;(1, 5);;(4, 4);Pick up big rocks on top;1;1122
+MoveEast;(2, 5);;(4, 4);Pick up big rocks on top;1;1123
+;(2, 5);;(4, 4);Pick up big rocks on top;1;1124
+;(2, 5);;(4, 4);Pick up big rocks on top;1;1125
+;(2, 5);;(4, 4);Pick up big rocks on top;1;1126
+;(2, 5);;(4, 4);Pick up big rocks on top;1;1127
+;(2, 5);;(4, 4);Pick up big rocks on top;1;1128
+;(2, 5);;(4, 4);Pick up big rocks on top;1;1129
+;(2, 5);;(4, 4);Pick up big rocks on top;1;1130
+;(2, 5);;(4, 4);Pick up big rocks on top;1;1131
+;(2, 5);;(4, 4);Pick up big rocks on top;1;1132
+MoveEast;(3, 5);;(4, 4);Pick up big rocks on top;1;1133
+MoveEast;(4, 5);;(4, 4);Pick up big rocks on top;1;1134
+MoveEast;(5, 5);;(4, 4);Pick up big rocks on top;1;1135
+MoveEast;(6, 5);;(4, 4);Pick up big rocks on top;1;1136
+MoveEast;(7, 5);;(4, 4);Pick up big rocks on top;1;1137
+MoveEast;(8, 5);;(4, 4);Pick up big rocks on top;1;1138
+MoveEast;(9, 5);;(4, 4);Pick up big rocks on top;1;1139
+MoveEast;(10, 5);;(4, 4);Pick up big rocks on top;1;1140
+MoveEast;(11, 5);;(4, 4);Pick up big rocks on top;1;1141
+MoveEast;(12, 5);;(4, 4);Pick up big rocks on top;1;1142
+MoveEast;(13, 5);;(4, 4);Pick up big rocks on top;1;1143
+;(13, 5);;(4, 4);Pick up big rocks on top;1;1144
+;(13, 5);;(4, 4);Pick up big rocks on top;1;1145
+;(13, 5);;(4, 4);Pick up big rocks on top;1;1146
+MoveSouth;(13, 6);;(4, 4);Pick up big rocks on top;1;1147
+;(13, 6);;(4, 4);Pick up big rocks on top;1;1148
+;(13, 6);;(4, 4);Pick up big rocks on top;1;1149
+;(13, 6);;(4, 4);Pick up big rocks on top;1;1150
+MoveWest;(12, 6);;(4, 4);Pick up big rocks on top;1;1151
+;(12, 6);;(4, 4);Pick up big rocks on top;1;1152
+;(12, 6);;(4, 4);Pick up big rocks on top;1;1153
+;(12, 6);;(4, 4);Pick up big rocks on top;1;1154
+;(12, 6);;(4, 4);Pick up big rocks on top;1;1155
+MoveWest;(11, 6);;(4, 4);Pick up big rocks on top;1;1156
+;(11, 6);;(4, 4);Pick up big rocks on top;1;1157
+;(11, 6);;(4, 4);Pick up big rocks on top;1;1158
+;(11, 6);;(4, 4);Pick up big rocks on top;1;1159
+;(11, 6);;(4, 4);Pick up big rocks on top;1;1160
+;(11, 6);;(4, 4);Pick up big rocks on top;1;1161
+;(11, 6);;(4, 4);Pick up big rocks on top;1;1162
+;(11, 6);;(4, 4);Pick up big rocks on top;1;1163
+;(11, 6);;(4, 4);Pick up big rocks on top;1;1164
+GrabObject;(11, 6);;(4, 4);Pick up big rocks on top;1;1165
+;(11, 6);;(4, 4);Pick up big rocks on top;1;1166
+;(11, 6);;(4, 4);Pick up big rocks on top;1;1167
+MoveWest;(10, 6);;(4, 4);Pick up big rocks on top;1;1168
+;(10, 6);;(4, 4);Pick up big rocks on top;1;1169
+;(10, 6);;(4, 4);Pick up big rocks on top;1;1170
+MoveWest;(9, 6);;(4, 4);Pick up big rocks on top;1;1171
+;(9, 6);;(4, 4);Pick up big rocks on top;1;1172
+;(9, 6);;(4, 4);Pick up big rocks on top;1;1173
+;(9, 6);;(4, 4);Pick up big rocks on top;1;1174
+MoveWest;(8, 6);;(4, 4);Pick up big rocks on top;1;1175
+;(8, 6);;(4, 4);Pick up big rocks on top;1;1176
+MoveWest;(7, 6);;(4, 4);Pick up big rocks on top;1;1177
+;(7, 6);;(4, 4);Pick up big rocks on top;1;1178
+;(7, 6);;(4, 4);Pick up big rocks on top;1;1179
+;(7, 6);;(4, 4);Pick up big rocks on top;1;1180
+MoveWest;(6, 6);;(4, 4);Pick up big rocks on top;1;1181
+;(6, 6);;(4, 4);Pick up big rocks on top;1;1182
+;(6, 6);;(4, 4);Pick up big rocks on top;1;1183
+MoveWest;(5, 6);;(4, 4);Pick up big rocks on top;1;1184
+;(5, 6);;(4, 4);Pick up big rocks on top;1;1185
+;(5, 6);;(4, 4);Pick up big rocks on top;1;1186
+MoveWest;(4, 6);;(4, 4);Pick up big rocks on top;1;1187
+;(4, 6);;(4, 4);Pick up big rocks on top;1;1188
+;(4, 6);;(4, 4);Pick up big rocks on top;1;1189
+MoveWest;(3, 6);;(4, 4);Pick up big rocks on top;1;1190
+;(3, 6);;(4, 4);Pick up big rocks on top;1;1191
+;(3, 6);;(4, 4);Pick up big rocks on top;1;1192
+MoveWest;(2, 6);;(4, 4);Pick up big rocks on top;1;1193
+;(2, 6);;(4, 4);Pick up big rocks on top;1;1194
+;(2, 6);;(4, 4);Pick up big rocks on top;1;1195
+MoveWest;(1, 6);;(4, 4);Pick up big rocks on top;1;1196
+;(1, 6);;(4, 4);Pick up big rocks on top;1;1197
+;(1, 6);;(4, 4);Pick up big rocks on top;1;1198
+;(1, 6);;(4, 4);Pick up big rocks on top;1;1199
+;(1, 6);;(4, 4);Pick up big rocks on top;1;1200
+;(1, 6);;(4, 4);Pick up big rocks on top;1;1201
+;(1, 6);;(4, 4);Pick up big rocks on top;1;1202
+DropObject;(1, 6);;(4, 4);Pick up big rocks on top;1;1203
+;(1, 6);;(4, 4);Pick up big rocks on top;1;1204
+;(1, 6);;(4, 4);Pick up big rocks on top;1;1205
+;(1, 6);;(4, 4);Pick up big rocks on top;1;1206
+;(1, 6);;(4, 4);Pick up big rocks on top;1;1207
+;(1, 6);;(4, 4);Pick up big rocks on top;1;1208
+;(1, 6);;(4, 4);Pick up big rocks on top;1;1209
+;(1, 6);;(4, 4);Pick up big rocks on top;1;1210
+;(1, 6);;(4, 4);Pick up big rocks on top;1;1211
+;(1, 6);;(4, 4);Pick up big rocks on top;1;1212
+;(1, 6);;(4, 4);Pick up big rocks on top;1;1213
+;(1, 6);;(4, 4);Pick up big rocks on top;1;1214
+;(1, 6);;(4, 4);Pick up big rocks on top;1;1215
+;(1, 6);;(4, 4);Pick up big rocks on top;1;1216
+;(1, 6);;(4, 4);Pick up big rocks on top;1;1217
+;(1, 6);;(4, 4);Pick up big rocks on top;1;1218
+;(1, 6);;(4, 4);Pick up big rocks on top;1;1219
+;(1, 6);;(4, 4);Pick up big rocks on top;1;1220
+;(1, 6);;(4, 4);Pick up big rocks on top;1;1221
+;(1, 6);;(4, 4);Pick up big rocks on top;1;1222
+;(1, 6);;(4, 4);Pick up big rocks on top;1;1223
+MoveEast;(2, 6);;(4, 4);Pick up big rocks on top;1;1224
+;(2, 6);;(4, 4);Pick up big rocks on top;1;1225
+;(2, 6);;(4, 4);Pick up big rocks on top;1;1226
+;(2, 6);;(4, 4);Pick up big rocks on top;1;1227
+MoveEast;(3, 6);;(4, 4);Pick up big rocks on top;1;1228
+;(3, 6);;(4, 4);Pick up big rocks on top;1;1229
+;(3, 6);;(4, 4);Pick up big rocks on top;1;1230
+MoveEast;(4, 6);;(4, 4);Pick up big rocks on top;1;1231
+;(4, 6);;(4, 4);Pick up big rocks on top;1;1232
+;(4, 6);;(4, 4);Pick up big rocks on top;1;1233
+MoveEast;(5, 6);;(4, 4);Pick up big rocks on top;1;1234
+;(5, 6);;(4, 4);Pick up big rocks on top;1;1235
+;(5, 6);;(4, 4);Pick up big rocks on top;1;1236
+MoveEast;(6, 6);;(4, 4);Pick up big rocks on top;1;1237
+;(6, 6);;(4, 4);Pick up big rocks on top;1;1238
+;(6, 6);;(4, 4);Pick up big rocks on top;1;1239
+;(6, 6);;(4, 4);Pick up big rocks on top;1;1240
+;(6, 6);;(4, 4);Pick up big rocks on top;1;1241
+MoveEast;(7, 6);;(4, 4);Pick up big rocks on top;1;1242
+;(7, 6);;(4, 4);Pick up big rocks on top;1;1243
+;(7, 6);;(4, 4);Pick up big rocks on top;1;1244
+;(7, 6);;(4, 4);Pick up big rocks on top;1;1245
+;(7, 6);;(4, 4);Pick up big rocks on top;1;1246
+;(7, 6);;(4, 4);Pick up big rocks on top;1;1247
+;(7, 6);;(4, 4);Pick up big rocks on top;1;1248
+;(7, 6);;(4, 4);Pick up big rocks on top;1;1249
+;(7, 6);;(4, 4);Pick up big rocks on top;1;1250
+MoveEast;(8, 6);;(4, 4);Pick up big rocks on top;1;1251
+;(8, 6);;(4, 4);Pick up big rocks on top;1;1252
+;(8, 6);;(4, 4);Pick up big rocks on top;1;1253
+;(8, 6);;(4, 4);Pick up big rocks on top;1;1254
+;(8, 6);;(4, 4);Pick up big rocks on top;1;1255
+;(8, 6);;(4, 4);Pick up big rocks on top;1;1256
+;(8, 6);;(4, 4);Pick up big rocks on top;1;1257
+;(8, 6);;(4, 4);Pick up big rocks on top;1;1258
+;(8, 6);;(4, 4);Pick up big rocks on top;1;1259
+;(8, 6);;(4, 4);Pick up big rocks on top;1;1260
+;(8, 6);;(4, 4);Pick up big rocks on top;1;1261
+MoveEast;(9, 6);;(4, 4);Pick up big rocks on top;1;1262
+;(9, 6);;(4, 4);Pick up big rocks on top;1;1263
+;(9, 6);;(4, 4);Pick up big rocks on top;1;1264
+;(9, 6);;(4, 4);Pick up big rocks on top;1;1265
+MoveSouth;(9, 7);;(4, 4);Pick up big rocks on top;1;1266
+;(9, 7);;(4, 4);Pick up big rocks on top;1;1267
+;(9, 7);;(4, 4);Pick up big rocks on top;1;1268
+;(9, 7);;(4, 4);Pick up big rocks on top;1;1269
+;(9, 7);;(4, 4);Pick up big rocks on top;1;1270
+MoveSouth;(9, 8);;(4, 4);Pick up big rocks on top;1;1271
+;(9, 8);;(4, 4);Pick up big rocks on top;1;1272
+;(9, 8);;(4, 4);Pick up big rocks on top;1;1273
+;(9, 8);;(4, 4);Pick up big rocks on top;1;1274
+;(9, 8);;(4, 4);Pick up big rocks on top;1;1275
+;(9, 8);;(4, 4);Pick up big rocks on top;1;1276
+;(9, 8);;(4, 4);Pick up big rocks on top;1;1277
+;(9, 8);;(4, 4);Pick up big rocks on top;1;1278
+;(9, 8);;(4, 4);Pick up big rocks on top;1;1279
+;(9, 8);;(4, 4);Pick up big rocks on top;1;1280
+;(9, 8);;(4, 4);Pick up big rocks on top;1;1281
+;(9, 8);;(4, 4);Pick up big rocks on top;1;1282
+;(9, 8);;(4, 4);Pick up big rocks on top;1;1283
+;(9, 8);;(4, 4);Pick up big rocks on top;1;1284
+;(9, 8);;(4, 4);Pick up big rocks on top;1;1285
+;(9, 8);;(4, 4);Pick up big rocks on top;1;1286
+;(9, 8);;(4, 4);Pick up big rocks on top;1;1287
+;(9, 8);;(4, 4);Pick up big rocks on top;1;1288
+;(9, 8);;(4, 4);Pick up big rocks on top;1;1289
+GrabObject;(9, 8);;(4, 4);Pick up big rocks on top;1;1290
+;(9, 8);;(4, 4);Pick up big rocks on top;1;1291
+;(9, 8);;(4, 4);Pick up big rocks on top;1;1292
+;(9, 8);;(4, 4);Pick up big rocks on top;1;1293
+;(9, 8);;(4, 4);Pick up big rocks on top;1;1294
+;(9, 8);;(4, 4);Pick up big rocks on top;1;1295
+;(9, 8);;(4, 4);Pick up big rocks on top;1;1296
+;(9, 8);;(4, 4);Pick up big rocks on top;1;1297
+;(9, 8);;(4, 4);Pick up big rocks on top;1;1298
+MoveWest;(8, 8);;(4, 4);Pick up big rocks on top;1;1299
+;(8, 8);;(4, 4);Pick up big rocks on top;1;1300
+;(8, 8);;(4, 4);Pick up big rocks on top;1;1301
+MoveWest;(7, 8);;(4, 4);Pick up big rocks on top;1;1302
+;(7, 8);;(4, 4);Pick up big rocks on top;1;1303
+;(7, 8);;(4, 4);Pick up big rocks on top;1;1304
+;(7, 8);;(4, 4);Pick up big rocks on top;1;1305
+MoveWest;(6, 8);;(4, 4);Pick up big rocks on top;1;1306
+;(6, 8);;(4, 4);Pick up big rocks on top;1;1307
+;(6, 8);;(4, 4);Pick up big rocks on top;1;1308
+MoveWest;(5, 8);;(4, 4);Pick up big rocks on top;1;1309
+;(5, 8);;(4, 4);Pick up big rocks on top;1;1310
+;(5, 8);;(4, 4);Pick up big rocks on top;1;1311
+MoveWest;(4, 8);;(4, 4);Pick up big rocks on top;1;1312
+;(4, 8);;(4, 4);Pick up big rocks on top;1;1313
+;(4, 8);;(4, 4);Pick up big rocks on top;1;1314
+MoveWest;(3, 8);;(4, 4);Pick up big rocks on top;1;1315
+;(3, 8);;(4, 4);Pick up big rocks on top;1;1316
+;(3, 8);;(4, 4);Pick up big rocks on top;1;1317
+;(3, 8);;(4, 4);Pick up big rocks on top;1;1318
+;(3, 8);;(4, 4);Pick up big rocks on top;1;1319
+;(3, 8);;(4, 4);Pick up big rocks on top;1;1320
+;(3, 8);;(4, 4);Pick up big rocks on top;1;1321
+;(3, 8);;(4, 4);Pick up big rocks on top;1;1322
+;(3, 8);;(4, 4);Pick up big rocks on top;1;1323
+DropObject;(3, 8);;(4, 4);Pick up big rocks on top;1;1324
+;(3, 8);;(4, 4);Pick up big rocks on top;1;1325
+;(3, 8);;(4, 4);Pick up big rocks on top;1;1326
+MoveEast;(4, 8);;(4, 4);Pick up big rocks on top;1;1327
+;(4, 8);;(4, 4);Pick up big rocks on top;1;1328
+;(4, 8);;(4, 4);Pick up big rocks on top;1;1329
+;(4, 8);;(4, 4);Pick up big rocks on top;1;1330
+;(4, 8);;(4, 4);Pick up big rocks on top;1;1331
+MoveEast;(5, 8);;(4, 4);Pick up big rocks on top;1;1332
+;(5, 8);;(4, 4);Pick up big rocks on top;1;1333
+;(5, 8);;(4, 4);Pick up big rocks on top;1;1334
+MoveEast;(6, 8);;(4, 4);Pick up big rocks on top;1;1335
+;(6, 8);;(4, 4);Pick up big rocks on top;1;1336
+;(6, 8);;(4, 4);Pick up big rocks on top;1;1337
+;(6, 8);;(4, 4);Pick up big rocks on top;1;1338
+MoveEast;(7, 8);;(4, 4);Pick up big rocks on top;1;1339
+;(7, 8);;(4, 4);Pick up big rocks on top;1;1340
+;(7, 8);;(4, 4);Pick up big rocks on top;1;1341
+;(7, 8);;(4, 4);Pick up big rocks on top;1;1342
+;(7, 8);;(4, 4);Pick up big rocks on top;1;1343
+;(7, 8);;(4, 4);Pick up big rocks on top;1;1344
+;(7, 8);;(4, 4);Pick up big rocks on top;1;1345
+MoveEast;(8, 8);;(4, 4);Pick up big rocks on top;1;1346
+;(8, 8);;(4, 4);Pick up big rocks on top;1;1347
+;(8, 8);;(4, 4);Pick up big rocks on top;1;1348
+MoveEast;(9, 8);;(4, 4);Pick up big rocks on top;1;1349
+;(9, 8);;(4, 4);Pick up big rocks on top;1;1350
+;(9, 8);;(4, 4);Pick up big rocks on top;1;1351
+MoveEast;(10, 8);;(4, 4);Pick up big rocks on top;1;1352
+;(10, 8);;(4, 4);Pick up big rocks on top;1;1353
+;(10, 8);;(4, 4);Pick up big rocks on top;1;1354
+;(10, 8);;(4, 4);Pick up big rocks on top;1;1355
+;(10, 8);;(4, 4);Pick up big rocks on top;1;1356
+;(10, 8);;(4, 4);Pick up big rocks on top;1;1357
+;(10, 8);;(4, 4);Pick up big rocks on top;1;1358
+;(10, 8);;(4, 4);Pick up big rocks on top;1;1359
+;(10, 8);;(4, 4);Pick up big rocks on top;1;1360
+;(10, 8);;(4, 4);Pick up big rocks on top;1;1361
+;(10, 8);;(4, 4);Pick up big rocks on top;1;1362
+;(10, 8);;(4, 4);Pick up big rocks on top;1;1363
+;(10, 8);;(4, 4);Pick up big rocks on top;1;1364
+;(10, 8);;(4, 4);Pick up big rocks on top;1;1365
+GrabObject;(10, 8);;(4, 4);Pick up big rocks on top;1;1366
+;(10, 8);;(4, 4);Pick up big rocks on top;1;1367
+;(10, 8);;(4, 4);Pick up big rocks on top;1;1368
+MoveWest;(9, 8);;(4, 4);Pick up big rocks on top;1;1369
+;(9, 8);;(4, 4);Pick up big rocks on top;1;1370
+;(9, 8);;(4, 4);Pick up big rocks on top;1;1371
+;(9, 8);;(4, 4);Pick up big rocks on top;1;1372
+MoveWest;(8, 8);;(4, 4);Pick up big rocks on top;1;1373
+;(8, 8);;(4, 4);Pick up big rocks on top;1;1374
+;(8, 8);;(4, 4);Pick up big rocks on top;1;1375
+;(8, 8);;(4, 4);Pick up big rocks on top;1;1376
+MoveWest;(7, 8);;(4, 4);Pick up big rocks on top;1;1377
+;(7, 8);;(4, 4);Pick up big rocks on top;1;1378
+;(7, 8);;(4, 4);Pick up big rocks on top;1;1379
+;(7, 8);;(4, 4);Pick up big rocks on top;1;1380
+;(7, 8);;(4, 4);Pick up big rocks on top;1;1381
+MoveWest;(6, 8);;(4, 4);Pick up big rocks on top;1;1382
+;(6, 8);;(4, 4);Pick up big rocks on top;1;1383
+;(6, 8);;(4, 4);Pick up big rocks on top;1;1384
+MoveWest;(5, 8);;(4, 4);Pick up big rocks on top;1;1385
+;(5, 8);;(4, 4);Pick up big rocks on top;1;1386
+;(5, 8);;(4, 4);Pick up big rocks on top;1;1387
+MoveWest;(4, 8);;(4, 4);Pick up big rocks on top;1;1388
+;(4, 8);;(4, 4);Pick up big rocks on top;1;1389
+;(4, 8);;(4, 4);Pick up big rocks on top;1;1390
+;(4, 8);;(4, 4);Pick up big rocks on top;1;1391
+MoveWest;(3, 8);;(4, 4);Pick up big rocks on top;1;1392
+;(3, 8);;(4, 4);Pick up big rocks on top;1;1393
+;(3, 8);;(4, 4);Pick up big rocks on top;1;1394
+;(3, 8);;(4, 4);Pick up big rocks on top;1;1395
+DropObject;(3, 8);;(4, 4);Pick up big rocks on top;1;1396
+;(3, 8);;(4, 4);Pick up big rocks on top;1;1397
+;(3, 8);;(4, 4);Pick up big rocks on top;1;1398
+MoveEast;(4, 8);;(4, 4);Pick up big rocks on top;1;1399
+;(4, 8);;(4, 4);Pick up big rocks on top;1;1400
+;(4, 8);;(4, 4);Pick up big rocks on top;1;1401
+;(4, 8);;(4, 4);Pick up big rocks on top;1;1402
+;(4, 8);;(4, 4);Pick up big rocks on top;1;1403
+MoveEast;(5, 8);;(4, 4);Pick up big rocks on top;1;1404
+;(5, 8);;(4, 4);Pick up big rocks on top;1;1405
+;(5, 8);;(4, 4);Pick up big rocks on top;1;1406
+MoveEast;(6, 8);;(4, 4);Pick up big rocks on top;1;1407
+;(6, 8);;(4, 4);Pick up big rocks on top;1;1408
+;(6, 8);;(4, 4);Pick up big rocks on top;1;1409
+MoveEast;(7, 8);;(4, 4);Pick up big rocks on top;1;1410
+;(7, 8);;(4, 4);Pick up big rocks on top;1;1411
+;(7, 8);;(4, 4);Pick up big rocks on top;1;1412
+MoveEast;(8, 8);;(4, 4);Pick up big rocks on top;1;1413
+;(8, 8);;(4, 4);Pick up big rocks on top;1;1414
+;(8, 8);;(4, 4);Pick up big rocks on top;1;1415
+;(8, 8);;(4, 4);Pick up big rocks on top;1;1416
+MoveEast;(9, 8);;(4, 4);Pick up big rocks on top;1;1417
+;(9, 8);;(4, 4);Pick up big rocks on top;1;1418
+;(9, 8);;(4, 4);Pick up big rocks on top;1;1419
+MoveEast;(10, 8);;(4, 4);Pick up big rocks on top;1;1420
+;(10, 8);;(4, 4);Pick up big rocks on top;1;1421
+;(10, 8);;(4, 4);Pick up big rocks on top;1;1422
+;(10, 8);;(4, 4);Pick up big rocks on top;1;1423
+MoveEast;(11, 8);;(4, 4);Pick up big rocks on top;1;1424
+;(11, 8);;(4, 4);Pick up big rocks on top;1;1425
+;(11, 8);;(4, 4);Pick up big rocks on top;1;1426
+;(11, 8);;(4, 4);Pick up big rocks on top;1;1427
+;(11, 8);;(4, 4);Pick up big rocks on top;1;1428
+;(11, 8);;(4, 4);Pick up big rocks on top;1;1429
+;(11, 8);;(4, 4);Pick up big rocks on top;1;1430
+;(11, 8);;(4, 4);Pick up big rocks on top;1;1431
+;(11, 8);;(4, 4);Pick up big rocks on top;1;1432
+;(11, 8);;(4, 4);Pick up big rocks on top;1;1433
+;(11, 8);;(4, 4);Pick up big rocks on top;1;1434
+;(11, 8);;(4, 4);Pick up big rocks on top;1;1435
+;(11, 8);;(4, 4);Pick up big rocks on top;1;1436
+;(11, 8);;(4, 4);Pick up big rocks on top;1;1437
+;(11, 8);;(4, 4);Pick up big rocks on top;1;1438
+;(11, 8);;(4, 4);Pick up big rocks on top;1;1439
+GrabObject;(11, 8);;(4, 4);Pick up big rocks on top;1;1440
+;(11, 8);;(4, 4);Pick up big rocks on top;1;1441
+;(11, 8);;(4, 4);Pick up big rocks on top;1;1442
+;(11, 8);;(4, 4);Pick up big rocks on top;1;1443
+;(11, 8);;(4, 4);Pick up big rocks on top;1;1444
+MoveWest;(10, 8);;(4, 4);Pick up big rocks on top;1;1445
+;(10, 8);;(4, 4);Pick up big rocks on top;1;1446
+;(10, 8);;(4, 4);Pick up big rocks on top;1;1447
+;(10, 8);;(4, 4);Pick up big rocks on top;1;1448
+MoveWest;(9, 8);;(4, 4);Pick up big rocks on top;1;1449
+;(9, 8);;(4, 4);Pick up big rocks on top;1;1450
+;(9, 8);;(4, 4);Pick up big rocks on top;1;1451
+MoveWest;(8, 8);;(4, 4);Pick up big rocks on top;1;1452
+;(8, 8);;(4, 4);Pick up big rocks on top;1;1453
+;(8, 8);;(4, 4);Pick up big rocks on top;1;1454
+MoveWest;(7, 8);;(4, 4);Pick up big rocks on top;1;1455
+;(7, 8);;(4, 4);Pick up big rocks on top;1;1456
+;(7, 8);;(4, 4);Pick up big rocks on top;1;1457
+;(7, 8);;(4, 4);Pick up big rocks on top;1;1458
+MoveWest;(6, 8);;(4, 4);Pick up big rocks on top;1;1459
+;(6, 8);;(4, 4);Pick up big rocks on top;1;1460
+;(6, 8);;(4, 4);Pick up big rocks on top;1;1461
+MoveWest;(5, 8);;(4, 4);Pick up big rocks on top;1;1462
+;(5, 8);;(4, 4);Pick up big rocks on top;1;1463
+;(5, 8);;(4, 4);Pick up big rocks on top;1;1464
+MoveWest;(4, 8);;(4, 4);Pick up big rocks on top;1;1465
+;(4, 8);;(4, 4);Pick up big rocks on top;1;1466
+;(4, 8);;(4, 4);Pick up big rocks on top;1;1467
+MoveWest;(3, 8);;(4, 4);Pick up big rocks on top;1;1468
+;(3, 8);;(4, 4);Pick up big rocks on top;1;1469
+;(3, 8);;(4, 4);Pick up big rocks on top;1;1470
+MoveWest;(2, 8);;(4, 4);Pick up big rocks on top;1;1471
+;(2, 8);;(4, 4);Pick up big rocks on top;1;1472
+;(2, 8);;(4, 4);Pick up big rocks on top;1;1473
+MoveWest;(1, 8);;(4, 4);Pick up big rocks on top;1;1474
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1475
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1476
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1477
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1478
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1479
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1480
+DropObject;(1, 8);;(4, 4);Pick up big rocks on top;1;1481
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1482
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1483
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1484
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1485
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1486
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1487
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1488
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1489
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1490
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1491
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1492
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1493
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1494
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1495
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1496
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1497
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1498
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1499
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1500
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1501
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1502
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1503
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1504
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1505
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1506
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1507
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1508
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1509
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1510
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1511
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1512
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1513
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1514
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1515
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1516
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1517
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1518
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1519
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1520
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1521
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1522
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1523
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1524
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1525
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1526
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1527
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1528
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1529
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1530
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1531
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1532
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1533
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1534
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1535
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1536
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1537
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1538
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1539
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1540
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1541
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1542
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1543
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1544
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1545
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1546
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1547
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1548
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1549
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1550
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1551
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1552
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1553
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1554
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1555
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1556
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1557
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1558
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1559
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1560
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1561
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1562
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1563
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1564
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1565
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1566
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1567
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1568
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1569
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1570
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1571
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1572
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1573
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1574
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1575
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1576
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1577
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1578
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1579
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1580
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1581
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1582
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1583
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1584
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1585
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1586
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1587
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1588
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1589
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1590
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1591
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1592
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1593
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1594
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1595
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1596
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1597
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1598
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1599
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1600
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1601
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1602
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1603
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1604
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1605
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1606
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1607
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1608
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1609
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1610
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1611
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1612
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1613
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1614
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1615
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1616
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1617
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1618
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1619
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1620
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1621
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1622
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1623
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1624
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1625
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1626
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1627
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1628
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1629
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1630
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1631
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1632
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1633
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1634
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1635
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1636
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1637
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1638
+;(1, 8);;(4, 4);Pick up big rocks on top;1;1639
+MoveEast;(2, 8);;(4, 4);Pick up big rocks on top;1;1640
+;(2, 8);;(4, 4);Pick up big rocks on top;1;1641
+;(2, 8);;(4, 4);Pick up big rocks on top;1;1642
+;(2, 8);;(4, 4);Pick up big rocks on top;1;1643
+;(2, 8);;(4, 4);Pick up big rocks on top;1;1644
+MoveEast;(3, 8);;(4, 4);Pick up big rocks on top;1;1645
+;(3, 8);;(4, 4);Pick up big rocks on top;1;1646
+;(3, 8);;(4, 4);Pick up big rocks on top;1;1647
+;(3, 8);;(4, 4);Pick up big rocks on top;1;1648
+MoveEast;(4, 8);;(4, 4);Pick up big rocks on top;1;1649
+;(4, 8);;(4, 4);Pick up big rocks on top;1;1650
+;(4, 8);;(4, 4);Pick up big rocks on top;1;1651
+;(4, 8);;(4, 4);Pick up big rocks on top;1;1652
+MoveEast;(5, 8);;(4, 4);Pick up big rocks on top;1;1653
+;(5, 8);;(4, 4);Pick up big rocks on top;1;1654
+;(5, 8);;(4, 4);Pick up big rocks on top;1;1655
+MoveEast;(6, 8);;(4, 4);Pick up big rocks on top;1;1656
+;(6, 8);;(4, 4);Pick up big rocks on top;1;1657
+;(6, 8);;(4, 4);Pick up big rocks on top;1;1658
+MoveEast;(7, 8);;(4, 4);Pick up big rocks on top;1;1659
+;(7, 8);;(4, 4);Pick up big rocks on top;1;1660
+;(7, 8);;(4, 4);Pick up big rocks on top;1;1661
+;(7, 8);;(4, 4);Pick up big rocks on top;1;1662
+;(7, 8);;(4, 4);Pick up big rocks on top;1;1663
+;(7, 8);;(4, 4);Pick up big rocks on top;1;1664
+;(7, 8);;(4, 4);Pick up big rocks on top;1;1665
+;(7, 8);;(4, 4);Pick up big rocks on top;1;1666
+;(7, 8);;(4, 4);Pick up big rocks on top;1;1667
+;(7, 8);;(4, 4);Pick up big rocks on top;1;1668
+MoveEast;(8, 8);;(4, 4);Pick up big rocks on top;1;1669
+MoveEast;(9, 8);;(4, 4);Pick up big rocks on top;1;1670
+MoveEast;(10, 8);;(4, 4);Pick up big rocks on top;1;1671
+MoveEast;(11, 8);;(4, 4);Pick up big rocks on top;1;1672
+MoveEast;(12, 8);;(4, 4);Pick up big rocks on top;1;1673
+MoveEast;(13, 8);;(4, 4);Pick up big rocks on top;1;1674
+MoveEast;(14, 8);;(4, 4);Pick up big rocks on top;1;1675
+MoveEast;(15, 8);;(4, 4);Pick up big rocks on top;1;1676
+MoveEast;(16, 8);;(4, 4);Pick up big rocks on top;1;1677
+MoveEast;(17, 8);;(4, 4);Pick up big rocks on top;1;1678
+MoveEast;(18, 8);;(4, 4);Pick up big rocks on top;1;1679
+;(18, 8);;(4, 4);Pick up big rocks on top;1;1680
+;(18, 8);;(4, 4);Pick up big rocks on top;1;1681
+MoveSouth;(18, 9);;(4, 4);Pick up big rocks on top;1;1682
+;(18, 9);;(4, 4);Pick up big rocks on top;1;1683
+;(18, 9);;(4, 4);Pick up big rocks on top;1;1684
+;(18, 9);;(4, 4);Pick up big rocks on top;1;1685
+MoveWest;(17, 9);;(4, 4);Pick up big rocks on top;1;1686
+;(17, 9);;(4, 4);Pick up big rocks on top;1;1687
+;(17, 9);;(4, 4);Pick up big rocks on top;1;1688
+;(17, 9);;(4, 4);Pick up big rocks on top;1;1689
+MoveWest;(16, 9);;(4, 4);Pick up big rocks on top;1;1690
+;(16, 9);;(4, 4);Pick up big rocks on top;1;1691
+;(16, 9);;(4, 4);Pick up big rocks on top;1;1692
+MoveWest;(15, 9);;(4, 4);Pick up big rocks on top;1;1693
+;(15, 9);;(4, 4);Pick up big rocks on top;1;1694
+;(15, 9);;(4, 4);Pick up big rocks on top;1;1695
+;(15, 9);;(4, 4);Pick up big rocks on top;1;1696
+MoveWest;(14, 9);;(4, 4);Pick up big rocks on top;1;1697
+;(14, 9);;(4, 4);Pick up big rocks on top;1;1698
+;(14, 9);;(4, 4);Pick up big rocks on top;1;1699
+;(14, 9);;(4, 4);Pick up big rocks on top;1;1700
+;(14, 9);;(4, 4);Pick up big rocks on top;1;1701
+;(14, 9);;(4, 4);Pick up big rocks on top;1;1702
+MoveSouth;(14, 10);;(4, 4);Pick up big rocks on top;1;1703
+;(14, 10);;(4, 4);Pick up big rocks on top;1;1704
+;(14, 10);;(4, 4);Pick up big rocks on top;1;1705
+;(14, 10);;(4, 4);Pick up big rocks on top;1;1706
+;(14, 10);;(4, 4);Pick up big rocks on top;1;1707
+;(14, 10);;(4, 4);Pick up big rocks on top;1;1708
+;(14, 10);;(4, 4);Pick up big rocks on top;1;1709
+;(14, 10);;(4, 4);Pick up big rocks on top;1;1710
+;(14, 10);;(4, 4);Pick up big rocks on top;1;1711
+;(14, 10);;(4, 4);Pick up big rocks on top;1;1712
+;(14, 10);;(4, 4);Pick up big rocks on top;1;1713
+;(14, 10);;(4, 4);Pick up big rocks on top;1;1714
+;(14, 10);;(4, 4);Pick up big rocks on top;1;1715
+;(14, 10);;(4, 4);Pick up big rocks on top;1;1716
+;(14, 10);;(4, 4);Pick up big rocks on top;1;1717
+;(14, 10);;(4, 4);Pick up big rocks on top;1;1718
+;(14, 10);;(4, 4);Pick up big rocks on top;1;1719
+;(14, 10);;(4, 4);Pick up big rocks on top;1;1720
+;(14, 10);;(4, 4);Pick up big rocks on top;1;1721
+GrabObject;(14, 10);;(4, 4);Pick up big rocks on top;1;1722
+;(14, 10);;(4, 4);Pick up big rocks on top;1;1723
+;(14, 10);;(4, 4);Pick up big rocks on top;1;1724
+;(14, 10);;(4, 4);Pick up big rocks on top;1;1725
+;(14, 10);;(4, 4);Pick up big rocks on top;1;1726
+MoveWest;(13, 10);;(4, 4);Pick up big rocks on top;1;1727
+;(13, 10);;(4, 4);Pick up big rocks on top;1;1728
+;(13, 10);;(4, 4);Pick up big rocks on top;1;1729
+;(13, 10);;(4, 4);Pick up big rocks on top;1;1730
+MoveWest;(12, 10);;(4, 4);Pick up big rocks on top;1;1731
+;(12, 10);;(4, 4);Pick up big rocks on top;1;1732
+;(12, 10);;(4, 4);Pick up big rocks on top;1;1733
+MoveWest;(11, 10);;(4, 4);Pick up big rocks on top;1;1734
+;(11, 10);;(4, 4);Pick up big rocks on top;1;1735
+;(11, 10);;(4, 4);Pick up big rocks on top;1;1736
+;(11, 10);;(4, 4);Pick up big rocks on top;1;1737
+MoveWest;(10, 10);;(4, 4);Pick up big rocks on top;1;1738
+;(10, 10);;(4, 4);Pick up big rocks on top;1;1739
+;(10, 10);;(4, 4);Pick up big rocks on top;1;1740
+;(10, 10);;(4, 4);Pick up big rocks on top;1;1741
+MoveWest;(9, 10);;(4, 4);Pick up big rocks on top;1;1742
+;(9, 10);;(4, 4);Pick up big rocks on top;1;1743
+;(9, 10);;(4, 4);Pick up big rocks on top;1;1744
+MoveWest;(8, 10);;(4, 4);Pick up big rocks on top;1;1745
+;(8, 10);;(4, 4);Pick up big rocks on top;1;1746
+;(8, 10);;(4, 4);Pick up big rocks on top;1;1747
+;(8, 10);;(4, 4);Pick up big rocks on top;1;1748
+MoveWest;(7, 10);;(4, 4);Pick up big rocks on top;1;1749
+;(7, 10);;(4, 4);Pick up big rocks on top;1;1750
+;(7, 10);;(4, 4);Pick up big rocks on top;1;1751
+MoveWest;(6, 10);;(4, 4);Pick up big rocks on top;1;1752
+;(6, 10);;(4, 4);Pick up big rocks on top;1;1753
+;(6, 10);;(4, 4);Pick up big rocks on top;1;1754
+MoveWest;(5, 10);;(4, 4);Pick up big rocks on top;1;1755
+;(5, 10);;(4, 4);Pick up big rocks on top;1;1756
+;(5, 10);;(4, 4);Pick up big rocks on top;1;1757
+MoveWest;(4, 10);;(4, 4);Pick up big rocks on top;1;1758
+;(4, 10);;(4, 4);Pick up big rocks on top;1;1759
+;(4, 10);;(4, 4);Pick up big rocks on top;1;1760
+;(4, 10);;(4, 4);Pick up big rocks on top;1;1761
+MoveWest;(3, 10);;(4, 4);Pick up big rocks on top;1;1762
+;(3, 10);;(4, 4);Pick up big rocks on top;1;1763
+;(3, 10);;(4, 4);Pick up big rocks on top;1;1764
+;(3, 10);;(4, 4);Pick up big rocks on top;1;1765
+;(3, 10);;(4, 4);Pick up big rocks on top;1;1766
+;(3, 10);;(4, 4);Pick up big rocks on top;1;1767
+;(3, 10);;(4, 4);Pick up big rocks on top;1;1768
+DropObject;(3, 10);;(4, 4);Pick up big rocks on top;1;1769
+;(3, 10);;(4, 4);Pick up big rocks on top;1;1770
+;(3, 10);;(4, 4);Pick up big rocks on top;1;1771
+;(3, 10);;(4, 4);Pick up big rocks on top;1;1772
+;(3, 10);;(4, 4);Pick up big rocks on top;1;1773
+;(3, 10);;(4, 4);Pick up big rocks on top;1;1774
+MoveEast;(4, 10);;(4, 4);Pick up big rocks on top;1;1775
+;(4, 10);;(4, 4);Pick up big rocks on top;1;1776
+;(4, 10);;(4, 4);Pick up big rocks on top;1;1777
+;(4, 10);;(4, 4);Pick up big rocks on top;1;1778
+MoveEast;(5, 10);;(4, 4);Pick up big rocks on top;1;1779
+;(5, 10);;(4, 4);Pick up big rocks on top;1;1780
+;(5, 10);;(4, 4);Pick up big rocks on top;1;1781
+;(5, 10);;(4, 4);Pick up big rocks on top;1;1782
+MoveEast;(6, 10);;(4, 4);Pick up big rocks on top;1;1783
+;(6, 10);;(4, 4);Pick up big rocks on top;1;1784
+;(6, 10);;(4, 4);Pick up big rocks on top;1;1785
+MoveEast;(7, 10);;(4, 4);Pick up big rocks on top;1;1786
+;(7, 10);;(4, 4);Pick up big rocks on top;1;1787
+;(7, 10);;(4, 4);Pick up big rocks on top;1;1788
+;(7, 10);;(4, 4);Pick up big rocks on top;1;1789
+MoveEast;(8, 10);;(4, 4);Pick up big rocks on top;1;1790
+;(8, 10);;(4, 4);Pick up big rocks on top;1;1791
+;(8, 10);;(4, 4);Pick up big rocks on top;1;1792
+MoveEast;(9, 10);;(4, 4);Pick up big rocks on top;1;1793
+;(9, 10);;(4, 4);Pick up big rocks on top;1;1794
+;(9, 10);;(4, 4);Pick up big rocks on top;1;1795
+;(9, 10);;(4, 4);Pick up big rocks on top;1;1796
+MoveEast;(10, 10);;(4, 4);Pick up big rocks on top;1;1797
+;(10, 10);;(4, 4);Pick up big rocks on top;1;1798
+;(10, 10);;(4, 4);Pick up big rocks on top;1;1799
+;(10, 10);;(4, 4);Pick up big rocks on top;1;1800
+;(10, 10);;(4, 4);Pick up big rocks on top;1;1801
+;(10, 10);;(4, 4);Pick up big rocks on top;1;1802
+MoveEast;(11, 10);;(4, 4);Pick up big rocks on top;1;1803
+;(11, 10);;(4, 4);Pick up big rocks on top;1;1804
+;(11, 10);;(4, 4);Pick up big rocks on top;1;1805
+;(11, 10);;(4, 4);Pick up big rocks on top;1;1806
+MoveEast;(12, 10);;(4, 4);Pick up big rocks on top;1;1807
+;(12, 10);;(4, 4);Pick up big rocks on top;1;1808
+;(12, 10);;(4, 4);Pick up big rocks on top;1;1809
+;(12, 10);;(4, 4);Pick up big rocks on top;1;1810
+MoveEast;(13, 10);;(4, 4);Pick up big rocks on top;1;1811
+;(13, 10);;(4, 4);Pick up big rocks on top;1;1812
+;(13, 10);;(4, 4);Pick up big rocks on top;1;1813
+;(13, 10);;(4, 4);Pick up big rocks on top;1;1814
+;(13, 10);;(4, 4);Pick up big rocks on top;1;1815
+;(13, 10);;(4, 4);Pick up big rocks on top;1;1816
+;(13, 10);;(4, 4);Pick up big rocks on top;1;1817
+;(13, 10);;(4, 4);Pick up big rocks on top;1;1818
+;(13, 10);;(4, 4);Pick up big rocks on top;1;1819
+;(13, 10);;(4, 4);Pick up big rocks on top;1;1820
+;(13, 10);;(4, 4);Pick up big rocks on top;1;1821
+;(13, 10);;(4, 4);Pick up big rocks on top;1;1822
+;(13, 10);;(4, 4);Pick up big rocks on top;1;1823
+;(13, 10);;(4, 4);Pick up big rocks on top;1;1824
+;(13, 10);;(4, 4);Pick up big rocks on top;1;1825
+;(13, 10);;(4, 4);Pick up big rocks on top;1;1826
+;(13, 10);;(4, 4);Pick up big rocks on top;1;1827
+;(13, 10);;(4, 4);Pick up big rocks on top;1;1828
+;(13, 10);;(4, 4);Pick up big rocks on top;1;1829
+;(13, 10);;(4, 4);Pick up big rocks on top;1;1830
+DropObject;(13, 10);;(4, 4);Pick up big rocks on top;1;1831
+;(13, 10);;(4, 4);Pick up big rocks on top;1;1832
+;(13, 10);;(4, 4);Pick up big rocks on top;1;1833
+;(13, 10);;(4, 4);Pick up big rocks on top;1;1834
+;(13, 10);;(4, 4);Pick up big rocks on top;1;1835
+;(13, 10);;(4, 4);Pick up big rocks on top;1;1836
+;(13, 10);;(4, 4);Pick up big rocks on top;1;1837
+;(13, 10);;(4, 4);Pick up big rocks on top;1;1838
+;(13, 10);;(4, 4);Pick up big rocks on top;1;1839
+;(13, 10);;(4, 4);Pick up big rocks on top;1;1840
+;(13, 10);;(4, 4);Pick up big rocks on top;1;1841
+;(13, 10);;(4, 4);Pick up big rocks on top;1;1842
+;(13, 10);;(4, 4);Pick up big rocks on top;1;1843
+;(13, 10);;(4, 4);Pick up big rocks on top;1;1844
+;(13, 10);;(4, 4);Pick up big rocks on top;1;1845
+;(13, 10);;(4, 4);Pick up big rocks on top;1;1846
+;(13, 10);;(4, 4);Pick up big rocks on top;1;1847
+;(13, 10);;(4, 4);Pick up big rocks on top;1;1848
+;(13, 10);;(4, 4);Pick up big rocks on top;1;1849
+GrabObject;(13, 10);;(4, 4);Pick up big rocks on top;1;1850
+;(13, 10);;(4, 4);Pick up big rocks on top;1;1851
+;(13, 10);;(4, 4);Pick up big rocks on top;1;1852
+;(13, 10);;(4, 4);Pick up big rocks on top;1;1853
+MoveWest;(12, 10);;(4, 4);Pick up big rocks on top;1;1854
+;(12, 10);;(4, 4);Pick up big rocks on top;1;1855
+;(12, 10);;(4, 4);Pick up big rocks on top;1;1856
+;(12, 10);;(4, 4);Pick up big rocks on top;1;1857
+MoveWest;(11, 10);;(4, 4);Pick up big rocks on top;1;1858
+;(11, 10);;(4, 4);Pick up big rocks on top;1;1859
+;(11, 10);;(4, 4);Pick up big rocks on top;1;1860
+;(11, 10);;(4, 4);Pick up big rocks on top;1;1861
+MoveWest;(10, 10);;(4, 4);Pick up big rocks on top;1;1862
+;(10, 10);;(4, 4);Pick up big rocks on top;1;1863
+;(10, 10);;(4, 4);Pick up big rocks on top;1;1864
+MoveWest;(9, 10);;(4, 4);Pick up big rocks on top;1;1865
+;(9, 10);;(4, 4);Pick up big rocks on top;1;1866
+;(9, 10);;(4, 4);Pick up big rocks on top;1;1867
+MoveWest;(8, 10);;(4, 4);Pick up big rocks on top;1;1868
+;(8, 10);;(4, 4);Pick up big rocks on top;1;1869
+;(8, 10);;(4, 4);Pick up big rocks on top;1;1870
+MoveWest;(7, 10);;(4, 4);Pick up big rocks on top;1;1871
+;(7, 10);;(4, 4);Pick up big rocks on top;1;1872
+;(7, 10);;(4, 4);Pick up big rocks on top;1;1873
+;(7, 10);;(4, 4);Pick up big rocks on top;1;1874
+MoveWest;(6, 10);;(4, 4);Pick up big rocks on top;1;1875
+;(6, 10);;(4, 4);Pick up big rocks on top;1;1876
+;(6, 10);;(4, 4);Pick up big rocks on top;1;1877
+MoveWest;(5, 10);;(4, 4);Pick up big rocks on top;1;1878
+;(5, 10);;(4, 4);Pick up big rocks on top;1;1879
+;(5, 10);;(4, 4);Pick up big rocks on top;1;1880
+MoveWest;(4, 10);;(4, 4);Pick up big rocks on top;1;1881
+;(4, 10);;(4, 4);Pick up big rocks on top;1;1882
+;(4, 10);;(4, 4);Pick up big rocks on top;1;1883
+;(4, 10);;(4, 4);Pick up big rocks on top;1;1884
+;(4, 10);;(4, 4);Pick up big rocks on top;1;1885
+;(4, 10);;(4, 4);Pick up big rocks on top;1;1886
+;(4, 10);;(4, 4);Pick up big rocks on top;1;1887
+;(4, 10);;(4, 4);Pick up big rocks on top;1;1888
+MoveWest;(3, 10);;(4, 4);Pick up big rocks on top;1;1889
+;(3, 10);;(4, 4);Pick up big rocks on top;1;1890
+;(3, 10);;(4, 4);Pick up big rocks on top;1;1891
+;(3, 10);;(4, 4);Pick up big rocks on top;1;1892
+;(3, 10);;(4, 4);Pick up big rocks on top;1;1893
+;(3, 10);;(4, 4);Pick up big rocks on top;1;1894
+;(3, 10);;(4, 4);Pick up big rocks on top;1;1895
+DropObject;(3, 10);;(4, 4);Pick up big rocks on top;1;1896
+;(3, 10);;(4, 4);Pick up big rocks on top;1;1897
+;(3, 10);;(4, 4);Pick up big rocks on top;1;1898
+;(3, 10);;(4, 4);Pick up big rocks on top;1;1899
+;(3, 10);;(4, 4);Pick up big rocks on top;1;1900
+;(3, 10);;(4, 4);Pick up big rocks on top;1;1901
+;(3, 10);;(4, 4);Pick up big rocks on top;1;1902
+;(3, 10);;(4, 4);Pick up big rocks on top;1;1903
+;(3, 10);;(4, 4);Pick up big rocks on top;1;1904
+MoveEast;(4, 10);;(4, 4);Pick up big rocks on top;1;1905
+;(4, 10);;(4, 4);Pick up big rocks on top;1;1906
+;(4, 10);;(4, 4);Pick up big rocks on top;1;1907
+;(4, 10);;(4, 4);Pick up big rocks on top;1;1908
+MoveEast;(5, 10);;(4, 4);Pick up big rocks on top;1;1909
+;(5, 10);;(4, 4);Pick up big rocks on top;1;1910
+;(5, 10);;(4, 4);Pick up big rocks on top;1;1911
+;(5, 10);;(4, 4);Pick up big rocks on top;1;1912
+MoveEast;(6, 10);;(4, 4);Pick up big rocks on top;1;1913
+;(6, 10);;(4, 4);Pick up big rocks on top;1;1914
+;(6, 10);;(4, 4);Pick up big rocks on top;1;1915
+;(6, 10);;(4, 4);Pick up big rocks on top;1;1916
+MoveEast;(7, 10);;(4, 4);Pick up big rocks on top;1;1917
+;(7, 10);;(4, 4);Pick up big rocks on top;1;1918
+MoveEast;(8, 10);;(4, 4);Pick up big rocks on top;1;1919
+;(8, 10);;(4, 4);Pick up big rocks on top;1;1920
+;(8, 10);;(4, 4);Pick up big rocks on top;1;1921
+;(8, 10);;(4, 4);Pick up big rocks on top;1;1922
+MoveEast;(9, 10);;(4, 4);Pick up big rocks on top;1;1923
+;(9, 10);;(4, 4);Pick up big rocks on top;1;1924
+;(9, 10);;(4, 4);Pick up big rocks on top;1;1925
+;(9, 10);;(4, 4);Pick up big rocks on top;1;1926
+;(9, 10);;(4, 4);Pick up big rocks on top;1;1927
+;(9, 10);;(4, 4);Pick up big rocks on top;1;1928
+MoveEast;(10, 10);;(4, 4);Pick up big rocks on top;1;1929
+;(10, 10);;(4, 4);Pick up big rocks on top;1;1930
+;(10, 10);;(4, 4);Pick up big rocks on top;1;1931
+;(10, 10);;(4, 4);Pick up big rocks on top;1;1932
+;(10, 10);;(4, 4);Pick up big rocks on top;1;1933
+;(10, 10);;(4, 4);Pick up big rocks on top;1;1934
+;(10, 10);;(4, 4);Pick up big rocks on top;1;1935
+;(10, 10);;(4, 4);Pick up big rocks on top;1;1936
+MoveNorth;(10, 9);;(4, 4);Pick up big rocks on top;1;1937
+;(10, 9);;(4, 4);Pick up big rocks on top;1;1938
+;(10, 9);;(4, 4);Pick up big rocks on top;1;1939
+;(10, 9);;(4, 4);Pick up big rocks on top;1;1940
+;(10, 9);;(4, 4);Pick up big rocks on top;1;1941
+MoveNorth;(10, 8);;(4, 4);Pick up big rocks on top;1;1942
+;(10, 8);;(4, 4);Pick up big rocks on top;1;1943
+;(10, 8);;(4, 4);Pick up big rocks on top;1;1944
+;(10, 8);;(4, 4);Pick up big rocks on top;1;1945
+MoveNorth;(10, 7);;(4, 4);Pick up big rocks on top;1;1946
+;(10, 7);;(4, 4);Pick up big rocks on top;1;1947
+;(10, 7);;(4, 4);Pick up big rocks on top;1;1948
+;(10, 7);;(4, 4);Pick up big rocks on top;1;1949
+MoveEast;(11, 7);;(4, 4);Pick up big rocks on top;1;1950
+;(11, 7);;(4, 4);Pick up big rocks on top;1;1951
+;(11, 7);;(4, 4);Pick up big rocks on top;1;1952
+;(11, 7);;(4, 4);Pick up big rocks on top;1;1953
+MoveNorth;(11, 6);;(4, 4);Pick up big rocks on top;1;1954
+;(11, 6);;(4, 4);Pick up big rocks on top;1;1955
+;(11, 6);;(4, 4);Pick up big rocks on top;1;1956
+;(11, 6);;(4, 4);Pick up big rocks on top;1;1957
+MoveNorth;(11, 5);;(4, 4);Pick up big rocks on top;1;1958
+;(11, 5);;(4, 4);Pick up big rocks on top;1;1959
+;(11, 5);;(4, 4);Pick up big rocks on top;1;1960
+MoveWest;(10, 5);;(4, 4);Pick up big rocks on top;1;1961
+;(10, 5);;(4, 4);Pick up big rocks on top;1;1962
+;(10, 5);;(4, 4);Pick up big rocks on top;1;1963
+;(10, 5);;(4, 4);Pick up big rocks on top;1;1964
+MoveWest;(9, 5);;(4, 4);Pick up big rocks on top;1;1965
+;(9, 5);;(4, 4);Pick up big rocks on top;1;1966
+;(9, 5);;(4, 4);Pick up big rocks on top;1;1967
+;(9, 5);;(4, 4);Pick up big rocks on top;1;1968
+;(9, 5);;(4, 4);Pick up big rocks on top;1;1969
+;(9, 5);;(4, 4);Pick up big rocks on top;1;1970
+;(9, 5);;(4, 4);Pick up big rocks on top;1;1971
+MoveNorth;(9, 4);;(4, 4);Pick up big rocks on top;1;1972
+;(9, 4);;(4, 4);Pick up big rocks on top;1;1973
+;(9, 4);;(4, 4);Pick up big rocks on top;1;1974
+;(9, 4);;(4, 4);Pick up big rocks on top;1;1975
+;(9, 4);;(4, 4);Pick up big rocks on top;1;1976
+MoveNorth;(9, 3);;(4, 4);Pick up big rocks on top;1;1977
+;(9, 3);;(4, 4);Pick up big rocks on top;1;1978
+;(9, 3);;(4, 4);Pick up big rocks on top;1;1979
+;(9, 3);;(4, 4);Pick up big rocks on top;1;1980
+;(9, 3);;(4, 4);Pick up big rocks on top;1;1981
+;(9, 3);;(4, 4);Pick up big rocks on top;1;1982
+GrabObject;(9, 3);;(4, 4);Pick up big rocks on top;1;1983
+;(9, 3);;(4, 4);Pick up big rocks on top;1;1984
+;(9, 3);;(4, 4);Pick up big rocks on top;1;1985
+;(9, 3);;(4, 4);Pick up big rocks on top;1;1986
+;(9, 3);;(4, 4);Pick up big rocks on top;1;1987
+GrabObject;(9, 3);;(4, 4);Pick up big rocks on top;1;1988
+;(9, 3);;(4, 4);Pick up big rocks on top;1;1989
+;(9, 3);;(4, 4);Pick up big rocks on top;1;1990
+;(9, 3);;(4, 4);Pick up big rocks on top;1;1991
+GrabObject;(9, 3);;(4, 4);Pick up big rocks on top;1;1992
+;(9, 3);;(4, 4);Pick up big rocks on top;1;1993
+;(9, 3);;(4, 4);Pick up big rocks on top;1;1994
+;(9, 3);;(4, 4);Pick up big rocks on top;1;1995
+;(9, 3);;(4, 4);Pick up big rocks on top;1;1996
+;(9, 3);;(4, 4);Pick up big rocks on top;1;1997
+;(9, 3);;(4, 4);Pick up big rocks on top;1;1998
+;(9, 3);;(4, 4);Pick up big rocks on top;1;1999
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2000
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2001
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2002
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2003
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2004
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2005
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2006
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2007
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2008
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2009
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2010
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2011
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2012
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2013
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2014
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2015
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2016
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2017
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2018
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2019
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2020
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2021
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2022
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2023
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2024
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2025
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2026
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2027
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2028
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2029
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2030
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2031
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2032
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2033
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2034
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2035
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2036
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2037
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2038
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2039
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2040
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2041
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2042
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2043
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2044
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2045
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2046
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2047
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2048
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2049
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2050
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2051
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2052
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2053
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2054
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2055
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2056
+;(9, 3);;(4, 4);Pick up big rocks on top;1;2057
+;(9, 3);;(4, 4);False;1;2058
+;(9, 3);;(4, 4);Break big rocks on top;1;2059
+;(9, 3);;(4, 4);Break big rocks on top;1;2060
+;(9, 3);;(4, 4);Break big rocks on top;1;2061
+;(9, 3);;(4, 4);Break big rocks on top;1;2062
+;(9, 3);;(4, 4);Break big rocks on top;1;2063
+;(9, 3);;(4, 4);Break big rocks on top;1;2064
+;(9, 3);;(4, 4);Break big rocks on top;1;2065
+;(9, 3);;(4, 4);Break big rocks on top;1;2066
+;(9, 3);;(4, 4);Break big rocks on top;1;2067
+;(9, 3);;(4, 4);Break big rocks on top;1;2068
+;(9, 3);;(4, 4);Break big rocks on top;1;2069
+;(9, 3);;(4, 4);Break big rocks on top;1;2070
+;(9, 3);;(4, 4);Break big rocks on top;1;2071
+;(9, 3);;(4, 4);Break big rocks on top;1;2072
+;(9, 3);;(4, 4);Break big rocks on top;1;2073
+;(9, 3);;(4, 4);Break big rocks on top;1;2074
+;(9, 3);;(4, 4);Break big rocks on top;1;2075
+;(9, 3);;(4, 4);Break big rocks on top;1;2076
+;(9, 3);;(4, 4);Break big rocks on top;1;2077
+;(9, 3);;(4, 4);Break big rocks on top;1;2078
+;(9, 3);;(4, 4);Break big rocks on top;1;2079
+;(9, 3);;(4, 4);Break big rocks on top;1;2080
+;(9, 3);;(4, 4);Break big rocks on top;1;2081
+;(9, 3);;(4, 4);Break big rocks on top;1;2082
+;(9, 3);;(4, 4);Break big rocks on top;1;2083
+;(9, 3);;(4, 4);Break big rocks on top;1;2084
+;(9, 3);;(4, 4);Break big rocks on top;1;2085
+;(9, 3);;(4, 4);Break big rocks on top;1;2086
+;(9, 3);;(4, 4);Break big rocks on top;1;2087
+;(9, 3);;(4, 4);Break big rocks on top;1;2088
+;(9, 3);;(4, 4);Break big rocks on top;1;2089
+;(9, 3);;(4, 4);Break big rocks on top;1;2090
+;(9, 3);;(4, 4);Break big rocks on top;1;2091
+;(9, 3);;(4, 4);Break big rocks on top;1;2092
+;(9, 3);;(4, 4);Break big rocks on top;1;2093
+;(9, 3);;(4, 4);Break big rocks on top;1;2094
+;(9, 3);;(4, 4);Break big rocks on top;1;2095
+MoveEast;(10, 3);;(4, 4);Break big rocks on top;1;2096
+;(10, 3);;(4, 4);Break big rocks on top;1;2097
+;(10, 3);;(4, 4);Break big rocks on top;1;2098
+;(10, 3);;(4, 4);Break big rocks on top;1;2099
+;(10, 3);;(4, 4);Break big rocks on top;1;2100
+MoveEast;(11, 3);;(4, 4);Break big rocks on top;1;2101
+;(11, 3);;(4, 4);Break big rocks on top;1;2102
+;(11, 3);;(4, 4);Break big rocks on top;1;2103
+;(11, 3);;(4, 4);Break big rocks on top;1;2104
+;(11, 3);;(4, 4);Break big rocks on top;1;2105
+MoveEast;(12, 3);;(4, 4);Break big rocks on top;1;2106
+;(12, 3);;(4, 4);Break big rocks on top;1;2107
+;(12, 3);;(4, 4);Break big rocks on top;1;2108
+;(12, 3);;(4, 4);Break big rocks on top;1;2109
+;(12, 3);;(4, 4);Break big rocks on top;1;2110
+;(12, 3);;(4, 4);Break big rocks on top;1;2111
+MoveSouth;(12, 4);;(4, 4);Break big rocks on top;1;2112
+;(12, 4);;(4, 4);Break big rocks on top;1;2113
+;(12, 4);;(4, 4);Break big rocks on top;1;2114
+;(12, 4);;(4, 4);Break big rocks on top;1;2115
+;(12, 4);;(4, 4);Break big rocks on top;1;2116
+MoveSouth;(12, 5);;(4, 4);Break big rocks on top;1;2117
+;(12, 5);;(4, 4);Break big rocks on top;1;2118
+;(12, 5);;(4, 4);Break big rocks on top;1;2119
+MoveSouth;(12, 6);;(4, 4);Break big rocks on top;1;2120
+;(12, 6);;(4, 4);Break big rocks on top;1;2121
+;(12, 6);;(4, 4);Break big rocks on top;1;2122
+;(12, 6);;(4, 4);Break big rocks on top;1;2123
+MoveSouth;(12, 7);;(4, 4);Break big rocks on top;1;2124
+;(12, 7);;(4, 4);Break big rocks on top;1;2125
+;(12, 7);;(4, 4);Break big rocks on top;1;2126
+MoveSouth;(12, 8);;(4, 4);Break big rocks on top;1;2127
+;(12, 8);;(4, 4);Break big rocks on top;1;2128
+;(12, 8);;(4, 4);Break big rocks on top;1;2129
+;(12, 8);;(4, 4);Break big rocks on top;1;2130
+;(12, 8);;(4, 4);Break big rocks on top;1;2131
+;(12, 8);;(4, 4);Break big rocks on top;1;2132
+;(12, 8);;(4, 4);Break big rocks on top;1;2133
+;(12, 8);;(4, 4);Break big rocks on top;1;2134
+;(12, 8);;(4, 4);Break big rocks on top;1;2135
+;(12, 8);;(4, 4);Break big rocks on top;1;2136
+;(12, 8);;(4, 4);Break big rocks on top;1;2137
+;(12, 8);;(4, 4);Break big rocks on top;1;2138
+;(12, 8);;(4, 4);Break big rocks on top;1;2139
+;(12, 8);;(4, 4);Break big rocks on top;1;2140
+;(12, 8);;(4, 4);Break big rocks on top;1;2141
+;(12, 8);;(4, 4);Break big rocks on top;1;2142
+;(12, 8);;(4, 4);Break big rocks on top;1;2143
+;(12, 8);;(4, 4);Break big rocks on top;1;2144
+;(12, 8);;(4, 4);Break big rocks on top;1;2145
+;(12, 8);;(4, 4);Break big rocks on top;1;2146
+;(12, 8);;(4, 4);Break big rocks on top;1;2147
+;(12, 8);;(4, 4);Break big rocks on top;1;2148
+;(12, 8);;(4, 4);Break big rocks on top;1;2149
+;(12, 8);;(4, 4);Break big rocks on top;1;2150
+;(12, 8);;(4, 4);Break big rocks on top;1;2151
+;(12, 8);;(4, 4);Break big rocks on top;1;2152
+;(12, 8);;(4, 4);Break big rocks on top;1;2153
+;(12, 8);;(4, 4);Break big rocks on top;1;2154
+;(12, 8);;(4, 4);Break big rocks on top;1;2155
+;(12, 8);;(4, 4);Break big rocks on top;1;2156
+;(12, 8);;(4, 4);Break big rocks on top;1;2157
+;(12, 8);;(4, 4);Break big rocks on top;1;2158
+;(12, 8);;(4, 4);Break big rocks on top;1;2159
+;(12, 8);;(4, 4);Break big rocks on top;1;2160
+;(12, 8);;(4, 4);Break big rocks on top;1;2161
+;(12, 8);;(4, 4);Break big rocks on top;1;2162
+;(12, 8);;(4, 4);Break big rocks on top;1;2163
+;(12, 8);;(4, 4);Break big rocks on top;1;2164
+;(12, 8);;(4, 4);Break big rocks on top;1;2165
+;(12, 8);;(4, 4);Break big rocks on top;1;2166
+;(12, 8);;(4, 4);Break big rocks on top;1;2167
+;(12, 8);;(4, 4);Break big rocks on top;1;2168
+;(12, 8);;(4, 4);Break big rocks on top;1;2169
+;(12, 8);;(4, 4);Break big rocks on top;1;2170
+;(12, 8);;(4, 4);Break big rocks on top;1;2171
+;(12, 8);;(4, 4);Break big rocks on top;1;2172
+;(12, 8);;(4, 4);Break big rocks on top;1;2173
+;(12, 8);;(4, 4);Break big rocks on top;1;2174
+;(12, 8);;(4, 4);Break big rocks on top;1;2175
+MoveEast;(13, 8);;(4, 4);Break big rocks on top;1;2176
+;(13, 8);;(4, 4);Break big rocks on top;1;2177
+;(13, 8);;(4, 4);Break big rocks on top;1;2178
+;(13, 8);;(4, 4);Break big rocks on top;1;2179
+;(13, 8);;(4, 4);Break big rocks on top;1;2180
+;(13, 8);;(4, 4);Break big rocks on top;1;2181
+MoveSouth;(13, 9);;(4, 4);Break big rocks on top;1;2182
+;(13, 9);;(4, 4);Break big rocks on top;1;2183
+;(13, 9);;(4, 4);Break big rocks on top;1;2184
+;(13, 9);;(4, 4);Break big rocks on top;1;2185
+;(13, 9);;(4, 4);Break big rocks on top;1;2186
+;(13, 9);;(4, 4);Break big rocks on top;1;2187
+;(13, 9);;(4, 4);Break big rocks on top;1;2188
+GrabObject;(13, 9);;(4, 4);Break big rocks on top;1;2189
+;(13, 9);;(4, 4);Break big rocks on top;1;2190
+;(13, 9);;(4, 4);Break big rocks on top;1;2191
+MoveWest;(12, 9);;(4, 4);Break big rocks on top;1;2192
+;(12, 9);;(4, 4);Break big rocks on top;1;2193
+;(12, 9);;(4, 4);Break big rocks on top;1;2194
+;(12, 9);;(4, 4);Break big rocks on top;1;2195
+MoveWest;(11, 9);;(4, 4);Break big rocks on top;1;2196
+;(11, 9);;(4, 4);Break big rocks on top;1;2197
+;(11, 9);;(4, 4);Break big rocks on top;1;2198
+MoveWest;(10, 9);;(4, 4);Break big rocks on top;1;2199
+;(10, 9);;(4, 4);Break big rocks on top;1;2200
+;(10, 9);;(4, 4);Break big rocks on top;1;2201
+MoveWest;(9, 9);;(4, 4);Break big rocks on top;1;2202
+;(9, 9);;(4, 4);Break big rocks on top;1;2203
+;(9, 9);;(4, 4);Break big rocks on top;1;2204
+MoveWest;(8, 9);;(4, 4);Break big rocks on top;1;2205
+;(8, 9);;(4, 4);Break big rocks on top;1;2206
+;(8, 9);;(4, 4);Break big rocks on top;1;2207
+MoveWest;(7, 9);;(4, 4);Break big rocks on top;1;2208
+;(7, 9);;(4, 4);Break big rocks on top;1;2209
+;(7, 9);;(4, 4);Break big rocks on top;1;2210
+;(7, 9);;(4, 4);Break big rocks on top;1;2211
+MoveWest;(6, 9);;(4, 4);Break big rocks on top;1;2212
+;(6, 9);;(4, 4);Break big rocks on top;1;2213
+;(6, 9);;(4, 4);Break big rocks on top;1;2214
+MoveWest;(5, 9);;(4, 4);Break big rocks on top;1;2215
+;(5, 9);;(4, 4);Break big rocks on top;1;2216
+;(5, 9);;(4, 4);Break big rocks on top;1;2217
+;(5, 9);;(4, 4);Break big rocks on top;1;2218
+MoveWest;(4, 9);;(4, 4);Break big rocks on top;1;2219
+;(4, 9);;(4, 4);Break big rocks on top;1;2220
+;(4, 9);;(4, 4);Break big rocks on top;1;2221
+;(4, 9);;(4, 4);Break big rocks on top;1;2222
+;(4, 9);;(4, 4);Break big rocks on top;1;2223
+DropObject;(4, 9);;(4, 4);Break big rocks on top;1;2224
+;(4, 9);;(4, 4);Break big rocks on top;1;2225
+MoveEast;(5, 9);;(4, 4);Break big rocks on top;1;2226
+;(5, 9);;(4, 4);Break big rocks on top;1;2227
+;(5, 9);;(4, 4);Break big rocks on top;1;2228
+;(5, 9);;(4, 4);Break big rocks on top;1;2229
+MoveEast;(6, 9);;(4, 4);Break big rocks on top;1;2230
+;(6, 9);;(4, 4);Break big rocks on top;1;2231
+;(6, 9);;(4, 4);Break big rocks on top;1;2232
+MoveEast;(7, 9);;(4, 4);Break big rocks on top;1;2233
+;(7, 9);;(4, 4);Break big rocks on top;1;2234
+;(7, 9);;(4, 4);Break big rocks on top;1;2235
+MoveEast;(8, 9);;(4, 4);Break big rocks on top;1;2236
+;(8, 9);;(4, 4);Break big rocks on top;1;2237
+;(8, 9);;(4, 4);Break big rocks on top;1;2238
+;(8, 9);;(4, 4);Break big rocks on top;1;2239
+MoveEast;(9, 9);;(4, 4);Break big rocks on top;1;2240
+;(9, 9);;(4, 4);Break big rocks on top;1;2241
+;(9, 9);;(4, 4);Break big rocks on top;1;2242
+MoveEast;(10, 9);;(4, 4);Break big rocks on top;1;2243
+;(10, 9);;(4, 4);Break big rocks on top;1;2244
+;(10, 9);;(4, 4);Break big rocks on top;1;2245
+;(10, 9);;(4, 4);Break big rocks on top;1;2246
+MoveEast;(11, 9);;(4, 4);Break big rocks on top;1;2247
+;(11, 9);;(4, 4);Break big rocks on top;1;2248
+;(11, 9);;(4, 4);Break big rocks on top;1;2249
+;(11, 9);;(4, 4);Break big rocks on top;1;2250
+MoveEast;(12, 9);;(4, 4);Break big rocks on top;1;2251
+;(12, 9);;(4, 4);Break big rocks on top;1;2252
+;(12, 9);;(4, 4);Break big rocks on top;1;2253
+;(12, 9);;(4, 4);Break big rocks on top;1;2254
+MoveEast;(13, 9);;(4, 4);Break big rocks on top;1;2255
+;(13, 9);;(4, 4);Break big rocks on top;1;2256
+;(13, 9);;(4, 4);Break big rocks on top;1;2257
+;(13, 9);;(4, 4);Break big rocks on top;1;2258
+;(13, 9);;(4, 4);Break big rocks on top;1;2259
+;(13, 9);;(4, 4);Break big rocks on top;1;2260
+;(13, 9);;(4, 4);Break big rocks on top;1;2261
+MoveSouth;(13, 10);;(4, 4);Break big rocks on top;1;2262
+;(13, 10);;(4, 4);Break big rocks on top;1;2263
+;(13, 10);;(4, 4);Break big rocks on top;1;2264
+;(13, 10);;(4, 4);Break big rocks on top;1;2265
+GrabObject;(13, 10);;(4, 4);Break big rocks on top;1;2266
+;(13, 10);;(4, 4);Break big rocks on top;1;2267
+;(13, 10);;(4, 4);Break big rocks on top;1;2268
+MoveWest;(12, 10);;(4, 4);Break big rocks on top;1;2269
+;(12, 10);;(4, 4);Break big rocks on top;1;2270
+;(12, 10);;(4, 4);Break big rocks on top;1;2271
+;(12, 10);;(4, 4);Break big rocks on top;1;2272
+MoveWest;(11, 10);;(4, 4);Break big rocks on top;1;2273
+;(11, 10);;(4, 4);Break big rocks on top;1;2274
+;(11, 10);;(4, 4);Break big rocks on top;1;2275
+MoveWest;(10, 10);;(4, 4);Break big rocks on top;1;2276
+;(10, 10);;(4, 4);Break big rocks on top;1;2277
+;(10, 10);;(4, 4);Break big rocks on top;1;2278
+MoveWest;(9, 10);;(4, 4);Break big rocks on top;1;2279
+;(9, 10);;(4, 4);Break big rocks on top;1;2280
+;(9, 10);;(4, 4);Break big rocks on top;1;2281
+MoveWest;(8, 10);;(4, 4);Break big rocks on top;1;2282
+;(8, 10);;(4, 4);Break big rocks on top;1;2283
+;(8, 10);;(4, 4);Break big rocks on top;1;2284
+MoveWest;(7, 10);;(4, 4);Break big rocks on top;1;2285
+;(7, 10);;(4, 4);Break big rocks on top;1;2286
+;(7, 10);;(4, 4);Break big rocks on top;1;2287
+MoveWest;(6, 10);;(4, 4);Break big rocks on top;1;2288
+;(6, 10);;(4, 4);Break big rocks on top;1;2289
+;(6, 10);;(4, 4);Break big rocks on top;1;2290
+;(6, 10);;(4, 4);Break big rocks on top;1;2291
+MoveWest;(5, 10);;(4, 4);Break big rocks on top;1;2292
+;(5, 10);;(4, 4);Break big rocks on top;1;2293
+;(5, 10);;(4, 4);Break big rocks on top;1;2294
+MoveWest;(4, 10);;(4, 4);Break big rocks on top;1;2295
+;(4, 10);;(4, 4);Break big rocks on top;1;2296
+;(4, 10);;(4, 4);Break big rocks on top;1;2297
+;(4, 10);;(4, 4);Break big rocks on top;1;2298
+;(4, 10);;(4, 4);Break big rocks on top;1;2299
+;(4, 10);;(4, 4);Break big rocks on top;1;2300
+;(4, 10);;(4, 4);Break big rocks on top;1;2301
+DropObject;(4, 10);;(4, 4);Break big rocks on top;1;2302
+;(4, 10);;(4, 4);Break big rocks on top;1;2303
+;(4, 10);;(4, 4);Break big rocks on top;1;2304
+;(4, 10);;(4, 4);Break big rocks on top;1;2305
+;(4, 10);;(4, 4);Break big rocks on top;1;2306
+;(4, 10);;(4, 4);Break big rocks on top;1;2307
+;(4, 10);;(4, 4);Break big rocks on top;1;2308
+;(4, 10);;(4, 4);Break big rocks on top;1;2309
+;(4, 10);;(4, 4);Break big rocks on top;1;2310
+;(4, 10);;(4, 4);Break big rocks on top;1;2311
+;(4, 10);;(4, 4);Break big rocks on top;1;2312
+;(4, 10);;(4, 4);Break big rocks on top;1;2313
+MoveNorth;(4, 9);;(4, 4);Break big rocks on top;1;2314
+;(4, 9);;(4, 4);Break big rocks on top;1;2315
+;(4, 9);;(4, 4);Break big rocks on top;1;2316
+;(4, 9);;(4, 4);Break big rocks on top;1;2317
+;(4, 9);;(4, 4);Break big rocks on top;1;2318
+;(4, 9);;(4, 4);Break big rocks on top;1;2319
+;(4, 9);;(4, 4);Break big rocks on top;1;2320
+;(4, 9);;(4, 4);Break big rocks on top;1;2321
+;(4, 9);;(4, 4);Break big rocks on top;1;2322
+;(4, 9);;(4, 4);Break big rocks on top;1;2323
+;(4, 9);;(4, 4);Break big rocks on top;1;2324
+;(4, 9);;(4, 4);Break big rocks on top;1;2325
+;(4, 9);;(4, 4);Break big rocks on top;1;2326
+;(4, 9);;(4, 4);Break big rocks on top;1;2327
+;(4, 9);;(4, 4);Break big rocks on top;1;2328
+;(4, 9);;(4, 4);Break big rocks on top;1;2329
+;(4, 9);;(4, 4);Break big rocks on top;1;2330
+;(4, 9);;(4, 4);Break big rocks on top;1;2331
+;(4, 9);;(4, 4);Break big rocks on top;1;2332
+;(4, 9);;(4, 4);Break big rocks on top;1;2333
+;(4, 9);;(4, 4);Break big rocks on top;1;2334
+;(4, 9);;(4, 4);Break big rocks on top;1;2335
+;(4, 9);;(4, 4);Break big rocks on top;1;2336
+;(4, 9);;(4, 4);Break big rocks on top;1;2337
+;(4, 9);;(4, 4);Break big rocks on top;1;2338
+;(4, 9);;(4, 4);Break big rocks on top;1;2339
+;(4, 9);;(4, 4);Break big rocks on top;1;2340
+;(4, 9);;(4, 4);Break big rocks on top;1;2341
+;(4, 9);;(4, 4);Break big rocks on top;1;2342
+;(4, 9);;(4, 4);Break big rocks on top;1;2343
+;(4, 9);;(4, 4);Break big rocks on top;1;2344
+;(4, 9);;(4, 4);Break big rocks on top;1;2345
+;(4, 9);;(4, 4);Break big rocks on top;1;2346
+;(4, 9);;(4, 4);Break big rocks on top;1;2347
+;(4, 9);;(4, 4);Break big rocks on top;1;2348
+;(4, 9);;(4, 4);Break big rocks on top;1;2349
+;(4, 9);;(4, 4);Break big rocks on top;1;2350
+;(4, 9);;(4, 4);Break big rocks on top;1;2351
+;(4, 9);;(4, 4);Break big rocks on top;1;2352
+;(4, 9);;(4, 4);Break big rocks on top;1;2353
+;(4, 9);;(4, 4);Break big rocks on top;1;2354
+;(4, 9);;(4, 4);Break big rocks on top;1;2355
+;(4, 9);;(4, 4);Break big rocks on top;1;2356
+;(4, 9);;(4, 4);Break big rocks on top;1;2357
+;(4, 9);;(4, 4);Break big rocks on top;1;2358
+;(4, 9);;(4, 4);Break big rocks on top;1;2359
+;(4, 9);;(4, 4);Break big rocks on top;1;2360
+;(4, 9);;(4, 4);Break big rocks on top;1;2361
+;(4, 9);;(4, 4);Break big rocks on top;1;2362
+;(4, 9);;(4, 4);Break big rocks on top;1;2363
+;(4, 9);;(4, 4);Break big rocks on top;1;2364
+;(4, 9);;(4, 4);Break big rocks on top;1;2365
+;(4, 9);;(4, 4);Break big rocks on top;1;2366
+;(4, 9);;(4, 4);Break big rocks on top;1;2367
+;(4, 9);;(4, 4);Break big rocks on top;1;2368
+;(4, 9);;(4, 4);Break big rocks on top;1;2369
+;(4, 9);;(4, 4);Break big rocks on top;1;2370
+;(4, 9);;(4, 4);Break big rocks on top;1;2371
+;(4, 9);;(4, 4);Break big rocks on top;1;2372
+;(4, 9);;(4, 4);Break big rocks on top;1;2373
+;(4, 9);;(4, 4);Break big rocks on top;1;2374
+;(4, 9);;(4, 4);Break big rocks on top;1;2375
+;(4, 9);;(4, 4);Break big rocks on top;1;2376
+;(4, 9);;(4, 4);Break big rocks on top;1;2377
+;(4, 9);;(4, 4);Break big rocks on top;1;2378
+;(4, 9);;(4, 4);Break big rocks on top;1;2379
+;(4, 9);;(4, 4);Break big rocks on top;1;2380
+;(4, 9);;(4, 4);Break big rocks on top;1;2381
+;(4, 9);;(4, 4);Break big rocks on top;1;2382
+;(4, 9);;(4, 4);Break big rocks on top;1;2383
+;(4, 9);;(4, 4);Break big rocks on top;1;2384
+;(4, 9);;(4, 4);Break big rocks on top;1;2385
+;(4, 9);;(4, 4);Break big rocks on top;1;2386
+;(4, 9);;(4, 4);Break big rocks on top;1;2387
+;(4, 9);;(4, 4);Break big rocks on top;1;2388
+;(4, 9);;(4, 4);Break big rocks on top;1;2389
+;(4, 9);;(4, 4);Break big rocks on top;1;2390
+;(4, 9);;(4, 4);Break big rocks on top;1;2391
+;(4, 9);;(4, 4);Break big rocks on top;1;2392
+;(4, 9);;(4, 4);Break big rocks on top;1;2393
+;(4, 9);;(4, 4);Break big rocks on top;1;2394
+;(4, 9);;(4, 4);Break big rocks on top;1;2395
+;(4, 9);;(4, 4);Break big rocks on top;1;2396
+;(4, 9);;(4, 4);Break big rocks on top;1;2397
+;(4, 9);;(4, 4);Break big rocks on top;1;2398
+;(4, 9);;(4, 4);Break big rocks on top;1;2399
+;(4, 9);;(4, 4);Break big rocks on top;1;2400
+;(4, 9);;(4, 4);Break big rocks on top;1;2401
+;(4, 9);;(4, 4);Break big rocks on top;1;2402
+;(4, 9);;(4, 4);Break big rocks on top;1;2403
+;(4, 9);;(4, 4);Break big rocks on top;1;2404
+;(4, 9);;(4, 4);Break big rocks on top;1;2405
+;(4, 9);;(4, 4);Break big rocks on top;1;2406
+;(4, 9);;(4, 4);Break big rocks on top;1;2407
+;(4, 9);;(4, 4);Break big rocks on top;1;2408
+;(4, 9);;(4, 4);Break big rocks on top;1;2409
+;(4, 9);;(4, 4);Break big rocks on top;1;2410
+;(4, 9);;(4, 4);Break big rocks on top;1;2411
+;(4, 9);;(4, 4);Break big rocks on top;1;2412
+;(4, 9);;(4, 4);Break big rocks on top;1;2413
+;(4, 9);MoveSouth;(4, 4);Break big rocks on top;1;2414
+;(4, 9);MoveSouth;(4, 4);Break big rocks on top;1;2415
+;(4, 9);MoveSouth;(4, 4);Break big rocks on top;1;2416
+;(4, 9);MoveSouth;(4, 4);Break big rocks on top;1;2417
+;(4, 9);MoveSouth;(4, 4);Break big rocks on top;1;2418
+;(4, 9);MoveSouth;(4, 4);Break big rocks on top;1;2419
+;(4, 9);MoveSouth;(4, 4);Break big rocks on top;1;2420
+MoveEast;(5, 9);MoveSouth;(4, 4);Break big rocks on top;1;2421
+;(5, 9);MoveSouth;(4, 4);Break big rocks on top;1;2422
+;(5, 9);MoveSouth;(4, 4);Break big rocks on top;1;2423
+;(5, 9);MoveSouth;(4, 5);Break big rocks on top;1;2424
+MoveEast;(6, 9);MoveSouthEast;(4, 5);Break big rocks on top;1;2425
+;(6, 9);MoveSouthEast;(4, 5);Break big rocks on top;1;2426
+;(6, 9);MoveSouthEast;(4, 5);Break big rocks on top;1;2427
+;(6, 9);MoveSouthEast;(4, 5);Break big rocks on top;1;2428
+MoveEast;(7, 9);MoveSouthEast;(4, 5);Break big rocks on top;1;2429
+;(7, 9);MoveSouthEast;(4, 5);Break big rocks on top;1;2430
+;(7, 9);MoveSouthEast;(4, 5);Break big rocks on top;1;2431
+;(7, 9);MoveSouthEast;(4, 5);Break big rocks on top;1;2432
+MoveEast;(8, 9);MoveSouthEast;(4, 5);Break big rocks on top;1;2433
+;(8, 9);MoveSouthEast;(4, 5);Break big rocks on top;1;2434
+;(8, 9);MoveSouthEast;(5, 6);Break big rocks on top;1;2435
+;(8, 9);MoveSouth;(5, 6);Break big rocks on top;1;2436
+MoveEast;(9, 9);MoveSouth;(5, 6);Break big rocks on top;1;2437
+;(9, 9);MoveSouth;(5, 6);Break big rocks on top;1;2438
+;(9, 9);MoveSouth;(5, 6);Break big rocks on top;1;2439
+;(9, 9);MoveSouth;(5, 6);Break big rocks on top;1;2440
+;(9, 9);MoveSouth;(5, 6);Break big rocks on top;1;2441
+MoveEast;(10, 9);MoveSouth;(5, 6);Break big rocks on top;1;2442
+;(10, 9);MoveSouth;(5, 6);Break big rocks on top;1;2443
+;(10, 9);MoveSouth;(5, 6);Break big rocks on top;1;2444
+;(10, 9);MoveSouth;(5, 6);Break big rocks on top;1;2445
+MoveEast;(11, 9);MoveSouth;(5, 7);Break big rocks on top;1;2446
+;(11, 9);MoveSouth;(5, 7);Break big rocks on top;1;2447
+;(11, 9);MoveSouth;(5, 7);Break big rocks on top;1;2448
+;(11, 9);MoveSouth;(5, 7);Break big rocks on top;1;2449
+;(11, 9);MoveSouth;(5, 7);Break big rocks on top;1;2450
+;(11, 9);MoveSouth;(5, 7);Break big rocks on top;1;2451
+;(11, 9);MoveSouth;(5, 7);Break big rocks on top;1;2452
+MoveEast;(12, 9);MoveSouth;(5, 7);Break big rocks on top;1;2453
+;(12, 9);MoveSouth;(5, 7);Break big rocks on top;1;2454
+;(12, 9);MoveSouth;(5, 7);Break big rocks on top;1;2455
+;(12, 9);MoveSouth;(5, 7);Break big rocks on top;1;2456
+;(12, 9);MoveSouth;(5, 8);Break big rocks on top;1;2457
+;(12, 9);MoveSouthEast;(5, 8);Break big rocks on top;1;2458
+;(12, 9);MoveSouthEast;(5, 8);Break big rocks on top;1;2459
+;(12, 9);MoveSouthEast;(5, 8);Break big rocks on top;1;2460
+;(12, 9);MoveSouthEast;(5, 8);Break big rocks on top;1;2461
+;(12, 9);MoveSouthEast;(5, 8);Break big rocks on top;1;2462
+;(12, 9);MoveSouthEast;(5, 8);Break big rocks on top;1;2463
+;(12, 9);MoveSouthEast;(5, 8);Break big rocks on top;1;2464
+;(12, 9);MoveSouthEast;(5, 8);Break big rocks on top;1;2465
+;(12, 9);MoveSouthEast;(5, 8);Break big rocks on top;1;2466
+;(12, 9);MoveSouthEast;(5, 8);Break big rocks on top;1;2467
+;(12, 9);MoveSouthEast;(6, 9);Break big rocks on top;1;2468
+;(12, 9);BreakObject;(6, 9);Break big rocks on top;1;2469
+;(12, 9);BreakObject;(6, 9);Break big rocks on top;1;2470
+;(12, 9);BreakObject;(6, 9);Break big rocks on top;1;2471
+;(12, 9);BreakObject;(6, 9);Break big rocks on top;1;2472
+;(12, 9);BreakObject;(6, 9);Break big rocks on top;1;2473
+;(12, 9);BreakObject;(6, 9);Break big rocks on top;1;2474
+;(12, 9);BreakObject;(6, 9);Break big rocks on top;1;2475
+;(12, 9);BreakObject;(6, 9);Break big rocks on top;1;2476
+;(12, 9);BreakObject;(6, 9);Break big rocks on top;1;2477
+;(12, 9);BreakObject;(6, 9);Break big rocks on top;1;2478
+;(12, 9);BreakObject;(6, 9);Break big rocks on top;1;2479
+;(12, 9);;(6, 9);Break big rocks on top;1;2480
+;(12, 9);;(6, 9);Break big rocks on top;1;2481
+;(12, 9);;(6, 9);Break big rocks on top;1;2482
+;(12, 9);;(6, 9);Break big rocks on top;1;2483
+;(12, 9);;(6, 9);Break big rocks on top;1;2484
+;(12, 9);;(6, 9);Break big rocks on top;1;2485
+;(12, 9);;(6, 9);Break big rocks on top;1;2486
+;(12, 9);;(6, 9);Break big rocks on top;1;2487
+MoveWest;(11, 9);;(6, 9);Break big rocks on top;1;2488
+;(11, 9);;(6, 9);Break big rocks on top;1;2489
+;(11, 9);;(6, 9);Break big rocks on top;1;2490
+;(11, 9);;(6, 9);Break big rocks on top;1;2491
+;(11, 9);;(6, 9);Break big rocks on top;1;2492
+;(11, 9);;(6, 9);Break big rocks on top;1;2493
+MoveWest;(10, 9);;(6, 9);Break big rocks on top;1;2494
+;(10, 9);;(6, 9);Break big rocks on top;1;2495
+;(10, 9);;(6, 9);Break big rocks on top;1;2496
+MoveWest;(9, 9);;(6, 9);Break big rocks on top;1;2497
+;(9, 9);;(6, 9);Break big rocks on top;1;2498
+;(9, 9);;(6, 9);Break big rocks on top;1;2499
+;(9, 9);;(6, 9);Break big rocks on top;1;2500
+;(9, 9);;(6, 9);Break big rocks on top;1;2501
+MoveWest;(8, 9);;(6, 9);Break big rocks on top;1;2502
+;(8, 9);;(6, 9);Break big rocks on top;1;2503
+;(8, 9);;(6, 9);Break big rocks on top;1;2504
+MoveWest;(7, 9);;(6, 9);Break big rocks on top;1;2505
+;(7, 9);;(6, 9);Break big rocks on top;1;2506
+;(7, 9);;(6, 9);Break big rocks on top;1;2507
+;(7, 9);;(6, 9);Break big rocks on top;1;2508
+MoveWest;(6, 9);;(6, 9);Break big rocks on top;1;2509
+;(6, 9);;(6, 9);Break big rocks on top;1;2510
+;(6, 9);;(6, 9);Break big rocks on top;1;2511
+;(6, 9);;(6, 9);Break big rocks on top;1;2512
+;(6, 9);;(6, 9);Break big rocks on top;1;2513
+;(6, 9);;(6, 9);Break big rocks on top;1;2514
+;(6, 9);;(6, 9);Break big rocks on top;1;2515
+;(6, 9);;(6, 9);Break big rocks on top;1;2516
+;(6, 9);;(6, 9);Break big rocks on top;1;2517
+;(6, 9);;(6, 9);Break big rocks on top;1;2518
+;(6, 9);;(6, 9);Break big rocks on top;1;2519
+;(6, 9);;(6, 9);Break big rocks on top;1;2520
+;(6, 9);;(6, 9);Break big rocks on top;1;2521
+;(6, 9);;(6, 9);Break big rocks on top;1;2522
+;(6, 9);;(6, 9);Break big rocks on top;1;2523
+;(6, 9);;(6, 9);Break big rocks on top;1;2524
+;(6, 9);;(6, 9);Break big rocks on top;1;2525
+;(6, 9);;(6, 9);Break big rocks on top;1;2526
+;(6, 9);;(6, 9);Break big rocks on top;1;2527
+;(6, 9);;(6, 9);Break big rocks on top;1;2528
+;(6, 9);;(6, 9);Break big rocks on top;1;2529
+;(6, 9);;(6, 9);Break big rocks on top;1;2530
+;(6, 9);;(6, 9);Break big rocks on top;1;2531
+;(6, 9);;(6, 9);Break big rocks on top;1;2532
+GrabObject;(6, 9);;(6, 9);Break big rocks on top;1;2533
+;(6, 9);;(6, 9);Break big rocks on top;1;2534
+;(6, 9);;(6, 9);Break big rocks on top;1;2535
+;(6, 9);;(6, 9);Break big rocks on top;1;2536
+;(6, 9);;(6, 9);Break big rocks on top;1;2537
+MoveWest;(5, 9);MoveEast;(6, 9);Break big rocks on top;1;2538
+;(5, 9);MoveEast;(6, 9);Break big rocks on top;1;2539
+;(5, 9);MoveEast;(6, 9);Break big rocks on top;1;2540
+;(5, 9);MoveEast;(6, 9);Break big rocks on top;1;2541
+MoveWest;(4, 9);MoveEast;(6, 9);Break big rocks on top;1;2542
+;(4, 9);MoveEast;(6, 9);Break big rocks on top;1;2543
+;(4, 9);MoveEast;(6, 9);Break big rocks on top;1;2544
+MoveWest;(3, 9);MoveEast;(6, 9);Break big rocks on top;1;2545
+;(3, 9);MoveEast;(6, 9);Break big rocks on top;1;2546
+;(3, 9);MoveEast;(6, 9);Break big rocks on top;1;2547
+MoveWest;(2, 9);MoveEast;(7, 9);Break big rocks on top;1;2548
+;(2, 9);MoveNorthEast;(7, 9);Break big rocks on top;1;2549
+;(2, 9);MoveNorthEast;(7, 9);Break big rocks on top;1;2550
+DropObject;(2, 9);MoveNorthEast;(7, 9);Break big rocks on top;1;2551
+;(2, 9);MoveNorthEast;(7, 9);Break big rocks on top;1;2552
+;(2, 9);MoveNorthEast;(7, 9);Break big rocks on top;1;2553
+;(2, 9);MoveNorthEast;(7, 9);Break big rocks on top;1;2554
+MoveEast;(3, 9);MoveNorthEast;(7, 9);Break big rocks on top;1;2555
+;(3, 9);MoveNorthEast;(7, 9);Break big rocks on top;1;2556
+;(3, 9);MoveNorthEast;(7, 9);Break big rocks on top;1;2557
+;(3, 9);MoveNorthEast;(7, 9);Break big rocks on top;1;2558
+MoveEast;(4, 9);MoveNorthEast;(8, 8);Break big rocks on top;1;2559
+;(4, 9);MoveEast;(8, 8);Break big rocks on top;1;2560
+;(4, 9);MoveEast;(8, 8);Break big rocks on top;1;2561
+MoveEast;(5, 9);MoveEast;(8, 8);Break big rocks on top;1;2562
+;(5, 9);MoveEast;(8, 8);Break big rocks on top;1;2563
+;(5, 9);MoveEast;(8, 8);Break big rocks on top;1;2564
+;(5, 9);MoveEast;(8, 8);Break big rocks on top;1;2565
+MoveEast;(6, 9);MoveEast;(8, 8);Break big rocks on top;1;2566
+;(6, 9);MoveEast;(8, 8);Break big rocks on top;1;2567
+;(6, 9);MoveEast;(8, 8);Break big rocks on top;1;2568
+;(6, 9);MoveEast;(8, 8);Break big rocks on top;1;2569
+MoveEast;(7, 9);MoveEast;(9, 8);Break big rocks on top;1;2570
+;(7, 9);MoveNorthEast;(9, 8);Break big rocks on top;1;2571
+;(7, 9);MoveNorthEast;(9, 8);Break big rocks on top;1;2572
+;(7, 9);MoveNorthEast;(9, 8);Break big rocks on top;1;2573
+;(7, 9);MoveNorthEast;(9, 8);Break big rocks on top;1;2574
+;(7, 9);MoveNorthEast;(9, 8);Break big rocks on top;1;2575
+DropObject;(7, 9);MoveNorthEast;(9, 8);Break big rocks on top;1;2576
+;(7, 9);MoveNorthEast;(9, 8);Break big rocks on top;1;2577
+;(7, 9);MoveNorthEast;(9, 8);Break big rocks on top;1;2578
+;(7, 9);MoveNorthEast;(9, 8);Break big rocks on top;1;2579
+MoveWest;(6, 9);MoveNorthEast;(9, 8);Break big rocks on top;1;2580
+;(6, 9);MoveNorthEast;(10, 7);Break big rocks on top;1;2581
+;(6, 9);MoveEast;(10, 7);Break big rocks on top;1;2582
+MoveWest;(5, 9);MoveEast;(10, 7);Break big rocks on top;1;2583
+;(5, 9);MoveEast;(10, 7);Break big rocks on top;1;2584
+;(5, 9);MoveEast;(10, 7);Break big rocks on top;1;2585
+;(5, 9);MoveEast;(10, 7);Break big rocks on top;1;2586
+MoveWest;(4, 9);MoveEast;(10, 7);Break big rocks on top;1;2587
+;(4, 9);MoveEast;(10, 7);Break big rocks on top;1;2588
+;(4, 9);MoveEast;(10, 7);Break big rocks on top;1;2589
+;(4, 9);MoveEast;(10, 7);Break big rocks on top;1;2590
+;(4, 9);MoveEast;(10, 7);Break big rocks on top;1;2591
+MoveEast;(5, 9);MoveEast;(11, 7);Break big rocks on top;1;2592
+;(5, 9);BreakObject;(11, 7);Break big rocks on top;1;2593
+;(5, 9);BreakObject;(11, 7);Break big rocks on top;1;2594
+;(5, 9);BreakObject;(11, 7);Break big rocks on top;1;2595
+MoveEast;(6, 9);BreakObject;(11, 7);Break big rocks on top;1;2596
+;(6, 9);BreakObject;(11, 7);Break big rocks on top;1;2597
+;(6, 9);BreakObject;(11, 7);Break big rocks on top;1;2598
+;(6, 9);BreakObject;(11, 7);Break big rocks on top;1;2599
+MoveEast;(7, 9);BreakObject;(11, 7);Break big rocks on top;1;2600
+;(7, 9);BreakObject;(11, 7);Break big rocks on top;1;2601
+;(7, 9);BreakObject;(11, 7);Break big rocks on top;1;2602
+;(7, 9);BreakObject;(11, 7);Break big rocks on top;1;2603
+;(7, 9);;(11, 7);Break big rocks on top;1;2604
+;(7, 9);;(11, 7);Break big rocks on top;1;2605
+;(7, 9);;(11, 7);Break big rocks on top;1;2606
+;(7, 9);;(11, 7);Break big rocks on top;1;2607
+;(7, 9);;(11, 7);Break big rocks on top;1;2608
+;(7, 9);;(11, 7);Break big rocks on top;1;2609
+;(7, 9);;(11, 7);Break big rocks on top;1;2610
+;(7, 9);;(11, 7);Break big rocks on top;1;2611
+;(7, 9);;(11, 7);Break big rocks on top;1;2612
+;(7, 9);;(11, 7);Break big rocks on top;1;2613
+;(7, 9);;(11, 7);Break big rocks on top;1;2614
+;(7, 9);;(11, 7);Break big rocks on top;1;2615
+;(7, 9);;(11, 7);Break big rocks on top;1;2616
+;(7, 9);;(11, 7);Break big rocks on top;1;2617
+;(7, 9);;(11, 7);Break big rocks on top;1;2618
+;(7, 9);;(11, 7);Break big rocks on top;1;2619
+GrabObject;(7, 9);;(11, 7);Break big rocks on top;1;2620
+;(7, 9);;(11, 7);Break big rocks on top;1;2621
+;(7, 9);;(11, 7);Break big rocks on top;1;2622
+;(7, 9);;(11, 7);Break big rocks on top;1;2623
+;(7, 9);;(11, 7);Break big rocks on top;1;2624
+;(7, 9);;(11, 7);Break big rocks on top;1;2625
+;(7, 9);;(11, 7);Break big rocks on top;1;2626
+MoveWest;(6, 9);;(11, 7);Break big rocks on top;1;2627
+;(6, 9);;(11, 7);Break big rocks on top;1;2628
+;(6, 9);;(11, 7);Break big rocks on top;1;2629
+;(6, 9);;(11, 7);Break big rocks on top;1;2630
+MoveWest;(5, 9);;(11, 7);Break big rocks on top;1;2631
+;(5, 9);;(11, 7);Break big rocks on top;1;2632
+;(5, 9);;(11, 7);Break big rocks on top;1;2633
+MoveWest;(4, 9);;(11, 7);Break big rocks on top;1;2634
+;(4, 9);;(11, 7);Break big rocks on top;1;2635
+;(4, 9);;(11, 7);Break big rocks on top;1;2636
+MoveWest;(3, 9);;(11, 7);Break big rocks on top;1;2637
+;(3, 9);;(11, 7);Break big rocks on top;1;2638
+;(3, 9);;(11, 7);Break big rocks on top;1;2639
+;(3, 9);;(11, 7);Break big rocks on top;1;2640
+;(3, 9);;(11, 7);Break big rocks on top;1;2641
+;(3, 9);;(11, 7);Break big rocks on top;1;2642
+;(3, 9);;(11, 7);Break big rocks on top;1;2643
+DropObject;(3, 9);;(11, 7);Break big rocks on top;1;2644
+;(3, 9);;(11, 7);Break big rocks on top;1;2645
+;(3, 9);;(11, 7);Break big rocks on top;1;2646
+;(3, 9);;(11, 7);Break big rocks on top;1;2647
+;(3, 9);;(11, 7);Break big rocks on top;1;2648
+MoveEast;(4, 9);;(11, 7);Break big rocks on top;1;2649
+;(4, 9);;(11, 7);Break big rocks on top;1;2650
+;(4, 9);;(11, 7);Break big rocks on top;1;2651
+;(4, 9);;(11, 7);Break big rocks on top;1;2652
+MoveEast;(5, 9);;(11, 7);Break big rocks on top;1;2653
+;(5, 9);;(11, 7);Break big rocks on top;1;2654
+;(5, 9);;(11, 7);Break big rocks on top;1;2655
+;(5, 9);;(11, 7);Break big rocks on top;1;2656
+MoveEast;(6, 9);;(11, 7);Break big rocks on top;1;2657
+;(6, 9);;(11, 7);Break big rocks on top;1;2658
+;(6, 9);;(11, 7);Break big rocks on top;1;2659
+;(6, 9);;(11, 7);Break big rocks on top;1;2660
+;(6, 9);;(11, 7);Break big rocks on top;1;2661
+;(6, 9);;(11, 7);Break big rocks on top;1;2662
+;(6, 9);;(11, 7);Break big rocks on top;1;2663
+MoveSouth;(6, 10);;(11, 7);Break big rocks on top;1;2664
+;(6, 10);;(11, 7);Break big rocks on top;1;2665
+;(6, 10);;(11, 7);Break big rocks on top;1;2666
+;(6, 10);;(11, 7);Break big rocks on top;1;2667
+;(6, 10);;(11, 7);Break big rocks on top;1;2668
+;(6, 10);;(11, 7);Break big rocks on top;1;2669
+;(6, 10);;(11, 7);Break big rocks on top;1;2670
+;(6, 10);;(11, 7);Break big rocks on top;1;2671
+DropObject;(6, 10);;(11, 7);Break big rocks on top;1;2672
+;(6, 10);;(11, 7);Break big rocks on top;1;2673
+;(6, 10);;(11, 7);Break big rocks on top;1;2674
+;(6, 10);;(11, 7);Break big rocks on top;1;2675
+;(6, 10);;(11, 7);Break big rocks on top;1;2676
+;(6, 10);;(11, 7);Break big rocks on top;1;2677
+;(6, 10);;(11, 7);Break big rocks on top;1;2678
+;(6, 10);;(11, 7);Break big rocks on top;1;2679
+;(6, 10);;(11, 7);Break big rocks on top;1;2680
+;(6, 10);;(11, 7);Break big rocks on top;1;2681
+GrabObject;(6, 10);;(11, 7);Break big rocks on top;1;2682
+;(6, 10);;(11, 7);Break big rocks on top;1;2683
+;(6, 10);;(11, 7);Break big rocks on top;1;2684
+;(6, 10);;(11, 7);Break big rocks on top;1;2685
+;(6, 10);;(11, 7);Break big rocks on top;1;2686
+;(6, 10);MoveNorthWest;(11, 7);Break big rocks on top;1;2687
+;(6, 10);MoveNorthWest;(11, 7);Break big rocks on top;1;2688
+MoveWest;(5, 10);MoveNorthWest;(11, 7);Break big rocks on top;1;2689
+;(5, 10);MoveNorthWest;(11, 7);Break big rocks on top;1;2690
+;(5, 10);MoveNorthWest;(11, 7);Break big rocks on top;1;2691
+MoveWest;(4, 10);MoveNorthWest;(11, 7);Break big rocks on top;1;2692
+;(4, 10);MoveNorthWest;(11, 7);Break big rocks on top;1;2693
+;(4, 10);MoveNorthWest;(11, 7);Break big rocks on top;1;2694
+MoveWest;(3, 10);MoveNorthWest;(11, 7);Break big rocks on top;1;2695
+;(3, 10);MoveNorthWest;(11, 7);Break big rocks on top;1;2696
+;(3, 10);MoveNorthWest;(10, 6);Break big rocks on top;1;2697
+;(3, 10);MoveNorth;(10, 6);Break big rocks on top;1;2698
+MoveWest;(2, 10);MoveNorth;(10, 6);Break big rocks on top;1;2699
+;(2, 10);MoveNorth;(10, 6);Break big rocks on top;1;2700
+DropObject;(2, 10);MoveNorth;(10, 6);Break big rocks on top;1;2701
+;(2, 10);MoveNorth;(10, 6);Break big rocks on top;1;2702
+;(2, 10);MoveNorth;(10, 6);Break big rocks on top;1;2703
+;(2, 10);MoveNorth;(10, 6);Break big rocks on top;1;2704
+MoveEast;(3, 10);MoveNorth;(10, 6);Break big rocks on top;1;2705
+;(3, 10);MoveNorth;(10, 6);Break big rocks on top;1;2706
+;(3, 10);MoveNorth;(10, 6);Break big rocks on top;1;2707
+;(3, 10);MoveNorth;(10, 5);Break big rocks on top;1;2708
+;(3, 10);MoveNorthWest;(10, 5);Break big rocks on top;1;2709
+MoveEast;(4, 10);MoveNorthWest;(10, 5);Break big rocks on top;1;2710
+;(4, 10);MoveNorthWest;(10, 5);Break big rocks on top;1;2711
+;(4, 10);MoveNorthWest;(10, 5);Break big rocks on top;1;2712
+;(4, 10);MoveNorthWest;(10, 5);Break big rocks on top;1;2713
+MoveEast;(5, 10);MoveNorthWest;(10, 5);Break big rocks on top;1;2714
+;(5, 10);MoveNorthWest;(10, 5);Break big rocks on top;1;2715
+;(5, 10);MoveNorthWest;(10, 5);Break big rocks on top;1;2716
+;(5, 10);MoveNorthWest;(10, 5);Break big rocks on top;1;2717
+MoveEast;(6, 10);MoveNorthWest;(10, 5);Break big rocks on top;1;2718
+;(6, 10);MoveNorthWest;(9, 4);Break big rocks on top;1;2719
+;(6, 10);MoveNorth;(9, 4);Break big rocks on top;1;2720
+;(6, 10);MoveNorth;(9, 4);Break big rocks on top;1;2721
+;(6, 10);MoveNorth;(9, 4);Break big rocks on top;1;2722
+;(6, 10);MoveNorth;(9, 4);Break big rocks on top;1;2723
+;(6, 10);MoveNorth;(9, 4);Break big rocks on top;1;2724
+;(6, 10);MoveNorth;(9, 4);Break big rocks on top;1;2725
+;(6, 10);MoveNorth;(9, 4);Break big rocks on top;1;2726
+;(6, 10);MoveNorth;(9, 4);Break big rocks on top;1;2727
+;(6, 10);MoveNorth;(9, 4);Break big rocks on top;1;2728
+;(6, 10);MoveNorth;(9, 4);Break big rocks on top;1;2729
+;(6, 10);MoveNorth;(9, 3);Break big rocks on top;1;2730
+;(6, 10);BreakObject;(9, 3);Break big rocks on top;1;2731
+;(6, 10);BreakObject;(9, 3);Break big rocks on top;1;2732
+;(6, 10);BreakObject;(9, 3);Break big rocks on top;1;2733
+MoveEast;(7, 10);BreakObject;(9, 3);Break big rocks on top;1;2734
+;(7, 10);BreakObject;(9, 3);Break big rocks on top;1;2735
+;(7, 10);BreakObject;(9, 3);Break big rocks on top;1;2736
+;(7, 10);BreakObject;(9, 3);Break big rocks on top;1;2737
+;(7, 10);BreakObject;(9, 3);Break big rocks on top;1;2738
+;(7, 10);BreakObject;(9, 3);Break big rocks on top;1;2739
+;(7, 10);BreakObject;(9, 3);Break big rocks on top;1;2740
+;(7, 10);BreakObject;(9, 3);Break big rocks on top;1;2741
+;(7, 10);;(9, 3);Break big rocks on top;1;2742
+;(7, 10);;(9, 3);False;1;2743
+;(7, 10);MoveSouth;(9, 3);False;1;2744
+;(7, 10);MoveSouth;(9, 3);False;1;2745
+;(7, 10);MoveSouth;(9, 3);False;1;2746
+;(7, 10);MoveSouth;(9, 3);False;1;2747
+;(7, 10);MoveSouth;(9, 3);False;1;2748
+;(7, 10);MoveSouth;(9, 3);False;1;2749
+;(7, 10);MoveSouth;(9, 3);False;1;2750
+;(7, 10);MoveSouth;(9, 3);False;1;2751
+GrabObject;(7, 10);MoveSouth;(9, 3);False;1;2752
+;(7, 10);MoveSouth;(9, 3);False;1;2753
+;(7, 10);MoveSouth;(9, 4);False;1;2754
+;(7, 10);MoveSouth;(9, 4);False;1;2755
+;(7, 10);MoveSouth;(9, 4);False;1;2756
+MoveWest;(6, 10);MoveSouth;(9, 4);False;1;2757
+;(6, 10);MoveSouth;(9, 4);False;1;2758
+;(6, 10);MoveSouth;(9, 4);False;1;2759
+;(6, 10);MoveSouth;(9, 4);False;1;2760
+MoveWest;(5, 10);MoveSouth;(9, 4);False;1;2761
+;(5, 10);MoveSouth;(9, 4);False;1;2762
+;(5, 10);MoveSouth;(9, 4);False;1;2763
+MoveWest;(4, 10);MoveSouth;(9, 4);False;1;2764
+;(4, 10);MoveSouth;(9, 5);False;1;2765
+;(4, 10);MoveSouth;(9, 5);False;1;2766
+;(4, 10);MoveSouth;(9, 5);False;1;2767
+;(4, 10);MoveSouth;(9, 5);False;1;2768
+;(4, 10);MoveSouth;(9, 5);False;1;2769
+DropObject;(4, 10);MoveSouth;(9, 5);False;1;2770
+;(4, 10);MoveSouth;(9, 5);False;1;2771
+;(4, 10);MoveSouth;(9, 5);False;1;2772
+;(4, 10);MoveSouth;(9, 5);False;1;2773
+;(4, 10);MoveSouth;(9, 5);False;1;2774
+MoveEast;(5, 10);MoveSouth;(9, 5);False;1;2775
+;(5, 10);MoveSouth;(9, 6);False;1;2776
+;(5, 10);MoveSouthWest;(9, 6);False;1;2777
+;(5, 10);MoveSouthWest;(9, 6);False;1;2778
+MoveNorth;(5, 9);MoveSouthWest;(9, 6);False;1;2779
+;(5, 9);MoveSouthWest;(9, 6);False;1;2780
+;(5, 9);MoveSouthWest;(9, 6);False;1;2781
+;(5, 9);MoveSouthWest;(9, 6);False;1;2782
+;(5, 9);MoveSouthWest;(9, 6);False;1;2783
+MoveNorth;(5, 8);MoveSouthWest;(9, 6);False;1;2784
+;(5, 8);MoveSouthWest;(9, 6);False;1;2785
+;(5, 8);MoveSouthWest;(9, 6);False;1;2786
+MoveNorth;(5, 7);MoveSouthWest;(8, 7);False;1;2787
+;(5, 7);MoveSouth;(8, 7);False;1;2788
+;(5, 7);MoveSouth;(8, 7);False;1;2789
+;(5, 7);MoveSouth;(8, 7);False;1;2790
+;(5, 7);MoveSouth;(8, 7);False;1;2791
+;(5, 7);MoveSouth;(8, 7);False;1;2792
+MoveEast;(6, 7);MoveSouth;(8, 7);False;1;2793
+;(6, 7);MoveSouth;(8, 7);False;1;2794
+;(6, 7);MoveSouth;(8, 7);False;1;2795
+;(6, 7);MoveSouth;(8, 7);False;1;2796
+MoveEast;(7, 7);MoveSouth;(8, 7);False;1;2797
+;(7, 7);MoveSouth;(8, 8);False;1;2798
+;(7, 7);MoveSouthWest;(8, 8);False;1;2799
+;(7, 7);MoveSouthWest;(8, 8);False;1;2800
+MoveEast;(8, 7);MoveSouthWest;(8, 8);False;1;2801
+;(8, 7);MoveSouthWest;(8, 8);False;1;2802
+;(8, 7);MoveSouthWest;(8, 8);False;1;2803
+;(8, 7);MoveSouthWest;(8, 8);False;1;2804
+;(8, 7);MoveSouthWest;(8, 8);False;1;2805
+MoveEast;(9, 7);MoveSouthWest;(8, 8);False;1;2806
+;(9, 7);MoveSouthWest;(8, 8);False;1;2807
+;(9, 7);MoveSouthWest;(8, 8);False;1;2808
+;(9, 7);MoveSouthWest;(7, 9);False;1;2809
+;(9, 7);MoveSouth;(7, 9);False;1;2810
+;(9, 7);MoveSouth;(7, 9);False;1;2811
+;(9, 7);MoveSouth;(7, 9);False;1;2812
+MoveNorth;(9, 6);MoveSouth;(7, 9);False;1;2813
+;(9, 6);MoveSouth;(7, 9);False;1;2814
+;(9, 6);MoveSouth;(7, 9);False;1;2815
+;(9, 6);MoveSouth;(7, 9);False;1;2816
+;(9, 6);MoveSouth;(7, 9);False;1;2817
+;(9, 6);MoveSouth;(7, 9);False;1;2818
+;(9, 6);MoveSouth;(7, 9);False;1;2819
+MoveNorth;(9, 5);MoveSouth;(7, 10);False;1;2820
+;(9, 5);Idle;(7, 10);False;1;2821
+;(9, 5);Idle;(7, 10);False;1;2822
+;(9, 5);Idle;(7, 10);False;1;2823
+;(9, 5);Idle;(7, 10);False;1;2824
+GrabObject;(9, 5);Idle;(7, 10);False;1;2825
+;(9, 5);Idle;(7, 10);False;1;2826
+;(9, 5);Idle;(7, 10);False;1;2827
+MoveWest;(8, 5);Idle;(7, 10);False;1;2828
+;(8, 5);Idle;(7, 10);False;1;2829
+;(8, 5);Idle;(7, 10);False;1;2830
+;(8, 5);Idle;(7, 10);False;1;2831
+MoveWest;(7, 5);Idle;(7, 10);False;1;2832
+;(7, 5);Idle;(7, 10);False;1;2833
+;(7, 5);Idle;(7, 10);False;1;2834
+MoveWest;(6, 5);Idle;(7, 10);False;1;2835
+;(6, 5);Idle;(7, 10);False;1;2836
+;(6, 5);Idle;(7, 10);False;1;2837
+MoveWest;(5, 5);Idle;(7, 10);False;1;2838
+;(5, 5);Idle;(7, 10);False;1;2839
+;(5, 5);Idle;(7, 10);False;1;2840
+MoveWest;(4, 5);Idle;(7, 10);False;1;2841
+DropObject;(4, 5);Idle;(7, 10);False;1;2842
+;(4, 5);Idle;(7, 10);False;1;2843
+;(4, 5);Idle;(7, 10);False;1;2844
+MoveEast;(5, 5);Idle;(7, 10);False;1;2845
+;(5, 5);Idle;(7, 10);False;1;2846
+;(5, 5);Idle;(7, 10);False;1;2847
+;(5, 5);Idle;(7, 10);False;1;2848
+MoveEast;(6, 5);Idle;(7, 10);False;1;2849
+;(6, 5);Idle;(7, 10);False;1;2850
+;(6, 5);Idle;(7, 10);False;1;2851
+MoveEast;(7, 5);Idle;(7, 10);False;1;2852
+;(7, 5);Idle;(7, 10);False;1;2853
+;(7, 5);Idle;(7, 10);False;1;2854
+;(7, 5);Idle;(7, 10);False;1;2855
+MoveEast;(8, 5);Idle;(7, 10);False;1;2856
+;(8, 5);Idle;(7, 10);False;1;2857
+MoveEast;(9, 5);Idle;(7, 10);False;1;2858
+;(9, 5);Idle;(7, 10);False;1;2859
+;(9, 5);Idle;(7, 10);False;1;2860
+;(9, 5);Idle;(7, 10);False;1;2861
+;(9, 5);Idle;(7, 10);False;1;2862
+;(9, 5);Idle;(7, 10);False;1;2863
+;(9, 5);Idle;(7, 10);False;1;2864
+MoveSouth;(9, 6);Idle;(7, 10);False;1;2865
+;(9, 6);Idle;(7, 10);False;1;2866
+;(9, 6);Idle;(7, 10);False;1;2867
+;(9, 6);Idle;(7, 10);False;1;2868
+;(9, 6);Idle;(7, 10);False;1;2869
+;(9, 6);Idle;(7, 10);False;1;2870
+GrabObject;(9, 6);Idle;(7, 10);False;1;2871
+;(9, 6);Idle;(7, 10);False;1;2872
+;(9, 6);Idle;(7, 10);False;1;2873
+;(9, 6);Idle;(7, 10);False;1;2874
+;(9, 6);Idle;(7, 10);False;1;2875
+;(9, 6);;(7, 10);False;1;2876
+MoveWest;(8, 6);;(7, 10);Break big rocks on top;1;2877
+;(8, 6);;(7, 10);Break big rocks on top;1;2878
+MoveWest;(7, 6);;(7, 10);Break big rocks on top;1;2879
+;(7, 6);;(7, 10);Break big rocks on top;1;2880
+;(7, 6);;(7, 10);Break big rocks on top;1;2881
+MoveWest;(6, 6);;(7, 10);Break big rocks on top;1;2882
+;(6, 6);;(7, 10);Break big rocks on top;1;2883
+;(6, 6);;(7, 10);Break big rocks on top;1;2884
+;(6, 6);;(7, 10);Break big rocks on top;1;2885
+MoveWest;(5, 6);;(7, 10);Break big rocks on top;1;2886
+;(5, 6);;(7, 10);Break big rocks on top;1;2887
+;(5, 6);;(7, 10);Break big rocks on top;1;2888
+DropObject;(5, 6);;(7, 10);Break big rocks on top;1;2889
+;(5, 6);;(7, 10);Break big rocks on top;1;2890
+;(5, 6);;(7, 10);Break big rocks on top;1;2891
+;(5, 6);;(7, 10);Break big rocks on top;1;2892
+MoveNorth;(5, 5);;(7, 10);Break big rocks on top;1;2893
+;(5, 5);;(7, 10);Break big rocks on top;1;2894
+;(5, 5);;(7, 10);Break big rocks on top;1;2895
+;(5, 5);;(7, 10);Break big rocks on top;1;2896
+MoveNorth;(5, 4);;(7, 10);Break big rocks on top;1;2897
+;(5, 4);;(7, 10);Break big rocks on top;1;2898
+;(5, 4);;(7, 10);Break big rocks on top;1;2899
+;(5, 4);;(7, 10);Break big rocks on top;1;2900
+;(5, 4);;(7, 10);Break big rocks on top;1;2901
+MoveEast;(6, 4);;(7, 10);Break big rocks on top;1;2902
+;(6, 4);;(7, 10);Break big rocks on top;1;2903
+;(6, 4);;(7, 10);Break big rocks on top;1;2904
+;(6, 4);;(7, 10);Break big rocks on top;1;2905
+MoveEast;(7, 4);;(7, 10);Break big rocks on top;1;2906
+;(7, 4);;(7, 10);Break big rocks on top;1;2907
+;(7, 4);;(7, 10);Break big rocks on top;1;2908
+;(7, 4);;(7, 10);Break big rocks on top;1;2909
+MoveEast;(8, 4);;(7, 10);Break big rocks on top;1;2910
+;(8, 4);;(7, 10);Break big rocks on top;1;2911
+;(8, 4);;(7, 10);Break big rocks on top;1;2912
+;(8, 4);;(7, 10);Break big rocks on top;1;2913
+MoveEast;(9, 4);;(7, 10);Break big rocks on top;1;2914
+;(9, 4);;(7, 10);Break big rocks on top;1;2915
+;(9, 4);;(7, 10);Break big rocks on top;1;2916
+;(9, 4);;(7, 10);Break big rocks on top;1;2917
+;(9, 4);;(7, 10);Break big rocks on top;1;2918
+MoveEast;(10, 4);;(7, 10);Break big rocks on top;1;2919
+;(10, 4);;(7, 10);Break big rocks on top;1;2920
+GrabObject;(10, 4);;(7, 10);Break big rocks on top;1;2921
+;(10, 4);;(7, 10);Break big rocks on top;1;2922
+MoveWest;(9, 4);;(7, 10);Break big rocks on top;1;2923
+;(9, 4);;(7, 10);Break big rocks on top;1;2924
+;(9, 4);MoveNorth;(7, 10);Break big rocks on top;1;2925
+;(9, 4);MoveNorth;(7, 10);Break big rocks on top;1;2926
+;(9, 4);MoveNorth;(7, 10);Break big rocks on top;1;2927
+MoveWest;(8, 4);MoveNorth;(7, 10);Break big rocks on top;1;2928
+;(8, 4);MoveNorth;(7, 10);Break big rocks on top;1;2929
+;(8, 4);MoveNorth;(7, 10);Break big rocks on top;1;2930
+MoveWest;(7, 4);MoveNorth;(7, 10);Break big rocks on top;1;2931
+;(7, 4);MoveNorth;(7, 10);Break big rocks on top;1;2932
+;(7, 4);MoveNorth;(7, 10);Break big rocks on top;1;2933
+;(7, 4);MoveNorth;(7, 10);Break big rocks on top;1;2934
+MoveWest;(6, 4);MoveNorth;(7, 9);Break big rocks on top;1;2935
+;(6, 4);MoveNorth;(7, 9);Break big rocks on top;1;2936
+;(6, 4);MoveNorth;(7, 9);Break big rocks on top;1;2937
+;(6, 4);MoveNorth;(7, 9);Break big rocks on top;1;2938
+DropObject;(6, 4);MoveNorth;(7, 9);Break big rocks on top;1;2939
+;(6, 4);MoveNorth;(7, 9);Break big rocks on top;1;2940
+;(6, 4);MoveNorth;(7, 9);Break big rocks on top;1;2941
+;(6, 4);MoveNorth;(7, 9);Break big rocks on top;1;2942
+MoveEast;(7, 4);MoveNorth;(7, 9);Break big rocks on top;1;2943
+;(7, 4);MoveNorth;(7, 9);Break big rocks on top;1;2944
+;(7, 4);MoveNorth;(7, 9);Break big rocks on top;1;2945
+;(7, 4);MoveNorth;(7, 8);Break big rocks on top;1;2946
+MoveEast;(8, 4);MoveNorthEast;(7, 8);Break big rocks on top;1;2947
+;(8, 4);MoveNorthEast;(7, 8);Break big rocks on top;1;2948
+;(8, 4);MoveNorthEast;(7, 8);Break big rocks on top;1;2949
+MoveEast;(9, 4);MoveNorthEast;(7, 8);Break big rocks on top;1;2950
+;(9, 4);MoveNorthEast;(7, 8);Break big rocks on top;1;2951
+;(9, 4);MoveNorthEast;(7, 8);Break big rocks on top;1;2952
+MoveEast;(10, 4);MoveNorthEast;(7, 8);Break big rocks on top;1;2953
+;(10, 4);MoveNorthEast;(7, 8);Break big rocks on top;1;2954
+;(10, 4);MoveNorthEast;(7, 8);Break big rocks on top;1;2955
+;(10, 4);MoveNorthEast;(7, 8);Break big rocks on top;1;2956
+;(10, 4);MoveNorthEast;(8, 7);Break big rocks on top;1;2957
+;(10, 4);BreakObject;(8, 7);Break big rocks on top;1;2958
+MoveEast;(11, 4);BreakObject;(8, 7);Break big rocks on top;1;2959
+;(11, 4);BreakObject;(8, 7);Break big rocks on top;1;2960
+;(11, 4);BreakObject;(8, 7);Break big rocks on top;1;2961
+;(11, 4);BreakObject;(8, 7);Break big rocks on top;1;2962
+;(11, 4);BreakObject;(8, 7);Break big rocks on top;1;2963
+GrabObject;(11, 4);BreakObject;(8, 7);Break big rocks on top;1;2964
+;(11, 4);BreakObject;(8, 7);Break big rocks on top;1;2965
+;(11, 4);BreakObject;(8, 7);Break big rocks on top;1;2966
+;(11, 4);BreakObject;(8, 7);Break big rocks on top;1;2967
+;(11, 4);BreakObject;(8, 7);Break big rocks on top;1;2968
+;(11, 4);;(8, 7);Break big rocks on top;1;2969
+;(11, 4);;(8, 7);Break big rocks on top;1;2970
+MoveWest;(10, 4);;(8, 7);Break big rocks on top;1;2971
+;(10, 4);MoveNorthEast;(8, 7);Break big rocks on top;1;2972
+;(10, 4);MoveNorthEast;(8, 7);Break big rocks on top;1;2973
+;(10, 4);MoveNorthEast;(8, 7);Break big rocks on top;1;2974
+MoveWest;(9, 4);MoveNorthEast;(8, 7);Break big rocks on top;1;2975
+;(9, 4);MoveNorthEast;(8, 7);Break big rocks on top;1;2976
+;(9, 4);MoveNorthEast;(8, 7);Break big rocks on top;1;2977
+MoveWest;(8, 4);MoveNorthEast;(8, 7);Break big rocks on top;1;2978
+;(8, 4);MoveNorthEast;(8, 7);Break big rocks on top;1;2979
+;(8, 4);MoveNorthEast;(8, 7);Break big rocks on top;1;2980
+MoveWest;(7, 4);MoveNorthEast;(8, 7);Break big rocks on top;1;2981
+;(7, 4);MoveNorthEast;(9, 6);Break big rocks on top;1;2982
+;(7, 4);MoveNorthEast;(9, 6);Break big rocks on top;1;2983
+MoveWest;(6, 4);MoveNorthEast;(9, 6);Break big rocks on top;1;2984
+;(6, 4);MoveNorthEast;(9, 6);Break big rocks on top;1;2985
+;(6, 4);MoveNorthEast;(9, 6);Break big rocks on top;1;2986
+;(6, 4);MoveNorthEast;(9, 6);Break big rocks on top;1;2987
+;(6, 4);MoveNorthEast;(9, 6);Break big rocks on top;1;2988
+;(6, 4);MoveNorthEast;(9, 6);Break big rocks on top;1;2989
+;(6, 4);MoveNorthEast;(9, 6);Break big rocks on top;1;2990
+;(6, 4);MoveNorthEast;(9, 6);Break big rocks on top;1;2991
+DropObject;(6, 4);MoveNorthEast;(9, 6);Break big rocks on top;1;2992
+;(6, 4);MoveNorthEast;(10, 5);Break big rocks on top;1;2993
+;(6, 4);BreakObject;(10, 5);Break big rocks on top;1;2994
+;(6, 4);BreakObject;(10, 5);Break big rocks on top;1;2995
+;(6, 4);BreakObject;(10, 5);Break big rocks on top;1;2996
+;(6, 4);BreakObject;(10, 5);Break big rocks on top;1;2997
+;(6, 4);BreakObject;(10, 5);Break big rocks on top;1;2998
+;(6, 4);BreakObject;(10, 5);Break big rocks on top;1;2999
+;(6, 4);BreakObject;(10, 5);Break big rocks on top;1;3000
+MoveEast;(7, 4);BreakObject;(10, 5);Break big rocks on top;1;3001
+;(7, 4);BreakObject;(10, 5);Break big rocks on top;1;3002
+;(7, 4);BreakObject;(10, 5);Break big rocks on top;1;3003
+;(7, 4);BreakObject;(10, 5);Break big rocks on top;1;3004
+;(7, 4);;(10, 5);Break big rocks on top;1;3005
+;(7, 4);;(10, 5);Break big rocks on top;1;3006
+;(7, 4);;(10, 5);Break big rocks on top;1;3007
+;(7, 4);;(10, 5);Break big rocks on top;1;3008
+;(7, 4);;(10, 5);Break big rocks on top;1;3009
+;(7, 4);;(10, 5);Break big rocks on top;1;3010
+;(7, 4);;(10, 5);Break big rocks on top;1;3011
+;(7, 4);;(10, 5);Break big rocks on top;1;3012
+;(7, 4);;(10, 5);Break big rocks on top;1;3013
+;(7, 4);;(10, 5);Break big rocks on top;1;3014
+;(7, 4);;(10, 5);Break big rocks on top;1;3015
+;(7, 4);;(10, 5);Break big rocks on top;1;3016
+;(7, 4);;(10, 5);Break big rocks on top;1;3017
+;(7, 4);;(10, 5);Break big rocks on top;1;3018
+;(7, 4);;(10, 5);Break big rocks on top;1;3019

@@ -1,0 +1,28 @@
+tick;corrected_tick;remaining_distance;victim_harm;idle_time_robot;q_table_cps;q_table_cps_runs;q_table_basic;world_nr;tick_nr
+2375;2356;;0;1;"                     Remove big rock  Remove large rock top  Large rock on human
+[3, 'human', True]           -1117.0                    0.0                  0.0
+[4, 'equal', False]           -428.0                -1652.0                  0.0
+[4, 'robot', False]           -498.0                    NaN                  0.0
+[3, 'robot', True]               NaN                  -10.0                  0.0
+[2, 'robot', False]              NaN                -2506.0                  NaN
+[3, 'robot', False]             16.0                    0.0                  0.0
+[4, 'robot', True]               NaN                   90.0                  NaN";"                     Remove big rock  Remove large rock top  Large rock on human
+[3, 'human', True]               3.0                    0.0                  0.0
+[4, 'equal', False]              3.0                    8.0                  0.0
+[4, 'robot', False]              2.0                    NaN                  0.0
+[3, 'robot', True]               NaN                   37.0                  0.0
+[2, 'robot', False]              NaN                    9.0                  NaN
+[3, 'robot', False]              2.0                    0.0                  0.0
+[4, 'robot', True]               NaN                    3.0                  NaN";"                     Move back and forth  Stand Still   Pick up       Drop  Break
+[4, 'equal', False]             -7.20000        -6.14 -9.200000  -4.600000 -5.750
+[4, 'human', False]             -4.00000         0.00  0.000000  -4.500000  0.000
+[3, 'human', False]             -4.00000        -3.90 -6.650000   0.000000 -6.075
+[3, 'human', True]              -3.00000        -3.50  0.000000   0.000000  0.000
+[2, 'equal', True]              -7.00000         0.00  0.000000 -41.500000  0.000
+[2, 'equal', False]            -28.50000         0.00  0.000000   0.000000 -8.500
+[2, 'robot', False]             -7.36000        -4.40 -5.755000  -5.145000 -9.220
+[1, 'robot', True]              -5.49612        -4.00 -1.027517   0.000000  0.000
+[1, 'robot', False]             -7.00000        -2.25 -4.330896   1.574944  0.000
+[2, 'robot', True]               0.00000        -1.15  0.000000   0.000000  0.000
+[3, 'robot', True]               0.00000         0.00  0.000000   0.000000  0.000
+[3, 'robot', False]             -4.00000        -0.50  0.000000  -2.145000  0.000";1;2375

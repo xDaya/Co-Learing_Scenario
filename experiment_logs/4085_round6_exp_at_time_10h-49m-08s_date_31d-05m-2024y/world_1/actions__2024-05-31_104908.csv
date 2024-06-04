@@ -1,0 +1,3021 @@
+human_selector_action;human_selector_location;robot_action;robot_location;robot_executing_cp;world_nr;tick_nr
+;(3, 4);;(4, 4);False;1;0
+;(3, 4);;(4, 4);False;1;1
+;(3, 4);MoveEast;(4, 4);False;1;2
+;(3, 4);MoveEast;(4, 4);False;1;3
+;(3, 4);MoveEast;(4, 4);False;1;4
+;(3, 4);MoveEast;(4, 4);False;1;5
+;(3, 4);MoveEast;(4, 4);False;1;6
+;(3, 4);MoveEast;(4, 4);False;1;7
+;(3, 4);MoveEast;(4, 4);False;1;8
+;(3, 4);MoveEast;(4, 4);False;1;9
+;(3, 4);MoveEast;(4, 4);False;1;10
+;(3, 4);MoveEast;(4, 4);False;1;11
+;(3, 4);MoveEast;(5, 4);False;1;12
+;(3, 4);MoveEast;(5, 4);False;1;13
+;(3, 4);MoveEast;(5, 4);False;1;14
+;(3, 4);MoveEast;(5, 4);False;1;15
+;(3, 4);MoveEast;(5, 4);False;1;16
+MoveEast;(4, 4);MoveEast;(5, 4);False;1;17
+;(4, 4);MoveEast;(5, 4);False;1;18
+MoveEast;(5, 4);MoveEast;(5, 4);False;1;19
+;(5, 4);MoveEast;(5, 4);False;1;20
+MoveEast;(6, 4);MoveEast;(5, 4);False;1;21
+;(6, 4);MoveEast;(5, 4);False;1;22
+MoveEast;(7, 4);MoveEast;(6, 4);False;1;23
+;(7, 4);MoveEast;(6, 4);False;1;24
+;(7, 4);MoveEast;(6, 4);False;1;25
+MoveEast;(8, 4);MoveEast;(6, 4);False;1;26
+;(8, 4);MoveEast;(6, 4);False;1;27
+MoveEast;(9, 4);MoveEast;(6, 4);False;1;28
+;(9, 4);MoveEast;(6, 4);False;1;29
+;(9, 4);MoveEast;(6, 4);False;1;30
+MoveEast;(10, 4);MoveEast;(6, 4);False;1;31
+;(10, 4);MoveEast;(6, 4);False;1;32
+;(10, 4);MoveEast;(6, 4);False;1;33
+MoveEast;(11, 4);MoveEast;(7, 4);False;1;34
+;(11, 4);MoveEast;(7, 4);False;1;35
+;(11, 4);MoveEast;(7, 4);False;1;36
+MoveEast;(12, 4);MoveEast;(7, 4);False;1;37
+;(12, 4);MoveEast;(7, 4);False;1;38
+;(12, 4);MoveEast;(7, 4);False;1;39
+;(12, 4);MoveEast;(7, 4);False;1;40
+;(12, 4);MoveEast;(7, 4);False;1;41
+;(12, 4);MoveEast;(7, 4);False;1;42
+;(12, 4);MoveEast;(7, 4);False;1;43
+;(12, 4);MoveEast;(7, 4);False;1;44
+;(12, 4);MoveEast;(8, 4);False;1;45
+MoveNorth;(12, 3);MoveEast;(8, 4);False;1;46
+;(12, 3);MoveEast;(8, 4);False;1;47
+;(12, 3);MoveEast;(8, 4);False;1;48
+;(12, 3);MoveEast;(8, 4);False;1;49
+;(12, 3);MoveEast;(8, 4);False;1;50
+;(12, 3);MoveEast;(8, 4);False;1;51
+;(12, 3);MoveEast;(8, 4);False;1;52
+;(12, 3);MoveEast;(8, 4);False;1;53
+;(12, 3);MoveEast;(8, 4);False;1;54
+;(12, 3);MoveEast;(8, 4);False;1;55
+;(12, 3);MoveEast;(9, 4);False;1;56
+;(12, 3);MoveEast;(9, 4);False;1;57
+;(12, 3);MoveEast;(9, 4);False;1;58
+;(12, 3);MoveEast;(9, 4);False;1;59
+;(12, 3);MoveEast;(9, 4);False;1;60
+;(12, 3);MoveEast;(9, 4);False;1;61
+;(12, 3);MoveEast;(9, 4);False;1;62
+GrabObject;(12, 3);MoveEast;(9, 4);False;1;63
+;(12, 3);MoveEast;(9, 4);False;1;64
+MoveEast;(13, 3);MoveEast;(9, 4);False;1;65
+;(13, 3);MoveEast;(9, 4);False;1;66
+;(13, 3);MoveEast;(10, 4);False;1;67
+MoveEast;(14, 3);;(10, 4);False;1;68
+;(14, 3);;(10, 4);large rock robot ;1;69
+MoveEast;(15, 3);;(10, 4);large rock robot ;1;70
+;(15, 3);MoveEast;(10, 4);large rock robot ;1;71
+MoveEast;(16, 3);MoveEast;(10, 4);large rock robot ;1;72
+;(16, 3);MoveEast;(10, 4);large rock robot ;1;73
+;(16, 3);MoveEast;(10, 4);large rock robot ;1;74
+MoveEast;(17, 3);MoveEast;(10, 4);large rock robot ;1;75
+;(17, 3);MoveEast;(10, 4);large rock robot ;1;76
+;(17, 3);MoveEast;(10, 4);large rock robot ;1;77
+MoveEast;(18, 3);MoveEast;(10, 4);large rock robot ;1;78
+;(18, 3);MoveEast;(10, 4);large rock robot ;1;79
+MoveEast;(19, 3);MoveEast;(10, 4);large rock robot ;1;80
+;(19, 3);MoveEast;(11, 4);large rock robot ;1;81
+;(19, 3);MoveEast;(11, 4);large rock robot ;1;82
+;(19, 3);MoveEast;(11, 4);large rock robot ;1;83
+;(19, 3);MoveEast;(11, 4);large rock robot ;1;84
+;(19, 3);MoveEast;(11, 4);large rock robot ;1;85
+;(19, 3);MoveEast;(11, 4);large rock robot ;1;86
+;(19, 3);MoveEast;(11, 4);large rock robot ;1;87
+;(19, 3);MoveEast;(11, 4);large rock robot ;1;88
+;(19, 3);MoveEast;(11, 4);large rock robot ;1;89
+;(19, 3);MoveEast;(11, 4);large rock robot ;1;90
+;(19, 3);MoveEast;(11, 4);large rock robot ;1;91
+;(19, 3);MoveEast;(12, 4);large rock robot ;1;92
+;(19, 3);GrabLargeObject;(12, 4);large rock robot ;1;93
+;(19, 3);GrabLargeObject;(12, 4);large rock robot ;1;94
+;(19, 3);GrabLargeObject;(12, 4);large rock robot ;1;95
+DropObject;(19, 3);GrabLargeObject;(12, 4);large rock robot ;1;96
+;(19, 3);GrabLargeObject;(12, 4);large rock robot ;1;97
+;(19, 3);GrabLargeObject;(12, 4);large rock robot ;1;98
+;(19, 3);GrabLargeObject;(12, 4);large rock robot ;1;99
+;(19, 3);GrabLargeObject;(12, 4);large rock robot ;1;100
+;(19, 3);GrabLargeObject;(12, 4);large rock robot ;1;101
+;(19, 3);GrabLargeObject;(12, 4);large rock robot ;1;102
+;(19, 3);GrabLargeObject;(12, 4);large rock robot ;1;103
+;(19, 3);;(12, 4);large rock robot ;1;104
+;(19, 3);;(12, 4);False;1;105
+;(19, 3);MoveSouthWest;(12, 4);False;1;106
+MoveWest;(18, 3);MoveSouthWest;(12, 4);False;1;107
+;(18, 3);MoveSouthWest;(12, 4);False;1;108
+;(18, 3);MoveSouthWest;(12, 4);False;1;109
+MoveWest;(17, 3);MoveSouthWest;(12, 4);False;1;110
+;(17, 3);MoveSouthWest;(12, 4);False;1;111
+;(17, 3);MoveSouthWest;(12, 4);False;1;112
+;(17, 3);MoveSouthWest;(12, 4);False;1;113
+;(17, 3);MoveSouthWest;(12, 4);False;1;114
+;(17, 3);MoveSouthWest;(12, 4);False;1;115
+;(17, 3);MoveSouthWest;(11, 5);False;1;116
+;(17, 3);MoveSouth;(11, 5);False;1;117
+;(17, 3);MoveSouth;(11, 5);False;1;118
+;(17, 3);MoveSouth;(11, 5);False;1;119
+;(17, 3);MoveSouth;(11, 5);False;1;120
+MoveWest;(16, 3);MoveSouth;(11, 5);False;1;121
+;(16, 3);MoveSouth;(11, 5);False;1;122
+MoveWest;(15, 3);MoveSouth;(11, 5);False;1;123
+;(15, 3);MoveSouth;(11, 5);False;1;124
+;(15, 3);MoveSouth;(11, 5);False;1;125
+;(15, 3);MoveSouth;(11, 5);False;1;126
+;(15, 3);MoveSouth;(11, 6);False;1;127
+;(15, 3);MoveSouthWest;(11, 6);False;1;128
+MoveWest;(14, 3);MoveSouthWest;(11, 6);False;1;129
+;(14, 3);MoveSouthWest;(11, 6);False;1;130
+;(14, 3);MoveSouthWest;(11, 6);False;1;131
+;(14, 3);MoveSouthWest;(11, 6);False;1;132
+;(14, 3);MoveSouthWest;(11, 6);False;1;133
+MoveWest;(13, 3);MoveSouthWest;(11, 6);False;1;134
+;(13, 3);MoveSouthWest;(11, 6);False;1;135
+;(13, 3);MoveSouthWest;(11, 6);False;1;136
+;(13, 3);MoveSouthWest;(11, 6);False;1;137
+;(13, 3);MoveSouthWest;(10, 7);False;1;138
+MoveSouth;(13, 4);MoveSouth;(10, 7);False;1;139
+;(13, 4);MoveSouth;(10, 7);False;1;140
+;(13, 4);MoveSouth;(10, 7);False;1;141
+;(13, 4);MoveSouth;(10, 7);False;1;142
+;(13, 4);MoveSouth;(10, 7);False;1;143
+;(13, 4);MoveSouth;(10, 7);False;1;144
+MoveSouth;(13, 5);MoveSouth;(10, 7);False;1;145
+;(13, 5);MoveSouth;(10, 7);False;1;146
+;(13, 5);MoveSouth;(10, 7);False;1;147
+;(13, 5);MoveSouth;(10, 7);False;1;148
+;(13, 5);MoveSouth;(10, 8);False;1;149
+;(13, 5);BreakObject;(10, 8);False;1;150
+;(13, 5);BreakObject;(10, 8);False;1;151
+;(13, 5);BreakObject;(10, 8);False;1;152
+;(13, 5);BreakObject;(10, 8);False;1;153
+;(13, 5);BreakObject;(10, 8);False;1;154
+;(13, 5);BreakObject;(10, 8);False;1;155
+;(13, 5);BreakObject;(10, 8);False;1;156
+;(13, 5);BreakObject;(10, 8);False;1;157
+;(13, 5);BreakObject;(10, 8);False;1;158
+;(13, 5);BreakObject;(10, 8);False;1;159
+;(13, 5);BreakObject;(10, 8);False;1;160
+MoveWest;(12, 5);;(10, 8);False;1;161
+;(12, 5);Idle;(10, 8);False;1;162
+;(12, 5);Idle;(10, 8);False;1;163
+;(12, 5);Idle;(10, 8);False;1;164
+;(12, 5);Idle;(10, 8);False;1;165
+;(12, 5);Idle;(10, 8);False;1;166
+MoveWest;(11, 5);Idle;(10, 8);False;1;167
+;(11, 5);Idle;(10, 8);False;1;168
+;(11, 5);Idle;(10, 8);False;1;169
+;(11, 5);Idle;(10, 8);False;1;170
+;(11, 5);Idle;(10, 8);False;1;171
+;(11, 5);Idle;(10, 8);False;1;172
+;(11, 5);Idle;(10, 8);False;1;173
+;(11, 5);Idle;(10, 8);False;1;174
+;(11, 5);Idle;(10, 8);False;1;175
+;(11, 5);Idle;(10, 8);False;1;176
+;(11, 5);Idle;(10, 8);False;1;177
+;(11, 5);Idle;(10, 8);False;1;178
+;(11, 5);Idle;(10, 8);False;1;179
+;(11, 5);Idle;(10, 8);False;1;180
+;(11, 5);Idle;(10, 8);False;1;181
+;(11, 5);Idle;(10, 8);False;1;182
+;(11, 5);Idle;(10, 8);False;1;183
+;(11, 5);Idle;(10, 8);False;1;184
+;(11, 5);Idle;(10, 8);False;1;185
+;(11, 5);Idle;(10, 8);False;1;186
+;(11, 5);Idle;(10, 8);False;1;187
+;(11, 5);Idle;(10, 8);False;1;188
+;(11, 5);Idle;(10, 8);False;1;189
+;(11, 5);Idle;(10, 8);False;1;190
+;(11, 5);Idle;(10, 8);False;1;191
+;(11, 5);Idle;(10, 8);False;1;192
+;(11, 5);Idle;(10, 8);False;1;193
+MoveSouth;(11, 6);Idle;(10, 8);False;1;194
+;(11, 6);Idle;(10, 8);False;1;195
+;(11, 6);Idle;(10, 8);False;1;196
+;(11, 6);Idle;(10, 8);False;1;197
+;(11, 6);Idle;(10, 8);False;1;198
+;(11, 6);Idle;(10, 8);False;1;199
+;(11, 6);Idle;(10, 8);False;1;200
+;(11, 6);Idle;(10, 8);False;1;201
+;(11, 6);Idle;(10, 8);False;1;202
+;(11, 6);Idle;(10, 8);False;1;203
+;(11, 6);Idle;(10, 8);False;1;204
+;(11, 6);Idle;(10, 8);False;1;205
+;(11, 6);Idle;(10, 8);False;1;206
+;(11, 6);Idle;(10, 8);False;1;207
+;(11, 6);Idle;(10, 8);False;1;208
+;(11, 6);Idle;(10, 8);False;1;209
+;(11, 6);Idle;(10, 8);False;1;210
+;(11, 6);Idle;(10, 8);False;1;211
+;(11, 6);Idle;(10, 8);False;1;212
+;(11, 6);Idle;(10, 8);False;1;213
+;(11, 6);Idle;(10, 8);False;1;214
+;(11, 6);Idle;(10, 8);False;1;215
+;(11, 6);Idle;(10, 8);False;1;216
+;(11, 6);;(10, 8);False;1;217
+;(11, 6);MoveWest;(10, 8);False;1;218
+;(11, 6);MoveWest;(10, 8);False;1;219
+;(11, 6);MoveWest;(10, 8);False;1;220
+;(11, 6);MoveWest;(10, 8);False;1;221
+;(11, 6);MoveWest;(10, 8);False;1;222
+;(11, 6);MoveWest;(10, 8);False;1;223
+;(11, 6);MoveWest;(10, 8);False;1;224
+;(11, 6);MoveWest;(10, 8);False;1;225
+;(11, 6);MoveWest;(10, 8);False;1;226
+;(11, 6);MoveWest;(10, 8);False;1;227
+;(11, 6);MoveWest;(9, 8);False;1;228
+;(11, 6);MoveWest;(9, 8);False;1;229
+;(11, 6);MoveWest;(9, 8);False;1;230
+;(11, 6);MoveWest;(9, 8);False;1;231
+;(11, 6);MoveWest;(9, 8);False;1;232
+;(11, 6);MoveWest;(9, 8);False;1;233
+;(11, 6);MoveWest;(9, 8);False;1;234
+;(11, 6);MoveWest;(9, 8);False;1;235
+;(11, 6);MoveWest;(9, 8);False;1;236
+;(11, 6);MoveWest;(9, 8);False;1;237
+;(11, 6);MoveWest;(9, 8);False;1;238
+;(11, 6);MoveWest;(8, 8);False;1;239
+;(11, 6);MoveWest;(8, 8);False;1;240
+;(11, 6);MoveWest;(8, 8);False;1;241
+;(11, 6);MoveWest;(8, 8);False;1;242
+;(11, 6);MoveWest;(8, 8);False;1;243
+;(11, 6);MoveWest;(8, 8);False;1;244
+;(11, 6);MoveWest;(8, 8);False;1;245
+;(11, 6);MoveWest;(8, 8);False;1;246
+;(11, 6);MoveWest;(8, 8);False;1;247
+;(11, 6);MoveWest;(8, 8);False;1;248
+;(11, 6);MoveWest;(8, 8);False;1;249
+;(11, 6);MoveWest;(7, 8);False;1;250
+;(11, 6);MoveWest;(7, 8);False;1;251
+;(11, 6);MoveWest;(7, 8);False;1;252
+GrabObject;(11, 6);MoveWest;(7, 8);False;1;253
+;(11, 6);MoveWest;(7, 8);False;1;254
+;(11, 6);MoveWest;(7, 8);False;1;255
+;(11, 6);MoveWest;(7, 8);False;1;256
+;(11, 6);MoveWest;(7, 8);False;1;257
+;(11, 6);MoveWest;(7, 8);False;1;258
+;(11, 6);MoveWest;(7, 8);False;1;259
+;(11, 6);MoveWest;(7, 8);False;1;260
+;(11, 6);MoveWest;(6, 8);False;1;261
+;(11, 6);MoveWest;(6, 8);False;1;262
+;(11, 6);MoveWest;(6, 8);False;1;263
+;(11, 6);MoveWest;(6, 8);False;1;264
+;(11, 6);MoveWest;(6, 8);False;1;265
+;(11, 6);MoveWest;(6, 8);False;1;266
+;(11, 6);MoveWest;(6, 8);False;1;267
+;(11, 6);MoveWest;(6, 8);False;1;268
+;(11, 6);MoveWest;(6, 8);False;1;269
+;(11, 6);MoveWest;(6, 8);False;1;270
+;(11, 6);MoveWest;(6, 8);False;1;271
+;(11, 6);MoveWest;(5, 8);False;1;272
+;(11, 6);MoveNorthWest;(5, 8);False;1;273
+;(11, 6);MoveNorthWest;(5, 8);False;1;274
+;(11, 6);MoveNorthWest;(5, 8);False;1;275
+;(11, 6);MoveNorthWest;(5, 8);False;1;276
+;(11, 6);MoveNorthWest;(5, 8);False;1;277
+;(11, 6);MoveNorthWest;(5, 8);False;1;278
+;(11, 6);MoveNorthWest;(5, 8);False;1;279
+;(11, 6);MoveNorthWest;(5, 8);False;1;280
+;(11, 6);MoveNorthWest;(5, 8);False;1;281
+;(11, 6);MoveNorthWest;(5, 8);False;1;282
+;(11, 6);MoveNorthWest;(4, 7);False;1;283
+;(11, 6);MoveWest;(4, 7);False;1;284
+;(11, 6);MoveWest;(4, 7);False;1;285
+;(11, 6);MoveWest;(4, 7);False;1;286
+;(11, 6);MoveWest;(4, 7);False;1;287
+;(11, 6);MoveWest;(4, 7);False;1;288
+;(11, 6);MoveWest;(4, 7);False;1;289
+;(11, 6);MoveWest;(4, 7);False;1;290
+MoveEast;(12, 6);MoveWest;(4, 7);False;1;291
+;(12, 6);MoveWest;(4, 7);False;1;292
+;(12, 6);MoveWest;(4, 7);False;1;293
+;(12, 6);MoveWest;(3, 7);False;1;294
+MoveEast;(13, 6);MoveNorthWest;(3, 7);False;1;295
+;(13, 6);MoveNorthWest;(3, 7);False;1;296
+MoveEast;(14, 6);MoveNorthWest;(3, 7);False;1;297
+;(14, 6);MoveNorthWest;(3, 7);False;1;298
+;(14, 6);MoveNorthWest;(3, 7);False;1;299
+;(14, 6);MoveNorthWest;(3, 7);False;1;300
+;(14, 6);MoveNorthWest;(3, 7);False;1;301
+MoveEast;(15, 6);MoveNorthWest;(3, 7);False;1;302
+;(15, 6);MoveNorthWest;(3, 7);False;1;303
+;(15, 6);MoveNorthWest;(3, 7);False;1;304
+;(15, 6);MoveNorthWest;(2, 6);False;1;305
+;(15, 6);MoveWest;(2, 6);False;1;306
+MoveEast;(16, 6);MoveWest;(2, 6);False;1;307
+;(16, 6);MoveWest;(2, 6);False;1;308
+;(16, 6);MoveWest;(2, 6);False;1;309
+;(16, 6);MoveWest;(2, 6);False;1;310
+MoveEast;(17, 6);MoveWest;(2, 6);False;1;311
+;(17, 6);MoveWest;(2, 6);False;1;312
+;(17, 6);MoveWest;(2, 6);False;1;313
+;(17, 6);MoveWest;(2, 6);False;1;314
+;(17, 6);MoveWest;(2, 6);False;1;315
+;(17, 6);MoveWest;(1, 6);False;1;316
+;(17, 6);DropLargeObject;(1, 6);False;1;317
+;(17, 6);DropLargeObject;(1, 6);False;1;318
+;(17, 6);DropLargeObject;(1, 6);False;1;319
+;(17, 6);DropLargeObject;(1, 6);False;1;320
+;(17, 6);DropLargeObject;(1, 6);False;1;321
+;(17, 6);DropLargeObject;(1, 6);False;1;322
+;(17, 6);DropLargeObject;(1, 6);False;1;323
+;(17, 6);DropLargeObject;(1, 6);False;1;324
+;(17, 6);DropLargeObject;(1, 6);False;1;325
+;(17, 6);DropLargeObject;(1, 6);False;1;326
+;(17, 6);DropLargeObject;(1, 6);False;1;327
+;(17, 6);;(1, 6);False;1;328
+;(17, 6);MoveEast;(1, 6);False;1;329
+;(17, 6);MoveEast;(1, 6);False;1;330
+;(17, 6);MoveEast;(1, 6);False;1;331
+;(17, 6);MoveEast;(1, 6);False;1;332
+DropObject;(17, 6);MoveEast;(1, 6);False;1;333
+;(17, 6);MoveEast;(1, 6);False;1;334
+;(17, 6);MoveEast;(1, 6);False;1;335
+;(17, 6);MoveEast;(1, 6);False;1;336
+;(17, 6);MoveEast;(1, 6);False;1;337
+;(17, 6);MoveEast;(1, 6);False;1;338
+;(17, 6);MoveEast;(2, 6);False;1;339
+;(17, 6);MoveEast;(2, 6);False;1;340
+;(17, 6);MoveEast;(2, 6);False;1;341
+MoveWest;(16, 6);MoveEast;(2, 6);False;1;342
+;(16, 6);MoveEast;(2, 6);False;1;343
+;(16, 6);MoveEast;(2, 6);False;1;344
+MoveWest;(15, 6);MoveEast;(2, 6);False;1;345
+;(15, 6);MoveEast;(2, 6);False;1;346
+;(15, 6);MoveEast;(2, 6);False;1;347
+MoveWest;(14, 6);MoveEast;(2, 6);False;1;348
+;(14, 6);MoveEast;(2, 6);False;1;349
+;(14, 6);MoveEast;(3, 6);False;1;350
+MoveWest;(13, 6);MoveEast;(3, 6);False;1;351
+;(13, 6);MoveEast;(3, 6);False;1;352
+;(13, 6);MoveEast;(3, 6);False;1;353
+;(13, 6);MoveEast;(3, 6);False;1;354
+MoveWest;(12, 6);MoveEast;(3, 6);False;1;355
+MoveWest;(11, 6);MoveEast;(3, 6);False;1;356
+;(11, 6);MoveEast;(3, 6);False;1;357
+;(11, 6);MoveEast;(3, 6);False;1;358
+;(11, 6);MoveEast;(3, 6);False;1;359
+;(11, 6);MoveEast;(3, 6);False;1;360
+;(11, 6);MoveEast;(4, 6);False;1;361
+;(11, 6);MoveEast;(4, 6);False;1;362
+;(11, 6);MoveEast;(4, 6);False;1;363
+MoveSouth;(11, 7);MoveEast;(4, 6);False;1;364
+;(11, 7);MoveEast;(4, 6);False;1;365
+;(11, 7);MoveEast;(4, 6);False;1;366
+;(11, 7);MoveEast;(4, 6);False;1;367
+;(11, 7);MoveEast;(4, 6);False;1;368
+;(11, 7);MoveEast;(4, 6);False;1;369
+;(11, 7);MoveEast;(4, 6);False;1;370
+;(11, 7);MoveEast;(4, 6);False;1;371
+;(11, 7);MoveEast;(5, 6);False;1;372
+;(11, 7);MoveNorthEast;(5, 6);False;1;373
+GrabObject;(11, 7);MoveNorthEast;(5, 6);False;1;374
+;(11, 7);MoveNorthEast;(5, 6);False;1;375
+;(11, 7);MoveNorthEast;(5, 6);False;1;376
+MoveEast;(12, 7);MoveNorthEast;(5, 6);False;1;377
+;(12, 7);MoveNorthEast;(5, 6);False;1;378
+;(12, 7);MoveNorthEast;(5, 6);False;1;379
+MoveEast;(13, 7);MoveNorthEast;(5, 6);False;1;380
+;(13, 7);MoveNorthEast;(5, 6);False;1;381
+;(13, 7);MoveNorthEast;(5, 6);False;1;382
+MoveEast;(14, 7);MoveNorthEast;(6, 5);False;1;383
+;(14, 7);MoveEast;(6, 5);False;1;384
+MoveEast;(15, 7);MoveEast;(6, 5);False;1;385
+;(15, 7);MoveEast;(6, 5);False;1;386
+;(15, 7);MoveEast;(6, 5);False;1;387
+MoveEast;(16, 7);MoveEast;(6, 5);False;1;388
+;(16, 7);MoveEast;(6, 5);False;1;389
+;(16, 7);MoveEast;(6, 5);False;1;390
+MoveEast;(17, 7);MoveEast;(6, 5);False;1;391
+;(17, 7);MoveEast;(6, 5);False;1;392
+;(17, 7);MoveEast;(6, 5);False;1;393
+;(17, 7);MoveEast;(7, 5);False;1;394
+;(17, 7);MoveNorthEast;(7, 5);False;1;395
+;(17, 7);MoveNorthEast;(7, 5);False;1;396
+;(17, 7);MoveNorthEast;(7, 5);False;1;397
+;(17, 7);MoveNorthEast;(7, 5);False;1;398
+DropObject;(17, 7);MoveNorthEast;(7, 5);False;1;399
+;(17, 7);MoveNorthEast;(7, 5);False;1;400
+;(17, 7);MoveNorthEast;(7, 5);False;1;401
+;(17, 7);MoveNorthEast;(7, 5);False;1;402
+MoveWest;(16, 7);MoveNorthEast;(7, 5);False;1;403
+;(16, 7);MoveNorthEast;(7, 5);False;1;404
+MoveWest;(15, 7);MoveNorthEast;(8, 4);False;1;405
+;(15, 7);MoveEast;(8, 4);False;1;406
+;(15, 7);MoveEast;(8, 4);False;1;407
+MoveWest;(14, 7);MoveEast;(8, 4);False;1;408
+;(14, 7);MoveEast;(8, 4);False;1;409
+;(14, 7);MoveEast;(8, 4);False;1;410
+MoveWest;(13, 7);MoveEast;(8, 4);False;1;411
+;(13, 7);MoveEast;(8, 4);False;1;412
+;(13, 7);MoveEast;(8, 4);False;1;413
+;(13, 7);MoveEast;(8, 4);False;1;414
+;(13, 7);MoveEast;(8, 4);False;1;415
+;(13, 7);MoveEast;(9, 4);False;1;416
+;(13, 7);GrabObject;(9, 4);False;1;417
+MoveSouth;(13, 8);GrabObject;(9, 4);False;1;418
+;(13, 8);GrabObject;(9, 4);False;1;419
+;(13, 8);GrabObject;(9, 4);False;1;420
+;(13, 8);GrabObject;(9, 4);False;1;421
+;(13, 8);GrabObject;(9, 4);False;1;422
+;(13, 8);GrabObject;(9, 4);False;1;423
+;(13, 8);GrabObject;(9, 4);False;1;424
+;(13, 8);GrabObject;(9, 4);False;1;425
+;(13, 8);GrabObject;(9, 4);False;1;426
+;(13, 8);GrabObject;(9, 4);False;1;427
+;(13, 8);;(9, 4);False;1;428
+;(13, 8);MoveSouthWest;(9, 4);False;1;429
+GrabObject;(13, 8);MoveSouthWest;(9, 4);False;1;430
+;(13, 8);MoveSouthWest;(9, 4);False;1;431
+;(13, 8);MoveSouthWest;(9, 4);False;1;432
+;(13, 8);MoveSouthWest;(9, 4);False;1;433
+;(13, 8);MoveSouthWest;(9, 4);False;1;434
+MoveEast;(14, 8);MoveSouthWest;(9, 4);False;1;435
+;(14, 8);MoveSouthWest;(9, 4);False;1;436
+;(14, 8);MoveSouthWest;(9, 4);False;1;437
+MoveEast;(15, 8);MoveSouthWest;(9, 4);False;1;438
+;(15, 8);MoveSouthWest;(8, 5);False;1;439
+;(15, 8);GrabObject;(8, 5);False;1;440
+MoveEast;(16, 8);GrabObject;(8, 5);False;1;441
+;(16, 8);GrabObject;(8, 5);False;1;442
+MoveEast;(17, 8);GrabObject;(8, 5);False;1;443
+;(17, 8);GrabObject;(8, 5);False;1;444
+;(17, 8);GrabObject;(8, 5);False;1;445
+MoveEast;(18, 8);GrabObject;(8, 5);False;1;446
+;(18, 8);GrabObject;(8, 5);False;1;447
+;(18, 8);GrabObject;(8, 5);False;1;448
+;(18, 8);GrabObject;(8, 5);False;1;449
+;(18, 8);GrabObject;(8, 5);False;1;450
+DropObject;(18, 8);;(8, 5);False;1;451
+;(18, 8);MoveEast;(8, 5);False;1;452
+;(18, 8);MoveEast;(8, 5);False;1;453
+;(18, 8);MoveEast;(8, 5);False;1;454
+MoveWest;(17, 8);MoveEast;(8, 5);False;1;455
+;(17, 8);MoveEast;(8, 5);False;1;456
+MoveWest;(16, 8);MoveEast;(8, 5);False;1;457
+;(16, 8);MoveEast;(8, 5);False;1;458
+;(16, 8);MoveEast;(8, 5);False;1;459
+MoveWest;(15, 8);MoveEast;(8, 5);False;1;460
+;(15, 8);MoveEast;(8, 5);False;1;461
+;(15, 8);MoveEast;(9, 5);False;1;462
+MoveWest;(14, 8);GrabObject;(9, 5);False;1;463
+;(14, 8);GrabObject;(9, 5);False;1;464
+MoveWest;(13, 8);GrabObject;(9, 5);False;1;465
+;(13, 8);GrabObject;(9, 5);False;1;466
+;(13, 8);GrabObject;(9, 5);False;1;467
+MoveWest;(12, 8);GrabObject;(9, 5);False;1;468
+;(12, 8);GrabObject;(9, 5);False;1;469
+;(12, 8);GrabObject;(9, 5);False;1;470
+MoveWest;(11, 8);GrabObject;(9, 5);False;1;471
+;(11, 8);GrabObject;(9, 5);False;1;472
+;(11, 8);GrabObject;(9, 5);False;1;473
+;(11, 8);;(9, 5);False;1;474
+;(11, 8);MoveSouthEast;(9, 5);False;1;475
+;(11, 8);MoveSouthEast;(9, 5);False;1;476
+;(11, 8);MoveSouthEast;(9, 5);False;1;477
+;(11, 8);MoveSouthEast;(9, 5);False;1;478
+;(11, 8);MoveSouthEast;(9, 5);False;1;479
+;(11, 8);MoveSouthEast;(9, 5);False;1;480
+;(11, 8);MoveSouthEast;(9, 5);False;1;481
+;(11, 8);MoveSouthEast;(9, 5);False;1;482
+GrabObject;(11, 8);MoveSouthEast;(9, 5);False;1;483
+;(11, 8);MoveSouthEast;(9, 5);False;1;484
+;(11, 8);MoveSouthEast;(10, 6);False;1;485
+;(11, 8);MoveSouth;(10, 6);False;1;486
+;(11, 8);MoveSouth;(10, 6);False;1;487
+MoveEast;(12, 8);MoveSouth;(10, 6);False;1;488
+;(12, 8);MoveSouth;(10, 6);False;1;489
+MoveEast;(13, 8);MoveSouth;(10, 6);False;1;490
+;(13, 8);MoveSouth;(10, 6);False;1;491
+;(13, 8);MoveSouth;(10, 6);False;1;492
+MoveEast;(14, 8);MoveSouth;(10, 6);False;1;493
+;(14, 8);MoveSouth;(10, 6);False;1;494
+;(14, 8);MoveSouth;(10, 6);False;1;495
+MoveEast;(15, 8);MoveSouth;(10, 7);False;1;496
+;(15, 8);MoveSouthEast;(10, 7);False;1;497
+;(15, 8);MoveSouthEast;(10, 7);False;1;498
+MoveEast;(16, 8);MoveSouthEast;(10, 7);False;1;499
+;(16, 8);MoveSouthEast;(10, 7);False;1;500
+MoveEast;(17, 8);MoveSouthEast;(10, 7);False;1;501
+;(17, 8);MoveSouthEast;(10, 7);False;1;502
+;(17, 8);MoveSouthEast;(10, 7);False;1;503
+;(17, 8);MoveSouthEast;(10, 7);False;1;504
+;(17, 8);MoveSouthEast;(10, 7);False;1;505
+;(17, 8);MoveSouthEast;(10, 7);False;1;506
+;(17, 8);MoveSouthEast;(11, 8);False;1;507
+;(17, 8);Idle;(11, 8);False;1;508
+;(17, 8);Idle;(11, 8);False;1;509
+DropObject;(17, 8);Idle;(11, 8);False;1;510
+;(17, 8);Idle;(11, 8);False;1;511
+;(17, 8);Idle;(11, 8);False;1;512
+;(17, 8);Idle;(11, 8);False;1;513
+MoveWest;(16, 8);Idle;(11, 8);False;1;514
+;(16, 8);Idle;(11, 8);False;1;515
+;(16, 8);Idle;(11, 8);False;1;516
+MoveWest;(15, 8);Idle;(11, 8);False;1;517
+;(15, 8);Idle;(11, 8);False;1;518
+MoveWest;(14, 8);Idle;(11, 8);False;1;519
+;(14, 8);Idle;(11, 8);False;1;520
+;(14, 8);Idle;(11, 8);False;1;521
+;(14, 8);Idle;(11, 8);False;1;522
+MoveWest;(13, 8);Idle;(11, 8);False;1;523
+;(13, 8);Idle;(11, 8);False;1;524
+MoveWest;(12, 8);Idle;(11, 8);False;1;525
+;(12, 8);Idle;(11, 8);False;1;526
+;(12, 8);Idle;(11, 8);False;1;527
+MoveWest;(11, 8);Idle;(11, 8);False;1;528
+;(11, 8);Idle;(11, 8);False;1;529
+;(11, 8);Idle;(11, 8);False;1;530
+;(11, 8);Idle;(11, 8);False;1;531
+;(11, 8);Idle;(11, 8);False;1;532
+;(11, 8);Idle;(11, 8);False;1;533
+;(11, 8);Idle;(11, 8);False;1;534
+;(11, 8);Idle;(11, 8);False;1;535
+GrabObject;(11, 8);Idle;(11, 8);False;1;536
+;(11, 8);Idle;(11, 8);False;1;537
+;(11, 8);Idle;(11, 8);False;1;538
+;(11, 8);Idle;(11, 8);False;1;539
+;(11, 8);Idle;(11, 8);False;1;540
+;(11, 8);;(11, 8);False;1;541
+;(11, 8);;(11, 8);large rock robot ;1;542
+;(11, 8);;(11, 8);large rock robot ;1;543
+;(11, 8);MoveEast;(11, 8);large rock robot ;1;544
+;(11, 8);MoveEast;(11, 8);large rock robot ;1;545
+;(11, 8);MoveEast;(11, 8);large rock robot ;1;546
+MoveEast;(12, 8);MoveEast;(11, 8);large rock robot ;1;547
+;(12, 8);MoveEast;(11, 8);large rock robot ;1;548
+;(12, 8);MoveEast;(11, 8);large rock robot ;1;549
+MoveEast;(13, 8);MoveEast;(11, 8);large rock robot ;1;550
+;(13, 8);MoveEast;(11, 8);large rock robot ;1;551
+;(13, 8);MoveEast;(11, 8);large rock robot ;1;552
+MoveEast;(14, 8);MoveEast;(11, 8);large rock robot ;1;553
+;(14, 8);MoveEast;(12, 8);large rock robot ;1;554
+;(14, 8);MoveNorthEast;(12, 8);large rock robot ;1;555
+;(14, 8);MoveNorthEast;(12, 8);large rock robot ;1;556
+MoveEast;(15, 8);MoveNorthEast;(12, 8);large rock robot ;1;557
+;(15, 8);MoveNorthEast;(12, 8);large rock robot ;1;558
+MoveEast;(16, 8);MoveNorthEast;(12, 8);large rock robot ;1;559
+;(16, 8);MoveNorthEast;(12, 8);large rock robot ;1;560
+MoveEast;(17, 8);MoveNorthEast;(12, 8);large rock robot ;1;561
+;(17, 8);MoveNorthEast;(12, 8);large rock robot ;1;562
+;(17, 8);MoveNorthEast;(12, 8);large rock robot ;1;563
+;(17, 8);MoveNorthEast;(12, 8);large rock robot ;1;564
+;(17, 8);MoveNorthEast;(13, 7);large rock robot ;1;565
+;(17, 8);MoveEast;(13, 7);large rock robot ;1;566
+;(17, 8);MoveEast;(13, 7);large rock robot ;1;567
+;(17, 8);MoveEast;(13, 7);large rock robot ;1;568
+;(17, 8);MoveEast;(13, 7);large rock robot ;1;569
+;(17, 8);MoveEast;(13, 7);large rock robot ;1;570
+DropObject;(17, 8);MoveEast;(13, 7);large rock robot ;1;571
+;(17, 8);MoveEast;(13, 7);large rock robot ;1;572
+;(17, 8);MoveEast;(13, 7);large rock robot ;1;573
+;(17, 8);MoveEast;(13, 7);large rock robot ;1;574
+MoveWest;(16, 8);MoveEast;(13, 7);large rock robot ;1;575
+;(16, 8);MoveEast;(14, 7);large rock robot ;1;576
+;(16, 8);MoveNorthEast;(14, 7);large rock robot ;1;577
+;(16, 8);MoveNorthEast;(14, 7);large rock robot ;1;578
+;(16, 8);MoveNorthEast;(14, 7);large rock robot ;1;579
+MoveWest;(15, 8);MoveNorthEast;(14, 7);large rock robot ;1;580
+;(15, 8);MoveNorthEast;(14, 7);large rock robot ;1;581
+;(15, 8);MoveNorthEast;(14, 7);large rock robot ;1;582
+;(15, 8);MoveNorthEast;(14, 7);large rock robot ;1;583
+;(15, 8);MoveNorthEast;(14, 7);large rock robot ;1;584
+;(15, 8);MoveNorthEast;(14, 7);large rock robot ;1;585
+;(15, 8);MoveNorthEast;(14, 7);large rock robot ;1;586
+;(15, 8);MoveNorthEast;(15, 6);large rock robot ;1;587
+;(15, 8);MoveEast;(15, 6);large rock robot ;1;588
+;(15, 8);MoveEast;(15, 6);large rock robot ;1;589
+;(15, 8);MoveEast;(15, 6);large rock robot ;1;590
+;(15, 8);MoveEast;(15, 6);large rock robot ;1;591
+;(15, 8);MoveEast;(15, 6);large rock robot ;1;592
+MoveSouth;(15, 9);MoveEast;(15, 6);large rock robot ;1;593
+;(15, 9);MoveEast;(15, 6);large rock robot ;1;594
+;(15, 9);MoveEast;(15, 6);large rock robot ;1;595
+;(15, 9);MoveEast;(15, 6);large rock robot ;1;596
+;(15, 9);MoveEast;(15, 6);large rock robot ;1;597
+;(15, 9);MoveEast;(16, 6);large rock robot ;1;598
+;(15, 9);DropObject;(16, 6);large rock robot ;1;599
+MoveWest;(14, 9);DropObject;(16, 6);large rock robot ;1;600
+;(14, 9);DropObject;(16, 6);large rock robot ;1;601
+;(14, 9);DropObject;(16, 6);large rock robot ;1;602
+MoveWest;(13, 9);DropObject;(16, 6);large rock robot ;1;603
+;(13, 9);DropObject;(16, 6);large rock robot ;1;604
+;(13, 9);DropObject;(16, 6);large rock robot ;1;605
+MoveWest;(12, 9);DropObject;(16, 6);large rock robot ;1;606
+;(12, 9);DropObject;(16, 6);large rock robot ;1;607
+;(12, 9);DropObject;(16, 6);large rock robot ;1;608
+;(12, 9);DropObject;(16, 6);large rock robot ;1;609
+;(12, 9);DropObject;(16, 6);large rock robot ;1;610
+;(12, 9);DropObject;(16, 6);large rock robot ;1;611
+GrabObject;(12, 9);DropObject;(16, 6);large rock robot ;1;612
+;(12, 9);DropObject;(16, 6);large rock robot ;1;613
+;(12, 9);DropObject;(16, 6);large rock robot ;1;614
+;(12, 9);DropObject;(16, 6);large rock robot ;1;615
+;(12, 9);DropObject;(16, 6);large rock robot ;1;616
+;(12, 9);DropObject;(16, 6);large rock robot ;1;617
+;(12, 9);DropObject;(16, 6);large rock robot ;1;618
+;(12, 9);DropObject;(16, 6);large rock robot ;1;619
+;(12, 9);DropObject;(16, 6);large rock robot ;1;620
+;(12, 9);DropObject;(16, 6);large rock robot ;1;621
+;(12, 9);DropObject;(16, 6);large rock robot ;1;622
+;(12, 9);DropObject;(16, 6);large rock robot ;1;623
+;(12, 9);DropObject;(16, 6);large rock robot ;1;624
+;(12, 9);DropObject;(16, 6);large rock robot ;1;625
+;(12, 9);DropObject;(16, 6);large rock robot ;1;626
+;(12, 9);DropObject;(16, 6);large rock robot ;1;627
+MoveEast;(13, 9);DropObject;(16, 6);large rock robot ;1;628
+;(13, 9);DropObject;(16, 6);large rock robot ;1;629
+;(13, 9);DropObject;(16, 6);large rock robot ;1;630
+MoveEast;(14, 9);DropObject;(16, 6);large rock robot ;1;631
+;(14, 9);;(16, 6);large rock robot ;1;632
+;(14, 9);;(16, 6);large rock robot ;1;633
+MoveEast;(15, 9);;(16, 6);large rock robot ;1;634
+;(15, 9);;(16, 6);large rock robot ;1;635
+;(15, 9);;(16, 6);large rock robot ;1;636
+MoveEast;(16, 9);;(16, 6);large rock robot ;1;637
+;(16, 9);;(16, 6);large rock robot ;1;638
+MoveEast;(17, 9);;(16, 6);large rock robot ;1;639
+;(17, 9);;(16, 6);large rock robot ;1;640
+;(17, 9);;(16, 6);large rock robot ;1;641
+;(17, 9);;(16, 6);large rock robot ;1;642
+;(17, 9);;(16, 6);large rock robot ;1;643
+;(17, 9);;(16, 6);large rock robot ;1;644
+;(17, 9);;(16, 6);large rock robot ;1;645
+;(17, 9);;(16, 6);large rock robot ;1;646
+DropObject;(17, 9);;(16, 6);large rock robot ;1;647
+;(17, 9);;(16, 6);large rock robot ;1;648
+;(17, 9);;(16, 6);large rock robot ;1;649
+;(17, 9);;(16, 6);large rock robot ;1;650
+MoveWest;(16, 9);;(16, 6);large rock robot ;1;651
+;(16, 9);;(16, 6);large rock robot ;1;652
+;(16, 9);;(16, 6);large rock robot ;1;653
+MoveWest;(15, 9);;(16, 6);large rock robot ;1;654
+;(15, 9);;(16, 6);large rock robot ;1;655
+;(15, 9);;(16, 6);large rock robot ;1;656
+MoveWest;(14, 9);;(16, 6);large rock robot ;1;657
+;(14, 9);;(16, 6);large rock robot ;1;658
+MoveWest;(13, 9);;(16, 6);large rock robot ;1;659
+;(13, 9);;(16, 6);large rock robot ;1;660
+;(13, 9);;(16, 6);large rock robot ;1;661
+MoveWest;(12, 9);;(16, 6);large rock robot ;1;662
+;(12, 9);;(16, 6);large rock robot ;1;663
+;(12, 9);;(16, 6);large rock robot ;1;664
+MoveWest;(11, 9);;(16, 6);large rock robot ;1;665
+;(11, 9);;(16, 6);large rock robot ;1;666
+;(11, 9);;(16, 6);large rock robot ;1;667
+MoveWest;(10, 9);;(16, 6);large rock robot ;1;668
+;(10, 9);;(16, 6);large rock robot ;1;669
+;(10, 9);;(16, 6);large rock robot ;1;670
+;(10, 9);;(16, 6);large rock robot ;1;671
+;(10, 9);;(16, 6);large rock robot ;1;672
+;(10, 9);;(16, 6);large rock robot ;1;673
+;(10, 9);;(16, 6);large rock robot ;1;674
+;(10, 9);;(16, 6);large rock robot ;1;675
+;(10, 9);;(16, 6);large rock robot ;1;676
+;(10, 9);;(16, 6);large rock robot ;1;677
+;(10, 9);;(16, 6);large rock robot ;1;678
+;(10, 9);;(16, 6);large rock robot ;1;679
+;(10, 9);;(16, 6);large rock robot ;1;680
+GrabObject;(10, 9);;(16, 6);large rock robot ;1;681
+;(10, 9);;(16, 6);large rock robot ;1;682
+;(10, 9);;(16, 6);large rock robot ;1;683
+;(10, 9);;(16, 6);large rock robot ;1;684
+MoveEast;(11, 9);;(16, 6);large rock robot ;1;685
+;(11, 9);;(16, 6);large rock robot ;1;686
+;(11, 9);;(16, 6);large rock robot ;1;687
+MoveEast;(12, 9);;(16, 6);large rock robot ;1;688
+;(12, 9);;(16, 6);large rock robot ;1;689
+MoveEast;(13, 9);;(16, 6);large rock robot ;1;690
+;(13, 9);;(16, 6);large rock robot ;1;691
+;(13, 9);;(16, 6);large rock robot ;1;692
+MoveEast;(14, 9);;(16, 6);large rock robot ;1;693
+;(14, 9);;(16, 6);large rock robot ;1;694
+;(14, 9);;(16, 6);large rock robot ;1;695
+MoveEast;(15, 9);;(16, 6);large rock robot ;1;696
+;(15, 9);;(16, 6);large rock robot ;1;697
+MoveEast;(16, 9);;(16, 6);large rock robot ;1;698
+;(16, 9);;(16, 6);large rock robot ;1;699
+;(16, 9);;(16, 6);large rock robot ;1;700
+MoveEast;(17, 9);;(16, 6);large rock robot ;1;701
+;(17, 9);;(16, 6);large rock robot ;1;702
+;(17, 9);;(16, 6);large rock robot ;1;703
+MoveEast;(18, 9);;(16, 6);large rock robot ;1;704
+;(18, 9);;(16, 6);large rock robot ;1;705
+;(18, 9);;(16, 6);large rock robot ;1;706
+;(18, 9);;(16, 6);large rock robot ;1;707
+;(18, 9);;(16, 6);large rock robot ;1;708
+;(18, 9);;(16, 6);large rock robot ;1;709
+;(18, 9);;(16, 6);large rock robot ;1;710
+;(18, 9);;(16, 6);large rock robot ;1;711
+;(18, 9);;(16, 6);large rock robot ;1;712
+DropObject;(18, 9);;(16, 6);large rock robot ;1;713
+;(18, 9);;(16, 6);large rock robot ;1;714
+;(18, 9);;(16, 6);large rock robot ;1;715
+MoveWest;(17, 9);;(16, 6);large rock robot ;1;716
+;(17, 9);;(16, 6);large rock robot ;1;717
+;(17, 9);;(16, 6);large rock robot ;1;718
+MoveWest;(16, 9);;(16, 6);large rock robot ;1;719
+;(16, 9);;(16, 6);large rock robot ;1;720
+;(16, 9);;(16, 6);large rock robot ;1;721
+MoveWest;(15, 9);;(16, 6);large rock robot ;1;722
+;(15, 9);;(16, 6);large rock robot ;1;723
+;(15, 9);;(16, 6);large rock robot ;1;724
+MoveWest;(14, 9);;(16, 6);large rock robot ;1;725
+;(14, 9);;(16, 6);large rock robot ;1;726
+MoveWest;(13, 9);;(16, 6);large rock robot ;1;727
+;(13, 9);;(16, 6);large rock robot ;1;728
+;(13, 9);;(16, 6);large rock robot ;1;729
+MoveWest;(12, 9);;(16, 6);large rock robot ;1;730
+;(12, 9);;(16, 6);large rock robot ;1;731
+;(12, 9);;(16, 6);large rock robot ;1;732
+MoveWest;(11, 9);;(16, 6);large rock robot ;1;733
+;(11, 9);;(16, 6);large rock robot ;1;734
+;(11, 9);;(16, 6);large rock robot ;1;735
+MoveWest;(10, 9);;(16, 6);large rock robot ;1;736
+;(10, 9);;(16, 6);large rock robot ;1;737
+;(10, 9);;(16, 6);large rock robot ;1;738
+;(10, 9);;(16, 6);large rock robot ;1;739
+;(10, 9);;(16, 6);large rock robot ;1;740
+;(10, 9);;(16, 6);large rock robot ;1;741
+;(10, 9);;(16, 6);large rock robot ;1;742
+MoveSouth;(10, 10);;(16, 6);large rock robot ;1;743
+;(10, 10);;(16, 6);large rock robot ;1;744
+;(10, 10);;(16, 6);large rock robot ;1;745
+;(10, 10);;(16, 6);large rock robot ;1;746
+;(10, 10);;(16, 6);large rock robot ;1;747
+;(10, 10);;(16, 6);large rock robot ;1;748
+;(10, 10);;(16, 6);large rock robot ;1;749
+;(10, 10);;(16, 6);large rock robot ;1;750
+;(10, 10);;(16, 6);large rock robot ;1;751
+GrabObject;(10, 10);;(16, 6);large rock robot ;1;752
+;(10, 10);;(16, 6);large rock robot ;1;753
+;(10, 10);;(16, 6);large rock robot ;1;754
+;(10, 10);;(16, 6);large rock robot ;1;755
+MoveEast;(11, 10);;(16, 6);large rock robot ;1;756
+;(11, 10);;(16, 6);large rock robot ;1;757
+;(11, 10);;(16, 6);large rock robot ;1;758
+;(11, 10);;(16, 6);large rock robot ;1;759
+MoveEast;(12, 10);;(16, 6);large rock robot ;1;760
+MoveEast;(13, 10);;(16, 6);large rock robot ;1;761
+;(13, 10);;(16, 6);large rock robot ;1;762
+;(13, 10);;(16, 6);large rock robot ;1;763
+MoveEast;(14, 10);;(16, 6);large rock robot ;1;764
+;(14, 10);;(16, 6);large rock robot ;1;765
+;(14, 10);;(16, 6);large rock robot ;1;766
+MoveEast;(15, 10);;(16, 6);large rock robot ;1;767
+;(15, 10);;(16, 6);large rock robot ;1;768
+MoveEast;(16, 10);;(16, 6);large rock robot ;1;769
+;(16, 10);;(16, 6);large rock robot ;1;770
+;(16, 10);;(16, 6);large rock robot ;1;771
+MoveEast;(17, 10);;(16, 6);large rock robot ;1;772
+;(17, 10);;(16, 6);large rock robot ;1;773
+;(17, 10);;(16, 6);large rock robot ;1;774
+;(17, 10);;(16, 6);large rock robot ;1;775
+;(17, 10);;(16, 6);large rock robot ;1;776
+;(17, 10);;(16, 6);large rock robot ;1;777
+;(17, 10);;(16, 6);large rock robot ;1;778
+;(17, 10);;(16, 6);large rock robot ;1;779
+;(17, 10);;(16, 6);large rock robot ;1;780
+DropObject;(17, 10);;(16, 6);large rock robot ;1;781
+;(17, 10);;(16, 6);large rock robot ;1;782
+;(17, 10);;(16, 6);large rock robot ;1;783
+;(17, 10);;(16, 6);large rock robot ;1;784
+MoveWest;(16, 10);;(16, 6);large rock robot ;1;785
+;(16, 10);;(16, 6);large rock robot ;1;786
+;(16, 10);;(16, 6);large rock robot ;1;787
+MoveWest;(15, 10);;(16, 6);large rock robot ;1;788
+;(15, 10);;(16, 6);large rock robot ;1;789
+;(15, 10);;(16, 6);large rock robot ;1;790
+MoveWest;(14, 10);;(16, 6);large rock robot ;1;791
+;(14, 10);;(16, 6);large rock robot ;1;792
+;(14, 10);;(16, 6);large rock robot ;1;793
+MoveWest;(13, 10);;(16, 6);large rock robot ;1;794
+;(13, 10);;(16, 6);large rock robot ;1;795
+;(13, 10);;(16, 6);large rock robot ;1;796
+;(13, 10);;(16, 6);large rock robot ;1;797
+;(13, 10);;(16, 6);large rock robot ;1;798
+;(13, 10);;(16, 6);large rock robot ;1;799
+;(13, 10);;(16, 6);large rock robot ;1;800
+;(13, 10);;(16, 6);large rock robot ;1;801
+;(13, 10);;(16, 6);large rock robot ;1;802
+GrabObject;(13, 10);;(16, 6);large rock robot ;1;803
+;(13, 10);;(16, 6);large rock robot ;1;804
+;(13, 10);;(16, 6);large rock robot ;1;805
+;(13, 10);;(16, 6);large rock robot ;1;806
+MoveEast;(14, 10);;(16, 6);large rock robot ;1;807
+;(14, 10);;(16, 6);large rock robot ;1;808
+;(14, 10);;(16, 6);large rock robot ;1;809
+MoveEast;(15, 10);;(16, 6);large rock robot ;1;810
+;(15, 10);;(16, 6);large rock robot ;1;811
+;(15, 10);;(16, 6);large rock robot ;1;812
+MoveEast;(16, 10);;(16, 6);large rock robot ;1;813
+;(16, 10);;(16, 6);large rock robot ;1;814
+MoveEast;(17, 10);;(16, 6);large rock robot ;1;815
+;(17, 10);;(16, 6);large rock robot ;1;816
+;(17, 10);;(16, 6);large rock robot ;1;817
+;(17, 10);;(16, 6);large rock robot ;1;818
+MoveEast;(18, 10);;(16, 6);large rock robot ;1;819
+;(18, 10);;(16, 6);large rock robot ;1;820
+;(18, 10);;(16, 6);large rock robot ;1;821
+;(18, 10);;(16, 6);large rock robot ;1;822
+;(18, 10);;(16, 6);large rock robot ;1;823
+;(18, 10);;(16, 6);large rock robot ;1;824
+;(18, 10);;(16, 6);large rock robot ;1;825
+;(18, 10);;(16, 6);large rock robot ;1;826
+;(18, 10);;(16, 6);large rock robot ;1;827
+DropObject;(18, 10);;(16, 6);large rock robot ;1;828
+;(18, 10);;(16, 6);large rock robot ;1;829
+;(18, 10);;(16, 6);large rock robot ;1;830
+;(18, 10);;(16, 6);large rock robot ;1;831
+;(18, 10);;(16, 6);large rock robot ;1;832
+;(18, 10);;(16, 6);large rock robot ;1;833
+;(18, 10);;(16, 6);large rock robot ;1;834
+;(18, 10);;(16, 6);large rock robot ;1;835
+;(18, 10);;(16, 6);large rock robot ;1;836
+;(18, 10);;(16, 6);large rock robot ;1;837
+;(18, 10);;(16, 6);large rock robot ;1;838
+;(18, 10);;(16, 6);large rock robot ;1;839
+;(18, 10);;(16, 6);large rock robot ;1;840
+;(18, 10);;(16, 6);large rock robot ;1;841
+;(18, 10);;(16, 6);large rock robot ;1;842
+;(18, 10);;(16, 6);large rock robot ;1;843
+;(18, 10);;(16, 6);large rock robot ;1;844
+;(18, 10);;(16, 6);large rock robot ;1;845
+;(18, 10);;(16, 6);large rock robot ;1;846
+;(18, 10);;(16, 6);large rock robot ;1;847
+;(18, 10);;(16, 6);large rock robot ;1;848
+;(18, 10);;(16, 6);large rock robot ;1;849
+;(18, 10);;(16, 6);large rock robot ;1;850
+;(18, 10);;(16, 6);large rock robot ;1;851
+;(18, 10);;(16, 6);large rock robot ;1;852
+;(18, 10);;(16, 6);large rock robot ;1;853
+;(18, 10);;(16, 6);large rock robot ;1;854
+;(18, 10);;(16, 6);large rock robot ;1;855
+;(18, 10);;(16, 6);large rock robot ;1;856
+;(18, 10);;(16, 6);large rock robot ;1;857
+;(18, 10);;(16, 6);large rock robot ;1;858
+;(18, 10);;(16, 6);large rock robot ;1;859
+;(18, 10);;(16, 6);large rock robot ;1;860
+;(18, 10);;(16, 6);large rock robot ;1;861
+;(18, 10);;(16, 6);large rock robot ;1;862
+;(18, 10);;(16, 6);large rock robot ;1;863
+;(18, 10);;(16, 6);large rock robot ;1;864
+;(18, 10);;(16, 6);large rock robot ;1;865
+;(18, 10);;(16, 6);large rock robot ;1;866
+;(18, 10);;(16, 6);large rock robot ;1;867
+;(18, 10);;(16, 6);large rock robot ;1;868
+;(18, 10);;(16, 6);large rock robot ;1;869
+;(18, 10);;(16, 6);large rock robot ;1;870
+;(18, 10);;(16, 6);large rock robot ;1;871
+;(18, 10);;(16, 6);large rock robot ;1;872
+;(18, 10);;(16, 6);large rock robot ;1;873
+;(18, 10);;(16, 6);large rock robot ;1;874
+;(18, 10);;(16, 6);large rock robot ;1;875
+;(18, 10);;(16, 6);large rock robot ;1;876
+;(18, 10);;(16, 6);large rock robot ;1;877
+;(18, 10);;(16, 6);large rock robot ;1;878
+;(18, 10);;(16, 6);large rock robot ;1;879
+;(18, 10);;(16, 6);large rock robot ;1;880
+;(18, 10);;(16, 6);large rock robot ;1;881
+;(18, 10);;(16, 6);large rock robot ;1;882
+;(18, 10);;(16, 6);large rock robot ;1;883
+;(18, 10);;(16, 6);large rock robot ;1;884
+;(18, 10);;(16, 6);large rock robot ;1;885
+;(18, 10);;(16, 6);large rock robot ;1;886
+;(18, 10);;(16, 6);large rock robot ;1;887
+;(18, 10);;(16, 6);large rock robot ;1;888
+;(18, 10);;(16, 6);large rock robot ;1;889
+;(18, 10);;(16, 6);large rock robot ;1;890
+;(18, 10);;(16, 6);large rock robot ;1;891
+;(18, 10);;(16, 6);large rock robot ;1;892
+MoveWest;(17, 10);;(16, 6);large rock robot ;1;893
+;(17, 10);;(16, 6);large rock robot ;1;894
+MoveWest;(16, 10);;(16, 6);large rock robot ;1;895
+;(16, 10);;(16, 6);large rock robot ;1;896
+;(16, 10);;(16, 6);large rock robot ;1;897
+;(16, 10);;(16, 6);large rock robot ;1;898
+;(16, 10);;(16, 6);large rock robot ;1;899
+;(16, 10);;(16, 6);large rock robot ;1;900
+;(16, 10);;(16, 6);large rock robot ;1;901
+;(16, 10);;(16, 6);large rock robot ;1;902
+;(16, 10);;(16, 6);large rock robot ;1;903
+;(16, 10);;(16, 6);large rock robot ;1;904
+MoveWest;(15, 10);;(16, 6);large rock robot ;1;905
+;(15, 10);;(16, 6);large rock robot ;1;906
+;(15, 10);;(16, 6);large rock robot ;1;907
+;(15, 10);;(16, 6);large rock robot ;1;908
+MoveWest;(14, 10);;(16, 6);large rock robot ;1;909
+;(14, 10);;(16, 6);large rock robot ;1;910
+;(14, 10);;(16, 6);large rock robot ;1;911
+MoveWest;(13, 10);;(16, 6);large rock robot ;1;912
+;(13, 10);;(16, 6);large rock robot ;1;913
+MoveWest;(12, 10);;(16, 6);large rock robot ;1;914
+;(12, 10);;(16, 6);large rock robot ;1;915
+;(12, 10);;(16, 6);large rock robot ;1;916
+MoveWest;(11, 10);;(16, 6);large rock robot ;1;917
+;(11, 10);;(16, 6);large rock robot ;1;918
+MoveWest;(10, 10);;(16, 6);large rock robot ;1;919
+;(10, 10);;(16, 6);large rock robot ;1;920
+;(10, 10);;(16, 6);large rock robot ;1;921
+MoveWest;(9, 10);;(16, 6);large rock robot ;1;922
+;(9, 10);;(16, 6);large rock robot ;1;923
+MoveWest;(8, 10);;(16, 6);large rock robot ;1;924
+;(8, 10);;(16, 6);large rock robot ;1;925
+;(8, 10);;(16, 6);large rock robot ;1;926
+MoveWest;(7, 10);;(16, 6);large rock robot ;1;927
+;(7, 10);;(16, 6);large rock robot ;1;928
+;(7, 10);;(16, 6);large rock robot ;1;929
+MoveWest;(6, 10);;(16, 6);large rock robot ;1;930
+;(6, 10);;(16, 6);large rock robot ;1;931
+;(6, 10);;(16, 6);large rock robot ;1;932
+;(6, 10);;(16, 6);large rock robot ;1;933
+;(6, 10);;(16, 6);large rock robot ;1;934
+;(6, 10);;(16, 6);large rock robot ;1;935
+;(6, 10);;(16, 6);large rock robot ;1;936
+;(6, 10);;(16, 6);large rock robot ;1;937
+MoveNorth;(6, 9);;(16, 6);large rock robot ;1;938
+;(6, 9);;(16, 6);large rock robot ;1;939
+;(6, 9);;(16, 6);large rock robot ;1;940
+MoveNorth;(6, 8);;(16, 6);large rock robot ;1;941
+;(6, 8);;(16, 6);large rock robot ;1;942
+;(6, 8);;(16, 6);large rock robot ;1;943
+MoveNorth;(6, 7);;(16, 6);large rock robot ;1;944
+;(6, 7);;(16, 6);large rock robot ;1;945
+;(6, 7);;(16, 6);large rock robot ;1;946
+;(6, 7);;(16, 6);large rock robot ;1;947
+;(6, 7);;(16, 6);large rock robot ;1;948
+;(6, 7);;(16, 6);large rock robot ;1;949
+;(6, 7);;(16, 6);large rock robot ;1;950
+;(6, 7);;(16, 6);large rock robot ;1;951
+MoveEast;(7, 7);;(16, 6);large rock robot ;1;952
+;(7, 7);;(16, 6);large rock robot ;1;953
+;(7, 7);;(16, 6);large rock robot ;1;954
+;(7, 7);;(16, 6);large rock robot ;1;955
+;(7, 7);;(16, 6);large rock robot ;1;956
+;(7, 7);;(16, 6);large rock robot ;1;957
+;(7, 7);;(16, 6);large rock robot ;1;958
+;(7, 7);;(16, 6);large rock robot ;1;959
+;(7, 7);;(16, 6);large rock robot ;1;960
+;(7, 7);;(16, 6);large rock robot ;1;961
+;(7, 7);;(16, 6);large rock robot ;1;962
+;(7, 7);;(16, 6);large rock robot ;1;963
+;(7, 7);;(16, 6);large rock robot ;1;964
+GrabObject;(7, 7);;(16, 6);large rock robot ;1;965
+;(7, 7);;(16, 6);large rock robot ;1;966
+;(7, 7);;(16, 6);large rock robot ;1;967
+;(7, 7);;(16, 6);large rock robot ;1;968
+MoveWest;(6, 7);;(16, 6);large rock robot ;1;969
+;(6, 7);;(16, 6);large rock robot ;1;970
+MoveWest;(5, 7);;(16, 6);large rock robot ;1;971
+;(5, 7);;(16, 6);large rock robot ;1;972
+;(5, 7);;(16, 6);large rock robot ;1;973
+MoveWest;(4, 7);;(16, 6);large rock robot ;1;974
+;(4, 7);;(16, 6);large rock robot ;1;975
+;(4, 7);;(16, 6);large rock robot ;1;976
+MoveWest;(3, 7);;(16, 6);large rock robot ;1;977
+;(3, 7);;(16, 6);large rock robot ;1;978
+;(3, 7);;(16, 6);large rock robot ;1;979
+MoveWest;(2, 7);;(16, 6);large rock robot ;1;980
+;(2, 7);;(16, 6);large rock robot ;1;981
+;(2, 7);;(16, 6);large rock robot ;1;982
+MoveWest;(1, 7);;(16, 6);large rock robot ;1;983
+;(1, 7);;(16, 6);large rock robot ;1;984
+;(1, 7);;(16, 6);large rock robot ;1;985
+;(1, 7);;(16, 6);large rock robot ;1;986
+;(1, 7);;(16, 6);large rock robot ;1;987
+;(1, 7);;(16, 6);large rock robot ;1;988
+;(1, 7);;(16, 6);large rock robot ;1;989
+;(1, 7);;(16, 6);large rock robot ;1;990
+;(1, 7);;(16, 6);large rock robot ;1;991
+;(1, 7);;(16, 6);large rock robot ;1;992
+;(1, 7);;(16, 6);large rock robot ;1;993
+DropObject;(1, 7);;(16, 6);large rock robot ;1;994
+;(1, 7);;(16, 6);large rock robot ;1;995
+MoveEast;(2, 7);;(16, 6);large rock robot ;1;996
+;(2, 7);;(16, 6);large rock robot ;1;997
+;(2, 7);;(16, 6);large rock robot ;1;998
+MoveEast;(3, 7);;(16, 6);large rock robot ;1;999
+;(3, 7);;(16, 6);large rock robot ;1;1000
+;(3, 7);;(16, 6);large rock robot ;1;1001
+MoveEast;(4, 7);;(16, 6);large rock robot ;1;1002
+;(4, 7);;(16, 6);large rock robot ;1;1003
+;(4, 7);;(16, 6);large rock robot ;1;1004
+MoveEast;(5, 7);;(16, 6);large rock robot ;1;1005
+;(5, 7);;(16, 6);large rock robot ;1;1006
+;(5, 7);;(16, 6);large rock robot ;1;1007
+MoveEast;(6, 7);;(16, 6);large rock robot ;1;1008
+;(6, 7);;(16, 6);large rock robot ;1;1009
+;(6, 7);;(16, 6);large rock robot ;1;1010
+MoveEast;(7, 7);;(16, 6);large rock robot ;1;1011
+;(7, 7);;(16, 6);large rock robot ;1;1012
+;(7, 7);;(16, 6);large rock robot ;1;1013
+;(7, 7);;(16, 6);large rock robot ;1;1014
+;(7, 7);;(16, 6);large rock robot ;1;1015
+;(7, 7);;(16, 6);large rock robot ;1;1016
+;(7, 7);;(16, 6);large rock robot ;1;1017
+MoveSouth;(7, 8);;(16, 6);large rock robot ;1;1018
+;(7, 8);;(16, 6);large rock robot ;1;1019
+;(7, 8);;(16, 6);large rock robot ;1;1020
+;(7, 8);;(16, 6);large rock robot ;1;1021
+;(7, 8);;(16, 6);large rock robot ;1;1022
+;(7, 8);;(16, 6);large rock robot ;1;1023
+;(7, 8);;(16, 6);large rock robot ;1;1024
+;(7, 8);;(16, 6);large rock robot ;1;1025
+;(7, 8);;(16, 6);large rock robot ;1;1026
+;(7, 8);;(16, 6);large rock robot ;1;1027
+;(7, 8);;(16, 6);large rock robot ;1;1028
+;(7, 8);;(16, 6);large rock robot ;1;1029
+GrabObject;(7, 8);;(16, 6);large rock robot ;1;1030
+;(7, 8);;(16, 6);large rock robot ;1;1031
+;(7, 8);;(16, 6);large rock robot ;1;1032
+;(7, 8);;(16, 6);large rock robot ;1;1033
+MoveWest;(6, 8);;(16, 6);large rock robot ;1;1034
+;(6, 8);;(16, 6);large rock robot ;1;1035
+;(6, 8);;(16, 6);large rock robot ;1;1036
+MoveWest;(5, 8);;(16, 6);large rock robot ;1;1037
+;(5, 8);;(16, 6);large rock robot ;1;1038
+;(5, 8);;(16, 6);large rock robot ;1;1039
+MoveWest;(4, 8);;(16, 6);large rock robot ;1;1040
+;(4, 8);;(16, 6);large rock robot ;1;1041
+;(4, 8);;(16, 6);large rock robot ;1;1042
+MoveWest;(3, 8);;(16, 6);large rock robot ;1;1043
+;(3, 8);;(16, 6);large rock robot ;1;1044
+;(3, 8);;(16, 6);large rock robot ;1;1045
+MoveWest;(2, 8);;(16, 6);large rock robot ;1;1046
+;(2, 8);;(16, 6);large rock robot ;1;1047
+MoveWest;(1, 8);;(16, 6);large rock robot ;1;1048
+;(1, 8);;(16, 6);large rock robot ;1;1049
+;(1, 8);;(16, 6);large rock robot ;1;1050
+;(1, 8);;(16, 6);large rock robot ;1;1051
+;(1, 8);;(16, 6);large rock robot ;1;1052
+;(1, 8);;(16, 6);large rock robot ;1;1053
+;(1, 8);;(16, 6);large rock robot ;1;1054
+;(1, 8);;(16, 6);large rock robot ;1;1055
+;(1, 8);;(16, 6);large rock robot ;1;1056
+;(1, 8);;(16, 6);large rock robot ;1;1057
+;(1, 8);;(16, 6);large rock robot ;1;1058
+;(1, 8);;(16, 6);large rock robot ;1;1059
+DropObject;(1, 8);;(16, 6);large rock robot ;1;1060
+;(1, 8);;(16, 6);large rock robot ;1;1061
+;(1, 8);;(16, 6);large rock robot ;1;1062
+;(1, 8);;(16, 6);large rock robot ;1;1063
+;(1, 8);;(16, 6);large rock robot ;1;1064
+MoveEast;(2, 8);;(16, 6);large rock robot ;1;1065
+;(2, 8);;(16, 6);large rock robot ;1;1066
+MoveEast;(3, 8);;(16, 6);large rock robot ;1;1067
+;(3, 8);;(16, 6);large rock robot ;1;1068
+;(3, 8);;(16, 6);large rock robot ;1;1069
+MoveEast;(4, 8);;(16, 6);large rock robot ;1;1070
+;(4, 8);;(16, 6);large rock robot ;1;1071
+;(4, 8);;(16, 6);large rock robot ;1;1072
+MoveEast;(5, 8);;(16, 6);large rock robot ;1;1073
+;(5, 8);;(16, 6);large rock robot ;1;1074
+;(5, 8);;(16, 6);large rock robot ;1;1075
+MoveEast;(6, 8);;(16, 6);large rock robot ;1;1076
+;(6, 8);;(16, 6);large rock robot ;1;1077
+;(6, 8);;(16, 6);large rock robot ;1;1078
+MoveEast;(7, 8);;(16, 6);large rock robot ;1;1079
+;(7, 8);;(16, 6);large rock robot ;1;1080
+;(7, 8);;(16, 6);large rock robot ;1;1081
+;(7, 8);;(16, 6);large rock robot ;1;1082
+;(7, 8);;(16, 6);large rock robot ;1;1083
+;(7, 8);;(16, 6);large rock robot ;1;1084
+;(7, 8);;(16, 6);large rock robot ;1;1085
+;(7, 8);;(16, 6);large rock robot ;1;1086
+;(7, 8);;(16, 6);large rock robot ;1;1087
+;(7, 8);;(16, 6);large rock robot ;1;1088
+;(7, 8);;(16, 6);large rock robot ;1;1089
+;(7, 8);;(16, 6);large rock robot ;1;1090
+;(7, 8);;(16, 6);large rock robot ;1;1091
+;(7, 8);;(16, 6);large rock robot ;1;1092
+MoveSouth;(7, 9);;(16, 6);large rock robot ;1;1093
+;(7, 9);;(16, 6);large rock robot ;1;1094
+;(7, 9);;(16, 6);large rock robot ;1;1095
+;(7, 9);;(16, 6);large rock robot ;1;1096
+;(7, 9);;(16, 6);large rock robot ;1;1097
+;(7, 9);;(16, 6);large rock robot ;1;1098
+;(7, 9);;(16, 6);large rock robot ;1;1099
+;(7, 9);;(16, 6);large rock robot ;1;1100
+;(7, 9);;(16, 6);large rock robot ;1;1101
+GrabObject;(7, 9);;(16, 6);large rock robot ;1;1102
+;(7, 9);;(16, 6);large rock robot ;1;1103
+;(7, 9);;(16, 6);large rock robot ;1;1104
+MoveWest;(6, 9);;(16, 6);large rock robot ;1;1105
+;(6, 9);;(16, 6);large rock robot ;1;1106
+;(6, 9);;(16, 6);large rock robot ;1;1107
+MoveWest;(5, 9);;(16, 6);large rock robot ;1;1108
+;(5, 9);;(16, 6);large rock robot ;1;1109
+;(5, 9);;(16, 6);large rock robot ;1;1110
+MoveWest;(4, 9);;(16, 6);large rock robot ;1;1111
+;(4, 9);;(16, 6);large rock robot ;1;1112
+;(4, 9);;(16, 6);large rock robot ;1;1113
+MoveWest;(3, 9);;(16, 6);large rock robot ;1;1114
+;(3, 9);;(16, 6);large rock robot ;1;1115
+;(3, 9);;(16, 6);large rock robot ;1;1116
+MoveWest;(2, 9);;(16, 6);large rock robot ;1;1117
+;(2, 9);;(16, 6);large rock robot ;1;1118
+;(2, 9);;(16, 6);large rock robot ;1;1119
+;(2, 9);;(16, 6);large rock robot ;1;1120
+;(2, 9);;(16, 6);large rock robot ;1;1121
+;(2, 9);;(16, 6);large rock robot ;1;1122
+;(2, 9);;(16, 6);large rock robot ;1;1123
+;(2, 9);;(16, 6);large rock robot ;1;1124
+;(2, 9);;(16, 6);large rock robot ;1;1125
+;(2, 9);;(16, 6);large rock robot ;1;1126
+;(2, 9);;(16, 6);large rock robot ;1;1127
+;(2, 9);;(16, 6);large rock robot ;1;1128
+;(2, 9);;(16, 6);large rock robot ;1;1129
+;(2, 9);;(16, 6);large rock robot ;1;1130
+;(2, 9);;(16, 6);large rock robot ;1;1131
+DropObject;(2, 9);;(16, 6);large rock robot ;1;1132
+;(2, 9);;(16, 6);large rock robot ;1;1133
+;(2, 9);;(16, 6);large rock robot ;1;1134
+;(2, 9);;(16, 6);large rock robot ;1;1135
+MoveEast;(3, 9);;(16, 6);large rock robot ;1;1136
+;(3, 9);;(16, 6);large rock robot ;1;1137
+;(3, 9);;(16, 6);large rock robot ;1;1138
+MoveEast;(4, 9);;(16, 6);large rock robot ;1;1139
+;(4, 9);;(16, 6);large rock robot ;1;1140
+;(4, 9);;(16, 6);large rock robot ;1;1141
+;(4, 9);;(16, 6);large rock robot ;1;1142
+;(4, 9);;(16, 6);large rock robot ;1;1143
+;(4, 9);;(16, 6);large rock robot ;1;1144
+MoveEast;(5, 9);;(16, 6);large rock robot ;1;1145
+;(5, 9);;(16, 6);large rock robot ;1;1146
+;(5, 9);;(16, 6);large rock robot ;1;1147
+;(5, 9);;(16, 6);large rock robot ;1;1148
+;(5, 9);;(16, 6);large rock robot ;1;1149
+;(5, 9);;(16, 6);large rock robot ;1;1150
+;(5, 9);;(16, 6);large rock robot ;1;1151
+;(5, 9);;(16, 6);large rock robot ;1;1152
+;(5, 9);;(16, 6);large rock robot ;1;1153
+;(5, 9);;(16, 6);large rock robot ;1;1154
+MoveEast;(6, 9);;(16, 6);large rock robot ;1;1155
+;(6, 9);;(16, 6);large rock robot ;1;1156
+;(6, 9);;(16, 6);large rock robot ;1;1157
+;(6, 9);;(16, 6);large rock robot ;1;1158
+;(6, 9);;(16, 6);large rock robot ;1;1159
+;(6, 9);;(16, 6);large rock robot ;1;1160
+;(6, 9);;(16, 6);large rock robot ;1;1161
+;(6, 9);;(16, 6);large rock robot ;1;1162
+;(6, 9);;(16, 6);large rock robot ;1;1163
+;(6, 9);;(16, 6);large rock robot ;1;1164
+;(6, 9);;(16, 6);large rock robot ;1;1165
+;(6, 9);;(16, 6);large rock robot ;1;1166
+;(6, 9);;(16, 6);large rock robot ;1;1167
+;(6, 9);;(16, 6);large rock robot ;1;1168
+;(6, 9);;(16, 6);large rock robot ;1;1169
+;(6, 9);;(16, 6);large rock robot ;1;1170
+;(6, 9);;(16, 6);large rock robot ;1;1171
+;(6, 9);;(16, 6);large rock robot ;1;1172
+;(6, 9);;(16, 6);large rock robot ;1;1173
+;(6, 9);;(16, 6);large rock robot ;1;1174
+;(6, 9);;(16, 6);large rock robot ;1;1175
+;(6, 9);;(16, 6);large rock robot ;1;1176
+;(6, 9);;(16, 6);large rock robot ;1;1177
+;(6, 9);;(16, 6);large rock robot ;1;1178
+;(6, 9);;(16, 6);large rock robot ;1;1179
+;(6, 9);;(16, 6);large rock robot ;1;1180
+;(6, 9);;(16, 6);large rock robot ;1;1181
+;(6, 9);;(16, 6);large rock robot ;1;1182
+;(6, 9);;(16, 6);large rock robot ;1;1183
+;(6, 9);;(16, 6);large rock robot ;1;1184
+;(6, 9);;(16, 6);large rock robot ;1;1185
+;(6, 9);;(16, 6);large rock robot ;1;1186
+;(6, 9);;(16, 6);large rock robot ;1;1187
+;(6, 9);;(16, 6);large rock robot ;1;1188
+;(6, 9);;(16, 6);large rock robot ;1;1189
+;(6, 9);;(16, 6);large rock robot ;1;1190
+;(6, 9);;(16, 6);large rock robot ;1;1191
+;(6, 9);;(16, 6);large rock robot ;1;1192
+;(6, 9);;(16, 6);large rock robot ;1;1193
+;(6, 9);;(16, 6);large rock robot ;1;1194
+;(6, 9);;(16, 6);large rock robot ;1;1195
+;(6, 9);;(16, 6);large rock robot ;1;1196
+;(6, 9);;(16, 6);large rock robot ;1;1197
+;(6, 9);;(16, 6);large rock robot ;1;1198
+;(6, 9);;(16, 6);large rock robot ;1;1199
+;(6, 9);;(16, 6);large rock robot ;1;1200
+;(6, 9);;(16, 6);large rock robot ;1;1201
+;(6, 9);;(16, 6);large rock robot ;1;1202
+;(6, 9);;(16, 6);large rock robot ;1;1203
+;(6, 9);;(16, 6);large rock robot ;1;1204
+;(6, 9);;(16, 6);large rock robot ;1;1205
+;(6, 9);;(16, 6);large rock robot ;1;1206
+;(6, 9);;(16, 6);large rock robot ;1;1207
+;(6, 9);;(16, 6);large rock robot ;1;1208
+;(6, 9);;(16, 6);large rock robot ;1;1209
+;(6, 9);;(16, 6);large rock robot ;1;1210
+;(6, 9);;(16, 6);large rock robot ;1;1211
+;(6, 9);;(16, 6);large rock robot ;1;1212
+;(6, 9);;(16, 6);large rock robot ;1;1213
+;(6, 9);;(16, 6);large rock robot ;1;1214
+;(6, 9);;(16, 6);large rock robot ;1;1215
+;(6, 9);;(16, 6);large rock robot ;1;1216
+;(6, 9);;(16, 6);large rock robot ;1;1217
+;(6, 9);;(16, 6);large rock robot ;1;1218
+;(6, 9);;(16, 6);large rock robot ;1;1219
+;(6, 9);;(16, 6);large rock robot ;1;1220
+;(6, 9);;(16, 6);large rock robot ;1;1221
+;(6, 9);;(16, 6);large rock robot ;1;1222
+;(6, 9);;(16, 6);large rock robot ;1;1223
+;(6, 9);;(16, 6);large rock robot ;1;1224
+;(6, 9);;(16, 6);large rock robot ;1;1225
+;(6, 9);;(16, 6);large rock robot ;1;1226
+;(6, 9);;(16, 6);large rock robot ;1;1227
+;(6, 9);;(16, 6);large rock robot ;1;1228
+;(6, 9);;(16, 6);large rock robot ;1;1229
+;(6, 9);;(16, 6);large rock robot ;1;1230
+;(6, 9);;(16, 6);large rock robot ;1;1231
+;(6, 9);;(16, 6);large rock robot ;1;1232
+;(6, 9);;(16, 6);large rock robot ;1;1233
+;(6, 9);;(16, 6);large rock robot ;1;1234
+;(6, 9);;(16, 6);large rock robot ;1;1235
+;(6, 9);;(16, 6);large rock robot ;1;1236
+;(6, 9);;(16, 6);large rock robot ;1;1237
+;(6, 9);;(16, 6);large rock robot ;1;1238
+;(6, 9);;(16, 6);large rock robot ;1;1239
+;(6, 9);;(16, 6);large rock robot ;1;1240
+;(6, 9);;(16, 6);large rock robot ;1;1241
+;(6, 9);;(16, 6);large rock robot ;1;1242
+;(6, 9);;(16, 6);large rock robot ;1;1243
+;(6, 9);;(16, 6);large rock robot ;1;1244
+;(6, 9);;(16, 6);large rock robot ;1;1245
+;(6, 9);;(16, 6);large rock robot ;1;1246
+;(6, 9);;(16, 6);large rock robot ;1;1247
+;(6, 9);;(16, 6);large rock robot ;1;1248
+;(6, 9);;(16, 6);large rock robot ;1;1249
+;(6, 9);;(16, 6);large rock robot ;1;1250
+;(6, 9);;(16, 6);large rock robot ;1;1251
+;(6, 9);;(16, 6);large rock robot ;1;1252
+;(6, 9);;(16, 6);large rock robot ;1;1253
+;(6, 9);;(16, 6);large rock robot ;1;1254
+;(6, 9);;(16, 6);large rock robot ;1;1255
+;(6, 9);;(16, 6);large rock robot ;1;1256
+;(6, 9);;(16, 6);large rock robot ;1;1257
+;(6, 9);;(16, 6);large rock robot ;1;1258
+;(6, 9);;(16, 6);large rock robot ;1;1259
+;(6, 9);;(16, 6);large rock robot ;1;1260
+;(6, 9);;(16, 6);large rock robot ;1;1261
+;(6, 9);;(16, 6);large rock robot ;1;1262
+;(6, 9);;(16, 6);large rock robot ;1;1263
+;(6, 9);;(16, 6);large rock robot ;1;1264
+;(6, 9);;(16, 6);large rock robot ;1;1265
+;(6, 9);;(16, 6);large rock robot ;1;1266
+;(6, 9);;(16, 6);large rock robot ;1;1267
+;(6, 9);;(16, 6);large rock robot ;1;1268
+;(6, 9);;(16, 6);large rock robot ;1;1269
+;(6, 9);;(16, 6);large rock robot ;1;1270
+;(6, 9);;(16, 6);large rock robot ;1;1271
+;(6, 9);;(16, 6);large rock robot ;1;1272
+;(6, 9);;(16, 6);large rock robot ;1;1273
+;(6, 9);;(16, 6);large rock robot ;1;1274
+;(6, 9);;(16, 6);large rock robot ;1;1275
+;(6, 9);;(16, 6);large rock robot ;1;1276
+;(6, 9);;(16, 6);large rock robot ;1;1277
+;(6, 9);;(16, 6);large rock robot ;1;1278
+;(6, 9);;(16, 6);large rock robot ;1;1279
+;(6, 9);;(16, 6);large rock robot ;1;1280
+;(6, 9);;(16, 6);large rock robot ;1;1281
+;(6, 9);;(16, 6);large rock robot ;1;1282
+;(6, 9);;(16, 6);large rock robot ;1;1283
+;(6, 9);;(16, 6);large rock robot ;1;1284
+;(6, 9);;(16, 6);large rock robot ;1;1285
+;(6, 9);;(16, 6);large rock robot ;1;1286
+;(6, 9);;(16, 6);large rock robot ;1;1287
+;(6, 9);;(16, 6);large rock robot ;1;1288
+;(6, 9);;(16, 6);large rock robot ;1;1289
+;(6, 9);;(16, 6);large rock robot ;1;1290
+;(6, 9);;(16, 6);large rock robot ;1;1291
+;(6, 9);;(16, 6);large rock robot ;1;1292
+;(6, 9);;(16, 6);large rock robot ;1;1293
+;(6, 9);;(16, 6);large rock robot ;1;1294
+;(6, 9);;(16, 6);large rock robot ;1;1295
+;(6, 9);;(16, 6);large rock robot ;1;1296
+;(6, 9);;(16, 6);large rock robot ;1;1297
+;(6, 9);;(16, 6);large rock robot ;1;1298
+;(6, 9);;(16, 6);large rock robot ;1;1299
+;(6, 9);;(16, 6);large rock robot ;1;1300
+;(6, 9);;(16, 6);large rock robot ;1;1301
+;(6, 9);;(16, 6);large rock robot ;1;1302
+;(6, 9);;(16, 6);large rock robot ;1;1303
+;(6, 9);;(16, 6);large rock robot ;1;1304
+;(6, 9);;(16, 6);large rock robot ;1;1305
+;(6, 9);;(16, 6);large rock robot ;1;1306
+;(6, 9);;(16, 6);large rock robot ;1;1307
+;(6, 9);;(16, 6);large rock robot ;1;1308
+;(6, 9);;(16, 6);large rock robot ;1;1309
+;(6, 9);;(16, 6);large rock robot ;1;1310
+;(6, 9);;(16, 6);large rock robot ;1;1311
+;(6, 9);;(16, 6);large rock robot ;1;1312
+;(6, 9);;(16, 6);large rock robot ;1;1313
+;(6, 9);;(16, 6);large rock robot ;1;1314
+;(6, 9);;(16, 6);large rock robot ;1;1315
+;(6, 9);;(16, 6);large rock robot ;1;1316
+;(6, 9);;(16, 6);large rock robot ;1;1317
+;(6, 9);;(16, 6);large rock robot ;1;1318
+;(6, 9);;(16, 6);large rock robot ;1;1319
+;(6, 9);;(16, 6);large rock robot ;1;1320
+;(6, 9);;(16, 6);large rock robot ;1;1321
+;(6, 9);;(16, 6);large rock robot ;1;1322
+;(6, 9);;(16, 6);large rock robot ;1;1323
+;(6, 9);;(16, 6);large rock robot ;1;1324
+;(6, 9);;(16, 6);large rock robot ;1;1325
+;(6, 9);;(16, 6);large rock robot ;1;1326
+;(6, 9);;(16, 6);large rock robot ;1;1327
+;(6, 9);;(16, 6);large rock robot ;1;1328
+;(6, 9);;(16, 6);large rock robot ;1;1329
+;(6, 9);;(16, 6);large rock robot ;1;1330
+;(6, 9);;(16, 6);large rock robot ;1;1331
+;(6, 9);;(16, 6);large rock robot ;1;1332
+;(6, 9);;(16, 6);large rock robot ;1;1333
+;(6, 9);;(16, 6);large rock robot ;1;1334
+;(6, 9);;(16, 6);large rock robot ;1;1335
+;(6, 9);;(16, 6);large rock robot ;1;1336
+;(6, 9);;(16, 6);large rock robot ;1;1337
+;(6, 9);;(16, 6);large rock robot ;1;1338
+;(6, 9);;(16, 6);large rock robot ;1;1339
+;(6, 9);;(16, 6);large rock robot ;1;1340
+;(6, 9);;(16, 6);large rock robot ;1;1341
+;(6, 9);;(16, 6);large rock robot ;1;1342
+;(6, 9);;(16, 6);large rock robot ;1;1343
+;(6, 9);;(16, 6);large rock robot ;1;1344
+;(6, 9);;(16, 6);large rock robot ;1;1345
+;(6, 9);;(16, 6);large rock robot ;1;1346
+;(6, 9);;(16, 6);large rock robot ;1;1347
+;(6, 9);;(16, 6);large rock robot ;1;1348
+;(6, 9);;(16, 6);large rock robot ;1;1349
+;(6, 9);;(16, 6);large rock robot ;1;1350
+;(6, 9);;(16, 6);large rock robot ;1;1351
+;(6, 9);;(16, 6);large rock robot ;1;1352
+;(6, 9);;(16, 6);large rock robot ;1;1353
+;(6, 9);;(16, 6);large rock robot ;1;1354
+;(6, 9);;(16, 6);large rock robot ;1;1355
+;(6, 9);;(16, 6);large rock robot ;1;1356
+;(6, 9);;(16, 6);large rock robot ;1;1357
+;(6, 9);;(16, 6);large rock robot ;1;1358
+;(6, 9);;(16, 6);large rock robot ;1;1359
+;(6, 9);;(16, 6);large rock robot ;1;1360
+;(6, 9);;(16, 6);large rock robot ;1;1361
+;(6, 9);;(16, 6);large rock robot ;1;1362
+;(6, 9);;(16, 6);large rock robot ;1;1363
+;(6, 9);;(16, 6);large rock robot ;1;1364
+;(6, 9);;(16, 6);large rock robot ;1;1365
+;(6, 9);;(16, 6);large rock robot ;1;1366
+;(6, 9);;(16, 6);large rock robot ;1;1367
+;(6, 9);;(16, 6);large rock robot ;1;1368
+;(6, 9);;(16, 6);large rock robot ;1;1369
+;(6, 9);;(16, 6);large rock robot ;1;1370
+;(6, 9);;(16, 6);large rock robot ;1;1371
+;(6, 9);;(16, 6);large rock robot ;1;1372
+;(6, 9);;(16, 6);large rock robot ;1;1373
+;(6, 9);;(16, 6);large rock robot ;1;1374
+;(6, 9);;(16, 6);large rock robot ;1;1375
+;(6, 9);;(16, 6);large rock robot ;1;1376
+;(6, 9);;(16, 6);large rock robot ;1;1377
+;(6, 9);;(16, 6);large rock robot ;1;1378
+;(6, 9);;(16, 6);large rock robot ;1;1379
+;(6, 9);;(16, 6);large rock robot ;1;1380
+;(6, 9);;(16, 6);large rock robot ;1;1381
+;(6, 9);;(16, 6);large rock robot ;1;1382
+;(6, 9);;(16, 6);large rock robot ;1;1383
+;(6, 9);;(16, 6);large rock robot ;1;1384
+;(6, 9);;(16, 6);large rock robot ;1;1385
+;(6, 9);;(16, 6);large rock robot ;1;1386
+;(6, 9);;(16, 6);large rock robot ;1;1387
+;(6, 9);;(16, 6);large rock robot ;1;1388
+;(6, 9);;(16, 6);large rock robot ;1;1389
+;(6, 9);;(16, 6);large rock robot ;1;1390
+;(6, 9);;(16, 6);large rock robot ;1;1391
+;(6, 9);;(16, 6);large rock robot ;1;1392
+;(6, 9);;(16, 6);large rock robot ;1;1393
+;(6, 9);;(16, 6);large rock robot ;1;1394
+;(6, 9);;(16, 6);large rock robot ;1;1395
+;(6, 9);;(16, 6);large rock robot ;1;1396
+;(6, 9);;(16, 6);large rock robot ;1;1397
+;(6, 9);;(16, 6);large rock robot ;1;1398
+;(6, 9);;(16, 6);large rock robot ;1;1399
+;(6, 9);;(16, 6);large rock robot ;1;1400
+;(6, 9);;(16, 6);large rock robot ;1;1401
+;(6, 9);;(16, 6);large rock robot ;1;1402
+;(6, 9);;(16, 6);large rock robot ;1;1403
+;(6, 9);;(16, 6);large rock robot ;1;1404
+;(6, 9);;(16, 6);large rock robot ;1;1405
+;(6, 9);;(16, 6);large rock robot ;1;1406
+;(6, 9);;(16, 6);large rock robot ;1;1407
+;(6, 9);;(16, 6);large rock robot ;1;1408
+;(6, 9);;(16, 6);large rock robot ;1;1409
+;(6, 9);;(16, 6);large rock robot ;1;1410
+;(6, 9);;(16, 6);large rock robot ;1;1411
+;(6, 9);;(16, 6);large rock robot ;1;1412
+;(6, 9);;(16, 6);large rock robot ;1;1413
+;(6, 9);;(16, 6);large rock robot ;1;1414
+;(6, 9);;(16, 6);large rock robot ;1;1415
+;(6, 9);;(16, 6);large rock robot ;1;1416
+;(6, 9);;(16, 6);large rock robot ;1;1417
+;(6, 9);;(16, 6);large rock robot ;1;1418
+;(6, 9);;(16, 6);large rock robot ;1;1419
+;(6, 9);;(16, 6);large rock robot ;1;1420
+;(6, 9);;(16, 6);large rock robot ;1;1421
+;(6, 9);;(16, 6);large rock robot ;1;1422
+;(6, 9);;(16, 6);large rock robot ;1;1423
+;(6, 9);;(16, 6);large rock robot ;1;1424
+;(6, 9);;(16, 6);large rock robot ;1;1425
+;(6, 9);;(16, 6);large rock robot ;1;1426
+;(6, 9);;(16, 6);large rock robot ;1;1427
+;(6, 9);;(16, 6);large rock robot ;1;1428
+;(6, 9);;(16, 6);large rock robot ;1;1429
+;(6, 9);;(16, 6);large rock robot ;1;1430
+;(6, 9);;(16, 6);large rock robot ;1;1431
+;(6, 9);;(16, 6);large rock robot ;1;1432
+;(6, 9);;(16, 6);large rock robot ;1;1433
+;(6, 9);;(16, 6);large rock robot ;1;1434
+;(6, 9);;(16, 6);large rock robot ;1;1435
+;(6, 9);;(16, 6);large rock robot ;1;1436
+;(6, 9);;(16, 6);large rock robot ;1;1437
+;(6, 9);;(16, 6);large rock robot ;1;1438
+;(6, 9);;(16, 6);large rock robot ;1;1439
+;(6, 9);;(16, 6);large rock robot ;1;1440
+;(6, 9);;(16, 6);large rock robot ;1;1441
+;(6, 9);;(16, 6);large rock robot ;1;1442
+;(6, 9);;(16, 6);large rock robot ;1;1443
+;(6, 9);;(16, 6);large rock robot ;1;1444
+;(6, 9);;(16, 6);large rock robot ;1;1445
+;(6, 9);;(16, 6);large rock robot ;1;1446
+;(6, 9);;(16, 6);large rock robot ;1;1447
+;(6, 9);;(16, 6);large rock robot ;1;1448
+;(6, 9);;(16, 6);large rock robot ;1;1449
+;(6, 9);;(16, 6);large rock robot ;1;1450
+;(6, 9);;(16, 6);large rock robot ;1;1451
+;(6, 9);;(16, 6);large rock robot ;1;1452
+;(6, 9);;(16, 6);large rock robot ;1;1453
+;(6, 9);;(16, 6);large rock robot ;1;1454
+;(6, 9);;(16, 6);large rock robot ;1;1455
+;(6, 9);;(16, 6);large rock robot ;1;1456
+;(6, 9);;(16, 6);large rock robot ;1;1457
+;(6, 9);;(16, 6);large rock robot ;1;1458
+;(6, 9);;(16, 6);large rock robot ;1;1459
+;(6, 9);;(16, 6);large rock robot ;1;1460
+;(6, 9);;(16, 6);large rock robot ;1;1461
+;(6, 9);;(16, 6);large rock robot ;1;1462
+;(6, 9);;(16, 6);large rock robot ;1;1463
+;(6, 9);;(16, 6);large rock robot ;1;1464
+;(6, 9);;(16, 6);large rock robot ;1;1465
+;(6, 9);;(16, 6);large rock robot ;1;1466
+;(6, 9);;(16, 6);large rock robot ;1;1467
+;(6, 9);;(16, 6);large rock robot ;1;1468
+;(6, 9);;(16, 6);large rock robot ;1;1469
+;(6, 9);;(16, 6);large rock robot ;1;1470
+;(6, 9);;(16, 6);large rock robot ;1;1471
+;(6, 9);;(16, 6);large rock robot ;1;1472
+;(6, 9);;(16, 6);large rock robot ;1;1473
+;(6, 9);;(16, 6);large rock robot ;1;1474
+;(6, 9);;(16, 6);large rock robot ;1;1475
+;(6, 9);;(16, 6);large rock robot ;1;1476
+;(6, 9);;(16, 6);large rock robot ;1;1477
+;(6, 9);;(16, 6);large rock robot ;1;1478
+;(6, 9);;(16, 6);large rock robot ;1;1479
+;(6, 9);;(16, 6);large rock robot ;1;1480
+;(6, 9);;(16, 6);large rock robot ;1;1481
+;(6, 9);;(16, 6);large rock robot ;1;1482
+;(6, 9);;(16, 6);large rock robot ;1;1483
+;(6, 9);;(16, 6);large rock robot ;1;1484
+;(6, 9);;(16, 6);large rock robot ;1;1485
+;(6, 9);;(16, 6);large rock robot ;1;1486
+;(6, 9);;(16, 6);large rock robot ;1;1487
+;(6, 9);;(16, 6);large rock robot ;1;1488
+;(6, 9);;(16, 6);large rock robot ;1;1489
+;(6, 9);;(16, 6);large rock robot ;1;1490
+;(6, 9);;(16, 6);large rock robot ;1;1491
+;(6, 9);;(16, 6);large rock robot ;1;1492
+;(6, 9);;(16, 6);large rock robot ;1;1493
+;(6, 9);;(16, 6);large rock robot ;1;1494
+;(6, 9);;(16, 6);large rock robot ;1;1495
+;(6, 9);;(16, 6);large rock robot ;1;1496
+;(6, 9);;(16, 6);large rock robot ;1;1497
+;(6, 9);;(16, 6);large rock robot ;1;1498
+;(6, 9);;(16, 6);large rock robot ;1;1499
+;(6, 9);;(16, 6);large rock robot ;1;1500
+;(6, 9);;(16, 6);large rock robot ;1;1501
+;(6, 9);;(16, 6);large rock robot ;1;1502
+;(6, 9);;(16, 6);large rock robot ;1;1503
+;(6, 9);;(16, 6);large rock robot ;1;1504
+;(6, 9);;(16, 6);large rock robot ;1;1505
+;(6, 9);;(16, 6);large rock robot ;1;1506
+;(6, 9);;(16, 6);large rock robot ;1;1507
+;(6, 9);;(16, 6);large rock robot ;1;1508
+;(6, 9);;(16, 6);large rock robot ;1;1509
+;(6, 9);;(16, 6);large rock robot ;1;1510
+;(6, 9);;(16, 6);large rock robot ;1;1511
+;(6, 9);;(16, 6);large rock robot ;1;1512
+;(6, 9);;(16, 6);large rock robot ;1;1513
+;(6, 9);;(16, 6);large rock robot ;1;1514
+;(6, 9);;(16, 6);large rock robot ;1;1515
+;(6, 9);;(16, 6);large rock robot ;1;1516
+;(6, 9);;(16, 6);large rock robot ;1;1517
+;(6, 9);;(16, 6);large rock robot ;1;1518
+;(6, 9);;(16, 6);large rock robot ;1;1519
+;(6, 9);;(16, 6);large rock robot ;1;1520
+;(6, 9);;(16, 6);large rock robot ;1;1521
+;(6, 9);;(16, 6);large rock robot ;1;1522
+;(6, 9);;(16, 6);large rock robot ;1;1523
+;(6, 9);;(16, 6);large rock robot ;1;1524
+;(6, 9);;(16, 6);large rock robot ;1;1525
+;(6, 9);;(16, 6);large rock robot ;1;1526
+;(6, 9);;(16, 6);large rock robot ;1;1527
+;(6, 9);;(16, 6);large rock robot ;1;1528
+;(6, 9);;(16, 6);large rock robot ;1;1529
+;(6, 9);;(16, 6);large rock robot ;1;1530
+;(6, 9);;(16, 6);large rock robot ;1;1531
+;(6, 9);;(16, 6);large rock robot ;1;1532
+;(6, 9);;(16, 6);large rock robot ;1;1533
+;(6, 9);;(16, 6);large rock robot ;1;1534
+;(6, 9);;(16, 6);large rock robot ;1;1535
+;(6, 9);;(16, 6);large rock robot ;1;1536
+;(6, 9);;(16, 6);large rock robot ;1;1537
+;(6, 9);;(16, 6);large rock robot ;1;1538
+;(6, 9);;(16, 6);large rock robot ;1;1539
+;(6, 9);;(16, 6);large rock robot ;1;1540
+;(6, 9);;(16, 6);large rock robot ;1;1541
+;(6, 9);;(16, 6);large rock robot ;1;1542
+;(6, 9);;(16, 6);large rock robot ;1;1543
+;(6, 9);;(16, 6);large rock robot ;1;1544
+;(6, 9);;(16, 6);large rock robot ;1;1545
+;(6, 9);;(16, 6);large rock robot ;1;1546
+;(6, 9);;(16, 6);large rock robot ;1;1547
+;(6, 9);;(16, 6);large rock robot ;1;1548
+;(6, 9);;(16, 6);large rock robot ;1;1549
+;(6, 9);;(16, 6);large rock robot ;1;1550
+;(6, 9);;(16, 6);large rock robot ;1;1551
+;(6, 9);;(16, 6);large rock robot ;1;1552
+;(6, 9);;(16, 6);large rock robot ;1;1553
+;(6, 9);;(16, 6);large rock robot ;1;1554
+;(6, 9);;(16, 6);large rock robot ;1;1555
+;(6, 9);;(16, 6);large rock robot ;1;1556
+;(6, 9);;(16, 6);large rock robot ;1;1557
+;(6, 9);;(16, 6);large rock robot ;1;1558
+;(6, 9);;(16, 6);large rock robot ;1;1559
+;(6, 9);;(16, 6);large rock robot ;1;1560
+;(6, 9);;(16, 6);large rock robot ;1;1561
+;(6, 9);;(16, 6);large rock robot ;1;1562
+;(6, 9);;(16, 6);large rock robot ;1;1563
+;(6, 9);;(16, 6);large rock robot ;1;1564
+;(6, 9);;(16, 6);large rock robot ;1;1565
+;(6, 9);;(16, 6);large rock robot ;1;1566
+;(6, 9);;(16, 6);large rock robot ;1;1567
+;(6, 9);;(16, 6);large rock robot ;1;1568
+;(6, 9);;(16, 6);large rock robot ;1;1569
+;(6, 9);;(16, 6);large rock robot ;1;1570
+;(6, 9);;(16, 6);large rock robot ;1;1571
+;(6, 9);;(16, 6);large rock robot ;1;1572
+;(6, 9);;(16, 6);large rock robot ;1;1573
+;(6, 9);;(16, 6);large rock robot ;1;1574
+;(6, 9);;(16, 6);large rock robot ;1;1575
+;(6, 9);;(16, 6);large rock robot ;1;1576
+;(6, 9);;(16, 6);large rock robot ;1;1577
+;(6, 9);;(16, 6);large rock robot ;1;1578
+;(6, 9);;(16, 6);large rock robot ;1;1579
+;(6, 9);;(16, 6);large rock robot ;1;1580
+;(6, 9);;(16, 6);large rock robot ;1;1581
+;(6, 9);;(16, 6);large rock robot ;1;1582
+;(6, 9);;(16, 6);large rock robot ;1;1583
+;(6, 9);;(16, 6);large rock robot ;1;1584
+;(6, 9);;(16, 6);large rock robot ;1;1585
+;(6, 9);;(16, 6);large rock robot ;1;1586
+;(6, 9);;(16, 6);large rock robot ;1;1587
+;(6, 9);;(16, 6);large rock robot ;1;1588
+;(6, 9);;(16, 6);large rock robot ;1;1589
+;(6, 9);;(16, 6);large rock robot ;1;1590
+;(6, 9);;(16, 6);large rock robot ;1;1591
+;(6, 9);;(16, 6);large rock robot ;1;1592
+;(6, 9);;(16, 6);large rock robot ;1;1593
+;(6, 9);;(16, 6);large rock robot ;1;1594
+;(6, 9);;(16, 6);large rock robot ;1;1595
+;(6, 9);;(16, 6);large rock robot ;1;1596
+;(6, 9);;(16, 6);large rock robot ;1;1597
+;(6, 9);;(16, 6);large rock robot ;1;1598
+;(6, 9);;(16, 6);large rock robot ;1;1599
+;(6, 9);;(16, 6);large rock robot ;1;1600
+;(6, 9);;(16, 6);large rock robot ;1;1601
+;(6, 9);;(16, 6);large rock robot ;1;1602
+MoveWest;(5, 9);;(16, 6);large rock robot ;1;1603
+;(5, 9);;(16, 6);large rock robot ;1;1604
+MoveWest;(4, 9);;(16, 6);large rock robot ;1;1605
+;(4, 9);;(16, 6);large rock robot ;1;1606
+;(4, 9);;(16, 6);large rock robot ;1;1607
+;(4, 9);;(16, 6);large rock robot ;1;1608
+;(4, 9);;(16, 6);large rock robot ;1;1609
+;(4, 9);;(16, 6);large rock robot ;1;1610
+;(4, 9);;(16, 6);large rock robot ;1;1611
+;(4, 9);;(16, 6);large rock robot ;1;1612
+;(4, 9);;(16, 6);large rock robot ;1;1613
+MoveEast;(5, 9);;(16, 6);large rock robot ;1;1614
+;(5, 9);;(16, 6);large rock robot ;1;1615
+;(5, 9);;(16, 6);large rock robot ;1;1616
+;(5, 9);;(16, 6);large rock robot ;1;1617
+MoveEast;(6, 9);;(16, 6);large rock robot ;1;1618
+;(6, 9);;(16, 6);large rock robot ;1;1619
+MoveEast;(7, 9);;(16, 6);large rock robot ;1;1620
+;(7, 9);;(16, 6);large rock robot ;1;1621
+;(7, 9);;(16, 6);large rock robot ;1;1622
+MoveEast;(8, 9);;(16, 6);large rock robot ;1;1623
+;(8, 9);;(16, 6);large rock robot ;1;1624
+;(8, 9);;(16, 6);large rock robot ;1;1625
+;(8, 9);;(16, 6);large rock robot ;1;1626
+;(8, 9);;(16, 6);large rock robot ;1;1627
+;(8, 9);;(16, 6);large rock robot ;1;1628
+;(8, 9);;(16, 6);large rock robot ;1;1629
+;(8, 9);;(16, 6);large rock robot ;1;1630
+;(8, 9);;(16, 6);large rock robot ;1;1631
+;(8, 9);;(16, 6);large rock robot ;1;1632
+;(8, 9);;(16, 6);large rock robot ;1;1633
+;(8, 9);;(16, 6);large rock robot ;1;1634
+;(8, 9);;(16, 6);large rock robot ;1;1635
+;(8, 9);;(16, 6);large rock robot ;1;1636
+;(8, 9);;(16, 6);large rock robot ;1;1637
+;(8, 9);;(16, 6);large rock robot ;1;1638
+;(8, 9);;(16, 6);large rock robot ;1;1639
+;(8, 9);;(16, 6);large rock robot ;1;1640
+;(8, 9);;(16, 6);large rock robot ;1;1641
+;(8, 9);;(16, 6);large rock robot ;1;1642
+;(8, 9);;(16, 6);large rock robot ;1;1643
+;(8, 9);;(16, 6);large rock robot ;1;1644
+;(8, 9);;(16, 6);large rock robot ;1;1645
+;(8, 9);;(16, 6);large rock robot ;1;1646
+;(8, 9);;(16, 6);large rock robot ;1;1647
+;(8, 9);;(16, 6);large rock robot ;1;1648
+;(8, 9);;(16, 6);large rock robot ;1;1649
+;(8, 9);;(16, 6);large rock robot ;1;1650
+;(8, 9);;(16, 6);large rock robot ;1;1651
+;(8, 9);;(16, 6);large rock robot ;1;1652
+;(8, 9);;(16, 6);large rock robot ;1;1653
+;(8, 9);;(16, 6);large rock robot ;1;1654
+;(8, 9);;(16, 6);large rock robot ;1;1655
+;(8, 9);;(16, 6);large rock robot ;1;1656
+;(8, 9);;(16, 6);large rock robot ;1;1657
+;(8, 9);;(16, 6);large rock robot ;1;1658
+;(8, 9);;(16, 6);large rock robot ;1;1659
+;(8, 9);;(16, 6);large rock robot ;1;1660
+;(8, 9);;(16, 6);large rock robot ;1;1661
+;(8, 9);;(16, 6);large rock robot ;1;1662
+;(8, 9);;(16, 6);large rock robot ;1;1663
+;(8, 9);;(16, 6);large rock robot ;1;1664
+;(8, 9);;(16, 6);large rock robot ;1;1665
+;(8, 9);;(16, 6);large rock robot ;1;1666
+;(8, 9);;(16, 6);large rock robot ;1;1667
+;(8, 9);;(16, 6);large rock robot ;1;1668
+;(8, 9);;(16, 6);large rock robot ;1;1669
+;(8, 9);;(16, 6);large rock robot ;1;1670
+;(8, 9);;(16, 6);large rock robot ;1;1671
+;(8, 9);;(16, 6);large rock robot ;1;1672
+;(8, 9);;(16, 6);large rock robot ;1;1673
+GrabObject;(8, 9);;(16, 6);large rock robot ;1;1674
+;(8, 9);;(16, 6);large rock robot ;1;1675
+;(8, 9);;(16, 6);large rock robot ;1;1676
+;(8, 9);;(16, 6);large rock robot ;1;1677
+;(8, 9);;(16, 6);large rock robot ;1;1678
+;(8, 9);;(16, 6);large rock robot ;1;1679
+;(8, 9);;(16, 6);large rock robot ;1;1680
+;(8, 9);;(16, 6);large rock robot ;1;1681
+;(8, 9);;(16, 6);large rock robot ;1;1682
+;(8, 9);;(16, 6);large rock robot ;1;1683
+MoveWest;(7, 9);;(16, 6);large rock robot ;1;1684
+;(7, 9);;(16, 6);large rock robot ;1;1685
+;(7, 9);;(16, 6);large rock robot ;1;1686
+MoveWest;(6, 9);;(16, 6);large rock robot ;1;1687
+;(6, 9);;(16, 6);large rock robot ;1;1688
+;(6, 9);;(16, 6);large rock robot ;1;1689
+MoveWest;(5, 9);;(16, 6);large rock robot ;1;1690
+;(5, 9);;(16, 6);large rock robot ;1;1691
+MoveWest;(4, 9);;(16, 6);large rock robot ;1;1692
+;(4, 9);;(16, 6);large rock robot ;1;1693
+;(4, 9);;(16, 6);large rock robot ;1;1694
+MoveWest;(3, 9);;(16, 6);large rock robot ;1;1695
+;(3, 9);;(16, 6);large rock robot ;1;1696
+;(3, 9);;(16, 6);large rock robot ;1;1697
+MoveWest;(2, 9);;(16, 6);large rock robot ;1;1698
+;(2, 9);;(16, 6);large rock robot ;1;1699
+;(2, 9);;(16, 6);large rock robot ;1;1700
+;(2, 9);;(16, 6);large rock robot ;1;1701
+;(2, 9);;(16, 6);large rock robot ;1;1702
+;(2, 9);;(16, 6);large rock robot ;1;1703
+;(2, 9);;(16, 6);large rock robot ;1;1704
+;(2, 9);;(16, 6);large rock robot ;1;1705
+;(2, 9);;(16, 6);large rock robot ;1;1706
+;(2, 9);;(16, 6);large rock robot ;1;1707
+;(2, 9);;(16, 6);large rock robot ;1;1708
+;(2, 9);;(16, 6);large rock robot ;1;1709
+DropObject;(2, 9);;(16, 6);large rock robot ;1;1710
+;(2, 9);;(16, 6);large rock robot ;1;1711
+MoveEast;(3, 9);;(16, 6);large rock robot ;1;1712
+;(3, 9);;(16, 6);large rock robot ;1;1713
+MoveEast;(4, 9);;(16, 6);large rock robot ;1;1714
+;(4, 9);;(16, 6);large rock robot ;1;1715
+;(4, 9);;(16, 6);large rock robot ;1;1716
+MoveEast;(5, 9);;(16, 6);large rock robot ;1;1717
+;(5, 9);;(16, 6);large rock robot ;1;1718
+;(5, 9);;(16, 6);large rock robot ;1;1719
+MoveEast;(6, 9);;(16, 6);large rock robot ;1;1720
+;(6, 9);;(16, 6);large rock robot ;1;1721
+;(6, 9);;(16, 6);large rock robot ;1;1722
+MoveEast;(7, 9);;(16, 6);large rock robot ;1;1723
+;(7, 9);;(16, 6);large rock robot ;1;1724
+;(7, 9);;(16, 6);large rock robot ;1;1725
+;(7, 9);;(16, 6);large rock robot ;1;1726
+;(7, 9);;(16, 6);large rock robot ;1;1727
+;(7, 9);;(16, 6);large rock robot ;1;1728
+;(7, 9);;(16, 6);large rock robot ;1;1729
+;(7, 9);;(16, 6);large rock robot ;1;1730
+;(7, 9);;(16, 6);large rock robot ;1;1731
+;(7, 9);;(16, 6);large rock robot ;1;1732
+;(7, 9);;(16, 6);large rock robot ;1;1733
+;(7, 9);;(16, 6);large rock robot ;1;1734
+MoveSouth;(7, 10);;(16, 6);large rock robot ;1;1735
+;(7, 10);;(16, 6);large rock robot ;1;1736
+;(7, 10);;(16, 6);large rock robot ;1;1737
+;(7, 10);;(16, 6);large rock robot ;1;1738
+;(7, 10);;(16, 6);large rock robot ;1;1739
+;(7, 10);;(16, 6);large rock robot ;1;1740
+;(7, 10);;(16, 6);large rock robot ;1;1741
+;(7, 10);;(16, 6);large rock robot ;1;1742
+;(7, 10);;(16, 6);large rock robot ;1;1743
+;(7, 10);;(16, 6);large rock robot ;1;1744
+;(7, 10);;(16, 6);large rock robot ;1;1745
+;(7, 10);;(16, 6);large rock robot ;1;1746
+;(7, 10);;(16, 6);large rock robot ;1;1747
+;(7, 10);;(16, 6);large rock robot ;1;1748
+;(7, 10);;(16, 6);large rock robot ;1;1749
+;(7, 10);;(16, 6);large rock robot ;1;1750
+;(7, 10);;(16, 6);large rock robot ;1;1751
+GrabObject;(7, 10);;(16, 6);large rock robot ;1;1752
+;(7, 10);;(16, 6);large rock robot ;1;1753
+;(7, 10);;(16, 6);large rock robot ;1;1754
+;(7, 10);;(16, 6);large rock robot ;1;1755
+;(7, 10);;(16, 6);large rock robot ;1;1756
+MoveWest;(6, 10);;(16, 6);large rock robot ;1;1757
+;(6, 10);;(16, 6);large rock robot ;1;1758
+;(6, 10);;(16, 6);large rock robot ;1;1759
+MoveWest;(5, 10);;(16, 6);large rock robot ;1;1760
+;(5, 10);;(16, 6);large rock robot ;1;1761
+;(5, 10);;(16, 6);large rock robot ;1;1762
+MoveWest;(4, 10);;(16, 6);large rock robot ;1;1763
+;(4, 10);;(16, 6);large rock robot ;1;1764
+;(4, 10);;(16, 6);large rock robot ;1;1765
+MoveWest;(3, 10);;(16, 6);large rock robot ;1;1766
+;(3, 10);;(16, 6);large rock robot ;1;1767
+;(3, 10);;(16, 6);large rock robot ;1;1768
+MoveWest;(2, 10);;(16, 6);large rock robot ;1;1769
+;(2, 10);;(16, 6);large rock robot ;1;1770
+MoveWest;(1, 10);;(16, 6);large rock robot ;1;1771
+;(1, 10);;(16, 6);large rock robot ;1;1772
+;(1, 10);;(16, 6);large rock robot ;1;1773
+;(1, 10);;(16, 6);large rock robot ;1;1774
+;(1, 10);;(16, 6);large rock robot ;1;1775
+;(1, 10);;(16, 6);large rock robot ;1;1776
+;(1, 10);;(16, 6);large rock robot ;1;1777
+;(1, 10);;(16, 6);large rock robot ;1;1778
+DropObject;(1, 10);;(16, 6);large rock robot ;1;1779
+;(1, 10);;(16, 6);large rock robot ;1;1780
+;(1, 10);;(16, 6);large rock robot ;1;1781
+MoveEast;(2, 10);;(16, 6);large rock robot ;1;1782
+;(2, 10);;(16, 6);large rock robot ;1;1783
+;(2, 10);;(16, 6);large rock robot ;1;1784
+MoveEast;(3, 10);;(16, 6);large rock robot ;1;1785
+;(3, 10);;(16, 6);large rock robot ;1;1786
+;(3, 10);;(16, 6);large rock robot ;1;1787
+MoveEast;(4, 10);;(16, 6);large rock robot ;1;1788
+;(4, 10);;(16, 6);large rock robot ;1;1789
+;(4, 10);;(16, 6);large rock robot ;1;1790
+MoveEast;(5, 10);;(16, 6);large rock robot ;1;1791
+;(5, 10);;(16, 6);large rock robot ;1;1792
+MoveEast;(6, 10);;(16, 6);large rock robot ;1;1793
+;(6, 10);;(16, 6);large rock robot ;1;1794
+;(6, 10);;(16, 6);large rock robot ;1;1795
+;(6, 10);;(16, 6);large rock robot ;1;1796
+;(6, 10);;(16, 6);large rock robot ;1;1797
+;(6, 10);;(16, 6);large rock robot ;1;1798
+;(6, 10);;(16, 6);large rock robot ;1;1799
+;(6, 10);;(16, 6);large rock robot ;1;1800
+;(6, 10);;(16, 6);large rock robot ;1;1801
+;(6, 10);;(16, 6);large rock robot ;1;1802
+;(6, 10);;(16, 6);large rock robot ;1;1803
+;(6, 10);;(16, 6);large rock robot ;1;1804
+;(6, 10);;(16, 6);large rock robot ;1;1805
+GrabObject;(6, 10);;(16, 6);large rock robot ;1;1806
+;(6, 10);;(16, 6);large rock robot ;1;1807
+;(6, 10);;(16, 6);large rock robot ;1;1808
+;(6, 10);;(16, 6);large rock robot ;1;1809
+MoveWest;(5, 10);;(16, 6);large rock robot ;1;1810
+;(5, 10);;(16, 6);large rock robot ;1;1811
+MoveWest;(4, 10);;(16, 6);large rock robot ;1;1812
+;(4, 10);;(16, 6);large rock robot ;1;1813
+;(4, 10);;(16, 6);large rock robot ;1;1814
+MoveWest;(3, 10);;(16, 6);large rock robot ;1;1815
+;(3, 10);;(16, 6);large rock robot ;1;1816
+MoveWest;(2, 10);;(16, 6);large rock robot ;1;1817
+;(2, 10);;(16, 6);large rock robot ;1;1818
+;(2, 10);;(16, 6);large rock robot ;1;1819
+MoveWest;(1, 10);;(16, 6);large rock robot ;1;1820
+;(1, 10);;(16, 6);large rock robot ;1;1821
+;(1, 10);;(16, 6);large rock robot ;1;1822
+;(1, 10);;(16, 6);large rock robot ;1;1823
+;(1, 10);;(16, 6);large rock robot ;1;1824
+;(1, 10);;(16, 6);large rock robot ;1;1825
+;(1, 10);;(16, 6);large rock robot ;1;1826
+;(1, 10);;(16, 6);large rock robot ;1;1827
+;(1, 10);;(16, 6);large rock robot ;1;1828
+DropObject;(1, 10);;(16, 6);large rock robot ;1;1829
+;(1, 10);;(16, 6);large rock robot ;1;1830
+;(1, 10);;(16, 6);large rock robot ;1;1831
+MoveEast;(2, 10);;(16, 6);large rock robot ;1;1832
+;(2, 10);;(16, 6);large rock robot ;1;1833
+;(2, 10);;(16, 6);large rock robot ;1;1834
+MoveEast;(3, 10);;(16, 6);large rock robot ;1;1835
+;(3, 10);;(16, 6);large rock robot ;1;1836
+;(3, 10);;(16, 6);large rock robot ;1;1837
+MoveEast;(4, 10);;(16, 6);large rock robot ;1;1838
+;(4, 10);;(16, 6);large rock robot ;1;1839
+MoveEast;(5, 10);;(16, 6);large rock robot ;1;1840
+;(5, 10);;(16, 6);large rock robot ;1;1841
+;(5, 10);;(16, 6);large rock robot ;1;1842
+MoveEast;(6, 10);;(16, 6);large rock robot ;1;1843
+;(6, 10);;(16, 6);large rock robot ;1;1844
+;(6, 10);;(16, 6);large rock robot ;1;1845
+MoveEast;(7, 10);;(16, 6);large rock robot ;1;1846
+;(7, 10);;(16, 6);large rock robot ;1;1847
+;(7, 10);;(16, 6);large rock robot ;1;1848
+MoveEast;(8, 10);;(16, 6);large rock robot ;1;1849
+;(8, 10);;(16, 6);large rock robot ;1;1850
+MoveEast;(9, 10);;(16, 6);large rock robot ;1;1851
+;(9, 10);;(16, 6);large rock robot ;1;1852
+;(9, 10);;(16, 6);large rock robot ;1;1853
+;(9, 10);;(16, 6);large rock robot ;1;1854
+;(9, 10);;(16, 6);large rock robot ;1;1855
+;(9, 10);;(16, 6);large rock robot ;1;1856
+GrabObject;(9, 10);;(16, 6);large rock robot ;1;1857
+;(9, 10);;(16, 6);large rock robot ;1;1858
+;(9, 10);;(16, 6);large rock robot ;1;1859
+MoveWest;(8, 10);;(16, 6);large rock robot ;1;1860
+;(8, 10);;(16, 6);large rock robot ;1;1861
+;(8, 10);;(16, 6);large rock robot ;1;1862
+;(8, 10);;(16, 6);large rock robot ;1;1863
+;(8, 10);;(16, 6);large rock robot ;1;1864
+;(8, 10);;(16, 6);large rock robot ;1;1865
+;(8, 10);;(16, 6);large rock robot ;1;1866
+;(8, 10);;(16, 6);large rock robot ;1;1867
+;(8, 10);;(16, 6);large rock robot ;1;1868
+;(8, 10);;(16, 6);large rock robot ;1;1869
+;(8, 10);;(16, 6);large rock robot ;1;1870
+MoveWest;(7, 10);;(16, 6);large rock robot ;1;1871
+;(7, 10);;(16, 6);large rock robot ;1;1872
+;(7, 10);;(16, 6);large rock robot ;1;1873
+MoveWest;(6, 10);;(16, 6);large rock robot ;1;1874
+;(6, 10);;(16, 6);large rock robot ;1;1875
+;(6, 10);;(16, 6);large rock robot ;1;1876
+MoveWest;(5, 10);;(16, 6);large rock robot ;1;1877
+;(5, 10);;(16, 6);large rock robot ;1;1878
+;(5, 10);;(16, 6);large rock robot ;1;1879
+MoveWest;(4, 10);;(16, 6);large rock robot ;1;1880
+;(4, 10);;(16, 6);large rock robot ;1;1881
+;(4, 10);;(16, 6);large rock robot ;1;1882
+MoveWest;(3, 10);;(16, 6);large rock robot ;1;1883
+;(3, 10);;(16, 6);large rock robot ;1;1884
+;(3, 10);;(16, 6);large rock robot ;1;1885
+MoveWest;(2, 10);;(16, 6);large rock robot ;1;1886
+;(2, 10);;(16, 6);large rock robot ;1;1887
+;(2, 10);;(16, 6);large rock robot ;1;1888
+MoveWest;(1, 10);;(16, 6);large rock robot ;1;1889
+;(1, 10);;(16, 6);large rock robot ;1;1890
+;(1, 10);;(16, 6);large rock robot ;1;1891
+;(1, 10);;(16, 6);large rock robot ;1;1892
+;(1, 10);;(16, 6);large rock robot ;1;1893
+;(1, 10);;(16, 6);large rock robot ;1;1894
+;(1, 10);;(16, 6);large rock robot ;1;1895
+;(1, 10);;(16, 6);large rock robot ;1;1896
+;(1, 10);;(16, 6);large rock robot ;1;1897
+;(1, 10);;(16, 6);large rock robot ;1;1898
+;(1, 10);;(16, 6);large rock robot ;1;1899
+DropObject;(1, 10);;(16, 6);large rock robot ;1;1900
+;(1, 10);;(16, 6);large rock robot ;1;1901
+;(1, 10);;(16, 6);large rock robot ;1;1902
+MoveEast;(2, 10);;(16, 6);large rock robot ;1;1903
+;(2, 10);;(16, 6);large rock robot ;1;1904
+;(2, 10);;(16, 6);large rock robot ;1;1905
+MoveEast;(3, 10);;(16, 6);large rock robot ;1;1906
+;(3, 10);;(16, 6);large rock robot ;1;1907
+;(3, 10);;(16, 6);large rock robot ;1;1908
+;(3, 10);;(16, 6);large rock robot ;1;1909
+MoveEast;(4, 10);;(16, 6);large rock robot ;1;1910
+;(4, 10);;(16, 6);large rock robot ;1;1911
+MoveEast;(5, 10);;(16, 6);large rock robot ;1;1912
+;(5, 10);;(16, 6);large rock robot ;1;1913
+MoveEast;(6, 10);;(16, 6);large rock robot ;1;1914
+;(6, 10);;(16, 6);large rock robot ;1;1915
+;(6, 10);;(16, 6);large rock robot ;1;1916
+MoveEast;(7, 10);;(16, 6);large rock robot ;1;1917
+;(7, 10);;(16, 6);large rock robot ;1;1918
+;(7, 10);;(16, 6);large rock robot ;1;1919
+;(7, 10);;(16, 6);large rock robot ;1;1920
+MoveEast;(8, 10);;(16, 6);large rock robot ;1;1921
+;(8, 10);;(16, 6);large rock robot ;1;1922
+;(8, 10);;(16, 6);large rock robot ;1;1923
+MoveEast;(9, 10);;(16, 6);large rock robot ;1;1924
+;(9, 10);;(16, 6);large rock robot ;1;1925
+;(9, 10);;(16, 6);large rock robot ;1;1926
+;(9, 10);;(16, 6);large rock robot ;1;1927
+;(9, 10);;(16, 6);large rock robot ;1;1928
+;(9, 10);;(16, 6);large rock robot ;1;1929
+;(9, 10);;(16, 6);large rock robot ;1;1930
+;(9, 10);;(16, 6);large rock robot ;1;1931
+;(9, 10);;(16, 6);large rock robot ;1;1932
+;(9, 10);;(16, 6);large rock robot ;1;1933
+;(9, 10);;(16, 6);large rock robot ;1;1934
+;(9, 10);;(16, 6);large rock robot ;1;1935
+;(9, 10);;(16, 6);large rock robot ;1;1936
+;(9, 10);;(16, 6);large rock robot ;1;1937
+;(9, 10);;(16, 6);large rock robot ;1;1938
+;(9, 10);;(16, 6);large rock robot ;1;1939
+;(9, 10);;(16, 6);large rock robot ;1;1940
+;(9, 10);;(16, 6);large rock robot ;1;1941
+;(9, 10);;(16, 6);large rock robot ;1;1942
+;(9, 10);;(16, 6);large rock robot ;1;1943
+;(9, 10);;(16, 6);large rock robot ;1;1944
+;(9, 10);;(16, 6);large rock robot ;1;1945
+;(9, 10);;(16, 6);large rock robot ;1;1946
+;(9, 10);;(16, 6);large rock robot ;1;1947
+;(9, 10);;(16, 6);large rock robot ;1;1948
+;(9, 10);;(16, 6);large rock robot ;1;1949
+;(9, 10);;(16, 6);large rock robot ;1;1950
+;(9, 10);;(16, 6);large rock robot ;1;1951
+;(9, 10);;(16, 6);large rock robot ;1;1952
+;(9, 10);;(16, 6);large rock robot ;1;1953
+;(9, 10);;(16, 6);large rock robot ;1;1954
+;(9, 10);;(16, 6);large rock robot ;1;1955
+;(9, 10);;(16, 6);large rock robot ;1;1956
+;(9, 10);;(16, 6);large rock robot ;1;1957
+;(9, 10);;(16, 6);large rock robot ;1;1958
+;(9, 10);;(16, 6);large rock robot ;1;1959
+;(9, 10);;(16, 6);large rock robot ;1;1960
+;(9, 10);;(16, 6);large rock robot ;1;1961
+;(9, 10);;(16, 6);large rock robot ;1;1962
+;(9, 10);;(16, 6);large rock robot ;1;1963
+;(9, 10);;(16, 6);large rock robot ;1;1964
+;(9, 10);;(16, 6);large rock robot ;1;1965
+;(9, 10);;(16, 6);large rock robot ;1;1966
+;(9, 10);;(16, 6);large rock robot ;1;1967
+;(9, 10);;(16, 6);large rock robot ;1;1968
+;(9, 10);;(16, 6);large rock robot ;1;1969
+;(9, 10);;(16, 6);large rock robot ;1;1970
+;(9, 10);;(16, 6);large rock robot ;1;1971
+;(9, 10);;(16, 6);large rock robot ;1;1972
+;(9, 10);;(16, 6);large rock robot ;1;1973
+;(9, 10);;(16, 6);large rock robot ;1;1974
+;(9, 10);;(16, 6);large rock robot ;1;1975
+;(9, 10);;(16, 6);large rock robot ;1;1976
+;(9, 10);;(16, 6);large rock robot ;1;1977
+;(9, 10);;(16, 6);large rock robot ;1;1978
+;(9, 10);;(16, 6);large rock robot ;1;1979
+;(9, 10);;(16, 6);large rock robot ;1;1980
+;(9, 10);;(16, 6);large rock robot ;1;1981
+;(9, 10);;(16, 6);large rock robot ;1;1982
+;(9, 10);;(16, 6);large rock robot ;1;1983
+;(9, 10);;(16, 6);large rock robot ;1;1984
+;(9, 10);;(16, 6);large rock robot ;1;1985
+;(9, 10);;(16, 6);large rock robot ;1;1986
+;(9, 10);;(16, 6);large rock robot ;1;1987
+;(9, 10);;(16, 6);large rock robot ;1;1988
+;(9, 10);;(16, 6);large rock robot ;1;1989
+;(9, 10);;(16, 6);large rock robot ;1;1990
+;(9, 10);;(16, 6);large rock robot ;1;1991
+;(9, 10);;(16, 6);large rock robot ;1;1992
+;(9, 10);;(16, 6);large rock robot ;1;1993
+;(9, 10);;(16, 6);large rock robot ;1;1994
+;(9, 10);;(16, 6);large rock robot ;1;1995
+;(9, 10);;(16, 6);large rock robot ;1;1996
+;(9, 10);;(16, 6);large rock robot ;1;1997
+;(9, 10);;(16, 6);large rock robot ;1;1998
+;(9, 10);;(16, 6);large rock robot ;1;1999
+;(9, 10);;(16, 6);large rock robot ;1;2000
+;(9, 10);;(16, 6);large rock robot ;1;2001
+;(9, 10);;(16, 6);large rock robot ;1;2002
+;(9, 10);;(16, 6);large rock robot ;1;2003
+;(9, 10);;(16, 6);large rock robot ;1;2004
+;(9, 10);;(16, 6);large rock robot ;1;2005
+;(9, 10);;(16, 6);large rock robot ;1;2006
+;(9, 10);;(16, 6);large rock robot ;1;2007
+;(9, 10);;(16, 6);large rock robot ;1;2008
+;(9, 10);;(16, 6);large rock robot ;1;2009
+;(9, 10);;(16, 6);large rock robot ;1;2010
+;(9, 10);;(16, 6);large rock robot ;1;2011
+;(9, 10);;(16, 6);large rock robot ;1;2012
+;(9, 10);;(16, 6);large rock robot ;1;2013
+;(9, 10);;(16, 6);large rock robot ;1;2014
+;(9, 10);;(16, 6);large rock robot ;1;2015
+;(9, 10);;(16, 6);large rock robot ;1;2016
+;(9, 10);;(16, 6);large rock robot ;1;2017
+;(9, 10);;(16, 6);large rock robot ;1;2018
+;(9, 10);;(16, 6);large rock robot ;1;2019
+;(9, 10);;(16, 6);large rock robot ;1;2020
+;(9, 10);;(16, 6);large rock robot ;1;2021
+;(9, 10);;(16, 6);large rock robot ;1;2022
+;(9, 10);;(16, 6);large rock robot ;1;2023
+;(9, 10);;(16, 6);large rock robot ;1;2024
+;(9, 10);;(16, 6);large rock robot ;1;2025
+;(9, 10);;(16, 6);large rock robot ;1;2026
+;(9, 10);;(16, 6);large rock robot ;1;2027
+;(9, 10);;(16, 6);large rock robot ;1;2028
+;(9, 10);;(16, 6);large rock robot ;1;2029
+;(9, 10);;(16, 6);large rock robot ;1;2030
+;(9, 10);;(16, 6);large rock robot ;1;2031
+;(9, 10);;(16, 6);large rock robot ;1;2032
+;(9, 10);;(16, 6);large rock robot ;1;2033
+;(9, 10);;(16, 6);large rock robot ;1;2034
+;(9, 10);;(16, 6);large rock robot ;1;2035
+;(9, 10);;(16, 6);large rock robot ;1;2036
+;(9, 10);;(16, 6);large rock robot ;1;2037
+;(9, 10);;(16, 6);large rock robot ;1;2038
+;(9, 10);;(16, 6);large rock robot ;1;2039
+;(9, 10);;(16, 6);large rock robot ;1;2040
+;(9, 10);;(16, 6);large rock robot ;1;2041
+;(9, 10);;(16, 6);large rock robot ;1;2042
+;(9, 10);;(16, 6);large rock robot ;1;2043
+;(9, 10);;(16, 6);large rock robot ;1;2044
+;(9, 10);;(16, 6);large rock robot ;1;2045
+;(9, 10);;(16, 6);large rock robot ;1;2046
+;(9, 10);;(16, 6);large rock robot ;1;2047
+;(9, 10);;(16, 6);large rock robot ;1;2048
+;(9, 10);;(16, 6);large rock robot ;1;2049
+;(9, 10);;(16, 6);large rock robot ;1;2050
+;(9, 10);;(16, 6);large rock robot ;1;2051
+;(9, 10);;(16, 6);large rock robot ;1;2052
+;(9, 10);;(16, 6);large rock robot ;1;2053
+;(9, 10);;(16, 6);large rock robot ;1;2054
+;(9, 10);;(16, 6);large rock robot ;1;2055
+;(9, 10);;(16, 6);large rock robot ;1;2056
+;(9, 10);;(16, 6);large rock robot ;1;2057
+;(9, 10);;(16, 6);large rock robot ;1;2058
+;(9, 10);;(16, 6);large rock robot ;1;2059
+;(9, 10);;(16, 6);large rock robot ;1;2060
+;(9, 10);;(16, 6);large rock robot ;1;2061
+;(9, 10);;(16, 6);large rock robot ;1;2062
+;(9, 10);;(16, 6);large rock robot ;1;2063
+;(9, 10);;(16, 6);large rock robot ;1;2064
+;(9, 10);;(16, 6);large rock robot ;1;2065
+;(9, 10);;(16, 6);large rock robot ;1;2066
+;(9, 10);;(16, 6);large rock robot ;1;2067
+;(9, 10);;(16, 6);large rock robot ;1;2068
+;(9, 10);;(16, 6);large rock robot ;1;2069
+;(9, 10);;(16, 6);large rock robot ;1;2070
+;(9, 10);;(16, 6);large rock robot ;1;2071
+;(9, 10);;(16, 6);large rock robot ;1;2072
+;(9, 10);;(16, 6);large rock robot ;1;2073
+;(9, 10);;(16, 6);large rock robot ;1;2074
+;(9, 10);;(16, 6);large rock robot ;1;2075
+;(9, 10);;(16, 6);large rock robot ;1;2076
+;(9, 10);;(16, 6);large rock robot ;1;2077
+;(9, 10);;(16, 6);large rock robot ;1;2078
+;(9, 10);;(16, 6);large rock robot ;1;2079
+;(9, 10);;(16, 6);large rock robot ;1;2080
+;(9, 10);;(16, 6);large rock robot ;1;2081
+;(9, 10);;(16, 6);large rock robot ;1;2082
+;(9, 10);;(16, 6);large rock robot ;1;2083
+;(9, 10);;(16, 6);large rock robot ;1;2084
+;(9, 10);;(16, 6);large rock robot ;1;2085
+;(9, 10);;(16, 6);large rock robot ;1;2086
+;(9, 10);;(16, 6);large rock robot ;1;2087
+;(9, 10);;(16, 6);large rock robot ;1;2088
+;(9, 10);;(16, 6);large rock robot ;1;2089
+;(9, 10);;(16, 6);large rock robot ;1;2090
+;(9, 10);;(16, 6);large rock robot ;1;2091
+;(9, 10);;(16, 6);large rock robot ;1;2092
+;(9, 10);;(16, 6);large rock robot ;1;2093
+;(9, 10);;(16, 6);large rock robot ;1;2094
+;(9, 10);;(16, 6);large rock robot ;1;2095
+;(9, 10);;(16, 6);large rock robot ;1;2096
+;(9, 10);;(16, 6);large rock robot ;1;2097
+;(9, 10);;(16, 6);large rock robot ;1;2098
+;(9, 10);;(16, 6);large rock robot ;1;2099
+;(9, 10);;(16, 6);large rock robot ;1;2100
+;(9, 10);;(16, 6);large rock robot ;1;2101
+;(9, 10);;(16, 6);large rock robot ;1;2102
+;(9, 10);;(16, 6);large rock robot ;1;2103
+;(9, 10);;(16, 6);large rock robot ;1;2104
+;(9, 10);;(16, 6);large rock robot ;1;2105
+;(9, 10);;(16, 6);large rock robot ;1;2106
+;(9, 10);;(16, 6);large rock robot ;1;2107
+;(9, 10);;(16, 6);large rock robot ;1;2108
+;(9, 10);;(16, 6);large rock robot ;1;2109
+;(9, 10);;(16, 6);large rock robot ;1;2110
+;(9, 10);;(16, 6);large rock robot ;1;2111
+;(9, 10);;(16, 6);large rock robot ;1;2112
+;(9, 10);;(16, 6);large rock robot ;1;2113
+;(9, 10);;(16, 6);large rock robot ;1;2114
+;(9, 10);;(16, 6);large rock robot ;1;2115
+;(9, 10);;(16, 6);large rock robot ;1;2116
+;(9, 10);;(16, 6);large rock robot ;1;2117
+;(9, 10);;(16, 6);large rock robot ;1;2118
+;(9, 10);;(16, 6);large rock robot ;1;2119
+;(9, 10);;(16, 6);large rock robot ;1;2120
+;(9, 10);;(16, 6);large rock robot ;1;2121
+;(9, 10);;(16, 6);large rock robot ;1;2122
+;(9, 10);;(16, 6);large rock robot ;1;2123
+;(9, 10);;(16, 6);large rock robot ;1;2124
+;(9, 10);;(16, 6);large rock robot ;1;2125
+;(9, 10);;(16, 6);large rock robot ;1;2126
+;(9, 10);;(16, 6);large rock robot ;1;2127
+;(9, 10);;(16, 6);large rock robot ;1;2128
+;(9, 10);;(16, 6);large rock robot ;1;2129
+;(9, 10);;(16, 6);large rock robot ;1;2130
+;(9, 10);;(16, 6);large rock robot ;1;2131
+;(9, 10);;(16, 6);large rock robot ;1;2132
+;(9, 10);;(16, 6);large rock robot ;1;2133
+;(9, 10);;(16, 6);large rock robot ;1;2134
+;(9, 10);;(16, 6);large rock robot ;1;2135
+;(9, 10);;(16, 6);large rock robot ;1;2136
+;(9, 10);;(16, 6);large rock robot ;1;2137
+;(9, 10);;(16, 6);large rock robot ;1;2138
+;(9, 10);;(16, 6);large rock robot ;1;2139
+;(9, 10);;(16, 6);large rock robot ;1;2140
+;(9, 10);;(16, 6);large rock robot ;1;2141
+;(9, 10);;(16, 6);large rock robot ;1;2142
+;(9, 10);;(16, 6);large rock robot ;1;2143
+;(9, 10);;(16, 6);large rock robot ;1;2144
+;(9, 10);;(16, 6);large rock robot ;1;2145
+;(9, 10);;(16, 6);large rock robot ;1;2146
+;(9, 10);;(16, 6);large rock robot ;1;2147
+;(9, 10);;(16, 6);large rock robot ;1;2148
+;(9, 10);;(16, 6);large rock robot ;1;2149
+;(9, 10);;(16, 6);large rock robot ;1;2150
+;(9, 10);;(16, 6);large rock robot ;1;2151
+;(9, 10);;(16, 6);large rock robot ;1;2152
+;(9, 10);;(16, 6);large rock robot ;1;2153
+;(9, 10);;(16, 6);large rock robot ;1;2154
+;(9, 10);;(16, 6);large rock robot ;1;2155
+;(9, 10);;(16, 6);large rock robot ;1;2156
+;(9, 10);;(16, 6);large rock robot ;1;2157
+;(9, 10);;(16, 6);large rock robot ;1;2158
+;(9, 10);;(16, 6);large rock robot ;1;2159
+;(9, 10);;(16, 6);large rock robot ;1;2160
+;(9, 10);;(16, 6);large rock robot ;1;2161
+;(9, 10);;(16, 6);large rock robot ;1;2162
+;(9, 10);;(16, 6);large rock robot ;1;2163
+;(9, 10);;(16, 6);large rock robot ;1;2164
+;(9, 10);;(16, 6);large rock robot ;1;2165
+;(9, 10);;(16, 6);large rock robot ;1;2166
+;(9, 10);;(16, 6);large rock robot ;1;2167
+;(9, 10);;(16, 6);large rock robot ;1;2168
+;(9, 10);;(16, 6);large rock robot ;1;2169
+;(9, 10);;(16, 6);large rock robot ;1;2170
+;(9, 10);;(16, 6);large rock robot ;1;2171
+;(9, 10);;(16, 6);large rock robot ;1;2172
+;(9, 10);;(16, 6);large rock robot ;1;2173
+;(9, 10);;(16, 6);large rock robot ;1;2174
+;(9, 10);;(16, 6);large rock robot ;1;2175
+;(9, 10);;(16, 6);large rock robot ;1;2176
+;(9, 10);;(16, 6);large rock robot ;1;2177
+;(9, 10);;(16, 6);large rock robot ;1;2178
+;(9, 10);;(16, 6);large rock robot ;1;2179
+;(9, 10);;(16, 6);large rock robot ;1;2180
+;(9, 10);;(16, 6);large rock robot ;1;2181
+;(9, 10);;(16, 6);large rock robot ;1;2182
+;(9, 10);;(16, 6);large rock robot ;1;2183
+;(9, 10);;(16, 6);large rock robot ;1;2184
+;(9, 10);;(16, 6);large rock robot ;1;2185
+;(9, 10);;(16, 6);large rock robot ;1;2186
+;(9, 10);;(16, 6);large rock robot ;1;2187
+;(9, 10);;(16, 6);large rock robot ;1;2188
+;(9, 10);;(16, 6);large rock robot ;1;2189
+;(9, 10);;(16, 6);large rock robot ;1;2190
+;(9, 10);;(16, 6);large rock robot ;1;2191
+;(9, 10);;(16, 6);large rock robot ;1;2192
+;(9, 10);;(16, 6);large rock robot ;1;2193
+;(9, 10);;(16, 6);large rock robot ;1;2194
+;(9, 10);;(16, 6);large rock robot ;1;2195
+;(9, 10);;(16, 6);large rock robot ;1;2196
+;(9, 10);;(16, 6);large rock robot ;1;2197
+;(9, 10);;(16, 6);large rock robot ;1;2198
+;(9, 10);;(16, 6);large rock robot ;1;2199
+;(9, 10);;(16, 6);large rock robot ;1;2200
+;(9, 10);;(16, 6);large rock robot ;1;2201
+;(9, 10);;(16, 6);large rock robot ;1;2202
+;(9, 10);;(16, 6);large rock robot ;1;2203
+;(9, 10);;(16, 6);large rock robot ;1;2204
+;(9, 10);;(16, 6);large rock robot ;1;2205
+;(9, 10);;(16, 6);large rock robot ;1;2206
+;(9, 10);;(16, 6);large rock robot ;1;2207
+;(9, 10);;(16, 6);large rock robot ;1;2208
+;(9, 10);;(16, 6);large rock robot ;1;2209
+;(9, 10);;(16, 6);large rock robot ;1;2210
+;(9, 10);;(16, 6);large rock robot ;1;2211
+;(9, 10);;(16, 6);large rock robot ;1;2212
+;(9, 10);;(16, 6);large rock robot ;1;2213
+;(9, 10);;(16, 6);large rock robot ;1;2214
+;(9, 10);;(16, 6);large rock robot ;1;2215
+;(9, 10);;(16, 6);large rock robot ;1;2216
+;(9, 10);;(16, 6);large rock robot ;1;2217
+;(9, 10);;(16, 6);large rock robot ;1;2218
+;(9, 10);;(16, 6);large rock robot ;1;2219
+;(9, 10);;(16, 6);large rock robot ;1;2220
+;(9, 10);;(16, 6);large rock robot ;1;2221
+;(9, 10);;(16, 6);large rock robot ;1;2222
+;(9, 10);;(16, 6);large rock robot ;1;2223
+;(9, 10);;(16, 6);large rock robot ;1;2224
+;(9, 10);;(16, 6);large rock robot ;1;2225
+;(9, 10);;(16, 6);large rock robot ;1;2226
+;(9, 10);;(16, 6);large rock robot ;1;2227
+;(9, 10);;(16, 6);large rock robot ;1;2228
+;(9, 10);;(16, 6);large rock robot ;1;2229
+;(9, 10);;(16, 6);large rock robot ;1;2230
+;(9, 10);;(16, 6);large rock robot ;1;2231
+;(9, 10);;(16, 6);large rock robot ;1;2232
+;(9, 10);;(16, 6);large rock robot ;1;2233
+;(9, 10);;(16, 6);large rock robot ;1;2234
+;(9, 10);;(16, 6);large rock robot ;1;2235
+;(9, 10);;(16, 6);large rock robot ;1;2236
+;(9, 10);;(16, 6);large rock robot ;1;2237
+;(9, 10);;(16, 6);large rock robot ;1;2238
+;(9, 10);;(16, 6);large rock robot ;1;2239
+;(9, 10);;(16, 6);large rock robot ;1;2240
+;(9, 10);;(16, 6);large rock robot ;1;2241
+;(9, 10);;(16, 6);large rock robot ;1;2242
+;(9, 10);;(16, 6);large rock robot ;1;2243
+;(9, 10);;(16, 6);large rock robot ;1;2244
+;(9, 10);;(16, 6);large rock robot ;1;2245
+;(9, 10);;(16, 6);large rock robot ;1;2246
+;(9, 10);;(16, 6);large rock robot ;1;2247
+;(9, 10);;(16, 6);large rock robot ;1;2248
+;(9, 10);;(16, 6);large rock robot ;1;2249
+;(9, 10);;(16, 6);large rock robot ;1;2250
+;(9, 10);;(16, 6);large rock robot ;1;2251
+;(9, 10);;(16, 6);large rock robot ;1;2252
+;(9, 10);;(16, 6);large rock robot ;1;2253
+;(9, 10);;(16, 6);large rock robot ;1;2254
+;(9, 10);;(16, 6);large rock robot ;1;2255
+;(9, 10);;(16, 6);large rock robot ;1;2256
+;(9, 10);;(16, 6);large rock robot ;1;2257
+;(9, 10);;(16, 6);large rock robot ;1;2258
+;(9, 10);;(16, 6);large rock robot ;1;2259
+;(9, 10);;(16, 6);large rock robot ;1;2260
+;(9, 10);;(16, 6);large rock robot ;1;2261
+;(9, 10);;(16, 6);large rock robot ;1;2262
+;(9, 10);;(16, 6);large rock robot ;1;2263
+;(9, 10);;(16, 6);large rock robot ;1;2264
+;(9, 10);;(16, 6);large rock robot ;1;2265
+;(9, 10);;(16, 6);large rock robot ;1;2266
+;(9, 10);;(16, 6);large rock robot ;1;2267
+;(9, 10);;(16, 6);large rock robot ;1;2268
+;(9, 10);;(16, 6);large rock robot ;1;2269
+;(9, 10);;(16, 6);large rock robot ;1;2270
+;(9, 10);;(16, 6);large rock robot ;1;2271
+;(9, 10);;(16, 6);large rock robot ;1;2272
+;(9, 10);;(16, 6);large rock robot ;1;2273
+;(9, 10);;(16, 6);large rock robot ;1;2274
+;(9, 10);;(16, 6);large rock robot ;1;2275
+;(9, 10);;(16, 6);large rock robot ;1;2276
+;(9, 10);;(16, 6);large rock robot ;1;2277
+;(9, 10);;(16, 6);large rock robot ;1;2278
+;(9, 10);;(16, 6);large rock robot ;1;2279
+;(9, 10);;(16, 6);large rock robot ;1;2280
+;(9, 10);;(16, 6);large rock robot ;1;2281
+;(9, 10);;(16, 6);large rock robot ;1;2282
+;(9, 10);;(16, 6);large rock robot ;1;2283
+;(9, 10);;(16, 6);large rock robot ;1;2284
+;(9, 10);;(16, 6);large rock robot ;1;2285
+;(9, 10);;(16, 6);large rock robot ;1;2286
+;(9, 10);;(16, 6);large rock robot ;1;2287
+;(9, 10);;(16, 6);large rock robot ;1;2288
+;(9, 10);;(16, 6);large rock robot ;1;2289
+;(9, 10);;(16, 6);large rock robot ;1;2290
+;(9, 10);;(16, 6);large rock robot ;1;2291
+;(9, 10);;(16, 6);large rock robot ;1;2292
+;(9, 10);;(16, 6);large rock robot ;1;2293
+;(9, 10);;(16, 6);large rock robot ;1;2294
+;(9, 10);;(16, 6);large rock robot ;1;2295
+;(9, 10);;(16, 6);large rock robot ;1;2296
+;(9, 10);;(16, 6);large rock robot ;1;2297
+;(9, 10);;(16, 6);large rock robot ;1;2298
+;(9, 10);;(16, 6);large rock robot ;1;2299
+;(9, 10);;(16, 6);large rock robot ;1;2300
+;(9, 10);;(16, 6);large rock robot ;1;2301
+;(9, 10);;(16, 6);large rock robot ;1;2302
+;(9, 10);;(16, 6);large rock robot ;1;2303
+;(9, 10);;(16, 6);large rock robot ;1;2304
+;(9, 10);;(16, 6);large rock robot ;1;2305
+;(9, 10);;(16, 6);large rock robot ;1;2306
+;(9, 10);;(16, 6);large rock robot ;1;2307
+;(9, 10);;(16, 6);large rock robot ;1;2308
+;(9, 10);;(16, 6);large rock robot ;1;2309
+;(9, 10);;(16, 6);large rock robot ;1;2310
+;(9, 10);;(16, 6);large rock robot ;1;2311
+;(9, 10);;(16, 6);large rock robot ;1;2312
+;(9, 10);;(16, 6);large rock robot ;1;2313
+;(9, 10);;(16, 6);large rock robot ;1;2314
+;(9, 10);;(16, 6);large rock robot ;1;2315
+;(9, 10);;(16, 6);large rock robot ;1;2316
+;(9, 10);;(16, 6);large rock robot ;1;2317
+;(9, 10);;(16, 6);large rock robot ;1;2318
+;(9, 10);;(16, 6);large rock robot ;1;2319
+;(9, 10);;(16, 6);large rock robot ;1;2320
+;(9, 10);;(16, 6);large rock robot ;1;2321
+;(9, 10);;(16, 6);large rock robot ;1;2322
+;(9, 10);;(16, 6);large rock robot ;1;2323
+;(9, 10);;(16, 6);large rock robot ;1;2324
+;(9, 10);;(16, 6);large rock robot ;1;2325
+;(9, 10);;(16, 6);large rock robot ;1;2326
+;(9, 10);;(16, 6);large rock robot ;1;2327
+;(9, 10);;(16, 6);large rock robot ;1;2328
+;(9, 10);;(16, 6);large rock robot ;1;2329
+;(9, 10);;(16, 6);large rock robot ;1;2330
+;(9, 10);;(16, 6);large rock robot ;1;2331
+;(9, 10);;(16, 6);large rock robot ;1;2332
+;(9, 10);;(16, 6);large rock robot ;1;2333
+;(9, 10);;(16, 6);large rock robot ;1;2334
+;(9, 10);;(16, 6);large rock robot ;1;2335
+;(9, 10);;(16, 6);large rock robot ;1;2336
+;(9, 10);;(16, 6);large rock robot ;1;2337
+;(9, 10);;(16, 6);large rock robot ;1;2338
+;(9, 10);;(16, 6);large rock robot ;1;2339
+;(9, 10);;(16, 6);large rock robot ;1;2340
+;(9, 10);;(16, 6);large rock robot ;1;2341
+;(9, 10);;(16, 6);large rock robot ;1;2342
+;(9, 10);;(16, 6);large rock robot ;1;2343
+;(9, 10);;(16, 6);large rock robot ;1;2344
+;(9, 10);;(16, 6);large rock robot ;1;2345
+;(9, 10);;(16, 6);large rock robot ;1;2346
+;(9, 10);;(16, 6);large rock robot ;1;2347
+;(9, 10);;(16, 6);large rock robot ;1;2348
+;(9, 10);;(16, 6);large rock robot ;1;2349
+;(9, 10);;(16, 6);large rock robot ;1;2350
+;(9, 10);;(16, 6);large rock robot ;1;2351
+;(9, 10);;(16, 6);large rock robot ;1;2352
+;(9, 10);;(16, 6);large rock robot ;1;2353
+;(9, 10);;(16, 6);large rock robot ;1;2354
+;(9, 10);;(16, 6);large rock robot ;1;2355
+;(9, 10);;(16, 6);large rock robot ;1;2356
+;(9, 10);;(16, 6);large rock robot ;1;2357
+;(9, 10);;(16, 6);large rock robot ;1;2358
+;(9, 10);;(16, 6);large rock robot ;1;2359
+;(9, 10);;(16, 6);large rock robot ;1;2360
+;(9, 10);;(16, 6);large rock robot ;1;2361
+;(9, 10);;(16, 6);large rock robot ;1;2362
+;(9, 10);;(16, 6);large rock robot ;1;2363
+;(9, 10);;(16, 6);large rock robot ;1;2364
+;(9, 10);;(16, 6);large rock robot ;1;2365
+;(9, 10);;(16, 6);large rock robot ;1;2366
+;(9, 10);;(16, 6);large rock robot ;1;2367
+;(9, 10);;(16, 6);large rock robot ;1;2368
+;(9, 10);;(16, 6);large rock robot ;1;2369
+;(9, 10);;(16, 6);large rock robot ;1;2370
+;(9, 10);;(16, 6);large rock robot ;1;2371
+;(9, 10);;(16, 6);large rock robot ;1;2372
+;(9, 10);;(16, 6);large rock robot ;1;2373
+;(9, 10);;(16, 6);large rock robot ;1;2374
+;(9, 10);;(16, 6);large rock robot ;1;2375
+;(9, 10);;(16, 6);large rock robot ;1;2376
+;(9, 10);;(16, 6);large rock robot ;1;2377
+;(9, 10);;(16, 6);large rock robot ;1;2378
+;(9, 10);;(16, 6);large rock robot ;1;2379
+;(9, 10);;(16, 6);large rock robot ;1;2380
+;(9, 10);;(16, 6);large rock robot ;1;2381
+;(9, 10);;(16, 6);large rock robot ;1;2382
+;(9, 10);;(16, 6);large rock robot ;1;2383
+;(9, 10);;(16, 6);large rock robot ;1;2384
+;(9, 10);;(16, 6);large rock robot ;1;2385
+;(9, 10);;(16, 6);large rock robot ;1;2386
+;(9, 10);;(16, 6);large rock robot ;1;2387
+;(9, 10);;(16, 6);large rock robot ;1;2388
+;(9, 10);;(16, 6);large rock robot ;1;2389
+;(9, 10);;(16, 6);large rock robot ;1;2390
+;(9, 10);;(16, 6);large rock robot ;1;2391
+;(9, 10);;(16, 6);large rock robot ;1;2392
+;(9, 10);;(16, 6);large rock robot ;1;2393
+;(9, 10);;(16, 6);large rock robot ;1;2394
+;(9, 10);;(16, 6);large rock robot ;1;2395
+;(9, 10);;(16, 6);large rock robot ;1;2396
+;(9, 10);;(16, 6);large rock robot ;1;2397
+;(9, 10);;(16, 6);large rock robot ;1;2398
+;(9, 10);;(16, 6);large rock robot ;1;2399
+;(9, 10);;(16, 6);large rock robot ;1;2400
+;(9, 10);;(16, 6);large rock robot ;1;2401
+;(9, 10);;(16, 6);large rock robot ;1;2402
+;(9, 10);;(16, 6);large rock robot ;1;2403
+;(9, 10);;(16, 6);large rock robot ;1;2404
+;(9, 10);;(16, 6);large rock robot ;1;2405
+;(9, 10);;(16, 6);large rock robot ;1;2406
+;(9, 10);;(16, 6);large rock robot ;1;2407
+;(9, 10);;(16, 6);large rock robot ;1;2408
+;(9, 10);;(16, 6);large rock robot ;1;2409
+;(9, 10);;(16, 6);large rock robot ;1;2410
+;(9, 10);;(16, 6);large rock robot ;1;2411
+;(9, 10);;(16, 6);large rock robot ;1;2412
+;(9, 10);;(16, 6);large rock robot ;1;2413
+;(9, 10);;(16, 6);large rock robot ;1;2414
+;(9, 10);;(16, 6);large rock robot ;1;2415
+;(9, 10);;(16, 6);large rock robot ;1;2416
+;(9, 10);;(16, 6);large rock robot ;1;2417
+;(9, 10);;(16, 6);large rock robot ;1;2418
+;(9, 10);;(16, 6);large rock robot ;1;2419
+;(9, 10);;(16, 6);large rock robot ;1;2420
+;(9, 10);;(16, 6);large rock robot ;1;2421
+;(9, 10);;(16, 6);large rock robot ;1;2422
+;(9, 10);;(16, 6);large rock robot ;1;2423
+;(9, 10);;(16, 6);large rock robot ;1;2424
+;(9, 10);;(16, 6);large rock robot ;1;2425
+;(9, 10);;(16, 6);large rock robot ;1;2426
+;(9, 10);;(16, 6);large rock robot ;1;2427
+;(9, 10);;(16, 6);large rock robot ;1;2428
+;(9, 10);;(16, 6);large rock robot ;1;2429
+;(9, 10);;(16, 6);large rock robot ;1;2430
+;(9, 10);;(16, 6);large rock robot ;1;2431
+;(9, 10);;(16, 6);large rock robot ;1;2432
+;(9, 10);;(16, 6);large rock robot ;1;2433
+;(9, 10);;(16, 6);large rock robot ;1;2434
+;(9, 10);;(16, 6);large rock robot ;1;2435
+;(9, 10);;(16, 6);large rock robot ;1;2436
+;(9, 10);;(16, 6);large rock robot ;1;2437
+;(9, 10);;(16, 6);large rock robot ;1;2438
+;(9, 10);;(16, 6);large rock robot ;1;2439
+;(9, 10);;(16, 6);large rock robot ;1;2440
+;(9, 10);;(16, 6);large rock robot ;1;2441
+;(9, 10);;(16, 6);large rock robot ;1;2442
+;(9, 10);;(16, 6);large rock robot ;1;2443
+;(9, 10);;(16, 6);large rock robot ;1;2444
+;(9, 10);;(16, 6);large rock robot ;1;2445
+;(9, 10);;(16, 6);large rock robot ;1;2446
+;(9, 10);;(16, 6);large rock robot ;1;2447
+;(9, 10);;(16, 6);large rock robot ;1;2448
+;(9, 10);;(16, 6);large rock robot ;1;2449
+;(9, 10);;(16, 6);large rock robot ;1;2450
+;(9, 10);;(16, 6);large rock robot ;1;2451
+;(9, 10);;(16, 6);large rock robot ;1;2452
+;(9, 10);;(16, 6);large rock robot ;1;2453
+;(9, 10);;(16, 6);large rock robot ;1;2454
+;(9, 10);;(16, 6);large rock robot ;1;2455
+;(9, 10);;(16, 6);large rock robot ;1;2456
+;(9, 10);;(16, 6);large rock robot ;1;2457
+;(9, 10);;(16, 6);large rock robot ;1;2458
+;(9, 10);;(16, 6);large rock robot ;1;2459
+;(9, 10);;(16, 6);large rock robot ;1;2460
+;(9, 10);;(16, 6);large rock robot ;1;2461
+;(9, 10);;(16, 6);large rock robot ;1;2462
+;(9, 10);;(16, 6);large rock robot ;1;2463
+;(9, 10);;(16, 6);large rock robot ;1;2464
+;(9, 10);;(16, 6);large rock robot ;1;2465
+;(9, 10);;(16, 6);large rock robot ;1;2466
+;(9, 10);;(16, 6);large rock robot ;1;2467
+;(9, 10);;(16, 6);large rock robot ;1;2468
+;(9, 10);;(16, 6);large rock robot ;1;2469
+;(9, 10);;(16, 6);large rock robot ;1;2470
+;(9, 10);;(16, 6);large rock robot ;1;2471
+;(9, 10);;(16, 6);large rock robot ;1;2472
+;(9, 10);;(16, 6);large rock robot ;1;2473
+;(9, 10);;(16, 6);large rock robot ;1;2474
+;(9, 10);;(16, 6);large rock robot ;1;2475
+;(9, 10);;(16, 6);large rock robot ;1;2476
+;(9, 10);;(16, 6);large rock robot ;1;2477
+;(9, 10);;(16, 6);large rock robot ;1;2478
+;(9, 10);;(16, 6);large rock robot ;1;2479
+;(9, 10);;(16, 6);large rock robot ;1;2480
+;(9, 10);;(16, 6);large rock robot ;1;2481
+;(9, 10);;(16, 6);large rock robot ;1;2482
+;(9, 10);;(16, 6);large rock robot ;1;2483
+;(9, 10);;(16, 6);large rock robot ;1;2484
+;(9, 10);;(16, 6);large rock robot ;1;2485
+;(9, 10);;(16, 6);large rock robot ;1;2486
+;(9, 10);;(16, 6);large rock robot ;1;2487
+;(9, 10);;(16, 6);large rock robot ;1;2488
+;(9, 10);;(16, 6);large rock robot ;1;2489
+;(9, 10);;(16, 6);large rock robot ;1;2490
+;(9, 10);;(16, 6);large rock robot ;1;2491
+;(9, 10);;(16, 6);large rock robot ;1;2492
+;(9, 10);;(16, 6);large rock robot ;1;2493
+;(9, 10);;(16, 6);large rock robot ;1;2494
+;(9, 10);;(16, 6);large rock robot ;1;2495
+;(9, 10);;(16, 6);large rock robot ;1;2496
+;(9, 10);;(16, 6);large rock robot ;1;2497
+;(9, 10);;(16, 6);large rock robot ;1;2498
+;(9, 10);;(16, 6);large rock robot ;1;2499
+;(9, 10);;(16, 6);large rock robot ;1;2500
+;(9, 10);;(16, 6);large rock robot ;1;2501
+;(9, 10);;(16, 6);large rock robot ;1;2502
+;(9, 10);;(16, 6);large rock robot ;1;2503
+;(9, 10);;(16, 6);large rock robot ;1;2504
+;(9, 10);;(16, 6);large rock robot ;1;2505
+;(9, 10);;(16, 6);large rock robot ;1;2506
+;(9, 10);;(16, 6);large rock robot ;1;2507
+;(9, 10);;(16, 6);large rock robot ;1;2508
+;(9, 10);;(16, 6);large rock robot ;1;2509
+;(9, 10);;(16, 6);large rock robot ;1;2510
+;(9, 10);;(16, 6);large rock robot ;1;2511
+;(9, 10);;(16, 6);large rock robot ;1;2512
+;(9, 10);;(16, 6);large rock robot ;1;2513
+;(9, 10);;(16, 6);large rock robot ;1;2514
+;(9, 10);;(16, 6);large rock robot ;1;2515
+;(9, 10);;(16, 6);large rock robot ;1;2516
+;(9, 10);;(16, 6);large rock robot ;1;2517
+;(9, 10);;(16, 6);large rock robot ;1;2518
+;(9, 10);;(16, 6);large rock robot ;1;2519
+;(9, 10);;(16, 6);large rock robot ;1;2520
+;(9, 10);;(16, 6);large rock robot ;1;2521
+;(9, 10);;(16, 6);large rock robot ;1;2522
+;(9, 10);;(16, 6);large rock robot ;1;2523
+;(9, 10);;(16, 6);large rock robot ;1;2524
+;(9, 10);;(16, 6);large rock robot ;1;2525
+;(9, 10);;(16, 6);large rock robot ;1;2526
+;(9, 10);;(16, 6);large rock robot ;1;2527
+;(9, 10);;(16, 6);large rock robot ;1;2528
+;(9, 10);;(16, 6);large rock robot ;1;2529
+;(9, 10);;(16, 6);large rock robot ;1;2530
+;(9, 10);;(16, 6);large rock robot ;1;2531
+;(9, 10);;(16, 6);large rock robot ;1;2532
+;(9, 10);;(16, 6);large rock robot ;1;2533
+;(9, 10);;(16, 6);large rock robot ;1;2534
+;(9, 10);;(16, 6);large rock robot ;1;2535
+;(9, 10);;(16, 6);large rock robot ;1;2536
+;(9, 10);;(16, 6);large rock robot ;1;2537
+;(9, 10);;(16, 6);large rock robot ;1;2538
+;(9, 10);;(16, 6);large rock robot ;1;2539
+;(9, 10);;(16, 6);large rock robot ;1;2540
+;(9, 10);;(16, 6);large rock robot ;1;2541
+;(9, 10);;(16, 6);large rock robot ;1;2542
+;(9, 10);;(16, 6);large rock robot ;1;2543
+;(9, 10);;(16, 6);large rock robot ;1;2544
+;(9, 10);;(16, 6);large rock robot ;1;2545
+;(9, 10);;(16, 6);large rock robot ;1;2546
+;(9, 10);;(16, 6);large rock robot ;1;2547
+;(9, 10);;(16, 6);large rock robot ;1;2548
+;(9, 10);;(16, 6);large rock robot ;1;2549
+;(9, 10);;(16, 6);large rock robot ;1;2550
+;(9, 10);;(16, 6);large rock robot ;1;2551
+;(9, 10);;(16, 6);large rock robot ;1;2552
+;(9, 10);;(16, 6);large rock robot ;1;2553
+;(9, 10);;(16, 6);large rock robot ;1;2554
+;(9, 10);;(16, 6);large rock robot ;1;2555
+;(9, 10);;(16, 6);large rock robot ;1;2556
+;(9, 10);;(16, 6);large rock robot ;1;2557
+;(9, 10);;(16, 6);large rock robot ;1;2558
+;(9, 10);;(16, 6);large rock robot ;1;2559
+;(9, 10);;(16, 6);large rock robot ;1;2560
+;(9, 10);;(16, 6);large rock robot ;1;2561
+;(9, 10);;(16, 6);large rock robot ;1;2562
+;(9, 10);;(16, 6);large rock robot ;1;2563
+;(9, 10);;(16, 6);large rock robot ;1;2564
+;(9, 10);;(16, 6);large rock robot ;1;2565
+;(9, 10);;(16, 6);large rock robot ;1;2566
+;(9, 10);;(16, 6);large rock robot ;1;2567
+;(9, 10);;(16, 6);large rock robot ;1;2568
+;(9, 10);;(16, 6);large rock robot ;1;2569
+;(9, 10);;(16, 6);large rock robot ;1;2570
+;(9, 10);;(16, 6);large rock robot ;1;2571
+;(9, 10);;(16, 6);large rock robot ;1;2572
+;(9, 10);;(16, 6);large rock robot ;1;2573
+;(9, 10);;(16, 6);large rock robot ;1;2574
+;(9, 10);;(16, 6);large rock robot ;1;2575
+;(9, 10);;(16, 6);large rock robot ;1;2576
+;(9, 10);;(16, 6);large rock robot ;1;2577
+;(9, 10);;(16, 6);large rock robot ;1;2578
+;(9, 10);;(16, 6);large rock robot ;1;2579
+;(9, 10);;(16, 6);large rock robot ;1;2580
+;(9, 10);;(16, 6);large rock robot ;1;2581
+;(9, 10);;(16, 6);large rock robot ;1;2582
+;(9, 10);;(16, 6);large rock robot ;1;2583
+;(9, 10);;(16, 6);large rock robot ;1;2584
+;(9, 10);;(16, 6);large rock robot ;1;2585
+;(9, 10);;(16, 6);large rock robot ;1;2586
+;(9, 10);;(16, 6);large rock robot ;1;2587
+;(9, 10);;(16, 6);large rock robot ;1;2588
+;(9, 10);;(16, 6);large rock robot ;1;2589
+;(9, 10);;(16, 6);large rock robot ;1;2590
+;(9, 10);;(16, 6);large rock robot ;1;2591
+;(9, 10);;(16, 6);large rock robot ;1;2592
+;(9, 10);;(16, 6);large rock robot ;1;2593
+;(9, 10);;(16, 6);large rock robot ;1;2594
+;(9, 10);;(16, 6);large rock robot ;1;2595
+;(9, 10);;(16, 6);large rock robot ;1;2596
+;(9, 10);;(16, 6);large rock robot ;1;2597
+;(9, 10);;(16, 6);large rock robot ;1;2598
+;(9, 10);;(16, 6);large rock robot ;1;2599
+;(9, 10);;(16, 6);large rock robot ;1;2600
+;(9, 10);;(16, 6);large rock robot ;1;2601
+;(9, 10);;(16, 6);large rock robot ;1;2602
+;(9, 10);;(16, 6);large rock robot ;1;2603
+;(9, 10);;(16, 6);large rock robot ;1;2604
+;(9, 10);;(16, 6);large rock robot ;1;2605
+;(9, 10);;(16, 6);large rock robot ;1;2606
+;(9, 10);;(16, 6);large rock robot ;1;2607
+;(9, 10);;(16, 6);large rock robot ;1;2608
+;(9, 10);;(16, 6);large rock robot ;1;2609
+;(9, 10);;(16, 6);large rock robot ;1;2610
+;(9, 10);;(16, 6);large rock robot ;1;2611
+;(9, 10);;(16, 6);large rock robot ;1;2612
+;(9, 10);;(16, 6);large rock robot ;1;2613
+;(9, 10);;(16, 6);large rock robot ;1;2614
+;(9, 10);;(16, 6);large rock robot ;1;2615
+;(9, 10);;(16, 6);large rock robot ;1;2616
+;(9, 10);;(16, 6);large rock robot ;1;2617
+;(9, 10);;(16, 6);large rock robot ;1;2618
+;(9, 10);;(16, 6);large rock robot ;1;2619
+;(9, 10);;(16, 6);large rock robot ;1;2620
+;(9, 10);;(16, 6);large rock robot ;1;2621
+;(9, 10);;(16, 6);large rock robot ;1;2622
+;(9, 10);;(16, 6);large rock robot ;1;2623
+;(9, 10);;(16, 6);large rock robot ;1;2624
+;(9, 10);;(16, 6);large rock robot ;1;2625
+;(9, 10);;(16, 6);large rock robot ;1;2626
+;(9, 10);;(16, 6);large rock robot ;1;2627
+;(9, 10);;(16, 6);large rock robot ;1;2628
+;(9, 10);;(16, 6);large rock robot ;1;2629
+;(9, 10);;(16, 6);large rock robot ;1;2630
+;(9, 10);;(16, 6);large rock robot ;1;2631
+;(9, 10);;(16, 6);large rock robot ;1;2632
+;(9, 10);;(16, 6);large rock robot ;1;2633
+;(9, 10);;(16, 6);large rock robot ;1;2634
+;(9, 10);;(16, 6);large rock robot ;1;2635
+;(9, 10);;(16, 6);large rock robot ;1;2636
+;(9, 10);;(16, 6);large rock robot ;1;2637
+;(9, 10);;(16, 6);large rock robot ;1;2638
+;(9, 10);;(16, 6);large rock robot ;1;2639
+;(9, 10);;(16, 6);large rock robot ;1;2640
+;(9, 10);;(16, 6);large rock robot ;1;2641
+;(9, 10);;(16, 6);large rock robot ;1;2642
+;(9, 10);;(16, 6);large rock robot ;1;2643
+;(9, 10);;(16, 6);large rock robot ;1;2644
+;(9, 10);;(16, 6);large rock robot ;1;2645
+;(9, 10);;(16, 6);large rock robot ;1;2646
+;(9, 10);;(16, 6);large rock robot ;1;2647
+;(9, 10);;(16, 6);large rock robot ;1;2648
+;(9, 10);;(16, 6);large rock robot ;1;2649
+;(9, 10);;(16, 6);large rock robot ;1;2650
+;(9, 10);;(16, 6);large rock robot ;1;2651
+;(9, 10);;(16, 6);large rock robot ;1;2652
+;(9, 10);;(16, 6);large rock robot ;1;2653
+;(9, 10);;(16, 6);large rock robot ;1;2654
+;(9, 10);;(16, 6);large rock robot ;1;2655
+;(9, 10);;(16, 6);large rock robot ;1;2656
+;(9, 10);;(16, 6);large rock robot ;1;2657
+;(9, 10);;(16, 6);large rock robot ;1;2658
+;(9, 10);;(16, 6);large rock robot ;1;2659
+;(9, 10);;(16, 6);large rock robot ;1;2660
+;(9, 10);;(16, 6);large rock robot ;1;2661
+;(9, 10);;(16, 6);large rock robot ;1;2662
+;(9, 10);;(16, 6);large rock robot ;1;2663
+;(9, 10);;(16, 6);large rock robot ;1;2664
+;(9, 10);;(16, 6);large rock robot ;1;2665
+;(9, 10);;(16, 6);large rock robot ;1;2666
+;(9, 10);;(16, 6);large rock robot ;1;2667
+;(9, 10);;(16, 6);large rock robot ;1;2668
+;(9, 10);;(16, 6);large rock robot ;1;2669
+;(9, 10);;(16, 6);large rock robot ;1;2670
+;(9, 10);;(16, 6);large rock robot ;1;2671
+;(9, 10);;(16, 6);large rock robot ;1;2672
+;(9, 10);;(16, 6);large rock robot ;1;2673
+;(9, 10);;(16, 6);large rock robot ;1;2674
+;(9, 10);;(16, 6);large rock robot ;1;2675
+;(9, 10);;(16, 6);large rock robot ;1;2676
+;(9, 10);;(16, 6);large rock robot ;1;2677
+;(9, 10);;(16, 6);large rock robot ;1;2678
+;(9, 10);;(16, 6);large rock robot ;1;2679
+;(9, 10);;(16, 6);large rock robot ;1;2680
+;(9, 10);;(16, 6);large rock robot ;1;2681
+;(9, 10);;(16, 6);large rock robot ;1;2682
+;(9, 10);;(16, 6);large rock robot ;1;2683
+;(9, 10);;(16, 6);large rock robot ;1;2684
+;(9, 10);;(16, 6);large rock robot ;1;2685
+;(9, 10);;(16, 6);large rock robot ;1;2686
+;(9, 10);;(16, 6);large rock robot ;1;2687
+;(9, 10);;(16, 6);large rock robot ;1;2688
+;(9, 10);;(16, 6);large rock robot ;1;2689
+;(9, 10);;(16, 6);large rock robot ;1;2690
+;(9, 10);;(16, 6);large rock robot ;1;2691
+;(9, 10);;(16, 6);large rock robot ;1;2692
+;(9, 10);;(16, 6);large rock robot ;1;2693
+;(9, 10);;(16, 6);large rock robot ;1;2694
+;(9, 10);;(16, 6);large rock robot ;1;2695
+;(9, 10);;(16, 6);large rock robot ;1;2696
+;(9, 10);;(16, 6);large rock robot ;1;2697
+;(9, 10);;(16, 6);large rock robot ;1;2698
+;(9, 10);;(16, 6);large rock robot ;1;2699
+;(9, 10);;(16, 6);large rock robot ;1;2700
+;(9, 10);;(16, 6);large rock robot ;1;2701
+;(9, 10);;(16, 6);large rock robot ;1;2702
+;(9, 10);;(16, 6);large rock robot ;1;2703
+;(9, 10);;(16, 6);large rock robot ;1;2704
+;(9, 10);;(16, 6);large rock robot ;1;2705
+;(9, 10);;(16, 6);large rock robot ;1;2706
+;(9, 10);;(16, 6);large rock robot ;1;2707
+;(9, 10);;(16, 6);large rock robot ;1;2708
+;(9, 10);;(16, 6);large rock robot ;1;2709
+;(9, 10);;(16, 6);large rock robot ;1;2710
+;(9, 10);;(16, 6);large rock robot ;1;2711
+;(9, 10);;(16, 6);large rock robot ;1;2712
+;(9, 10);;(16, 6);large rock robot ;1;2713
+;(9, 10);;(16, 6);large rock robot ;1;2714
+;(9, 10);;(16, 6);large rock robot ;1;2715
+;(9, 10);;(16, 6);large rock robot ;1;2716
+;(9, 10);;(16, 6);large rock robot ;1;2717
+;(9, 10);;(16, 6);large rock robot ;1;2718
+;(9, 10);;(16, 6);large rock robot ;1;2719
+;(9, 10);;(16, 6);large rock robot ;1;2720
+;(9, 10);;(16, 6);large rock robot ;1;2721
+;(9, 10);;(16, 6);large rock robot ;1;2722
+;(9, 10);;(16, 6);large rock robot ;1;2723
+;(9, 10);;(16, 6);large rock robot ;1;2724
+;(9, 10);;(16, 6);large rock robot ;1;2725
+;(9, 10);;(16, 6);large rock robot ;1;2726
+;(9, 10);;(16, 6);large rock robot ;1;2727
+;(9, 10);;(16, 6);large rock robot ;1;2728
+;(9, 10);;(16, 6);large rock robot ;1;2729
+;(9, 10);;(16, 6);large rock robot ;1;2730
+;(9, 10);;(16, 6);large rock robot ;1;2731
+;(9, 10);;(16, 6);large rock robot ;1;2732
+;(9, 10);;(16, 6);large rock robot ;1;2733
+;(9, 10);;(16, 6);large rock robot ;1;2734
+;(9, 10);;(16, 6);large rock robot ;1;2735
+;(9, 10);;(16, 6);large rock robot ;1;2736
+;(9, 10);;(16, 6);large rock robot ;1;2737
+;(9, 10);;(16, 6);large rock robot ;1;2738
+;(9, 10);;(16, 6);large rock robot ;1;2739
+;(9, 10);;(16, 6);large rock robot ;1;2740
+;(9, 10);;(16, 6);large rock robot ;1;2741
+;(9, 10);;(16, 6);large rock robot ;1;2742
+;(9, 10);;(16, 6);large rock robot ;1;2743
+;(9, 10);;(16, 6);large rock robot ;1;2744
+;(9, 10);;(16, 6);large rock robot ;1;2745
+;(9, 10);;(16, 6);large rock robot ;1;2746
+;(9, 10);;(16, 6);large rock robot ;1;2747
+;(9, 10);;(16, 6);large rock robot ;1;2748
+;(9, 10);;(16, 6);large rock robot ;1;2749
+;(9, 10);;(16, 6);large rock robot ;1;2750
+;(9, 10);;(16, 6);large rock robot ;1;2751
+;(9, 10);;(16, 6);large rock robot ;1;2752
+;(9, 10);;(16, 6);large rock robot ;1;2753
+;(9, 10);;(16, 6);large rock robot ;1;2754
+;(9, 10);;(16, 6);large rock robot ;1;2755
+;(9, 10);;(16, 6);large rock robot ;1;2756
+;(9, 10);;(16, 6);large rock robot ;1;2757
+;(9, 10);;(16, 6);large rock robot ;1;2758
+;(9, 10);;(16, 6);large rock robot ;1;2759
+;(9, 10);;(16, 6);large rock robot ;1;2760
+;(9, 10);;(16, 6);large rock robot ;1;2761
+;(9, 10);;(16, 6);large rock robot ;1;2762
+;(9, 10);;(16, 6);large rock robot ;1;2763
+;(9, 10);;(16, 6);large rock robot ;1;2764
+;(9, 10);;(16, 6);large rock robot ;1;2765
+;(9, 10);;(16, 6);large rock robot ;1;2766
+;(9, 10);;(16, 6);large rock robot ;1;2767
+;(9, 10);;(16, 6);large rock robot ;1;2768
+;(9, 10);;(16, 6);large rock robot ;1;2769
+;(9, 10);;(16, 6);large rock robot ;1;2770
+;(9, 10);;(16, 6);large rock robot ;1;2771
+;(9, 10);;(16, 6);large rock robot ;1;2772
+;(9, 10);;(16, 6);large rock robot ;1;2773
+;(9, 10);;(16, 6);large rock robot ;1;2774
+;(9, 10);;(16, 6);large rock robot ;1;2775
+;(9, 10);;(16, 6);large rock robot ;1;2776
+;(9, 10);;(16, 6);large rock robot ;1;2777
+;(9, 10);;(16, 6);large rock robot ;1;2778
+;(9, 10);;(16, 6);large rock robot ;1;2779
+;(9, 10);;(16, 6);large rock robot ;1;2780
+;(9, 10);;(16, 6);large rock robot ;1;2781
+;(9, 10);;(16, 6);large rock robot ;1;2782
+;(9, 10);;(16, 6);large rock robot ;1;2783
+;(9, 10);;(16, 6);large rock robot ;1;2784
+;(9, 10);;(16, 6);large rock robot ;1;2785
+;(9, 10);;(16, 6);large rock robot ;1;2786
+;(9, 10);;(16, 6);large rock robot ;1;2787
+;(9, 10);;(16, 6);large rock robot ;1;2788
+;(9, 10);;(16, 6);large rock robot ;1;2789
+;(9, 10);;(16, 6);large rock robot ;1;2790
+;(9, 10);;(16, 6);large rock robot ;1;2791
+;(9, 10);;(16, 6);large rock robot ;1;2792
+;(9, 10);;(16, 6);large rock robot ;1;2793
+;(9, 10);;(16, 6);large rock robot ;1;2794
+;(9, 10);;(16, 6);large rock robot ;1;2795
+;(9, 10);;(16, 6);large rock robot ;1;2796
+;(9, 10);;(16, 6);large rock robot ;1;2797
+;(9, 10);;(16, 6);large rock robot ;1;2798
+;(9, 10);;(16, 6);large rock robot ;1;2799
+;(9, 10);;(16, 6);large rock robot ;1;2800
+;(9, 10);;(16, 6);large rock robot ;1;2801
+;(9, 10);;(16, 6);large rock robot ;1;2802
+;(9, 10);;(16, 6);large rock robot ;1;2803
+;(9, 10);;(16, 6);large rock robot ;1;2804
+;(9, 10);;(16, 6);large rock robot ;1;2805
+;(9, 10);;(16, 6);large rock robot ;1;2806
+;(9, 10);;(16, 6);large rock robot ;1;2807
+;(9, 10);;(16, 6);large rock robot ;1;2808
+;(9, 10);;(16, 6);large rock robot ;1;2809
+;(9, 10);;(16, 6);large rock robot ;1;2810
+;(9, 10);;(16, 6);large rock robot ;1;2811
+;(9, 10);;(16, 6);large rock robot ;1;2812
+;(9, 10);;(16, 6);large rock robot ;1;2813
+;(9, 10);;(16, 6);large rock robot ;1;2814
+;(9, 10);;(16, 6);large rock robot ;1;2815
+;(9, 10);;(16, 6);large rock robot ;1;2816
+;(9, 10);;(16, 6);large rock robot ;1;2817
+;(9, 10);;(16, 6);large rock robot ;1;2818
+;(9, 10);;(16, 6);large rock robot ;1;2819
+;(9, 10);;(16, 6);large rock robot ;1;2820
+;(9, 10);;(16, 6);large rock robot ;1;2821
+;(9, 10);;(16, 6);large rock robot ;1;2822
+;(9, 10);;(16, 6);large rock robot ;1;2823
+;(9, 10);;(16, 6);large rock robot ;1;2824
+;(9, 10);;(16, 6);large rock robot ;1;2825
+;(9, 10);;(16, 6);large rock robot ;1;2826
+;(9, 10);;(16, 6);large rock robot ;1;2827
+;(9, 10);;(16, 6);large rock robot ;1;2828
+;(9, 10);;(16, 6);large rock robot ;1;2829
+;(9, 10);;(16, 6);large rock robot ;1;2830
+;(9, 10);;(16, 6);large rock robot ;1;2831
+;(9, 10);;(16, 6);large rock robot ;1;2832
+;(9, 10);;(16, 6);large rock robot ;1;2833
+;(9, 10);;(16, 6);large rock robot ;1;2834
+;(9, 10);;(16, 6);large rock robot ;1;2835
+;(9, 10);;(16, 6);large rock robot ;1;2836
+;(9, 10);;(16, 6);large rock robot ;1;2837
+;(9, 10);;(16, 6);large rock robot ;1;2838
+;(9, 10);;(16, 6);large rock robot ;1;2839
+;(9, 10);;(16, 6);large rock robot ;1;2840
+;(9, 10);;(16, 6);large rock robot ;1;2841
+;(9, 10);;(16, 6);large rock robot ;1;2842
+;(9, 10);;(16, 6);large rock robot ;1;2843
+;(9, 10);;(16, 6);large rock robot ;1;2844
+;(9, 10);;(16, 6);large rock robot ;1;2845
+;(9, 10);;(16, 6);large rock robot ;1;2846
+;(9, 10);;(16, 6);large rock robot ;1;2847
+;(9, 10);;(16, 6);large rock robot ;1;2848
+;(9, 10);;(16, 6);large rock robot ;1;2849
+;(9, 10);;(16, 6);large rock robot ;1;2850
+;(9, 10);;(16, 6);large rock robot ;1;2851
+;(9, 10);;(16, 6);large rock robot ;1;2852
+;(9, 10);;(16, 6);large rock robot ;1;2853
+;(9, 10);;(16, 6);large rock robot ;1;2854
+;(9, 10);;(16, 6);large rock robot ;1;2855
+;(9, 10);;(16, 6);large rock robot ;1;2856
+;(9, 10);;(16, 6);large rock robot ;1;2857
+;(9, 10);;(16, 6);large rock robot ;1;2858
+;(9, 10);;(16, 6);large rock robot ;1;2859
+;(9, 10);;(16, 6);large rock robot ;1;2860
+;(9, 10);;(16, 6);large rock robot ;1;2861
+;(9, 10);;(16, 6);large rock robot ;1;2862
+;(9, 10);;(16, 6);large rock robot ;1;2863
+;(9, 10);;(16, 6);large rock robot ;1;2864
+;(9, 10);;(16, 6);large rock robot ;1;2865
+;(9, 10);;(16, 6);large rock robot ;1;2866
+;(9, 10);;(16, 6);large rock robot ;1;2867
+;(9, 10);;(16, 6);large rock robot ;1;2868
+;(9, 10);;(16, 6);large rock robot ;1;2869
+;(9, 10);;(16, 6);large rock robot ;1;2870
+;(9, 10);;(16, 6);large rock robot ;1;2871
+;(9, 10);;(16, 6);large rock robot ;1;2872
+;(9, 10);;(16, 6);large rock robot ;1;2873
+;(9, 10);;(16, 6);large rock robot ;1;2874
+;(9, 10);;(16, 6);large rock robot ;1;2875
+;(9, 10);;(16, 6);large rock robot ;1;2876
+;(9, 10);;(16, 6);large rock robot ;1;2877
+;(9, 10);;(16, 6);large rock robot ;1;2878
+;(9, 10);;(16, 6);large rock robot ;1;2879
+;(9, 10);;(16, 6);large rock robot ;1;2880
+;(9, 10);;(16, 6);large rock robot ;1;2881
+;(9, 10);;(16, 6);large rock robot ;1;2882
+;(9, 10);;(16, 6);large rock robot ;1;2883
+;(9, 10);;(16, 6);large rock robot ;1;2884
+;(9, 10);;(16, 6);large rock robot ;1;2885
+;(9, 10);;(16, 6);large rock robot ;1;2886
+;(9, 10);;(16, 6);large rock robot ;1;2887
+;(9, 10);;(16, 6);large rock robot ;1;2888
+;(9, 10);;(16, 6);large rock robot ;1;2889
+;(9, 10);;(16, 6);large rock robot ;1;2890
+;(9, 10);;(16, 6);large rock robot ;1;2891
+;(9, 10);;(16, 6);large rock robot ;1;2892
+;(9, 10);;(16, 6);large rock robot ;1;2893
+;(9, 10);;(16, 6);large rock robot ;1;2894
+;(9, 10);;(16, 6);large rock robot ;1;2895
+;(9, 10);;(16, 6);large rock robot ;1;2896
+;(9, 10);;(16, 6);large rock robot ;1;2897
+;(9, 10);;(16, 6);large rock robot ;1;2898
+;(9, 10);;(16, 6);large rock robot ;1;2899
+;(9, 10);;(16, 6);large rock robot ;1;2900
+;(9, 10);;(16, 6);large rock robot ;1;2901
+;(9, 10);;(16, 6);large rock robot ;1;2902
+;(9, 10);;(16, 6);large rock robot ;1;2903
+;(9, 10);;(16, 6);large rock robot ;1;2904
+;(9, 10);;(16, 6);large rock robot ;1;2905
+;(9, 10);;(16, 6);large rock robot ;1;2906
+;(9, 10);;(16, 6);large rock robot ;1;2907
+;(9, 10);;(16, 6);large rock robot ;1;2908
+;(9, 10);;(16, 6);large rock robot ;1;2909
+;(9, 10);;(16, 6);large rock robot ;1;2910
+;(9, 10);;(16, 6);large rock robot ;1;2911
+;(9, 10);;(16, 6);large rock robot ;1;2912
+;(9, 10);;(16, 6);large rock robot ;1;2913
+;(9, 10);;(16, 6);large rock robot ;1;2914
+;(9, 10);;(16, 6);large rock robot ;1;2915
+;(9, 10);;(16, 6);large rock robot ;1;2916
+;(9, 10);;(16, 6);large rock robot ;1;2917
+;(9, 10);;(16, 6);large rock robot ;1;2918
+;(9, 10);;(16, 6);large rock robot ;1;2919
+;(9, 10);;(16, 6);large rock robot ;1;2920
+;(9, 10);;(16, 6);large rock robot ;1;2921
+;(9, 10);;(16, 6);large rock robot ;1;2922
+;(9, 10);;(16, 6);large rock robot ;1;2923
+;(9, 10);;(16, 6);large rock robot ;1;2924
+;(9, 10);;(16, 6);large rock robot ;1;2925
+;(9, 10);;(16, 6);large rock robot ;1;2926
+;(9, 10);;(16, 6);large rock robot ;1;2927
+;(9, 10);;(16, 6);large rock robot ;1;2928
+;(9, 10);;(16, 6);large rock robot ;1;2929
+;(9, 10);;(16, 6);large rock robot ;1;2930
+;(9, 10);;(16, 6);large rock robot ;1;2931
+;(9, 10);;(16, 6);large rock robot ;1;2932
+;(9, 10);;(16, 6);large rock robot ;1;2933
+;(9, 10);;(16, 6);large rock robot ;1;2934
+;(9, 10);;(16, 6);large rock robot ;1;2935
+;(9, 10);;(16, 6);large rock robot ;1;2936
+;(9, 10);;(16, 6);large rock robot ;1;2937
+;(9, 10);;(16, 6);large rock robot ;1;2938
+;(9, 10);;(16, 6);large rock robot ;1;2939
+;(9, 10);;(16, 6);large rock robot ;1;2940
+;(9, 10);;(16, 6);large rock robot ;1;2941
+;(9, 10);;(16, 6);large rock robot ;1;2942
+;(9, 10);;(16, 6);large rock robot ;1;2943
+;(9, 10);;(16, 6);large rock robot ;1;2944
+;(9, 10);;(16, 6);large rock robot ;1;2945
+;(9, 10);;(16, 6);large rock robot ;1;2946
+;(9, 10);;(16, 6);large rock robot ;1;2947
+;(9, 10);;(16, 6);large rock robot ;1;2948
+;(9, 10);;(16, 6);large rock robot ;1;2949
+;(9, 10);;(16, 6);large rock robot ;1;2950
+;(9, 10);;(16, 6);large rock robot ;1;2951
+;(9, 10);;(16, 6);large rock robot ;1;2952
+;(9, 10);;(16, 6);large rock robot ;1;2953
+;(9, 10);;(16, 6);large rock robot ;1;2954
+;(9, 10);;(16, 6);large rock robot ;1;2955
+;(9, 10);;(16, 6);large rock robot ;1;2956
+;(9, 10);;(16, 6);large rock robot ;1;2957
+;(9, 10);;(16, 6);large rock robot ;1;2958
+;(9, 10);;(16, 6);large rock robot ;1;2959
+;(9, 10);;(16, 6);large rock robot ;1;2960
+;(9, 10);;(16, 6);large rock robot ;1;2961
+;(9, 10);;(16, 6);large rock robot ;1;2962
+;(9, 10);;(16, 6);large rock robot ;1;2963
+;(9, 10);;(16, 6);large rock robot ;1;2964
+;(9, 10);;(16, 6);large rock robot ;1;2965
+;(9, 10);;(16, 6);large rock robot ;1;2966
+;(9, 10);;(16, 6);large rock robot ;1;2967
+;(9, 10);;(16, 6);large rock robot ;1;2968
+;(9, 10);;(16, 6);large rock robot ;1;2969
+;(9, 10);;(16, 6);large rock robot ;1;2970
+;(9, 10);;(16, 6);large rock robot ;1;2971
+;(9, 10);;(16, 6);large rock robot ;1;2972
+;(9, 10);;(16, 6);large rock robot ;1;2973
+;(9, 10);;(16, 6);large rock robot ;1;2974
+;(9, 10);;(16, 6);large rock robot ;1;2975
+;(9, 10);;(16, 6);large rock robot ;1;2976
+;(9, 10);;(16, 6);large rock robot ;1;2977
+;(9, 10);;(16, 6);large rock robot ;1;2978
+;(9, 10);;(16, 6);large rock robot ;1;2979
+;(9, 10);;(16, 6);large rock robot ;1;2980
+;(9, 10);;(16, 6);large rock robot ;1;2981
+;(9, 10);;(16, 6);large rock robot ;1;2982
+;(9, 10);;(16, 6);large rock robot ;1;2983
+;(9, 10);;(16, 6);large rock robot ;1;2984
+;(9, 10);;(16, 6);large rock robot ;1;2985
+;(9, 10);;(16, 6);large rock robot ;1;2986
+;(9, 10);;(16, 6);large rock robot ;1;2987
+;(9, 10);;(16, 6);large rock robot ;1;2988
+;(9, 10);;(16, 6);large rock robot ;1;2989
+;(9, 10);;(16, 6);large rock robot ;1;2990
+;(9, 10);;(16, 6);large rock robot ;1;2991
+;(9, 10);;(16, 6);large rock robot ;1;2992
+;(9, 10);;(16, 6);large rock robot ;1;2993
+;(9, 10);;(16, 6);large rock robot ;1;2994
+;(9, 10);;(16, 6);large rock robot ;1;2995
+;(9, 10);;(16, 6);large rock robot ;1;2996
+;(9, 10);;(16, 6);large rock robot ;1;2997
+;(9, 10);;(16, 6);large rock robot ;1;2998
+;(9, 10);;(16, 6);large rock robot ;1;2999
+;(9, 10);;(16, 6);large rock robot ;1;3000
+;(9, 10);;(16, 6);large rock robot ;1;3001
+DropObject;(9, 10);;(16, 6);large rock robot ;1;3002
+;(9, 10);;(16, 6);large rock robot ;1;3003
+;(9, 10);;(16, 6);large rock robot ;1;3004
+;(9, 10);;(16, 6);large rock robot ;1;3005
+;(9, 10);;(16, 6);large rock robot ;1;3006
+;(9, 10);;(16, 6);large rock robot ;1;3007
+;(9, 10);;(16, 6);large rock robot ;1;3008
+;(9, 10);;(16, 6);large rock robot ;1;3009
+;(9, 10);;(16, 6);large rock robot ;1;3010
+;(9, 10);;(16, 6);large rock robot ;1;3011
+;(9, 10);;(16, 6);large rock robot ;1;3012
+;(9, 10);;(16, 6);large rock robot ;1;3013
+;(9, 10);;(16, 6);large rock robot ;1;3014
+;(9, 10);;(16, 6);large rock robot ;1;3015
+;(9, 10);;(16, 6);large rock robot ;1;3016
+;(9, 10);;(16, 6);large rock robot ;1;3017
+;(9, 10);;(16, 6);large rock robot ;1;3018
+;(9, 10);;(16, 6);large rock robot ;1;3019

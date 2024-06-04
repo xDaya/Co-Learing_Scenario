@@ -1,0 +1,25 @@
+tick;corrected_tick;remaining_distance;victim_harm;idle_time_robot;q_table_cps;q_table_cps_runs;q_table_basic;world_nr;tick_nr
+3019;3000;32;0;803;"                     top large  top brown  top brown test
+[3, 'human', True]     -4946.0        0.0             0.0
+[4, 'equal', False]      118.0        0.0             0.0
+[3, 'equal', False]       33.0        0.0             0.0
+[2, 'robot', False]       72.0        0.0             0.0
+[4, 'robot', False]      176.0        0.0             0.0
+[4, 'human', True]         NaN        NaN          -848.0";"                     top large  top brown  top brown test
+[3, 'human', True]        10.0        0.0             0.0
+[4, 'equal', False]       12.0        0.0             0.0
+[3, 'equal', False]        2.0        0.0             0.0
+[2, 'robot', False]        2.0        0.0             0.0
+[4, 'robot', False]        4.0        0.0             0.0
+[4, 'human', True]         NaN        NaN             1.0";"                     Move back and forth  Stand Still  Pick up  Drop  Break
+[4, 'equal', False]                -7.05        -3.65    -7.10 -2.00 -12.15
+[4, 'equal', True]                  0.00         0.00     0.00  0.00  -4.15
+[4, 'human', False]                -7.00        -0.50    -1.65 -2.00  -2.60
+[4, 'human', True]                 -4.00         0.00     0.00  0.00   0.00
+[3, 'human', False]               -34.00        -0.50    -4.00  0.00 -10.15
+[3, 'human', True]                 -0.50        -0.50     0.00  0.00   0.00
+[4, 'robot', False]                -2.60        -4.00     0.00 -3.35  -4.50
+[3, 'robot', False]                 0.00         0.00     0.00 -2.00   0.00
+[2, 'robot', False]                -2.50         0.00     0.00 -1.00   0.00
+[1, 'robot', True]                  2.00         0.00     0.00  0.00  -1.50
+[2, 'equal', False]                 5.00         0.00     0.00  0.00   0.00";1;3019

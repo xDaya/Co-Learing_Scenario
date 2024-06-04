@@ -1,0 +1,20 @@
+tick;corrected_tick;remaining_distance;victim_harm;idle_time_robot;q_table_cps;q_table_cps_runs;q_table_basic;world_nr;tick_nr
+1887;1868;19;800;1;"                     large rock top move away  big rock on top victim small and remove  laatste rock weg, tijdelijke actie
+[2, 'robot', True]                        0.0                                        0                                -137
+[4, 'robot', True]                   -14440.0                                        0                                   0
+[4, 'equal', False]                    -559.0                                        5                                   0
+[4, 'robot', False]                   -1770.0                                        0                                   0
+[3, 'robot', False]                     -64.0                                        0                                   0";"                     large rock top move away  big rock on top victim small and remove  laatste rock weg, tijdelijke actie
+[2, 'robot', True]                        0.0                                        0                                   1
+[4, 'robot', True]                       10.0                                        0                                   0
+[4, 'equal', False]                       3.0                                        1                                   0
+[4, 'robot', False]                       1.0                                        0                                   0
+[3, 'robot', False]                       2.0                                        0                                   0";"                     Move back and forth  Stand Still  Pick up     Drop    Break
+[4, 'equal', False]              -6.7500    -6.200000  -5.8750  -2.5000 -13.3500
+[4, 'robot', False]              -8.8600    -8.540000 -12.0000 -17.7500 -17.2500
+[4, 'equal', True]               -7.5000    -3.650000  -0.8750   0.0000   0.0000
+[3, 'robot', True]               -4.0000    -5.520000 -14.3600  -4.2500  -3.7308
+[3, 'robot', False]              -7.3600    -7.612000  -5.4629  -7.4528  -9.0000
+[2, 'robot', True]              -12.4425    -9.160781   0.0000 -28.7500  -6.0000
+[2, 'robot', False]             -10.5000    -8.705000  -9.6800 -17.6500 -31.2000
+[4, 'robot', True]               -7.0000    -3.500000  -2.5000  -2.5000 -19.9400";1;1887

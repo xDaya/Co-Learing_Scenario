@@ -1,0 +1,13 @@
+tick;corrected_tick;remaining_distance;victim_harm;idle_time_robot;q_table_cps;q_table_cps_runs;q_table_basic;world_nr;tick_nr
+3019;3000;39;0;773;"                     let go of small rock   test1  pick up
+[4, 'robot', True]                    0.0     0.0        0
+[4, 'equal', False]               -3090.0     0.0        0
+[4, 'equal', True]                    NaN -2992.0     -823";"                     let go of small rock  test1  pick up
+[4, 'robot', True]                    0.0    0.0        0
+[4, 'equal', False]                   1.0    0.0        0
+[4, 'equal', True]                    NaN   11.0        1";"                     Move back and forth  Stand Still  Pick up  Drop      Break
+[4, 'equal', False]               -9.600    -8.644000   -5.095  -6.6 -10.000000
+[4, 'equal', True]               -12.807    -8.636328   -8.750   0.0 -12.310000
+[4, 'robot', True]                -7.500    -3.500000    0.000  -3.0  -1.999998
+[3, 'robot', False]               -7.000    -3.500000   -2.500 -27.0   0.000000
+[4, 'robot', False]               -4.000    -0.500000    0.000   0.0   0.000000";1;3019

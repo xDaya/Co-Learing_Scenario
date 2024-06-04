@@ -1,0 +1,14 @@
+tick;corrected_tick;remaining_distance;victim_harm;idle_time_robot;q_table_cps;q_table_cps_runs;q_table_basic;world_nr;tick_nr
+3019;3000;37;0;2786;"                     top large  top brown test
+[3, 'human', True]     -4946.0             0.0
+[4, 'equal', False]      118.0         -3796.0
+[3, 'equal', False]       33.0             0.0
+[2, 'robot', False]       72.0             0.0
+[4, 'robot', False]      176.0             0.0
+[4, 'human', True]         NaN          -848.0";"                     top large  top brown test
+[3, 'human', True]        10.0             0.0
+[4, 'equal', False]       12.0             2.0
+[3, 'equal', False]        2.0             0.0
+[2, 'robot', False]        2.0             0.0
+[4, 'robot', False]        4.0             0.0
+[4, 'human', True]         NaN             1.0";;1;3019

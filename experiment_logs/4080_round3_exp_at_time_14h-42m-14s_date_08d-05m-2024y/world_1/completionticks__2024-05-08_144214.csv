@@ -1,0 +1,6 @@
+tick;corrected_tick;remaining_distance;victim_harm;idle_time_robot;q_table_cps;q_table_cps_runs;q_table_basic;world_nr;tick_nr
+3019;3000;29;0;1908;"                     order of rocks  rock   Label  rob  big rock  rocsk
+[4, 'equal', False]         -3077.0   NaN     NaN    0         0      0
+[4, 'equal', True]              0.0   0.0 -1949.0    0         0      0";"                     order of rocks  rock  Label  rob  big rock  rocsk
+[4, 'equal', False]             1.0   NaN    NaN    0         0      0
+[4, 'equal', True]              0.0   0.0    1.0    0         0      0";;1;3019
