@@ -1,0 +1,25 @@
+tick;corrected_tick;remaining_distance;victim_harm;idle_time_robot;q_table_cps;q_table_cps_runs;q_table_basic;world_nr;tick_nr
+1790;1771;13;300;3;"                     Top of the pile  Top of pile small  Top of the pile improved  Left side big rocks
+[4, 'robot', True]           -1928.0                0.0                       0.0                  0.0
+[4, 'equal', False]           -628.0                NaN                       0.0                130.0
+[2, 'robot', False]              NaN              -51.0                       0.0                  0.0
+[4, 'equal', True]               NaN                NaN                   -1780.0                  NaN
+[3, 'robot', False]              NaN              183.0                       NaN                  NaN
+[2, 'robot', True]               NaN              -67.0                       NaN                  NaN";"                     Top of the pile  Top of pile small  Top of the pile improved  Left side big rocks
+[4, 'robot', True]               4.0                0.0                       0.0                  0.0
+[4, 'equal', False]              5.0                NaN                       0.0                 10.0
+[2, 'robot', False]              NaN                7.0                       0.0                  0.0
+[4, 'equal', True]               NaN                NaN                       1.0                  NaN
+[3, 'robot', False]              NaN               11.0                       NaN                  NaN
+[2, 'robot', True]               NaN                1.0                       NaN                  NaN";"                     Move back and forth  Stand Still  Pick up    Drop    Break
+[4, 'equal', False]                -6.00        -6.30    -7.95 -19.925  -6.7500
+[4, 'equal', True]                  0.00         0.00    -1.35   0.000   0.0000
+[4, 'robot', False]                -4.50        -5.78    -8.60  -5.080  -6.9625
+[3, 'equal', False]                -4.00        -0.50     0.00   0.000  -2.7500
+[3, 'human', False]                -6.45        -5.70    -4.45  -2.250  -6.5000
+[2, 'human', True]                  0.00         0.00    -3.00   0.000   0.0000
+[2, 'equal', False]                -7.00       -28.80    -4.50  -6.100 -36.5000
+[2, 'equal', True]                 -4.00         0.00     0.00   0.000   0.0000
+[4, 'robot', True]                -50.65         0.00     0.00   0.000  -3.0000
+[2, 'robot', False]                -7.00        -4.75   -28.75  -5.250   0.0000
+[2, 'robot', True]                 -7.00        -3.50    -1.50  -0.500  -4.6500";1;1790

@@ -1,0 +1,3021 @@
+human_selector_action;human_selector_location;robot_action;robot_location;robot_executing_cp;world_nr;tick_nr
+;(3, 4);;(4, 4);False;1;0
+;(3, 4);;(4, 4);False;1;1
+;(3, 4);;(4, 4);Move small rocks off large rocks;1;2
+;(3, 4);;(4, 4);Move small rocks off large rocks;1;3
+;(3, 4);MoveEast;(4, 4);Move small rocks off large rocks;1;4
+;(3, 4);MoveEast;(4, 4);Move small rocks off large rocks;1;5
+;(3, 4);MoveEast;(4, 4);Move small rocks off large rocks;1;6
+;(3, 4);MoveEast;(4, 4);Move small rocks off large rocks;1;7
+;(3, 4);MoveEast;(4, 4);Move small rocks off large rocks;1;8
+;(3, 4);MoveEast;(4, 4);Move small rocks off large rocks;1;9
+;(3, 4);MoveEast;(4, 4);Move small rocks off large rocks;1;10
+;(3, 4);MoveEast;(4, 4);Move small rocks off large rocks;1;11
+;(3, 4);MoveEast;(4, 4);Move small rocks off large rocks;1;12
+;(3, 4);MoveEast;(4, 4);Move small rocks off large rocks;1;13
+;(3, 4);MoveEast;(5, 4);Move small rocks off large rocks;1;14
+;(3, 4);MoveEast;(5, 4);Move small rocks off large rocks;1;15
+;(3, 4);MoveEast;(5, 4);Move small rocks off large rocks;1;16
+;(3, 4);MoveEast;(5, 4);Move small rocks off large rocks;1;17
+;(3, 4);MoveEast;(5, 4);Move small rocks off large rocks;1;18
+;(3, 4);MoveEast;(5, 4);Move small rocks off large rocks;1;19
+;(3, 4);MoveEast;(5, 4);Move small rocks off large rocks;1;20
+;(3, 4);MoveEast;(5, 4);Move small rocks off large rocks;1;21
+;(3, 4);MoveEast;(5, 4);Move small rocks off large rocks;1;22
+;(3, 4);MoveEast;(5, 4);Move small rocks off large rocks;1;23
+;(3, 4);MoveEast;(5, 4);Move small rocks off large rocks;1;24
+;(3, 4);MoveEast;(6, 4);Move small rocks off large rocks;1;25
+;(3, 4);MoveNorthEast;(6, 4);Move small rocks off large rocks;1;26
+;(3, 4);MoveNorthEast;(6, 4);Move small rocks off large rocks;1;27
+;(3, 4);MoveNorthEast;(6, 4);Move small rocks off large rocks;1;28
+;(3, 4);MoveNorthEast;(6, 4);Move small rocks off large rocks;1;29
+;(3, 4);MoveNorthEast;(6, 4);Move small rocks off large rocks;1;30
+;(3, 4);MoveNorthEast;(6, 4);Move small rocks off large rocks;1;31
+;(3, 4);MoveNorthEast;(6, 4);Move small rocks off large rocks;1;32
+;(3, 4);MoveNorthEast;(6, 4);Move small rocks off large rocks;1;33
+;(3, 4);MoveNorthEast;(6, 4);Move small rocks off large rocks;1;34
+;(3, 4);MoveNorthEast;(6, 4);Move small rocks off large rocks;1;35
+;(3, 4);MoveNorthEast;(7, 3);Move small rocks off large rocks;1;36
+;(3, 4);MoveEast;(7, 3);Move small rocks off large rocks;1;37
+;(3, 4);MoveEast;(7, 3);Move small rocks off large rocks;1;38
+;(3, 4);MoveEast;(7, 3);Move small rocks off large rocks;1;39
+;(3, 4);MoveEast;(7, 3);Move small rocks off large rocks;1;40
+;(3, 4);MoveEast;(7, 3);Move small rocks off large rocks;1;41
+;(3, 4);MoveEast;(7, 3);Move small rocks off large rocks;1;42
+;(3, 4);MoveEast;(7, 3);Move small rocks off large rocks;1;43
+;(3, 4);MoveEast;(7, 3);Move small rocks off large rocks;1;44
+MoveEast;(4, 4);MoveEast;(7, 3);Move small rocks off large rocks;1;45
+;(4, 4);MoveEast;(7, 3);Move small rocks off large rocks;1;46
+;(4, 4);MoveEast;(8, 3);Move small rocks off large rocks;1;47
+;(4, 4);MoveNorthEast;(8, 3);Move small rocks off large rocks;1;48
+;(4, 4);MoveNorthEast;(8, 3);Move small rocks off large rocks;1;49
+;(4, 4);MoveNorthEast;(8, 3);Move small rocks off large rocks;1;50
+MoveSouth;(4, 5);MoveNorthEast;(8, 3);Move small rocks off large rocks;1;51
+;(4, 5);MoveNorthEast;(8, 3);Move small rocks off large rocks;1;52
+;(4, 5);MoveNorthEast;(8, 3);Move small rocks off large rocks;1;53
+;(4, 5);MoveNorthEast;(8, 3);Move small rocks off large rocks;1;54
+;(4, 5);MoveNorthEast;(8, 3);Move small rocks off large rocks;1;55
+;(4, 5);MoveNorthEast;(8, 3);Move small rocks off large rocks;1;56
+;(4, 5);MoveNorthEast;(8, 3);Move small rocks off large rocks;1;57
+;(4, 5);MoveNorthEast;(9, 2);Move small rocks off large rocks;1;58
+MoveEast;(5, 5);MoveEast;(9, 2);Move small rocks off large rocks;1;59
+;(5, 5);MoveEast;(9, 2);Move small rocks off large rocks;1;60
+;(5, 5);MoveEast;(9, 2);Move small rocks off large rocks;1;61
+MoveEast;(6, 5);MoveEast;(9, 2);Move small rocks off large rocks;1;62
+;(6, 5);MoveEast;(9, 2);Move small rocks off large rocks;1;63
+;(6, 5);MoveEast;(9, 2);Move small rocks off large rocks;1;64
+;(6, 5);MoveEast;(9, 2);Move small rocks off large rocks;1;65
+MoveEast;(7, 5);MoveEast;(9, 2);Move small rocks off large rocks;1;66
+;(7, 5);MoveEast;(9, 2);Move small rocks off large rocks;1;67
+;(7, 5);MoveEast;(9, 2);Move small rocks off large rocks;1;68
+;(7, 5);MoveEast;(10, 2);Move small rocks off large rocks;1;69
+;(7, 5);GrabObject;(10, 2);Move small rocks off large rocks;1;70
+;(7, 5);GrabObject;(10, 2);Move small rocks off large rocks;1;71
+;(7, 5);GrabObject;(10, 2);Move small rocks off large rocks;1;72
+;(7, 5);GrabObject;(10, 2);Move small rocks off large rocks;1;73
+;(7, 5);GrabObject;(10, 2);Move small rocks off large rocks;1;74
+GrabObject;(7, 5);GrabObject;(10, 2);Move small rocks off large rocks;1;75
+;(7, 5);GrabObject;(10, 2);Move small rocks off large rocks;1;76
+;(7, 5);GrabObject;(10, 2);Move small rocks off large rocks;1;77
+;(7, 5);GrabObject;(10, 2);Move small rocks off large rocks;1;78
+;(7, 5);GrabObject;(10, 2);Move small rocks off large rocks;1;79
+;(7, 5);GrabObject;(10, 2);Move small rocks off large rocks;1;80
+;(7, 5);;(10, 2);Move small rocks off large rocks;1;81
+;(7, 5);;(10, 2);Move small rocks off large rocks;1;82
+MoveWest;(6, 5);;(10, 2);Move small rocks off large rocks;1;83
+;(6, 5);MoveSouthEast;(10, 2);Move small rocks off large rocks;1;84
+;(6, 5);MoveSouthEast;(10, 2);Move small rocks off large rocks;1;85
+MoveWest;(5, 5);MoveSouthEast;(10, 2);Move small rocks off large rocks;1;86
+;(5, 5);MoveSouthEast;(10, 2);Move small rocks off large rocks;1;87
+;(5, 5);MoveSouthEast;(10, 2);Move small rocks off large rocks;1;88
+MoveWest;(4, 5);MoveSouthEast;(10, 2);Move small rocks off large rocks;1;89
+;(4, 5);MoveSouthEast;(10, 2);Move small rocks off large rocks;1;90
+;(4, 5);MoveSouthEast;(10, 2);Move small rocks off large rocks;1;91
+MoveWest;(3, 5);MoveSouthEast;(10, 2);Move small rocks off large rocks;1;92
+;(3, 5);MoveSouthEast;(10, 2);Move small rocks off large rocks;1;93
+;(3, 5);MoveSouthEast;(11, 3);Move small rocks off large rocks;1;94
+;(3, 5);MoveSouthEast;(11, 3);Move small rocks off large rocks;1;95
+;(3, 5);MoveSouthEast;(11, 3);Move small rocks off large rocks;1;96
+;(3, 5);MoveSouthEast;(11, 3);Move small rocks off large rocks;1;97
+;(3, 5);MoveSouthEast;(11, 3);Move small rocks off large rocks;1;98
+;(3, 5);MoveSouthEast;(11, 3);Move small rocks off large rocks;1;99
+;(3, 5);MoveSouthEast;(11, 3);Move small rocks off large rocks;1;100
+MoveWest;(2, 5);MoveSouthEast;(11, 3);Move small rocks off large rocks;1;101
+;(2, 5);MoveSouthEast;(11, 3);Move small rocks off large rocks;1;102
+;(2, 5);MoveSouthEast;(11, 3);Move small rocks off large rocks;1;103
+;(2, 5);MoveSouthEast;(11, 3);Move small rocks off large rocks;1;104
+;(2, 5);MoveSouthEast;(12, 4);Move small rocks off large rocks;1;105
+;(2, 5);GrabObject;(12, 4);Move small rocks off large rocks;1;106
+;(2, 5);GrabObject;(12, 4);Move small rocks off large rocks;1;107
+;(2, 5);GrabObject;(12, 4);Move small rocks off large rocks;1;108
+MoveWest;(1, 5);GrabObject;(12, 4);Move small rocks off large rocks;1;109
+;(1, 5);GrabObject;(12, 4);Move small rocks off large rocks;1;110
+;(1, 5);GrabObject;(12, 4);Move small rocks off large rocks;1;111
+;(1, 5);GrabObject;(12, 4);Move small rocks off large rocks;1;112
+DropObject;(1, 5);GrabObject;(12, 4);Move small rocks off large rocks;1;113
+;(1, 5);GrabObject;(12, 4);Move small rocks off large rocks;1;114
+;(1, 5);GrabObject;(12, 4);Move small rocks off large rocks;1;115
+;(1, 5);GrabObject;(12, 4);Move small rocks off large rocks;1;116
+;(1, 5);;(12, 4);Move small rocks off large rocks;1;117
+MoveEast;(2, 5);;(12, 4);Move small rocks off large rocks;1;118
+;(2, 5);;(12, 4);Move small rocks off large rocks;1;119
+;(2, 5);MoveWest;(12, 4);Move small rocks off large rocks;1;120
+MoveEast;(3, 5);MoveWest;(12, 4);Move small rocks off large rocks;1;121
+;(3, 5);MoveWest;(12, 4);Move small rocks off large rocks;1;122
+;(3, 5);MoveWest;(12, 4);Move small rocks off large rocks;1;123
+MoveEast;(4, 5);MoveWest;(12, 4);Move small rocks off large rocks;1;124
+;(4, 5);MoveWest;(12, 4);Move small rocks off large rocks;1;125
+;(4, 5);MoveWest;(12, 4);Move small rocks off large rocks;1;126
+MoveEast;(5, 5);MoveWest;(12, 4);Move small rocks off large rocks;1;127
+;(5, 5);MoveWest;(12, 4);Move small rocks off large rocks;1;128
+MoveEast;(6, 5);MoveWest;(12, 4);Move small rocks off large rocks;1;129
+;(6, 5);MoveWest;(11, 4);Move small rocks off large rocks;1;130
+;(6, 5);MoveWest;(11, 4);Move small rocks off large rocks;1;131
+MoveEast;(7, 5);MoveWest;(11, 4);Move small rocks off large rocks;1;132
+;(7, 5);MoveWest;(11, 4);Move small rocks off large rocks;1;133
+;(7, 5);MoveWest;(11, 4);Move small rocks off large rocks;1;134
+;(7, 5);MoveWest;(11, 4);Move small rocks off large rocks;1;135
+MoveEast;(8, 5);MoveWest;(11, 4);Move small rocks off large rocks;1;136
+;(8, 5);MoveWest;(11, 4);Move small rocks off large rocks;1;137
+;(8, 5);MoveWest;(11, 4);Move small rocks off large rocks;1;138
+MoveNorth;(8, 4);MoveWest;(11, 4);Move small rocks off large rocks;1;139
+;(8, 4);MoveWest;(11, 4);Move small rocks off large rocks;1;140
+;(8, 4);MoveWest;(10, 4);Move small rocks off large rocks;1;141
+;(8, 4);MoveWest;(10, 4);Move small rocks off large rocks;1;142
+;(8, 4);MoveWest;(10, 4);Move small rocks off large rocks;1;143
+;(8, 4);MoveWest;(10, 4);Move small rocks off large rocks;1;144
+;(8, 4);MoveWest;(10, 4);Move small rocks off large rocks;1;145
+;(8, 4);MoveWest;(10, 4);Move small rocks off large rocks;1;146
+;(8, 4);MoveWest;(10, 4);Move small rocks off large rocks;1;147
+;(8, 4);MoveWest;(10, 4);Move small rocks off large rocks;1;148
+;(8, 4);MoveWest;(10, 4);Move small rocks off large rocks;1;149
+;(8, 4);MoveWest;(10, 4);Move small rocks off large rocks;1;150
+;(8, 4);MoveWest;(10, 4);Move small rocks off large rocks;1;151
+GrabObject;(8, 4);MoveWest;(9, 4);Move small rocks off large rocks;1;152
+;(8, 4);MoveSouthWest;(9, 4);Move small rocks off large rocks;1;153
+MoveWest;(7, 4);MoveSouthWest;(9, 4);Move small rocks off large rocks;1;154
+;(7, 4);MoveSouthWest;(9, 4);Move small rocks off large rocks;1;155
+;(7, 4);MoveSouthWest;(9, 4);Move small rocks off large rocks;1;156
+MoveWest;(6, 4);MoveSouthWest;(9, 4);Move small rocks off large rocks;1;157
+;(6, 4);MoveSouthWest;(9, 4);Move small rocks off large rocks;1;158
+;(6, 4);MoveSouthWest;(9, 4);Move small rocks off large rocks;1;159
+MoveWest;(5, 4);MoveSouthWest;(9, 4);Move small rocks off large rocks;1;160
+;(5, 4);MoveSouthWest;(9, 4);Move small rocks off large rocks;1;161
+;(5, 4);MoveSouthWest;(9, 4);Move small rocks off large rocks;1;162
+MoveWest;(4, 4);MoveSouthWest;(8, 5);Move small rocks off large rocks;1;163
+;(4, 4);GrabObject;(8, 5);Move small rocks off large rocks;1;164
+;(4, 4);GrabObject;(8, 5);Move small rocks off large rocks;1;165
+MoveWest;(3, 4);GrabObject;(8, 5);Move small rocks off large rocks;1;166
+;(3, 4);GrabObject;(8, 5);Move small rocks off large rocks;1;167
+;(3, 4);GrabObject;(8, 5);Move small rocks off large rocks;1;168
+MoveWest;(2, 4);GrabObject;(8, 5);Move small rocks off large rocks;1;169
+;(2, 4);GrabObject;(8, 5);Move small rocks off large rocks;1;170
+;(2, 4);GrabObject;(8, 5);Move small rocks off large rocks;1;171
+;(2, 4);GrabObject;(8, 5);Move small rocks off large rocks;1;172
+MoveSouth;(2, 5);GrabObject;(8, 5);Move small rocks off large rocks;1;173
+;(2, 5);GrabObject;(8, 5);Move small rocks off large rocks;1;174
+;(2, 5);;(8, 5);Move small rocks off large rocks;1;175
+;(2, 5);;(8, 5);False;1;176
+;(2, 5);;(8, 5);Prevent brown guillotine;1;177
+;(2, 5);;(8, 5);Prevent brown guillotine;1;178
+;(2, 5);MoveEast;(8, 5);Prevent brown guillotine;1;179
+;(2, 5);MoveEast;(8, 5);Prevent brown guillotine;1;180
+;(2, 5);MoveEast;(8, 5);Prevent brown guillotine;1;181
+;(2, 5);MoveEast;(8, 5);Prevent brown guillotine;1;182
+;(2, 5);MoveEast;(8, 5);Prevent brown guillotine;1;183
+;(2, 5);MoveEast;(8, 5);Prevent brown guillotine;1;184
+;(2, 5);MoveEast;(8, 5);Prevent brown guillotine;1;185
+;(2, 5);MoveEast;(8, 5);Prevent brown guillotine;1;186
+;(2, 5);MoveEast;(8, 5);Prevent brown guillotine;1;187
+;(2, 5);MoveEast;(8, 5);Prevent brown guillotine;1;188
+;(2, 5);MoveEast;(9, 5);Prevent brown guillotine;1;189
+;(2, 5);MoveEast;(9, 5);Prevent brown guillotine;1;190
+;(2, 5);MoveEast;(9, 5);Prevent brown guillotine;1;191
+;(2, 5);MoveEast;(9, 5);Prevent brown guillotine;1;192
+MoveWest;(1, 5);MoveEast;(9, 5);Prevent brown guillotine;1;193
+;(1, 5);MoveEast;(9, 5);Prevent brown guillotine;1;194
+;(1, 5);MoveEast;(9, 5);Prevent brown guillotine;1;195
+;(1, 5);MoveEast;(9, 5);Prevent brown guillotine;1;196
+DropObject;(1, 5);MoveEast;(9, 5);Prevent brown guillotine;1;197
+;(1, 5);MoveEast;(9, 5);Prevent brown guillotine;1;198
+;(1, 5);MoveEast;(9, 5);Prevent brown guillotine;1;199
+;(1, 5);MoveEast;(10, 5);Prevent brown guillotine;1;200
+;(1, 5);BreakObject;(10, 5);Prevent brown guillotine;1;201
+;(1, 5);BreakObject;(10, 5);Prevent brown guillotine;1;202
+;(1, 5);BreakObject;(10, 5);Prevent brown guillotine;1;203
+;(1, 5);BreakObject;(10, 5);Prevent brown guillotine;1;204
+;(1, 5);BreakObject;(10, 5);Prevent brown guillotine;1;205
+MoveEast;(2, 5);BreakObject;(10, 5);Prevent brown guillotine;1;206
+;(2, 5);BreakObject;(10, 5);Prevent brown guillotine;1;207
+;(2, 5);BreakObject;(10, 5);Prevent brown guillotine;1;208
+MoveEast;(3, 5);BreakObject;(10, 5);Prevent brown guillotine;1;209
+;(3, 5);BreakObject;(10, 5);Prevent brown guillotine;1;210
+;(3, 5);BreakObject;(10, 5);Prevent brown guillotine;1;211
+MoveEast;(4, 5);;(10, 5);Prevent brown guillotine;1;212
+;(4, 5);;(10, 5);False;1;213
+;(4, 5);;(10, 5);Move small rocks off large rocks;1;214
+MoveEast;(5, 5);;(10, 5);Move small rocks off large rocks;1;215
+;(5, 5);GrabObject;(10, 5);Move small rocks off large rocks;1;216
+;(5, 5);GrabObject;(10, 5);Move small rocks off large rocks;1;217
+MoveEast;(6, 5);GrabObject;(10, 5);Move small rocks off large rocks;1;218
+;(6, 5);GrabObject;(10, 5);Move small rocks off large rocks;1;219
+;(6, 5);GrabObject;(10, 5);Move small rocks off large rocks;1;220
+;(6, 5);GrabObject;(10, 5);Move small rocks off large rocks;1;221
+MoveEast;(7, 5);GrabObject;(10, 5);Move small rocks off large rocks;1;222
+;(7, 5);GrabObject;(10, 5);Move small rocks off large rocks;1;223
+;(7, 5);GrabObject;(10, 5);Move small rocks off large rocks;1;224
+;(7, 5);GrabObject;(10, 5);Move small rocks off large rocks;1;225
+MoveEast;(8, 5);GrabObject;(10, 5);Move small rocks off large rocks;1;226
+;(8, 5);;(10, 5);Move small rocks off large rocks;1;227
+;(8, 5);;(10, 5);Move small rocks off large rocks;1;228
+;(8, 5);;(10, 5);Move small rocks off large rocks;1;229
+MoveEast;(9, 5);MoveEast;(10, 5);Move small rocks off large rocks;1;230
+;(9, 5);MoveEast;(10, 5);Move small rocks off large rocks;1;231
+;(9, 5);MoveEast;(10, 5);Move small rocks off large rocks;1;232
+;(9, 5);MoveEast;(10, 5);Move small rocks off large rocks;1;233
+;(9, 5);MoveEast;(10, 5);Move small rocks off large rocks;1;234
+;(9, 5);MoveEast;(10, 5);Move small rocks off large rocks;1;235
+;(9, 5);MoveEast;(10, 5);Move small rocks off large rocks;1;236
+;(9, 5);MoveEast;(10, 5);Move small rocks off large rocks;1;237
+;(9, 5);MoveEast;(10, 5);Move small rocks off large rocks;1;238
+;(9, 5);MoveEast;(10, 5);Move small rocks off large rocks;1;239
+;(9, 5);MoveEast;(11, 5);Move small rocks off large rocks;1;240
+;(9, 5);GrabObject;(11, 5);Move small rocks off large rocks;1;241
+;(9, 5);GrabObject;(11, 5);Move small rocks off large rocks;1;242
+;(9, 5);GrabObject;(11, 5);Move small rocks off large rocks;1;243
+MoveEast;(10, 5);GrabObject;(11, 5);Move small rocks off large rocks;1;244
+;(10, 5);GrabObject;(11, 5);Move small rocks off large rocks;1;245
+;(10, 5);GrabObject;(11, 5);Move small rocks off large rocks;1;246
+;(10, 5);GrabObject;(11, 5);Move small rocks off large rocks;1;247
+;(10, 5);GrabObject;(11, 5);Move small rocks off large rocks;1;248
+MoveEast;(11, 5);GrabObject;(11, 5);Move small rocks off large rocks;1;249
+;(11, 5);GrabObject;(11, 5);Move small rocks off large rocks;1;250
+;(11, 5);GrabObject;(11, 5);Move small rocks off large rocks;1;251
+;(11, 5);;(11, 5);Move small rocks off large rocks;1;252
+;(11, 5);;(11, 5);Move small rocks off large rocks;1;253
+;(11, 5);;(11, 5);Move small rocks off large rocks;1;254
+;(11, 5);MoveEast;(11, 5);Move small rocks off large rocks;1;255
+;(11, 5);MoveEast;(11, 5);Move small rocks off large rocks;1;256
+;(11, 5);MoveEast;(11, 5);Move small rocks off large rocks;1;257
+;(11, 5);MoveEast;(11, 5);Move small rocks off large rocks;1;258
+;(11, 5);MoveEast;(11, 5);Move small rocks off large rocks;1;259
+;(11, 5);MoveEast;(11, 5);Move small rocks off large rocks;1;260
+;(11, 5);MoveEast;(11, 5);Move small rocks off large rocks;1;261
+;(11, 5);MoveEast;(11, 5);Move small rocks off large rocks;1;262
+;(11, 5);MoveEast;(11, 5);Move small rocks off large rocks;1;263
+;(11, 5);MoveEast;(11, 5);Move small rocks off large rocks;1;264
+;(11, 5);MoveEast;(12, 5);Move small rocks off large rocks;1;265
+MoveEast;(12, 5);MoveNorthEast;(12, 5);Move small rocks off large rocks;1;266
+;(12, 5);MoveNorthEast;(12, 5);Move small rocks off large rocks;1;267
+;(12, 5);MoveNorthEast;(12, 5);Move small rocks off large rocks;1;268
+;(12, 5);MoveNorthEast;(12, 5);Move small rocks off large rocks;1;269
+;(12, 5);MoveNorthEast;(12, 5);Move small rocks off large rocks;1;270
+;(12, 5);MoveNorthEast;(12, 5);Move small rocks off large rocks;1;271
+;(12, 5);MoveNorthEast;(12, 5);Move small rocks off large rocks;1;272
+;(12, 5);MoveNorthEast;(12, 5);Move small rocks off large rocks;1;273
+;(12, 5);MoveNorthEast;(12, 5);Move small rocks off large rocks;1;274
+;(12, 5);MoveNorthEast;(12, 5);Move small rocks off large rocks;1;275
+;(12, 5);MoveNorthEast;(13, 4);Move small rocks off large rocks;1;276
+;(12, 5);MoveEast;(13, 4);Move small rocks off large rocks;1;277
+;(12, 5);MoveEast;(13, 4);Move small rocks off large rocks;1;278
+;(12, 5);MoveEast;(13, 4);Move small rocks off large rocks;1;279
+;(12, 5);MoveEast;(13, 4);Move small rocks off large rocks;1;280
+;(12, 5);MoveEast;(13, 4);Move small rocks off large rocks;1;281
+;(12, 5);MoveEast;(13, 4);Move small rocks off large rocks;1;282
+;(12, 5);MoveEast;(13, 4);Move small rocks off large rocks;1;283
+;(12, 5);MoveEast;(13, 4);Move small rocks off large rocks;1;284
+;(12, 5);MoveEast;(13, 4);Move small rocks off large rocks;1;285
+;(12, 5);MoveEast;(13, 4);Move small rocks off large rocks;1;286
+;(12, 5);MoveEast;(14, 4);Move small rocks off large rocks;1;287
+;(12, 5);MoveNorthEast;(14, 4);Move small rocks off large rocks;1;288
+;(12, 5);MoveNorthEast;(14, 4);Move small rocks off large rocks;1;289
+;(12, 5);MoveNorthEast;(14, 4);Move small rocks off large rocks;1;290
+;(12, 5);MoveNorthEast;(14, 4);Move small rocks off large rocks;1;291
+;(12, 5);MoveNorthEast;(14, 4);Move small rocks off large rocks;1;292
+;(12, 5);MoveNorthEast;(14, 4);Move small rocks off large rocks;1;293
+;(12, 5);MoveNorthEast;(14, 4);Move small rocks off large rocks;1;294
+;(12, 5);MoveNorthEast;(14, 4);Move small rocks off large rocks;1;295
+;(12, 5);MoveNorthEast;(14, 4);Move small rocks off large rocks;1;296
+;(12, 5);MoveNorthEast;(14, 4);Move small rocks off large rocks;1;297
+;(12, 5);MoveNorthEast;(15, 3);Move small rocks off large rocks;1;298
+;(12, 5);MoveEast;(15, 3);Move small rocks off large rocks;1;299
+;(12, 5);MoveEast;(15, 3);Move small rocks off large rocks;1;300
+;(12, 5);MoveEast;(15, 3);Move small rocks off large rocks;1;301
+;(12, 5);MoveEast;(15, 3);Move small rocks off large rocks;1;302
+;(12, 5);MoveEast;(15, 3);Move small rocks off large rocks;1;303
+;(12, 5);MoveEast;(15, 3);Move small rocks off large rocks;1;304
+;(12, 5);MoveEast;(15, 3);Move small rocks off large rocks;1;305
+;(12, 5);MoveEast;(15, 3);Move small rocks off large rocks;1;306
+;(12, 5);MoveEast;(15, 3);Move small rocks off large rocks;1;307
+;(12, 5);MoveEast;(15, 3);Move small rocks off large rocks;1;308
+GrabObject;(12, 5);MoveEast;(16, 3);Move small rocks off large rocks;1;309
+;(12, 5);;(16, 3);Move small rocks off large rocks;1;310
+;(12, 5);;(16, 3);False;1;311
+MoveEast;(13, 5);;(16, 3);Prevent brown guillotine;1;312
+;(13, 5);MoveNorth;(16, 3);Prevent brown guillotine;1;313
+;(13, 5);MoveNorth;(16, 3);Prevent brown guillotine;1;314
+MoveEast;(14, 5);MoveNorth;(16, 3);Prevent brown guillotine;1;315
+;(14, 5);MoveNorth;(16, 3);Prevent brown guillotine;1;316
+;(14, 5);MoveNorth;(16, 3);Prevent brown guillotine;1;317
+MoveEast;(15, 5);MoveNorth;(16, 3);Prevent brown guillotine;1;318
+;(15, 5);MoveNorth;(16, 3);Prevent brown guillotine;1;319
+;(15, 5);MoveNorth;(16, 3);Prevent brown guillotine;1;320
+MoveEast;(16, 5);MoveNorth;(16, 3);Prevent brown guillotine;1;321
+;(16, 5);MoveNorth;(16, 3);Prevent brown guillotine;1;322
+;(16, 5);MoveNorth;(16, 2);Prevent brown guillotine;1;323
+MoveEast;(17, 5);MoveNorth;(16, 2);Prevent brown guillotine;1;324
+;(17, 5);MoveNorth;(16, 2);Prevent brown guillotine;1;325
+;(17, 5);MoveNorth;(16, 2);Prevent brown guillotine;1;326
+;(17, 5);MoveNorth;(16, 2);Prevent brown guillotine;1;327
+;(17, 5);MoveNorth;(16, 2);Prevent brown guillotine;1;328
+DropObject;(17, 5);MoveNorth;(16, 2);Prevent brown guillotine;1;329
+;(17, 5);MoveNorth;(16, 2);Prevent brown guillotine;1;330
+;(17, 5);MoveNorth;(16, 2);Prevent brown guillotine;1;331
+;(17, 5);MoveNorth;(16, 2);Prevent brown guillotine;1;332
+;(17, 5);MoveNorth;(16, 2);Prevent brown guillotine;1;333
+;(17, 5);MoveNorth;(16, 1);Prevent brown guillotine;1;334
+;(17, 5);DropObject;(16, 1);Prevent brown guillotine;1;335
+;(17, 5);DropObject;(16, 1);Prevent brown guillotine;1;336
+;(17, 5);DropObject;(16, 1);Prevent brown guillotine;1;337
+;(17, 5);DropObject;(16, 1);Prevent brown guillotine;1;338
+;(17, 5);DropObject;(16, 1);Prevent brown guillotine;1;339
+;(17, 5);DropObject;(16, 1);Prevent brown guillotine;1;340
+;(17, 5);DropObject;(16, 1);Prevent brown guillotine;1;341
+;(17, 5);DropObject;(16, 1);Prevent brown guillotine;1;342
+;(17, 5);DropObject;(16, 1);Prevent brown guillotine;1;343
+;(17, 5);DropObject;(16, 1);Prevent brown guillotine;1;344
+;(17, 5);DropObject;(16, 1);Prevent brown guillotine;1;345
+;(17, 5);DropObject;(16, 1);Prevent brown guillotine;1;346
+MoveWest;(16, 5);DropObject;(16, 1);Prevent brown guillotine;1;347
+;(16, 5);DropObject;(16, 1);Prevent brown guillotine;1;348
+;(16, 5);DropObject;(16, 1);Prevent brown guillotine;1;349
+MoveWest;(15, 5);DropObject;(16, 1);Prevent brown guillotine;1;350
+;(15, 5);DropObject;(16, 1);Prevent brown guillotine;1;351
+;(15, 5);DropObject;(16, 1);Prevent brown guillotine;1;352
+MoveWest;(14, 5);DropObject;(16, 1);Prevent brown guillotine;1;353
+;(14, 5);DropObject;(16, 1);Prevent brown guillotine;1;354
+;(14, 5);DropObject;(16, 1);Prevent brown guillotine;1;355
+MoveWest;(13, 5);DropObject;(16, 1);Prevent brown guillotine;1;356
+;(13, 5);DropObject;(16, 1);Prevent brown guillotine;1;357
+;(13, 5);DropObject;(16, 1);Prevent brown guillotine;1;358
+MoveWest;(12, 5);DropObject;(16, 1);Prevent brown guillotine;1;359
+;(12, 5);DropObject;(16, 1);Prevent brown guillotine;1;360
+;(12, 5);DropObject;(16, 1);Prevent brown guillotine;1;361
+;(12, 5);DropObject;(16, 1);Prevent brown guillotine;1;362
+;(12, 5);DropObject;(16, 1);Prevent brown guillotine;1;363
+;(12, 5);DropObject;(16, 1);Prevent brown guillotine;1;364
+;(12, 5);DropObject;(16, 1);Prevent brown guillotine;1;365
+;(12, 5);DropObject;(16, 1);Prevent brown guillotine;1;366
+;(12, 5);DropObject;(16, 1);Prevent brown guillotine;1;367
+;(12, 5);DropObject;(16, 1);Prevent brown guillotine;1;368
+;(12, 5);DropObject;(16, 1);Prevent brown guillotine;1;369
+;(12, 5);DropObject;(16, 1);Prevent brown guillotine;1;370
+;(12, 5);DropObject;(16, 1);Prevent brown guillotine;1;371
+;(12, 5);DropObject;(16, 1);Prevent brown guillotine;1;372
+;(12, 5);DropObject;(16, 1);Prevent brown guillotine;1;373
+;(12, 5);DropObject;(16, 1);Prevent brown guillotine;1;374
+;(12, 5);DropObject;(16, 1);Prevent brown guillotine;1;375
+;(12, 5);DropObject;(16, 1);Prevent brown guillotine;1;376
+;(12, 5);DropObject;(16, 1);Prevent brown guillotine;1;377
+;(12, 5);DropObject;(16, 1);Prevent brown guillotine;1;378
+;(12, 5);DropObject;(16, 1);Prevent brown guillotine;1;379
+;(12, 5);DropObject;(16, 1);Prevent brown guillotine;1;380
+;(12, 5);DropObject;(16, 1);Prevent brown guillotine;1;381
+;(12, 5);DropObject;(16, 1);Prevent brown guillotine;1;382
+;(12, 5);DropObject;(16, 1);Prevent brown guillotine;1;383
+;(12, 5);DropObject;(16, 1);Prevent brown guillotine;1;384
+;(12, 5);DropObject;(16, 1);Prevent brown guillotine;1;385
+;(12, 5);DropObject;(16, 1);Prevent brown guillotine;1;386
+;(12, 5);DropObject;(16, 1);Prevent brown guillotine;1;387
+;(12, 5);DropObject;(16, 1);Prevent brown guillotine;1;388
+;(12, 5);DropObject;(16, 1);Prevent brown guillotine;1;389
+;(12, 5);;(16, 1);Prevent brown guillotine;1;390
+;(12, 5);;(16, 1);Prevent brown guillotine;1;391
+;(12, 5);MoveWest;(16, 1);Prevent brown guillotine;1;392
+;(12, 5);MoveWest;(16, 1);Prevent brown guillotine;1;393
+;(12, 5);MoveWest;(16, 1);Prevent brown guillotine;1;394
+;(12, 5);MoveWest;(16, 1);Prevent brown guillotine;1;395
+;(12, 5);MoveWest;(16, 1);Prevent brown guillotine;1;396
+;(12, 5);MoveWest;(16, 1);Prevent brown guillotine;1;397
+;(12, 5);MoveWest;(16, 1);Prevent brown guillotine;1;398
+;(12, 5);MoveWest;(16, 1);Prevent brown guillotine;1;399
+;(12, 5);MoveWest;(16, 1);Prevent brown guillotine;1;400
+;(12, 5);MoveWest;(16, 1);Prevent brown guillotine;1;401
+;(12, 5);MoveWest;(15, 1);Prevent brown guillotine;1;402
+;(12, 5);MoveSouthWest;(15, 1);Prevent brown guillotine;1;403
+;(12, 5);MoveSouthWest;(15, 1);Prevent brown guillotine;1;404
+;(12, 5);MoveSouthWest;(15, 1);Prevent brown guillotine;1;405
+;(12, 5);MoveSouthWest;(15, 1);Prevent brown guillotine;1;406
+;(12, 5);MoveSouthWest;(15, 1);Prevent brown guillotine;1;407
+;(12, 5);MoveSouthWest;(15, 1);Prevent brown guillotine;1;408
+;(12, 5);MoveSouthWest;(15, 1);Prevent brown guillotine;1;409
+;(12, 5);MoveSouthWest;(15, 1);Prevent brown guillotine;1;410
+;(12, 5);MoveSouthWest;(15, 1);Prevent brown guillotine;1;411
+;(12, 5);MoveSouthWest;(15, 1);Prevent brown guillotine;1;412
+;(12, 5);MoveSouthWest;(14, 2);Prevent brown guillotine;1;413
+;(12, 5);MoveWest;(14, 2);Prevent brown guillotine;1;414
+;(12, 5);MoveWest;(14, 2);Prevent brown guillotine;1;415
+;(12, 5);MoveWest;(14, 2);Prevent brown guillotine;1;416
+;(12, 5);MoveWest;(14, 2);Prevent brown guillotine;1;417
+;(12, 5);MoveWest;(14, 2);Prevent brown guillotine;1;418
+;(12, 5);MoveWest;(14, 2);Prevent brown guillotine;1;419
+;(12, 5);MoveWest;(14, 2);Prevent brown guillotine;1;420
+;(12, 5);MoveWest;(14, 2);Prevent brown guillotine;1;421
+;(12, 5);MoveWest;(14, 2);Prevent brown guillotine;1;422
+;(12, 5);MoveWest;(14, 2);Prevent brown guillotine;1;423
+;(12, 5);MoveWest;(13, 2);Prevent brown guillotine;1;424
+;(12, 5);MoveSouthWest;(13, 2);Prevent brown guillotine;1;425
+;(12, 5);MoveSouthWest;(13, 2);Prevent brown guillotine;1;426
+;(12, 5);MoveSouthWest;(13, 2);Prevent brown guillotine;1;427
+;(12, 5);MoveSouthWest;(13, 2);Prevent brown guillotine;1;428
+;(12, 5);MoveSouthWest;(13, 2);Prevent brown guillotine;1;429
+;(12, 5);MoveSouthWest;(13, 2);Prevent brown guillotine;1;430
+;(12, 5);MoveSouthWest;(13, 2);Prevent brown guillotine;1;431
+;(12, 5);MoveSouthWest;(13, 2);Prevent brown guillotine;1;432
+;(12, 5);MoveSouthWest;(13, 2);Prevent brown guillotine;1;433
+;(12, 5);MoveSouthWest;(13, 2);Prevent brown guillotine;1;434
+;(12, 5);MoveSouthWest;(12, 3);Prevent brown guillotine;1;435
+;(12, 5);MoveWest;(12, 3);Prevent brown guillotine;1;436
+;(12, 5);MoveWest;(12, 3);Prevent brown guillotine;1;437
+;(12, 5);MoveWest;(12, 3);Prevent brown guillotine;1;438
+;(12, 5);MoveWest;(12, 3);Prevent brown guillotine;1;439
+;(12, 5);MoveWest;(12, 3);Prevent brown guillotine;1;440
+;(12, 5);MoveWest;(12, 3);Prevent brown guillotine;1;441
+;(12, 5);MoveWest;(12, 3);Prevent brown guillotine;1;442
+;(12, 5);MoveWest;(12, 3);Prevent brown guillotine;1;443
+;(12, 5);MoveWest;(12, 3);Prevent brown guillotine;1;444
+;(12, 5);MoveWest;(12, 3);Prevent brown guillotine;1;445
+;(12, 5);MoveWest;(11, 3);Prevent brown guillotine;1;446
+;(12, 5);MoveSouthWest;(11, 3);Prevent brown guillotine;1;447
+;(12, 5);MoveSouthWest;(11, 3);Prevent brown guillotine;1;448
+;(12, 5);MoveSouthWest;(11, 3);Prevent brown guillotine;1;449
+;(12, 5);MoveSouthWest;(11, 3);Prevent brown guillotine;1;450
+;(12, 5);MoveSouthWest;(11, 3);Prevent brown guillotine;1;451
+;(12, 5);MoveSouthWest;(11, 3);Prevent brown guillotine;1;452
+;(12, 5);MoveSouthWest;(11, 3);Prevent brown guillotine;1;453
+;(12, 5);MoveSouthWest;(11, 3);Prevent brown guillotine;1;454
+;(12, 5);MoveSouthWest;(11, 3);Prevent brown guillotine;1;455
+;(12, 5);MoveSouthWest;(11, 3);Prevent brown guillotine;1;456
+;(12, 5);MoveSouthWest;(10, 4);Prevent brown guillotine;1;457
+;(12, 5);MoveWest;(10, 4);Prevent brown guillotine;1;458
+;(12, 5);MoveWest;(10, 4);Prevent brown guillotine;1;459
+;(12, 5);MoveWest;(10, 4);Prevent brown guillotine;1;460
+;(12, 5);MoveWest;(10, 4);Prevent brown guillotine;1;461
+;(12, 5);MoveWest;(10, 4);Prevent brown guillotine;1;462
+;(12, 5);MoveWest;(10, 4);Prevent brown guillotine;1;463
+;(12, 5);MoveWest;(10, 4);Prevent brown guillotine;1;464
+;(12, 5);MoveWest;(10, 4);Prevent brown guillotine;1;465
+;(12, 5);MoveWest;(10, 4);Prevent brown guillotine;1;466
+;(12, 5);MoveWest;(10, 4);Prevent brown guillotine;1;467
+;(12, 5);MoveWest;(9, 4);Prevent brown guillotine;1;468
+;(12, 5);BreakObject;(9, 4);Prevent brown guillotine;1;469
+;(12, 5);BreakObject;(9, 4);Prevent brown guillotine;1;470
+;(12, 5);BreakObject;(9, 4);Prevent brown guillotine;1;471
+;(12, 5);BreakObject;(9, 4);Prevent brown guillotine;1;472
+;(12, 5);BreakObject;(9, 4);Prevent brown guillotine;1;473
+;(12, 5);BreakObject;(9, 4);Prevent brown guillotine;1;474
+;(12, 5);BreakObject;(9, 4);Prevent brown guillotine;1;475
+;(12, 5);BreakObject;(9, 4);Prevent brown guillotine;1;476
+;(12, 5);BreakObject;(9, 4);Prevent brown guillotine;1;477
+;(12, 5);BreakObject;(9, 4);Prevent brown guillotine;1;478
+;(12, 5);BreakObject;(9, 4);Prevent brown guillotine;1;479
+;(12, 5);;(9, 4);Prevent brown guillotine;1;480
+;(12, 5);;(9, 4);Prevent brown guillotine;1;481
+;(12, 5);;(9, 4);Prevent brown guillotine;1;482
+;(12, 5);MoveSouthWest;(9, 4);Prevent brown guillotine;1;483
+;(12, 5);MoveSouthWest;(9, 4);Prevent brown guillotine;1;484
+;(12, 5);MoveSouthWest;(9, 4);Prevent brown guillotine;1;485
+;(12, 5);MoveSouthWest;(9, 4);Prevent brown guillotine;1;486
+;(12, 5);MoveSouthWest;(9, 4);Prevent brown guillotine;1;487
+;(12, 5);MoveSouthWest;(9, 4);Prevent brown guillotine;1;488
+;(12, 5);MoveSouthWest;(9, 4);Prevent brown guillotine;1;489
+;(12, 5);MoveSouthWest;(9, 4);Prevent brown guillotine;1;490
+;(12, 5);MoveSouthWest;(9, 4);Prevent brown guillotine;1;491
+;(12, 5);MoveSouthWest;(9, 4);Prevent brown guillotine;1;492
+;(12, 5);MoveSouthWest;(8, 5);Prevent brown guillotine;1;493
+;(12, 5);MoveSouthWest;(8, 5);Prevent brown guillotine;1;494
+;(12, 5);MoveSouthWest;(8, 5);Prevent brown guillotine;1;495
+;(12, 5);MoveSouthWest;(8, 5);Prevent brown guillotine;1;496
+;(12, 5);MoveSouthWest;(8, 5);Prevent brown guillotine;1;497
+;(12, 5);MoveSouthWest;(8, 5);Prevent brown guillotine;1;498
+;(12, 5);MoveSouthWest;(8, 5);Prevent brown guillotine;1;499
+;(12, 5);MoveSouthWest;(8, 5);Prevent brown guillotine;1;500
+;(12, 5);MoveSouthWest;(8, 5);Prevent brown guillotine;1;501
+;(12, 5);MoveSouthWest;(8, 5);Prevent brown guillotine;1;502
+MoveWest;(11, 5);MoveSouthWest;(8, 5);Prevent brown guillotine;1;503
+;(11, 5);MoveSouthWest;(7, 6);Prevent brown guillotine;1;504
+;(11, 5);BreakObject;(7, 6);Prevent brown guillotine;1;505
+;(11, 5);BreakObject;(7, 6);Prevent brown guillotine;1;506
+MoveWest;(10, 5);BreakObject;(7, 6);Prevent brown guillotine;1;507
+;(10, 5);BreakObject;(7, 6);Prevent brown guillotine;1;508
+;(10, 5);BreakObject;(7, 6);Prevent brown guillotine;1;509
+;(10, 5);BreakObject;(7, 6);Prevent brown guillotine;1;510
+;(10, 5);BreakObject;(7, 6);Prevent brown guillotine;1;511
+;(10, 5);BreakObject;(7, 6);Prevent brown guillotine;1;512
+;(10, 5);BreakObject;(7, 6);Prevent brown guillotine;1;513
+;(10, 5);BreakObject;(7, 6);Prevent brown guillotine;1;514
+;(10, 5);BreakObject;(7, 6);Prevent brown guillotine;1;515
+;(10, 5);;(7, 6);Prevent brown guillotine;1;516
+;(10, 5);;(7, 6);Prevent brown guillotine;1;517
+;(10, 5);;(7, 6);Prevent brown guillotine;1;518
+;(10, 5);;(7, 6);Prevent brown guillotine;1;519
+;(10, 5);;(7, 6);Prevent brown guillotine;1;520
+;(10, 5);;(7, 6);Prevent brown guillotine;1;521
+;(10, 5);;(7, 6);Prevent brown guillotine;1;522
+;(10, 5);;(7, 6);Prevent brown guillotine;1;523
+;(10, 5);;(7, 6);Prevent brown guillotine;1;524
+;(10, 5);;(7, 6);Prevent brown guillotine;1;525
+;(10, 5);;(7, 6);Prevent brown guillotine;1;526
+;(10, 5);;(7, 6);Prevent brown guillotine;1;527
+;(10, 5);;(7, 6);Prevent brown guillotine;1;528
+;(10, 5);;(7, 6);Prevent brown guillotine;1;529
+;(10, 5);;(7, 6);Prevent brown guillotine;1;530
+;(10, 5);;(7, 6);Prevent brown guillotine;1;531
+;(10, 5);;(7, 6);Prevent brown guillotine;1;532
+;(10, 5);;(7, 6);Prevent brown guillotine;1;533
+;(10, 5);;(7, 6);Prevent brown guillotine;1;534
+GrabObject;(10, 5);;(7, 6);Prevent brown guillotine;1;535
+;(10, 5);;(7, 6);Prevent brown guillotine;1;536
+;(10, 5);;(7, 6);Prevent brown guillotine;1;537
+MoveEast;(11, 5);;(7, 6);Prevent brown guillotine;1;538
+;(11, 5);;(7, 6);Prevent brown guillotine;1;539
+;(11, 5);;(7, 6);Prevent brown guillotine;1;540
+;(11, 5);;(7, 6);Prevent brown guillotine;1;541
+MoveEast;(12, 5);;(7, 6);Prevent brown guillotine;1;542
+;(12, 5);;(7, 6);Prevent brown guillotine;1;543
+;(12, 5);;(7, 6);Prevent brown guillotine;1;544
+MoveEast;(13, 5);;(7, 6);Prevent brown guillotine;1;545
+;(13, 5);;(7, 6);Prevent brown guillotine;1;546
+;(13, 5);;(7, 6);Prevent brown guillotine;1;547
+MoveEast;(14, 5);;(7, 6);Prevent brown guillotine;1;548
+;(14, 5);;(7, 6);Prevent brown guillotine;1;549
+;(14, 5);;(7, 6);Prevent brown guillotine;1;550
+MoveEast;(15, 5);;(7, 6);Prevent brown guillotine;1;551
+;(15, 5);;(7, 6);Prevent brown guillotine;1;552
+MoveEast;(16, 5);;(7, 6);Prevent brown guillotine;1;553
+;(16, 5);;(7, 6);Prevent brown guillotine;1;554
+;(16, 5);;(7, 6);Prevent brown guillotine;1;555
+MoveEast;(17, 5);;(7, 6);Prevent brown guillotine;1;556
+;(17, 5);;(7, 6);Prevent brown guillotine;1;557
+;(17, 5);;(7, 6);Prevent brown guillotine;1;558
+DropObject;(17, 5);;(7, 6);Prevent brown guillotine;1;559
+;(17, 5);;(7, 6);Prevent brown guillotine;1;560
+;(17, 5);;(7, 6);Prevent brown guillotine;1;561
+;(17, 5);;(7, 6);Prevent brown guillotine;1;562
+MoveWest;(16, 5);;(7, 6);Prevent brown guillotine;1;563
+;(16, 5);;(7, 6);Prevent brown guillotine;1;564
+;(16, 5);;(7, 6);Prevent brown guillotine;1;565
+MoveWest;(15, 5);;(7, 6);Prevent brown guillotine;1;566
+;(15, 5);;(7, 6);Prevent brown guillotine;1;567
+;(15, 5);;(7, 6);Prevent brown guillotine;1;568
+MoveWest;(14, 5);;(7, 6);Prevent brown guillotine;1;569
+;(14, 5);;(7, 6);Prevent brown guillotine;1;570
+;(14, 5);;(7, 6);Prevent brown guillotine;1;571
+MoveWest;(13, 5);;(7, 6);Prevent brown guillotine;1;572
+;(13, 5);;(7, 6);Prevent brown guillotine;1;573
+;(13, 5);;(7, 6);Prevent brown guillotine;1;574
+MoveWest;(12, 5);;(7, 6);Prevent brown guillotine;1;575
+;(12, 5);;(7, 6);Prevent brown guillotine;1;576
+;(12, 5);;(7, 6);Prevent brown guillotine;1;577
+MoveWest;(11, 5);;(7, 6);Prevent brown guillotine;1;578
+;(11, 5);;(7, 6);Prevent brown guillotine;1;579
+;(11, 5);;(7, 6);Prevent brown guillotine;1;580
+;(11, 5);;(7, 6);Prevent brown guillotine;1;581
+;(11, 5);;(7, 6);Prevent brown guillotine;1;582
+MoveSouth;(11, 6);;(7, 6);Prevent brown guillotine;1;583
+;(11, 6);;(7, 6);Prevent brown guillotine;1;584
+;(11, 6);;(7, 6);Prevent brown guillotine;1;585
+MoveWest;(10, 6);;(7, 6);Prevent brown guillotine;1;586
+;(10, 6);;(7, 6);Prevent brown guillotine;1;587
+;(10, 6);;(7, 6);Prevent brown guillotine;1;588
+MoveWest;(9, 6);;(7, 6);Prevent brown guillotine;1;589
+;(9, 6);;(7, 6);Prevent brown guillotine;1;590
+;(9, 6);;(7, 6);Prevent brown guillotine;1;591
+;(9, 6);;(7, 6);Prevent brown guillotine;1;592
+;(9, 6);;(7, 6);Prevent brown guillotine;1;593
+;(9, 6);;(7, 6);Prevent brown guillotine;1;594
+;(9, 6);;(7, 6);Prevent brown guillotine;1;595
+;(9, 6);;(7, 6);Prevent brown guillotine;1;596
+;(9, 6);;(7, 6);Prevent brown guillotine;1;597
+;(9, 6);;(7, 6);Prevent brown guillotine;1;598
+;(9, 6);;(7, 6);Prevent brown guillotine;1;599
+;(9, 6);;(7, 6);Prevent brown guillotine;1;600
+;(9, 6);;(7, 6);Prevent brown guillotine;1;601
+;(9, 6);;(7, 6);Prevent brown guillotine;1;602
+;(9, 6);;(7, 6);Prevent brown guillotine;1;603
+;(9, 6);;(7, 6);Prevent brown guillotine;1;604
+;(9, 6);;(7, 6);Prevent brown guillotine;1;605
+;(9, 6);;(7, 6);Prevent brown guillotine;1;606
+;(9, 6);;(7, 6);Prevent brown guillotine;1;607
+;(9, 6);;(7, 6);Prevent brown guillotine;1;608
+;(9, 6);;(7, 6);Prevent brown guillotine;1;609
+;(9, 6);;(7, 6);Prevent brown guillotine;1;610
+;(9, 6);;(7, 6);Prevent brown guillotine;1;611
+;(9, 6);;(7, 6);Prevent brown guillotine;1;612
+;(9, 6);;(7, 6);Prevent brown guillotine;1;613
+GrabObject;(9, 6);;(7, 6);Prevent brown guillotine;1;614
+;(9, 6);;(7, 6);Prevent brown guillotine;1;615
+;(9, 6);;(7, 6);Prevent brown guillotine;1;616
+;(9, 6);;(7, 6);Prevent brown guillotine;1;617
+;(9, 6);;(7, 6);Prevent brown guillotine;1;618
+;(9, 6);;(7, 6);Prevent brown guillotine;1;619
+;(9, 6);;(7, 6);Prevent brown guillotine;1;620
+;(9, 6);;(7, 6);Prevent brown guillotine;1;621
+;(9, 6);;(7, 6);Prevent brown guillotine;1;622
+;(9, 6);;(7, 6);Prevent brown guillotine;1;623
+;(9, 6);;(7, 6);Prevent brown guillotine;1;624
+;(9, 6);;(7, 6);Prevent brown guillotine;1;625
+;(9, 6);;(7, 6);Prevent brown guillotine;1;626
+;(9, 6);;(7, 6);Prevent brown guillotine;1;627
+;(9, 6);;(7, 6);Prevent brown guillotine;1;628
+;(9, 6);;(7, 6);Prevent brown guillotine;1;629
+MoveEast;(10, 6);;(7, 6);Prevent brown guillotine;1;630
+;(10, 6);;(7, 6);Prevent brown guillotine;1;631
+;(10, 6);;(7, 6);Prevent brown guillotine;1;632
+;(10, 6);;(7, 6);Prevent brown guillotine;1;633
+;(10, 6);;(7, 6);Prevent brown guillotine;1;634
+;(10, 6);;(7, 6);Prevent brown guillotine;1;635
+;(10, 6);;(7, 6);Prevent brown guillotine;1;636
+;(10, 6);;(7, 6);Prevent brown guillotine;1;637
+;(10, 6);;(7, 6);Prevent brown guillotine;1;638
+;(10, 6);;(7, 6);Prevent brown guillotine;1;639
+MoveEast;(11, 6);;(7, 6);Prevent brown guillotine;1;640
+;(11, 6);;(7, 6);Prevent brown guillotine;1;641
+;(11, 6);;(7, 6);Prevent brown guillotine;1;642
+;(11, 6);;(7, 6);Prevent brown guillotine;1;643
+;(11, 6);;(7, 6);Prevent brown guillotine;1;644
+;(11, 6);;(7, 6);Prevent brown guillotine;1;645
+MoveSouth;(11, 7);;(7, 6);Prevent brown guillotine;1;646
+;(11, 7);;(7, 6);Prevent brown guillotine;1;647
+;(11, 7);;(7, 6);Prevent brown guillotine;1;648
+;(11, 7);;(7, 6);Prevent brown guillotine;1;649
+;(11, 7);;(7, 6);Prevent brown guillotine;1;650
+MoveEast;(12, 7);;(7, 6);Prevent brown guillotine;1;651
+;(12, 7);;(7, 6);Prevent brown guillotine;1;652
+;(12, 7);;(7, 6);Prevent brown guillotine;1;653
+MoveEast;(13, 7);;(7, 6);Prevent brown guillotine;1;654
+;(13, 7);;(7, 6);Prevent brown guillotine;1;655
+;(13, 7);;(7, 6);Prevent brown guillotine;1;656
+;(13, 7);;(7, 6);Prevent brown guillotine;1;657
+MoveEast;(14, 7);;(7, 6);Prevent brown guillotine;1;658
+;(14, 7);;(7, 6);Prevent brown guillotine;1;659
+;(14, 7);;(7, 6);Prevent brown guillotine;1;660
+MoveEast;(15, 7);;(7, 6);Prevent brown guillotine;1;661
+;(15, 7);;(7, 6);Prevent brown guillotine;1;662
+;(15, 7);;(7, 6);Prevent brown guillotine;1;663
+;(15, 7);;(7, 6);Prevent brown guillotine;1;664
+;(15, 7);;(7, 6);Prevent brown guillotine;1;665
+;(15, 7);;(7, 6);Prevent brown guillotine;1;666
+;(15, 7);;(7, 6);Prevent brown guillotine;1;667
+;(15, 7);;(7, 6);Prevent brown guillotine;1;668
+;(15, 7);;(7, 6);Prevent brown guillotine;1;669
+;(15, 7);;(7, 6);Prevent brown guillotine;1;670
+;(15, 7);;(7, 6);Prevent brown guillotine;1;671
+MoveEast;(16, 7);;(7, 6);Prevent brown guillotine;1;672
+;(16, 7);;(7, 6);Prevent brown guillotine;1;673
+;(16, 7);;(7, 6);Prevent brown guillotine;1;674
+DropObject;(16, 7);;(7, 6);Prevent brown guillotine;1;675
+;(16, 7);;(7, 6);Prevent brown guillotine;1;676
+;(16, 7);;(7, 6);Prevent brown guillotine;1;677
+;(16, 7);;(7, 6);Prevent brown guillotine;1;678
+;(16, 7);;(7, 6);Prevent brown guillotine;1;679
+;(16, 7);;(7, 6);Prevent brown guillotine;1;680
+;(16, 7);;(7, 6);Prevent brown guillotine;1;681
+;(16, 7);;(7, 6);Prevent brown guillotine;1;682
+;(16, 7);;(7, 6);Prevent brown guillotine;1;683
+MoveWest;(15, 7);;(7, 6);Prevent brown guillotine;1;684
+;(15, 7);;(7, 6);Prevent brown guillotine;1;685
+MoveWest;(14, 7);;(7, 6);Prevent brown guillotine;1;686
+;(14, 7);;(7, 6);Prevent brown guillotine;1;687
+;(14, 7);;(7, 6);Prevent brown guillotine;1;688
+;(14, 7);;(7, 6);Prevent brown guillotine;1;689
+MoveWest;(13, 7);;(7, 6);Prevent brown guillotine;1;690
+;(13, 7);;(7, 6);Prevent brown guillotine;1;691
+;(13, 7);;(7, 6);Prevent brown guillotine;1;692
+;(13, 7);;(7, 6);Prevent brown guillotine;1;693
+MoveWest;(12, 7);;(7, 6);Prevent brown guillotine;1;694
+;(12, 7);;(7, 6);Prevent brown guillotine;1;695
+;(12, 7);;(7, 6);Prevent brown guillotine;1;696
+MoveWest;(11, 7);;(7, 6);Prevent brown guillotine;1;697
+;(11, 7);;(7, 6);Prevent brown guillotine;1;698
+;(11, 7);;(7, 6);Prevent brown guillotine;1;699
+;(11, 7);;(7, 6);Prevent brown guillotine;1;700
+MoveSouth;(11, 8);;(7, 6);Prevent brown guillotine;1;701
+;(11, 8);;(7, 6);Prevent brown guillotine;1;702
+;(11, 8);;(7, 6);Prevent brown guillotine;1;703
+MoveWest;(10, 8);;(7, 6);Prevent brown guillotine;1;704
+;(10, 8);;(7, 6);Prevent brown guillotine;1;705
+;(10, 8);;(7, 6);Prevent brown guillotine;1;706
+MoveWest;(9, 8);;(7, 6);Prevent brown guillotine;1;707
+;(9, 8);;(7, 6);Prevent brown guillotine;1;708
+;(9, 8);;(7, 6);Prevent brown guillotine;1;709
+MoveWest;(8, 8);;(7, 6);Prevent brown guillotine;1;710
+;(8, 8);;(7, 6);Prevent brown guillotine;1;711
+;(8, 8);;(7, 6);Prevent brown guillotine;1;712
+;(8, 8);;(7, 6);Prevent brown guillotine;1;713
+;(8, 8);;(7, 6);Prevent brown guillotine;1;714
+;(8, 8);;(7, 6);Prevent brown guillotine;1;715
+;(8, 8);;(7, 6);Prevent brown guillotine;1;716
+;(8, 8);;(7, 6);Prevent brown guillotine;1;717
+;(8, 8);;(7, 6);Prevent brown guillotine;1;718
+MoveEast;(9, 8);;(7, 6);Prevent brown guillotine;1;719
+;(9, 8);;(7, 6);Prevent brown guillotine;1;720
+;(9, 8);;(7, 6);Prevent brown guillotine;1;721
+;(9, 8);;(7, 6);Prevent brown guillotine;1;722
+;(9, 8);;(7, 6);Prevent brown guillotine;1;723
+MoveNorth;(9, 7);;(7, 6);Prevent brown guillotine;1;724
+;(9, 7);;(7, 6);Prevent brown guillotine;1;725
+;(9, 7);;(7, 6);Prevent brown guillotine;1;726
+;(9, 7);;(7, 6);Prevent brown guillotine;1;727
+;(9, 7);;(7, 6);Prevent brown guillotine;1;728
+;(9, 7);;(7, 6);Prevent brown guillotine;1;729
+;(9, 7);;(7, 6);Prevent brown guillotine;1;730
+;(9, 7);;(7, 6);Prevent brown guillotine;1;731
+;(9, 7);;(7, 6);Prevent brown guillotine;1;732
+;(9, 7);;(7, 6);Prevent brown guillotine;1;733
+;(9, 7);;(7, 6);Prevent brown guillotine;1;734
+;(9, 7);;(7, 6);Prevent brown guillotine;1;735
+;(9, 7);;(7, 6);Prevent brown guillotine;1;736
+;(9, 7);;(7, 6);Prevent brown guillotine;1;737
+;(9, 7);;(7, 6);Prevent brown guillotine;1;738
+;(9, 7);;(7, 6);Prevent brown guillotine;1;739
+;(9, 7);;(7, 6);Prevent brown guillotine;1;740
+;(9, 7);;(7, 6);Prevent brown guillotine;1;741
+;(9, 7);;(7, 6);Prevent brown guillotine;1;742
+;(9, 7);;(7, 6);Prevent brown guillotine;1;743
+;(9, 7);;(7, 6);Prevent brown guillotine;1;744
+;(9, 7);;(7, 6);Prevent brown guillotine;1;745
+;(9, 7);;(7, 6);Prevent brown guillotine;1;746
+;(9, 7);;(7, 6);Prevent brown guillotine;1;747
+;(9, 7);;(7, 6);Prevent brown guillotine;1;748
+;(9, 7);;(7, 6);Prevent brown guillotine;1;749
+;(9, 7);;(7, 6);Prevent brown guillotine;1;750
+;(9, 7);;(7, 6);Prevent brown guillotine;1;751
+;(9, 7);;(7, 6);Prevent brown guillotine;1;752
+;(9, 7);;(7, 6);Prevent brown guillotine;1;753
+GrabObject;(9, 7);;(7, 6);Prevent brown guillotine;1;754
+;(9, 7);;(7, 6);Prevent brown guillotine;1;755
+;(9, 7);;(7, 6);Prevent brown guillotine;1;756
+MoveWest;(8, 7);;(7, 6);Prevent brown guillotine;1;757
+;(8, 7);;(7, 6);Prevent brown guillotine;1;758
+MoveWest;(7, 7);;(7, 6);Prevent brown guillotine;1;759
+;(7, 7);;(7, 6);Prevent brown guillotine;1;760
+;(7, 7);;(7, 6);Prevent brown guillotine;1;761
+;(7, 7);;(7, 6);Prevent brown guillotine;1;762
+MoveWest;(6, 7);;(7, 6);Prevent brown guillotine;1;763
+;(6, 7);;(7, 6);Prevent brown guillotine;1;764
+;(6, 7);;(7, 6);Prevent brown guillotine;1;765
+MoveWest;(5, 7);;(7, 6);Prevent brown guillotine;1;766
+;(5, 7);;(7, 6);Prevent brown guillotine;1;767
+;(5, 7);;(7, 6);Prevent brown guillotine;1;768
+MoveWest;(4, 7);;(7, 6);Prevent brown guillotine;1;769
+;(4, 7);;(7, 6);Prevent brown guillotine;1;770
+;(4, 7);;(7, 6);Prevent brown guillotine;1;771
+MoveWest;(3, 7);;(7, 6);Prevent brown guillotine;1;772
+;(3, 7);;(7, 6);Prevent brown guillotine;1;773
+;(3, 7);;(7, 6);Prevent brown guillotine;1;774
+MoveWest;(2, 7);;(7, 6);Prevent brown guillotine;1;775
+;(2, 7);;(7, 6);Prevent brown guillotine;1;776
+DropObject;(2, 7);;(7, 6);Prevent brown guillotine;1;777
+;(2, 7);;(7, 6);Prevent brown guillotine;1;778
+;(2, 7);;(7, 6);Prevent brown guillotine;1;779
+;(2, 7);;(7, 6);Prevent brown guillotine;1;780
+;(2, 7);;(7, 6);Prevent brown guillotine;1;781
+;(2, 7);;(7, 6);Prevent brown guillotine;1;782
+;(2, 7);;(7, 6);Prevent brown guillotine;1;783
+MoveEast;(3, 7);;(7, 6);Prevent brown guillotine;1;784
+;(3, 7);;(7, 6);Prevent brown guillotine;1;785
+;(3, 7);;(7, 6);Prevent brown guillotine;1;786
+MoveEast;(4, 7);;(7, 6);Prevent brown guillotine;1;787
+;(4, 7);;(7, 6);Prevent brown guillotine;1;788
+;(4, 7);;(7, 6);Prevent brown guillotine;1;789
+;(4, 7);;(7, 6);Prevent brown guillotine;1;790
+MoveEast;(5, 7);;(7, 6);Prevent brown guillotine;1;791
+;(5, 7);;(7, 6);Prevent brown guillotine;1;792
+;(5, 7);;(7, 6);Prevent brown guillotine;1;793
+MoveEast;(6, 7);;(7, 6);Prevent brown guillotine;1;794
+;(6, 7);;(7, 6);Prevent brown guillotine;1;795
+MoveEast;(7, 7);;(7, 6);Prevent brown guillotine;1;796
+;(7, 7);;(7, 6);Prevent brown guillotine;1;797
+;(7, 7);;(7, 6);Prevent brown guillotine;1;798
+MoveEast;(8, 7);;(7, 6);Prevent brown guillotine;1;799
+;(8, 7);;(7, 6);Prevent brown guillotine;1;800
+;(8, 7);;(7, 6);Prevent brown guillotine;1;801
+;(8, 7);;(7, 6);Prevent brown guillotine;1;802
+MoveSouth;(8, 8);;(7, 6);Prevent brown guillotine;1;803
+;(8, 8);;(7, 6);Prevent brown guillotine;1;804
+;(8, 8);;(7, 6);Prevent brown guillotine;1;805
+;(8, 8);;(7, 6);Prevent brown guillotine;1;806
+MoveEast;(9, 8);;(7, 6);Prevent brown guillotine;1;807
+;(9, 8);;(7, 6);Prevent brown guillotine;1;808
+;(9, 8);;(7, 6);Prevent brown guillotine;1;809
+;(9, 8);;(7, 6);Prevent brown guillotine;1;810
+;(9, 8);;(7, 6);Prevent brown guillotine;1;811
+MoveEast;(10, 8);;(7, 6);Prevent brown guillotine;1;812
+;(10, 8);;(7, 6);Prevent brown guillotine;1;813
+;(10, 8);;(7, 6);Prevent brown guillotine;1;814
+;(10, 8);;(7, 6);Prevent brown guillotine;1;815
+;(10, 8);;(7, 6);Prevent brown guillotine;1;816
+;(10, 8);;(7, 6);Prevent brown guillotine;1;817
+;(10, 8);;(7, 6);Prevent brown guillotine;1;818
+;(10, 8);;(7, 6);Prevent brown guillotine;1;819
+;(10, 8);;(7, 6);Prevent brown guillotine;1;820
+;(10, 8);;(7, 6);Prevent brown guillotine;1;821
+;(10, 8);;(7, 6);Prevent brown guillotine;1;822
+;(10, 8);;(7, 6);Prevent brown guillotine;1;823
+;(10, 8);;(7, 6);Prevent brown guillotine;1;824
+;(10, 8);;(7, 6);Prevent brown guillotine;1;825
+;(10, 8);;(7, 6);Prevent brown guillotine;1;826
+;(10, 8);;(7, 6);Prevent brown guillotine;1;827
+;(10, 8);;(7, 6);Prevent brown guillotine;1;828
+;(10, 8);;(7, 6);Prevent brown guillotine;1;829
+;(10, 8);;(7, 6);Prevent brown guillotine;1;830
+;(10, 8);;(7, 6);Prevent brown guillotine;1;831
+GrabObject;(10, 8);;(7, 6);Prevent brown guillotine;1;832
+;(10, 8);;(7, 6);Prevent brown guillotine;1;833
+;(10, 8);;(7, 6);Prevent brown guillotine;1;834
+;(10, 8);;(7, 6);Prevent brown guillotine;1;835
+MoveWest;(9, 8);;(7, 6);Prevent brown guillotine;1;836
+;(9, 8);;(7, 6);Prevent brown guillotine;1;837
+;(9, 8);;(7, 6);Prevent brown guillotine;1;838
+MoveWest;(8, 8);;(7, 6);Prevent brown guillotine;1;839
+;(8, 8);;(7, 6);Prevent brown guillotine;1;840
+;(8, 8);;(7, 6);Prevent brown guillotine;1;841
+MoveWest;(7, 8);;(7, 6);Prevent brown guillotine;1;842
+;(7, 8);;(7, 6);Prevent brown guillotine;1;843
+;(7, 8);;(7, 6);Prevent brown guillotine;1;844
+MoveWest;(6, 8);;(7, 6);Prevent brown guillotine;1;845
+;(6, 8);;(7, 6);Prevent brown guillotine;1;846
+;(6, 8);;(7, 6);Prevent brown guillotine;1;847
+MoveWest;(5, 8);;(7, 6);Prevent brown guillotine;1;848
+;(5, 8);;(7, 6);Prevent brown guillotine;1;849
+;(5, 8);;(7, 6);Prevent brown guillotine;1;850
+MoveWest;(4, 8);;(7, 6);Prevent brown guillotine;1;851
+;(4, 8);;(7, 6);Prevent brown guillotine;1;852
+;(4, 8);;(7, 6);Prevent brown guillotine;1;853
+MoveWest;(3, 8);;(7, 6);Prevent brown guillotine;1;854
+;(3, 8);;(7, 6);Prevent brown guillotine;1;855
+;(3, 8);;(7, 6);Prevent brown guillotine;1;856
+;(3, 8);;(7, 6);Prevent brown guillotine;1;857
+MoveWest;(2, 8);;(7, 6);Prevent brown guillotine;1;858
+;(2, 8);;(7, 6);Prevent brown guillotine;1;859
+;(2, 8);;(7, 6);Prevent brown guillotine;1;860
+DropObject;(2, 8);;(7, 6);Prevent brown guillotine;1;861
+;(2, 8);;(7, 6);Prevent brown guillotine;1;862
+;(2, 8);;(7, 6);Prevent brown guillotine;1;863
+;(2, 8);;(7, 6);Prevent brown guillotine;1;864
+MoveEast;(3, 8);;(7, 6);Prevent brown guillotine;1;865
+;(3, 8);;(7, 6);Prevent brown guillotine;1;866
+;(3, 8);;(7, 6);Prevent brown guillotine;1;867
+MoveEast;(4, 8);;(7, 6);Prevent brown guillotine;1;868
+;(4, 8);;(7, 6);Prevent brown guillotine;1;869
+;(4, 8);;(7, 6);Prevent brown guillotine;1;870
+MoveEast;(5, 8);;(7, 6);Prevent brown guillotine;1;871
+;(5, 8);;(7, 6);Prevent brown guillotine;1;872
+;(5, 8);;(7, 6);Prevent brown guillotine;1;873
+MoveEast;(6, 8);;(7, 6);Prevent brown guillotine;1;874
+;(6, 8);;(7, 6);Prevent brown guillotine;1;875
+;(6, 8);;(7, 6);Prevent brown guillotine;1;876
+MoveEast;(7, 8);;(7, 6);Prevent brown guillotine;1;877
+;(7, 8);;(7, 6);Prevent brown guillotine;1;878
+;(7, 8);;(7, 6);Prevent brown guillotine;1;879
+MoveEast;(8, 8);;(7, 6);Prevent brown guillotine;1;880
+;(8, 8);;(7, 6);Prevent brown guillotine;1;881
+;(8, 8);;(7, 6);Prevent brown guillotine;1;882
+;(8, 8);;(7, 6);Prevent brown guillotine;1;883
+;(8, 8);;(7, 6);Prevent brown guillotine;1;884
+;(8, 8);;(7, 6);Prevent brown guillotine;1;885
+;(8, 8);;(7, 6);Prevent brown guillotine;1;886
+;(8, 8);;(7, 6);Prevent brown guillotine;1;887
+;(8, 8);;(7, 6);Prevent brown guillotine;1;888
+;(8, 8);;(7, 6);Prevent brown guillotine;1;889
+;(8, 8);;(7, 6);Prevent brown guillotine;1;890
+;(8, 8);;(7, 6);Prevent brown guillotine;1;891
+;(8, 8);;(7, 6);Prevent brown guillotine;1;892
+;(8, 8);;(7, 6);Prevent brown guillotine;1;893
+;(8, 8);;(7, 6);Prevent brown guillotine;1;894
+;(8, 8);;(7, 6);Prevent brown guillotine;1;895
+;(8, 8);;(7, 6);Prevent brown guillotine;1;896
+;(8, 8);;(7, 6);Prevent brown guillotine;1;897
+GrabObject;(8, 8);;(7, 6);Prevent brown guillotine;1;898
+;(8, 8);;(7, 6);Prevent brown guillotine;1;899
+;(8, 8);;(7, 6);Prevent brown guillotine;1;900
+MoveWest;(7, 8);;(7, 6);Prevent brown guillotine;1;901
+;(7, 8);;(7, 6);Prevent brown guillotine;1;902
+;(7, 8);;(7, 6);Prevent brown guillotine;1;903
+MoveWest;(6, 8);;(7, 6);Prevent brown guillotine;1;904
+;(6, 8);;(7, 6);Prevent brown guillotine;1;905
+;(6, 8);;(7, 6);Prevent brown guillotine;1;906
+MoveWest;(5, 8);;(7, 6);Prevent brown guillotine;1;907
+;(5, 8);;(7, 6);Prevent brown guillotine;1;908
+;(5, 8);;(7, 6);Prevent brown guillotine;1;909
+MoveWest;(4, 8);;(7, 6);Prevent brown guillotine;1;910
+;(4, 8);;(7, 6);Prevent brown guillotine;1;911
+;(4, 8);;(7, 6);Prevent brown guillotine;1;912
+MoveWest;(3, 8);;(7, 6);Prevent brown guillotine;1;913
+;(3, 8);;(7, 6);Prevent brown guillotine;1;914
+;(3, 8);;(7, 6);Prevent brown guillotine;1;915
+MoveWest;(2, 8);;(7, 6);Prevent brown guillotine;1;916
+;(2, 8);;(7, 6);Prevent brown guillotine;1;917
+;(2, 8);;(7, 6);Prevent brown guillotine;1;918
+DropObject;(2, 8);;(7, 6);Prevent brown guillotine;1;919
+;(2, 8);;(7, 6);Prevent brown guillotine;1;920
+MoveEast;(3, 8);;(7, 6);Prevent brown guillotine;1;921
+;(3, 8);;(7, 6);Prevent brown guillotine;1;922
+;(3, 8);;(7, 6);Prevent brown guillotine;1;923
+;(3, 8);;(7, 6);Prevent brown guillotine;1;924
+MoveEast;(4, 8);;(7, 6);Prevent brown guillotine;1;925
+;(4, 8);;(7, 6);Prevent brown guillotine;1;926
+;(4, 8);;(7, 6);Prevent brown guillotine;1;927
+MoveEast;(5, 8);;(7, 6);Prevent brown guillotine;1;928
+;(5, 8);;(7, 6);Prevent brown guillotine;1;929
+;(5, 8);;(7, 6);Prevent brown guillotine;1;930
+MoveEast;(6, 8);;(7, 6);Prevent brown guillotine;1;931
+;(6, 8);;(7, 6);Prevent brown guillotine;1;932
+;(6, 8);;(7, 6);Prevent brown guillotine;1;933
+MoveEast;(7, 8);;(7, 6);Prevent brown guillotine;1;934
+;(7, 8);;(7, 6);Prevent brown guillotine;1;935
+MoveEast;(8, 8);;(7, 6);Prevent brown guillotine;1;936
+;(8, 8);;(7, 6);Prevent brown guillotine;1;937
+;(8, 8);;(7, 6);Prevent brown guillotine;1;938
+MoveEast;(9, 8);;(7, 6);Prevent brown guillotine;1;939
+;(9, 8);;(7, 6);Prevent brown guillotine;1;940
+;(9, 8);;(7, 6);Prevent brown guillotine;1;941
+MoveEast;(10, 8);;(7, 6);Prevent brown guillotine;1;942
+;(10, 8);;(7, 6);Prevent brown guillotine;1;943
+;(10, 8);;(7, 6);Prevent brown guillotine;1;944
+;(10, 8);;(7, 6);Prevent brown guillotine;1;945
+;(10, 8);;(7, 6);Prevent brown guillotine;1;946
+;(10, 8);;(7, 6);Prevent brown guillotine;1;947
+;(10, 8);;(7, 6);Prevent brown guillotine;1;948
+;(10, 8);;(7, 6);Prevent brown guillotine;1;949
+;(10, 8);;(7, 6);Prevent brown guillotine;1;950
+;(10, 8);;(7, 6);Prevent brown guillotine;1;951
+MoveWest;(9, 8);;(7, 6);Prevent brown guillotine;1;952
+;(9, 8);;(7, 6);Prevent brown guillotine;1;953
+;(9, 8);;(7, 6);Prevent brown guillotine;1;954
+GrabObject;(9, 8);;(7, 6);Prevent brown guillotine;1;955
+;(9, 8);;(7, 6);Prevent brown guillotine;1;956
+MoveWest;(8, 8);;(7, 6);Prevent brown guillotine;1;957
+;(8, 8);;(7, 6);Prevent brown guillotine;1;958
+;(8, 8);;(7, 6);Prevent brown guillotine;1;959
+;(8, 8);;(7, 6);Prevent brown guillotine;1;960
+MoveWest;(7, 8);;(7, 6);Prevent brown guillotine;1;961
+;(7, 8);;(7, 6);Prevent brown guillotine;1;962
+;(7, 8);;(7, 6);Prevent brown guillotine;1;963
+MoveWest;(6, 8);;(7, 6);Prevent brown guillotine;1;964
+;(6, 8);;(7, 6);Prevent brown guillotine;1;965
+;(6, 8);;(7, 6);Prevent brown guillotine;1;966
+MoveWest;(5, 8);;(7, 6);Prevent brown guillotine;1;967
+;(5, 8);;(7, 6);Prevent brown guillotine;1;968
+;(5, 8);;(7, 6);Prevent brown guillotine;1;969
+MoveWest;(4, 8);;(7, 6);Prevent brown guillotine;1;970
+;(4, 8);;(7, 6);Prevent brown guillotine;1;971
+MoveWest;(3, 8);;(7, 6);Prevent brown guillotine;1;972
+;(3, 8);;(7, 6);Prevent brown guillotine;1;973
+;(3, 8);;(7, 6);Prevent brown guillotine;1;974
+MoveWest;(2, 8);;(7, 6);Prevent brown guillotine;1;975
+;(2, 8);;(7, 6);Prevent brown guillotine;1;976
+;(2, 8);;(7, 6);Prevent brown guillotine;1;977
+;(2, 8);;(7, 6);Prevent brown guillotine;1;978
+DropObject;(2, 8);;(7, 6);Prevent brown guillotine;1;979
+;(2, 8);;(7, 6);Prevent brown guillotine;1;980
+;(2, 8);;(7, 6);Prevent brown guillotine;1;981
+;(2, 8);;(7, 6);Prevent brown guillotine;1;982
+MoveEast;(3, 8);;(7, 6);Prevent brown guillotine;1;983
+;(3, 8);;(7, 6);Prevent brown guillotine;1;984
+;(3, 8);;(7, 6);Prevent brown guillotine;1;985
+MoveEast;(4, 8);;(7, 6);Prevent brown guillotine;1;986
+;(4, 8);;(7, 6);Prevent brown guillotine;1;987
+;(4, 8);;(7, 6);Prevent brown guillotine;1;988
+MoveEast;(5, 8);;(7, 6);Prevent brown guillotine;1;989
+;(5, 8);;(7, 6);Prevent brown guillotine;1;990
+;(5, 8);;(7, 6);Prevent brown guillotine;1;991
+MoveEast;(6, 8);;(7, 6);Prevent brown guillotine;1;992
+;(6, 8);;(7, 6);Prevent brown guillotine;1;993
+;(6, 8);;(7, 6);Prevent brown guillotine;1;994
+MoveEast;(7, 8);;(7, 6);Prevent brown guillotine;1;995
+;(7, 8);;(7, 6);Prevent brown guillotine;1;996
+;(7, 8);;(7, 6);Prevent brown guillotine;1;997
+;(7, 8);;(7, 6);Prevent brown guillotine;1;998
+MoveSouth;(7, 9);;(7, 6);Prevent brown guillotine;1;999
+;(7, 9);;(7, 6);Prevent brown guillotine;1;1000
+;(7, 9);;(7, 6);Prevent brown guillotine;1;1001
+;(7, 9);;(7, 6);Prevent brown guillotine;1;1002
+;(7, 9);;(7, 6);Prevent brown guillotine;1;1003
+MoveWest;(6, 9);;(7, 6);Prevent brown guillotine;1;1004
+;(6, 9);;(7, 6);Prevent brown guillotine;1;1005
+;(6, 9);;(7, 6);Prevent brown guillotine;1;1006
+;(6, 9);;(7, 6);Prevent brown guillotine;1;1007
+;(6, 9);;(7, 6);Prevent brown guillotine;1;1008
+;(6, 9);;(7, 6);Prevent brown guillotine;1;1009
+;(6, 9);;(7, 6);Prevent brown guillotine;1;1010
+;(6, 9);;(7, 6);Prevent brown guillotine;1;1011
+;(6, 9);;(7, 6);Prevent brown guillotine;1;1012
+;(6, 9);;(7, 6);Prevent brown guillotine;1;1013
+;(6, 9);;(7, 6);Prevent brown guillotine;1;1014
+;(6, 9);;(7, 6);Prevent brown guillotine;1;1015
+;(6, 9);;(7, 6);Prevent brown guillotine;1;1016
+;(6, 9);;(7, 6);Prevent brown guillotine;1;1017
+;(6, 9);;(7, 6);Prevent brown guillotine;1;1018
+GrabObject;(6, 9);;(7, 6);Prevent brown guillotine;1;1019
+;(6, 9);;(7, 6);Prevent brown guillotine;1;1020
+;(6, 9);;(7, 6);Prevent brown guillotine;1;1021
+MoveWest;(5, 9);;(7, 6);Prevent brown guillotine;1;1022
+;(5, 9);;(7, 6);Prevent brown guillotine;1;1023
+;(5, 9);;(7, 6);Prevent brown guillotine;1;1024
+MoveWest;(4, 9);;(7, 6);Prevent brown guillotine;1;1025
+;(4, 9);;(7, 6);Prevent brown guillotine;1;1026
+;(4, 9);;(7, 6);Prevent brown guillotine;1;1027
+MoveWest;(3, 9);;(7, 6);Prevent brown guillotine;1;1028
+;(3, 9);;(7, 6);Prevent brown guillotine;1;1029
+;(3, 9);;(7, 6);Prevent brown guillotine;1;1030
+MoveWest;(2, 9);;(7, 6);Prevent brown guillotine;1;1031
+;(2, 9);;(7, 6);Prevent brown guillotine;1;1032
+;(2, 9);;(7, 6);Prevent brown guillotine;1;1033
+;(2, 9);;(7, 6);Prevent brown guillotine;1;1034
+MoveWest;(1, 9);;(7, 6);Prevent brown guillotine;1;1035
+;(1, 9);;(7, 6);Prevent brown guillotine;1;1036
+;(1, 9);;(7, 6);Prevent brown guillotine;1;1037
+DropObject;(1, 9);;(7, 6);Prevent brown guillotine;1;1038
+;(1, 9);;(7, 6);Prevent brown guillotine;1;1039
+;(1, 9);;(7, 6);Prevent brown guillotine;1;1040
+MoveEast;(2, 9);;(7, 6);Prevent brown guillotine;1;1041
+;(2, 9);;(7, 6);Prevent brown guillotine;1;1042
+;(2, 9);;(7, 6);Prevent brown guillotine;1;1043
+MoveEast;(3, 9);;(7, 6);Prevent brown guillotine;1;1044
+;(3, 9);;(7, 6);Prevent brown guillotine;1;1045
+;(3, 9);;(7, 6);Prevent brown guillotine;1;1046
+;(3, 9);;(7, 6);Prevent brown guillotine;1;1047
+MoveEast;(4, 9);;(7, 6);Prevent brown guillotine;1;1048
+;(4, 9);;(7, 6);Prevent brown guillotine;1;1049
+;(4, 9);;(7, 6);Prevent brown guillotine;1;1050
+MoveEast;(5, 9);;(7, 6);Prevent brown guillotine;1;1051
+;(5, 9);;(7, 6);Prevent brown guillotine;1;1052
+;(5, 9);;(7, 6);Prevent brown guillotine;1;1053
+MoveEast;(6, 9);;(7, 6);Prevent brown guillotine;1;1054
+;(6, 9);;(7, 6);Prevent brown guillotine;1;1055
+;(6, 9);;(7, 6);Prevent brown guillotine;1;1056
+;(6, 9);;(7, 6);Prevent brown guillotine;1;1057
+;(6, 9);;(7, 6);Prevent brown guillotine;1;1058
+;(6, 9);;(7, 6);Prevent brown guillotine;1;1059
+MoveSouth;(6, 10);;(7, 6);Prevent brown guillotine;1;1060
+;(6, 10);;(7, 6);Prevent brown guillotine;1;1061
+;(6, 10);;(7, 6);Prevent brown guillotine;1;1062
+;(6, 10);;(7, 6);Prevent brown guillotine;1;1063
+;(6, 10);;(7, 6);Prevent brown guillotine;1;1064
+;(6, 10);;(7, 6);Prevent brown guillotine;1;1065
+;(6, 10);;(7, 6);Prevent brown guillotine;1;1066
+;(6, 10);;(7, 6);Prevent brown guillotine;1;1067
+;(6, 10);;(7, 6);Prevent brown guillotine;1;1068
+;(6, 10);;(7, 6);Prevent brown guillotine;1;1069
+;(6, 10);;(7, 6);Prevent brown guillotine;1;1070
+;(6, 10);;(7, 6);Prevent brown guillotine;1;1071
+;(6, 10);;(7, 6);Prevent brown guillotine;1;1072
+;(6, 10);;(7, 6);Prevent brown guillotine;1;1073
+GrabObject;(6, 10);;(7, 6);Prevent brown guillotine;1;1074
+;(6, 10);;(7, 6);Prevent brown guillotine;1;1075
+;(6, 10);;(7, 6);Prevent brown guillotine;1;1076
+MoveWest;(5, 10);;(7, 6);Prevent brown guillotine;1;1077
+;(5, 10);;(7, 6);Prevent brown guillotine;1;1078
+;(5, 10);;(7, 6);Prevent brown guillotine;1;1079
+MoveWest;(4, 10);;(7, 6);Prevent brown guillotine;1;1080
+;(4, 10);;(7, 6);Prevent brown guillotine;1;1081
+;(4, 10);;(7, 6);Prevent brown guillotine;1;1082
+MoveWest;(3, 10);;(7, 6);Prevent brown guillotine;1;1083
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1084
+MoveWest;(2, 10);;(7, 6);Prevent brown guillotine;1;1085
+;(2, 10);;(7, 6);Prevent brown guillotine;1;1086
+;(2, 10);;(7, 6);Prevent brown guillotine;1;1087
+;(2, 10);;(7, 6);Prevent brown guillotine;1;1088
+;(2, 10);;(7, 6);Prevent brown guillotine;1;1089
+DropObject;(2, 10);;(7, 6);Prevent brown guillotine;1;1090
+;(2, 10);;(7, 6);Prevent brown guillotine;1;1091
+MoveEast;(3, 10);;(7, 6);Prevent brown guillotine;1;1092
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1093
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1094
+MoveEast;(4, 10);;(7, 6);Prevent brown guillotine;1;1095
+;(4, 10);;(7, 6);Prevent brown guillotine;1;1096
+;(4, 10);;(7, 6);Prevent brown guillotine;1;1097
+MoveEast;(5, 10);;(7, 6);Prevent brown guillotine;1;1098
+;(5, 10);;(7, 6);Prevent brown guillotine;1;1099
+;(5, 10);;(7, 6);Prevent brown guillotine;1;1100
+MoveEast;(6, 10);;(7, 6);Prevent brown guillotine;1;1101
+;(6, 10);;(7, 6);Prevent brown guillotine;1;1102
+;(6, 10);;(7, 6);Prevent brown guillotine;1;1103
+MoveEast;(7, 10);;(7, 6);Prevent brown guillotine;1;1104
+;(7, 10);;(7, 6);Prevent brown guillotine;1;1105
+;(7, 10);;(7, 6);Prevent brown guillotine;1;1106
+;(7, 10);;(7, 6);Prevent brown guillotine;1;1107
+MoveEast;(8, 10);;(7, 6);Prevent brown guillotine;1;1108
+;(8, 10);;(7, 6);Prevent brown guillotine;1;1109
+;(8, 10);;(7, 6);Prevent brown guillotine;1;1110
+;(8, 10);;(7, 6);Prevent brown guillotine;1;1111
+;(8, 10);;(7, 6);Prevent brown guillotine;1;1112
+;(8, 10);;(7, 6);Prevent brown guillotine;1;1113
+MoveNorth;(8, 9);;(7, 6);Prevent brown guillotine;1;1114
+;(8, 9);;(7, 6);Prevent brown guillotine;1;1115
+;(8, 9);;(7, 6);Prevent brown guillotine;1;1116
+;(8, 9);;(7, 6);Prevent brown guillotine;1;1117
+;(8, 9);;(7, 6);Prevent brown guillotine;1;1118
+;(8, 9);;(7, 6);Prevent brown guillotine;1;1119
+;(8, 9);;(7, 6);Prevent brown guillotine;1;1120
+;(8, 9);;(7, 6);Prevent brown guillotine;1;1121
+;(8, 9);;(7, 6);Prevent brown guillotine;1;1122
+;(8, 9);;(7, 6);Prevent brown guillotine;1;1123
+;(8, 9);;(7, 6);Prevent brown guillotine;1;1124
+;(8, 9);;(7, 6);Prevent brown guillotine;1;1125
+;(8, 9);;(7, 6);Prevent brown guillotine;1;1126
+;(8, 9);;(7, 6);Prevent brown guillotine;1;1127
+;(8, 9);;(7, 6);Prevent brown guillotine;1;1128
+;(8, 9);;(7, 6);Prevent brown guillotine;1;1129
+;(8, 9);;(7, 6);Prevent brown guillotine;1;1130
+;(8, 9);;(7, 6);Prevent brown guillotine;1;1131
+GrabObject;(8, 9);;(7, 6);Prevent brown guillotine;1;1132
+;(8, 9);;(7, 6);Prevent brown guillotine;1;1133
+;(8, 9);;(7, 6);Prevent brown guillotine;1;1134
+;(8, 9);;(7, 6);Prevent brown guillotine;1;1135
+;(8, 9);;(7, 6);Prevent brown guillotine;1;1136
+MoveWest;(7, 9);;(7, 6);Prevent brown guillotine;1;1137
+;(7, 9);;(7, 6);Prevent brown guillotine;1;1138
+;(7, 9);;(7, 6);Prevent brown guillotine;1;1139
+MoveWest;(6, 9);;(7, 6);Prevent brown guillotine;1;1140
+;(6, 9);;(7, 6);Prevent brown guillotine;1;1141
+;(6, 9);;(7, 6);Prevent brown guillotine;1;1142
+MoveWest;(5, 9);;(7, 6);Prevent brown guillotine;1;1143
+;(5, 9);;(7, 6);Prevent brown guillotine;1;1144
+;(5, 9);;(7, 6);Prevent brown guillotine;1;1145
+MoveWest;(4, 9);;(7, 6);Prevent brown guillotine;1;1146
+;(4, 9);;(7, 6);Prevent brown guillotine;1;1147
+;(4, 9);;(7, 6);Prevent brown guillotine;1;1148
+MoveWest;(3, 9);;(7, 6);Prevent brown guillotine;1;1149
+;(3, 9);;(7, 6);Prevent brown guillotine;1;1150
+;(3, 9);;(7, 6);Prevent brown guillotine;1;1151
+MoveWest;(2, 9);;(7, 6);Prevent brown guillotine;1;1152
+;(2, 9);;(7, 6);Prevent brown guillotine;1;1153
+;(2, 9);;(7, 6);Prevent brown guillotine;1;1154
+;(2, 9);;(7, 6);Prevent brown guillotine;1;1155
+DropObject;(2, 9);;(7, 6);Prevent brown guillotine;1;1156
+;(2, 9);;(7, 6);Prevent brown guillotine;1;1157
+;(2, 9);;(7, 6);Prevent brown guillotine;1;1158
+MoveEast;(3, 9);;(7, 6);Prevent brown guillotine;1;1159
+;(3, 9);;(7, 6);Prevent brown guillotine;1;1160
+;(3, 9);;(7, 6);Prevent brown guillotine;1;1161
+MoveEast;(4, 9);;(7, 6);Prevent brown guillotine;1;1162
+;(4, 9);;(7, 6);Prevent brown guillotine;1;1163
+;(4, 9);;(7, 6);Prevent brown guillotine;1;1164
+MoveEast;(5, 9);;(7, 6);Prevent brown guillotine;1;1165
+;(5, 9);;(7, 6);Prevent brown guillotine;1;1166
+;(5, 9);;(7, 6);Prevent brown guillotine;1;1167
+MoveEast;(6, 9);;(7, 6);Prevent brown guillotine;1;1168
+;(6, 9);;(7, 6);Prevent brown guillotine;1;1169
+;(6, 9);;(7, 6);Prevent brown guillotine;1;1170
+MoveEast;(7, 9);;(7, 6);Prevent brown guillotine;1;1171
+;(7, 9);;(7, 6);Prevent brown guillotine;1;1172
+;(7, 9);;(7, 6);Prevent brown guillotine;1;1173
+;(7, 9);;(7, 6);Prevent brown guillotine;1;1174
+MoveEast;(8, 9);;(7, 6);Prevent brown guillotine;1;1175
+;(8, 9);;(7, 6);Prevent brown guillotine;1;1176
+;(8, 9);;(7, 6);Prevent brown guillotine;1;1177
+;(8, 9);;(7, 6);Prevent brown guillotine;1;1178
+;(8, 9);;(7, 6);Prevent brown guillotine;1;1179
+MoveSouth;(8, 10);;(7, 6);Prevent brown guillotine;1;1180
+;(8, 10);;(7, 6);Prevent brown guillotine;1;1181
+;(8, 10);;(7, 6);Prevent brown guillotine;1;1182
+;(8, 10);;(7, 6);Prevent brown guillotine;1;1183
+;(8, 10);;(7, 6);Prevent brown guillotine;1;1184
+;(8, 10);;(7, 6);Prevent brown guillotine;1;1185
+;(8, 10);;(7, 6);Prevent brown guillotine;1;1186
+;(8, 10);;(7, 6);Prevent brown guillotine;1;1187
+;(8, 10);;(7, 6);Prevent brown guillotine;1;1188
+;(8, 10);;(7, 6);Prevent brown guillotine;1;1189
+;(8, 10);;(7, 6);Prevent brown guillotine;1;1190
+;(8, 10);;(7, 6);Prevent brown guillotine;1;1191
+;(8, 10);;(7, 6);Prevent brown guillotine;1;1192
+;(8, 10);;(7, 6);Prevent brown guillotine;1;1193
+;(8, 10);;(7, 6);Prevent brown guillotine;1;1194
+;(8, 10);;(7, 6);Prevent brown guillotine;1;1195
+GrabObject;(8, 10);;(7, 6);Prevent brown guillotine;1;1196
+;(8, 10);;(7, 6);Prevent brown guillotine;1;1197
+;(8, 10);;(7, 6);Prevent brown guillotine;1;1198
+MoveWest;(7, 10);;(7, 6);Prevent brown guillotine;1;1199
+;(7, 10);;(7, 6);Prevent brown guillotine;1;1200
+MoveWest;(6, 10);;(7, 6);Prevent brown guillotine;1;1201
+;(6, 10);;(7, 6);Prevent brown guillotine;1;1202
+;(6, 10);;(7, 6);Prevent brown guillotine;1;1203
+MoveWest;(5, 10);;(7, 6);Prevent brown guillotine;1;1204
+;(5, 10);;(7, 6);Prevent brown guillotine;1;1205
+;(5, 10);;(7, 6);Prevent brown guillotine;1;1206
+;(5, 10);;(7, 6);Prevent brown guillotine;1;1207
+MoveWest;(4, 10);;(7, 6);Prevent brown guillotine;1;1208
+;(4, 10);;(7, 6);Prevent brown guillotine;1;1209
+;(4, 10);;(7, 6);Prevent brown guillotine;1;1210
+MoveWest;(3, 10);;(7, 6);Prevent brown guillotine;1;1211
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1212
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1213
+MoveWest;(2, 10);;(7, 6);Prevent brown guillotine;1;1214
+;(2, 10);;(7, 6);Prevent brown guillotine;1;1215
+;(2, 10);;(7, 6);Prevent brown guillotine;1;1216
+DropObject;(2, 10);;(7, 6);Prevent brown guillotine;1;1217
+;(2, 10);;(7, 6);Prevent brown guillotine;1;1218
+;(2, 10);;(7, 6);Prevent brown guillotine;1;1219
+;(2, 10);;(7, 6);Prevent brown guillotine;1;1220
+MoveEast;(3, 10);;(7, 6);Prevent brown guillotine;1;1221
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1222
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1223
+MoveEast;(4, 10);;(7, 6);Prevent brown guillotine;1;1224
+;(4, 10);;(7, 6);Prevent brown guillotine;1;1225
+;(4, 10);;(7, 6);Prevent brown guillotine;1;1226
+;(4, 10);;(7, 6);Prevent brown guillotine;1;1227
+MoveEast;(5, 10);;(7, 6);Prevent brown guillotine;1;1228
+;(5, 10);;(7, 6);Prevent brown guillotine;1;1229
+;(5, 10);;(7, 6);Prevent brown guillotine;1;1230
+MoveEast;(6, 10);;(7, 6);Prevent brown guillotine;1;1231
+;(6, 10);;(7, 6);Prevent brown guillotine;1;1232
+;(6, 10);;(7, 6);Prevent brown guillotine;1;1233
+MoveEast;(7, 10);;(7, 6);Prevent brown guillotine;1;1234
+;(7, 10);;(7, 6);Prevent brown guillotine;1;1235
+;(7, 10);;(7, 6);Prevent brown guillotine;1;1236
+MoveEast;(8, 10);;(7, 6);Prevent brown guillotine;1;1237
+;(8, 10);;(7, 6);Prevent brown guillotine;1;1238
+;(8, 10);;(7, 6);Prevent brown guillotine;1;1239
+MoveEast;(9, 10);;(7, 6);Prevent brown guillotine;1;1240
+;(9, 10);;(7, 6);Prevent brown guillotine;1;1241
+;(9, 10);;(7, 6);Prevent brown guillotine;1;1242
+;(9, 10);;(7, 6);Prevent brown guillotine;1;1243
+MoveEast;(10, 10);;(7, 6);Prevent brown guillotine;1;1244
+;(10, 10);;(7, 6);Prevent brown guillotine;1;1245
+;(10, 10);;(7, 6);Prevent brown guillotine;1;1246
+;(10, 10);;(7, 6);Prevent brown guillotine;1;1247
+MoveNorth;(10, 9);;(7, 6);Prevent brown guillotine;1;1248
+;(10, 9);;(7, 6);Prevent brown guillotine;1;1249
+;(10, 9);;(7, 6);Prevent brown guillotine;1;1250
+;(10, 9);;(7, 6);Prevent brown guillotine;1;1251
+;(10, 9);;(7, 6);Prevent brown guillotine;1;1252
+;(10, 9);;(7, 6);Prevent brown guillotine;1;1253
+;(10, 9);;(7, 6);Prevent brown guillotine;1;1254
+;(10, 9);;(7, 6);Prevent brown guillotine;1;1255
+;(10, 9);;(7, 6);Prevent brown guillotine;1;1256
+MoveWest;(9, 9);;(7, 6);Prevent brown guillotine;1;1257
+;(9, 9);;(7, 6);Prevent brown guillotine;1;1258
+;(9, 9);;(7, 6);Prevent brown guillotine;1;1259
+;(9, 9);;(7, 6);Prevent brown guillotine;1;1260
+;(9, 9);;(7, 6);Prevent brown guillotine;1;1261
+;(9, 9);;(7, 6);Prevent brown guillotine;1;1262
+;(9, 9);;(7, 6);Prevent brown guillotine;1;1263
+;(9, 9);;(7, 6);Prevent brown guillotine;1;1264
+;(9, 9);;(7, 6);Prevent brown guillotine;1;1265
+;(9, 9);;(7, 6);Prevent brown guillotine;1;1266
+;(9, 9);;(7, 6);Prevent brown guillotine;1;1267
+GrabObject;(9, 9);;(7, 6);Prevent brown guillotine;1;1268
+;(9, 9);;(7, 6);Prevent brown guillotine;1;1269
+;(9, 9);;(7, 6);Prevent brown guillotine;1;1270
+;(9, 9);;(7, 6);Prevent brown guillotine;1;1271
+MoveWest;(8, 9);;(7, 6);Prevent brown guillotine;1;1272
+;(8, 9);;(7, 6);Prevent brown guillotine;1;1273
+;(8, 9);;(7, 6);Prevent brown guillotine;1;1274
+MoveWest;(7, 9);;(7, 6);Prevent brown guillotine;1;1275
+;(7, 9);;(7, 6);Prevent brown guillotine;1;1276
+;(7, 9);;(7, 6);Prevent brown guillotine;1;1277
+MoveWest;(6, 9);;(7, 6);Prevent brown guillotine;1;1278
+;(6, 9);;(7, 6);Prevent brown guillotine;1;1279
+;(6, 9);;(7, 6);Prevent brown guillotine;1;1280
+MoveWest;(5, 9);;(7, 6);Prevent brown guillotine;1;1281
+;(5, 9);;(7, 6);Prevent brown guillotine;1;1282
+;(5, 9);;(7, 6);Prevent brown guillotine;1;1283
+MoveWest;(4, 9);;(7, 6);Prevent brown guillotine;1;1284
+;(4, 9);;(7, 6);Prevent brown guillotine;1;1285
+;(4, 9);;(7, 6);Prevent brown guillotine;1;1286
+MoveWest;(3, 9);;(7, 6);Prevent brown guillotine;1;1287
+;(3, 9);;(7, 6);Prevent brown guillotine;1;1288
+;(3, 9);;(7, 6);Prevent brown guillotine;1;1289
+;(3, 9);;(7, 6);Prevent brown guillotine;1;1290
+MoveWest;(2, 9);;(7, 6);Prevent brown guillotine;1;1291
+;(2, 9);;(7, 6);Prevent brown guillotine;1;1292
+;(2, 9);;(7, 6);Prevent brown guillotine;1;1293
+DropObject;(2, 9);;(7, 6);Prevent brown guillotine;1;1294
+;(2, 9);;(7, 6);Prevent brown guillotine;1;1295
+;(2, 9);;(7, 6);Prevent brown guillotine;1;1296
+;(2, 9);;(7, 6);Prevent brown guillotine;1;1297
+;(2, 9);;(7, 6);Prevent brown guillotine;1;1298
+;(2, 9);;(7, 6);Prevent brown guillotine;1;1299
+;(2, 9);;(7, 6);Prevent brown guillotine;1;1300
+;(2, 9);;(7, 6);Prevent brown guillotine;1;1301
+;(2, 9);;(7, 6);Prevent brown guillotine;1;1302
+MoveEast;(3, 9);;(7, 6);Prevent brown guillotine;1;1303
+;(3, 9);;(7, 6);Prevent brown guillotine;1;1304
+;(3, 9);;(7, 6);Prevent brown guillotine;1;1305
+MoveEast;(4, 9);;(7, 6);Prevent brown guillotine;1;1306
+;(4, 9);;(7, 6);Prevent brown guillotine;1;1307
+;(4, 9);;(7, 6);Prevent brown guillotine;1;1308
+;(4, 9);;(7, 6);Prevent brown guillotine;1;1309
+MoveEast;(5, 9);;(7, 6);Prevent brown guillotine;1;1310
+;(5, 9);;(7, 6);Prevent brown guillotine;1;1311
+;(5, 9);;(7, 6);Prevent brown guillotine;1;1312
+MoveEast;(6, 9);;(7, 6);Prevent brown guillotine;1;1313
+;(6, 9);;(7, 6);Prevent brown guillotine;1;1314
+;(6, 9);;(7, 6);Prevent brown guillotine;1;1315
+MoveEast;(7, 9);;(7, 6);Prevent brown guillotine;1;1316
+;(7, 9);;(7, 6);Prevent brown guillotine;1;1317
+;(7, 9);;(7, 6);Prevent brown guillotine;1;1318
+;(7, 9);;(7, 6);Prevent brown guillotine;1;1319
+;(7, 9);;(7, 6);Prevent brown guillotine;1;1320
+;(7, 9);;(7, 6);Prevent brown guillotine;1;1321
+;(7, 9);;(7, 6);Prevent brown guillotine;1;1322
+MoveEast;(8, 9);;(7, 6);Prevent brown guillotine;1;1323
+;(8, 9);;(7, 6);Prevent brown guillotine;1;1324
+;(8, 9);;(7, 6);Prevent brown guillotine;1;1325
+MoveEast;(9, 9);;(7, 6);Prevent brown guillotine;1;1326
+;(9, 9);;(7, 6);Prevent brown guillotine;1;1327
+;(9, 9);;(7, 6);Prevent brown guillotine;1;1328
+;(9, 9);;(7, 6);Prevent brown guillotine;1;1329
+;(9, 9);;(7, 6);Prevent brown guillotine;1;1330
+;(9, 9);;(7, 6);Prevent brown guillotine;1;1331
+;(9, 9);;(7, 6);Prevent brown guillotine;1;1332
+MoveSouth;(9, 10);;(7, 6);Prevent brown guillotine;1;1333
+;(9, 10);;(7, 6);Prevent brown guillotine;1;1334
+;(9, 10);;(7, 6);Prevent brown guillotine;1;1335
+;(9, 10);;(7, 6);Prevent brown guillotine;1;1336
+;(9, 10);;(7, 6);Prevent brown guillotine;1;1337
+;(9, 10);;(7, 6);Prevent brown guillotine;1;1338
+;(9, 10);;(7, 6);Prevent brown guillotine;1;1339
+;(9, 10);;(7, 6);Prevent brown guillotine;1;1340
+;(9, 10);;(7, 6);Prevent brown guillotine;1;1341
+;(9, 10);;(7, 6);Prevent brown guillotine;1;1342
+;(9, 10);;(7, 6);Prevent brown guillotine;1;1343
+;(9, 10);;(7, 6);Prevent brown guillotine;1;1344
+;(9, 10);;(7, 6);Prevent brown guillotine;1;1345
+;(9, 10);;(7, 6);Prevent brown guillotine;1;1346
+;(9, 10);;(7, 6);Prevent brown guillotine;1;1347
+;(9, 10);;(7, 6);Prevent brown guillotine;1;1348
+;(9, 10);;(7, 6);Prevent brown guillotine;1;1349
+;(9, 10);;(7, 6);Prevent brown guillotine;1;1350
+;(9, 10);;(7, 6);Prevent brown guillotine;1;1351
+;(9, 10);;(7, 6);Prevent brown guillotine;1;1352
+;(9, 10);;(7, 6);Prevent brown guillotine;1;1353
+;(9, 10);;(7, 6);Prevent brown guillotine;1;1354
+;(9, 10);;(7, 6);Prevent brown guillotine;1;1355
+;(9, 10);;(7, 6);Prevent brown guillotine;1;1356
+;(9, 10);;(7, 6);Prevent brown guillotine;1;1357
+;(9, 10);;(7, 6);Prevent brown guillotine;1;1358
+;(9, 10);;(7, 6);Prevent brown guillotine;1;1359
+;(9, 10);;(7, 6);Prevent brown guillotine;1;1360
+GrabObject;(9, 10);;(7, 6);Prevent brown guillotine;1;1361
+;(9, 10);;(7, 6);Prevent brown guillotine;1;1362
+;(9, 10);;(7, 6);Prevent brown guillotine;1;1363
+MoveWest;(8, 10);;(7, 6);Prevent brown guillotine;1;1364
+;(8, 10);;(7, 6);Prevent brown guillotine;1;1365
+;(8, 10);;(7, 6);Prevent brown guillotine;1;1366
+MoveWest;(7, 10);;(7, 6);Prevent brown guillotine;1;1367
+;(7, 10);;(7, 6);Prevent brown guillotine;1;1368
+;(7, 10);;(7, 6);Prevent brown guillotine;1;1369
+MoveWest;(6, 10);;(7, 6);Prevent brown guillotine;1;1370
+;(6, 10);;(7, 6);Prevent brown guillotine;1;1371
+;(6, 10);;(7, 6);Prevent brown guillotine;1;1372
+;(6, 10);;(7, 6);Prevent brown guillotine;1;1373
+MoveWest;(5, 10);;(7, 6);Prevent brown guillotine;1;1374
+;(5, 10);;(7, 6);Prevent brown guillotine;1;1375
+MoveWest;(4, 10);;(7, 6);Prevent brown guillotine;1;1376
+;(4, 10);;(7, 6);Prevent brown guillotine;1;1377
+;(4, 10);;(7, 6);Prevent brown guillotine;1;1378
+;(4, 10);;(7, 6);Prevent brown guillotine;1;1379
+MoveWest;(3, 10);;(7, 6);Prevent brown guillotine;1;1380
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1381
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1382
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1383
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1384
+DropObject;(3, 10);;(7, 6);Prevent brown guillotine;1;1385
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1386
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1387
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1388
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1389
+MoveEast;(4, 10);;(7, 6);Prevent brown guillotine;1;1390
+;(4, 10);;(7, 6);Prevent brown guillotine;1;1391
+;(4, 10);;(7, 6);Prevent brown guillotine;1;1392
+MoveEast;(5, 10);;(7, 6);Prevent brown guillotine;1;1393
+;(5, 10);;(7, 6);Prevent brown guillotine;1;1394
+;(5, 10);;(7, 6);Prevent brown guillotine;1;1395
+MoveEast;(6, 10);;(7, 6);Prevent brown guillotine;1;1396
+;(6, 10);;(7, 6);Prevent brown guillotine;1;1397
+;(6, 10);;(7, 6);Prevent brown guillotine;1;1398
+MoveEast;(7, 10);;(7, 6);Prevent brown guillotine;1;1399
+;(7, 10);;(7, 6);Prevent brown guillotine;1;1400
+;(7, 10);;(7, 6);Prevent brown guillotine;1;1401
+MoveEast;(8, 10);;(7, 6);Prevent brown guillotine;1;1402
+;(8, 10);;(7, 6);Prevent brown guillotine;1;1403
+;(8, 10);;(7, 6);Prevent brown guillotine;1;1404
+MoveEast;(9, 10);;(7, 6);Prevent brown guillotine;1;1405
+;(9, 10);;(7, 6);Prevent brown guillotine;1;1406
+;(9, 10);;(7, 6);Prevent brown guillotine;1;1407
+MoveEast;(10, 10);;(7, 6);Prevent brown guillotine;1;1408
+;(10, 10);;(7, 6);Prevent brown guillotine;1;1409
+;(10, 10);;(7, 6);Prevent brown guillotine;1;1410
+;(10, 10);;(7, 6);Prevent brown guillotine;1;1411
+;(10, 10);;(7, 6);Prevent brown guillotine;1;1412
+;(10, 10);;(7, 6);Prevent brown guillotine;1;1413
+;(10, 10);;(7, 6);Prevent brown guillotine;1;1414
+MoveNorth;(10, 9);;(7, 6);Prevent brown guillotine;1;1415
+;(10, 9);;(7, 6);Prevent brown guillotine;1;1416
+;(10, 9);;(7, 6);Prevent brown guillotine;1;1417
+;(10, 9);;(7, 6);Prevent brown guillotine;1;1418
+;(10, 9);;(7, 6);Prevent brown guillotine;1;1419
+;(10, 9);;(7, 6);Prevent brown guillotine;1;1420
+;(10, 9);;(7, 6);Prevent brown guillotine;1;1421
+;(10, 9);;(7, 6);Prevent brown guillotine;1;1422
+;(10, 9);;(7, 6);Prevent brown guillotine;1;1423
+;(10, 9);;(7, 6);Prevent brown guillotine;1;1424
+;(10, 9);;(7, 6);Prevent brown guillotine;1;1425
+;(10, 9);;(7, 6);Prevent brown guillotine;1;1426
+GrabObject;(10, 9);;(7, 6);Prevent brown guillotine;1;1427
+;(10, 9);;(7, 6);Prevent brown guillotine;1;1428
+;(10, 9);;(7, 6);Prevent brown guillotine;1;1429
+MoveWest;(9, 9);;(7, 6);Prevent brown guillotine;1;1430
+;(9, 9);;(7, 6);Prevent brown guillotine;1;1431
+;(9, 9);;(7, 6);Prevent brown guillotine;1;1432
+MoveWest;(8, 9);;(7, 6);Prevent brown guillotine;1;1433
+;(8, 9);;(7, 6);Prevent brown guillotine;1;1434
+MoveWest;(7, 9);;(7, 6);Prevent brown guillotine;1;1435
+;(7, 9);;(7, 6);Prevent brown guillotine;1;1436
+;(7, 9);;(7, 6);Prevent brown guillotine;1;1437
+MoveWest;(6, 9);;(7, 6);Prevent brown guillotine;1;1438
+;(6, 9);;(7, 6);Prevent brown guillotine;1;1439
+;(6, 9);;(7, 6);Prevent brown guillotine;1;1440
+MoveWest;(5, 9);;(7, 6);Prevent brown guillotine;1;1441
+;(5, 9);;(7, 6);Prevent brown guillotine;1;1442
+;(5, 9);;(7, 6);Prevent brown guillotine;1;1443
+MoveWest;(4, 9);;(7, 6);Prevent brown guillotine;1;1444
+;(4, 9);;(7, 6);Prevent brown guillotine;1;1445
+MoveWest;(3, 9);;(7, 6);Prevent brown guillotine;1;1446
+;(3, 9);;(7, 6);Prevent brown guillotine;1;1447
+;(3, 9);;(7, 6);Prevent brown guillotine;1;1448
+;(3, 9);;(7, 6);Prevent brown guillotine;1;1449
+MoveWest;(2, 9);;(7, 6);Prevent brown guillotine;1;1450
+;(2, 9);;(7, 6);Prevent brown guillotine;1;1451
+;(2, 9);;(7, 6);Prevent brown guillotine;1;1452
+DropObject;(2, 9);;(7, 6);Prevent brown guillotine;1;1453
+;(2, 9);;(7, 6);Prevent brown guillotine;1;1454
+;(2, 9);;(7, 6);Prevent brown guillotine;1;1455
+MoveEast;(3, 9);;(7, 6);Prevent brown guillotine;1;1456
+;(3, 9);;(7, 6);Prevent brown guillotine;1;1457
+;(3, 9);;(7, 6);Prevent brown guillotine;1;1458
+MoveEast;(4, 9);;(7, 6);Prevent brown guillotine;1;1459
+;(4, 9);;(7, 6);Prevent brown guillotine;1;1460
+;(4, 9);;(7, 6);Prevent brown guillotine;1;1461
+MoveEast;(5, 9);;(7, 6);Prevent brown guillotine;1;1462
+;(5, 9);;(7, 6);Prevent brown guillotine;1;1463
+;(5, 9);;(7, 6);Prevent brown guillotine;1;1464
+MoveEast;(6, 9);;(7, 6);Prevent brown guillotine;1;1465
+;(6, 9);;(7, 6);Prevent brown guillotine;1;1466
+;(6, 9);;(7, 6);Prevent brown guillotine;1;1467
+MoveEast;(7, 9);;(7, 6);Prevent brown guillotine;1;1468
+;(7, 9);;(7, 6);Prevent brown guillotine;1;1469
+;(7, 9);;(7, 6);Prevent brown guillotine;1;1470
+MoveEast;(8, 9);;(7, 6);Prevent brown guillotine;1;1471
+;(8, 9);;(7, 6);Prevent brown guillotine;1;1472
+;(8, 9);;(7, 6);Prevent brown guillotine;1;1473
+MoveEast;(9, 9);;(7, 6);Prevent brown guillotine;1;1474
+;(9, 9);;(7, 6);Prevent brown guillotine;1;1475
+;(9, 9);;(7, 6);Prevent brown guillotine;1;1476
+;(9, 9);;(7, 6);Prevent brown guillotine;1;1477
+MoveEast;(10, 9);;(7, 6);Prevent brown guillotine;1;1478
+;(10, 9);;(7, 6);Prevent brown guillotine;1;1479
+;(10, 9);;(7, 6);Prevent brown guillotine;1;1480
+;(10, 9);;(7, 6);Prevent brown guillotine;1;1481
+MoveSouth;(10, 10);;(7, 6);Prevent brown guillotine;1;1482
+;(10, 10);;(7, 6);Prevent brown guillotine;1;1483
+;(10, 10);;(7, 6);Prevent brown guillotine;1;1484
+;(10, 10);;(7, 6);Prevent brown guillotine;1;1485
+;(10, 10);;(7, 6);Prevent brown guillotine;1;1486
+;(10, 10);;(7, 6);Prevent brown guillotine;1;1487
+;(10, 10);;(7, 6);Prevent brown guillotine;1;1488
+;(10, 10);;(7, 6);Prevent brown guillotine;1;1489
+;(10, 10);;(7, 6);Prevent brown guillotine;1;1490
+;(10, 10);;(7, 6);Prevent brown guillotine;1;1491
+;(10, 10);;(7, 6);Prevent brown guillotine;1;1492
+;(10, 10);;(7, 6);Prevent brown guillotine;1;1493
+;(10, 10);;(7, 6);Prevent brown guillotine;1;1494
+;(10, 10);;(7, 6);Prevent brown guillotine;1;1495
+;(10, 10);;(7, 6);Prevent brown guillotine;1;1496
+;(10, 10);;(7, 6);Prevent brown guillotine;1;1497
+;(10, 10);;(7, 6);Prevent brown guillotine;1;1498
+;(10, 10);;(7, 6);Prevent brown guillotine;1;1499
+;(10, 10);;(7, 6);Prevent brown guillotine;1;1500
+GrabObject;(10, 10);;(7, 6);Prevent brown guillotine;1;1501
+;(10, 10);;(7, 6);Prevent brown guillotine;1;1502
+MoveWest;(9, 10);;(7, 6);Prevent brown guillotine;1;1503
+;(9, 10);;(7, 6);Prevent brown guillotine;1;1504
+;(9, 10);;(7, 6);Prevent brown guillotine;1;1505
+;(9, 10);;(7, 6);Prevent brown guillotine;1;1506
+MoveWest;(8, 10);;(7, 6);Prevent brown guillotine;1;1507
+;(8, 10);;(7, 6);Prevent brown guillotine;1;1508
+;(8, 10);;(7, 6);Prevent brown guillotine;1;1509
+MoveWest;(7, 10);;(7, 6);Prevent brown guillotine;1;1510
+;(7, 10);;(7, 6);Prevent brown guillotine;1;1511
+;(7, 10);;(7, 6);Prevent brown guillotine;1;1512
+MoveWest;(6, 10);;(7, 6);Prevent brown guillotine;1;1513
+;(6, 10);;(7, 6);Prevent brown guillotine;1;1514
+;(6, 10);;(7, 6);Prevent brown guillotine;1;1515
+MoveWest;(5, 10);;(7, 6);Prevent brown guillotine;1;1516
+;(5, 10);;(7, 6);Prevent brown guillotine;1;1517
+;(5, 10);;(7, 6);Prevent brown guillotine;1;1518
+MoveWest;(4, 10);;(7, 6);Prevent brown guillotine;1;1519
+;(4, 10);;(7, 6);Prevent brown guillotine;1;1520
+;(4, 10);;(7, 6);Prevent brown guillotine;1;1521
+MoveWest;(3, 10);;(7, 6);Prevent brown guillotine;1;1522
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1523
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1524
+MoveWest;(2, 10);;(7, 6);Prevent brown guillotine;1;1525
+;(2, 10);;(7, 6);Prevent brown guillotine;1;1526
+DropObject;(2, 10);;(7, 6);Prevent brown guillotine;1;1527
+;(2, 10);;(7, 6);Prevent brown guillotine;1;1528
+;(2, 10);;(7, 6);Prevent brown guillotine;1;1529
+MoveEast;(3, 10);;(7, 6);Prevent brown guillotine;1;1530
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1531
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1532
+MoveEast;(4, 10);;(7, 6);Prevent brown guillotine;1;1533
+;(4, 10);;(7, 6);Prevent brown guillotine;1;1534
+;(4, 10);;(7, 6);Prevent brown guillotine;1;1535
+MoveEast;(5, 10);;(7, 6);Prevent brown guillotine;1;1536
+;(5, 10);;(7, 6);Prevent brown guillotine;1;1537
+;(5, 10);;(7, 6);Prevent brown guillotine;1;1538
+MoveEast;(6, 10);;(7, 6);Prevent brown guillotine;1;1539
+;(6, 10);;(7, 6);Prevent brown guillotine;1;1540
+;(6, 10);;(7, 6);Prevent brown guillotine;1;1541
+MoveEast;(7, 10);;(7, 6);Prevent brown guillotine;1;1542
+;(7, 10);;(7, 6);Prevent brown guillotine;1;1543
+;(7, 10);;(7, 6);Prevent brown guillotine;1;1544
+;(7, 10);;(7, 6);Prevent brown guillotine;1;1545
+MoveEast;(8, 10);;(7, 6);Prevent brown guillotine;1;1546
+;(8, 10);;(7, 6);Prevent brown guillotine;1;1547
+;(8, 10);;(7, 6);Prevent brown guillotine;1;1548
+MoveEast;(9, 10);;(7, 6);Prevent brown guillotine;1;1549
+;(9, 10);;(7, 6);Prevent brown guillotine;1;1550
+;(9, 10);;(7, 6);Prevent brown guillotine;1;1551
+MoveEast;(10, 10);;(7, 6);Prevent brown guillotine;1;1552
+;(10, 10);;(7, 6);Prevent brown guillotine;1;1553
+MoveEast;(11, 10);;(7, 6);Prevent brown guillotine;1;1554
+;(11, 10);;(7, 6);Prevent brown guillotine;1;1555
+;(11, 10);;(7, 6);Prevent brown guillotine;1;1556
+;(11, 10);;(7, 6);Prevent brown guillotine;1;1557
+;(11, 10);;(7, 6);Prevent brown guillotine;1;1558
+;(11, 10);;(7, 6);Prevent brown guillotine;1;1559
+;(11, 10);;(7, 6);Prevent brown guillotine;1;1560
+;(11, 10);;(7, 6);Prevent brown guillotine;1;1561
+;(11, 10);;(7, 6);Prevent brown guillotine;1;1562
+;(11, 10);;(7, 6);Prevent brown guillotine;1;1563
+;(11, 10);;(7, 6);Prevent brown guillotine;1;1564
+;(11, 10);;(7, 6);Prevent brown guillotine;1;1565
+;(11, 10);;(7, 6);Prevent brown guillotine;1;1566
+;(11, 10);;(7, 6);Prevent brown guillotine;1;1567
+;(11, 10);;(7, 6);Prevent brown guillotine;1;1568
+GrabObject;(11, 10);;(7, 6);Prevent brown guillotine;1;1569
+;(11, 10);;(7, 6);Prevent brown guillotine;1;1570
+;(11, 10);;(7, 6);Prevent brown guillotine;1;1571
+MoveWest;(10, 10);;(7, 6);Prevent brown guillotine;1;1572
+;(10, 10);;(7, 6);Prevent brown guillotine;1;1573
+;(10, 10);;(7, 6);Prevent brown guillotine;1;1574
+;(10, 10);;(7, 6);Prevent brown guillotine;1;1575
+MoveWest;(9, 10);;(7, 6);Prevent brown guillotine;1;1576
+;(9, 10);;(7, 6);Prevent brown guillotine;1;1577
+;(9, 10);;(7, 6);Prevent brown guillotine;1;1578
+MoveWest;(8, 10);;(7, 6);Prevent brown guillotine;1;1579
+;(8, 10);;(7, 6);Prevent brown guillotine;1;1580
+;(8, 10);;(7, 6);Prevent brown guillotine;1;1581
+MoveWest;(7, 10);;(7, 6);Prevent brown guillotine;1;1582
+;(7, 10);;(7, 6);Prevent brown guillotine;1;1583
+;(7, 10);;(7, 6);Prevent brown guillotine;1;1584
+MoveWest;(6, 10);;(7, 6);Prevent brown guillotine;1;1585
+;(6, 10);;(7, 6);Prevent brown guillotine;1;1586
+;(6, 10);;(7, 6);Prevent brown guillotine;1;1587
+MoveWest;(5, 10);;(7, 6);Prevent brown guillotine;1;1588
+;(5, 10);;(7, 6);Prevent brown guillotine;1;1589
+;(5, 10);;(7, 6);Prevent brown guillotine;1;1590
+MoveWest;(4, 10);;(7, 6);Prevent brown guillotine;1;1591
+;(4, 10);;(7, 6);Prevent brown guillotine;1;1592
+;(4, 10);;(7, 6);Prevent brown guillotine;1;1593
+MoveWest;(3, 10);;(7, 6);Prevent brown guillotine;1;1594
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1595
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1596
+DropObject;(3, 10);;(7, 6);Prevent brown guillotine;1;1597
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1598
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1599
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1600
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1601
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1602
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1603
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1604
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1605
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1606
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1607
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1608
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1609
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1610
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1611
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1612
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1613
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1614
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1615
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1616
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1617
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1618
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1619
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1620
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1621
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1622
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1623
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1624
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1625
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1626
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1627
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1628
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1629
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1630
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1631
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1632
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1633
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1634
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1635
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1636
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1637
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1638
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1639
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1640
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1641
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1642
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1643
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1644
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1645
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1646
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1647
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1648
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1649
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1650
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1651
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1652
+;(3, 10);;(7, 6);Prevent brown guillotine;1;1653
+;(3, 10);;(7, 6);False;1;1654
+;(3, 10);;(7, 6);Move small rocks off large rocks;1;1655
+;(3, 10);;(7, 6);Move small rocks off large rocks;1;1656
+;(3, 10);;(7, 6);Move small rocks off large rocks;1;1657
+;(3, 10);;(7, 6);Move small rocks off large rocks;1;1658
+;(3, 10);;(7, 6);Move small rocks off large rocks;1;1659
+;(3, 10);;(7, 6);Move small rocks off large rocks;1;1660
+;(3, 10);;(7, 6);Move small rocks off large rocks;1;1661
+;(3, 10);;(7, 6);Move small rocks off large rocks;1;1662
+;(3, 10);;(7, 6);Move small rocks off large rocks;1;1663
+;(3, 10);;(7, 6);Move small rocks off large rocks;1;1664
+;(3, 10);;(7, 6);Move small rocks off large rocks;1;1665
+;(3, 10);;(7, 6);Move small rocks off large rocks;1;1666
+;(3, 10);;(7, 6);Move small rocks off large rocks;1;1667
+;(3, 10);;(7, 6);Move small rocks off large rocks;1;1668
+;(3, 10);;(7, 6);Move small rocks off large rocks;1;1669
+;(3, 10);;(7, 6);Move small rocks off large rocks;1;1670
+MoveEast;(4, 10);;(7, 6);Move small rocks off large rocks;1;1671
+;(4, 10);;(7, 6);Move small rocks off large rocks;1;1672
+;(4, 10);;(7, 6);Move small rocks off large rocks;1;1673
+MoveEast;(5, 10);;(7, 6);Move small rocks off large rocks;1;1674
+;(5, 10);;(7, 6);Move small rocks off large rocks;1;1675
+;(5, 10);;(7, 6);Move small rocks off large rocks;1;1676
+MoveEast;(6, 10);;(7, 6);Move small rocks off large rocks;1;1677
+;(6, 10);;(7, 6);Move small rocks off large rocks;1;1678
+;(6, 10);;(7, 6);Move small rocks off large rocks;1;1679
+;(6, 10);;(7, 6);Move small rocks off large rocks;1;1680
+MoveEast;(7, 10);;(7, 6);Move small rocks off large rocks;1;1681
+;(7, 10);;(7, 6);Move small rocks off large rocks;1;1682
+;(7, 10);;(7, 6);Move small rocks off large rocks;1;1683
+MoveEast;(8, 10);;(7, 6);Move small rocks off large rocks;1;1684
+;(8, 10);;(7, 6);Move small rocks off large rocks;1;1685
+;(8, 10);;(7, 6);Move small rocks off large rocks;1;1686
+;(8, 10);;(7, 6);Move small rocks off large rocks;1;1687
+MoveEast;(9, 10);;(7, 6);Move small rocks off large rocks;1;1688
+;(9, 10);;(7, 6);Move small rocks off large rocks;1;1689
+;(9, 10);;(7, 6);Move small rocks off large rocks;1;1690
+MoveEast;(10, 10);;(7, 6);Move small rocks off large rocks;1;1691
+;(10, 10);;(7, 6);Move small rocks off large rocks;1;1692
+;(10, 10);;(7, 6);Move small rocks off large rocks;1;1693
+MoveEast;(11, 10);;(7, 6);Move small rocks off large rocks;1;1694
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1695
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1696
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1697
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1698
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1699
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1700
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1701
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1702
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1703
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1704
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1705
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1706
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1707
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1708
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1709
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1710
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1711
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1712
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1713
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1714
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1715
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1716
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1717
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1718
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1719
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1720
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1721
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1722
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1723
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1724
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1725
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1726
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1727
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1728
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1729
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1730
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1731
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1732
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1733
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1734
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1735
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1736
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1737
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1738
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1739
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1740
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1741
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1742
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1743
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1744
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1745
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1746
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1747
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1748
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1749
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1750
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1751
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1752
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1753
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1754
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1755
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1756
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1757
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1758
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1759
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1760
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1761
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1762
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1763
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1764
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1765
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1766
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1767
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1768
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1769
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1770
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1771
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1772
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1773
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1774
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1775
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1776
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1777
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1778
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1779
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1780
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1781
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1782
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1783
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1784
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1785
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1786
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1787
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1788
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1789
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1790
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1791
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1792
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1793
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1794
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1795
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1796
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1797
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1798
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1799
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1800
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1801
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1802
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1803
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1804
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1805
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1806
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1807
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1808
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1809
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1810
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1811
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1812
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1813
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1814
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1815
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1816
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1817
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1818
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1819
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1820
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1821
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1822
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1823
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1824
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1825
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1826
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1827
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1828
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1829
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1830
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1831
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1832
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1833
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1834
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1835
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1836
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1837
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1838
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1839
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1840
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1841
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1842
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1843
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1844
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1845
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1846
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1847
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1848
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1849
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1850
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1851
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1852
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1853
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1854
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1855
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1856
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1857
+;(11, 10);;(7, 6);Move small rocks off large rocks;1;1858
+MoveNorth;(11, 9);;(7, 6);Move small rocks off large rocks;1;1859
+;(11, 9);;(7, 6);Move small rocks off large rocks;1;1860
+;(11, 9);;(7, 6);Move small rocks off large rocks;1;1861
+;(11, 9);;(7, 6);Move small rocks off large rocks;1;1862
+MoveNorth;(11, 8);;(7, 6);Move small rocks off large rocks;1;1863
+;(11, 8);;(7, 6);Move small rocks off large rocks;1;1864
+;(11, 8);;(7, 6);Move small rocks off large rocks;1;1865
+;(11, 8);;(7, 6);Move small rocks off large rocks;1;1866
+;(11, 8);;(7, 6);Move small rocks off large rocks;1;1867
+;(11, 8);;(7, 6);Move small rocks off large rocks;1;1868
+;(11, 8);;(7, 6);Move small rocks off large rocks;1;1869
+;(11, 8);;(7, 6);Move small rocks off large rocks;1;1870
+MoveWest;(10, 8);;(7, 6);Move small rocks off large rocks;1;1871
+;(10, 8);;(7, 6);Move small rocks off large rocks;1;1872
+;(10, 8);;(7, 6);Move small rocks off large rocks;1;1873
+MoveWest;(9, 8);;(7, 6);Move small rocks off large rocks;1;1874
+;(9, 8);;(7, 6);Move small rocks off large rocks;1;1875
+;(9, 8);;(7, 6);Move small rocks off large rocks;1;1876
+MoveWest;(8, 8);;(7, 6);Move small rocks off large rocks;1;1877
+;(8, 8);;(7, 6);Move small rocks off large rocks;1;1878
+;(8, 8);;(7, 6);Move small rocks off large rocks;1;1879
+MoveWest;(7, 8);;(7, 6);Move small rocks off large rocks;1;1880
+;(7, 8);;(7, 6);Move small rocks off large rocks;1;1881
+;(7, 8);;(7, 6);Move small rocks off large rocks;1;1882
+;(7, 8);;(7, 6);Move small rocks off large rocks;1;1883
+MoveNorth;(7, 7);;(7, 6);Move small rocks off large rocks;1;1884
+;(7, 7);;(7, 6);Move small rocks off large rocks;1;1885
+;(7, 7);;(7, 6);Move small rocks off large rocks;1;1886
+MoveNorth;(7, 6);;(7, 6);Move small rocks off large rocks;1;1887
+;(7, 6);;(7, 6);Move small rocks off large rocks;1;1888
+;(7, 6);;(7, 6);Move small rocks off large rocks;1;1889
+;(7, 6);;(7, 6);Move small rocks off large rocks;1;1890
+;(7, 6);;(7, 6);Move small rocks off large rocks;1;1891
+;(7, 6);;(7, 6);Move small rocks off large rocks;1;1892
+;(7, 6);;(7, 6);Move small rocks off large rocks;1;1893
+;(7, 6);;(7, 6);Move small rocks off large rocks;1;1894
+;(7, 6);;(7, 6);Move small rocks off large rocks;1;1895
+;(7, 6);;(7, 6);Move small rocks off large rocks;1;1896
+;(7, 6);;(7, 6);Move small rocks off large rocks;1;1897
+;(7, 6);;(7, 6);Move small rocks off large rocks;1;1898
+;(7, 6);;(7, 6);Move small rocks off large rocks;1;1899
+;(7, 6);;(7, 6);Move small rocks off large rocks;1;1900
+;(7, 6);;(7, 6);Move small rocks off large rocks;1;1901
+;(7, 6);;(7, 6);Move small rocks off large rocks;1;1902
+;(7, 6);;(7, 6);Move small rocks off large rocks;1;1903
+;(7, 6);;(7, 6);Move small rocks off large rocks;1;1904
+GrabObject;(7, 6);;(7, 6);Move small rocks off large rocks;1;1905
+;(7, 6);;(7, 6);Move small rocks off large rocks;1;1906
+;(7, 6);;(7, 6);False;1;1907
+;(7, 6);;(7, 6);Wait for human before break;1;1908
+;(7, 6);;(7, 6);Wait for human before break;1;1909
+MoveWest;(6, 6);;(7, 6);Wait for human before break;1;1910
+;(6, 6);;(7, 6);Wait for human before break;1;1911
+;(6, 6);;(7, 6);Wait for human before break;1;1912
+MoveWest;(5, 6);;(7, 6);Wait for human before break;1;1913
+;(5, 6);;(7, 6);Wait for human before break;1;1914
+;(5, 6);;(7, 6);Wait for human before break;1;1915
+MoveWest;(4, 6);;(7, 6);Wait for human before break;1;1916
+;(4, 6);;(7, 6);Wait for human before break;1;1917
+;(4, 6);;(7, 6);Wait for human before break;1;1918
+MoveWest;(3, 6);;(7, 6);Wait for human before break;1;1919
+;(3, 6);;(7, 6);Wait for human before break;1;1920
+;(3, 6);;(7, 6);Wait for human before break;1;1921
+;(3, 6);;(7, 6);Wait for human before break;1;1922
+MoveWest;(2, 6);;(7, 6);Wait for human before break;1;1923
+;(2, 6);;(7, 6);Wait for human before break;1;1924
+;(2, 6);;(7, 6);Wait for human before break;1;1925
+;(2, 6);;(7, 6);Wait for human before break;1;1926
+;(2, 6);;(7, 6);Wait for human before break;1;1927
+;(2, 6);;(7, 6);Wait for human before break;1;1928
+DropObject;(2, 6);;(7, 6);Wait for human before break;1;1929
+;(2, 6);;(7, 6);Wait for human before break;1;1930
+;(2, 6);;(7, 6);Wait for human before break;1;1931
+;(2, 6);;(7, 6);Wait for human before break;1;1932
+;(2, 6);;(7, 6);Wait for human before break;1;1933
+;(2, 6);;(7, 6);Wait for human before break;1;1934
+;(2, 6);;(7, 6);Wait for human before break;1;1935
+;(2, 6);;(7, 6);Wait for human before break;1;1936
+MoveEast;(3, 6);;(7, 6);Wait for human before break;1;1937
+;(3, 6);;(7, 6);Wait for human before break;1;1938
+;(3, 6);;(7, 6);Wait for human before break;1;1939
+;(3, 6);;(7, 6);Wait for human before break;1;1940
+;(3, 6);;(7, 6);Wait for human before break;1;1941
+;(3, 6);;(7, 6);Wait for human before break;1;1942
+;(3, 6);;(7, 6);Wait for human before break;1;1943
+;(3, 6);;(7, 6);Wait for human before break;1;1944
+;(3, 6);;(7, 6);Wait for human before break;1;1945
+;(3, 6);;(7, 6);Wait for human before break;1;1946
+MoveEast;(4, 6);;(7, 6);Wait for human before break;1;1947
+MoveEast;(5, 6);;(7, 6);Wait for human before break;1;1948
+MoveEast;(6, 6);;(7, 6);Wait for human before break;1;1949
+MoveEast;(7, 6);;(7, 6);Wait for human before break;1;1950
+MoveEast;(8, 6);;(7, 6);Wait for human before break;1;1951
+MoveEast;(9, 6);;(7, 6);Wait for human before break;1;1952
+MoveEast;(10, 6);;(7, 6);Wait for human before break;1;1953
+MoveEast;(11, 6);;(7, 6);Wait for human before break;1;1954
+MoveEast;(12, 6);;(7, 6);Wait for human before break;1;1955
+;(12, 6);;(7, 6);Wait for human before break;1;1956
+;(12, 6);;(7, 6);Wait for human before break;1;1957
+MoveSouth;(12, 7);;(7, 6);Wait for human before break;1;1958
+;(12, 7);;(7, 6);Wait for human before break;1;1959
+;(12, 7);;(7, 6);Wait for human before break;1;1960
+;(12, 7);;(7, 6);Wait for human before break;1;1961
+;(12, 7);;(7, 6);Wait for human before break;1;1962
+;(12, 7);;(7, 6);Wait for human before break;1;1963
+;(12, 7);;(7, 6);Wait for human before break;1;1964
+;(12, 7);;(7, 6);Wait for human before break;1;1965
+;(12, 7);;(7, 6);Wait for human before break;1;1966
+MoveSouth;(12, 8);;(7, 6);Wait for human before break;1;1967
+;(12, 8);;(7, 6);Wait for human before break;1;1968
+;(12, 8);;(7, 6);Wait for human before break;1;1969
+;(12, 8);;(7, 6);Wait for human before break;1;1970
+;(12, 8);;(7, 6);Wait for human before break;1;1971
+;(12, 8);;(7, 6);Wait for human before break;1;1972
+;(12, 8);;(7, 6);Wait for human before break;1;1973
+;(12, 8);;(7, 6);Wait for human before break;1;1974
+;(12, 8);;(7, 6);Wait for human before break;1;1975
+;(12, 8);;(7, 6);Wait for human before break;1;1976
+;(12, 8);;(7, 6);Wait for human before break;1;1977
+;(12, 8);;(7, 6);Wait for human before break;1;1978
+;(12, 8);;(7, 6);Wait for human before break;1;1979
+;(12, 8);;(7, 6);Wait for human before break;1;1980
+;(12, 8);;(7, 6);Wait for human before break;1;1981
+;(12, 8);;(7, 6);Wait for human before break;1;1982
+GrabObject;(12, 8);;(7, 6);Wait for human before break;1;1983
+;(12, 8);;(7, 6);Wait for human before break;1;1984
+;(12, 8);;(7, 6);Wait for human before break;1;1985
+MoveEast;(13, 8);;(7, 6);Wait for human before break;1;1986
+;(13, 8);;(7, 6);Wait for human before break;1;1987
+;(13, 8);;(7, 6);Wait for human before break;1;1988
+MoveEast;(14, 8);;(7, 6);Wait for human before break;1;1989
+;(14, 8);;(7, 6);Wait for human before break;1;1990
+;(14, 8);;(7, 6);Wait for human before break;1;1991
+;(14, 8);;(7, 6);Wait for human before break;1;1992
+MoveEast;(15, 8);;(7, 6);Wait for human before break;1;1993
+;(15, 8);;(7, 6);Wait for human before break;1;1994
+;(15, 8);;(7, 6);Wait for human before break;1;1995
+MoveEast;(16, 8);;(7, 6);Wait for human before break;1;1996
+;(16, 8);;(7, 6);Wait for human before break;1;1997
+;(16, 8);;(7, 6);Wait for human before break;1;1998
+;(16, 8);;(7, 6);Wait for human before break;1;1999
+;(16, 8);;(7, 6);Wait for human before break;1;2000
+;(16, 8);;(7, 6);Wait for human before break;1;2001
+MoveEast;(17, 8);;(7, 6);Wait for human before break;1;2002
+;(17, 8);;(7, 6);Wait for human before break;1;2003
+;(17, 8);;(7, 6);Wait for human before break;1;2004
+;(17, 8);;(7, 6);Wait for human before break;1;2005
+;(17, 8);;(7, 6);Wait for human before break;1;2006
+;(17, 8);;(7, 6);Wait for human before break;1;2007
+DropObject;(17, 8);;(7, 6);Wait for human before break;1;2008
+;(17, 8);;(7, 6);Wait for human before break;1;2009
+;(17, 8);;(7, 6);Wait for human before break;1;2010
+;(17, 8);;(7, 6);Wait for human before break;1;2011
+MoveWest;(16, 8);;(7, 6);Wait for human before break;1;2012
+;(16, 8);;(7, 6);Wait for human before break;1;2013
+;(16, 8);;(7, 6);Wait for human before break;1;2014
+MoveWest;(15, 8);;(7, 6);Wait for human before break;1;2015
+;(15, 8);;(7, 6);Wait for human before break;1;2016
+;(15, 8);;(7, 6);Wait for human before break;1;2017
+MoveWest;(14, 8);;(7, 6);Wait for human before break;1;2018
+;(14, 8);;(7, 6);Wait for human before break;1;2019
+MoveWest;(13, 8);;(7, 6);Wait for human before break;1;2020
+;(13, 8);;(7, 6);Wait for human before break;1;2021
+;(13, 8);;(7, 6);Wait for human before break;1;2022
+;(13, 8);;(7, 6);Wait for human before break;1;2023
+MoveSouth;(13, 9);;(7, 6);Wait for human before break;1;2024
+;(13, 9);;(7, 6);Wait for human before break;1;2025
+;(13, 9);;(7, 6);Wait for human before break;1;2026
+;(13, 9);;(7, 6);Wait for human before break;1;2027
+;(13, 9);;(7, 6);Wait for human before break;1;2028
+;(13, 9);;(7, 6);Wait for human before break;1;2029
+;(13, 9);;(7, 6);Wait for human before break;1;2030
+;(13, 9);;(7, 6);Wait for human before break;1;2031
+;(13, 9);;(7, 6);Wait for human before break;1;2032
+MoveSouth;(13, 10);;(7, 6);Wait for human before break;1;2033
+;(13, 10);;(7, 6);Wait for human before break;1;2034
+;(13, 10);;(7, 6);Wait for human before break;1;2035
+;(13, 10);;(7, 6);Wait for human before break;1;2036
+;(13, 10);;(7, 6);Wait for human before break;1;2037
+;(13, 10);;(7, 6);Wait for human before break;1;2038
+;(13, 10);;(7, 6);Wait for human before break;1;2039
+;(13, 10);;(7, 6);Wait for human before break;1;2040
+;(13, 10);;(7, 6);Wait for human before break;1;2041
+;(13, 10);;(7, 6);Wait for human before break;1;2042
+;(13, 10);;(7, 6);Wait for human before break;1;2043
+;(13, 10);;(7, 6);Wait for human before break;1;2044
+;(13, 10);;(7, 6);Wait for human before break;1;2045
+;(13, 10);;(7, 6);Wait for human before break;1;2046
+;(13, 10);;(7, 6);Wait for human before break;1;2047
+;(13, 10);;(7, 6);Wait for human before break;1;2048
+;(13, 10);;(7, 6);Wait for human before break;1;2049
+GrabObject;(13, 10);;(7, 6);Wait for human before break;1;2050
+;(13, 10);;(7, 6);Wait for human before break;1;2051
+;(13, 10);;(7, 6);Wait for human before break;1;2052
+;(13, 10);;(7, 6);Wait for human before break;1;2053
+MoveEast;(14, 10);;(7, 6);Wait for human before break;1;2054
+;(14, 10);;(7, 6);Wait for human before break;1;2055
+MoveEast;(15, 10);;(7, 6);Wait for human before break;1;2056
+;(15, 10);;(7, 6);Wait for human before break;1;2057
+;(15, 10);;(7, 6);Wait for human before break;1;2058
+MoveEast;(16, 10);;(7, 6);Wait for human before break;1;2059
+;(16, 10);;(7, 6);Wait for human before break;1;2060
+;(16, 10);;(7, 6);Wait for human before break;1;2061
+;(16, 10);;(7, 6);Wait for human before break;1;2062
+MoveEast;(17, 10);;(7, 6);Wait for human before break;1;2063
+;(17, 10);;(7, 6);Wait for human before break;1;2064
+;(17, 10);;(7, 6);Wait for human before break;1;2065
+DropObject;(17, 10);;(7, 6);Wait for human before break;1;2066
+;(17, 10);;(7, 6);Wait for human before break;1;2067
+;(17, 10);;(7, 6);Wait for human before break;1;2068
+;(17, 10);;(7, 6);Wait for human before break;1;2069
+MoveWest;(16, 10);;(7, 6);Wait for human before break;1;2070
+;(16, 10);;(7, 6);Wait for human before break;1;2071
+;(16, 10);;(7, 6);Wait for human before break;1;2072
+MoveWest;(15, 10);;(7, 6);Wait for human before break;1;2073
+;(15, 10);;(7, 6);Wait for human before break;1;2074
+;(15, 10);;(7, 6);Wait for human before break;1;2075
+MoveWest;(14, 10);;(7, 6);Wait for human before break;1;2076
+;(14, 10);;(7, 6);Wait for human before break;1;2077
+;(14, 10);;(7, 6);Wait for human before break;1;2078
+MoveWest;(13, 10);;(7, 6);Wait for human before break;1;2079
+;(13, 10);;(7, 6);Wait for human before break;1;2080
+;(13, 10);;(7, 6);Wait for human before break;1;2081
+MoveWest;(12, 10);;(7, 6);Wait for human before break;1;2082
+;(12, 10);;(7, 6);Wait for human before break;1;2083
+;(12, 10);;(7, 6);Wait for human before break;1;2084
+MoveWest;(11, 10);;(7, 6);Wait for human before break;1;2085
+;(11, 10);;(7, 6);Wait for human before break;1;2086
+;(11, 10);;(7, 6);Wait for human before break;1;2087
+;(11, 10);;(7, 6);Wait for human before break;1;2088
+;(11, 10);;(7, 6);Wait for human before break;1;2089
+MoveNorth;(11, 9);;(7, 6);Wait for human before break;1;2090
+;(11, 9);;(7, 6);Wait for human before break;1;2091
+;(11, 9);;(7, 6);Wait for human before break;1;2092
+MoveNorth;(11, 8);;(7, 6);Wait for human before break;1;2093
+;(11, 8);;(7, 6);Wait for human before break;1;2094
+;(11, 8);;(7, 6);Wait for human before break;1;2095
+;(11, 8);;(7, 6);Wait for human before break;1;2096
+;(11, 8);;(7, 6);Wait for human before break;1;2097
+;(11, 8);;(7, 6);Wait for human before break;1;2098
+;(11, 8);;(7, 6);Wait for human before break;1;2099
+;(11, 8);;(7, 6);Wait for human before break;1;2100
+;(11, 8);;(7, 6);Wait for human before break;1;2101
+;(11, 8);;(7, 6);Wait for human before break;1;2102
+;(11, 8);;(7, 6);Wait for human before break;1;2103
+;(11, 8);;(7, 6);Wait for human before break;1;2104
+;(11, 8);;(7, 6);Wait for human before break;1;2105
+;(11, 8);;(7, 6);Wait for human before break;1;2106
+;(11, 8);;(7, 6);Wait for human before break;1;2107
+;(11, 8);;(7, 6);Wait for human before break;1;2108
+;(11, 8);;(7, 6);Wait for human before break;1;2109
+;(11, 8);;(7, 6);Wait for human before break;1;2110
+;(11, 8);;(7, 6);Wait for human before break;1;2111
+MoveNorth;(11, 7);;(7, 6);Wait for human before break;1;2112
+;(11, 7);;(7, 6);Wait for human before break;1;2113
+;(11, 7);;(7, 6);Wait for human before break;1;2114
+;(11, 7);;(7, 6);Wait for human before break;1;2115
+;(11, 7);;(7, 6);Wait for human before break;1;2116
+;(11, 7);;(7, 6);Wait for human before break;1;2117
+;(11, 7);;(7, 6);Wait for human before break;1;2118
+;(11, 7);;(7, 6);Wait for human before break;1;2119
+;(11, 7);;(7, 6);Wait for human before break;1;2120
+;(11, 7);;(7, 6);Wait for human before break;1;2121
+;(11, 7);;(7, 6);Wait for human before break;1;2122
+;(11, 7);;(7, 6);Wait for human before break;1;2123
+;(11, 7);;(7, 6);Wait for human before break;1;2124
+;(11, 7);;(7, 6);Wait for human before break;1;2125
+;(11, 7);;(7, 6);Wait for human before break;1;2126
+;(11, 7);;(7, 6);Wait for human before break;1;2127
+;(11, 7);;(7, 6);Wait for human before break;1;2128
+;(11, 7);;(7, 6);Wait for human before break;1;2129
+;(11, 7);;(7, 6);Wait for human before break;1;2130
+MoveNorth;(11, 6);;(7, 6);Wait for human before break;1;2131
+;(11, 6);;(7, 6);Wait for human before break;1;2132
+;(11, 6);;(7, 6);Wait for human before break;1;2133
+MoveNorth;(11, 5);;(7, 6);Wait for human before break;1;2134
+;(11, 5);;(7, 6);Wait for human before break;1;2135
+;(11, 5);;(7, 6);Wait for human before break;1;2136
+;(11, 5);;(7, 6);Wait for human before break;1;2137
+;(11, 5);;(7, 6);Wait for human before break;1;2138
+;(11, 5);;(7, 6);Wait for human before break;1;2139
+;(11, 5);;(7, 6);Wait for human before break;1;2140
+;(11, 5);;(7, 6);Wait for human before break;1;2141
+;(11, 5);;(7, 6);Wait for human before break;1;2142
+;(11, 5);;(7, 6);Wait for human before break;1;2143
+;(11, 5);;(7, 6);Wait for human before break;1;2144
+;(11, 5);;(7, 6);Wait for human before break;1;2145
+;(11, 5);;(7, 6);Wait for human before break;1;2146
+;(11, 5);;(7, 6);Wait for human before break;1;2147
+;(11, 5);;(7, 6);Wait for human before break;1;2148
+;(11, 5);;(7, 6);Wait for human before break;1;2149
+;(11, 5);;(7, 6);Wait for human before break;1;2150
+;(11, 5);;(7, 6);Wait for human before break;1;2151
+;(11, 5);;(7, 6);Wait for human before break;1;2152
+;(11, 5);;(7, 6);Wait for human before break;1;2153
+;(11, 5);;(7, 6);Wait for human before break;1;2154
+;(11, 5);;(7, 6);Wait for human before break;1;2155
+;(11, 5);;(7, 6);Wait for human before break;1;2156
+;(11, 5);;(7, 6);Wait for human before break;1;2157
+;(11, 5);;(7, 6);Wait for human before break;1;2158
+;(11, 5);;(7, 6);Wait for human before break;1;2159
+;(11, 5);;(7, 6);Wait for human before break;1;2160
+;(11, 5);;(7, 6);Wait for human before break;1;2161
+;(11, 5);;(7, 6);Wait for human before break;1;2162
+;(11, 5);;(7, 6);Wait for human before break;1;2163
+;(11, 5);;(7, 6);Wait for human before break;1;2164
+;(11, 5);;(7, 6);Wait for human before break;1;2165
+;(11, 5);;(7, 6);Wait for human before break;1;2166
+;(11, 5);;(7, 6);Wait for human before break;1;2167
+;(11, 5);;(7, 6);Wait for human before break;1;2168
+;(11, 5);;(7, 6);Wait for human before break;1;2169
+;(11, 5);;(7, 6);Wait for human before break;1;2170
+;(11, 5);;(7, 6);Wait for human before break;1;2171
+;(11, 5);;(7, 6);Wait for human before break;1;2172
+;(11, 5);;(7, 6);Wait for human before break;1;2173
+;(11, 5);;(7, 6);Wait for human before break;1;2174
+;(11, 5);;(7, 6);Wait for human before break;1;2175
+;(11, 5);;(7, 6);Wait for human before break;1;2176
+;(11, 5);;(7, 6);Wait for human before break;1;2177
+;(11, 5);;(7, 6);Wait for human before break;1;2178
+;(11, 5);;(7, 6);Wait for human before break;1;2179
+;(11, 5);;(7, 6);Wait for human before break;1;2180
+;(11, 5);;(7, 6);Wait for human before break;1;2181
+;(11, 5);;(7, 6);Wait for human before break;1;2182
+;(11, 5);;(7, 6);Wait for human before break;1;2183
+;(11, 5);;(7, 6);Wait for human before break;1;2184
+;(11, 5);;(7, 6);Wait for human before break;1;2185
+;(11, 5);;(7, 6);Wait for human before break;1;2186
+;(11, 5);;(7, 6);Wait for human before break;1;2187
+;(11, 5);;(7, 6);Wait for human before break;1;2188
+;(11, 5);;(7, 6);Wait for human before break;1;2189
+;(11, 5);;(7, 6);Wait for human before break;1;2190
+;(11, 5);;(7, 6);Wait for human before break;1;2191
+;(11, 5);;(7, 6);Wait for human before break;1;2192
+;(11, 5);;(7, 6);Wait for human before break;1;2193
+;(11, 5);;(7, 6);Wait for human before break;1;2194
+;(11, 5);;(7, 6);Wait for human before break;1;2195
+;(11, 5);;(7, 6);Wait for human before break;1;2196
+;(11, 5);;(7, 6);Wait for human before break;1;2197
+;(11, 5);;(7, 6);Wait for human before break;1;2198
+;(11, 5);;(7, 6);Wait for human before break;1;2199
+;(11, 5);;(7, 6);Wait for human before break;1;2200
+;(11, 5);;(7, 6);Wait for human before break;1;2201
+;(11, 5);;(7, 6);Wait for human before break;1;2202
+;(11, 5);;(7, 6);Wait for human before break;1;2203
+;(11, 5);;(7, 6);Wait for human before break;1;2204
+;(11, 5);;(7, 6);Wait for human before break;1;2205
+;(11, 5);;(7, 6);Wait for human before break;1;2206
+;(11, 5);;(7, 6);Wait for human before break;1;2207
+;(11, 5);;(7, 6);Wait for human before break;1;2208
+;(11, 5);;(7, 6);Wait for human before break;1;2209
+;(11, 5);;(7, 6);Wait for human before break;1;2210
+;(11, 5);;(7, 6);Wait for human before break;1;2211
+;(11, 5);;(7, 6);Wait for human before break;1;2212
+;(11, 5);;(7, 6);Wait for human before break;1;2213
+;(11, 5);;(7, 6);Wait for human before break;1;2214
+;(11, 5);;(7, 6);Wait for human before break;1;2215
+;(11, 5);;(7, 6);Wait for human before break;1;2216
+;(11, 5);;(7, 6);Wait for human before break;1;2217
+;(11, 5);;(7, 6);Wait for human before break;1;2218
+;(11, 5);;(7, 6);Wait for human before break;1;2219
+;(11, 5);;(7, 6);Wait for human before break;1;2220
+;(11, 5);;(7, 6);Wait for human before break;1;2221
+;(11, 5);;(7, 6);Wait for human before break;1;2222
+;(11, 5);;(7, 6);Wait for human before break;1;2223
+;(11, 5);;(7, 6);Wait for human before break;1;2224
+;(11, 5);;(7, 6);Wait for human before break;1;2225
+;(11, 5);;(7, 6);Wait for human before break;1;2226
+;(11, 5);;(7, 6);Wait for human before break;1;2227
+;(11, 5);;(7, 6);Wait for human before break;1;2228
+;(11, 5);;(7, 6);Wait for human before break;1;2229
+;(11, 5);;(7, 6);Wait for human before break;1;2230
+;(11, 5);;(7, 6);Wait for human before break;1;2231
+;(11, 5);;(7, 6);Wait for human before break;1;2232
+;(11, 5);;(7, 6);Wait for human before break;1;2233
+;(11, 5);;(7, 6);Wait for human before break;1;2234
+;(11, 5);;(7, 6);Wait for human before break;1;2235
+;(11, 5);;(7, 6);Wait for human before break;1;2236
+;(11, 5);;(7, 6);Wait for human before break;1;2237
+;(11, 5);;(7, 6);Wait for human before break;1;2238
+;(11, 5);;(7, 6);Wait for human before break;1;2239
+;(11, 5);;(7, 6);Wait for human before break;1;2240
+;(11, 5);;(7, 6);Wait for human before break;1;2241
+;(11, 5);;(7, 6);Wait for human before break;1;2242
+;(11, 5);;(7, 6);Wait for human before break;1;2243
+;(11, 5);;(7, 6);Wait for human before break;1;2244
+;(11, 5);;(7, 6);Wait for human before break;1;2245
+;(11, 5);;(7, 6);Wait for human before break;1;2246
+;(11, 5);;(7, 6);Wait for human before break;1;2247
+;(11, 5);;(7, 6);Wait for human before break;1;2248
+;(11, 5);;(7, 6);Wait for human before break;1;2249
+;(11, 5);;(7, 6);Wait for human before break;1;2250
+;(11, 5);;(7, 6);Wait for human before break;1;2251
+;(11, 5);;(7, 6);Wait for human before break;1;2252
+;(11, 5);;(7, 6);Wait for human before break;1;2253
+;(11, 5);;(7, 6);Wait for human before break;1;2254
+;(11, 5);;(7, 6);Wait for human before break;1;2255
+;(11, 5);;(7, 6);Wait for human before break;1;2256
+;(11, 5);;(7, 6);Wait for human before break;1;2257
+;(11, 5);;(7, 6);Wait for human before break;1;2258
+;(11, 5);;(7, 6);Wait for human before break;1;2259
+;(11, 5);;(7, 6);Wait for human before break;1;2260
+;(11, 5);;(7, 6);Wait for human before break;1;2261
+;(11, 5);;(7, 6);Wait for human before break;1;2262
+;(11, 5);;(7, 6);Wait for human before break;1;2263
+;(11, 5);;(7, 6);Wait for human before break;1;2264
+;(11, 5);;(7, 6);Wait for human before break;1;2265
+;(11, 5);;(7, 6);Wait for human before break;1;2266
+;(11, 5);;(7, 6);Wait for human before break;1;2267
+;(11, 5);;(7, 6);Wait for human before break;1;2268
+;(11, 5);;(7, 6);Wait for human before break;1;2269
+;(11, 5);;(7, 6);Wait for human before break;1;2270
+;(11, 5);;(7, 6);Wait for human before break;1;2271
+;(11, 5);;(7, 6);Wait for human before break;1;2272
+;(11, 5);;(7, 6);Wait for human before break;1;2273
+;(11, 5);;(7, 6);Wait for human before break;1;2274
+;(11, 5);;(7, 6);Wait for human before break;1;2275
+;(11, 5);;(7, 6);Wait for human before break;1;2276
+;(11, 5);;(7, 6);Wait for human before break;1;2277
+;(11, 5);;(7, 6);Wait for human before break;1;2278
+;(11, 5);;(7, 6);Wait for human before break;1;2279
+;(11, 5);;(7, 6);Wait for human before break;1;2280
+;(11, 5);;(7, 6);Wait for human before break;1;2281
+;(11, 5);;(7, 6);Wait for human before break;1;2282
+;(11, 5);;(7, 6);Wait for human before break;1;2283
+;(11, 5);;(7, 6);Wait for human before break;1;2284
+;(11, 5);;(7, 6);Wait for human before break;1;2285
+;(11, 5);;(7, 6);Wait for human before break;1;2286
+;(11, 5);;(7, 6);Wait for human before break;1;2287
+;(11, 5);;(7, 6);Wait for human before break;1;2288
+;(11, 5);;(7, 6);Wait for human before break;1;2289
+;(11, 5);;(7, 6);Wait for human before break;1;2290
+;(11, 5);;(7, 6);Wait for human before break;1;2291
+;(11, 5);;(7, 6);Wait for human before break;1;2292
+;(11, 5);;(7, 6);Wait for human before break;1;2293
+;(11, 5);;(7, 6);Wait for human before break;1;2294
+;(11, 5);;(7, 6);Wait for human before break;1;2295
+;(11, 5);;(7, 6);Wait for human before break;1;2296
+;(11, 5);;(7, 6);Wait for human before break;1;2297
+;(11, 5);;(7, 6);Wait for human before break;1;2298
+;(11, 5);;(7, 6);Wait for human before break;1;2299
+;(11, 5);;(7, 6);Wait for human before break;1;2300
+;(11, 5);;(7, 6);Wait for human before break;1;2301
+;(11, 5);;(7, 6);Wait for human before break;1;2302
+;(11, 5);;(7, 6);Wait for human before break;1;2303
+;(11, 5);;(7, 6);Wait for human before break;1;2304
+;(11, 5);;(7, 6);Wait for human before break;1;2305
+;(11, 5);;(7, 6);Wait for human before break;1;2306
+;(11, 5);;(7, 6);Wait for human before break;1;2307
+;(11, 5);;(7, 6);Wait for human before break;1;2308
+;(11, 5);;(7, 6);Wait for human before break;1;2309
+;(11, 5);;(7, 6);Wait for human before break;1;2310
+;(11, 5);;(7, 6);Wait for human before break;1;2311
+;(11, 5);;(7, 6);Wait for human before break;1;2312
+;(11, 5);;(7, 6);Wait for human before break;1;2313
+;(11, 5);;(7, 6);Wait for human before break;1;2314
+;(11, 5);;(7, 6);Wait for human before break;1;2315
+;(11, 5);;(7, 6);Wait for human before break;1;2316
+;(11, 5);;(7, 6);Wait for human before break;1;2317
+;(11, 5);;(7, 6);Wait for human before break;1;2318
+;(11, 5);;(7, 6);Wait for human before break;1;2319
+MoveEast;(12, 5);;(7, 6);Wait for human before break;1;2320
+;(12, 5);;(7, 6);Wait for human before break;1;2321
+;(12, 5);;(7, 6);Wait for human before break;1;2322
+;(12, 5);;(7, 6);Wait for human before break;1;2323
+MoveEast;(13, 5);;(7, 6);Wait for human before break;1;2324
+;(13, 5);;(7, 6);Wait for human before break;1;2325
+;(13, 5);;(7, 6);Wait for human before break;1;2326
+MoveEast;(14, 5);;(7, 6);Wait for human before break;1;2327
+;(14, 5);;(7, 6);Wait for human before break;1;2328
+;(14, 5);;(7, 6);Wait for human before break;1;2329
+;(14, 5);;(7, 6);Wait for human before break;1;2330
+;(14, 5);;(7, 6);Wait for human before break;1;2331
+MoveWest;(13, 5);;(7, 6);Wait for human before break;1;2332
+;(13, 5);;(7, 6);Wait for human before break;1;2333
+;(13, 5);;(7, 6);Wait for human before break;1;2334
+MoveWest;(12, 5);;(7, 6);Wait for human before break;1;2335
+;(12, 5);;(7, 6);Wait for human before break;1;2336
+;(12, 5);;(7, 6);Wait for human before break;1;2337
+MoveWest;(11, 5);;(7, 6);Wait for human before break;1;2338
+;(11, 5);;(7, 6);Wait for human before break;1;2339
+;(11, 5);;(7, 6);Wait for human before break;1;2340
+;(11, 5);;(7, 6);Wait for human before break;1;2341
+;(11, 5);;(7, 6);Wait for human before break;1;2342
+;(11, 5);;(7, 6);Wait for human before break;1;2343
+;(11, 5);;(7, 6);Wait for human before break;1;2344
+;(11, 5);;(7, 6);Wait for human before break;1;2345
+;(11, 5);;(7, 6);Wait for human before break;1;2346
+;(11, 5);;(7, 6);Wait for human before break;1;2347
+;(11, 5);;(7, 6);Wait for human before break;1;2348
+;(11, 5);;(7, 6);Wait for human before break;1;2349
+;(11, 5);;(7, 6);Wait for human before break;1;2350
+;(11, 5);;(7, 6);Wait for human before break;1;2351
+;(11, 5);;(7, 6);Wait for human before break;1;2352
+;(11, 5);;(7, 6);Wait for human before break;1;2353
+;(11, 5);;(7, 6);Wait for human before break;1;2354
+;(11, 5);;(7, 6);Wait for human before break;1;2355
+;(11, 5);;(7, 6);Wait for human before break;1;2356
+;(11, 5);;(7, 6);Wait for human before break;1;2357
+;(11, 5);;(7, 6);Wait for human before break;1;2358
+;(11, 5);;(7, 6);Wait for human before break;1;2359
+;(11, 5);;(7, 6);Wait for human before break;1;2360
+;(11, 5);;(7, 6);Wait for human before break;1;2361
+;(11, 5);;(7, 6);Wait for human before break;1;2362
+;(11, 5);;(7, 6);Wait for human before break;1;2363
+;(11, 5);;(7, 6);Wait for human before break;1;2364
+;(11, 5);;(7, 6);Wait for human before break;1;2365
+;(11, 5);;(7, 6);Wait for human before break;1;2366
+;(11, 5);;(7, 6);Wait for human before break;1;2367
+;(11, 5);;(7, 6);Wait for human before break;1;2368
+;(11, 5);;(7, 6);Wait for human before break;1;2369
+;(11, 5);;(7, 6);Wait for human before break;1;2370
+;(11, 5);;(7, 6);Wait for human before break;1;2371
+;(11, 5);;(7, 6);Wait for human before break;1;2372
+;(11, 5);;(7, 6);Wait for human before break;1;2373
+;(11, 5);;(7, 6);Wait for human before break;1;2374
+;(11, 5);;(7, 6);Wait for human before break;1;2375
+;(11, 5);;(7, 6);Wait for human before break;1;2376
+;(11, 5);;(7, 6);Wait for human before break;1;2377
+;(11, 5);;(7, 6);Wait for human before break;1;2378
+;(11, 5);;(7, 6);Wait for human before break;1;2379
+;(11, 5);;(7, 6);Wait for human before break;1;2380
+;(11, 5);;(7, 6);Wait for human before break;1;2381
+;(11, 5);;(7, 6);Wait for human before break;1;2382
+;(11, 5);;(7, 6);Wait for human before break;1;2383
+;(11, 5);;(7, 6);Wait for human before break;1;2384
+;(11, 5);;(7, 6);Wait for human before break;1;2385
+;(11, 5);;(7, 6);Wait for human before break;1;2386
+;(11, 5);;(7, 6);Wait for human before break;1;2387
+;(11, 5);;(7, 6);Wait for human before break;1;2388
+;(11, 5);;(7, 6);Wait for human before break;1;2389
+;(11, 5);;(7, 6);Wait for human before break;1;2390
+;(11, 5);;(7, 6);Wait for human before break;1;2391
+;(11, 5);;(7, 6);Wait for human before break;1;2392
+;(11, 5);;(7, 6);Wait for human before break;1;2393
+;(11, 5);;(7, 6);Wait for human before break;1;2394
+;(11, 5);;(7, 6);Wait for human before break;1;2395
+;(11, 5);;(7, 6);Wait for human before break;1;2396
+;(11, 5);;(7, 6);Wait for human before break;1;2397
+;(11, 5);;(7, 6);Wait for human before break;1;2398
+;(11, 5);;(7, 6);Wait for human before break;1;2399
+;(11, 5);;(7, 6);Wait for human before break;1;2400
+;(11, 5);;(7, 6);Wait for human before break;1;2401
+;(11, 5);;(7, 6);Wait for human before break;1;2402
+;(11, 5);;(7, 6);Wait for human before break;1;2403
+;(11, 5);;(7, 6);Wait for human before break;1;2404
+;(11, 5);;(7, 6);Wait for human before break;1;2405
+;(11, 5);;(7, 6);Wait for human before break;1;2406
+;(11, 5);;(7, 6);Wait for human before break;1;2407
+;(11, 5);;(7, 6);Wait for human before break;1;2408
+;(11, 5);;(7, 6);Wait for human before break;1;2409
+;(11, 5);;(7, 6);Wait for human before break;1;2410
+;(11, 5);;(7, 6);Wait for human before break;1;2411
+;(11, 5);;(7, 6);Wait for human before break;1;2412
+;(11, 5);;(7, 6);Wait for human before break;1;2413
+;(11, 5);;(7, 6);Wait for human before break;1;2414
+;(11, 5);;(7, 6);Wait for human before break;1;2415
+;(11, 5);;(7, 6);Wait for human before break;1;2416
+;(11, 5);;(7, 6);Wait for human before break;1;2417
+;(11, 5);;(7, 6);Wait for human before break;1;2418
+;(11, 5);;(7, 6);Wait for human before break;1;2419
+;(11, 5);;(7, 6);Wait for human before break;1;2420
+;(11, 5);;(7, 6);Wait for human before break;1;2421
+;(11, 5);;(7, 6);Wait for human before break;1;2422
+;(11, 5);;(7, 6);Wait for human before break;1;2423
+;(11, 5);;(7, 6);Wait for human before break;1;2424
+;(11, 5);;(7, 6);Wait for human before break;1;2425
+;(11, 5);;(7, 6);Wait for human before break;1;2426
+;(11, 5);;(7, 6);Wait for human before break;1;2427
+;(11, 5);;(7, 6);Wait for human before break;1;2428
+;(11, 5);;(7, 6);Wait for human before break;1;2429
+;(11, 5);;(7, 6);Wait for human before break;1;2430
+;(11, 5);;(7, 6);Wait for human before break;1;2431
+;(11, 5);;(7, 6);Wait for human before break;1;2432
+;(11, 5);;(7, 6);Wait for human before break;1;2433
+;(11, 5);;(7, 6);Wait for human before break;1;2434
+;(11, 5);;(7, 6);Wait for human before break;1;2435
+;(11, 5);;(7, 6);Wait for human before break;1;2436
+;(11, 5);;(7, 6);Wait for human before break;1;2437
+;(11, 5);;(7, 6);Wait for human before break;1;2438
+;(11, 5);;(7, 6);Wait for human before break;1;2439
+;(11, 5);;(7, 6);Wait for human before break;1;2440
+;(11, 5);;(7, 6);Wait for human before break;1;2441
+;(11, 5);;(7, 6);Wait for human before break;1;2442
+;(11, 5);;(7, 6);Wait for human before break;1;2443
+;(11, 5);;(7, 6);Wait for human before break;1;2444
+;(11, 5);;(7, 6);Wait for human before break;1;2445
+;(11, 5);;(7, 6);Wait for human before break;1;2446
+;(11, 5);;(7, 6);Wait for human before break;1;2447
+;(11, 5);;(7, 6);Wait for human before break;1;2448
+;(11, 5);;(7, 6);Wait for human before break;1;2449
+;(11, 5);;(7, 6);Wait for human before break;1;2450
+;(11, 5);;(7, 6);Wait for human before break;1;2451
+;(11, 5);;(7, 6);Wait for human before break;1;2452
+;(11, 5);;(7, 6);Wait for human before break;1;2453
+;(11, 5);;(7, 6);Wait for human before break;1;2454
+;(11, 5);;(7, 6);Wait for human before break;1;2455
+;(11, 5);;(7, 6);Wait for human before break;1;2456
+;(11, 5);;(7, 6);Wait for human before break;1;2457
+;(11, 5);;(7, 6);Wait for human before break;1;2458
+;(11, 5);;(7, 6);Wait for human before break;1;2459
+;(11, 5);;(7, 6);Wait for human before break;1;2460
+;(11, 5);;(7, 6);Wait for human before break;1;2461
+;(11, 5);;(7, 6);Wait for human before break;1;2462
+;(11, 5);;(7, 6);Wait for human before break;1;2463
+;(11, 5);;(7, 6);Wait for human before break;1;2464
+;(11, 5);;(7, 6);Wait for human before break;1;2465
+;(11, 5);;(7, 6);Wait for human before break;1;2466
+;(11, 5);;(7, 6);Wait for human before break;1;2467
+;(11, 5);;(7, 6);Wait for human before break;1;2468
+;(11, 5);;(7, 6);Wait for human before break;1;2469
+;(11, 5);;(7, 6);Wait for human before break;1;2470
+;(11, 5);;(7, 6);Wait for human before break;1;2471
+;(11, 5);;(7, 6);Wait for human before break;1;2472
+;(11, 5);;(7, 6);Wait for human before break;1;2473
+;(11, 5);;(7, 6);Wait for human before break;1;2474
+MoveSouth;(11, 6);;(7, 6);Wait for human before break;1;2475
+;(11, 6);;(7, 6);Wait for human before break;1;2476
+;(11, 6);;(7, 6);Wait for human before break;1;2477
+;(11, 6);;(7, 6);Wait for human before break;1;2478
+MoveSouth;(11, 7);;(7, 6);Wait for human before break;1;2479
+;(11, 7);;(7, 6);Wait for human before break;1;2480
+;(11, 7);;(7, 6);Wait for human before break;1;2481
+;(11, 7);;(7, 6);Wait for human before break;1;2482
+;(11, 7);;(7, 6);Wait for human before break;1;2483
+;(11, 7);;(7, 6);Wait for human before break;1;2484
+;(11, 7);;(7, 6);Wait for human before break;1;2485
+;(11, 7);;(7, 6);Wait for human before break;1;2486
+;(11, 7);;(7, 6);Wait for human before break;1;2487
+;(11, 7);;(7, 6);Wait for human before break;1;2488
+;(11, 7);;(7, 6);Wait for human before break;1;2489
+;(11, 7);;(7, 6);Wait for human before break;1;2490
+;(11, 7);;(7, 6);Wait for human before break;1;2491
+;(11, 7);;(7, 6);Wait for human before break;1;2492
+;(11, 7);;(7, 6);Wait for human before break;1;2493
+;(11, 7);;(7, 6);Wait for human before break;1;2494
+;(11, 7);;(7, 6);Wait for human before break;1;2495
+;(11, 7);;(7, 6);Wait for human before break;1;2496
+MoveSouth;(11, 8);;(7, 6);Wait for human before break;1;2497
+;(11, 8);;(7, 6);Wait for human before break;1;2498
+;(11, 8);;(7, 6);Wait for human before break;1;2499
+;(11, 8);;(7, 6);Wait for human before break;1;2500
+;(11, 8);;(7, 6);Wait for human before break;1;2501
+;(11, 8);;(7, 6);Wait for human before break;1;2502
+;(11, 8);;(7, 6);Wait for human before break;1;2503
+;(11, 8);;(7, 6);Wait for human before break;1;2504
+;(11, 8);;(7, 6);Wait for human before break;1;2505
+;(11, 8);;(7, 6);Wait for human before break;1;2506
+;(11, 8);;(7, 6);Wait for human before break;1;2507
+;(11, 8);;(7, 6);Wait for human before break;1;2508
+;(11, 8);;(7, 6);Wait for human before break;1;2509
+;(11, 8);;(7, 6);Wait for human before break;1;2510
+;(11, 8);;(7, 6);Wait for human before break;1;2511
+;(11, 8);;(7, 6);Wait for human before break;1;2512
+;(11, 8);;(7, 6);Wait for human before break;1;2513
+;(11, 8);;(7, 6);Wait for human before break;1;2514
+;(11, 8);;(7, 6);Wait for human before break;1;2515
+;(11, 8);;(7, 6);Wait for human before break;1;2516
+;(11, 8);;(7, 6);Wait for human before break;1;2517
+;(11, 8);;(7, 6);Wait for human before break;1;2518
+;(11, 8);;(7, 6);Wait for human before break;1;2519
+;(11, 8);;(7, 6);Wait for human before break;1;2520
+;(11, 8);;(7, 6);Wait for human before break;1;2521
+;(11, 8);;(7, 6);Wait for human before break;1;2522
+;(11, 8);;(7, 6);Wait for human before break;1;2523
+;(11, 8);;(7, 6);Wait for human before break;1;2524
+;(11, 8);;(7, 6);Wait for human before break;1;2525
+;(11, 8);;(7, 6);Wait for human before break;1;2526
+;(11, 8);;(7, 6);Wait for human before break;1;2527
+;(11, 8);;(7, 6);Wait for human before break;1;2528
+;(11, 8);;(7, 6);Wait for human before break;1;2529
+;(11, 8);;(7, 6);Wait for human before break;1;2530
+;(11, 8);;(7, 6);Wait for human before break;1;2531
+;(11, 8);;(7, 6);Wait for human before break;1;2532
+;(11, 8);;(7, 6);Wait for human before break;1;2533
+;(11, 8);;(7, 6);Wait for human before break;1;2534
+;(11, 8);;(7, 6);Wait for human before break;1;2535
+;(11, 8);;(7, 6);Wait for human before break;1;2536
+;(11, 8);;(7, 6);Wait for human before break;1;2537
+;(11, 8);;(7, 6);Wait for human before break;1;2538
+;(11, 8);;(7, 6);Wait for human before break;1;2539
+;(11, 8);;(7, 6);Wait for human before break;1;2540
+;(11, 8);;(7, 6);Wait for human before break;1;2541
+;(11, 8);;(7, 6);Wait for human before break;1;2542
+;(11, 8);;(7, 6);Wait for human before break;1;2543
+;(11, 8);;(7, 6);Wait for human before break;1;2544
+;(11, 8);;(7, 6);Wait for human before break;1;2545
+;(11, 8);;(7, 6);Wait for human before break;1;2546
+;(11, 8);;(7, 6);Wait for human before break;1;2547
+;(11, 8);;(7, 6);Wait for human before break;1;2548
+;(11, 8);;(7, 6);Wait for human before break;1;2549
+;(11, 8);;(7, 6);Wait for human before break;1;2550
+;(11, 8);;(7, 6);Wait for human before break;1;2551
+;(11, 8);;(7, 6);Wait for human before break;1;2552
+;(11, 8);;(7, 6);Wait for human before break;1;2553
+;(11, 8);;(7, 6);Wait for human before break;1;2554
+;(11, 8);;(7, 6);Wait for human before break;1;2555
+;(11, 8);;(7, 6);Wait for human before break;1;2556
+;(11, 8);;(7, 6);Wait for human before break;1;2557
+;(11, 8);;(7, 6);Wait for human before break;1;2558
+;(11, 8);;(7, 6);Wait for human before break;1;2559
+;(11, 8);;(7, 6);Wait for human before break;1;2560
+;(11, 8);;(7, 6);Wait for human before break;1;2561
+;(11, 8);;(7, 6);Wait for human before break;1;2562
+;(11, 8);;(7, 6);Wait for human before break;1;2563
+;(11, 8);;(7, 6);Wait for human before break;1;2564
+;(11, 8);;(7, 6);Wait for human before break;1;2565
+;(11, 8);;(7, 6);Wait for human before break;1;2566
+;(11, 8);;(7, 6);Wait for human before break;1;2567
+;(11, 8);;(7, 6);Wait for human before break;1;2568
+;(11, 8);;(7, 6);Wait for human before break;1;2569
+;(11, 8);;(7, 6);Wait for human before break;1;2570
+;(11, 8);;(7, 6);Wait for human before break;1;2571
+;(11, 8);;(7, 6);Wait for human before break;1;2572
+;(11, 8);;(7, 6);Wait for human before break;1;2573
+;(11, 8);;(7, 6);Wait for human before break;1;2574
+;(11, 8);;(7, 6);Wait for human before break;1;2575
+;(11, 8);;(7, 6);Wait for human before break;1;2576
+;(11, 8);;(7, 6);Wait for human before break;1;2577
+;(11, 8);;(7, 6);Wait for human before break;1;2578
+;(11, 8);;(7, 6);Wait for human before break;1;2579
+;(11, 8);;(7, 6);Wait for human before break;1;2580
+;(11, 8);;(7, 6);Wait for human before break;1;2581
+;(11, 8);;(7, 6);Wait for human before break;1;2582
+;(11, 8);;(7, 6);Wait for human before break;1;2583
+;(11, 8);;(7, 6);Wait for human before break;1;2584
+;(11, 8);;(7, 6);Wait for human before break;1;2585
+;(11, 8);;(7, 6);Wait for human before break;1;2586
+;(11, 8);;(7, 6);Wait for human before break;1;2587
+;(11, 8);;(7, 6);Wait for human before break;1;2588
+;(11, 8);;(7, 6);Wait for human before break;1;2589
+;(11, 8);;(7, 6);Wait for human before break;1;2590
+;(11, 8);;(7, 6);Wait for human before break;1;2591
+;(11, 8);;(7, 6);Wait for human before break;1;2592
+;(11, 8);;(7, 6);Wait for human before break;1;2593
+;(11, 8);;(7, 6);Wait for human before break;1;2594
+;(11, 8);;(7, 6);Wait for human before break;1;2595
+;(11, 8);;(7, 6);Wait for human before break;1;2596
+;(11, 8);;(7, 6);Wait for human before break;1;2597
+;(11, 8);;(7, 6);Wait for human before break;1;2598
+;(11, 8);;(7, 6);Wait for human before break;1;2599
+;(11, 8);;(7, 6);Wait for human before break;1;2600
+;(11, 8);;(7, 6);Wait for human before break;1;2601
+;(11, 8);;(7, 6);Wait for human before break;1;2602
+;(11, 8);;(7, 6);Wait for human before break;1;2603
+;(11, 8);;(7, 6);Wait for human before break;1;2604
+;(11, 8);;(7, 6);Wait for human before break;1;2605
+;(11, 8);;(7, 6);Wait for human before break;1;2606
+;(11, 8);;(7, 6);Wait for human before break;1;2607
+;(11, 8);;(7, 6);Wait for human before break;1;2608
+;(11, 8);;(7, 6);Wait for human before break;1;2609
+;(11, 8);;(7, 6);Wait for human before break;1;2610
+;(11, 8);;(7, 6);Wait for human before break;1;2611
+;(11, 8);;(7, 6);Wait for human before break;1;2612
+;(11, 8);;(7, 6);Wait for human before break;1;2613
+;(11, 8);;(7, 6);Wait for human before break;1;2614
+;(11, 8);;(7, 6);Wait for human before break;1;2615
+;(11, 8);;(7, 6);Wait for human before break;1;2616
+;(11, 8);;(7, 6);Wait for human before break;1;2617
+;(11, 8);;(7, 6);Wait for human before break;1;2618
+;(11, 8);;(7, 6);Wait for human before break;1;2619
+;(11, 8);;(7, 6);Wait for human before break;1;2620
+;(11, 8);;(7, 6);Wait for human before break;1;2621
+;(11, 8);;(7, 6);Wait for human before break;1;2622
+;(11, 8);;(7, 6);Wait for human before break;1;2623
+;(11, 8);;(7, 6);Wait for human before break;1;2624
+;(11, 8);;(7, 6);Wait for human before break;1;2625
+;(11, 8);;(7, 6);Wait for human before break;1;2626
+;(11, 8);;(7, 6);Wait for human before break;1;2627
+;(11, 8);;(7, 6);Wait for human before break;1;2628
+;(11, 8);;(7, 6);Wait for human before break;1;2629
+;(11, 8);;(7, 6);Wait for human before break;1;2630
+;(11, 8);;(7, 6);Wait for human before break;1;2631
+;(11, 8);;(7, 6);Wait for human before break;1;2632
+;(11, 8);;(7, 6);Wait for human before break;1;2633
+;(11, 8);;(7, 6);Wait for human before break;1;2634
+;(11, 8);;(7, 6);Wait for human before break;1;2635
+;(11, 8);;(7, 6);Wait for human before break;1;2636
+;(11, 8);;(7, 6);Wait for human before break;1;2637
+;(11, 8);;(7, 6);Wait for human before break;1;2638
+;(11, 8);;(7, 6);Wait for human before break;1;2639
+;(11, 8);;(7, 6);Wait for human before break;1;2640
+;(11, 8);;(7, 6);Wait for human before break;1;2641
+;(11, 8);;(7, 6);Wait for human before break;1;2642
+;(11, 8);;(7, 6);Wait for human before break;1;2643
+;(11, 8);;(7, 6);Wait for human before break;1;2644
+;(11, 8);;(7, 6);Wait for human before break;1;2645
+;(11, 8);;(7, 6);Wait for human before break;1;2646
+;(11, 8);;(7, 6);Wait for human before break;1;2647
+;(11, 8);;(7, 6);Wait for human before break;1;2648
+;(11, 8);;(7, 6);Wait for human before break;1;2649
+;(11, 8);;(7, 6);Wait for human before break;1;2650
+;(11, 8);;(7, 6);Wait for human before break;1;2651
+;(11, 8);;(7, 6);Wait for human before break;1;2652
+;(11, 8);;(7, 6);Wait for human before break;1;2653
+;(11, 8);;(7, 6);Wait for human before break;1;2654
+;(11, 8);;(7, 6);Wait for human before break;1;2655
+;(11, 8);;(7, 6);Wait for human before break;1;2656
+;(11, 8);;(7, 6);Wait for human before break;1;2657
+;(11, 8);;(7, 6);Wait for human before break;1;2658
+;(11, 8);;(7, 6);Wait for human before break;1;2659
+;(11, 8);;(7, 6);Wait for human before break;1;2660
+;(11, 8);;(7, 6);Wait for human before break;1;2661
+;(11, 8);;(7, 6);Wait for human before break;1;2662
+;(11, 8);;(7, 6);Wait for human before break;1;2663
+;(11, 8);;(7, 6);Wait for human before break;1;2664
+;(11, 8);;(7, 6);Wait for human before break;1;2665
+;(11, 8);;(7, 6);Wait for human before break;1;2666
+;(11, 8);;(7, 6);Wait for human before break;1;2667
+;(11, 8);;(7, 6);Wait for human before break;1;2668
+;(11, 8);;(7, 6);Wait for human before break;1;2669
+;(11, 8);;(7, 6);Wait for human before break;1;2670
+;(11, 8);;(7, 6);Wait for human before break;1;2671
+MoveSouth;(11, 9);;(7, 6);Wait for human before break;1;2672
+;(11, 9);;(7, 6);Wait for human before break;1;2673
+;(11, 9);;(7, 6);Wait for human before break;1;2674
+;(11, 9);;(7, 6);Wait for human before break;1;2675
+;(11, 9);;(7, 6);Wait for human before break;1;2676
+;(11, 9);;(7, 6);Wait for human before break;1;2677
+;(11, 9);;(7, 6);Wait for human before break;1;2678
+;(11, 9);;(7, 6);Wait for human before break;1;2679
+MoveEast;(12, 9);;(7, 6);Wait for human before break;1;2680
+;(12, 9);;(7, 6);Wait for human before break;1;2681
+;(12, 9);;(7, 6);Wait for human before break;1;2682
+;(12, 9);;(7, 6);Wait for human before break;1;2683
+;(12, 9);;(7, 6);Wait for human before break;1;2684
+;(12, 9);;(7, 6);Wait for human before break;1;2685
+;(12, 9);;(7, 6);Wait for human before break;1;2686
+;(12, 9);;(7, 6);Wait for human before break;1;2687
+;(12, 9);;(7, 6);Wait for human before break;1;2688
+;(12, 9);;(7, 6);Wait for human before break;1;2689
+;(12, 9);;(7, 6);Wait for human before break;1;2690
+;(12, 9);;(7, 6);Wait for human before break;1;2691
+MoveNorth;(12, 8);;(7, 6);Wait for human before break;1;2692
+;(12, 8);;(7, 6);Wait for human before break;1;2693
+;(12, 8);;(7, 6);Wait for human before break;1;2694
+;(12, 8);;(7, 6);Wait for human before break;1;2695
+;(12, 8);;(7, 6);Wait for human before break;1;2696
+;(12, 8);;(7, 6);Wait for human before break;1;2697
+;(12, 8);;(7, 6);Wait for human before break;1;2698
+;(12, 8);;(7, 6);Wait for human before break;1;2699
+;(12, 8);;(7, 6);Wait for human before break;1;2700
+MoveWest;(11, 8);;(7, 6);Wait for human before break;1;2701
+;(11, 8);;(7, 6);Wait for human before break;1;2702
+;(11, 8);;(7, 6);Wait for human before break;1;2703
+MoveWest;(10, 8);;(7, 6);Wait for human before break;1;2704
+;(10, 8);;(7, 6);Wait for human before break;1;2705
+;(10, 8);;(7, 6);Wait for human before break;1;2706
+;(10, 8);;(7, 6);Wait for human before break;1;2707
+MoveWest;(9, 8);;(7, 6);Wait for human before break;1;2708
+;(9, 8);;(7, 6);Wait for human before break;1;2709
+;(9, 8);;(7, 6);Wait for human before break;1;2710
+MoveEast;(10, 8);;(7, 6);Wait for human before break;1;2711
+;(10, 8);;(7, 6);Wait for human before break;1;2712
+;(10, 8);;(7, 6);Wait for human before break;1;2713
+MoveEast;(11, 8);;(7, 6);Wait for human before break;1;2714
+;(11, 8);;(7, 6);Wait for human before break;1;2715
+;(11, 8);;(7, 6);Wait for human before break;1;2716
+MoveEast;(12, 8);;(7, 6);Wait for human before break;1;2717
+;(12, 8);;(7, 6);Wait for human before break;1;2718
+;(12, 8);;(7, 6);Wait for human before break;1;2719
+;(12, 8);;(7, 6);Wait for human before break;1;2720
+;(12, 8);;(7, 6);Wait for human before break;1;2721
+;(12, 8);;(7, 6);Wait for human before break;1;2722
+;(12, 8);;(7, 6);Wait for human before break;1;2723
+;(12, 8);;(7, 6);Wait for human before break;1;2724
+;(12, 8);;(7, 6);Wait for human before break;1;2725
+;(12, 8);;(7, 6);Wait for human before break;1;2726
+;(12, 8);;(7, 6);Wait for human before break;1;2727
+;(12, 8);;(7, 6);Wait for human before break;1;2728
+;(12, 8);;(7, 6);Wait for human before break;1;2729
+;(12, 8);;(7, 6);Wait for human before break;1;2730
+;(12, 8);;(7, 6);Wait for human before break;1;2731
+;(12, 8);;(7, 6);Wait for human before break;1;2732
+;(12, 8);;(7, 6);Wait for human before break;1;2733
+;(12, 8);;(7, 6);Wait for human before break;1;2734
+;(12, 8);;(7, 6);Wait for human before break;1;2735
+;(12, 8);;(7, 6);Wait for human before break;1;2736
+;(12, 8);;(7, 6);Wait for human before break;1;2737
+;(12, 8);;(7, 6);Wait for human before break;1;2738
+;(12, 8);;(7, 6);Wait for human before break;1;2739
+;(12, 8);;(7, 6);Wait for human before break;1;2740
+;(12, 8);;(7, 6);Wait for human before break;1;2741
+;(12, 8);;(7, 6);Wait for human before break;1;2742
+;(12, 8);;(7, 6);Wait for human before break;1;2743
+;(12, 8);;(7, 6);Wait for human before break;1;2744
+;(12, 8);;(7, 6);Wait for human before break;1;2745
+;(12, 8);;(7, 6);Wait for human before break;1;2746
+;(12, 8);;(7, 6);Wait for human before break;1;2747
+;(12, 8);;(7, 6);Wait for human before break;1;2748
+;(12, 8);;(7, 6);Wait for human before break;1;2749
+;(12, 8);;(7, 6);Wait for human before break;1;2750
+;(12, 8);;(7, 6);Wait for human before break;1;2751
+;(12, 8);;(7, 6);Wait for human before break;1;2752
+;(12, 8);;(7, 6);Wait for human before break;1;2753
+;(12, 8);;(7, 6);Wait for human before break;1;2754
+;(12, 8);;(7, 6);Wait for human before break;1;2755
+;(12, 8);;(7, 6);Wait for human before break;1;2756
+;(12, 8);;(7, 6);Wait for human before break;1;2757
+;(12, 8);;(7, 6);Wait for human before break;1;2758
+;(12, 8);;(7, 6);Wait for human before break;1;2759
+;(12, 8);;(7, 6);Wait for human before break;1;2760
+;(12, 8);;(7, 6);Wait for human before break;1;2761
+;(12, 8);;(7, 6);Wait for human before break;1;2762
+;(12, 8);;(7, 6);Wait for human before break;1;2763
+;(12, 8);;(7, 6);Wait for human before break;1;2764
+;(12, 8);;(7, 6);Wait for human before break;1;2765
+;(12, 8);;(7, 6);Wait for human before break;1;2766
+;(12, 8);;(7, 6);Wait for human before break;1;2767
+;(12, 8);;(7, 6);Wait for human before break;1;2768
+;(12, 8);;(7, 6);Wait for human before break;1;2769
+;(12, 8);;(7, 6);Wait for human before break;1;2770
+;(12, 8);;(7, 6);Wait for human before break;1;2771
+;(12, 8);;(7, 6);Wait for human before break;1;2772
+;(12, 8);;(7, 6);Wait for human before break;1;2773
+;(12, 8);;(7, 6);Wait for human before break;1;2774
+;(12, 8);;(7, 6);Wait for human before break;1;2775
+;(12, 8);;(7, 6);Wait for human before break;1;2776
+;(12, 8);;(7, 6);Wait for human before break;1;2777
+;(12, 8);;(7, 6);Wait for human before break;1;2778
+;(12, 8);;(7, 6);Wait for human before break;1;2779
+;(12, 8);;(7, 6);Wait for human before break;1;2780
+;(12, 8);;(7, 6);Wait for human before break;1;2781
+;(12, 8);;(7, 6);Wait for human before break;1;2782
+;(12, 8);;(7, 6);Wait for human before break;1;2783
+;(12, 8);;(7, 6);Wait for human before break;1;2784
+;(12, 8);;(7, 6);Wait for human before break;1;2785
+;(12, 8);;(7, 6);Wait for human before break;1;2786
+;(12, 8);;(7, 6);Wait for human before break;1;2787
+;(12, 8);;(7, 6);Wait for human before break;1;2788
+;(12, 8);;(7, 6);Wait for human before break;1;2789
+;(12, 8);;(7, 6);Wait for human before break;1;2790
+;(12, 8);;(7, 6);Wait for human before break;1;2791
+;(12, 8);;(7, 6);Wait for human before break;1;2792
+;(12, 8);;(7, 6);Wait for human before break;1;2793
+;(12, 8);;(7, 6);Wait for human before break;1;2794
+;(12, 8);;(7, 6);Wait for human before break;1;2795
+;(12, 8);;(7, 6);Wait for human before break;1;2796
+;(12, 8);;(7, 6);Wait for human before break;1;2797
+;(12, 8);;(7, 6);Wait for human before break;1;2798
+;(12, 8);;(7, 6);Wait for human before break;1;2799
+;(12, 8);;(7, 6);Wait for human before break;1;2800
+;(12, 8);;(7, 6);Wait for human before break;1;2801
+;(12, 8);;(7, 6);Wait for human before break;1;2802
+;(12, 8);;(7, 6);Wait for human before break;1;2803
+;(12, 8);;(7, 6);Wait for human before break;1;2804
+;(12, 8);;(7, 6);Wait for human before break;1;2805
+;(12, 8);;(7, 6);Wait for human before break;1;2806
+;(12, 8);;(7, 6);Wait for human before break;1;2807
+;(12, 8);;(7, 6);Wait for human before break;1;2808
+;(12, 8);;(7, 6);Wait for human before break;1;2809
+;(12, 8);;(7, 6);Wait for human before break;1;2810
+;(12, 8);;(7, 6);Wait for human before break;1;2811
+;(12, 8);;(7, 6);Wait for human before break;1;2812
+;(12, 8);;(7, 6);Wait for human before break;1;2813
+;(12, 8);;(7, 6);Wait for human before break;1;2814
+;(12, 8);;(7, 6);Wait for human before break;1;2815
+;(12, 8);;(7, 6);Wait for human before break;1;2816
+;(12, 8);;(7, 6);Wait for human before break;1;2817
+;(12, 8);;(7, 6);Wait for human before break;1;2818
+;(12, 8);;(7, 6);Wait for human before break;1;2819
+;(12, 8);;(7, 6);Wait for human before break;1;2820
+;(12, 8);;(7, 6);Wait for human before break;1;2821
+;(12, 8);;(7, 6);Wait for human before break;1;2822
+;(12, 8);;(7, 6);Wait for human before break;1;2823
+;(12, 8);;(7, 6);Wait for human before break;1;2824
+;(12, 8);;(7, 6);Wait for human before break;1;2825
+;(12, 8);;(7, 6);Wait for human before break;1;2826
+;(12, 8);;(7, 6);Wait for human before break;1;2827
+;(12, 8);;(7, 6);Wait for human before break;1;2828
+;(12, 8);;(7, 6);Wait for human before break;1;2829
+;(12, 8);;(7, 6);Wait for human before break;1;2830
+;(12, 8);;(7, 6);Wait for human before break;1;2831
+;(12, 8);;(7, 6);Wait for human before break;1;2832
+;(12, 8);;(7, 6);Wait for human before break;1;2833
+;(12, 8);;(7, 6);Wait for human before break;1;2834
+;(12, 8);;(7, 6);Wait for human before break;1;2835
+;(12, 8);;(7, 6);Wait for human before break;1;2836
+;(12, 8);;(7, 6);Wait for human before break;1;2837
+;(12, 8);;(7, 6);Wait for human before break;1;2838
+;(12, 8);;(7, 6);Wait for human before break;1;2839
+;(12, 8);;(7, 6);Wait for human before break;1;2840
+;(12, 8);;(7, 6);Wait for human before break;1;2841
+;(12, 8);;(7, 6);Wait for human before break;1;2842
+;(12, 8);;(7, 6);Wait for human before break;1;2843
+;(12, 8);;(7, 6);Wait for human before break;1;2844
+;(12, 8);;(7, 6);Wait for human before break;1;2845
+;(12, 8);;(7, 6);Wait for human before break;1;2846
+;(12, 8);;(7, 6);Wait for human before break;1;2847
+;(12, 8);;(7, 6);Wait for human before break;1;2848
+;(12, 8);;(7, 6);Wait for human before break;1;2849
+;(12, 8);;(7, 6);Wait for human before break;1;2850
+;(12, 8);;(7, 6);Wait for human before break;1;2851
+;(12, 8);;(7, 6);Wait for human before break;1;2852
+;(12, 8);;(7, 6);Wait for human before break;1;2853
+;(12, 8);;(7, 6);Wait for human before break;1;2854
+;(12, 8);;(7, 6);Wait for human before break;1;2855
+;(12, 8);;(7, 6);Wait for human before break;1;2856
+;(12, 8);;(7, 6);Wait for human before break;1;2857
+;(12, 8);;(7, 6);Wait for human before break;1;2858
+;(12, 8);;(7, 6);Wait for human before break;1;2859
+;(12, 8);;(7, 6);Wait for human before break;1;2860
+;(12, 8);;(7, 6);Wait for human before break;1;2861
+;(12, 8);;(7, 6);Wait for human before break;1;2862
+;(12, 8);;(7, 6);Wait for human before break;1;2863
+;(12, 8);;(7, 6);Wait for human before break;1;2864
+;(12, 8);;(7, 6);Wait for human before break;1;2865
+;(12, 8);;(7, 6);Wait for human before break;1;2866
+;(12, 8);;(7, 6);Wait for human before break;1;2867
+;(12, 8);;(7, 6);Wait for human before break;1;2868
+;(12, 8);;(7, 6);Wait for human before break;1;2869
+;(12, 8);;(7, 6);Wait for human before break;1;2870
+;(12, 8);;(7, 6);Wait for human before break;1;2871
+;(12, 8);;(7, 6);Wait for human before break;1;2872
+;(12, 8);;(7, 6);Wait for human before break;1;2873
+;(12, 8);;(7, 6);Wait for human before break;1;2874
+;(12, 8);;(7, 6);Wait for human before break;1;2875
+;(12, 8);;(7, 6);Wait for human before break;1;2876
+;(12, 8);;(7, 6);Wait for human before break;1;2877
+;(12, 8);;(7, 6);Wait for human before break;1;2878
+;(12, 8);;(7, 6);Wait for human before break;1;2879
+;(12, 8);;(7, 6);Wait for human before break;1;2880
+;(12, 8);;(7, 6);Wait for human before break;1;2881
+;(12, 8);;(7, 6);Wait for human before break;1;2882
+;(12, 8);;(7, 6);Wait for human before break;1;2883
+;(12, 8);;(7, 6);Wait for human before break;1;2884
+;(12, 8);;(7, 6);Wait for human before break;1;2885
+;(12, 8);;(7, 6);Wait for human before break;1;2886
+;(12, 8);;(7, 6);Wait for human before break;1;2887
+;(12, 8);;(7, 6);Wait for human before break;1;2888
+;(12, 8);;(7, 6);Wait for human before break;1;2889
+;(12, 8);;(7, 6);Wait for human before break;1;2890
+;(12, 8);;(7, 6);Wait for human before break;1;2891
+;(12, 8);;(7, 6);Wait for human before break;1;2892
+;(12, 8);;(7, 6);Wait for human before break;1;2893
+;(12, 8);;(7, 6);Wait for human before break;1;2894
+;(12, 8);;(7, 6);Wait for human before break;1;2895
+;(12, 8);;(7, 6);Wait for human before break;1;2896
+;(12, 8);;(7, 6);Wait for human before break;1;2897
+;(12, 8);;(7, 6);Wait for human before break;1;2898
+;(12, 8);;(7, 6);Wait for human before break;1;2899
+;(12, 8);;(7, 6);Wait for human before break;1;2900
+;(12, 8);;(7, 6);Wait for human before break;1;2901
+;(12, 8);;(7, 6);Wait for human before break;1;2902
+;(12, 8);;(7, 6);Wait for human before break;1;2903
+;(12, 8);;(7, 6);Wait for human before break;1;2904
+;(12, 8);;(7, 6);Wait for human before break;1;2905
+;(12, 8);;(7, 6);Wait for human before break;1;2906
+;(12, 8);;(7, 6);Wait for human before break;1;2907
+;(12, 8);;(7, 6);Wait for human before break;1;2908
+;(12, 8);;(7, 6);Wait for human before break;1;2909
+;(12, 8);;(7, 6);Wait for human before break;1;2910
+;(12, 8);;(7, 6);Wait for human before break;1;2911
+;(12, 8);;(7, 6);Wait for human before break;1;2912
+;(12, 8);;(7, 6);Wait for human before break;1;2913
+;(12, 8);;(7, 6);Wait for human before break;1;2914
+;(12, 8);;(7, 6);Wait for human before break;1;2915
+;(12, 8);;(7, 6);Wait for human before break;1;2916
+;(12, 8);;(7, 6);Wait for human before break;1;2917
+;(12, 8);;(7, 6);Wait for human before break;1;2918
+;(12, 8);;(7, 6);Wait for human before break;1;2919
+;(12, 8);;(7, 6);Wait for human before break;1;2920
+;(12, 8);;(7, 6);Wait for human before break;1;2921
+;(12, 8);;(7, 6);Wait for human before break;1;2922
+;(12, 8);;(7, 6);Wait for human before break;1;2923
+;(12, 8);;(7, 6);Wait for human before break;1;2924
+;(12, 8);;(7, 6);Wait for human before break;1;2925
+;(12, 8);;(7, 6);Wait for human before break;1;2926
+;(12, 8);;(7, 6);Wait for human before break;1;2927
+;(12, 8);;(7, 6);Wait for human before break;1;2928
+;(12, 8);;(7, 6);Wait for human before break;1;2929
+;(12, 8);;(7, 6);Wait for human before break;1;2930
+;(12, 8);;(7, 6);Wait for human before break;1;2931
+;(12, 8);;(7, 6);Wait for human before break;1;2932
+;(12, 8);;(7, 6);Wait for human before break;1;2933
+;(12, 8);;(7, 6);Wait for human before break;1;2934
+;(12, 8);;(7, 6);Wait for human before break;1;2935
+;(12, 8);;(7, 6);Wait for human before break;1;2936
+;(12, 8);;(7, 6);Wait for human before break;1;2937
+;(12, 8);;(7, 6);Wait for human before break;1;2938
+;(12, 8);;(7, 6);Wait for human before break;1;2939
+;(12, 8);;(7, 6);Wait for human before break;1;2940
+;(12, 8);;(7, 6);Wait for human before break;1;2941
+;(12, 8);;(7, 6);Wait for human before break;1;2942
+;(12, 8);;(7, 6);Wait for human before break;1;2943
+;(12, 8);;(7, 6);Wait for human before break;1;2944
+;(12, 8);;(7, 6);Wait for human before break;1;2945
+;(12, 8);;(7, 6);Wait for human before break;1;2946
+;(12, 8);;(7, 6);Wait for human before break;1;2947
+;(12, 8);;(7, 6);Wait for human before break;1;2948
+;(12, 8);;(7, 6);Wait for human before break;1;2949
+;(12, 8);;(7, 6);Wait for human before break;1;2950
+;(12, 8);;(7, 6);Wait for human before break;1;2951
+;(12, 8);;(7, 6);Wait for human before break;1;2952
+;(12, 8);;(7, 6);Wait for human before break;1;2953
+;(12, 8);;(7, 6);Wait for human before break;1;2954
+;(12, 8);;(7, 6);Wait for human before break;1;2955
+;(12, 8);;(7, 6);Wait for human before break;1;2956
+;(12, 8);;(7, 6);Wait for human before break;1;2957
+;(12, 8);;(7, 6);Wait for human before break;1;2958
+;(12, 8);;(7, 6);Wait for human before break;1;2959
+;(12, 8);;(7, 6);Wait for human before break;1;2960
+;(12, 8);;(7, 6);Wait for human before break;1;2961
+;(12, 8);;(7, 6);Wait for human before break;1;2962
+;(12, 8);;(7, 6);Wait for human before break;1;2963
+;(12, 8);;(7, 6);Wait for human before break;1;2964
+;(12, 8);;(7, 6);Wait for human before break;1;2965
+;(12, 8);;(7, 6);Wait for human before break;1;2966
+;(12, 8);;(7, 6);Wait for human before break;1;2967
+;(12, 8);;(7, 6);Wait for human before break;1;2968
+;(12, 8);;(7, 6);Wait for human before break;1;2969
+;(12, 8);;(7, 6);Wait for human before break;1;2970
+;(12, 8);;(7, 6);Wait for human before break;1;2971
+;(12, 8);;(7, 6);Wait for human before break;1;2972
+;(12, 8);;(7, 6);Wait for human before break;1;2973
+;(12, 8);;(7, 6);Wait for human before break;1;2974
+;(12, 8);;(7, 6);Wait for human before break;1;2975
+;(12, 8);;(7, 6);Wait for human before break;1;2976
+;(12, 8);;(7, 6);Wait for human before break;1;2977
+;(12, 8);;(7, 6);Wait for human before break;1;2978
+;(12, 8);;(7, 6);Wait for human before break;1;2979
+;(12, 8);;(7, 6);Wait for human before break;1;2980
+;(12, 8);;(7, 6);Wait for human before break;1;2981
+;(12, 8);;(7, 6);Wait for human before break;1;2982
+;(12, 8);;(7, 6);Wait for human before break;1;2983
+;(12, 8);;(7, 6);Wait for human before break;1;2984
+;(12, 8);;(7, 6);Wait for human before break;1;2985
+;(12, 8);;(7, 6);Wait for human before break;1;2986
+;(12, 8);;(7, 6);Wait for human before break;1;2987
+;(12, 8);;(7, 6);Wait for human before break;1;2988
+;(12, 8);;(7, 6);Wait for human before break;1;2989
+;(12, 8);;(7, 6);Wait for human before break;1;2990
+;(12, 8);;(7, 6);Wait for human before break;1;2991
+;(12, 8);;(7, 6);Wait for human before break;1;2992
+;(12, 8);;(7, 6);Wait for human before break;1;2993
+;(12, 8);;(7, 6);Wait for human before break;1;2994
+;(12, 8);;(7, 6);Wait for human before break;1;2995
+;(12, 8);;(7, 6);Wait for human before break;1;2996
+;(12, 8);;(7, 6);Wait for human before break;1;2997
+;(12, 8);;(7, 6);Wait for human before break;1;2998
+;(12, 8);;(7, 6);Wait for human before break;1;2999
+;(12, 8);;(7, 6);Wait for human before break;1;3000
+;(12, 8);;(7, 6);Wait for human before break;1;3001
+;(12, 8);;(7, 6);Wait for human before break;1;3002
+;(12, 8);;(7, 6);Wait for human before break;1;3003
+;(12, 8);;(7, 6);Wait for human before break;1;3004
+;(12, 8);;(7, 6);Wait for human before break;1;3005
+;(12, 8);;(7, 6);Wait for human before break;1;3006
+;(12, 8);;(7, 6);Wait for human before break;1;3007
+;(12, 8);;(7, 6);Wait for human before break;1;3008
+;(12, 8);;(7, 6);Wait for human before break;1;3009
+;(12, 8);;(7, 6);Wait for human before break;1;3010
+;(12, 8);;(7, 6);Wait for human before break;1;3011
+;(12, 8);;(7, 6);Wait for human before break;1;3012
+;(12, 8);;(7, 6);Wait for human before break;1;3013
+;(12, 8);;(7, 6);Wait for human before break;1;3014
+;(12, 8);;(7, 6);Wait for human before break;1;3015
+;(12, 8);;(7, 6);Wait for human before break;1;3016
+;(12, 8);;(7, 6);Wait for human before break;1;3017
+;(12, 8);;(7, 6);Wait for human before break;1;3018
+;(12, 8);;(7, 6);Wait for human before break;1;3019

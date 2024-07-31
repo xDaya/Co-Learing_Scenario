@@ -1,0 +1,12 @@
+tick;corrected_tick;remaining_distance;victim_harm;idle_time_robot;q_table_cps;q_table_cps_runs;q_table_basic;world_nr;tick_nr
+1138;1119;31;100;4;"                     Large rock in top of pile  Rock on the left side of the victim  Rock on the right side of the victim  Brown rock in pile
+[3, 'equal', True]                           0                                    0                                     0                   0
+[3, 'robot', True]                         -84                                    0                                     0                   0
+[4, 'equal', False]                      -1416                                -2027                                 -1292                   0
+[4, 'equal', True]                          21                                    0                                     0                   0
+[3, 'robot', False]                          0                                    0                                     0                   0";"                     Large rock in top of pile  Rock on the left side of the victim  Rock on the right side of the victim  Brown rock in pile
+[3, 'equal', True]                           0                                    0                                     0                   0
+[3, 'robot', True]                           1                                    0                                     0                   0
+[4, 'equal', False]                          1                                    1                                     2                   0
+[4, 'equal', True]                           1                                    0                                     0                   0
+[3, 'robot', False]                          0                                    0                                     0                   0";;1;1138

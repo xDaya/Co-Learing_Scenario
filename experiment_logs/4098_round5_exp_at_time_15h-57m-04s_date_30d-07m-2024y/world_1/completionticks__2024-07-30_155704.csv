@@ -1,0 +1,22 @@
+tick;corrected_tick;remaining_distance;victim_harm;idle_time_robot;q_table_cps;q_table_cps_runs;q_table_basic;world_nr;tick_nr
+1168;1149;17;300;6;"                     Wait for human before break  Move small rocks off large rocks  Unstack large rocks
+[3, 'robot', True]                           0.0                              30.0                  0.0
+[3, 'robot', False]                          0.0                               0.0                  0.0
+[2, 'equal', False]                          0.0                             -30.0                  0.0
+[4, 'equal', False]                       -270.0                             250.0                  0.0
+[4, 'equal', True]                           NaN                               0.0                  0.0
+[3, 'human', False]                          NaN                               0.0                  0.0
+[4, 'robot', True]                        -114.0                               NaN                  0.0
+[2, 'equal', True]                           NaN                               NaN                 34.0
+[4, 'robot', False]                       -292.0                               0.0                  0.0
+[3, 'equal', False]                          0.0                               0.0                 20.0";"                     Wait for human before break  Move small rocks off large rocks  Unstack large rocks
+[3, 'robot', True]                           0.0                               4.0                  0.0
+[3, 'robot', False]                          0.0                               0.0                  0.0
+[2, 'equal', False]                          0.0                               1.0                  0.0
+[4, 'equal', False]                          3.0                              28.0                  0.0
+[4, 'equal', True]                           NaN                               0.0                  0.0
+[3, 'human', False]                          NaN                               0.0                  0.0
+[4, 'robot', True]                           6.0                               NaN                  0.0
+[2, 'equal', True]                           NaN                               NaN                  4.0
+[4, 'robot', False]                          6.0                               0.0                  0.0
+[3, 'equal', False]                          0.0                               0.0                  1.0";;1;1168

@@ -1,0 +1,28 @@
+tick;corrected_tick;remaining_distance;victim_harm;idle_time_robot;q_table_cps;q_table_cps_runs;q_table_basic;world_nr;tick_nr
+3019;3000;9;300;3;"                     Handle large rocks before smash  Wait for human before break
+[3, 'robot', True]                               1.0                          0.0
+[3, 'robot', False]                              4.0                          0.0
+[2, 'equal', False]                              2.0                          0.0
+[4, 'equal', False]                              3.0                       -270.0
+[4, 'equal', True]                               2.0                          NaN
+[3, 'human', False]                              2.0                          NaN";"                     Handle large rocks before smash  Wait for human before break
+[3, 'robot', True]                               1.0                          0.0
+[3, 'robot', False]                              1.0                          0.0
+[2, 'equal', False]                              1.0                          0.0
+[4, 'equal', False]                              1.0                          3.0
+[4, 'equal', True]                               1.0                          NaN
+[3, 'human', False]                              1.0                          NaN";"                     Move back and forth  Stand Still   Pick up  Drop     Break
+[4, 'equal', False]                -6.00    -2.500000  -4.43255 -6.40 -4.109008
+[4, 'robot', False]                 0.00     0.000000   1.00000  0.00  0.000000
+[4, 'robot', True]                 -7.00    -3.500000  -4.50000 -2.50  0.000000
+[3, 'robot', True]                -19.00    -1.500000   0.00000  0.00 -2.250000
+[3, 'robot', False]               -56.50    -3.500000  -3.00000 -2.50  0.000000
+[3, 'equal', False]                -4.00     0.000000  -8.00000  0.00  0.000000
+[2, 'equal', False]               -11.50    -0.500000  -0.08000  0.00  0.000000
+[1, 'equal', False]                 0.00     0.000000   0.00000 -3.50  0.000000
+[1, 'human', False]                -7.00    -3.500000  -7.50000  0.00  0.000000
+[1, 'equal', True]                 -7.00    -3.500000 -26.50000  0.00  0.000000
+[4, 'human', False]                -4.00    -4.700000   0.00000  0.00  0.000000
+[3, 'human', False]                -4.00    -0.500000  -3.00000 -3.65 -4.150000
+[2, 'human', False]                -4.00    -2.450000 -22.50000 -1.65  0.000000
+[1, 'human', True]                -10.65   -30.270312  -8.00000 -0.50  0.000000";1;3019

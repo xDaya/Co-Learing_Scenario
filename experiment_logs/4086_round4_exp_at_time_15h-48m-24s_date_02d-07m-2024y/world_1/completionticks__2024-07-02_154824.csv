@@ -1,0 +1,10 @@
+tick;corrected_tick;remaining_distance;victim_harm;idle_time_robot;q_table_cps;q_table_cps_runs;q_table_basic;world_nr;tick_nr
+2096;2077;;0;1504;"                     Large rock on top of pile  Large rock in top of pile  Label
+[3, 'equal', True]                      -914.0                          0      0
+[3, 'robot', True]                         NaN                          0      0
+[4, 'equal', False]                    -3087.0                      -1416      0
+[4, 'equal', True]                      -297.0                          0      0";"                     Large rock on top of pile  Large rock in top of pile  Label
+[3, 'equal', True]                         1.0                          0      0
+[3, 'robot', True]                         NaN                          0      0
+[4, 'equal', False]                        1.0                          1      0
+[4, 'equal', True]                         1.0                          0      0";;1;2096

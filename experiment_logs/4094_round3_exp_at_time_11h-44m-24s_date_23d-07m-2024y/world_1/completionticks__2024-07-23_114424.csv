@@ -1,0 +1,4 @@
+tick;corrected_tick;remaining_distance;victim_harm;idle_time_robot;q_table_cps;q_table_cps_runs;q_table_basic;world_nr;tick_nr
+1434;1415;;0;76;"                     remove large rock top  brown rock top
+[4, 'equal', False]                -1748.0               0";"                     remove large rock top  brown rock top
+[4, 'equal', False]                   21.0               0";;1;1434

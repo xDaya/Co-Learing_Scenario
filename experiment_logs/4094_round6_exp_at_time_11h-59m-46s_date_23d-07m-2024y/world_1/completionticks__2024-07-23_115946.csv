@@ -1,0 +1,6 @@
+tick;corrected_tick;remaining_distance;victim_harm;idle_time_robot;q_table_cps;q_table_cps_runs;q_table_basic;world_nr;tick_nr
+3019;3000;31;0;2201;"                     remove large rock top  brown rock top  small rock top
+[4, 'equal', False]                -1790.0         -4818.0             -67
+[4, 'robot', False]                  114.0             NaN               0";"                     remove large rock top  brown rock top  small rock top
+[4, 'equal', False]                   22.0             3.0               2
+[4, 'robot', False]                    4.0             NaN               0";;1;3019

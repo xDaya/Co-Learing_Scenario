@@ -1,0 +1,22 @@
+tick;corrected_tick;remaining_distance;victim_harm;idle_time_robot;q_table_cps;q_table_cps_runs;q_table_basic;world_nr;tick_nr
+2664;2645;;1000;266;"                     Pick up small and large  Pick up large on victim  Pick up small on victim
+[4, 'equal', True]                       0.0                      0.0                      0.0
+[4, 'equal', False]                  -1271.0                      3.0                      0.0
+[3, 'equal', False]                      0.0                      0.0                      0.0
+[3, 'equal', True]                       0.0                      0.0                      0.0
+[3, 'robot', True]                       0.0                      0.0                      0.0
+[4, 'human', False]                      0.0                      0.0                      0.0
+[2, 'equal', True]                       0.0                      0.0                      0.0
+[2, 'robot', False]                      0.0                      0.0                      0.0
+[4, 'robot', True]                   -4412.0                      0.0                      0.0
+[1, 'robot', False]                      NaN                      NaN                   -212.0";"                     Pick up small and large  Pick up large on victim  Pick up small on victim
+[4, 'equal', True]                       0.0                      0.0                      0.0
+[4, 'equal', False]                      6.0                      2.0                      0.0
+[3, 'equal', False]                      0.0                      0.0                      0.0
+[3, 'equal', True]                       0.0                      0.0                      0.0
+[3, 'robot', True]                       0.0                      0.0                      0.0
+[4, 'human', False]                      0.0                      0.0                      0.0
+[2, 'equal', True]                       0.0                      0.0                      0.0
+[2, 'robot', False]                      0.0                      0.0                      0.0
+[4, 'robot', True]                       5.0                      0.0                      0.0
+[1, 'robot', False]                      NaN                      NaN                      1.0";;1;2664

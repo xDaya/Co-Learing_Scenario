@@ -1,0 +1,43 @@
+tick;corrected_tick;remaining_distance;victim_harm;idle_time_robot;q_table_cps;q_table_cps_runs;q_table_basic;world_nr;tick_nr
+2286;2267;14;1200;229;"                     Pick up small and large  Pick up small top  Pick up small rock victim
+[4, 'equal', True]                       0.0                  0                          0
+[4, 'equal', False]                  -1271.0              -2489                          0
+[3, 'equal', False]                      0.0                  0                          0
+[3, 'equal', True]                       0.0                  0                          0
+[3, 'robot', True]                   -3662.0               -992                          0
+[4, 'human', False]                      0.0                  0                          0
+[2, 'equal', True]                       0.0                  0                          0
+[2, 'robot', False]                      0.0                  0                       -275
+[4, 'robot', True]                   -5546.0                  0                          0
+[1, 'robot', False]                      NaN                  0                          0
+[4, 'robot', False]                      0.0              -1345                          0";"                     Pick up small and large  Pick up small top  Pick up small rock victim
+[4, 'equal', True]                       0.0                  0                          0
+[4, 'equal', False]                      6.0                  5                          0
+[3, 'equal', False]                      0.0                  0                          0
+[3, 'equal', True]                       0.0                  0                          0
+[3, 'robot', True]                       3.0                  1                          0
+[4, 'human', False]                      0.0                  0                          0
+[2, 'equal', True]                       0.0                  0                          0
+[2, 'robot', False]                      0.0                  0                          1
+[4, 'robot', True]                       7.0                  0                          0
+[1, 'robot', False]                      NaN                  0                          0
+[4, 'robot', False]                      0.0                  6                          0";"                     Move back and forth  Stand Still    Pick up       Drop      Break
+[4, 'equal', False]           -22.500000    -4.220880  -9.771500  -5.384000 -12.500000
+[4, 'human', True]              0.000000    -4.000000   0.000000   0.000000   0.000000
+[4, 'equal', True]             -7.000000    -3.950000  -2.160000   0.000000  -6.485250
+[4, 'robot', True]            -10.200000    -6.300000  -4.600000 -40.100000  -3.175520
+[4, 'robot', False]            -7.000000   -12.995000  -3.116016  -7.216907 -48.150000
+[3, 'robot', True]             -7.000000   -20.250000  -1.210000 -28.500000  -3.175500
+[3, 'robot', False]            -7.000000    -6.920992  -1.903306  -6.800000  -5.406305
+[3, 'equal', False]            -7.000000    -6.860000  -2.750000  -2.500000 -42.150000
+[3, 'human', False]            -9.000000    -5.600000  -6.960000  -0.500000  -6.650000
+[3, 'equal', True]            -14.500000   -27.000000  -1.000000   0.000000   0.000000
+[2, 'robot', True]            -16.078392   -34.906522 -29.250000  -5.680800 -18.500000
+[2, 'robot', False]           -11.657990   -29.413000 -12.352800  -5.864240  -6.493702
+[2, 'equal', True]             -7.000000    -3.500000  -2.000000   0.000000   0.000000
+[1, 'robot', True]             -7.000000    -3.500000 -27.500000   0.000000   0.000000
+[1, 'robot', False]            -4.000000    -0.500000   0.000000  -1.500000   0.000000
+[2, 'human', False]            -4.000000    -0.950000  -2.645000  -1.150000 -12.650000
+[1, 'human', False]            -4.000000    -3.500000   0.000000   0.000000   0.000000
+[1, 'human', True]            -31.500000     0.000000  -0.560000   0.000000   0.000000
+[3, 'human', True]             -4.172500    -4.172500   0.000000   0.000000   0.000000";1;2286

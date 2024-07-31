@@ -1,0 +1,1170 @@
+human_selector_action;human_selector_location;robot_action;robot_location;robot_executing_cp;world_nr;tick_nr
+;(3, 4);;(4, 4);False;1;0
+;(3, 4);;(4, 4);False;1;1
+;(3, 4);;(4, 4);Move small rocks off large rocks;1;2
+;(3, 4);;(4, 4);Move small rocks off large rocks;1;3
+;(3, 4);MoveEast;(4, 4);Move small rocks off large rocks;1;4
+;(3, 4);MoveEast;(4, 4);Move small rocks off large rocks;1;5
+MoveEast;(4, 4);MoveEast;(4, 4);Move small rocks off large rocks;1;6
+;(4, 4);MoveEast;(4, 4);Move small rocks off large rocks;1;7
+;(4, 4);MoveEast;(4, 4);Move small rocks off large rocks;1;8
+MoveEast;(5, 4);MoveEast;(4, 4);Move small rocks off large rocks;1;9
+;(5, 4);MoveEast;(4, 4);Move small rocks off large rocks;1;10
+;(5, 4);MoveEast;(4, 4);Move small rocks off large rocks;1;11
+MoveEast;(6, 4);MoveEast;(4, 4);Move small rocks off large rocks;1;12
+;(6, 4);MoveEast;(4, 4);Move small rocks off large rocks;1;13
+;(6, 4);MoveEast;(5, 4);Move small rocks off large rocks;1;14
+MoveEast;(7, 4);MoveEast;(5, 4);Move small rocks off large rocks;1;15
+;(7, 4);MoveEast;(5, 4);Move small rocks off large rocks;1;16
+;(7, 4);MoveEast;(5, 4);Move small rocks off large rocks;1;17
+MoveEast;(8, 4);MoveEast;(5, 4);Move small rocks off large rocks;1;18
+;(8, 4);MoveEast;(5, 4);Move small rocks off large rocks;1;19
+MoveEast;(9, 4);MoveEast;(5, 4);Move small rocks off large rocks;1;20
+;(9, 4);MoveEast;(5, 4);Move small rocks off large rocks;1;21
+;(9, 4);MoveEast;(5, 4);Move small rocks off large rocks;1;22
+;(9, 4);MoveEast;(5, 4);Move small rocks off large rocks;1;23
+;(9, 4);MoveEast;(5, 4);Move small rocks off large rocks;1;24
+;(9, 4);MoveEast;(6, 4);Move small rocks off large rocks;1;25
+MoveNorth;(9, 3);MoveEast;(6, 4);Move small rocks off large rocks;1;26
+;(9, 3);MoveEast;(6, 4);Move small rocks off large rocks;1;27
+;(9, 3);MoveEast;(6, 4);Move small rocks off large rocks;1;28
+;(9, 3);MoveEast;(6, 4);Move small rocks off large rocks;1;29
+;(9, 3);MoveEast;(6, 4);Move small rocks off large rocks;1;30
+;(9, 3);MoveEast;(6, 4);Move small rocks off large rocks;1;31
+;(9, 3);MoveEast;(6, 4);Move small rocks off large rocks;1;32
+MoveEast;(10, 3);MoveEast;(6, 4);Move small rocks off large rocks;1;33
+;(10, 3);MoveEast;(6, 4);Move small rocks off large rocks;1;34
+;(10, 3);MoveEast;(6, 4);Move small rocks off large rocks;1;35
+;(10, 3);MoveEast;(7, 4);Move small rocks off large rocks;1;36
+;(10, 3);MoveSouthEast;(7, 4);Move small rocks off large rocks;1;37
+;(10, 3);MoveSouthEast;(7, 4);Move small rocks off large rocks;1;38
+MoveNorth;(10, 2);MoveSouthEast;(7, 4);Move small rocks off large rocks;1;39
+;(10, 2);MoveSouthEast;(7, 4);Move small rocks off large rocks;1;40
+;(10, 2);MoveSouthEast;(7, 4);Move small rocks off large rocks;1;41
+;(10, 2);MoveSouthEast;(7, 4);Move small rocks off large rocks;1;42
+;(10, 2);MoveSouthEast;(7, 4);Move small rocks off large rocks;1;43
+;(10, 2);MoveSouthEast;(7, 4);Move small rocks off large rocks;1;44
+;(10, 2);MoveSouthEast;(7, 4);Move small rocks off large rocks;1;45
+;(10, 2);MoveSouthEast;(7, 4);Move small rocks off large rocks;1;46
+;(10, 2);MoveSouthEast;(8, 5);Move small rocks off large rocks;1;47
+;(10, 2);GrabObject;(8, 5);Move small rocks off large rocks;1;48
+;(10, 2);GrabObject;(8, 5);Move small rocks off large rocks;1;49
+;(10, 2);GrabObject;(8, 5);Move small rocks off large rocks;1;50
+;(10, 2);GrabObject;(8, 5);Move small rocks off large rocks;1;51
+;(10, 2);GrabObject;(8, 5);Move small rocks off large rocks;1;52
+GrabObject;(10, 2);GrabObject;(8, 5);Move small rocks off large rocks;1;53
+;(10, 2);GrabObject;(8, 5);Move small rocks off large rocks;1;54
+;(10, 2);GrabObject;(8, 5);Move small rocks off large rocks;1;55
+MoveEast;(11, 2);GrabObject;(8, 5);Move small rocks off large rocks;1;56
+;(11, 2);GrabObject;(8, 5);Move small rocks off large rocks;1;57
+MoveEast;(12, 2);GrabObject;(8, 5);Move small rocks off large rocks;1;58
+;(12, 2);;(8, 5);Move small rocks off large rocks;1;59
+;(12, 2);;(8, 5);Move small rocks off large rocks;1;60
+MoveEast;(13, 2);;(8, 5);Move small rocks off large rocks;1;61
+;(13, 2);MoveEast;(8, 5);Move small rocks off large rocks;1;62
+;(13, 2);MoveEast;(8, 5);Move small rocks off large rocks;1;63
+MoveEast;(14, 2);MoveEast;(8, 5);Move small rocks off large rocks;1;64
+;(14, 2);MoveEast;(8, 5);Move small rocks off large rocks;1;65
+;(14, 2);MoveEast;(8, 5);Move small rocks off large rocks;1;66
+MoveEast;(15, 2);MoveEast;(8, 5);Move small rocks off large rocks;1;67
+;(15, 2);MoveEast;(8, 5);Move small rocks off large rocks;1;68
+;(15, 2);MoveEast;(8, 5);Move small rocks off large rocks;1;69
+;(15, 2);MoveEast;(8, 5);Move small rocks off large rocks;1;70
+MoveSouth;(15, 3);MoveEast;(8, 5);Move small rocks off large rocks;1;71
+;(15, 3);MoveEast;(9, 5);Move small rocks off large rocks;1;72
+;(15, 3);GrabObject;(9, 5);Move small rocks off large rocks;1;73
+MoveSouth;(15, 4);GrabObject;(9, 5);Move small rocks off large rocks;1;74
+;(15, 4);GrabObject;(9, 5);Move small rocks off large rocks;1;75
+;(15, 4);GrabObject;(9, 5);Move small rocks off large rocks;1;76
+;(15, 4);GrabObject;(9, 5);Move small rocks off large rocks;1;77
+MoveEast;(16, 4);GrabObject;(9, 5);Move small rocks off large rocks;1;78
+;(16, 4);GrabObject;(9, 5);Move small rocks off large rocks;1;79
+;(16, 4);GrabObject;(9, 5);Move small rocks off large rocks;1;80
+MoveEast;(17, 4);GrabObject;(9, 5);Move small rocks off large rocks;1;81
+;(17, 4);GrabObject;(9, 5);Move small rocks off large rocks;1;82
+;(17, 4);GrabObject;(9, 5);Move small rocks off large rocks;1;83
+;(17, 4);;(9, 5);Move small rocks off large rocks;1;84
+;(17, 4);;(9, 5);Move small rocks off large rocks;1;85
+;(17, 4);;(9, 5);Move small rocks off large rocks;1;86
+;(17, 4);MoveSouthEast;(9, 5);Move small rocks off large rocks;1;87
+;(17, 4);MoveSouthEast;(9, 5);Move small rocks off large rocks;1;88
+;(17, 4);MoveSouthEast;(9, 5);Move small rocks off large rocks;1;89
+;(17, 4);MoveSouthEast;(9, 5);Move small rocks off large rocks;1;90
+;(17, 4);MoveSouthEast;(9, 5);Move small rocks off large rocks;1;91
+;(17, 4);MoveSouthEast;(9, 5);Move small rocks off large rocks;1;92
+;(17, 4);MoveSouthEast;(9, 5);Move small rocks off large rocks;1;93
+DropObject;(17, 4);MoveSouthEast;(9, 5);Move small rocks off large rocks;1;94
+;(17, 4);MoveSouthEast;(9, 5);Move small rocks off large rocks;1;95
+;(17, 4);MoveSouthEast;(9, 5);Move small rocks off large rocks;1;96
+;(17, 4);MoveSouthEast;(10, 6);Move small rocks off large rocks;1;97
+;(17, 4);MoveEast;(10, 6);Move small rocks off large rocks;1;98
+;(17, 4);MoveEast;(10, 6);Move small rocks off large rocks;1;99
+;(17, 4);MoveEast;(10, 6);Move small rocks off large rocks;1;100
+MoveWest;(16, 4);MoveEast;(10, 6);Move small rocks off large rocks;1;101
+;(16, 4);MoveEast;(10, 6);Move small rocks off large rocks;1;102
+MoveWest;(15, 4);MoveEast;(10, 6);Move small rocks off large rocks;1;103
+;(15, 4);MoveEast;(10, 6);Move small rocks off large rocks;1;104
+;(15, 4);MoveEast;(10, 6);Move small rocks off large rocks;1;105
+;(15, 4);MoveEast;(10, 6);Move small rocks off large rocks;1;106
+MoveWest;(14, 4);MoveEast;(10, 6);Move small rocks off large rocks;1;107
+;(14, 4);MoveEast;(11, 6);Move small rocks off large rocks;1;108
+;(14, 4);MoveEast;(11, 6);Move small rocks off large rocks;1;109
+MoveWest;(13, 4);MoveEast;(11, 6);Move small rocks off large rocks;1;110
+;(13, 4);MoveEast;(11, 6);Move small rocks off large rocks;1;111
+MoveWest;(12, 4);MoveEast;(11, 6);Move small rocks off large rocks;1;112
+;(12, 4);MoveEast;(11, 6);Move small rocks off large rocks;1;113
+;(12, 4);MoveEast;(11, 6);Move small rocks off large rocks;1;114
+MoveWest;(11, 4);MoveEast;(11, 6);Move small rocks off large rocks;1;115
+;(11, 4);MoveEast;(11, 6);Move small rocks off large rocks;1;116
+;(11, 4);MoveEast;(11, 6);Move small rocks off large rocks;1;117
+;(11, 4);MoveEast;(11, 6);Move small rocks off large rocks;1;118
+;(11, 4);MoveEast;(12, 6);Move small rocks off large rocks;1;119
+;(11, 4);MoveSouthEast;(12, 6);Move small rocks off large rocks;1;120
+;(11, 4);MoveSouthEast;(12, 6);Move small rocks off large rocks;1;121
+;(11, 4);MoveSouthEast;(12, 6);Move small rocks off large rocks;1;122
+;(11, 4);MoveSouthEast;(12, 6);Move small rocks off large rocks;1;123
+;(11, 4);MoveSouthEast;(12, 6);Move small rocks off large rocks;1;124
+;(11, 4);MoveSouthEast;(12, 6);Move small rocks off large rocks;1;125
+;(11, 4);MoveSouthEast;(12, 6);Move small rocks off large rocks;1;126
+;(11, 4);MoveSouthEast;(12, 6);Move small rocks off large rocks;1;127
+;(11, 4);MoveSouthEast;(12, 6);Move small rocks off large rocks;1;128
+;(11, 4);MoveSouthEast;(12, 6);Move small rocks off large rocks;1;129
+;(11, 4);MoveSouthEast;(13, 7);Move small rocks off large rocks;1;130
+;(11, 4);GrabObject;(13, 7);Move small rocks off large rocks;1;131
+GrabObject;(11, 4);GrabObject;(13, 7);Move small rocks off large rocks;1;132
+;(11, 4);GrabObject;(13, 7);Move small rocks off large rocks;1;133
+MoveEast;(12, 4);GrabObject;(13, 7);Move small rocks off large rocks;1;134
+;(12, 4);GrabObject;(13, 7);Move small rocks off large rocks;1;135
+;(12, 4);GrabObject;(13, 7);Move small rocks off large rocks;1;136
+MoveEast;(13, 4);GrabObject;(13, 7);Move small rocks off large rocks;1;137
+;(13, 4);GrabObject;(13, 7);Move small rocks off large rocks;1;138
+;(13, 4);GrabObject;(13, 7);Move small rocks off large rocks;1;139
+MoveEast;(14, 4);GrabObject;(13, 7);Move small rocks off large rocks;1;140
+;(14, 4);GrabObject;(13, 7);Move small rocks off large rocks;1;141
+MoveEast;(15, 4);;(13, 7);Move small rocks off large rocks;1;142
+;(15, 4);;(13, 7);Move small rocks off large rocks;1;143
+;(15, 4);;(13, 7);Move small rocks off large rocks;1;144
+MoveEast;(16, 4);MoveSouthWest;(13, 7);Move small rocks off large rocks;1;145
+;(16, 4);MoveSouthWest;(13, 7);Move small rocks off large rocks;1;146
+;(16, 4);MoveSouthWest;(13, 7);Move small rocks off large rocks;1;147
+MoveEast;(17, 4);MoveSouthWest;(13, 7);Move small rocks off large rocks;1;148
+;(17, 4);MoveSouthWest;(13, 7);Move small rocks off large rocks;1;149
+;(17, 4);MoveSouthWest;(13, 7);Move small rocks off large rocks;1;150
+MoveEast;(18, 4);MoveSouthWest;(13, 7);Move small rocks off large rocks;1;151
+;(18, 4);MoveSouthWest;(13, 7);Move small rocks off large rocks;1;152
+;(18, 4);MoveSouthWest;(13, 7);Move small rocks off large rocks;1;153
+DropObject;(18, 4);MoveSouthWest;(13, 7);Move small rocks off large rocks;1;154
+;(18, 4);MoveSouthWest;(12, 8);Move small rocks off large rocks;1;155
+;(18, 4);MoveWest;(12, 8);Move small rocks off large rocks;1;156
+;(18, 4);MoveWest;(12, 8);Move small rocks off large rocks;1;157
+MoveWest;(17, 4);MoveWest;(12, 8);Move small rocks off large rocks;1;158
+;(17, 4);MoveWest;(12, 8);Move small rocks off large rocks;1;159
+;(17, 4);MoveWest;(12, 8);Move small rocks off large rocks;1;160
+MoveWest;(16, 4);MoveWest;(12, 8);Move small rocks off large rocks;1;161
+;(16, 4);MoveWest;(12, 8);Move small rocks off large rocks;1;162
+;(16, 4);MoveWest;(12, 8);Move small rocks off large rocks;1;163
+MoveWest;(15, 4);MoveWest;(12, 8);Move small rocks off large rocks;1;164
+;(15, 4);MoveWest;(12, 8);Move small rocks off large rocks;1;165
+;(15, 4);MoveWest;(11, 8);Move small rocks off large rocks;1;166
+MoveWest;(14, 4);MoveSouthWest;(11, 8);Move small rocks off large rocks;1;167
+;(14, 4);MoveSouthWest;(11, 8);Move small rocks off large rocks;1;168
+;(14, 4);MoveSouthWest;(11, 8);Move small rocks off large rocks;1;169
+MoveWest;(13, 4);MoveSouthWest;(11, 8);Move small rocks off large rocks;1;170
+;(13, 4);MoveSouthWest;(11, 8);Move small rocks off large rocks;1;171
+;(13, 4);MoveSouthWest;(11, 8);Move small rocks off large rocks;1;172
+MoveWest;(12, 4);MoveSouthWest;(11, 8);Move small rocks off large rocks;1;173
+;(12, 4);MoveSouthWest;(11, 8);Move small rocks off large rocks;1;174
+;(12, 4);MoveSouthWest;(11, 8);Move small rocks off large rocks;1;175
+MoveWest;(11, 4);MoveSouthWest;(11, 8);Move small rocks off large rocks;1;176
+;(11, 4);MoveSouthWest;(10, 9);Move small rocks off large rocks;1;177
+;(11, 4);GrabObject;(10, 9);Move small rocks off large rocks;1;178
+MoveWest;(10, 4);GrabObject;(10, 9);Move small rocks off large rocks;1;179
+;(10, 4);GrabObject;(10, 9);Move small rocks off large rocks;1;180
+;(10, 4);GrabObject;(10, 9);Move small rocks off large rocks;1;181
+;(10, 4);GrabObject;(10, 9);Move small rocks off large rocks;1;182
+MoveNorth;(10, 3);GrabObject;(10, 9);Move small rocks off large rocks;1;183
+;(10, 3);GrabObject;(10, 9);Move small rocks off large rocks;1;184
+;(10, 3);GrabObject;(10, 9);Move small rocks off large rocks;1;185
+;(10, 3);GrabObject;(10, 9);Move small rocks off large rocks;1;186
+;(10, 3);GrabObject;(10, 9);Move small rocks off large rocks;1;187
+;(10, 3);GrabObject;(10, 9);Move small rocks off large rocks;1;188
+;(10, 3);;(10, 9);Move small rocks off large rocks;1;189
+;(10, 3);;(10, 9);Move small rocks off large rocks;1;190
+;(10, 3);;(10, 9);Move small rocks off large rocks;1;191
+;(10, 3);MoveNorthEast;(10, 9);Move small rocks off large rocks;1;192
+;(10, 3);MoveNorthEast;(10, 9);Move small rocks off large rocks;1;193
+;(10, 3);MoveNorthEast;(10, 9);Move small rocks off large rocks;1;194
+;(10, 3);MoveNorthEast;(10, 9);Move small rocks off large rocks;1;195
+;(10, 3);MoveNorthEast;(10, 9);Move small rocks off large rocks;1;196
+GrabObject;(10, 3);MoveNorthEast;(10, 9);Move small rocks off large rocks;1;197
+;(10, 3);MoveNorthEast;(10, 9);Move small rocks off large rocks;1;198
+;(10, 3);MoveNorthEast;(10, 9);Move small rocks off large rocks;1;199
+MoveEast;(11, 3);MoveNorthEast;(10, 9);Move small rocks off large rocks;1;200
+;(11, 3);MoveNorthEast;(10, 9);Move small rocks off large rocks;1;201
+;(11, 3);MoveNorthEast;(11, 8);Move small rocks off large rocks;1;202
+MoveEast;(12, 3);MoveEast;(11, 8);Move small rocks off large rocks;1;203
+;(12, 3);MoveEast;(11, 8);Move small rocks off large rocks;1;204
+;(12, 3);MoveEast;(11, 8);Move small rocks off large rocks;1;205
+MoveEast;(13, 3);MoveEast;(11, 8);Move small rocks off large rocks;1;206
+;(13, 3);MoveEast;(11, 8);Move small rocks off large rocks;1;207
+;(13, 3);MoveEast;(11, 8);Move small rocks off large rocks;1;208
+MoveEast;(14, 3);MoveEast;(11, 8);Move small rocks off large rocks;1;209
+;(14, 3);MoveEast;(11, 8);Move small rocks off large rocks;1;210
+MoveEast;(15, 3);MoveEast;(11, 8);Move small rocks off large rocks;1;211
+;(15, 3);MoveEast;(11, 8);Move small rocks off large rocks;1;212
+;(15, 3);MoveEast;(12, 8);Move small rocks off large rocks;1;213
+MoveEast;(16, 3);MoveNorthEast;(12, 8);Move small rocks off large rocks;1;214
+;(16, 3);MoveNorthEast;(12, 8);Move small rocks off large rocks;1;215
+;(16, 3);MoveNorthEast;(12, 8);Move small rocks off large rocks;1;216
+;(16, 3);MoveNorthEast;(12, 8);Move small rocks off large rocks;1;217
+MoveSouth;(16, 4);MoveNorthEast;(12, 8);Move small rocks off large rocks;1;218
+;(16, 4);MoveNorthEast;(12, 8);Move small rocks off large rocks;1;219
+;(16, 4);MoveNorthEast;(12, 8);Move small rocks off large rocks;1;220
+MoveSouth;(16, 5);MoveNorthEast;(12, 8);Move small rocks off large rocks;1;221
+;(16, 5);MoveNorthEast;(12, 8);Move small rocks off large rocks;1;222
+;(16, 5);MoveNorthEast;(12, 8);Move small rocks off large rocks;1;223
+;(16, 5);MoveNorthEast;(13, 7);Move small rocks off large rocks;1;224
+;(16, 5);GrabObject;(13, 7);Move small rocks off large rocks;1;225
+;(16, 5);GrabObject;(13, 7);Move small rocks off large rocks;1;226
+;(16, 5);GrabObject;(13, 7);Move small rocks off large rocks;1;227
+MoveEast;(17, 5);GrabObject;(13, 7);Move small rocks off large rocks;1;228
+;(17, 5);GrabObject;(13, 7);Move small rocks off large rocks;1;229
+;(17, 5);GrabObject;(13, 7);Move small rocks off large rocks;1;230
+;(17, 5);GrabObject;(13, 7);Move small rocks off large rocks;1;231
+;(17, 5);GrabObject;(13, 7);Move small rocks off large rocks;1;232
+;(17, 5);GrabObject;(13, 7);Move small rocks off large rocks;1;233
+;(17, 5);GrabObject;(13, 7);Move small rocks off large rocks;1;234
+;(17, 5);GrabObject;(13, 7);Move small rocks off large rocks;1;235
+;(17, 5);;(13, 7);Move small rocks off large rocks;1;236
+;(17, 5);;(13, 7);False;1;237
+;(17, 5);;(13, 7);Wait for human before break;1;238
+;(17, 5);;(13, 7);Wait for human before break;1;239
+;(17, 5);MoveNorthEast;(13, 7);Wait for human before break;1;240
+;(17, 5);MoveNorthEast;(13, 7);Wait for human before break;1;241
+;(17, 5);MoveNorthEast;(13, 7);Wait for human before break;1;242
+;(17, 5);MoveNorthEast;(13, 7);Wait for human before break;1;243
+DropObject;(17, 5);MoveNorthEast;(13, 7);Wait for human before break;1;244
+;(17, 5);MoveNorthEast;(13, 7);Wait for human before break;1;245
+;(17, 5);MoveNorthEast;(13, 7);Wait for human before break;1;246
+;(17, 5);MoveNorthEast;(13, 7);Wait for human before break;1;247
+;(17, 5);MoveNorthEast;(13, 7);Wait for human before break;1;248
+;(17, 5);MoveNorthEast;(13, 7);Wait for human before break;1;249
+;(17, 5);MoveNorthEast;(14, 6);Wait for human before break;1;250
+;(17, 5);MoveEast;(14, 6);Wait for human before break;1;251
+;(17, 5);MoveEast;(14, 6);Wait for human before break;1;252
+MoveWest;(16, 5);MoveEast;(14, 6);Wait for human before break;1;253
+;(16, 5);MoveEast;(14, 6);Wait for human before break;1;254
+;(16, 5);MoveEast;(14, 6);Wait for human before break;1;255
+MoveWest;(15, 5);MoveEast;(14, 6);Wait for human before break;1;256
+;(15, 5);MoveEast;(14, 6);Wait for human before break;1;257
+;(15, 5);MoveEast;(14, 6);Wait for human before break;1;258
+MoveWest;(14, 5);MoveEast;(14, 6);Wait for human before break;1;259
+;(14, 5);MoveEast;(14, 6);Wait for human before break;1;260
+;(14, 5);MoveEast;(15, 6);Wait for human before break;1;261
+MoveWest;(13, 5);MoveNorthEast;(15, 6);Wait for human before break;1;262
+;(13, 5);MoveNorthEast;(15, 6);Wait for human before break;1;263
+;(13, 5);MoveNorthEast;(15, 6);Wait for human before break;1;264
+MoveWest;(12, 5);MoveNorthEast;(15, 6);Wait for human before break;1;265
+;(12, 5);MoveNorthEast;(15, 6);Wait for human before break;1;266
+;(12, 5);MoveNorthEast;(15, 6);Wait for human before break;1;267
+MoveWest;(11, 5);MoveNorthEast;(15, 6);Wait for human before break;1;268
+;(11, 5);MoveNorthEast;(15, 6);Wait for human before break;1;269
+;(11, 5);MoveNorthEast;(15, 6);Wait for human before break;1;270
+;(11, 5);MoveNorthEast;(15, 6);Wait for human before break;1;271
+MoveWest;(10, 5);MoveNorthEast;(16, 5);Wait for human before break;1;272
+;(10, 5);MoveEast;(16, 5);Wait for human before break;1;273
+;(10, 5);MoveEast;(16, 5);Wait for human before break;1;274
+;(10, 5);MoveEast;(16, 5);Wait for human before break;1;275
+;(10, 5);MoveEast;(16, 5);Wait for human before break;1;276
+MoveNorth;(10, 4);MoveEast;(16, 5);Wait for human before break;1;277
+;(10, 4);MoveEast;(16, 5);Wait for human before break;1;278
+;(10, 4);MoveEast;(16, 5);Wait for human before break;1;279
+;(10, 4);MoveEast;(16, 5);Wait for human before break;1;280
+;(10, 4);MoveEast;(16, 5);Wait for human before break;1;281
+;(10, 4);MoveEast;(16, 5);Wait for human before break;1;282
+;(10, 4);MoveEast;(17, 5);Wait for human before break;1;283
+;(10, 4);Idle;(17, 5);Wait for human before break;1;284
+;(10, 4);Idle;(17, 5);Wait for human before break;1;285
+;(10, 4);Idle;(17, 5);Wait for human before break;1;286
+;(10, 4);Idle;(17, 5);Wait for human before break;1;287
+;(10, 4);Idle;(17, 5);Wait for human before break;1;288
+;(10, 4);Idle;(17, 5);Wait for human before break;1;289
+;(10, 4);Idle;(17, 5);Wait for human before break;1;290
+;(10, 4);Idle;(17, 5);Wait for human before break;1;291
+GrabObject;(10, 4);Idle;(17, 5);Wait for human before break;1;292
+;(10, 4);Idle;(17, 5);Wait for human before break;1;293
+MoveWest;(9, 4);Idle;(17, 5);Wait for human before break;1;294
+;(9, 4);Idle;(17, 5);Wait for human before break;1;295
+;(9, 4);Idle;(17, 5);Wait for human before break;1;296
+;(9, 4);Idle;(17, 5);Wait for human before break;1;297
+MoveWest;(8, 4);Idle;(17, 5);Wait for human before break;1;298
+;(8, 4);Idle;(17, 5);Wait for human before break;1;299
+MoveWest;(7, 4);Idle;(17, 5);Wait for human before break;1;300
+;(7, 4);Idle;(17, 5);Wait for human before break;1;301
+;(7, 4);Idle;(17, 5);Wait for human before break;1;302
+MoveWest;(6, 4);Idle;(17, 5);Wait for human before break;1;303
+;(6, 4);Idle;(17, 5);Wait for human before break;1;304
+;(6, 4);Idle;(17, 5);Wait for human before break;1;305
+MoveWest;(5, 4);Idle;(17, 5);Wait for human before break;1;306
+;(5, 4);Idle;(17, 5);Wait for human before break;1;307
+;(5, 4);Idle;(17, 5);Wait for human before break;1;308
+MoveWest;(4, 4);Idle;(17, 5);Wait for human before break;1;309
+;(4, 4);Idle;(17, 5);Wait for human before break;1;310
+;(4, 4);Idle;(17, 5);Wait for human before break;1;311
+MoveWest;(3, 4);Idle;(17, 5);Wait for human before break;1;312
+;(3, 4);Idle;(17, 5);Wait for human before break;1;313
+;(3, 4);Idle;(17, 5);Wait for human before break;1;314
+;(3, 4);Idle;(17, 5);Wait for human before break;1;315
+MoveWest;(2, 4);Idle;(17, 5);Wait for human before break;1;316
+DropObject;(2, 4);Idle;(17, 5);Wait for human before break;1;317
+;(2, 4);Idle;(17, 5);Wait for human before break;1;318
+;(2, 4);Idle;(17, 5);Wait for human before break;1;319
+;(2, 4);Idle;(17, 5);Wait for human before break;1;320
+;(2, 4);Idle;(17, 5);Wait for human before break;1;321
+;(2, 4);Idle;(17, 5);Wait for human before break;1;322
+;(2, 4);Idle;(17, 5);Wait for human before break;1;323
+;(2, 4);Idle;(17, 5);Wait for human before break;1;324
+MoveEast;(3, 4);Idle;(17, 5);Wait for human before break;1;325
+;(3, 4);Idle;(17, 5);Wait for human before break;1;326
+;(3, 4);Idle;(17, 5);Wait for human before break;1;327
+MoveEast;(4, 4);Idle;(17, 5);Wait for human before break;1;328
+;(4, 4);Idle;(17, 5);Wait for human before break;1;329
+;(4, 4);Idle;(17, 5);Wait for human before break;1;330
+;(4, 4);Idle;(17, 5);Wait for human before break;1;331
+;(4, 4);Idle;(17, 5);Wait for human before break;1;332
+;(4, 4);Idle;(17, 5);Wait for human before break;1;333
+;(4, 4);Idle;(17, 5);Wait for human before break;1;334
+MoveEast;(5, 4);Idle;(17, 5);Wait for human before break;1;335
+;(5, 4);Idle;(17, 5);Wait for human before break;1;336
+;(5, 4);Idle;(17, 5);Wait for human before break;1;337
+MoveEast;(6, 4);Idle;(17, 5);Wait for human before break;1;338
+;(6, 4);;(17, 5);Wait for human before break;1;339
+;(6, 4);;(17, 5);Wait for human before break;1;340
+MoveEast;(7, 4);;(17, 5);Wait for human before break;1;341
+;(7, 4);;(17, 5);Wait for human before break;1;342
+;(7, 4);;(17, 5);Wait for human before break;1;343
+;(7, 4);;(17, 5);Wait for human before break;1;344
+;(7, 4);;(17, 5);Wait for human before break;1;345
+MoveSouth;(7, 5);;(17, 5);Wait for human before break;1;346
+;(7, 5);;(17, 5);Wait for human before break;1;347
+;(7, 5);;(17, 5);Wait for human before break;1;348
+;(7, 5);;(17, 5);Wait for human before break;1;349
+;(7, 5);;(17, 5);Wait for human before break;1;350
+MoveEast;(8, 5);;(17, 5);Wait for human before break;1;351
+;(8, 5);;(17, 5);Wait for human before break;1;352
+;(8, 5);;(17, 5);Wait for human before break;1;353
+;(8, 5);;(17, 5);Wait for human before break;1;354
+;(8, 5);;(17, 5);Wait for human before break;1;355
+;(8, 5);;(17, 5);Wait for human before break;1;356
+;(8, 5);;(17, 5);Wait for human before break;1;357
+;(8, 5);;(17, 5);Wait for human before break;1;358
+;(8, 5);;(17, 5);Wait for human before break;1;359
+;(8, 5);;(17, 5);Wait for human before break;1;360
+;(8, 5);;(17, 5);Wait for human before break;1;361
+MoveSouth;(8, 6);;(17, 5);Wait for human before break;1;362
+;(8, 6);;(17, 5);Wait for human before break;1;363
+;(8, 6);;(17, 5);Wait for human before break;1;364
+;(8, 6);;(17, 5);Wait for human before break;1;365
+;(8, 6);;(17, 5);Wait for human before break;1;366
+;(8, 6);;(17, 5);Wait for human before break;1;367
+;(8, 6);;(17, 5);Wait for human before break;1;368
+;(8, 6);;(17, 5);Wait for human before break;1;369
+;(8, 6);;(17, 5);Wait for human before break;1;370
+;(8, 6);;(17, 5);Wait for human before break;1;371
+;(8, 6);;(17, 5);Wait for human before break;1;372
+;(8, 6);;(17, 5);Wait for human before break;1;373
+;(8, 6);;(17, 5);Wait for human before break;1;374
+MoveNorth;(8, 5);;(17, 5);Wait for human before break;1;375
+;(8, 5);;(17, 5);Wait for human before break;1;376
+;(8, 5);;(17, 5);Wait for human before break;1;377
+;(8, 5);;(17, 5);Wait for human before break;1;378
+;(8, 5);;(17, 5);Wait for human before break;1;379
+;(8, 5);;(17, 5);Wait for human before break;1;380
+;(8, 5);;(17, 5);Wait for human before break;1;381
+;(8, 5);;(17, 5);Wait for human before break;1;382
+;(8, 5);;(17, 5);Wait for human before break;1;383
+;(8, 5);;(17, 5);Wait for human before break;1;384
+;(8, 5);;(17, 5);Wait for human before break;1;385
+;(8, 5);;(17, 5);Wait for human before break;1;386
+;(8, 5);;(17, 5);Wait for human before break;1;387
+;(8, 5);;(17, 5);Wait for human before break;1;388
+;(8, 5);;(17, 5);Wait for human before break;1;389
+;(8, 5);;(17, 5);Wait for human before break;1;390
+;(8, 5);;(17, 5);Wait for human before break;1;391
+MoveSouth;(8, 6);;(17, 5);Wait for human before break;1;392
+;(8, 6);;(17, 5);Wait for human before break;1;393
+;(8, 6);;(17, 5);Wait for human before break;1;394
+;(8, 6);;(17, 5);Wait for human before break;1;395
+;(8, 6);;(17, 5);Wait for human before break;1;396
+;(8, 6);;(17, 5);Wait for human before break;1;397
+;(8, 6);;(17, 5);Wait for human before break;1;398
+;(8, 6);;(17, 5);Wait for human before break;1;399
+;(8, 6);;(17, 5);Wait for human before break;1;400
+MoveNorth;(8, 5);;(17, 5);Wait for human before break;1;401
+;(8, 5);;(17, 5);Wait for human before break;1;402
+;(8, 5);;(17, 5);Wait for human before break;1;403
+;(8, 5);;(17, 5);Wait for human before break;1;404
+;(8, 5);;(17, 5);Wait for human before break;1;405
+;(8, 5);;(17, 5);Wait for human before break;1;406
+;(8, 5);;(17, 5);Wait for human before break;1;407
+;(8, 5);;(17, 5);Wait for human before break;1;408
+;(8, 5);;(17, 5);Wait for human before break;1;409
+;(8, 5);;(17, 5);Wait for human before break;1;410
+;(8, 5);;(17, 5);Wait for human before break;1;411
+MoveNorth;(8, 4);;(17, 5);Wait for human before break;1;412
+;(8, 4);;(17, 5);Wait for human before break;1;413
+;(8, 4);;(17, 5);Wait for human before break;1;414
+;(8, 4);;(17, 5);Wait for human before break;1;415
+MoveNorth;(8, 3);;(17, 5);Wait for human before break;1;416
+;(8, 3);;(17, 5);Wait for human before break;1;417
+;(8, 3);;(17, 5);Wait for human before break;1;418
+;(8, 3);;(17, 5);Wait for human before break;1;419
+;(8, 3);;(17, 5);Wait for human before break;1;420
+;(8, 3);;(17, 5);Wait for human before break;1;421
+;(8, 3);;(17, 5);Wait for human before break;1;422
+;(8, 3);;(17, 5);Wait for human before break;1;423
+;(8, 3);;(17, 5);Wait for human before break;1;424
+;(8, 3);;(17, 5);Wait for human before break;1;425
+;(8, 3);;(17, 5);Wait for human before break;1;426
+;(8, 3);;(17, 5);Wait for human before break;1;427
+;(8, 3);;(17, 5);Wait for human before break;1;428
+;(8, 3);;(17, 5);Wait for human before break;1;429
+;(8, 3);;(17, 5);Wait for human before break;1;430
+;(8, 3);;(17, 5);Wait for human before break;1;431
+;(8, 3);;(17, 5);Wait for human before break;1;432
+;(8, 3);;(17, 5);Wait for human before break;1;433
+;(8, 3);;(17, 5);Wait for human before break;1;434
+;(8, 3);;(17, 5);Wait for human before break;1;435
+;(8, 3);;(17, 5);Wait for human before break;1;436
+;(8, 3);;(17, 5);Wait for human before break;1;437
+;(8, 3);;(17, 5);Wait for human before break;1;438
+;(8, 3);;(17, 5);Wait for human before break;1;439
+;(8, 3);MoveSouthWest;(17, 5);Wait for human before break;1;440
+;(8, 3);MoveSouthWest;(17, 5);Wait for human before break;1;441
+;(8, 3);MoveSouthWest;(17, 5);Wait for human before break;1;442
+;(8, 3);MoveSouthWest;(17, 5);Wait for human before break;1;443
+;(8, 3);MoveSouthWest;(17, 5);Wait for human before break;1;444
+;(8, 3);MoveSouthWest;(17, 5);Wait for human before break;1;445
+;(8, 3);MoveSouthWest;(17, 5);Wait for human before break;1;446
+;(8, 3);MoveSouthWest;(17, 5);Wait for human before break;1;447
+;(8, 3);MoveSouthWest;(17, 5);Wait for human before break;1;448
+;(8, 3);MoveSouthWest;(17, 5);Wait for human before break;1;449
+;(8, 3);MoveSouthWest;(16, 6);Wait for human before break;1;450
+;(8, 3);MoveWest;(16, 6);Wait for human before break;1;451
+;(8, 3);MoveWest;(16, 6);Wait for human before break;1;452
+;(8, 3);MoveWest;(16, 6);Wait for human before break;1;453
+;(8, 3);MoveWest;(16, 6);Wait for human before break;1;454
+;(8, 3);MoveWest;(16, 6);Wait for human before break;1;455
+;(8, 3);MoveWest;(16, 6);Wait for human before break;1;456
+;(8, 3);MoveWest;(16, 6);Wait for human before break;1;457
+;(8, 3);MoveWest;(16, 6);Wait for human before break;1;458
+;(8, 3);MoveWest;(16, 6);Wait for human before break;1;459
+;(8, 3);MoveWest;(16, 6);Wait for human before break;1;460
+;(8, 3);MoveWest;(15, 6);Wait for human before break;1;461
+;(8, 3);MoveSouthWest;(15, 6);Wait for human before break;1;462
+;(8, 3);MoveSouthWest;(15, 6);Wait for human before break;1;463
+;(8, 3);MoveSouthWest;(15, 6);Wait for human before break;1;464
+;(8, 3);MoveSouthWest;(15, 6);Wait for human before break;1;465
+;(8, 3);MoveSouthWest;(15, 6);Wait for human before break;1;466
+;(8, 3);MoveSouthWest;(15, 6);Wait for human before break;1;467
+;(8, 3);MoveSouthWest;(15, 6);Wait for human before break;1;468
+;(8, 3);MoveSouthWest;(15, 6);Wait for human before break;1;469
+;(8, 3);MoveSouthWest;(15, 6);Wait for human before break;1;470
+;(8, 3);MoveSouthWest;(15, 6);Wait for human before break;1;471
+;(8, 3);MoveSouthWest;(14, 7);Wait for human before break;1;472
+;(8, 3);MoveWest;(14, 7);Wait for human before break;1;473
+;(8, 3);MoveWest;(14, 7);Wait for human before break;1;474
+;(8, 3);MoveWest;(14, 7);Wait for human before break;1;475
+;(8, 3);MoveWest;(14, 7);Wait for human before break;1;476
+;(8, 3);MoveWest;(14, 7);Wait for human before break;1;477
+;(8, 3);MoveWest;(14, 7);Wait for human before break;1;478
+;(8, 3);MoveWest;(14, 7);Wait for human before break;1;479
+;(8, 3);MoveWest;(14, 7);Wait for human before break;1;480
+;(8, 3);MoveWest;(14, 7);Wait for human before break;1;481
+;(8, 3);MoveWest;(14, 7);Wait for human before break;1;482
+;(8, 3);MoveWest;(13, 7);Wait for human before break;1;483
+;(8, 3);MoveSouthWest;(13, 7);Wait for human before break;1;484
+;(8, 3);MoveSouthWest;(13, 7);Wait for human before break;1;485
+;(8, 3);MoveSouthWest;(13, 7);Wait for human before break;1;486
+;(8, 3);MoveSouthWest;(13, 7);Wait for human before break;1;487
+;(8, 3);MoveSouthWest;(13, 7);Wait for human before break;1;488
+;(8, 3);MoveSouthWest;(13, 7);Wait for human before break;1;489
+;(8, 3);MoveSouthWest;(13, 7);Wait for human before break;1;490
+;(8, 3);MoveSouthWest;(13, 7);Wait for human before break;1;491
+;(8, 3);MoveSouthWest;(13, 7);Wait for human before break;1;492
+;(8, 3);MoveSouthWest;(13, 7);Wait for human before break;1;493
+;(8, 3);MoveSouthWest;(12, 8);Wait for human before break;1;494
+;(8, 3);BreakObject;(12, 8);Wait for human before break;1;495
+;(8, 3);BreakObject;(12, 8);Wait for human before break;1;496
+;(8, 3);BreakObject;(12, 8);Wait for human before break;1;497
+;(8, 3);BreakObject;(12, 8);Wait for human before break;1;498
+;(8, 3);BreakObject;(12, 8);Wait for human before break;1;499
+;(8, 3);BreakObject;(12, 8);Wait for human before break;1;500
+;(8, 3);BreakObject;(12, 8);Wait for human before break;1;501
+;(8, 3);BreakObject;(12, 8);Wait for human before break;1;502
+;(8, 3);BreakObject;(12, 8);Wait for human before break;1;503
+;(8, 3);BreakObject;(12, 8);Wait for human before break;1;504
+;(8, 3);BreakObject;(12, 8);Wait for human before break;1;505
+;(8, 3);;(12, 8);Wait for human before break;1;506
+;(8, 3);;(12, 8);Wait for human before break;1;507
+;(8, 3);;(12, 8);Wait for human before break;1;508
+;(8, 3);MoveNorthWest;(12, 8);Wait for human before break;1;509
+;(8, 3);MoveNorthWest;(12, 8);Wait for human before break;1;510
+;(8, 3);MoveNorthWest;(12, 8);Wait for human before break;1;511
+;(8, 3);MoveNorthWest;(12, 8);Wait for human before break;1;512
+;(8, 3);MoveNorthWest;(12, 8);Wait for human before break;1;513
+;(8, 3);MoveNorthWest;(12, 8);Wait for human before break;1;514
+;(8, 3);MoveNorthWest;(12, 8);Wait for human before break;1;515
+;(8, 3);MoveNorthWest;(12, 8);Wait for human before break;1;516
+;(8, 3);MoveNorthWest;(12, 8);Wait for human before break;1;517
+;(8, 3);MoveNorthWest;(12, 8);Wait for human before break;1;518
+;(8, 3);MoveNorthWest;(11, 7);Wait for human before break;1;519
+;(8, 3);MoveNorth;(11, 7);Wait for human before break;1;520
+;(8, 3);MoveNorth;(11, 7);Wait for human before break;1;521
+;(8, 3);MoveNorth;(11, 7);Wait for human before break;1;522
+;(8, 3);MoveNorth;(11, 7);Wait for human before break;1;523
+;(8, 3);MoveNorth;(11, 7);Wait for human before break;1;524
+;(8, 3);MoveNorth;(11, 7);Wait for human before break;1;525
+;(8, 3);MoveNorth;(11, 7);Wait for human before break;1;526
+;(8, 3);MoveNorth;(11, 7);Wait for human before break;1;527
+;(8, 3);MoveNorth;(11, 7);Wait for human before break;1;528
+;(8, 3);MoveNorth;(11, 7);Wait for human before break;1;529
+;(8, 3);MoveNorth;(11, 6);Wait for human before break;1;530
+;(8, 3);MoveNorthWest;(11, 6);Wait for human before break;1;531
+;(8, 3);MoveNorthWest;(11, 6);Wait for human before break;1;532
+;(8, 3);MoveNorthWest;(11, 6);Wait for human before break;1;533
+;(8, 3);MoveNorthWest;(11, 6);Wait for human before break;1;534
+MoveSouth;(8, 4);MoveNorthWest;(11, 6);Wait for human before break;1;535
+;(8, 4);MoveNorthWest;(11, 6);Wait for human before break;1;536
+;(8, 4);MoveNorthWest;(11, 6);Wait for human before break;1;537
+MoveSouth;(8, 5);MoveNorthWest;(11, 6);Wait for human before break;1;538
+;(8, 5);MoveNorthWest;(11, 6);Wait for human before break;1;539
+;(8, 5);MoveNorthWest;(11, 6);Wait for human before break;1;540
+MoveSouth;(8, 6);MoveNorthWest;(10, 5);Wait for human before break;1;541
+;(8, 6);MoveNorthWest;(10, 5);Wait for human before break;1;542
+;(8, 6);MoveNorthWest;(10, 5);Wait for human before break;1;543
+MoveSouth;(8, 7);MoveNorthWest;(10, 5);Wait for human before break;1;544
+;(8, 7);MoveNorthWest;(10, 5);Wait for human before break;1;545
+;(8, 7);MoveNorthWest;(10, 5);Wait for human before break;1;546
+MoveSouth;(8, 8);MoveNorthWest;(10, 5);Wait for human before break;1;547
+;(8, 8);MoveNorthWest;(10, 5);Wait for human before break;1;548
+;(8, 8);MoveNorthWest;(10, 5);Wait for human before break;1;549
+;(8, 8);MoveNorthWest;(10, 5);Wait for human before break;1;550
+MoveEast;(9, 8);MoveNorthWest;(10, 5);Wait for human before break;1;551
+;(9, 8);MoveNorthWest;(9, 4);Wait for human before break;1;552
+;(9, 8);MoveNorthWest;(9, 4);Wait for human before break;1;553
+;(9, 8);MoveNorthWest;(9, 4);Wait for human before break;1;554
+MoveEast;(10, 8);MoveNorthWest;(9, 4);Wait for human before break;1;555
+;(10, 8);MoveNorthWest;(9, 4);Wait for human before break;1;556
+;(10, 8);MoveNorthWest;(9, 4);Wait for human before break;1;557
+MoveEast;(11, 8);MoveNorthWest;(9, 4);Wait for human before break;1;558
+;(11, 8);MoveNorthWest;(9, 4);Wait for human before break;1;559
+;(11, 8);MoveNorthWest;(9, 4);Wait for human before break;1;560
+MoveEast;(12, 8);MoveNorthWest;(9, 4);Wait for human before break;1;561
+;(12, 8);MoveNorthWest;(9, 4);Wait for human before break;1;562
+;(12, 8);MoveNorthWest;(8, 3);Wait for human before break;1;563
+;(12, 8);Idle;(8, 3);Wait for human before break;1;564
+;(12, 8);Idle;(8, 3);Wait for human before break;1;565
+;(12, 8);Idle;(8, 3);Wait for human before break;1;566
+;(12, 8);Idle;(8, 3);Wait for human before break;1;567
+;(12, 8);Idle;(8, 3);Wait for human before break;1;568
+;(12, 8);Idle;(8, 3);Wait for human before break;1;569
+;(12, 8);Idle;(8, 3);Wait for human before break;1;570
+;(12, 8);Idle;(8, 3);Wait for human before break;1;571
+;(12, 8);Idle;(8, 3);Wait for human before break;1;572
+;(12, 8);Idle;(8, 3);Wait for human before break;1;573
+;(12, 8);Idle;(8, 3);Wait for human before break;1;574
+;(12, 8);Idle;(8, 3);Wait for human before break;1;575
+;(12, 8);Idle;(8, 3);Wait for human before break;1;576
+;(12, 8);Idle;(8, 3);Wait for human before break;1;577
+;(12, 8);Idle;(8, 3);Wait for human before break;1;578
+GrabObject;(12, 8);Idle;(8, 3);Wait for human before break;1;579
+;(12, 8);Idle;(8, 3);Wait for human before break;1;580
+;(12, 8);Idle;(8, 3);Wait for human before break;1;581
+MoveEast;(13, 8);Idle;(8, 3);Wait for human before break;1;582
+;(13, 8);Idle;(8, 3);Wait for human before break;1;583
+;(13, 8);Idle;(8, 3);Wait for human before break;1;584
+MoveEast;(14, 8);Idle;(8, 3);Wait for human before break;1;585
+;(14, 8);Idle;(8, 3);Wait for human before break;1;586
+;(14, 8);Idle;(8, 3);Wait for human before break;1;587
+MoveEast;(15, 8);Idle;(8, 3);Wait for human before break;1;588
+;(15, 8);Idle;(8, 3);Wait for human before break;1;589
+MoveEast;(16, 8);Idle;(8, 3);Wait for human before break;1;590
+;(16, 8);Idle;(8, 3);Wait for human before break;1;591
+;(16, 8);Idle;(8, 3);Wait for human before break;1;592
+;(16, 8);Idle;(8, 3);Wait for human before break;1;593
+MoveEast;(17, 8);Idle;(8, 3);Wait for human before break;1;594
+;(17, 8);Idle;(8, 3);Wait for human before break;1;595
+DropObject;(17, 8);Idle;(8, 3);Wait for human before break;1;596
+;(17, 8);Idle;(8, 3);Wait for human before break;1;597
+;(17, 8);Idle;(8, 3);Wait for human before break;1;598
+;(17, 8);Idle;(8, 3);Wait for human before break;1;599
+;(17, 8);Idle;(8, 3);Wait for human before break;1;600
+MoveWest;(16, 8);Idle;(8, 3);Wait for human before break;1;601
+;(16, 8);Idle;(8, 3);Wait for human before break;1;602
+;(16, 8);Idle;(8, 3);Wait for human before break;1;603
+MoveWest;(15, 8);Idle;(8, 3);Wait for human before break;1;604
+;(15, 8);Idle;(8, 3);Wait for human before break;1;605
+MoveWest;(14, 8);Idle;(8, 3);Wait for human before break;1;606
+;(14, 8);Idle;(8, 3);Wait for human before break;1;607
+;(14, 8);Idle;(8, 3);Wait for human before break;1;608
+;(14, 8);Idle;(8, 3);Wait for human before break;1;609
+MoveWest;(13, 8);Idle;(8, 3);Wait for human before break;1;610
+;(13, 8);Idle;(8, 3);Wait for human before break;1;611
+;(13, 8);Idle;(8, 3);Wait for human before break;1;612
+;(13, 8);Idle;(8, 3);Wait for human before break;1;613
+;(13, 8);Idle;(8, 3);Wait for human before break;1;614
+;(13, 8);Idle;(8, 3);Wait for human before break;1;615
+;(13, 8);Idle;(8, 3);Wait for human before break;1;616
+;(13, 8);Idle;(8, 3);Wait for human before break;1;617
+;(13, 8);Idle;(8, 3);Wait for human before break;1;618
+;(13, 8);;(8, 3);Wait for human before break;1;619
+;(13, 8);;(8, 3);Wait for human before break;1;620
+;(13, 8);;(8, 3);Wait for human before break;1;621
+;(13, 8);MoveSouthEast;(8, 3);Wait for human before break;1;622
+;(13, 8);MoveSouthEast;(8, 3);Wait for human before break;1;623
+;(13, 8);MoveSouthEast;(8, 3);Wait for human before break;1;624
+;(13, 8);MoveSouthEast;(8, 3);Wait for human before break;1;625
+GrabObject;(13, 8);MoveSouthEast;(8, 3);Wait for human before break;1;626
+;(13, 8);MoveSouthEast;(8, 3);Wait for human before break;1;627
+MoveEast;(14, 8);MoveSouthEast;(8, 3);Wait for human before break;1;628
+;(14, 8);MoveSouthEast;(8, 3);Wait for human before break;1;629
+;(14, 8);MoveSouthEast;(8, 3);Wait for human before break;1;630
+MoveEast;(15, 8);MoveSouthEast;(8, 3);Wait for human before break;1;631
+;(15, 8);MoveSouthEast;(9, 4);Wait for human before break;1;632
+;(15, 8);MoveSouthEast;(9, 4);Wait for human before break;1;633
+MoveEast;(16, 8);MoveSouthEast;(9, 4);Wait for human before break;1;634
+;(16, 8);MoveSouthEast;(9, 4);Wait for human before break;1;635
+;(16, 8);MoveSouthEast;(9, 4);Wait for human before break;1;636
+MoveEast;(17, 8);MoveSouthEast;(9, 4);Wait for human before break;1;637
+;(17, 8);MoveSouthEast;(9, 4);Wait for human before break;1;638
+;(17, 8);MoveSouthEast;(9, 4);Wait for human before break;1;639
+;(17, 8);MoveSouthEast;(9, 4);Wait for human before break;1;640
+;(17, 8);MoveSouthEast;(9, 4);Wait for human before break;1;641
+DropObject;(17, 8);MoveSouthEast;(9, 4);Wait for human before break;1;642
+;(17, 8);MoveSouthEast;(10, 5);Wait for human before break;1;643
+;(17, 8);MoveSouthEast;(10, 5);Wait for human before break;1;644
+MoveWest;(16, 8);MoveSouthEast;(10, 5);Wait for human before break;1;645
+;(16, 8);MoveSouthEast;(10, 5);Wait for human before break;1;646
+;(16, 8);MoveSouthEast;(10, 5);Wait for human before break;1;647
+;(16, 8);MoveSouthEast;(10, 5);Wait for human before break;1;648
+MoveWest;(15, 8);MoveSouthEast;(10, 5);Wait for human before break;1;649
+;(15, 8);MoveSouthEast;(10, 5);Wait for human before break;1;650
+;(15, 8);MoveSouthEast;(10, 5);Wait for human before break;1;651
+MoveWest;(14, 8);MoveSouthEast;(10, 5);Wait for human before break;1;652
+;(14, 8);MoveSouthEast;(10, 5);Wait for human before break;1;653
+MoveWest;(13, 8);MoveSouthEast;(11, 6);Wait for human before break;1;654
+;(13, 8);BreakObject;(11, 6);Wait for human before break;1;655
+;(13, 8);BreakObject;(11, 6);Wait for human before break;1;656
+;(13, 8);BreakObject;(11, 6);Wait for human before break;1;657
+MoveWest;(12, 8);BreakObject;(11, 6);Wait for human before break;1;658
+;(12, 8);BreakObject;(11, 6);Wait for human before break;1;659
+;(12, 8);BreakObject;(11, 6);Wait for human before break;1;660
+MoveSouth;(12, 9);BreakObject;(11, 6);Wait for human before break;1;661
+;(12, 9);BreakObject;(11, 6);Wait for human before break;1;662
+;(12, 9);BreakObject;(11, 6);Wait for human before break;1;663
+;(12, 9);BreakObject;(11, 6);Wait for human before break;1;664
+;(12, 9);BreakObject;(11, 6);Wait for human before break;1;665
+MoveWest;(11, 9);;(11, 6);Wait for human before break;1;666
+;(11, 9);;(11, 6);False;1;667
+;(11, 9);;(11, 6);Unstack large rocks;1;668
+;(11, 9);;(11, 6);Unstack large rocks;1;669
+;(11, 9);MoveNorthWest;(11, 6);Unstack large rocks;1;670
+;(11, 9);MoveNorthWest;(11, 6);Unstack large rocks;1;671
+MoveEast;(12, 9);MoveNorthWest;(11, 6);Unstack large rocks;1;672
+;(12, 9);MoveNorthWest;(11, 6);Unstack large rocks;1;673
+;(12, 9);MoveNorthWest;(11, 6);Unstack large rocks;1;674
+;(12, 9);MoveNorthWest;(11, 6);Unstack large rocks;1;675
+;(12, 9);MoveNorthWest;(11, 6);Unstack large rocks;1;676
+;(12, 9);MoveNorthWest;(11, 6);Unstack large rocks;1;677
+;(12, 9);MoveNorthWest;(11, 6);Unstack large rocks;1;678
+;(12, 9);MoveNorthWest;(11, 6);Unstack large rocks;1;679
+;(12, 9);MoveNorthWest;(10, 5);Unstack large rocks;1;680
+;(12, 9);Idle;(10, 5);Unstack large rocks;1;681
+DropObject;(12, 9);Idle;(10, 5);Unstack large rocks;1;682
+;(12, 9);Idle;(10, 5);Unstack large rocks;1;683
+;(12, 9);Idle;(10, 5);Unstack large rocks;1;684
+;(12, 9);Idle;(10, 5);Unstack large rocks;1;685
+MoveEast;(13, 9);Idle;(10, 5);Unstack large rocks;1;686
+;(13, 9);Idle;(10, 5);Unstack large rocks;1;687
+;(13, 9);Idle;(10, 5);Unstack large rocks;1;688
+MoveEast;(14, 9);Idle;(10, 5);Unstack large rocks;1;689
+;(14, 9);Idle;(10, 5);Unstack large rocks;1;690
+;(14, 9);Idle;(10, 5);Unstack large rocks;1;691
+MoveEast;(15, 9);Idle;(10, 5);Unstack large rocks;1;692
+;(15, 9);Idle;(10, 5);Unstack large rocks;1;693
+;(15, 9);Idle;(10, 5);Unstack large rocks;1;694
+;(15, 9);Idle;(10, 5);Unstack large rocks;1;695
+;(15, 9);Idle;(10, 5);Unstack large rocks;1;696
+;(15, 9);Idle;(10, 5);Unstack large rocks;1;697
+;(15, 9);Idle;(10, 5);Unstack large rocks;1;698
+;(15, 9);Idle;(10, 5);Unstack large rocks;1;699
+MoveWest;(14, 9);Idle;(10, 5);Unstack large rocks;1;700
+;(14, 9);Idle;(10, 5);Unstack large rocks;1;701
+;(14, 9);Idle;(10, 5);Unstack large rocks;1;702
+MoveWest;(13, 9);Idle;(10, 5);Unstack large rocks;1;703
+;(13, 9);Idle;(10, 5);Unstack large rocks;1;704
+;(13, 9);Idle;(10, 5);Unstack large rocks;1;705
+;(13, 9);Idle;(10, 5);Unstack large rocks;1;706
+MoveWest;(12, 9);Idle;(10, 5);Unstack large rocks;1;707
+;(12, 9);Idle;(10, 5);Unstack large rocks;1;708
+;(12, 9);Idle;(10, 5);Unstack large rocks;1;709
+;(12, 9);Idle;(10, 5);Unstack large rocks;1;710
+;(12, 9);Idle;(10, 5);Unstack large rocks;1;711
+;(12, 9);Idle;(10, 5);Unstack large rocks;1;712
+;(12, 9);Idle;(10, 5);Unstack large rocks;1;713
+;(12, 9);Idle;(10, 5);Unstack large rocks;1;714
+;(12, 9);Idle;(10, 5);Unstack large rocks;1;715
+;(12, 9);Idle;(10, 5);Unstack large rocks;1;716
+;(12, 9);Idle;(10, 5);Unstack large rocks;1;717
+;(12, 9);Idle;(10, 5);Unstack large rocks;1;718
+;(12, 9);Idle;(10, 5);Unstack large rocks;1;719
+;(12, 9);Idle;(10, 5);Unstack large rocks;1;720
+;(12, 9);Idle;(10, 5);Unstack large rocks;1;721
+;(12, 9);Idle;(10, 5);Unstack large rocks;1;722
+;(12, 9);Idle;(10, 5);Unstack large rocks;1;723
+GrabObject;(12, 9);Idle;(10, 5);Unstack large rocks;1;724
+;(12, 9);Idle;(10, 5);Unstack large rocks;1;725
+MoveEast;(13, 9);Idle;(10, 5);Unstack large rocks;1;726
+;(13, 9);Idle;(10, 5);Unstack large rocks;1;727
+;(13, 9);Idle;(10, 5);Unstack large rocks;1;728
+MoveEast;(14, 9);Idle;(10, 5);Unstack large rocks;1;729
+;(14, 9);Idle;(10, 5);Unstack large rocks;1;730
+;(14, 9);Idle;(10, 5);Unstack large rocks;1;731
+MoveEast;(15, 9);Idle;(10, 5);Unstack large rocks;1;732
+;(15, 9);Idle;(10, 5);Unstack large rocks;1;733
+;(15, 9);Idle;(10, 5);Unstack large rocks;1;734
+MoveEast;(16, 9);Idle;(10, 5);Unstack large rocks;1;735
+;(16, 9);;(10, 5);Unstack large rocks;1;736
+;(16, 9);;(10, 5);Unstack large rocks;1;737
+;(16, 9);MoveWest;(10, 5);Unstack large rocks;1;738
+;(16, 9);MoveWest;(10, 5);Unstack large rocks;1;739
+;(16, 9);MoveWest;(10, 5);Unstack large rocks;1;740
+;(16, 9);MoveWest;(10, 5);Unstack large rocks;1;741
+;(16, 9);MoveWest;(10, 5);Unstack large rocks;1;742
+;(16, 9);MoveWest;(10, 5);Unstack large rocks;1;743
+DropObject;(16, 9);MoveWest;(10, 5);Unstack large rocks;1;744
+;(16, 9);MoveWest;(10, 5);Unstack large rocks;1;745
+;(16, 9);MoveWest;(10, 5);Unstack large rocks;1;746
+MoveWest;(15, 9);MoveWest;(10, 5);Unstack large rocks;1;747
+;(15, 9);MoveWest;(9, 5);Unstack large rocks;1;748
+;(15, 9);MoveWest;(9, 5);Unstack large rocks;1;749
+MoveWest;(14, 9);MoveWest;(9, 5);Unstack large rocks;1;750
+;(14, 9);MoveWest;(9, 5);Unstack large rocks;1;751
+;(14, 9);MoveWest;(9, 5);Unstack large rocks;1;752
+MoveWest;(13, 9);MoveWest;(9, 5);Unstack large rocks;1;753
+;(13, 9);MoveWest;(9, 5);Unstack large rocks;1;754
+;(13, 9);MoveWest;(9, 5);Unstack large rocks;1;755
+;(13, 9);MoveWest;(9, 5);Unstack large rocks;1;756
+;(13, 9);MoveWest;(9, 5);Unstack large rocks;1;757
+;(13, 9);MoveWest;(9, 5);Unstack large rocks;1;758
+;(13, 9);MoveWest;(8, 5);Unstack large rocks;1;759
+;(13, 9);MoveWest;(8, 5);Unstack large rocks;1;760
+;(13, 9);MoveWest;(8, 5);Unstack large rocks;1;761
+;(13, 9);MoveWest;(8, 5);Unstack large rocks;1;762
+GrabObject;(13, 9);MoveWest;(8, 5);Unstack large rocks;1;763
+;(13, 9);MoveWest;(8, 5);Unstack large rocks;1;764
+MoveEast;(14, 9);MoveWest;(8, 5);Unstack large rocks;1;765
+;(14, 9);MoveWest;(8, 5);Unstack large rocks;1;766
+;(14, 9);MoveWest;(8, 5);Unstack large rocks;1;767
+MoveEast;(15, 9);MoveWest;(8, 5);Unstack large rocks;1;768
+;(15, 9);MoveWest;(8, 5);Unstack large rocks;1;769
+;(15, 9);MoveWest;(7, 5);Unstack large rocks;1;770
+MoveEast;(16, 9);MoveWest;(7, 5);Unstack large rocks;1;771
+;(16, 9);MoveWest;(7, 5);Unstack large rocks;1;772
+;(16, 9);MoveWest;(7, 5);Unstack large rocks;1;773
+MoveEast;(17, 9);MoveWest;(7, 5);Unstack large rocks;1;774
+;(17, 9);MoveWest;(7, 5);Unstack large rocks;1;775
+;(17, 9);MoveWest;(7, 5);Unstack large rocks;1;776
+;(17, 9);MoveWest;(7, 5);Unstack large rocks;1;777
+DropObject;(17, 9);MoveWest;(7, 5);Unstack large rocks;1;778
+;(17, 9);MoveWest;(7, 5);Unstack large rocks;1;779
+MoveWest;(16, 9);MoveWest;(7, 5);Unstack large rocks;1;780
+;(16, 9);MoveWest;(6, 5);Unstack large rocks;1;781
+;(16, 9);MoveWest;(6, 5);Unstack large rocks;1;782
+MoveWest;(15, 9);MoveWest;(6, 5);Unstack large rocks;1;783
+;(15, 9);MoveWest;(6, 5);Unstack large rocks;1;784
+;(15, 9);MoveWest;(6, 5);Unstack large rocks;1;785
+MoveWest;(14, 9);MoveWest;(6, 5);Unstack large rocks;1;786
+;(14, 9);MoveWest;(6, 5);Unstack large rocks;1;787
+;(14, 9);MoveWest;(6, 5);Unstack large rocks;1;788
+;(14, 9);MoveWest;(6, 5);Unstack large rocks;1;789
+;(14, 9);MoveWest;(6, 5);Unstack large rocks;1;790
+;(14, 9);MoveWest;(6, 5);Unstack large rocks;1;791
+;(14, 9);MoveWest;(5, 5);Unstack large rocks;1;792
+;(14, 9);MoveWest;(5, 5);Unstack large rocks;1;793
+;(14, 9);MoveWest;(5, 5);Unstack large rocks;1;794
+MoveWest;(13, 9);MoveWest;(5, 5);Unstack large rocks;1;795
+;(13, 9);MoveWest;(5, 5);Unstack large rocks;1;796
+;(13, 9);MoveWest;(5, 5);Unstack large rocks;1;797
+;(13, 9);MoveWest;(5, 5);Unstack large rocks;1;798
+;(13, 9);MoveWest;(5, 5);Unstack large rocks;1;799
+;(13, 9);MoveWest;(5, 5);Unstack large rocks;1;800
+;(13, 9);MoveWest;(5, 5);Unstack large rocks;1;801
+MoveSouth;(13, 10);MoveWest;(5, 5);Unstack large rocks;1;802
+;(13, 10);MoveWest;(4, 5);Unstack large rocks;1;803
+;(13, 10);MoveNorthWest;(4, 5);Unstack large rocks;1;804
+;(13, 10);MoveNorthWest;(4, 5);Unstack large rocks;1;805
+;(13, 10);MoveNorthWest;(4, 5);Unstack large rocks;1;806
+;(13, 10);MoveNorthWest;(4, 5);Unstack large rocks;1;807
+;(13, 10);MoveNorthWest;(4, 5);Unstack large rocks;1;808
+;(13, 10);MoveNorthWest;(4, 5);Unstack large rocks;1;809
+;(13, 10);MoveNorthWest;(4, 5);Unstack large rocks;1;810
+;(13, 10);MoveNorthWest;(4, 5);Unstack large rocks;1;811
+;(13, 10);MoveNorthWest;(4, 5);Unstack large rocks;1;812
+;(13, 10);MoveNorthWest;(4, 5);Unstack large rocks;1;813
+;(13, 10);MoveNorthWest;(3, 4);Unstack large rocks;1;814
+;(13, 10);MoveNorthWest;(3, 4);Unstack large rocks;1;815
+;(13, 10);MoveNorthWest;(3, 4);Unstack large rocks;1;816
+;(13, 10);MoveNorthWest;(3, 4);Unstack large rocks;1;817
+GrabObject;(13, 10);MoveNorthWest;(3, 4);Unstack large rocks;1;818
+;(13, 10);MoveNorthWest;(3, 4);Unstack large rocks;1;819
+MoveEast;(14, 10);MoveNorthWest;(3, 4);Unstack large rocks;1;820
+;(14, 10);MoveNorthWest;(3, 4);Unstack large rocks;1;821
+;(14, 10);MoveNorthWest;(3, 4);Unstack large rocks;1;822
+MoveEast;(15, 10);MoveNorthWest;(3, 4);Unstack large rocks;1;823
+;(15, 10);MoveNorthWest;(3, 4);Unstack large rocks;1;824
+;(15, 10);MoveNorthWest;(2, 3);Unstack large rocks;1;825
+MoveEast;(16, 10);MoveWest;(2, 3);Unstack large rocks;1;826
+;(16, 10);MoveWest;(2, 3);Unstack large rocks;1;827
+;(16, 10);MoveWest;(2, 3);Unstack large rocks;1;828
+MoveEast;(17, 10);MoveWest;(2, 3);Unstack large rocks;1;829
+;(17, 10);MoveWest;(2, 3);Unstack large rocks;1;830
+;(17, 10);MoveWest;(2, 3);Unstack large rocks;1;831
+;(17, 10);MoveWest;(2, 3);Unstack large rocks;1;832
+DropObject;(17, 10);MoveWest;(2, 3);Unstack large rocks;1;833
+;(17, 10);MoveWest;(2, 3);Unstack large rocks;1;834
+;(17, 10);MoveWest;(2, 3);Unstack large rocks;1;835
+;(17, 10);MoveWest;(1, 3);Unstack large rocks;1;836
+MoveWest;(16, 10);MoveWest;(1, 3);Unstack large rocks;1;837
+;(16, 10);MoveWest;(1, 3);Unstack large rocks;1;838
+;(16, 10);MoveWest;(1, 3);Unstack large rocks;1;839
+MoveWest;(15, 10);MoveWest;(1, 3);Unstack large rocks;1;840
+;(15, 10);MoveWest;(1, 3);Unstack large rocks;1;841
+MoveWest;(14, 10);MoveWest;(1, 3);Unstack large rocks;1;842
+;(14, 10);MoveWest;(1, 3);Unstack large rocks;1;843
+;(14, 10);MoveWest;(1, 3);Unstack large rocks;1;844
+;(14, 10);MoveWest;(1, 3);Unstack large rocks;1;845
+MoveWest;(13, 10);MoveWest;(1, 3);Unstack large rocks;1;846
+;(13, 10);MoveWest;(0, 3);Unstack large rocks;1;847
+;(13, 10);DropObject;(0, 3);Unstack large rocks;1;848
+;(13, 10);DropObject;(0, 3);Unstack large rocks;1;849
+;(13, 10);DropObject;(0, 3);Unstack large rocks;1;850
+;(13, 10);DropObject;(0, 3);Unstack large rocks;1;851
+;(13, 10);DropObject;(0, 3);Unstack large rocks;1;852
+;(13, 10);DropObject;(0, 3);Unstack large rocks;1;853
+;(13, 10);DropObject;(0, 3);Unstack large rocks;1;854
+MoveEast;(14, 10);DropObject;(0, 3);Unstack large rocks;1;855
+;(14, 10);DropObject;(0, 3);Unstack large rocks;1;856
+;(14, 10);DropObject;(0, 3);Unstack large rocks;1;857
+;(14, 10);DropObject;(0, 3);Unstack large rocks;1;858
+;(14, 10);DropObject;(0, 3);Unstack large rocks;1;859
+;(14, 10);DropObject;(0, 3);Unstack large rocks;1;860
+;(14, 10);DropObject;(0, 3);Unstack large rocks;1;861
+GrabObject;(14, 10);DropObject;(0, 3);Unstack large rocks;1;862
+;(14, 10);DropObject;(0, 3);Unstack large rocks;1;863
+MoveEast;(15, 10);DropObject;(0, 3);Unstack large rocks;1;864
+;(15, 10);DropObject;(0, 3);Unstack large rocks;1;865
+;(15, 10);DropObject;(0, 3);Unstack large rocks;1;866
+MoveEast;(16, 10);DropObject;(0, 3);Unstack large rocks;1;867
+;(16, 10);DropObject;(0, 3);Unstack large rocks;1;868
+MoveEast;(17, 10);DropObject;(0, 3);Unstack large rocks;1;869
+;(17, 10);DropObject;(0, 3);Unstack large rocks;1;870
+;(17, 10);DropObject;(0, 3);Unstack large rocks;1;871
+DropObject;(17, 10);DropObject;(0, 3);Unstack large rocks;1;872
+;(17, 10);DropObject;(0, 3);Unstack large rocks;1;873
+;(17, 10);DropObject;(0, 3);Unstack large rocks;1;874
+;(17, 10);DropObject;(0, 3);Unstack large rocks;1;875
+MoveWest;(16, 10);DropObject;(0, 3);Unstack large rocks;1;876
+;(16, 10);DropObject;(0, 3);Unstack large rocks;1;877
+;(16, 10);DropObject;(0, 3);Unstack large rocks;1;878
+MoveWest;(15, 10);DropObject;(0, 3);Unstack large rocks;1;879
+;(15, 10);DropObject;(0, 3);Unstack large rocks;1;880
+MoveWest;(14, 10);DropObject;(0, 3);Unstack large rocks;1;881
+;(14, 10);DropObject;(0, 3);Unstack large rocks;1;882
+;(14, 10);DropObject;(0, 3);Unstack large rocks;1;883
+;(14, 10);DropObject;(0, 3);Unstack large rocks;1;884
+MoveWest;(13, 10);DropObject;(0, 3);Unstack large rocks;1;885
+;(13, 10);DropObject;(0, 3);Unstack large rocks;1;886
+MoveWest;(12, 10);DropObject;(0, 3);Unstack large rocks;1;887
+;(12, 10);DropObject;(0, 3);Unstack large rocks;1;888
+;(12, 10);DropObject;(0, 3);Unstack large rocks;1;889
+MoveWest;(11, 10);DropObject;(0, 3);Unstack large rocks;1;890
+;(11, 10);DropObject;(0, 3);Unstack large rocks;1;891
+;(11, 10);DropObject;(0, 3);Unstack large rocks;1;892
+;(11, 10);DropObject;(0, 3);Unstack large rocks;1;893
+MoveNorth;(11, 9);DropObject;(0, 3);Unstack large rocks;1;894
+;(11, 9);DropObject;(0, 3);Unstack large rocks;1;895
+;(11, 9);DropObject;(0, 3);Unstack large rocks;1;896
+;(11, 9);DropObject;(0, 3);Unstack large rocks;1;897
+MoveNorth;(11, 8);DropObject;(0, 3);Unstack large rocks;1;898
+;(11, 8);DropObject;(0, 3);Unstack large rocks;1;899
+;(11, 8);DropObject;(0, 3);Unstack large rocks;1;900
+MoveNorth;(11, 7);DropObject;(0, 3);Unstack large rocks;1;901
+;(11, 7);DropObject;(0, 3);Unstack large rocks;1;902
+;(11, 7);;(0, 3);Unstack large rocks;1;903
+;(11, 7);;(0, 3);Unstack large rocks;1;904
+MoveNorth;(11, 6);MoveEast;(0, 3);Unstack large rocks;1;905
+;(11, 6);MoveEast;(0, 3);Unstack large rocks;1;906
+;(11, 6);MoveEast;(0, 3);Unstack large rocks;1;907
+;(11, 6);MoveEast;(0, 3);Unstack large rocks;1;908
+;(11, 6);MoveEast;(0, 3);Unstack large rocks;1;909
+;(11, 6);MoveEast;(0, 3);Unstack large rocks;1;910
+;(11, 6);MoveEast;(0, 3);Unstack large rocks;1;911
+GrabObject;(11, 6);MoveEast;(0, 3);Unstack large rocks;1;912
+;(11, 6);MoveEast;(0, 3);Unstack large rocks;1;913
+;(11, 6);MoveEast;(0, 3);Unstack large rocks;1;914
+MoveEast;(12, 6);MoveEast;(1, 3);Unstack large rocks;1;915
+;(12, 6);MoveSouthEast;(1, 3);Unstack large rocks;1;916
+;(12, 6);MoveSouthEast;(1, 3);Unstack large rocks;1;917
+MoveEast;(13, 6);MoveSouthEast;(1, 3);Unstack large rocks;1;918
+;(13, 6);MoveSouthEast;(1, 3);Unstack large rocks;1;919
+;(13, 6);MoveSouthEast;(1, 3);Unstack large rocks;1;920
+MoveEast;(14, 6);MoveSouthEast;(1, 3);Unstack large rocks;1;921
+;(14, 6);MoveSouthEast;(1, 3);Unstack large rocks;1;922
+;(14, 6);MoveSouthEast;(1, 3);Unstack large rocks;1;923
+MoveEast;(15, 6);MoveSouthEast;(1, 3);Unstack large rocks;1;924
+;(15, 6);MoveSouthEast;(1, 3);Unstack large rocks;1;925
+;(15, 6);MoveSouthEast;(2, 4);Unstack large rocks;1;926
+MoveEast;(16, 6);MoveEast;(2, 4);Unstack large rocks;1;927
+;(16, 6);MoveEast;(2, 4);Unstack large rocks;1;928
+;(16, 6);MoveEast;(2, 4);Unstack large rocks;1;929
+MoveEast;(17, 6);MoveEast;(2, 4);Unstack large rocks;1;930
+;(17, 6);MoveEast;(2, 4);Unstack large rocks;1;931
+;(17, 6);MoveEast;(2, 4);Unstack large rocks;1;932
+DropObject;(17, 6);MoveEast;(2, 4);Unstack large rocks;1;933
+;(17, 6);MoveEast;(2, 4);Unstack large rocks;1;934
+;(17, 6);MoveEast;(2, 4);Unstack large rocks;1;935
+;(17, 6);MoveEast;(2, 4);Unstack large rocks;1;936
+MoveWest;(16, 6);MoveEast;(3, 4);Unstack large rocks;1;937
+;(16, 6);MoveSouthEast;(3, 4);Unstack large rocks;1;938
+MoveWest;(15, 6);MoveSouthEast;(3, 4);Unstack large rocks;1;939
+;(15, 6);MoveSouthEast;(3, 4);Unstack large rocks;1;940
+;(15, 6);MoveSouthEast;(3, 4);Unstack large rocks;1;941
+MoveWest;(14, 6);MoveSouthEast;(3, 4);Unstack large rocks;1;942
+;(14, 6);MoveSouthEast;(3, 4);Unstack large rocks;1;943
+;(14, 6);MoveSouthEast;(3, 4);Unstack large rocks;1;944
+MoveWest;(13, 6);MoveSouthEast;(3, 4);Unstack large rocks;1;945
+;(13, 6);MoveSouthEast;(3, 4);Unstack large rocks;1;946
+;(13, 6);MoveSouthEast;(3, 4);Unstack large rocks;1;947
+MoveWest;(12, 6);MoveSouthEast;(4, 5);Unstack large rocks;1;948
+;(12, 6);MoveEast;(4, 5);Unstack large rocks;1;949
+MoveWest;(11, 6);MoveEast;(4, 5);Unstack large rocks;1;950
+;(11, 6);MoveEast;(4, 5);Unstack large rocks;1;951
+;(11, 6);MoveEast;(4, 5);Unstack large rocks;1;952
+;(11, 6);MoveEast;(4, 5);Unstack large rocks;1;953
+;(11, 6);MoveEast;(4, 5);Unstack large rocks;1;954
+;(11, 6);MoveEast;(4, 5);Unstack large rocks;1;955
+;(11, 6);MoveEast;(4, 5);Unstack large rocks;1;956
+;(11, 6);MoveEast;(4, 5);Unstack large rocks;1;957
+MoveSouth;(11, 7);MoveEast;(4, 5);Unstack large rocks;1;958
+;(11, 7);MoveEast;(5, 5);Unstack large rocks;1;959
+;(11, 7);MoveSouthEast;(5, 5);Unstack large rocks;1;960
+;(11, 7);MoveSouthEast;(5, 5);Unstack large rocks;1;961
+;(11, 7);MoveSouthEast;(5, 5);Unstack large rocks;1;962
+;(11, 7);MoveSouthEast;(5, 5);Unstack large rocks;1;963
+;(11, 7);MoveSouthEast;(5, 5);Unstack large rocks;1;964
+;(11, 7);MoveSouthEast;(5, 5);Unstack large rocks;1;965
+;(11, 7);MoveSouthEast;(5, 5);Unstack large rocks;1;966
+;(11, 7);MoveSouthEast;(5, 5);Unstack large rocks;1;967
+;(11, 7);MoveSouthEast;(5, 5);Unstack large rocks;1;968
+;(11, 7);MoveSouthEast;(5, 5);Unstack large rocks;1;969
+;(11, 7);MoveSouthEast;(6, 6);Unstack large rocks;1;970
+GrabObject;(11, 7);MoveEast;(6, 6);Unstack large rocks;1;971
+;(11, 7);MoveEast;(6, 6);Unstack large rocks;1;972
+;(11, 7);MoveEast;(6, 6);Unstack large rocks;1;973
+MoveEast;(12, 7);MoveEast;(6, 6);Unstack large rocks;1;974
+;(12, 7);MoveEast;(6, 6);Unstack large rocks;1;975
+;(12, 7);MoveEast;(6, 6);Unstack large rocks;1;976
+MoveEast;(13, 7);MoveEast;(6, 6);Unstack large rocks;1;977
+;(13, 7);MoveEast;(6, 6);Unstack large rocks;1;978
+;(13, 7);MoveEast;(6, 6);Unstack large rocks;1;979
+MoveEast;(14, 7);MoveEast;(6, 6);Unstack large rocks;1;980
+;(14, 7);MoveEast;(7, 6);Unstack large rocks;1;981
+;(14, 7);GrabLargeObject;(7, 6);Unstack large rocks;1;982
+;(14, 7);GrabLargeObject;(7, 6);Unstack large rocks;1;983
+MoveEast;(15, 7);GrabLargeObject;(7, 6);Unstack large rocks;1;984
+;(15, 7);GrabLargeObject;(7, 6);Unstack large rocks;1;985
+;(15, 7);GrabLargeObject;(7, 6);Unstack large rocks;1;986
+MoveEast;(16, 7);GrabLargeObject;(7, 6);Unstack large rocks;1;987
+;(16, 7);GrabLargeObject;(7, 6);Unstack large rocks;1;988
+MoveEast;(17, 7);GrabLargeObject;(7, 6);Unstack large rocks;1;989
+;(17, 7);GrabLargeObject;(7, 6);Unstack large rocks;1;990
+;(17, 7);GrabLargeObject;(7, 6);Unstack large rocks;1;991
+DropObject;(17, 7);GrabLargeObject;(7, 6);Unstack large rocks;1;992
+;(17, 7);;(7, 6);Unstack large rocks;1;993
+;(17, 7);;(7, 6);False;1;994
+;(17, 7);;(7, 6);Move small rocks off large rocks;1;995
+;(17, 7);;(7, 6);Move small rocks off large rocks;1;996
+MoveSouth;(17, 8);MoveWest;(7, 6);Move small rocks off large rocks;1;997
+;(17, 8);MoveWest;(7, 6);Move small rocks off large rocks;1;998
+;(17, 8);MoveWest;(7, 6);Move small rocks off large rocks;1;999
+MoveWest;(16, 8);MoveWest;(7, 6);Move small rocks off large rocks;1;1000
+;(16, 8);MoveWest;(7, 6);Move small rocks off large rocks;1;1001
+;(16, 8);MoveWest;(7, 6);Move small rocks off large rocks;1;1002
+MoveWest;(15, 8);MoveWest;(7, 6);Move small rocks off large rocks;1;1003
+;(15, 8);MoveWest;(7, 6);Move small rocks off large rocks;1;1004
+;(15, 8);MoveWest;(7, 6);Move small rocks off large rocks;1;1005
+MoveWest;(14, 8);MoveWest;(7, 6);Move small rocks off large rocks;1;1006
+;(14, 8);MoveWest;(6, 6);Move small rocks off large rocks;1;1007
+;(14, 8);MoveWest;(6, 6);Move small rocks off large rocks;1;1008
+MoveWest;(13, 8);MoveWest;(6, 6);Move small rocks off large rocks;1;1009
+;(13, 8);MoveWest;(6, 6);Move small rocks off large rocks;1;1010
+;(13, 8);MoveWest;(6, 6);Move small rocks off large rocks;1;1011
+MoveWest;(12, 8);MoveWest;(6, 6);Move small rocks off large rocks;1;1012
+;(12, 8);MoveWest;(6, 6);Move small rocks off large rocks;1;1013
+;(12, 8);MoveWest;(6, 6);Move small rocks off large rocks;1;1014
+MoveWest;(11, 8);MoveWest;(6, 6);Move small rocks off large rocks;1;1015
+;(11, 8);MoveWest;(6, 6);Move small rocks off large rocks;1;1016
+;(11, 8);MoveWest;(6, 6);Move small rocks off large rocks;1;1017
+;(11, 8);MoveWest;(5, 6);Move small rocks off large rocks;1;1018
+;(11, 8);MoveNorthWest;(5, 6);Move small rocks off large rocks;1;1019
+;(11, 8);MoveNorthWest;(5, 6);Move small rocks off large rocks;1;1020
+;(11, 8);MoveNorthWest;(5, 6);Move small rocks off large rocks;1;1021
+;(11, 8);MoveNorthWest;(5, 6);Move small rocks off large rocks;1;1022
+;(11, 8);MoveNorthWest;(5, 6);Move small rocks off large rocks;1;1023
+;(11, 8);MoveNorthWest;(5, 6);Move small rocks off large rocks;1;1024
+;(11, 8);MoveNorthWest;(5, 6);Move small rocks off large rocks;1;1025
+;(11, 8);MoveNorthWest;(5, 6);Move small rocks off large rocks;1;1026
+;(11, 8);MoveNorthWest;(5, 6);Move small rocks off large rocks;1;1027
+;(11, 8);MoveNorthWest;(5, 6);Move small rocks off large rocks;1;1028
+;(11, 8);MoveNorthWest;(4, 5);Move small rocks off large rocks;1;1029
+;(11, 8);MoveWest;(4, 5);Move small rocks off large rocks;1;1030
+;(11, 8);MoveWest;(4, 5);Move small rocks off large rocks;1;1031
+;(11, 8);MoveWest;(4, 5);Move small rocks off large rocks;1;1032
+;(11, 8);MoveWest;(4, 5);Move small rocks off large rocks;1;1033
+;(11, 8);MoveWest;(4, 5);Move small rocks off large rocks;1;1034
+;(11, 8);MoveWest;(4, 5);Move small rocks off large rocks;1;1035
+GrabObject;(11, 8);MoveWest;(4, 5);Move small rocks off large rocks;1;1036
+;(11, 8);MoveWest;(4, 5);Move small rocks off large rocks;1;1037
+;(11, 8);MoveWest;(4, 5);Move small rocks off large rocks;1;1038
+;(11, 8);MoveWest;(4, 5);Move small rocks off large rocks;1;1039
+;(11, 8);MoveWest;(3, 5);Move small rocks off large rocks;1;1040
+;(11, 8);MoveNorthWest;(3, 5);Move small rocks off large rocks;1;1041
+MoveEast;(12, 8);MoveNorthWest;(3, 5);Move small rocks off large rocks;1;1042
+;(12, 8);MoveNorthWest;(3, 5);Move small rocks off large rocks;1;1043
+;(12, 8);MoveNorthWest;(3, 5);Move small rocks off large rocks;1;1044
+;(12, 8);MoveNorthWest;(3, 5);Move small rocks off large rocks;1;1045
+MoveEast;(13, 8);MoveNorthWest;(3, 5);Move small rocks off large rocks;1;1046
+;(13, 8);MoveNorthWest;(3, 5);Move small rocks off large rocks;1;1047
+;(13, 8);MoveNorthWest;(3, 5);Move small rocks off large rocks;1;1048
+MoveEast;(14, 8);MoveNorthWest;(3, 5);Move small rocks off large rocks;1;1049
+;(14, 8);MoveNorthWest;(3, 5);Move small rocks off large rocks;1;1050
+;(14, 8);MoveNorthWest;(2, 4);Move small rocks off large rocks;1;1051
+MoveEast;(15, 8);MoveWest;(2, 4);Move small rocks off large rocks;1;1052
+;(15, 8);MoveWest;(2, 4);Move small rocks off large rocks;1;1053
+;(15, 8);MoveWest;(2, 4);Move small rocks off large rocks;1;1054
+;(15, 8);MoveWest;(2, 4);Move small rocks off large rocks;1;1055
+MoveEast;(16, 8);MoveWest;(2, 4);Move small rocks off large rocks;1;1056
+;(16, 8);MoveWest;(2, 4);Move small rocks off large rocks;1;1057
+;(16, 8);MoveWest;(2, 4);Move small rocks off large rocks;1;1058
+;(16, 8);MoveWest;(2, 4);Move small rocks off large rocks;1;1059
+;(16, 8);MoveWest;(2, 4);Move small rocks off large rocks;1;1060
+;(16, 8);MoveWest;(2, 4);Move small rocks off large rocks;1;1061
+;(16, 8);MoveWest;(1, 4);Move small rocks off large rocks;1;1062
+;(16, 8);DropLargeObject;(1, 4);Move small rocks off large rocks;1;1063
+;(16, 8);DropLargeObject;(1, 4);Move small rocks off large rocks;1;1064
+;(16, 8);DropLargeObject;(1, 4);Move small rocks off large rocks;1;1065
+;(16, 8);DropLargeObject;(1, 4);Move small rocks off large rocks;1;1066
+;(16, 8);DropLargeObject;(1, 4);Move small rocks off large rocks;1;1067
+;(16, 8);DropLargeObject;(1, 4);Move small rocks off large rocks;1;1068
+DropObject;(16, 8);DropLargeObject;(1, 4);Move small rocks off large rocks;1;1069
+;(16, 8);DropLargeObject;(1, 4);Move small rocks off large rocks;1;1070
+;(16, 8);DropLargeObject;(1, 4);Move small rocks off large rocks;1;1071
+;(16, 8);DropLargeObject;(1, 4);Move small rocks off large rocks;1;1072
+;(16, 8);DropLargeObject;(1, 4);Move small rocks off large rocks;1;1073
+;(16, 8);;(1, 4);Move small rocks off large rocks;1;1074
+;(16, 8);;(1, 4);Move small rocks off large rocks;1;1075
+;(16, 8);MoveSouthEast;(1, 4);Move small rocks off large rocks;1;1076
+;(16, 8);MoveSouthEast;(1, 4);Move small rocks off large rocks;1;1077
+MoveWest;(15, 8);MoveSouthEast;(1, 4);Move small rocks off large rocks;1;1078
+;(15, 8);MoveSouthEast;(1, 4);Move small rocks off large rocks;1;1079
+;(15, 8);MoveSouthEast;(1, 4);Move small rocks off large rocks;1;1080
+;(15, 8);MoveSouthEast;(1, 4);Move small rocks off large rocks;1;1081
+;(15, 8);MoveSouthEast;(1, 4);Move small rocks off large rocks;1;1082
+;(15, 8);MoveSouthEast;(1, 4);Move small rocks off large rocks;1;1083
+MoveSouth;(15, 9);MoveSouthEast;(1, 4);Move small rocks off large rocks;1;1084
+;(15, 9);MoveSouthEast;(1, 4);Move small rocks off large rocks;1;1085
+;(15, 9);MoveSouthEast;(2, 5);Move small rocks off large rocks;1;1086
+;(15, 9);MoveEast;(2, 5);Move small rocks off large rocks;1;1087
+;(15, 9);MoveEast;(2, 5);Move small rocks off large rocks;1;1088
+MoveSouth;(15, 10);MoveEast;(2, 5);Move small rocks off large rocks;1;1089
+;(15, 10);MoveEast;(2, 5);Move small rocks off large rocks;1;1090
+;(15, 10);MoveEast;(2, 5);Move small rocks off large rocks;1;1091
+;(15, 10);MoveEast;(2, 5);Move small rocks off large rocks;1;1092
+MoveWest;(14, 10);MoveEast;(2, 5);Move small rocks off large rocks;1;1093
+;(14, 10);MoveEast;(2, 5);Move small rocks off large rocks;1;1094
+;(14, 10);MoveEast;(2, 5);Move small rocks off large rocks;1;1095
+MoveWest;(13, 10);MoveEast;(2, 5);Move small rocks off large rocks;1;1096
+;(13, 10);MoveEast;(3, 5);Move small rocks off large rocks;1;1097
+;(13, 10);MoveSouthEast;(3, 5);Move small rocks off large rocks;1;1098
+MoveWest;(12, 10);MoveSouthEast;(3, 5);Move small rocks off large rocks;1;1099
+;(12, 10);MoveSouthEast;(3, 5);Move small rocks off large rocks;1;1100
+;(12, 10);MoveSouthEast;(3, 5);Move small rocks off large rocks;1;1101
+MoveWest;(11, 10);MoveSouthEast;(3, 5);Move small rocks off large rocks;1;1102
+;(11, 10);MoveSouthEast;(3, 5);Move small rocks off large rocks;1;1103
+;(11, 10);MoveSouthEast;(3, 5);Move small rocks off large rocks;1;1104
+MoveWest;(10, 10);MoveSouthEast;(3, 5);Move small rocks off large rocks;1;1105
+;(10, 10);MoveSouthEast;(3, 5);Move small rocks off large rocks;1;1106
+;(10, 10);MoveSouthEast;(3, 5);Move small rocks off large rocks;1;1107
+;(10, 10);MoveSouthEast;(4, 6);Move small rocks off large rocks;1;1108
+MoveNorth;(10, 9);MoveEast;(4, 6);Move small rocks off large rocks;1;1109
+;(10, 9);MoveEast;(4, 6);Move small rocks off large rocks;1;1110
+;(10, 9);MoveEast;(4, 6);Move small rocks off large rocks;1;1111
+;(10, 9);MoveEast;(4, 6);Move small rocks off large rocks;1;1112
+;(10, 9);MoveEast;(4, 6);Move small rocks off large rocks;1;1113
+;(10, 9);MoveEast;(4, 6);Move small rocks off large rocks;1;1114
+;(10, 9);MoveEast;(4, 6);Move small rocks off large rocks;1;1115
+;(10, 9);MoveEast;(4, 6);Move small rocks off large rocks;1;1116
+MoveEast;(11, 9);MoveEast;(4, 6);Move small rocks off large rocks;1;1117
+;(11, 9);MoveEast;(4, 6);Move small rocks off large rocks;1;1118
+;(11, 9);MoveEast;(5, 6);Move small rocks off large rocks;1;1119
+;(11, 9);MoveSouthEast;(5, 6);Move small rocks off large rocks;1;1120
+;(11, 9);MoveSouthEast;(5, 6);Move small rocks off large rocks;1;1121
+;(11, 9);MoveSouthEast;(5, 6);Move small rocks off large rocks;1;1122
+;(11, 9);MoveSouthEast;(5, 6);Move small rocks off large rocks;1;1123
+;(11, 9);MoveSouthEast;(5, 6);Move small rocks off large rocks;1;1124
+;(11, 9);MoveSouthEast;(5, 6);Move small rocks off large rocks;1;1125
+;(11, 9);MoveSouthEast;(5, 6);Move small rocks off large rocks;1;1126
+;(11, 9);MoveSouthEast;(5, 6);Move small rocks off large rocks;1;1127
+;(11, 9);MoveSouthEast;(5, 6);Move small rocks off large rocks;1;1128
+;(11, 9);MoveSouthEast;(5, 6);Move small rocks off large rocks;1;1129
+;(11, 9);MoveSouthEast;(6, 7);Move small rocks off large rocks;1;1130
+;(11, 9);MoveEast;(6, 7);Move small rocks off large rocks;1;1131
+;(11, 9);MoveEast;(6, 7);Move small rocks off large rocks;1;1132
+;(11, 9);MoveEast;(6, 7);Move small rocks off large rocks;1;1133
+;(11, 9);MoveEast;(6, 7);Move small rocks off large rocks;1;1134
+;(11, 9);MoveEast;(6, 7);Move small rocks off large rocks;1;1135
+;(11, 9);MoveEast;(6, 7);Move small rocks off large rocks;1;1136
+;(11, 9);MoveEast;(6, 7);Move small rocks off large rocks;1;1137
+;(11, 9);MoveEast;(6, 7);Move small rocks off large rocks;1;1138
+;(11, 9);MoveEast;(6, 7);Move small rocks off large rocks;1;1139
+;(11, 9);MoveEast;(6, 7);Move small rocks off large rocks;1;1140
+;(11, 9);MoveEast;(7, 7);Move small rocks off large rocks;1;1141
+;(11, 9);MoveSouthEast;(7, 7);Move small rocks off large rocks;1;1142
+;(11, 9);MoveSouthEast;(7, 7);Move small rocks off large rocks;1;1143
+;(11, 9);MoveSouthEast;(7, 7);Move small rocks off large rocks;1;1144
+GrabObject;(11, 9);MoveSouthEast;(7, 7);Move small rocks off large rocks;1;1145
+;(11, 9);MoveSouthEast;(7, 7);Move small rocks off large rocks;1;1146
+;(11, 9);MoveSouthEast;(7, 7);Move small rocks off large rocks;1;1147
+MoveEast;(12, 9);MoveSouthEast;(7, 7);Move small rocks off large rocks;1;1148
+;(12, 9);MoveSouthEast;(7, 7);Move small rocks off large rocks;1;1149
+;(12, 9);MoveSouthEast;(7, 7);Move small rocks off large rocks;1;1150
+DropObject;(12, 9);MoveSouthEast;(7, 7);Move small rocks off large rocks;1;1151
+;(12, 9);MoveSouthEast;(8, 8);Move small rocks off large rocks;1;1152
+;(12, 9);;(8, 8);Move small rocks off large rocks;1;1153
+;(12, 9);;(8, 8);Move small rocks off large rocks;1;1154
+;(12, 9);;(8, 8);Move small rocks off large rocks;1;1155
+;(12, 9);;(8, 8);Move small rocks off large rocks;1;1156
+;(12, 9);;(8, 8);Move small rocks off large rocks;1;1157
+;(12, 9);;(8, 8);Move small rocks off large rocks;1;1158
+;(12, 9);;(8, 8);Move small rocks off large rocks;1;1159
+;(12, 9);;(8, 8);Move small rocks off large rocks;1;1160
+;(12, 9);;(8, 8);Move small rocks off large rocks;1;1161
+;(12, 9);;(8, 8);Move small rocks off large rocks;1;1162
+;(12, 9);;(8, 8);Move small rocks off large rocks;1;1163
+;(12, 9);;(8, 8);Move small rocks off large rocks;1;1164
+;(12, 9);;(8, 8);Move small rocks off large rocks;1;1165
+;(12, 9);;(8, 8);Move small rocks off large rocks;1;1166
+;(12, 9);;(8, 8);Move small rocks off large rocks;1;1167
+;(12, 9);;(8, 8);Move small rocks off large rocks;1;1168

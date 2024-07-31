@@ -1,0 +1,8 @@
+tick;corrected_tick;remaining_distance;victim_harm;idle_time_robot;q_table_cps;q_table_cps_runs;q_table_basic;world_nr;tick_nr
+1876;1857;;100;46;"                     Top of the pile  Top of pile small
+[4, 'robot', True]           -1928.0                0.0
+[4, 'equal', False]           -628.0                NaN
+[2, 'robot', False]              NaN             -119.0";"                     Top of the pile  Top of pile small
+[4, 'robot', True]               4.0                0.0
+[4, 'equal', False]              5.0                NaN
+[2, 'robot', False]              NaN                5.0";;1;1876

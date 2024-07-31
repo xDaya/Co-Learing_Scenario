@@ -1,0 +1,18 @@
+tick;corrected_tick;remaining_distance;victim_harm;idle_time_robot;q_table_cps;q_table_cps_runs;q_table_basic;world_nr;tick_nr
+3019;3000;6;1200;1;"                     Handle large rocks before smash
+[3, 'robot', True]                               1.0
+[3, 'robot', False]                              4.0
+[2, 'equal', False]                              2.0";"                     Handle large rocks before smash
+[3, 'robot', True]                               1.0
+[3, 'robot', False]                              1.0
+[2, 'equal', False]                              1.0";"                     Move back and forth  Stand Still  Pick up  Drop  Break
+[4, 'equal', False]                 -4.0         -4.0   -1.974  -3.0  -2.50
+[4, 'robot', False]                  0.0          0.0    1.000   0.0   0.00
+[4, 'robot', True]                  -7.0         -3.5   -4.500  -2.5   0.00
+[3, 'robot', True]                 -19.0         -1.5    0.000   0.0  -2.25
+[3, 'robot', False]                -56.5         -3.5   -3.000  -2.5   0.00
+[3, 'equal', False]                 -4.0          0.0   -8.000   0.0   0.00
+[2, 'equal', False]                -11.5         -0.5   -0.080   0.0   0.00
+[1, 'equal', False]                  0.0          0.0    0.000  -3.5   0.00
+[1, 'human', False]                 -7.0         -3.5   -7.500   0.0   0.00
+[1, 'equal', True]                  -7.0         -3.5  -26.500   0.0   0.00";1;3019

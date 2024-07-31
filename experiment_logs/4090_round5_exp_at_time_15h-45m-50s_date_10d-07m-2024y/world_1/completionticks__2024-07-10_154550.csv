@@ -1,0 +1,10 @@
+tick;corrected_tick;remaining_distance;victim_harm;idle_time_robot;q_table_cps;q_table_cps_runs;q_table_basic;world_nr;tick_nr
+1378;1359;;0;16;"                     Top of the pile  Top of pile small  Top of the pile improved  Left side big rocks
+[4, 'robot', True]           -1928.0                0.0                       0.0                  0.0
+[4, 'equal', False]           -628.0                NaN                       0.0                 84.0
+[2, 'robot', False]              NaN              -51.0                       0.0                  0.0
+[4, 'equal', True]               NaN                NaN                   -1780.0                  NaN";"                     Top of the pile  Top of pile small  Top of the pile improved  Left side big rocks
+[4, 'robot', True]               4.0                0.0                       0.0                  0.0
+[4, 'equal', False]              5.0                NaN                       0.0                  5.0
+[2, 'robot', False]              NaN                7.0                       0.0                  0.0
+[4, 'equal', True]               NaN                NaN                       1.0                  NaN";;1;1378

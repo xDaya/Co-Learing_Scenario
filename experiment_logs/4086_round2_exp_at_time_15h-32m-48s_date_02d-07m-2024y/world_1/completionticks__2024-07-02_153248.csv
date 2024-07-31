@@ -1,0 +1,10 @@
+tick;corrected_tick;remaining_distance;victim_harm;idle_time_robot;q_table_cps;q_table_cps_runs;q_table_basic;world_nr;tick_nr
+3019;3000;41;0;246;"                     Large rock on top of pile  Breaking large rocks
+[3, 'equal', True]                      -914.0                   NaN
+[3, 'robot', True]                         NaN                -763.0
+[4, 'equal', False]                        0.0                   0.0
+[4, 'equal', True]                      -297.0                   NaN";"                     Large rock on top of pile  Breaking large rocks
+[3, 'equal', True]                         1.0                   NaN
+[3, 'robot', True]                         NaN                   1.0
+[4, 'equal', False]                        0.0                   0.0
+[4, 'equal', True]                         1.0                   NaN";;1;3019

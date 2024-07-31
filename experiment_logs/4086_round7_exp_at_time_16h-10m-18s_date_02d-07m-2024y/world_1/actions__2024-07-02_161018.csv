@@ -1,0 +1,1790 @@
+human_selector_action;human_selector_location;robot_action;robot_location;robot_executing_cp;world_nr;tick_nr
+;(3, 4);;(4, 4);False;1;0
+;(3, 4);;(4, 4);False;1;1
+;(3, 4);;(4, 4);Rock on the right side of the victim;1;2
+;(3, 4);;(4, 4);Rock on the right side of the victim;1;3
+;(3, 4);;(4, 4);Rock on the right side of the victim;1;4
+;(3, 4);;(4, 4);Rock on the right side of the victim;1;5
+;(3, 4);MoveSouthEast;(4, 4);Rock on the right side of the victim;1;6
+;(3, 4);MoveSouthEast;(4, 4);Rock on the right side of the victim;1;7
+;(3, 4);MoveSouthEast;(4, 4);Rock on the right side of the victim;1;8
+;(3, 4);MoveSouthEast;(4, 4);Rock on the right side of the victim;1;9
+;(3, 4);MoveSouthEast;(4, 4);Rock on the right side of the victim;1;10
+;(3, 4);MoveSouthEast;(4, 4);Rock on the right side of the victim;1;11
+;(3, 4);MoveSouthEast;(4, 4);Rock on the right side of the victim;1;12
+;(3, 4);MoveSouthEast;(4, 4);Rock on the right side of the victim;1;13
+;(3, 4);MoveSouthEast;(4, 4);Rock on the right side of the victim;1;14
+;(3, 4);MoveSouthEast;(4, 4);Rock on the right side of the victim;1;15
+;(3, 4);MoveSouthEast;(5, 5);Rock on the right side of the victim;1;16
+;(3, 4);MoveSouth;(5, 5);Rock on the right side of the victim;1;17
+;(3, 4);MoveSouth;(5, 5);Rock on the right side of the victim;1;18
+;(3, 4);MoveSouth;(5, 5);Rock on the right side of the victim;1;19
+;(3, 4);MoveSouth;(5, 5);Rock on the right side of the victim;1;20
+;(3, 4);MoveSouth;(5, 5);Rock on the right side of the victim;1;21
+;(3, 4);MoveSouth;(5, 5);Rock on the right side of the victim;1;22
+;(3, 4);MoveSouth;(5, 5);Rock on the right side of the victim;1;23
+;(3, 4);MoveSouth;(5, 5);Rock on the right side of the victim;1;24
+;(3, 4);MoveSouth;(5, 5);Rock on the right side of the victim;1;25
+;(3, 4);MoveSouth;(5, 5);Rock on the right side of the victim;1;26
+;(3, 4);MoveSouth;(5, 6);Rock on the right side of the victim;1;27
+;(3, 4);MoveSouthEast;(5, 6);Rock on the right side of the victim;1;28
+;(3, 4);MoveSouthEast;(5, 6);Rock on the right side of the victim;1;29
+;(3, 4);MoveSouthEast;(5, 6);Rock on the right side of the victim;1;30
+;(3, 4);MoveSouthEast;(5, 6);Rock on the right side of the victim;1;31
+;(3, 4);MoveSouthEast;(5, 6);Rock on the right side of the victim;1;32
+MoveEast;(4, 4);MoveSouthEast;(5, 6);Rock on the right side of the victim;1;33
+;(4, 4);MoveSouthEast;(5, 6);Rock on the right side of the victim;1;34
+;(4, 4);MoveSouthEast;(5, 6);Rock on the right side of the victim;1;35
+;(4, 4);MoveSouthEast;(5, 6);Rock on the right side of the victim;1;36
+;(4, 4);MoveSouthEast;(5, 6);Rock on the right side of the victim;1;37
+;(4, 4);MoveSouthEast;(6, 7);Rock on the right side of the victim;1;38
+;(4, 4);MoveSouthEast;(6, 7);Rock on the right side of the victim;1;39
+;(4, 4);MoveSouthEast;(6, 7);Rock on the right side of the victim;1;40
+;(4, 4);MoveSouthEast;(6, 7);Rock on the right side of the victim;1;41
+;(4, 4);MoveSouthEast;(6, 7);Rock on the right side of the victim;1;42
+MoveEast;(5, 4);MoveSouthEast;(6, 7);Rock on the right side of the victim;1;43
+;(5, 4);MoveSouthEast;(6, 7);Rock on the right side of the victim;1;44
+MoveEast;(6, 4);MoveSouthEast;(6, 7);Rock on the right side of the victim;1;45
+;(6, 4);MoveSouthEast;(6, 7);Rock on the right side of the victim;1;46
+;(6, 4);MoveSouthEast;(6, 7);Rock on the right side of the victim;1;47
+MoveEast;(7, 4);MoveSouthEast;(6, 7);Rock on the right side of the victim;1;48
+;(7, 4);MoveSouthEast;(7, 8);Rock on the right side of the victim;1;49
+;(7, 4);MoveSouth;(7, 8);Rock on the right side of the victim;1;50
+MoveEast;(8, 4);MoveSouth;(7, 8);Rock on the right side of the victim;1;51
+;(8, 4);MoveSouth;(7, 8);Rock on the right side of the victim;1;52
+;(8, 4);MoveSouth;(7, 8);Rock on the right side of the victim;1;53
+MoveEast;(9, 4);MoveSouth;(7, 8);Rock on the right side of the victim;1;54
+;(9, 4);MoveSouth;(7, 8);Rock on the right side of the victim;1;55
+;(9, 4);MoveSouth;(7, 8);Rock on the right side of the victim;1;56
+MoveEast;(10, 4);MoveSouth;(7, 8);Rock on the right side of the victim;1;57
+;(10, 4);MoveSouth;(7, 8);Rock on the right side of the victim;1;58
+;(10, 4);MoveSouth;(7, 8);Rock on the right side of the victim;1;59
+MoveEast;(11, 4);MoveSouth;(7, 9);Rock on the right side of the victim;1;60
+;(11, 4);MoveSouthEast;(7, 9);Rock on the right side of the victim;1;61
+;(11, 4);MoveSouthEast;(7, 9);Rock on the right side of the victim;1;62
+MoveEast;(12, 4);MoveSouthEast;(7, 9);Rock on the right side of the victim;1;63
+;(12, 4);MoveSouthEast;(7, 9);Rock on the right side of the victim;1;64
+;(12, 4);MoveSouthEast;(7, 9);Rock on the right side of the victim;1;65
+;(12, 4);MoveSouthEast;(7, 9);Rock on the right side of the victim;1;66
+MoveSouth;(12, 5);MoveSouthEast;(7, 9);Rock on the right side of the victim;1;67
+;(12, 5);MoveSouthEast;(7, 9);Rock on the right side of the victim;1;68
+;(12, 5);MoveSouthEast;(7, 9);Rock on the right side of the victim;1;69
+MoveSouth;(12, 6);MoveSouthEast;(7, 9);Rock on the right side of the victim;1;70
+;(12, 6);MoveSouthEast;(8, 10);Rock on the right side of the victim;1;71
+;(12, 6);Idle;(8, 10);Rock on the right side of the victim;1;72
+MoveSouth;(12, 7);Idle;(8, 10);Rock on the right side of the victim;1;73
+;(12, 7);Idle;(8, 10);Rock on the right side of the victim;1;74
+;(12, 7);Idle;(8, 10);Rock on the right side of the victim;1;75
+MoveSouth;(12, 8);Idle;(8, 10);Rock on the right side of the victim;1;76
+;(12, 8);Idle;(8, 10);Rock on the right side of the victim;1;77
+;(12, 8);Idle;(8, 10);Rock on the right side of the victim;1;78
+MoveSouth;(12, 9);Idle;(8, 10);Rock on the right side of the victim;1;79
+;(12, 9);Idle;(8, 10);Rock on the right side of the victim;1;80
+;(12, 9);Idle;(8, 10);Rock on the right side of the victim;1;81
+MoveSouth;(12, 10);Idle;(8, 10);Rock on the right side of the victim;1;82
+;(12, 10);Idle;(8, 10);Rock on the right side of the victim;1;83
+;(12, 10);Idle;(8, 10);Rock on the right side of the victim;1;84
+;(12, 10);Idle;(8, 10);Rock on the right side of the victim;1;85
+;(12, 10);Idle;(8, 10);Rock on the right side of the victim;1;86
+;(12, 10);Idle;(8, 10);Rock on the right side of the victim;1;87
+;(12, 10);Idle;(8, 10);Rock on the right side of the victim;1;88
+;(12, 10);Idle;(8, 10);Rock on the right side of the victim;1;89
+;(12, 10);Idle;(8, 10);Rock on the right side of the victim;1;90
+;(12, 10);Idle;(8, 10);Rock on the right side of the victim;1;91
+;(12, 10);Idle;(8, 10);Rock on the right side of the victim;1;92
+;(12, 10);Idle;(8, 10);Rock on the right side of the victim;1;93
+;(12, 10);Idle;(8, 10);Rock on the right side of the victim;1;94
+;(12, 10);Idle;(8, 10);Rock on the right side of the victim;1;95
+;(12, 10);Idle;(8, 10);Rock on the right side of the victim;1;96
+;(12, 10);Idle;(8, 10);Rock on the right side of the victim;1;97
+;(12, 10);Idle;(8, 10);Rock on the right side of the victim;1;98
+;(12, 10);Idle;(8, 10);Rock on the right side of the victim;1;99
+;(12, 10);Idle;(8, 10);Rock on the right side of the victim;1;100
+;(12, 10);Idle;(8, 10);Rock on the right side of the victim;1;101
+;(12, 10);Idle;(8, 10);Rock on the right side of the victim;1;102
+;(12, 10);Idle;(8, 10);Rock on the right side of the victim;1;103
+;(12, 10);Idle;(8, 10);Rock on the right side of the victim;1;104
+;(12, 10);Idle;(8, 10);Rock on the right side of the victim;1;105
+;(12, 10);Idle;(8, 10);Rock on the right side of the victim;1;106
+;(12, 10);Idle;(8, 10);Rock on the right side of the victim;1;107
+;(12, 10);Idle;(8, 10);Rock on the right side of the victim;1;108
+;(12, 10);Idle;(8, 10);Rock on the right side of the victim;1;109
+;(12, 10);Idle;(8, 10);Rock on the right side of the victim;1;110
+;(12, 10);Idle;(8, 10);Rock on the right side of the victim;1;111
+;(12, 10);Idle;(8, 10);Rock on the right side of the victim;1;112
+;(12, 10);Idle;(8, 10);Rock on the right side of the victim;1;113
+;(12, 10);Idle;(8, 10);Rock on the right side of the victim;1;114
+;(12, 10);Idle;(8, 10);Rock on the right side of the victim;1;115
+;(12, 10);Idle;(8, 10);Rock on the right side of the victim;1;116
+;(12, 10);Idle;(8, 10);Rock on the right side of the victim;1;117
+;(12, 10);Idle;(8, 10);Rock on the right side of the victim;1;118
+;(12, 10);Idle;(8, 10);Rock on the right side of the victim;1;119
+;(12, 10);Idle;(8, 10);Rock on the right side of the victim;1;120
+;(12, 10);Idle;(8, 10);Rock on the right side of the victim;1;121
+;(12, 10);Idle;(8, 10);Rock on the right side of the victim;1;122
+;(12, 10);Idle;(8, 10);Rock on the right side of the victim;1;123
+;(12, 10);Idle;(8, 10);Rock on the right side of the victim;1;124
+;(12, 10);Idle;(8, 10);Rock on the right side of the victim;1;125
+;(12, 10);Idle;(8, 10);Rock on the right side of the victim;1;126
+MoveEast;(13, 10);;(8, 10);Rock on the right side of the victim;1;127
+;(13, 10);;(8, 10);Rock on the right side of the victim;1;128
+;(13, 10);;(8, 10);Rock on the right side of the victim;1;129
+;(13, 10);;(8, 10);Rock on the right side of the victim;1;130
+;(13, 10);;(8, 10);Rock on the right side of the victim;1;131
+;(13, 10);;(8, 10);Rock on the right side of the victim;1;132
+;(13, 10);;(8, 10);Rock on the right side of the victim;1;133
+MoveNorth;(13, 9);;(8, 10);Rock on the right side of the victim;1;134
+;(13, 9);;(8, 10);Rock on the right side of the victim;1;135
+;(13, 9);;(8, 10);Rock on the right side of the victim;1;136
+MoveNorth;(13, 8);;(8, 10);Rock on the right side of the victim;1;137
+;(13, 8);;(8, 10);Rock on the right side of the victim;1;138
+;(13, 8);;(8, 10);Rock on the right side of the victim;1;139
+MoveNorth;(13, 7);;(8, 10);Rock on the right side of the victim;1;140
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;141
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;142
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;143
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;144
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;145
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;146
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;147
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;148
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;149
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;150
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;151
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;152
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;153
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;154
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;155
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;156
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;157
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;158
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;159
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;160
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;161
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;162
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;163
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;164
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;165
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;166
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;167
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;168
+DropObject;(13, 7);;(8, 10);Rock on the right side of the victim;1;169
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;170
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;171
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;172
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;173
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;174
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;175
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;176
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;177
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;178
+GrabObject;(13, 7);;(8, 10);Rock on the right side of the victim;1;179
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;180
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;181
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;182
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;183
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;184
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;185
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;186
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;187
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;188
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;189
+MoveWest;(12, 7);;(8, 10);Rock on the right side of the victim;1;190
+;(12, 7);;(8, 10);Rock on the right side of the victim;1;191
+;(12, 7);;(8, 10);Rock on the right side of the victim;1;192
+MoveWest;(11, 7);;(8, 10);Rock on the right side of the victim;1;193
+;(11, 7);;(8, 10);Rock on the right side of the victim;1;194
+;(11, 7);;(8, 10);Rock on the right side of the victim;1;195
+;(11, 7);;(8, 10);Rock on the right side of the victim;1;196
+MoveWest;(10, 7);;(8, 10);Rock on the right side of the victim;1;197
+;(10, 7);;(8, 10);Rock on the right side of the victim;1;198
+;(10, 7);;(8, 10);Rock on the right side of the victim;1;199
+MoveWest;(9, 7);;(8, 10);Rock on the right side of the victim;1;200
+;(9, 7);;(8, 10);Rock on the right side of the victim;1;201
+;(9, 7);;(8, 10);Rock on the right side of the victim;1;202
+;(9, 7);;(8, 10);Rock on the right side of the victim;1;203
+MoveWest;(8, 7);;(8, 10);Rock on the right side of the victim;1;204
+;(8, 7);;(8, 10);Rock on the right side of the victim;1;205
+;(8, 7);;(8, 10);Rock on the right side of the victim;1;206
+MoveWest;(7, 7);;(8, 10);Rock on the right side of the victim;1;207
+;(7, 7);;(8, 10);Rock on the right side of the victim;1;208
+;(7, 7);;(8, 10);Rock on the right side of the victim;1;209
+MoveWest;(6, 7);;(8, 10);Rock on the right side of the victim;1;210
+;(6, 7);;(8, 10);Rock on the right side of the victim;1;211
+;(6, 7);;(8, 10);Rock on the right side of the victim;1;212
+MoveWest;(5, 7);;(8, 10);Rock on the right side of the victim;1;213
+;(5, 7);;(8, 10);Rock on the right side of the victim;1;214
+;(5, 7);;(8, 10);Rock on the right side of the victim;1;215
+;(5, 7);;(8, 10);Rock on the right side of the victim;1;216
+MoveWest;(4, 7);;(8, 10);Rock on the right side of the victim;1;217
+;(4, 7);;(8, 10);Rock on the right side of the victim;1;218
+;(4, 7);;(8, 10);Rock on the right side of the victim;1;219
+MoveWest;(3, 7);;(8, 10);Rock on the right side of the victim;1;220
+;(3, 7);;(8, 10);Rock on the right side of the victim;1;221
+;(3, 7);;(8, 10);Rock on the right side of the victim;1;222
+;(3, 7);;(8, 10);Rock on the right side of the victim;1;223
+;(3, 7);;(8, 10);Rock on the right side of the victim;1;224
+DropObject;(3, 7);;(8, 10);Rock on the right side of the victim;1;225
+;(3, 7);;(8, 10);Rock on the right side of the victim;1;226
+;(3, 7);;(8, 10);Rock on the right side of the victim;1;227
+;(3, 7);;(8, 10);Rock on the right side of the victim;1;228
+;(3, 7);;(8, 10);Rock on the right side of the victim;1;229
+;(3, 7);;(8, 10);Rock on the right side of the victim;1;230
+;(3, 7);;(8, 10);Rock on the right side of the victim;1;231
+MoveEast;(4, 7);;(8, 10);Rock on the right side of the victim;1;232
+;(4, 7);;(8, 10);Rock on the right side of the victim;1;233
+;(4, 7);;(8, 10);Rock on the right side of the victim;1;234
+MoveEast;(5, 7);;(8, 10);Rock on the right side of the victim;1;235
+;(5, 7);;(8, 10);Rock on the right side of the victim;1;236
+;(5, 7);;(8, 10);Rock on the right side of the victim;1;237
+MoveEast;(6, 7);;(8, 10);Rock on the right side of the victim;1;238
+;(6, 7);;(8, 10);Rock on the right side of the victim;1;239
+;(6, 7);;(8, 10);Rock on the right side of the victim;1;240
+;(6, 7);;(8, 10);Rock on the right side of the victim;1;241
+;(6, 7);;(8, 10);Rock on the right side of the victim;1;242
+;(6, 7);;(8, 10);Rock on the right side of the victim;1;243
+;(6, 7);;(8, 10);Rock on the right side of the victim;1;244
+;(6, 7);;(8, 10);Rock on the right side of the victim;1;245
+;(6, 7);;(8, 10);Rock on the right side of the victim;1;246
+;(6, 7);;(8, 10);Rock on the right side of the victim;1;247
+MoveEast;(7, 7);;(8, 10);Rock on the right side of the victim;1;248
+MoveEast;(8, 7);;(8, 10);Rock on the right side of the victim;1;249
+MoveEast;(9, 7);;(8, 10);Rock on the right side of the victim;1;250
+MoveEast;(10, 7);;(8, 10);Rock on the right side of the victim;1;251
+MoveEast;(11, 7);;(8, 10);Rock on the right side of the victim;1;252
+MoveEast;(12, 7);;(8, 10);Rock on the right side of the victim;1;253
+MoveEast;(13, 7);;(8, 10);Rock on the right side of the victim;1;254
+MoveEast;(14, 7);;(8, 10);Rock on the right side of the victim;1;255
+MoveEast;(15, 7);;(8, 10);Rock on the right side of the victim;1;256
+;(15, 7);;(8, 10);Rock on the right side of the victim;1;257
+;(15, 7);;(8, 10);Rock on the right side of the victim;1;258
+;(15, 7);;(8, 10);Rock on the right side of the victim;1;259
+;(15, 7);;(8, 10);Rock on the right side of the victim;1;260
+;(15, 7);;(8, 10);Rock on the right side of the victim;1;261
+;(15, 7);;(8, 10);Rock on the right side of the victim;1;262
+;(15, 7);;(8, 10);Rock on the right side of the victim;1;263
+;(15, 7);;(8, 10);Rock on the right side of the victim;1;264
+;(15, 7);;(8, 10);Rock on the right side of the victim;1;265
+MoveWest;(14, 7);;(8, 10);Rock on the right side of the victim;1;266
+;(14, 7);;(8, 10);Rock on the right side of the victim;1;267
+;(14, 7);;(8, 10);Rock on the right side of the victim;1;268
+;(14, 7);;(8, 10);Rock on the right side of the victim;1;269
+;(14, 7);;(8, 10);Rock on the right side of the victim;1;270
+;(14, 7);;(8, 10);Rock on the right side of the victim;1;271
+;(14, 7);;(8, 10);Rock on the right side of the victim;1;272
+;(14, 7);;(8, 10);Rock on the right side of the victim;1;273
+;(14, 7);;(8, 10);Rock on the right side of the victim;1;274
+;(14, 7);;(8, 10);Rock on the right side of the victim;1;275
+;(14, 7);;(8, 10);Rock on the right side of the victim;1;276
+;(14, 7);;(8, 10);Rock on the right side of the victim;1;277
+MoveWest;(13, 7);;(8, 10);Rock on the right side of the victim;1;278
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;279
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;280
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;281
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;282
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;283
+GrabObject;(13, 7);;(8, 10);Rock on the right side of the victim;1;284
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;285
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;286
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;287
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;288
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;289
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;290
+;(13, 7);;(8, 10);Rock on the right side of the victim;1;291
+MoveEast;(14, 7);;(8, 10);Rock on the right side of the victim;1;292
+;(14, 7);;(8, 10);Rock on the right side of the victim;1;293
+;(14, 7);;(8, 10);Rock on the right side of the victim;1;294
+;(14, 7);;(8, 10);Rock on the right side of the victim;1;295
+MoveEast;(15, 7);;(8, 10);Rock on the right side of the victim;1;296
+;(15, 7);;(8, 10);Rock on the right side of the victim;1;297
+;(15, 7);;(8, 10);Rock on the right side of the victim;1;298
+MoveEast;(16, 7);;(8, 10);Rock on the right side of the victim;1;299
+;(16, 7);;(8, 10);Rock on the right side of the victim;1;300
+;(16, 7);;(8, 10);Rock on the right side of the victim;1;301
+MoveEast;(17, 7);;(8, 10);Rock on the right side of the victim;1;302
+;(17, 7);;(8, 10);Rock on the right side of the victim;1;303
+MoveEast;(18, 7);;(8, 10);Rock on the right side of the victim;1;304
+;(18, 7);;(8, 10);Rock on the right side of the victim;1;305
+;(18, 7);;(8, 10);Rock on the right side of the victim;1;306
+DropObject;(18, 7);;(8, 10);Rock on the right side of the victim;1;307
+;(18, 7);;(8, 10);Rock on the right side of the victim;1;308
+;(18, 7);;(8, 10);Rock on the right side of the victim;1;309
+;(18, 7);;(8, 10);Rock on the right side of the victim;1;310
+;(18, 7);;(8, 10);Rock on the right side of the victim;1;311
+;(18, 7);;(8, 10);Rock on the right side of the victim;1;312
+;(18, 7);;(8, 10);Rock on the right side of the victim;1;313
+;(18, 7);;(8, 10);Rock on the right side of the victim;1;314
+;(18, 7);;(8, 10);Rock on the right side of the victim;1;315
+MoveWest;(17, 7);;(8, 10);Rock on the right side of the victim;1;316
+;(17, 7);;(8, 10);Rock on the right side of the victim;1;317
+;(17, 7);;(8, 10);Rock on the right side of the victim;1;318
+MoveWest;(16, 7);;(8, 10);Rock on the right side of the victim;1;319
+;(16, 7);;(8, 10);Rock on the right side of the victim;1;320
+;(16, 7);;(8, 10);Rock on the right side of the victim;1;321
+;(16, 7);;(8, 10);Rock on the right side of the victim;1;322
+MoveWest;(15, 7);;(8, 10);Rock on the right side of the victim;1;323
+;(15, 7);;(8, 10);Rock on the right side of the victim;1;324
+;(15, 7);;(8, 10);Rock on the right side of the victim;1;325
+;(15, 7);;(8, 10);Rock on the right side of the victim;1;326
+MoveSouth;(15, 8);;(8, 10);Rock on the right side of the victim;1;327
+;(15, 8);;(8, 10);Rock on the right side of the victim;1;328
+;(15, 8);;(8, 10);Rock on the right side of the victim;1;329
+;(15, 8);;(8, 10);Rock on the right side of the victim;1;330
+;(15, 8);;(8, 10);Rock on the right side of the victim;1;331
+MoveSouth;(15, 9);;(8, 10);Rock on the right side of the victim;1;332
+;(15, 9);;(8, 10);Rock on the right side of the victim;1;333
+;(15, 9);;(8, 10);Rock on the right side of the victim;1;334
+;(15, 9);;(8, 10);Rock on the right side of the victim;1;335
+;(15, 9);;(8, 10);Rock on the right side of the victim;1;336
+;(15, 9);;(8, 10);Rock on the right side of the victim;1;337
+;(15, 9);;(8, 10);Rock on the right side of the victim;1;338
+;(15, 9);;(8, 10);Rock on the right side of the victim;1;339
+;(15, 9);;(8, 10);Rock on the right side of the victim;1;340
+;(15, 9);;(8, 10);Rock on the right side of the victim;1;341
+;(15, 9);;(8, 10);Rock on the right side of the victim;1;342
+;(15, 9);;(8, 10);Rock on the right side of the victim;1;343
+;(15, 9);;(8, 10);Rock on the right side of the victim;1;344
+;(15, 9);;(8, 10);Rock on the right side of the victim;1;345
+;(15, 9);;(8, 10);Rock on the right side of the victim;1;346
+;(15, 9);;(8, 10);Rock on the right side of the victim;1;347
+;(15, 9);;(8, 10);Rock on the right side of the victim;1;348
+;(15, 9);;(8, 10);Rock on the right side of the victim;1;349
+;(15, 9);;(8, 10);Rock on the right side of the victim;1;350
+;(15, 9);;(8, 10);Rock on the right side of the victim;1;351
+;(15, 9);;(8, 10);Rock on the right side of the victim;1;352
+;(15, 9);;(8, 10);Rock on the right side of the victim;1;353
+;(15, 9);;(8, 10);Rock on the right side of the victim;1;354
+;(15, 9);;(8, 10);Rock on the right side of the victim;1;355
+;(15, 9);;(8, 10);Rock on the right side of the victim;1;356
+;(15, 9);;(8, 10);Rock on the right side of the victim;1;357
+;(15, 9);;(8, 10);Rock on the right side of the victim;1;358
+;(15, 9);;(8, 10);Rock on the right side of the victim;1;359
+MoveWest;(14, 9);;(8, 10);Rock on the right side of the victim;1;360
+;(14, 9);;(8, 10);Rock on the right side of the victim;1;361
+;(14, 9);;(8, 10);Rock on the right side of the victim;1;362
+;(14, 9);;(8, 10);Rock on the right side of the victim;1;363
+MoveWest;(13, 9);;(8, 10);Rock on the right side of the victim;1;364
+;(13, 9);;(8, 10);Rock on the right side of the victim;1;365
+;(13, 9);;(8, 10);Rock on the right side of the victim;1;366
+MoveWest;(12, 9);;(8, 10);Rock on the right side of the victim;1;367
+;(12, 9);;(8, 10);Rock on the right side of the victim;1;368
+;(12, 9);;(8, 10);Rock on the right side of the victim;1;369
+MoveWest;(11, 9);;(8, 10);Rock on the right side of the victim;1;370
+;(11, 9);;(8, 10);Rock on the right side of the victim;1;371
+;(11, 9);;(8, 10);Rock on the right side of the victim;1;372
+;(11, 9);;(8, 10);Rock on the right side of the victim;1;373
+;(11, 9);;(8, 10);Rock on the right side of the victim;1;374
+;(11, 9);;(8, 10);Rock on the right side of the victim;1;375
+;(11, 9);;(8, 10);Rock on the right side of the victim;1;376
+;(11, 9);;(8, 10);Rock on the right side of the victim;1;377
+;(11, 9);;(8, 10);Rock on the right side of the victim;1;378
+;(11, 9);;(8, 10);Rock on the right side of the victim;1;379
+;(11, 9);;(8, 10);Rock on the right side of the victim;1;380
+;(11, 9);;(8, 10);Rock on the right side of the victim;1;381
+MoveWest;(10, 9);;(8, 10);Rock on the right side of the victim;1;382
+;(10, 9);;(8, 10);Rock on the right side of the victim;1;383
+;(10, 9);;(8, 10);Rock on the right side of the victim;1;384
+;(10, 9);;(8, 10);Rock on the right side of the victim;1;385
+;(10, 9);;(8, 10);Rock on the right side of the victim;1;386
+;(10, 9);;(8, 10);Rock on the right side of the victim;1;387
+;(10, 9);;(8, 10);Rock on the right side of the victim;1;388
+;(10, 9);;(8, 10);Rock on the right side of the victim;1;389
+DropObject;(10, 9);;(8, 10);Rock on the right side of the victim;1;390
+;(10, 9);;(8, 10);Rock on the right side of the victim;1;391
+;(10, 9);;(8, 10);Rock on the right side of the victim;1;392
+;(10, 9);;(8, 10);Rock on the right side of the victim;1;393
+;(10, 9);;(8, 10);Rock on the right side of the victim;1;394
+;(10, 9);;(8, 10);Rock on the right side of the victim;1;395
+;(10, 9);;(8, 10);Rock on the right side of the victim;1;396
+;(10, 9);;(8, 10);Rock on the right side of the victim;1;397
+;(10, 9);;(8, 10);Rock on the right side of the victim;1;398
+;(10, 9);;(8, 10);Rock on the right side of the victim;1;399
+GrabObject;(10, 9);;(8, 10);Rock on the right side of the victim;1;400
+;(10, 9);;(8, 10);Rock on the right side of the victim;1;401
+;(10, 9);;(8, 10);Rock on the right side of the victim;1;402
+;(10, 9);;(8, 10);Rock on the right side of the victim;1;403
+;(10, 9);;(8, 10);Rock on the right side of the victim;1;404
+MoveEast;(11, 9);;(8, 10);Rock on the right side of the victim;1;405
+;(11, 9);;(8, 10);Rock on the right side of the victim;1;406
+;(11, 9);;(8, 10);Rock on the right side of the victim;1;407
+MoveEast;(12, 9);;(8, 10);Rock on the right side of the victim;1;408
+;(12, 9);;(8, 10);Rock on the right side of the victim;1;409
+;(12, 9);;(8, 10);Rock on the right side of the victim;1;410
+MoveEast;(13, 9);;(8, 10);Rock on the right side of the victim;1;411
+;(13, 9);;(8, 10);Rock on the right side of the victim;1;412
+;(13, 9);;(8, 10);Rock on the right side of the victim;1;413
+;(13, 9);;(8, 10);Rock on the right side of the victim;1;414
+MoveEast;(14, 9);;(8, 10);Rock on the right side of the victim;1;415
+;(14, 9);;(8, 10);Rock on the right side of the victim;1;416
+;(14, 9);;(8, 10);Rock on the right side of the victim;1;417
+MoveEast;(15, 9);;(8, 10);Rock on the right side of the victim;1;418
+;(15, 9);;(8, 10);Rock on the right side of the victim;1;419
+MoveEast;(16, 9);;(8, 10);Rock on the right side of the victim;1;420
+;(16, 9);;(8, 10);Rock on the right side of the victim;1;421
+;(16, 9);;(8, 10);Rock on the right side of the victim;1;422
+;(16, 9);;(8, 10);Rock on the right side of the victim;1;423
+;(16, 9);;(8, 10);Rock on the right side of the victim;1;424
+;(16, 9);;(8, 10);Rock on the right side of the victim;1;425
+;(16, 9);;(8, 10);Rock on the right side of the victim;1;426
+;(16, 9);;(8, 10);Rock on the right side of the victim;1;427
+;(16, 9);;(8, 10);Rock on the right side of the victim;1;428
+DropObject;(16, 9);;(8, 10);Rock on the right side of the victim;1;429
+;(16, 9);;(8, 10);Rock on the right side of the victim;1;430
+;(16, 9);;(8, 10);Rock on the right side of the victim;1;431
+;(16, 9);;(8, 10);Rock on the right side of the victim;1;432
+;(16, 9);;(8, 10);Rock on the right side of the victim;1;433
+;(16, 9);;(8, 10);Rock on the right side of the victim;1;434
+;(16, 9);;(8, 10);Rock on the right side of the victim;1;435
+;(16, 9);;(8, 10);Rock on the right side of the victim;1;436
+;(16, 9);;(8, 10);Rock on the right side of the victim;1;437
+;(16, 9);;(8, 10);Rock on the right side of the victim;1;438
+;(16, 9);;(8, 10);Rock on the right side of the victim;1;439
+;(16, 9);;(8, 10);Rock on the right side of the victim;1;440
+;(16, 9);;(8, 10);Rock on the right side of the victim;1;441
+;(16, 9);;(8, 10);Rock on the right side of the victim;1;442
+;(16, 9);;(8, 10);Rock on the right side of the victim;1;443
+;(16, 9);;(8, 10);Rock on the right side of the victim;1;444
+;(16, 9);;(8, 10);Rock on the right side of the victim;1;445
+;(16, 9);;(8, 10);Rock on the right side of the victim;1;446
+;(16, 9);;(8, 10);Rock on the right side of the victim;1;447
+MoveWest;(15, 9);;(8, 10);Rock on the right side of the victim;1;448
+;(15, 9);;(8, 10);Rock on the right side of the victim;1;449
+;(15, 9);;(8, 10);Rock on the right side of the victim;1;450
+;(15, 9);;(8, 10);Rock on the right side of the victim;1;451
+MoveWest;(14, 9);;(8, 10);Rock on the right side of the victim;1;452
+;(14, 9);;(8, 10);Rock on the right side of the victim;1;453
+;(14, 9);;(8, 10);Rock on the right side of the victim;1;454
+;(14, 9);;(8, 10);Rock on the right side of the victim;1;455
+MoveWest;(13, 9);;(8, 10);Rock on the right side of the victim;1;456
+;(13, 9);;(8, 10);Rock on the right side of the victim;1;457
+;(13, 9);;(8, 10);Rock on the right side of the victim;1;458
+MoveWest;(12, 9);;(8, 10);Rock on the right side of the victim;1;459
+;(12, 9);;(8, 10);Rock on the right side of the victim;1;460
+;(12, 9);;(8, 10);Rock on the right side of the victim;1;461
+MoveWest;(11, 9);;(8, 10);Rock on the right side of the victim;1;462
+;(11, 9);;(8, 10);Rock on the right side of the victim;1;463
+;(11, 9);;(8, 10);Rock on the right side of the victim;1;464
+;(11, 9);;(8, 10);Rock on the right side of the victim;1;465
+MoveWest;(10, 9);;(8, 10);Rock on the right side of the victim;1;466
+;(10, 9);;(8, 10);Rock on the right side of the victim;1;467
+;(10, 9);;(8, 10);Rock on the right side of the victim;1;468
+;(10, 9);;(8, 10);Rock on the right side of the victim;1;469
+;(10, 9);;(8, 10);Rock on the right side of the victim;1;470
+;(10, 9);;(8, 10);Rock on the right side of the victim;1;471
+;(10, 9);;(8, 10);Rock on the right side of the victim;1;472
+;(10, 9);;(8, 10);Rock on the right side of the victim;1;473
+;(10, 9);;(8, 10);Rock on the right side of the victim;1;474
+;(10, 9);;(8, 10);Rock on the right side of the victim;1;475
+;(10, 9);;(8, 10);Rock on the right side of the victim;1;476
+;(10, 9);;(8, 10);Rock on the right side of the victim;1;477
+;(10, 9);;(8, 10);Rock on the right side of the victim;1;478
+;(10, 9);;(8, 10);Rock on the right side of the victim;1;479
+;(10, 9);;(8, 10);Rock on the right side of the victim;1;480
+;(10, 9);;(8, 10);Rock on the right side of the victim;1;481
+;(10, 9);;(8, 10);Rock on the right side of the victim;1;482
+;(10, 9);;(8, 10);Rock on the right side of the victim;1;483
+;(10, 9);;(8, 10);Rock on the right side of the victim;1;484
+;(10, 9);;(8, 10);Rock on the right side of the victim;1;485
+;(10, 9);;(8, 10);Rock on the right side of the victim;1;486
+;(10, 9);;(8, 10);Rock on the right side of the victim;1;487
+;(10, 9);;(8, 10);Rock on the right side of the victim;1;488
+;(10, 9);;(8, 10);Rock on the right side of the victim;1;489
+;(10, 9);MoveNorthEast;(8, 10);Rock on the right side of the victim;1;490
+;(10, 9);MoveNorthEast;(8, 10);Rock on the right side of the victim;1;491
+;(10, 9);MoveNorthEast;(8, 10);Rock on the right side of the victim;1;492
+;(10, 9);MoveNorthEast;(8, 10);Rock on the right side of the victim;1;493
+;(10, 9);MoveNorthEast;(8, 10);Rock on the right side of the victim;1;494
+;(10, 9);MoveNorthEast;(8, 10);Rock on the right side of the victim;1;495
+;(10, 9);MoveNorthEast;(8, 10);Rock on the right side of the victim;1;496
+;(10, 9);MoveNorthEast;(8, 10);Rock on the right side of the victim;1;497
+;(10, 9);MoveNorthEast;(8, 10);Rock on the right side of the victim;1;498
+;(10, 9);MoveNorthEast;(8, 10);Rock on the right side of the victim;1;499
+;(10, 9);MoveNorthEast;(9, 9);Rock on the right side of the victim;1;500
+;(10, 9);MoveEast;(9, 9);Rock on the right side of the victim;1;501
+;(10, 9);MoveEast;(9, 9);Rock on the right side of the victim;1;502
+;(10, 9);MoveEast;(9, 9);Rock on the right side of the victim;1;503
+;(10, 9);MoveEast;(9, 9);Rock on the right side of the victim;1;504
+;(10, 9);MoveEast;(9, 9);Rock on the right side of the victim;1;505
+;(10, 9);MoveEast;(9, 9);Rock on the right side of the victim;1;506
+;(10, 9);MoveEast;(9, 9);Rock on the right side of the victim;1;507
+;(10, 9);MoveEast;(9, 9);Rock on the right side of the victim;1;508
+;(10, 9);MoveEast;(9, 9);Rock on the right side of the victim;1;509
+;(10, 9);MoveEast;(9, 9);Rock on the right side of the victim;1;510
+;(10, 9);MoveEast;(10, 9);Rock on the right side of the victim;1;511
+;(10, 9);MoveNorthEast;(10, 9);Rock on the right side of the victim;1;512
+;(10, 9);MoveNorthEast;(10, 9);Rock on the right side of the victim;1;513
+;(10, 9);MoveNorthEast;(10, 9);Rock on the right side of the victim;1;514
+;(10, 9);MoveNorthEast;(10, 9);Rock on the right side of the victim;1;515
+;(10, 9);MoveNorthEast;(10, 9);Rock on the right side of the victim;1;516
+;(10, 9);MoveNorthEast;(10, 9);Rock on the right side of the victim;1;517
+;(10, 9);MoveNorthEast;(10, 9);Rock on the right side of the victim;1;518
+;(10, 9);MoveNorthEast;(10, 9);Rock on the right side of the victim;1;519
+;(10, 9);MoveNorthEast;(10, 9);Rock on the right side of the victim;1;520
+;(10, 9);MoveNorthEast;(10, 9);Rock on the right side of the victim;1;521
+;(10, 9);MoveNorthEast;(11, 8);Rock on the right side of the victim;1;522
+;(10, 9);MoveEast;(11, 8);Rock on the right side of the victim;1;523
+;(10, 9);MoveEast;(11, 8);Rock on the right side of the victim;1;524
+MoveEast;(11, 9);MoveEast;(11, 8);Rock on the right side of the victim;1;525
+;(11, 9);MoveEast;(11, 8);Rock on the right side of the victim;1;526
+;(11, 9);MoveEast;(11, 8);Rock on the right side of the victim;1;527
+MoveEast;(12, 9);MoveEast;(11, 8);Rock on the right side of the victim;1;528
+;(12, 9);MoveEast;(11, 8);Rock on the right side of the victim;1;529
+;(12, 9);MoveEast;(11, 8);Rock on the right side of the victim;1;530
+MoveEast;(13, 9);MoveEast;(11, 8);Rock on the right side of the victim;1;531
+;(13, 9);MoveEast;(11, 8);Rock on the right side of the victim;1;532
+;(13, 9);MoveEast;(12, 8);Rock on the right side of the victim;1;533
+MoveEast;(14, 9);GrabLargeObject;(12, 8);Rock on the right side of the victim;1;534
+;(14, 9);GrabLargeObject;(12, 8);Rock on the right side of the victim;1;535
+;(14, 9);GrabLargeObject;(12, 8);Rock on the right side of the victim;1;536
+;(14, 9);GrabLargeObject;(12, 8);Rock on the right side of the victim;1;537
+MoveEast;(15, 9);GrabLargeObject;(12, 8);Rock on the right side of the victim;1;538
+;(15, 9);GrabLargeObject;(12, 8);Rock on the right side of the victim;1;539
+;(15, 9);GrabLargeObject;(12, 8);Rock on the right side of the victim;1;540
+MoveEast;(16, 9);GrabLargeObject;(12, 8);Rock on the right side of the victim;1;541
+;(16, 9);GrabLargeObject;(12, 8);Rock on the right side of the victim;1;542
+;(16, 9);GrabLargeObject;(12, 8);Rock on the right side of the victim;1;543
+MoveEast;(17, 9);GrabLargeObject;(12, 8);Rock on the right side of the victim;1;544
+;(17, 9);;(12, 8);Rock on the right side of the victim;1;545
+;(17, 9);;(12, 8);Rock on the right side of the victim;1;546
+;(17, 9);;(12, 8);Rock on the right side of the victim;1;547
+;(17, 9);;(12, 8);Rock on the right side of the victim;1;548
+;(17, 9);;(12, 8);Rock on the right side of the victim;1;549
+;(17, 9);;(12, 8);Rock on the right side of the victim;1;550
+;(17, 9);;(12, 8);Rock on the right side of the victim;1;551
+;(17, 9);;(12, 8);Rock on the right side of the victim;1;552
+;(17, 9);;(12, 8);Rock on the right side of the victim;1;553
+;(17, 9);;(12, 8);Rock on the right side of the victim;1;554
+;(17, 9);;(12, 8);Rock on the right side of the victim;1;555
+;(17, 9);;(12, 8);Rock on the right side of the victim;1;556
+;(17, 9);;(12, 8);Rock on the right side of the victim;1;557
+MoveWest;(16, 9);;(12, 8);Rock on the right side of the victim;1;558
+;(16, 9);;(12, 8);Rock on the right side of the victim;1;559
+;(16, 9);;(12, 8);Rock on the right side of the victim;1;560
+MoveWest;(15, 9);;(12, 8);Rock on the right side of the victim;1;561
+;(15, 9);;(12, 8);Rock on the right side of the victim;1;562
+;(15, 9);;(12, 8);Rock on the right side of the victim;1;563
+;(15, 9);;(12, 8);Rock on the right side of the victim;1;564
+;(15, 9);;(12, 8);Rock on the right side of the victim;1;565
+;(15, 9);;(12, 8);Rock on the right side of the victim;1;566
+;(15, 9);;(12, 8);Rock on the right side of the victim;1;567
+;(15, 9);;(12, 8);Rock on the right side of the victim;1;568
+;(15, 9);;(12, 8);Rock on the right side of the victim;1;569
+;(15, 9);;(12, 8);Rock on the right side of the victim;1;570
+;(15, 9);;(12, 8);Rock on the right side of the victim;1;571
+;(15, 9);;(12, 8);Rock on the right side of the victim;1;572
+;(15, 9);;(12, 8);Rock on the right side of the victim;1;573
+;(15, 9);;(12, 8);Rock on the right side of the victim;1;574
+;(15, 9);;(12, 8);Rock on the right side of the victim;1;575
+;(15, 9);;(12, 8);Rock on the right side of the victim;1;576
+;(15, 9);;(12, 8);Rock on the right side of the victim;1;577
+MoveSouth;(15, 10);;(12, 8);Rock on the right side of the victim;1;578
+;(15, 10);;(12, 8);Rock on the right side of the victim;1;579
+;(15, 10);;(12, 8);Rock on the right side of the victim;1;580
+;(15, 10);;(12, 8);Rock on the right side of the victim;1;581
+;(15, 10);;(12, 8);Rock on the right side of the victim;1;582
+;(15, 10);;(12, 8);Rock on the right side of the victim;1;583
+;(15, 10);;(12, 8);Rock on the right side of the victim;1;584
+;(15, 10);;(12, 8);Rock on the right side of the victim;1;585
+;(15, 10);;(12, 8);Rock on the right side of the victim;1;586
+MoveWest;(14, 10);;(12, 8);Rock on the right side of the victim;1;587
+;(14, 10);;(12, 8);Rock on the right side of the victim;1;588
+;(14, 10);;(12, 8);Rock on the right side of the victim;1;589
+;(14, 10);;(12, 8);Rock on the right side of the victim;1;590
+;(14, 10);;(12, 8);Rock on the right side of the victim;1;591
+;(14, 10);;(12, 8);Rock on the right side of the victim;1;592
+MoveWest;(13, 10);;(12, 8);Rock on the right side of the victim;1;593
+;(13, 10);;(12, 8);Rock on the right side of the victim;1;594
+;(13, 10);;(12, 8);Rock on the right side of the victim;1;595
+;(13, 10);;(12, 8);Rock on the right side of the victim;1;596
+;(13, 10);;(12, 8);Rock on the right side of the victim;1;597
+;(13, 10);;(12, 8);Rock on the right side of the victim;1;598
+;(13, 10);;(12, 8);Rock on the right side of the victim;1;599
+GrabObject;(13, 10);;(12, 8);Rock on the right side of the victim;1;600
+;(13, 10);;(12, 8);Rock on the right side of the victim;1;601
+;(13, 10);;(12, 8);Rock on the right side of the victim;1;602
+;(13, 10);;(12, 8);Rock on the right side of the victim;1;603
+;(13, 10);;(12, 8);Rock on the right side of the victim;1;604
+;(13, 10);;(12, 8);Rock on the right side of the victim;1;605
+;(13, 10);;(12, 8);Rock on the right side of the victim;1;606
+;(13, 10);;(12, 8);Rock on the right side of the victim;1;607
+;(13, 10);;(12, 8);Rock on the right side of the victim;1;608
+MoveEast;(14, 10);;(12, 8);Rock on the right side of the victim;1;609
+;(14, 10);;(12, 8);Rock on the right side of the victim;1;610
+;(14, 10);;(12, 8);Rock on the right side of the victim;1;611
+MoveEast;(15, 10);;(12, 8);Rock on the right side of the victim;1;612
+;(15, 10);;(12, 8);Rock on the right side of the victim;1;613
+;(15, 10);;(12, 8);Rock on the right side of the victim;1;614
+MoveEast;(16, 10);;(12, 8);Rock on the right side of the victim;1;615
+;(16, 10);;(12, 8);Rock on the right side of the victim;1;616
+;(16, 10);;(12, 8);Rock on the right side of the victim;1;617
+MoveEast;(17, 10);;(12, 8);Rock on the right side of the victim;1;618
+;(17, 10);;(12, 8);Rock on the right side of the victim;1;619
+;(17, 10);;(12, 8);Rock on the right side of the victim;1;620
+;(17, 10);;(12, 8);Rock on the right side of the victim;1;621
+DropObject;(17, 10);;(12, 8);Rock on the right side of the victim;1;622
+;(17, 10);;(12, 8);Rock on the right side of the victim;1;623
+;(17, 10);;(12, 8);Rock on the right side of the victim;1;624
+;(17, 10);;(12, 8);Rock on the right side of the victim;1;625
+;(17, 10);;(12, 8);Rock on the right side of the victim;1;626
+MoveWest;(16, 10);;(12, 8);Rock on the right side of the victim;1;627
+;(16, 10);;(12, 8);Rock on the right side of the victim;1;628
+;(16, 10);;(12, 8);Rock on the right side of the victim;1;629
+MoveWest;(15, 10);;(12, 8);Rock on the right side of the victim;1;630
+;(15, 10);;(12, 8);Rock on the right side of the victim;1;631
+;(15, 10);;(12, 8);Rock on the right side of the victim;1;632
+;(15, 10);;(12, 8);Rock on the right side of the victim;1;633
+MoveWest;(14, 10);;(12, 8);Rock on the right side of the victim;1;634
+;(14, 10);;(12, 8);Rock on the right side of the victim;1;635
+;(14, 10);;(12, 8);Rock on the right side of the victim;1;636
+;(14, 10);;(12, 8);Rock on the right side of the victim;1;637
+;(14, 10);;(12, 8);Rock on the right side of the victim;1;638
+;(14, 10);;(12, 8);Rock on the right side of the victim;1;639
+GrabObject;(14, 10);;(12, 8);Rock on the right side of the victim;1;640
+;(14, 10);;(12, 8);Rock on the right side of the victim;1;641
+;(14, 10);;(12, 8);Rock on the right side of the victim;1;642
+MoveEast;(15, 10);;(12, 8);Rock on the right side of the victim;1;643
+;(15, 10);;(12, 8);Rock on the right side of the victim;1;644
+;(15, 10);;(12, 8);Rock on the right side of the victim;1;645
+MoveEast;(16, 10);;(12, 8);Rock on the right side of the victim;1;646
+;(16, 10);;(12, 8);Rock on the right side of the victim;1;647
+;(16, 10);;(12, 8);Rock on the right side of the victim;1;648
+MoveEast;(17, 10);;(12, 8);Rock on the right side of the victim;1;649
+;(17, 10);;(12, 8);Rock on the right side of the victim;1;650
+;(17, 10);;(12, 8);Rock on the right side of the victim;1;651
+;(17, 10);;(12, 8);Rock on the right side of the victim;1;652
+;(17, 10);;(12, 8);Rock on the right side of the victim;1;653
+DropObject;(17, 10);;(12, 8);Rock on the right side of the victim;1;654
+;(17, 10);;(12, 8);Rock on the right side of the victim;1;655
+;(17, 10);;(12, 8);Rock on the right side of the victim;1;656
+;(17, 10);;(12, 8);Rock on the right side of the victim;1;657
+MoveWest;(16, 10);;(12, 8);Rock on the right side of the victim;1;658
+;(16, 10);;(12, 8);Rock on the right side of the victim;1;659
+;(16, 10);;(12, 8);Rock on the right side of the victim;1;660
+;(16, 10);;(12, 8);Rock on the right side of the victim;1;661
+MoveWest;(15, 10);;(12, 8);Rock on the right side of the victim;1;662
+;(15, 10);;(12, 8);Rock on the right side of the victim;1;663
+;(15, 10);;(12, 8);Rock on the right side of the victim;1;664
+MoveWest;(14, 10);;(12, 8);Rock on the right side of the victim;1;665
+;(14, 10);;(12, 8);Rock on the right side of the victim;1;666
+;(14, 10);;(12, 8);Rock on the right side of the victim;1;667
+;(14, 10);;(12, 8);Rock on the right side of the victim;1;668
+MoveWest;(13, 10);;(12, 8);Rock on the right side of the victim;1;669
+;(13, 10);;(12, 8);Rock on the right side of the victim;1;670
+;(13, 10);;(12, 8);Rock on the right side of the victim;1;671
+MoveWest;(12, 10);;(12, 8);Rock on the right side of the victim;1;672
+;(12, 10);;(12, 8);Rock on the right side of the victim;1;673
+MoveWest;(11, 10);;(12, 8);Rock on the right side of the victim;1;674
+;(11, 10);;(12, 8);Rock on the right side of the victim;1;675
+;(11, 10);;(12, 8);Rock on the right side of the victim;1;676
+;(11, 10);;(12, 8);Rock on the right side of the victim;1;677
+;(11, 10);;(12, 8);Rock on the right side of the victim;1;678
+;(11, 10);;(12, 8);Rock on the right side of the victim;1;679
+MoveWest;(10, 10);;(12, 8);Rock on the right side of the victim;1;680
+;(10, 10);;(12, 8);Rock on the right side of the victim;1;681
+;(10, 10);;(12, 8);Rock on the right side of the victim;1;682
+;(10, 10);;(12, 8);Rock on the right side of the victim;1;683
+;(10, 10);;(12, 8);Rock on the right side of the victim;1;684
+;(10, 10);;(12, 8);Rock on the right side of the victim;1;685
+MoveNorth;(10, 9);;(12, 8);Rock on the right side of the victim;1;686
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;687
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;688
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;689
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;690
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;691
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;692
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;693
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;694
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;695
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;696
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;697
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;698
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;699
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;700
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;701
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;702
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;703
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;704
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;705
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;706
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;707
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;708
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;709
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;710
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;711
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;712
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;713
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;714
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;715
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;716
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;717
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;718
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;719
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;720
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;721
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;722
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;723
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;724
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;725
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;726
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;727
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;728
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;729
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;730
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;731
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;732
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;733
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;734
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;735
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;736
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;737
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;738
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;739
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;740
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;741
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;742
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;743
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;744
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;745
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;746
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;747
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;748
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;749
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;750
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;751
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;752
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;753
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;754
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;755
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;756
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;757
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;758
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;759
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;760
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;761
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;762
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;763
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;764
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;765
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;766
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;767
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;768
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;769
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;770
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;771
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;772
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;773
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;774
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;775
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;776
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;777
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;778
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;779
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;780
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;781
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;782
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;783
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;784
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;785
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;786
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;787
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;788
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;789
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;790
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;791
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;792
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;793
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;794
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;795
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;796
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;797
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;798
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;799
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;800
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;801
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;802
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;803
+;(10, 9);;(12, 8);Rock on the right side of the victim;1;804
+MoveEast;(11, 9);;(12, 8);Rock on the right side of the victim;1;805
+;(11, 9);MoveWest;(12, 8);Rock on the right side of the victim;1;806
+;(11, 9);MoveWest;(12, 8);Rock on the right side of the victim;1;807
+MoveEast;(12, 9);MoveWest;(12, 8);Rock on the right side of the victim;1;808
+;(12, 9);MoveWest;(12, 8);Rock on the right side of the victim;1;809
+;(12, 9);MoveWest;(12, 8);Rock on the right side of the victim;1;810
+MoveEast;(13, 9);MoveWest;(12, 8);Rock on the right side of the victim;1;811
+;(13, 9);MoveWest;(12, 8);Rock on the right side of the victim;1;812
+;(13, 9);MoveWest;(12, 8);Rock on the right side of the victim;1;813
+;(13, 9);MoveWest;(12, 8);Rock on the right side of the victim;1;814
+MoveEast;(14, 9);MoveWest;(12, 8);Rock on the right side of the victim;1;815
+;(14, 9);MoveWest;(11, 8);Rock on the right side of the victim;1;816
+;(14, 9);MoveWest;(11, 8);Rock on the right side of the victim;1;817
+;(14, 9);MoveWest;(11, 8);Rock on the right side of the victim;1;818
+;(14, 9);MoveWest;(11, 8);Rock on the right side of the victim;1;819
+;(14, 9);MoveWest;(11, 8);Rock on the right side of the victim;1;820
+;(14, 9);MoveWest;(11, 8);Rock on the right side of the victim;1;821
+;(14, 9);MoveWest;(11, 8);Rock on the right side of the victim;1;822
+;(14, 9);MoveWest;(11, 8);Rock on the right side of the victim;1;823
+;(14, 9);MoveWest;(11, 8);Rock on the right side of the victim;1;824
+;(14, 9);MoveWest;(11, 8);Rock on the right side of the victim;1;825
+;(14, 9);MoveWest;(11, 8);Rock on the right side of the victim;1;826
+;(14, 9);MoveWest;(10, 8);Rock on the right side of the victim;1;827
+;(14, 9);MoveWest;(10, 8);Rock on the right side of the victim;1;828
+;(14, 9);MoveWest;(10, 8);Rock on the right side of the victim;1;829
+;(14, 9);MoveWest;(10, 8);Rock on the right side of the victim;1;830
+MoveEast;(15, 9);MoveWest;(10, 8);Rock on the right side of the victim;1;831
+;(15, 9);MoveWest;(10, 8);Rock on the right side of the victim;1;832
+;(15, 9);MoveWest;(10, 8);Rock on the right side of the victim;1;833
+;(15, 9);MoveWest;(10, 8);Rock on the right side of the victim;1;834
+;(15, 9);MoveWest;(10, 8);Rock on the right side of the victim;1;835
+;(15, 9);MoveWest;(10, 8);Rock on the right side of the victim;1;836
+;(15, 9);MoveWest;(10, 8);Rock on the right side of the victim;1;837
+;(15, 9);MoveWest;(9, 8);Rock on the right side of the victim;1;838
+;(15, 9);MoveSouthWest;(9, 8);Rock on the right side of the victim;1;839
+;(15, 9);MoveSouthWest;(9, 8);Rock on the right side of the victim;1;840
+;(15, 9);MoveSouthWest;(9, 8);Rock on the right side of the victim;1;841
+;(15, 9);MoveSouthWest;(9, 8);Rock on the right side of the victim;1;842
+;(15, 9);MoveSouthWest;(9, 8);Rock on the right side of the victim;1;843
+;(15, 9);MoveSouthWest;(9, 8);Rock on the right side of the victim;1;844
+;(15, 9);MoveSouthWest;(9, 8);Rock on the right side of the victim;1;845
+;(15, 9);MoveSouthWest;(9, 8);Rock on the right side of the victim;1;846
+;(15, 9);MoveSouthWest;(9, 8);Rock on the right side of the victim;1;847
+;(15, 9);MoveSouthWest;(9, 8);Rock on the right side of the victim;1;848
+;(15, 9);MoveSouthWest;(8, 9);Rock on the right side of the victim;1;849
+;(15, 9);Idle;(8, 9);Rock on the right side of the victim;1;850
+;(15, 9);Idle;(8, 9);Rock on the right side of the victim;1;851
+;(15, 9);Idle;(8, 9);Rock on the right side of the victim;1;852
+;(15, 9);Idle;(8, 9);Rock on the right side of the victim;1;853
+;(15, 9);Idle;(8, 9);Rock on the right side of the victim;1;854
+;(15, 9);Idle;(8, 9);Rock on the right side of the victim;1;855
+;(15, 9);Idle;(8, 9);Rock on the right side of the victim;1;856
+;(15, 9);Idle;(8, 9);Rock on the right side of the victim;1;857
+;(15, 9);Idle;(8, 9);Rock on the right side of the victim;1;858
+;(15, 9);Idle;(8, 9);Rock on the right side of the victim;1;859
+;(15, 9);Idle;(8, 9);Rock on the right side of the victim;1;860
+;(15, 9);Idle;(8, 9);Rock on the right side of the victim;1;861
+;(15, 9);Idle;(8, 9);Rock on the right side of the victim;1;862
+;(15, 9);Idle;(8, 9);Rock on the right side of the victim;1;863
+;(15, 9);Idle;(8, 9);Rock on the right side of the victim;1;864
+;(15, 9);Idle;(8, 9);Rock on the right side of the victim;1;865
+;(15, 9);Idle;(8, 9);Rock on the right side of the victim;1;866
+;(15, 9);Idle;(8, 9);Rock on the right side of the victim;1;867
+;(15, 9);Idle;(8, 9);Rock on the right side of the victim;1;868
+;(15, 9);Idle;(8, 9);Rock on the right side of the victim;1;869
+;(15, 9);Idle;(8, 9);Rock on the right side of the victim;1;870
+;(15, 9);Idle;(8, 9);Rock on the right side of the victim;1;871
+;(15, 9);Idle;(8, 9);Rock on the right side of the victim;1;872
+;(15, 9);Idle;(8, 9);Rock on the right side of the victim;1;873
+;(15, 9);Idle;(8, 9);Rock on the right side of the victim;1;874
+;(15, 9);Idle;(8, 9);Rock on the right side of the victim;1;875
+;(15, 9);Idle;(8, 9);Rock on the right side of the victim;1;876
+;(15, 9);Idle;(8, 9);Rock on the right side of the victim;1;877
+;(15, 9);Idle;(8, 9);Rock on the right side of the victim;1;878
+;(15, 9);Idle;(8, 9);Rock on the right side of the victim;1;879
+;(15, 9);Idle;(8, 9);Rock on the right side of the victim;1;880
+;(15, 9);Idle;(8, 9);Rock on the right side of the victim;1;881
+;(15, 9);Idle;(8, 9);Rock on the right side of the victim;1;882
+;(15, 9);Idle;(8, 9);Rock on the right side of the victim;1;883
+;(15, 9);Idle;(8, 9);Rock on the right side of the victim;1;884
+;(15, 9);Idle;(8, 9);Rock on the right side of the victim;1;885
+;(15, 9);Idle;(8, 9);Rock on the right side of the victim;1;886
+;(15, 9);Idle;(8, 9);Rock on the right side of the victim;1;887
+;(15, 9);Idle;(8, 9);Rock on the right side of the victim;1;888
+;(15, 9);Idle;(8, 9);Rock on the right side of the victim;1;889
+;(15, 9);Idle;(8, 9);Rock on the right side of the victim;1;890
+;(15, 9);Idle;(8, 9);Rock on the right side of the victim;1;891
+;(15, 9);Idle;(8, 9);Rock on the right side of the victim;1;892
+;(15, 9);Idle;(8, 9);Rock on the right side of the victim;1;893
+;(15, 9);Idle;(8, 9);Rock on the right side of the victim;1;894
+;(15, 9);Idle;(8, 9);Rock on the right side of the victim;1;895
+;(15, 9);Idle;(8, 9);Rock on the right side of the victim;1;896
+;(15, 9);Idle;(8, 9);Rock on the right side of the victim;1;897
+;(15, 9);Idle;(8, 9);Rock on the right side of the victim;1;898
+MoveWest;(14, 9);Idle;(8, 9);Rock on the right side of the victim;1;899
+;(14, 9);Idle;(8, 9);Rock on the right side of the victim;1;900
+;(14, 9);Idle;(8, 9);Rock on the right side of the victim;1;901
+;(14, 9);Idle;(8, 9);Rock on the right side of the victim;1;902
+MoveWest;(13, 9);Idle;(8, 9);Rock on the right side of the victim;1;903
+;(13, 9);Idle;(8, 9);Rock on the right side of the victim;1;904
+;(13, 9);;(8, 9);Rock on the right side of the victim;1;905
+;(13, 9);;(8, 9);Rock on the right side of the victim;1;906
+;(13, 9);;(8, 9);Rock on the right side of the victim;1;907
+MoveWest;(12, 9);MoveWest;(8, 9);Rock on the right side of the victim;1;908
+;(12, 9);MoveWest;(8, 9);Rock on the right side of the victim;1;909
+;(12, 9);MoveWest;(8, 9);Rock on the right side of the victim;1;910
+MoveWest;(11, 9);MoveWest;(8, 9);Rock on the right side of the victim;1;911
+;(11, 9);MoveWest;(8, 9);Rock on the right side of the victim;1;912
+;(11, 9);MoveWest;(8, 9);Rock on the right side of the victim;1;913
+;(11, 9);MoveWest;(8, 9);Rock on the right side of the victim;1;914
+MoveWest;(10, 9);MoveWest;(8, 9);Rock on the right side of the victim;1;915
+;(10, 9);MoveWest;(8, 9);Rock on the right side of the victim;1;916
+;(10, 9);MoveWest;(8, 9);Rock on the right side of the victim;1;917
+;(10, 9);MoveWest;(7, 9);Rock on the right side of the victim;1;918
+;(10, 9);MoveWest;(7, 9);Rock on the right side of the victim;1;919
+;(10, 9);MoveWest;(7, 9);Rock on the right side of the victim;1;920
+;(10, 9);MoveWest;(7, 9);Rock on the right side of the victim;1;921
+;(10, 9);MoveWest;(7, 9);Rock on the right side of the victim;1;922
+;(10, 9);MoveWest;(7, 9);Rock on the right side of the victim;1;923
+;(10, 9);MoveWest;(7, 9);Rock on the right side of the victim;1;924
+;(10, 9);MoveWest;(7, 9);Rock on the right side of the victim;1;925
+;(10, 9);MoveWest;(7, 9);Rock on the right side of the victim;1;926
+;(10, 9);MoveWest;(7, 9);Rock on the right side of the victim;1;927
+;(10, 9);MoveWest;(7, 9);Rock on the right side of the victim;1;928
+;(10, 9);MoveWest;(6, 9);Rock on the right side of the victim;1;929
+;(10, 9);MoveWest;(6, 9);Rock on the right side of the victim;1;930
+;(10, 9);MoveWest;(6, 9);Rock on the right side of the victim;1;931
+;(10, 9);MoveWest;(6, 9);Rock on the right side of the victim;1;932
+;(10, 9);MoveWest;(6, 9);Rock on the right side of the victim;1;933
+;(10, 9);MoveWest;(6, 9);Rock on the right side of the victim;1;934
+;(10, 9);MoveWest;(6, 9);Rock on the right side of the victim;1;935
+;(10, 9);MoveWest;(6, 9);Rock on the right side of the victim;1;936
+;(10, 9);MoveWest;(6, 9);Rock on the right side of the victim;1;937
+;(10, 9);MoveWest;(6, 9);Rock on the right side of the victim;1;938
+;(10, 9);MoveWest;(6, 9);Rock on the right side of the victim;1;939
+;(10, 9);MoveWest;(5, 9);Rock on the right side of the victim;1;940
+;(10, 9);MoveNorthWest;(5, 9);Rock on the right side of the victim;1;941
+;(10, 9);MoveNorthWest;(5, 9);Rock on the right side of the victim;1;942
+;(10, 9);MoveNorthWest;(5, 9);Rock on the right side of the victim;1;943
+;(10, 9);MoveNorthWest;(5, 9);Rock on the right side of the victim;1;944
+;(10, 9);MoveNorthWest;(5, 9);Rock on the right side of the victim;1;945
+;(10, 9);MoveNorthWest;(5, 9);Rock on the right side of the victim;1;946
+;(10, 9);MoveNorthWest;(5, 9);Rock on the right side of the victim;1;947
+;(10, 9);MoveNorthWest;(5, 9);Rock on the right side of the victim;1;948
+;(10, 9);MoveNorthWest;(5, 9);Rock on the right side of the victim;1;949
+;(10, 9);MoveNorthWest;(5, 9);Rock on the right side of the victim;1;950
+;(10, 9);MoveNorthWest;(4, 8);Rock on the right side of the victim;1;951
+;(10, 9);MoveWest;(4, 8);Rock on the right side of the victim;1;952
+;(10, 9);MoveWest;(4, 8);Rock on the right side of the victim;1;953
+;(10, 9);MoveWest;(4, 8);Rock on the right side of the victim;1;954
+;(10, 9);MoveWest;(4, 8);Rock on the right side of the victim;1;955
+;(10, 9);MoveWest;(4, 8);Rock on the right side of the victim;1;956
+;(10, 9);MoveWest;(4, 8);Rock on the right side of the victim;1;957
+;(10, 9);MoveWest;(4, 8);Rock on the right side of the victim;1;958
+;(10, 9);MoveWest;(4, 8);Rock on the right side of the victim;1;959
+;(10, 9);MoveWest;(4, 8);Rock on the right side of the victim;1;960
+;(10, 9);MoveWest;(4, 8);Rock on the right side of the victim;1;961
+;(10, 9);MoveWest;(3, 8);Rock on the right side of the victim;1;962
+;(10, 9);MoveNorthWest;(3, 8);Rock on the right side of the victim;1;963
+;(10, 9);MoveNorthWest;(3, 8);Rock on the right side of the victim;1;964
+;(10, 9);MoveNorthWest;(3, 8);Rock on the right side of the victim;1;965
+;(10, 9);MoveNorthWest;(3, 8);Rock on the right side of the victim;1;966
+;(10, 9);MoveNorthWest;(3, 8);Rock on the right side of the victim;1;967
+;(10, 9);MoveNorthWest;(3, 8);Rock on the right side of the victim;1;968
+;(10, 9);MoveNorthWest;(3, 8);Rock on the right side of the victim;1;969
+;(10, 9);MoveNorthWest;(3, 8);Rock on the right side of the victim;1;970
+;(10, 9);MoveNorthWest;(3, 8);Rock on the right side of the victim;1;971
+;(10, 9);MoveNorthWest;(3, 8);Rock on the right side of the victim;1;972
+;(10, 9);MoveNorthWest;(2, 7);Rock on the right side of the victim;1;973
+;(10, 9);MoveWest;(2, 7);Rock on the right side of the victim;1;974
+;(10, 9);MoveWest;(2, 7);Rock on the right side of the victim;1;975
+;(10, 9);MoveWest;(2, 7);Rock on the right side of the victim;1;976
+;(10, 9);MoveWest;(2, 7);Rock on the right side of the victim;1;977
+;(10, 9);MoveWest;(2, 7);Rock on the right side of the victim;1;978
+;(10, 9);MoveWest;(2, 7);Rock on the right side of the victim;1;979
+;(10, 9);MoveWest;(2, 7);Rock on the right side of the victim;1;980
+;(10, 9);MoveWest;(2, 7);Rock on the right side of the victim;1;981
+;(10, 9);MoveWest;(2, 7);Rock on the right side of the victim;1;982
+;(10, 9);MoveWest;(2, 7);Rock on the right side of the victim;1;983
+;(10, 9);MoveWest;(1, 7);Rock on the right side of the victim;1;984
+;(10, 9);DropLargeObject;(1, 7);Rock on the right side of the victim;1;985
+;(10, 9);DropLargeObject;(1, 7);Rock on the right side of the victim;1;986
+;(10, 9);DropLargeObject;(1, 7);Rock on the right side of the victim;1;987
+;(10, 9);DropLargeObject;(1, 7);Rock on the right side of the victim;1;988
+;(10, 9);DropLargeObject;(1, 7);Rock on the right side of the victim;1;989
+;(10, 9);DropLargeObject;(1, 7);Rock on the right side of the victim;1;990
+;(10, 9);DropLargeObject;(1, 7);Rock on the right side of the victim;1;991
+;(10, 9);DropLargeObject;(1, 7);Rock on the right side of the victim;1;992
+;(10, 9);DropLargeObject;(1, 7);Rock on the right side of the victim;1;993
+;(10, 9);DropLargeObject;(1, 7);Rock on the right side of the victim;1;994
+;(10, 9);DropLargeObject;(1, 7);Rock on the right side of the victim;1;995
+;(10, 9);;(1, 7);Rock on the right side of the victim;1;996
+;(10, 9);;(1, 7);Rock on the right side of the victim;1;997
+;(10, 9);;(1, 7);Rock on the right side of the victim;1;998
+;(10, 9);MoveEast;(1, 7);Rock on the right side of the victim;1;999
+;(10, 9);MoveEast;(1, 7);Rock on the right side of the victim;1;1000
+;(10, 9);MoveEast;(1, 7);Rock on the right side of the victim;1;1001
+;(10, 9);MoveEast;(1, 7);Rock on the right side of the victim;1;1002
+;(10, 9);MoveEast;(1, 7);Rock on the right side of the victim;1;1003
+;(10, 9);MoveEast;(1, 7);Rock on the right side of the victim;1;1004
+;(10, 9);MoveEast;(1, 7);Rock on the right side of the victim;1;1005
+;(10, 9);MoveEast;(1, 7);Rock on the right side of the victim;1;1006
+;(10, 9);MoveEast;(1, 7);Rock on the right side of the victim;1;1007
+;(10, 9);MoveEast;(1, 7);Rock on the right side of the victim;1;1008
+;(10, 9);MoveEast;(2, 7);Rock on the right side of the victim;1;1009
+;(10, 9);MoveEast;(2, 7);Rock on the right side of the victim;1;1010
+;(10, 9);MoveEast;(2, 7);Rock on the right side of the victim;1;1011
+;(10, 9);MoveEast;(2, 7);Rock on the right side of the victim;1;1012
+;(10, 9);MoveEast;(2, 7);Rock on the right side of the victim;1;1013
+;(10, 9);MoveEast;(2, 7);Rock on the right side of the victim;1;1014
+;(10, 9);MoveEast;(2, 7);Rock on the right side of the victim;1;1015
+;(10, 9);MoveEast;(2, 7);Rock on the right side of the victim;1;1016
+;(10, 9);MoveEast;(2, 7);Rock on the right side of the victim;1;1017
+;(10, 9);MoveEast;(2, 7);Rock on the right side of the victim;1;1018
+;(10, 9);MoveEast;(2, 7);Rock on the right side of the victim;1;1019
+;(10, 9);MoveEast;(3, 7);Rock on the right side of the victim;1;1020
+;(10, 9);MoveEast;(3, 7);Rock on the right side of the victim;1;1021
+;(10, 9);MoveEast;(3, 7);Rock on the right side of the victim;1;1022
+;(10, 9);MoveEast;(3, 7);Rock on the right side of the victim;1;1023
+;(10, 9);MoveEast;(3, 7);Rock on the right side of the victim;1;1024
+;(10, 9);MoveEast;(3, 7);Rock on the right side of the victim;1;1025
+;(10, 9);MoveEast;(3, 7);Rock on the right side of the victim;1;1026
+;(10, 9);MoveEast;(3, 7);Rock on the right side of the victim;1;1027
+;(10, 9);MoveEast;(3, 7);Rock on the right side of the victim;1;1028
+;(10, 9);MoveEast;(3, 7);Rock on the right side of the victim;1;1029
+;(10, 9);MoveEast;(3, 7);Rock on the right side of the victim;1;1030
+;(10, 9);MoveEast;(4, 7);Rock on the right side of the victim;1;1031
+;(10, 9);MoveEast;(4, 7);Rock on the right side of the victim;1;1032
+;(10, 9);MoveEast;(4, 7);Rock on the right side of the victim;1;1033
+;(10, 9);MoveEast;(4, 7);Rock on the right side of the victim;1;1034
+;(10, 9);MoveEast;(4, 7);Rock on the right side of the victim;1;1035
+;(10, 9);MoveEast;(4, 7);Rock on the right side of the victim;1;1036
+;(10, 9);MoveEast;(4, 7);Rock on the right side of the victim;1;1037
+;(10, 9);MoveEast;(4, 7);Rock on the right side of the victim;1;1038
+;(10, 9);MoveEast;(4, 7);Rock on the right side of the victim;1;1039
+;(10, 9);MoveEast;(4, 7);Rock on the right side of the victim;1;1040
+;(10, 9);MoveEast;(4, 7);Rock on the right side of the victim;1;1041
+;(10, 9);MoveEast;(5, 7);Rock on the right side of the victim;1;1042
+;(10, 9);MoveEast;(5, 7);Rock on the right side of the victim;1;1043
+;(10, 9);MoveEast;(5, 7);Rock on the right side of the victim;1;1044
+;(10, 9);MoveEast;(5, 7);Rock on the right side of the victim;1;1045
+;(10, 9);MoveEast;(5, 7);Rock on the right side of the victim;1;1046
+;(10, 9);MoveEast;(5, 7);Rock on the right side of the victim;1;1047
+;(10, 9);MoveEast;(5, 7);Rock on the right side of the victim;1;1048
+;(10, 9);MoveEast;(5, 7);Rock on the right side of the victim;1;1049
+;(10, 9);MoveEast;(5, 7);Rock on the right side of the victim;1;1050
+;(10, 9);MoveEast;(5, 7);Rock on the right side of the victim;1;1051
+;(10, 9);MoveEast;(5, 7);Rock on the right side of the victim;1;1052
+;(10, 9);MoveEast;(6, 7);Rock on the right side of the victim;1;1053
+;(10, 9);MoveEast;(6, 7);Rock on the right side of the victim;1;1054
+;(10, 9);MoveEast;(6, 7);Rock on the right side of the victim;1;1055
+;(10, 9);MoveEast;(6, 7);Rock on the right side of the victim;1;1056
+;(10, 9);MoveEast;(6, 7);Rock on the right side of the victim;1;1057
+;(10, 9);MoveEast;(6, 7);Rock on the right side of the victim;1;1058
+;(10, 9);MoveEast;(6, 7);Rock on the right side of the victim;1;1059
+;(10, 9);MoveEast;(6, 7);Rock on the right side of the victim;1;1060
+;(10, 9);MoveEast;(6, 7);Rock on the right side of the victim;1;1061
+;(10, 9);MoveEast;(6, 7);Rock on the right side of the victim;1;1062
+;(10, 9);MoveEast;(6, 7);Rock on the right side of the victim;1;1063
+;(10, 9);MoveEast;(7, 7);Rock on the right side of the victim;1;1064
+;(10, 9);MoveEast;(7, 7);Rock on the right side of the victim;1;1065
+;(10, 9);MoveEast;(7, 7);Rock on the right side of the victim;1;1066
+;(10, 9);MoveEast;(7, 7);Rock on the right side of the victim;1;1067
+;(10, 9);MoveEast;(7, 7);Rock on the right side of the victim;1;1068
+;(10, 9);MoveEast;(7, 7);Rock on the right side of the victim;1;1069
+;(10, 9);MoveEast;(7, 7);Rock on the right side of the victim;1;1070
+;(10, 9);MoveEast;(7, 7);Rock on the right side of the victim;1;1071
+;(10, 9);MoveEast;(7, 7);Rock on the right side of the victim;1;1072
+;(10, 9);MoveEast;(7, 7);Rock on the right side of the victim;1;1073
+;(10, 9);MoveEast;(7, 7);Rock on the right side of the victim;1;1074
+;(10, 9);MoveEast;(8, 7);Rock on the right side of the victim;1;1075
+;(10, 9);MoveEast;(8, 7);Rock on the right side of the victim;1;1076
+;(10, 9);MoveEast;(8, 7);Rock on the right side of the victim;1;1077
+;(10, 9);MoveEast;(8, 7);Rock on the right side of the victim;1;1078
+;(10, 9);MoveEast;(8, 7);Rock on the right side of the victim;1;1079
+;(10, 9);MoveEast;(8, 7);Rock on the right side of the victim;1;1080
+;(10, 9);MoveEast;(8, 7);Rock on the right side of the victim;1;1081
+;(10, 9);MoveEast;(8, 7);Rock on the right side of the victim;1;1082
+;(10, 9);MoveEast;(8, 7);Rock on the right side of the victim;1;1083
+;(10, 9);MoveEast;(8, 7);Rock on the right side of the victim;1;1084
+MoveNorth;(10, 8);MoveEast;(8, 7);Rock on the right side of the victim;1;1085
+;(10, 8);MoveEast;(9, 7);Rock on the right side of the victim;1;1086
+;(10, 8);MoveNorthEast;(9, 7);Rock on the right side of the victim;1;1087
+;(10, 8);MoveNorthEast;(9, 7);Rock on the right side of the victim;1;1088
+;(10, 8);MoveNorthEast;(9, 7);Rock on the right side of the victim;1;1089
+;(10, 8);MoveNorthEast;(9, 7);Rock on the right side of the victim;1;1090
+;(10, 8);MoveNorthEast;(9, 7);Rock on the right side of the victim;1;1091
+;(10, 8);MoveNorthEast;(9, 7);Rock on the right side of the victim;1;1092
+;(10, 8);MoveNorthEast;(9, 7);Rock on the right side of the victim;1;1093
+;(10, 8);MoveNorthEast;(9, 7);Rock on the right side of the victim;1;1094
+;(10, 8);MoveNorthEast;(9, 7);Rock on the right side of the victim;1;1095
+;(10, 8);MoveNorthEast;(9, 7);Rock on the right side of the victim;1;1096
+;(10, 8);MoveNorthEast;(10, 6);Rock on the right side of the victim;1;1097
+;(10, 8);MoveEast;(10, 6);Rock on the right side of the victim;1;1098
+;(10, 8);MoveEast;(10, 6);Rock on the right side of the victim;1;1099
+;(10, 8);MoveEast;(10, 6);Rock on the right side of the victim;1;1100
+;(10, 8);MoveEast;(10, 6);Rock on the right side of the victim;1;1101
+MoveSouth;(10, 9);MoveEast;(10, 6);Rock on the right side of the victim;1;1102
+;(10, 9);MoveEast;(10, 6);Rock on the right side of the victim;1;1103
+;(10, 9);MoveEast;(10, 6);Rock on the right side of the victim;1;1104
+;(10, 9);MoveEast;(10, 6);Rock on the right side of the victim;1;1105
+;(10, 9);MoveEast;(10, 6);Rock on the right side of the victim;1;1106
+;(10, 9);MoveEast;(10, 6);Rock on the right side of the victim;1;1107
+;(10, 9);MoveEast;(11, 6);Rock on the right side of the victim;1;1108
+;(10, 9);GrabLargeObject;(11, 6);Rock on the right side of the victim;1;1109
+;(10, 9);GrabLargeObject;(11, 6);Rock on the right side of the victim;1;1110
+;(10, 9);GrabLargeObject;(11, 6);Rock on the right side of the victim;1;1111
+;(10, 9);GrabLargeObject;(11, 6);Rock on the right side of the victim;1;1112
+MoveEast;(11, 9);GrabLargeObject;(11, 6);Rock on the right side of the victim;1;1113
+;(11, 9);GrabLargeObject;(11, 6);Rock on the right side of the victim;1;1114
+;(11, 9);GrabLargeObject;(11, 6);Rock on the right side of the victim;1;1115
+;(11, 9);GrabLargeObject;(11, 6);Rock on the right side of the victim;1;1116
+;(11, 9);GrabLargeObject;(11, 6);Rock on the right side of the victim;1;1117
+;(11, 9);GrabLargeObject;(11, 6);Rock on the right side of the victim;1;1118
+;(11, 9);GrabLargeObject;(11, 6);Rock on the right side of the victim;1;1119
+;(11, 9);;(11, 6);Rock on the right side of the victim;1;1120
+;(11, 9);;(11, 6);False;1;1121
+;(11, 9);;(11, 6);Label;1;1122
+;(11, 9);;(11, 6);Label;1;1123
+;(11, 9);MoveSouth;(11, 6);Label;1;1124
+;(11, 9);MoveSouth;(11, 6);Label;1;1125
+MoveEast;(12, 9);MoveSouth;(11, 6);Label;1;1126
+;(12, 9);MoveSouth;(11, 6);Label;1;1127
+;(12, 9);MoveSouth;(11, 6);Label;1;1128
+MoveEast;(13, 9);MoveSouth;(11, 6);Label;1;1129
+;(13, 9);MoveSouth;(11, 6);Label;1;1130
+;(13, 9);MoveSouth;(11, 6);Label;1;1131
+;(13, 9);MoveSouth;(11, 6);Label;1;1132
+MoveEast;(14, 9);MoveSouth;(11, 6);Label;1;1133
+;(14, 9);MoveSouth;(11, 7);Label;1;1134
+;(14, 9);MoveSouth;(11, 7);Label;1;1135
+MoveEast;(15, 9);MoveSouth;(11, 7);Label;1;1136
+;(15, 9);MoveSouth;(11, 7);Label;1;1137
+;(15, 9);MoveSouth;(11, 7);Label;1;1138
+MoveEast;(16, 9);MoveSouth;(11, 7);Label;1;1139
+;(16, 9);MoveSouth;(11, 7);Label;1;1140
+;(16, 9);MoveSouth;(11, 7);Label;1;1141
+MoveEast;(17, 9);MoveSouth;(11, 7);Label;1;1142
+;(17, 9);MoveSouth;(11, 7);Label;1;1143
+;(17, 9);MoveSouth;(11, 7);Label;1;1144
+;(17, 9);MoveSouth;(11, 8);Label;1;1145
+;(17, 9);MoveSouth;(11, 8);Label;1;1146
+;(17, 9);MoveSouth;(11, 8);Label;1;1147
+;(17, 9);MoveSouth;(11, 8);Label;1;1148
+;(17, 9);MoveSouth;(11, 8);Label;1;1149
+;(17, 9);MoveSouth;(11, 8);Label;1;1150
+;(17, 9);MoveSouth;(11, 8);Label;1;1151
+;(17, 9);MoveSouth;(11, 8);Label;1;1152
+;(17, 9);MoveSouth;(11, 8);Label;1;1153
+;(17, 9);MoveSouth;(11, 8);Label;1;1154
+;(17, 9);MoveSouth;(11, 8);Label;1;1155
+;(17, 9);MoveSouth;(11, 9);Label;1;1156
+;(17, 9);Idle;(11, 9);Label;1;1157
+;(17, 9);Idle;(11, 9);Label;1;1158
+;(17, 9);Idle;(11, 9);Label;1;1159
+;(17, 9);Idle;(11, 9);Label;1;1160
+;(17, 9);Idle;(11, 9);Label;1;1161
+;(17, 9);Idle;(11, 9);Label;1;1162
+;(17, 9);Idle;(11, 9);Label;1;1163
+;(17, 9);Idle;(11, 9);Label;1;1164
+;(17, 9);Idle;(11, 9);Label;1;1165
+;(17, 9);Idle;(11, 9);Label;1;1166
+;(17, 9);Idle;(11, 9);Label;1;1167
+;(17, 9);Idle;(11, 9);Label;1;1168
+;(17, 9);Idle;(11, 9);Label;1;1169
+;(17, 9);Idle;(11, 9);Label;1;1170
+;(17, 9);Idle;(11, 9);Label;1;1171
+;(17, 9);Idle;(11, 9);Label;1;1172
+;(17, 9);Idle;(11, 9);Label;1;1173
+;(17, 9);Idle;(11, 9);Label;1;1174
+;(17, 9);Idle;(11, 9);Label;1;1175
+;(17, 9);Idle;(11, 9);Label;1;1176
+;(17, 9);Idle;(11, 9);Label;1;1177
+;(17, 9);Idle;(11, 9);Label;1;1178
+;(17, 9);Idle;(11, 9);Label;1;1179
+;(17, 9);Idle;(11, 9);Label;1;1180
+;(17, 9);Idle;(11, 9);Label;1;1181
+;(17, 9);Idle;(11, 9);Label;1;1182
+;(17, 9);Idle;(11, 9);Label;1;1183
+;(17, 9);Idle;(11, 9);Label;1;1184
+;(17, 9);Idle;(11, 9);Label;1;1185
+;(17, 9);Idle;(11, 9);Label;1;1186
+;(17, 9);Idle;(11, 9);Label;1;1187
+;(17, 9);Idle;(11, 9);Label;1;1188
+;(17, 9);Idle;(11, 9);Label;1;1189
+;(17, 9);Idle;(11, 9);Label;1;1190
+;(17, 9);Idle;(11, 9);Label;1;1191
+;(17, 9);Idle;(11, 9);Label;1;1192
+;(17, 9);Idle;(11, 9);Label;1;1193
+;(17, 9);Idle;(11, 9);Label;1;1194
+;(17, 9);Idle;(11, 9);Label;1;1195
+;(17, 9);Idle;(11, 9);Label;1;1196
+;(17, 9);Idle;(11, 9);Label;1;1197
+;(17, 9);Idle;(11, 9);Label;1;1198
+;(17, 9);Idle;(11, 9);Label;1;1199
+;(17, 9);Idle;(11, 9);Label;1;1200
+;(17, 9);Idle;(11, 9);Label;1;1201
+;(17, 9);Idle;(11, 9);Label;1;1202
+;(17, 9);Idle;(11, 9);Label;1;1203
+;(17, 9);Idle;(11, 9);Label;1;1204
+;(17, 9);Idle;(11, 9);Label;1;1205
+;(17, 9);Idle;(11, 9);Label;1;1206
+;(17, 9);Idle;(11, 9);Label;1;1207
+;(17, 9);Idle;(11, 9);Label;1;1208
+;(17, 9);Idle;(11, 9);Label;1;1209
+;(17, 9);Idle;(11, 9);Label;1;1210
+;(17, 9);Idle;(11, 9);Label;1;1211
+;(17, 9);;(11, 9);Label;1;1212
+;(17, 9);;(11, 9);Label;1;1213
+;(17, 9);;(11, 9);Label;1;1214
+;(17, 9);MoveEast;(11, 9);Label;1;1215
+;(17, 9);MoveEast;(11, 9);Label;1;1216
+;(17, 9);MoveEast;(11, 9);Label;1;1217
+;(17, 9);MoveEast;(11, 9);Label;1;1218
+;(17, 9);MoveEast;(11, 9);Label;1;1219
+;(17, 9);MoveEast;(11, 9);Label;1;1220
+;(17, 9);MoveEast;(11, 9);Label;1;1221
+;(17, 9);MoveEast;(11, 9);Label;1;1222
+;(17, 9);MoveEast;(11, 9);Label;1;1223
+;(17, 9);MoveEast;(11, 9);Label;1;1224
+;(17, 9);MoveEast;(12, 9);Label;1;1225
+;(17, 9);MoveEast;(12, 9);Label;1;1226
+;(17, 9);MoveEast;(12, 9);Label;1;1227
+;(17, 9);MoveEast;(12, 9);Label;1;1228
+;(17, 9);MoveEast;(12, 9);Label;1;1229
+;(17, 9);MoveEast;(12, 9);Label;1;1230
+;(17, 9);MoveEast;(12, 9);Label;1;1231
+;(17, 9);MoveEast;(12, 9);Label;1;1232
+;(17, 9);MoveEast;(12, 9);Label;1;1233
+;(17, 9);MoveEast;(12, 9);Label;1;1234
+;(17, 9);MoveEast;(12, 9);Label;1;1235
+;(17, 9);MoveEast;(13, 9);Label;1;1236
+;(17, 9);MoveNorthEast;(13, 9);Label;1;1237
+;(17, 9);MoveNorthEast;(13, 9);Label;1;1238
+;(17, 9);MoveNorthEast;(13, 9);Label;1;1239
+;(17, 9);MoveNorthEast;(13, 9);Label;1;1240
+;(17, 9);MoveNorthEast;(13, 9);Label;1;1241
+;(17, 9);MoveNorthEast;(13, 9);Label;1;1242
+;(17, 9);MoveNorthEast;(13, 9);Label;1;1243
+;(17, 9);MoveNorthEast;(13, 9);Label;1;1244
+;(17, 9);MoveNorthEast;(13, 9);Label;1;1245
+;(17, 9);MoveNorthEast;(13, 9);Label;1;1246
+;(17, 9);MoveNorthEast;(14, 8);Label;1;1247
+;(17, 9);MoveEast;(14, 8);Label;1;1248
+;(17, 9);MoveEast;(14, 8);Label;1;1249
+;(17, 9);MoveEast;(14, 8);Label;1;1250
+;(17, 9);MoveEast;(14, 8);Label;1;1251
+;(17, 9);MoveEast;(14, 8);Label;1;1252
+;(17, 9);MoveEast;(14, 8);Label;1;1253
+;(17, 9);MoveEast;(14, 8);Label;1;1254
+;(17, 9);MoveEast;(14, 8);Label;1;1255
+;(17, 9);MoveEast;(14, 8);Label;1;1256
+;(17, 9);MoveEast;(14, 8);Label;1;1257
+;(17, 9);MoveEast;(15, 8);Label;1;1258
+;(17, 9);MoveNorthEast;(15, 8);Label;1;1259
+;(17, 9);MoveNorthEast;(15, 8);Label;1;1260
+;(17, 9);MoveNorthEast;(15, 8);Label;1;1261
+;(17, 9);MoveNorthEast;(15, 8);Label;1;1262
+;(17, 9);MoveNorthEast;(15, 8);Label;1;1263
+;(17, 9);MoveNorthEast;(15, 8);Label;1;1264
+;(17, 9);MoveNorthEast;(15, 8);Label;1;1265
+;(17, 9);MoveNorthEast;(15, 8);Label;1;1266
+;(17, 9);MoveNorthEast;(15, 8);Label;1;1267
+;(17, 9);MoveNorthEast;(15, 8);Label;1;1268
+;(17, 9);MoveNorthEast;(16, 7);Label;1;1269
+;(17, 9);MoveEast;(16, 7);Label;1;1270
+;(17, 9);MoveEast;(16, 7);Label;1;1271
+;(17, 9);MoveEast;(16, 7);Label;1;1272
+;(17, 9);MoveEast;(16, 7);Label;1;1273
+;(17, 9);MoveEast;(16, 7);Label;1;1274
+;(17, 9);MoveEast;(16, 7);Label;1;1275
+;(17, 9);MoveEast;(16, 7);Label;1;1276
+;(17, 9);MoveEast;(16, 7);Label;1;1277
+;(17, 9);MoveEast;(16, 7);Label;1;1278
+;(17, 9);MoveEast;(16, 7);Label;1;1279
+;(17, 9);MoveEast;(17, 7);Label;1;1280
+;(17, 9);DropLargeObject;(17, 7);Label;1;1281
+;(17, 9);DropLargeObject;(17, 7);Label;1;1282
+;(17, 9);DropLargeObject;(17, 7);Label;1;1283
+;(17, 9);DropLargeObject;(17, 7);Label;1;1284
+;(17, 9);DropLargeObject;(17, 7);Label;1;1285
+;(17, 9);DropLargeObject;(17, 7);Label;1;1286
+;(17, 9);DropLargeObject;(17, 7);Label;1;1287
+;(17, 9);DropLargeObject;(17, 7);Label;1;1288
+;(17, 9);DropLargeObject;(17, 7);Label;1;1289
+;(17, 9);DropLargeObject;(17, 7);Label;1;1290
+;(17, 9);DropLargeObject;(17, 7);Label;1;1291
+;(17, 9);;(17, 7);Label;1;1292
+;(17, 9);;(17, 7);Label;1;1293
+;(17, 9);MoveWest;(17, 7);Label;1;1294
+;(17, 9);MoveWest;(17, 7);Label;1;1295
+;(17, 9);MoveWest;(17, 7);Label;1;1296
+;(17, 9);MoveWest;(17, 7);Label;1;1297
+;(17, 9);MoveWest;(17, 7);Label;1;1298
+;(17, 9);MoveWest;(17, 7);Label;1;1299
+;(17, 9);MoveWest;(17, 7);Label;1;1300
+;(17, 9);MoveWest;(17, 7);Label;1;1301
+;(17, 9);MoveWest;(17, 7);Label;1;1302
+;(17, 9);MoveWest;(17, 7);Label;1;1303
+;(17, 9);MoveWest;(16, 7);Label;1;1304
+;(17, 9);MoveWest;(16, 7);Label;1;1305
+;(17, 9);MoveWest;(16, 7);Label;1;1306
+;(17, 9);MoveWest;(16, 7);Label;1;1307
+;(17, 9);MoveWest;(16, 7);Label;1;1308
+;(17, 9);MoveWest;(16, 7);Label;1;1309
+;(17, 9);MoveWest;(16, 7);Label;1;1310
+;(17, 9);MoveWest;(16, 7);Label;1;1311
+;(17, 9);MoveWest;(16, 7);Label;1;1312
+;(17, 9);MoveWest;(16, 7);Label;1;1313
+;(17, 9);MoveWest;(16, 7);Label;1;1314
+;(17, 9);MoveWest;(15, 7);Label;1;1315
+;(17, 9);MoveSouthWest;(15, 7);Label;1;1316
+;(17, 9);MoveSouthWest;(15, 7);Label;1;1317
+;(17, 9);MoveSouthWest;(15, 7);Label;1;1318
+;(17, 9);MoveSouthWest;(15, 7);Label;1;1319
+;(17, 9);MoveSouthWest;(15, 7);Label;1;1320
+;(17, 9);MoveSouthWest;(15, 7);Label;1;1321
+;(17, 9);MoveSouthWest;(15, 7);Label;1;1322
+;(17, 9);MoveSouthWest;(15, 7);Label;1;1323
+;(17, 9);MoveSouthWest;(15, 7);Label;1;1324
+;(17, 9);MoveSouthWest;(15, 7);Label;1;1325
+;(17, 9);MoveSouthWest;(14, 8);Label;1;1326
+;(17, 9);MoveWest;(14, 8);Label;1;1327
+MoveWest;(16, 9);MoveWest;(14, 8);Label;1;1328
+;(16, 9);MoveWest;(14, 8);Label;1;1329
+;(16, 9);MoveWest;(14, 8);Label;1;1330
+MoveWest;(15, 9);MoveWest;(14, 8);Label;1;1331
+;(15, 9);MoveWest;(14, 8);Label;1;1332
+;(15, 9);MoveWest;(14, 8);Label;1;1333
+MoveWest;(14, 9);MoveWest;(14, 8);Label;1;1334
+;(14, 9);MoveWest;(14, 8);Label;1;1335
+;(14, 9);MoveWest;(14, 8);Label;1;1336
+MoveWest;(13, 9);MoveWest;(13, 8);Label;1;1337
+;(13, 9);MoveSouthWest;(13, 8);Label;1;1338
+;(13, 9);MoveSouthWest;(13, 8);Label;1;1339
+MoveWest;(12, 9);MoveSouthWest;(13, 8);Label;1;1340
+;(12, 9);MoveSouthWest;(13, 8);Label;1;1341
+;(12, 9);MoveSouthWest;(13, 8);Label;1;1342
+;(12, 9);MoveSouthWest;(13, 8);Label;1;1343
+MoveWest;(11, 9);MoveSouthWest;(13, 8);Label;1;1344
+;(11, 9);MoveSouthWest;(13, 8);Label;1;1345
+;(11, 9);MoveSouthWest;(13, 8);Label;1;1346
+MoveWest;(10, 9);MoveSouthWest;(13, 8);Label;1;1347
+;(10, 9);MoveSouthWest;(12, 9);Label;1;1348
+;(10, 9);MoveSouthWest;(12, 9);Label;1;1349
+;(10, 9);MoveSouthWest;(12, 9);Label;1;1350
+;(10, 9);MoveSouthWest;(12, 9);Label;1;1351
+MoveSouth;(10, 10);MoveSouthWest;(12, 9);Label;1;1352
+;(10, 10);MoveSouthWest;(12, 9);Label;1;1353
+;(10, 10);MoveSouthWest;(12, 9);Label;1;1354
+;(10, 10);MoveSouthWest;(12, 9);Label;1;1355
+;(10, 10);MoveSouthWest;(12, 9);Label;1;1356
+;(10, 10);MoveSouthWest;(12, 9);Label;1;1357
+;(10, 10);MoveSouthWest;(12, 9);Label;1;1358
+;(10, 10);MoveSouthWest;(11, 10);Label;1;1359
+;(10, 10);MoveWest;(11, 10);Label;1;1360
+;(10, 10);MoveWest;(11, 10);Label;1;1361
+;(10, 10);MoveWest;(11, 10);Label;1;1362
+;(10, 10);MoveWest;(11, 10);Label;1;1363
+;(10, 10);MoveWest;(11, 10);Label;1;1364
+;(10, 10);MoveWest;(11, 10);Label;1;1365
+;(10, 10);MoveWest;(11, 10);Label;1;1366
+;(10, 10);MoveWest;(11, 10);Label;1;1367
+;(10, 10);MoveWest;(11, 10);Label;1;1368
+;(10, 10);MoveWest;(11, 10);Label;1;1369
+;(10, 10);MoveWest;(10, 10);Label;1;1370
+;(10, 10);MoveWest;(10, 10);Label;1;1371
+;(10, 10);MoveWest;(10, 10);Label;1;1372
+;(10, 10);MoveWest;(10, 10);Label;1;1373
+;(10, 10);MoveWest;(10, 10);Label;1;1374
+;(10, 10);MoveWest;(10, 10);Label;1;1375
+;(10, 10);MoveWest;(10, 10);Label;1;1376
+;(10, 10);MoveWest;(10, 10);Label;1;1377
+;(10, 10);MoveWest;(10, 10);Label;1;1378
+;(10, 10);MoveWest;(10, 10);Label;1;1379
+;(10, 10);MoveWest;(10, 10);Label;1;1380
+;(10, 10);MoveWest;(9, 10);Label;1;1381
+MoveEast;(11, 10);GrabLargeObject;(9, 10);Label;1;1382
+;(11, 10);GrabLargeObject;(9, 10);Label;1;1383
+;(11, 10);GrabLargeObject;(9, 10);Label;1;1384
+;(11, 10);GrabLargeObject;(9, 10);Label;1;1385
+;(11, 10);GrabLargeObject;(9, 10);Label;1;1386
+;(11, 10);GrabLargeObject;(9, 10);Label;1;1387
+;(11, 10);GrabLargeObject;(9, 10);Label;1;1388
+;(11, 10);GrabLargeObject;(9, 10);Label;1;1389
+;(11, 10);GrabLargeObject;(9, 10);Label;1;1390
+;(11, 10);GrabLargeObject;(9, 10);Label;1;1391
+;(11, 10);GrabLargeObject;(9, 10);Label;1;1392
+;(11, 10);;(9, 10);Label;1;1393
+MoveEast;(12, 10);;(9, 10);False;1;1394
+;(12, 10);MoveEast;(9, 10);False;1;1395
+;(12, 10);MoveEast;(9, 10);False;1;1396
+;(12, 10);MoveEast;(9, 10);False;1;1397
+MoveEast;(13, 10);MoveEast;(9, 10);False;1;1398
+;(13, 10);MoveEast;(9, 10);False;1;1399
+;(13, 10);MoveEast;(9, 10);False;1;1400
+;(13, 10);MoveEast;(9, 10);False;1;1401
+;(13, 10);MoveEast;(9, 10);False;1;1402
+;(13, 10);MoveEast;(9, 10);False;1;1403
+;(13, 10);MoveEast;(9, 10);False;1;1404
+;(13, 10);MoveEast;(10, 10);False;1;1405
+;(13, 10);MoveEast;(10, 10);False;1;1406
+;(13, 10);MoveEast;(10, 10);False;1;1407
+;(13, 10);MoveEast;(10, 10);False;1;1408
+;(13, 10);MoveEast;(10, 10);False;1;1409
+;(13, 10);MoveEast;(10, 10);False;1;1410
+;(13, 10);MoveEast;(10, 10);False;1;1411
+;(13, 10);MoveEast;(10, 10);False;1;1412
+MoveEast;(14, 10);MoveEast;(10, 10);False;1;1413
+;(14, 10);MoveEast;(10, 10);False;1;1414
+;(14, 10);MoveEast;(10, 10);False;1;1415
+MoveEast;(15, 10);MoveEast;(11, 10);False;1;1416
+;(15, 10);MoveWest;(11, 10);False;1;1417
+;(15, 10);MoveWest;(11, 10);False;1;1418
+;(15, 10);MoveWest;(11, 10);False;1;1419
+MoveEast;(16, 10);MoveWest;(11, 10);False;1;1420
+;(16, 10);MoveWest;(11, 10);False;1;1421
+;(16, 10);MoveWest;(11, 10);False;1;1422
+;(16, 10);MoveWest;(11, 10);False;1;1423
+;(16, 10);MoveWest;(11, 10);False;1;1424
+;(16, 10);MoveWest;(11, 10);False;1;1425
+;(16, 10);MoveWest;(11, 10);False;1;1426
+;(16, 10);MoveWest;(10, 10);False;1;1427
+;(16, 10);MoveWest;(10, 10);False;1;1428
+;(16, 10);MoveWest;(10, 10);False;1;1429
+;(16, 10);MoveWest;(10, 10);False;1;1430
+;(16, 10);MoveWest;(10, 10);False;1;1431
+MoveWest;(15, 10);MoveWest;(10, 10);False;1;1432
+;(15, 10);MoveWest;(10, 10);False;1;1433
+;(15, 10);MoveWest;(10, 10);False;1;1434
+MoveWest;(14, 10);MoveWest;(10, 10);False;1;1435
+;(14, 10);MoveWest;(10, 10);False;1;1436
+;(14, 10);MoveWest;(10, 10);False;1;1437
+;(14, 10);MoveWest;(9, 10);False;1;1438
+;(14, 10);MoveEast;(9, 10);False;1;1439
+;(14, 10);MoveEast;(9, 10);False;1;1440
+;(14, 10);MoveEast;(9, 10);False;1;1441
+;(14, 10);MoveEast;(9, 10);False;1;1442
+;(14, 10);MoveEast;(9, 10);False;1;1443
+;(14, 10);MoveEast;(9, 10);False;1;1444
+;(14, 10);MoveEast;(9, 10);False;1;1445
+;(14, 10);MoveEast;(9, 10);False;1;1446
+;(14, 10);MoveEast;(9, 10);False;1;1447
+;(14, 10);MoveEast;(9, 10);False;1;1448
+;(14, 10);MoveEast;(10, 10);False;1;1449
+;(14, 10);MoveEast;(10, 10);False;1;1450
+;(14, 10);MoveEast;(10, 10);False;1;1451
+MoveEast;(15, 10);MoveEast;(10, 10);False;1;1452
+;(15, 10);MoveEast;(10, 10);False;1;1453
+MoveEast;(16, 10);MoveEast;(10, 10);False;1;1454
+;(16, 10);MoveEast;(10, 10);False;1;1455
+;(16, 10);MoveEast;(10, 10);False;1;1456
+;(16, 10);MoveEast;(10, 10);False;1;1457
+;(16, 10);MoveEast;(10, 10);False;1;1458
+;(16, 10);MoveEast;(10, 10);False;1;1459
+;(16, 10);MoveEast;(11, 10);False;1;1460
+;(16, 10);MoveWest;(11, 10);False;1;1461
+;(16, 10);MoveWest;(11, 10);False;1;1462
+MoveWest;(15, 10);MoveWest;(11, 10);False;1;1463
+;(15, 10);MoveWest;(11, 10);False;1;1464
+;(15, 10);MoveWest;(11, 10);False;1;1465
+;(15, 10);MoveWest;(11, 10);False;1;1466
+MoveWest;(14, 10);MoveWest;(11, 10);False;1;1467
+;(14, 10);MoveWest;(11, 10);False;1;1468
+;(14, 10);MoveWest;(11, 10);False;1;1469
+;(14, 10);MoveWest;(11, 10);False;1;1470
+;(14, 10);MoveWest;(10, 10);False;1;1471
+;(14, 10);MoveWest;(10, 10);False;1;1472
+;(14, 10);MoveWest;(10, 10);False;1;1473
+;(14, 10);MoveWest;(10, 10);False;1;1474
+;(14, 10);MoveWest;(10, 10);False;1;1475
+;(14, 10);MoveWest;(10, 10);False;1;1476
+;(14, 10);MoveWest;(10, 10);False;1;1477
+;(14, 10);MoveWest;(10, 10);False;1;1478
+;(14, 10);MoveWest;(10, 10);False;1;1479
+;(14, 10);MoveWest;(10, 10);False;1;1480
+;(14, 10);MoveWest;(10, 10);False;1;1481
+;(14, 10);MoveWest;(9, 10);False;1;1482
+;(14, 10);MoveEast;(9, 10);False;1;1483
+;(14, 10);MoveEast;(9, 10);False;1;1484
+;(14, 10);MoveEast;(9, 10);False;1;1485
+;(14, 10);MoveEast;(9, 10);False;1;1486
+;(14, 10);MoveEast;(9, 10);False;1;1487
+;(14, 10);MoveEast;(9, 10);False;1;1488
+;(14, 10);MoveEast;(9, 10);False;1;1489
+;(14, 10);MoveEast;(9, 10);False;1;1490
+;(14, 10);MoveEast;(9, 10);False;1;1491
+;(14, 10);MoveEast;(9, 10);False;1;1492
+;(14, 10);MoveEast;(10, 10);False;1;1493
+;(14, 10);MoveEast;(10, 10);False;1;1494
+;(14, 10);MoveEast;(10, 10);False;1;1495
+;(14, 10);MoveEast;(10, 10);False;1;1496
+;(14, 10);MoveEast;(10, 10);False;1;1497
+;(14, 10);MoveEast;(10, 10);False;1;1498
+;(14, 10);MoveEast;(10, 10);False;1;1499
+;(14, 10);MoveEast;(10, 10);False;1;1500
+;(14, 10);MoveEast;(10, 10);False;1;1501
+;(14, 10);MoveEast;(10, 10);False;1;1502
+;(14, 10);MoveEast;(10, 10);False;1;1503
+;(14, 10);MoveEast;(11, 10);False;1;1504
+;(14, 10);MoveWest;(11, 10);False;1;1505
+;(14, 10);MoveWest;(11, 10);False;1;1506
+;(14, 10);MoveWest;(11, 10);False;1;1507
+;(14, 10);MoveWest;(11, 10);False;1;1508
+;(14, 10);MoveWest;(11, 10);False;1;1509
+;(14, 10);MoveWest;(11, 10);False;1;1510
+;(14, 10);MoveWest;(11, 10);False;1;1511
+;(14, 10);MoveWest;(11, 10);False;1;1512
+;(14, 10);MoveWest;(11, 10);False;1;1513
+;(14, 10);MoveWest;(11, 10);False;1;1514
+;(14, 10);MoveWest;(10, 10);False;1;1515
+;(14, 10);MoveWest;(10, 10);False;1;1516
+;(14, 10);MoveWest;(10, 10);False;1;1517
+;(14, 10);MoveWest;(10, 10);False;1;1518
+;(14, 10);MoveWest;(10, 10);False;1;1519
+;(14, 10);MoveWest;(10, 10);False;1;1520
+;(14, 10);MoveWest;(10, 10);False;1;1521
+;(14, 10);MoveWest;(10, 10);False;1;1522
+;(14, 10);MoveWest;(10, 10);False;1;1523
+;(14, 10);MoveWest;(10, 10);False;1;1524
+;(14, 10);MoveWest;(10, 10);False;1;1525
+;(14, 10);MoveWest;(9, 10);False;1;1526
+;(14, 10);;(9, 10);False;1;1527
+;(14, 10);MoveWest;(9, 10);False;1;1528
+;(14, 10);MoveWest;(9, 10);False;1;1529
+;(14, 10);MoveWest;(9, 10);False;1;1530
+;(14, 10);MoveWest;(9, 10);False;1;1531
+;(14, 10);MoveWest;(9, 10);False;1;1532
+;(14, 10);MoveWest;(9, 10);False;1;1533
+;(14, 10);MoveWest;(9, 10);False;1;1534
+;(14, 10);MoveWest;(9, 10);False;1;1535
+;(14, 10);MoveWest;(9, 10);False;1;1536
+;(14, 10);MoveWest;(9, 10);False;1;1537
+;(14, 10);MoveWest;(8, 10);False;1;1538
+;(14, 10);MoveWest;(8, 10);False;1;1539
+;(14, 10);MoveWest;(8, 10);False;1;1540
+;(14, 10);MoveWest;(8, 10);False;1;1541
+;(14, 10);MoveWest;(8, 10);False;1;1542
+;(14, 10);MoveWest;(8, 10);False;1;1543
+;(14, 10);MoveWest;(8, 10);False;1;1544
+;(14, 10);MoveWest;(8, 10);False;1;1545
+;(14, 10);MoveWest;(8, 10);False;1;1546
+;(14, 10);MoveWest;(8, 10);False;1;1547
+;(14, 10);MoveWest;(8, 10);False;1;1548
+;(14, 10);MoveWest;(7, 10);False;1;1549
+;(14, 10);MoveWest;(7, 10);False;1;1550
+;(14, 10);MoveWest;(7, 10);False;1;1551
+;(14, 10);MoveWest;(7, 10);False;1;1552
+;(14, 10);MoveWest;(7, 10);False;1;1553
+;(14, 10);MoveWest;(7, 10);False;1;1554
+;(14, 10);MoveWest;(7, 10);False;1;1555
+;(14, 10);MoveWest;(7, 10);False;1;1556
+;(14, 10);MoveWest;(7, 10);False;1;1557
+;(14, 10);MoveWest;(7, 10);False;1;1558
+;(14, 10);MoveWest;(7, 10);False;1;1559
+;(14, 10);MoveWest;(6, 10);False;1;1560
+;(14, 10);MoveWest;(6, 10);False;1;1561
+;(14, 10);MoveWest;(6, 10);False;1;1562
+;(14, 10);MoveWest;(6, 10);False;1;1563
+;(14, 10);MoveWest;(6, 10);False;1;1564
+;(14, 10);MoveWest;(6, 10);False;1;1565
+;(14, 10);MoveWest;(6, 10);False;1;1566
+;(14, 10);MoveWest;(6, 10);False;1;1567
+;(14, 10);MoveWest;(6, 10);False;1;1568
+;(14, 10);MoveWest;(6, 10);False;1;1569
+;(14, 10);MoveWest;(6, 10);False;1;1570
+;(14, 10);MoveWest;(5, 10);False;1;1571
+;(14, 10);MoveNorthWest;(5, 10);False;1;1572
+;(14, 10);MoveNorthWest;(5, 10);False;1;1573
+;(14, 10);MoveNorthWest;(5, 10);False;1;1574
+;(14, 10);MoveNorthWest;(5, 10);False;1;1575
+;(14, 10);MoveNorthWest;(5, 10);False;1;1576
+;(14, 10);MoveNorthWest;(5, 10);False;1;1577
+;(14, 10);MoveNorthWest;(5, 10);False;1;1578
+;(14, 10);MoveNorthWest;(5, 10);False;1;1579
+;(14, 10);MoveNorthWest;(5, 10);False;1;1580
+;(14, 10);MoveNorthWest;(5, 10);False;1;1581
+;(14, 10);MoveNorthWest;(4, 9);False;1;1582
+;(14, 10);MoveWest;(4, 9);False;1;1583
+;(14, 10);MoveWest;(4, 9);False;1;1584
+;(14, 10);MoveWest;(4, 9);False;1;1585
+;(14, 10);MoveWest;(4, 9);False;1;1586
+;(14, 10);MoveWest;(4, 9);False;1;1587
+;(14, 10);MoveWest;(4, 9);False;1;1588
+;(14, 10);MoveWest;(4, 9);False;1;1589
+;(14, 10);MoveWest;(4, 9);False;1;1590
+;(14, 10);MoveWest;(4, 9);False;1;1591
+;(14, 10);MoveWest;(4, 9);False;1;1592
+;(14, 10);MoveWest;(3, 9);False;1;1593
+;(14, 10);MoveNorthWest;(3, 9);False;1;1594
+;(14, 10);MoveNorthWest;(3, 9);False;1;1595
+;(14, 10);MoveNorthWest;(3, 9);False;1;1596
+;(14, 10);MoveNorthWest;(3, 9);False;1;1597
+MoveWest;(13, 10);MoveNorthWest;(3, 9);False;1;1598
+;(13, 10);MoveNorthWest;(3, 9);False;1;1599
+;(13, 10);MoveNorthWest;(3, 9);False;1;1600
+;(13, 10);MoveNorthWest;(3, 9);False;1;1601
+;(13, 10);MoveNorthWest;(3, 9);False;1;1602
+;(13, 10);MoveNorthWest;(3, 9);False;1;1603
+MoveWest;(12, 10);MoveNorthWest;(2, 8);False;1;1604
+;(12, 10);MoveWest;(2, 8);False;1;1605
+;(12, 10);MoveWest;(2, 8);False;1;1606
+MoveWest;(11, 10);MoveWest;(2, 8);False;1;1607
+;(11, 10);MoveWest;(2, 8);False;1;1608
+;(11, 10);MoveWest;(2, 8);False;1;1609
+MoveWest;(10, 10);MoveWest;(2, 8);False;1;1610
+;(10, 10);MoveWest;(2, 8);False;1;1611
+;(10, 10);MoveWest;(2, 8);False;1;1612
+;(10, 10);MoveWest;(2, 8);False;1;1613
+MoveWest;(9, 10);MoveWest;(2, 8);False;1;1614
+;(9, 10);MoveWest;(1, 8);False;1;1615
+;(9, 10);DropLargeObject;(1, 8);False;1;1616
+;(9, 10);DropLargeObject;(1, 8);False;1;1617
+;(9, 10);DropLargeObject;(1, 8);False;1;1618
+;(9, 10);DropLargeObject;(1, 8);False;1;1619
+;(9, 10);DropLargeObject;(1, 8);False;1;1620
+;(9, 10);DropLargeObject;(1, 8);False;1;1621
+;(9, 10);DropLargeObject;(1, 8);False;1;1622
+;(9, 10);DropLargeObject;(1, 8);False;1;1623
+MoveWest;(8, 10);DropLargeObject;(1, 8);False;1;1624
+;(8, 10);DropLargeObject;(1, 8);False;1;1625
+;(8, 10);DropLargeObject;(1, 8);False;1;1626
+;(8, 10);;(1, 8);False;1;1627
+;(8, 10);MoveNorthEast;(1, 8);False;1;1628
+;(8, 10);MoveNorthEast;(1, 8);False;1;1629
+;(8, 10);MoveNorthEast;(1, 8);False;1;1630
+;(8, 10);MoveNorthEast;(1, 8);False;1;1631
+;(8, 10);MoveNorthEast;(1, 8);False;1;1632
+;(8, 10);MoveNorthEast;(1, 8);False;1;1633
+;(8, 10);MoveNorthEast;(1, 8);False;1;1634
+;(8, 10);MoveNorthEast;(1, 8);False;1;1635
+;(8, 10);MoveNorthEast;(1, 8);False;1;1636
+;(8, 10);MoveNorthEast;(1, 8);False;1;1637
+;(8, 10);MoveNorthEast;(2, 7);False;1;1638
+GrabObject;(8, 10);MoveEast;(2, 7);False;1;1639
+;(8, 10);MoveEast;(2, 7);False;1;1640
+;(8, 10);MoveEast;(2, 7);False;1;1641
+;(8, 10);MoveEast;(2, 7);False;1;1642
+;(8, 10);MoveEast;(2, 7);False;1;1643
+;(8, 10);MoveEast;(2, 7);False;1;1644
+;(8, 10);MoveEast;(2, 7);False;1;1645
+;(8, 10);MoveEast;(2, 7);False;1;1646
+MoveEast;(9, 10);MoveEast;(2, 7);False;1;1647
+;(9, 10);MoveEast;(2, 7);False;1;1648
+;(9, 10);MoveEast;(3, 7);False;1;1649
+;(9, 10);MoveNorthEast;(3, 7);False;1;1650
+MoveEast;(10, 10);MoveNorthEast;(3, 7);False;1;1651
+;(10, 10);MoveNorthEast;(3, 7);False;1;1652
+MoveEast;(11, 10);MoveNorthEast;(3, 7);False;1;1653
+;(11, 10);MoveNorthEast;(3, 7);False;1;1654
+;(11, 10);MoveNorthEast;(3, 7);False;1;1655
+MoveEast;(12, 10);MoveNorthEast;(3, 7);False;1;1656
+;(12, 10);MoveNorthEast;(3, 7);False;1;1657
+;(12, 10);MoveNorthEast;(3, 7);False;1;1658
+MoveEast;(13, 10);MoveNorthEast;(3, 7);False;1;1659
+;(13, 10);MoveNorthEast;(4, 6);False;1;1660
+;(13, 10);MoveNorthEast;(4, 6);False;1;1661
+;(13, 10);MoveNorthEast;(4, 6);False;1;1662
+DropObject;(13, 10);MoveNorthEast;(4, 6);False;1;1663
+;(13, 10);MoveNorthEast;(4, 6);False;1;1664
+;(13, 10);MoveNorthEast;(4, 6);False;1;1665
+;(13, 10);MoveNorthEast;(4, 6);False;1;1666
+;(13, 10);MoveNorthEast;(4, 6);False;1;1667
+;(13, 10);MoveNorthEast;(4, 6);False;1;1668
+;(13, 10);MoveNorthEast;(4, 6);False;1;1669
+;(13, 10);MoveNorthEast;(4, 6);False;1;1670
+;(13, 10);MoveNorthEast;(5, 5);False;1;1671
+MoveWest;(12, 10);MoveNorthEast;(5, 5);False;1;1672
+;(12, 10);MoveNorthEast;(5, 5);False;1;1673
+;(12, 10);MoveNorthEast;(5, 5);False;1;1674
+;(12, 10);MoveNorthEast;(5, 5);False;1;1675
+MoveWest;(11, 10);MoveNorthEast;(5, 5);False;1;1676
+;(11, 10);MoveNorthEast;(5, 5);False;1;1677
+;(11, 10);MoveNorthEast;(5, 5);False;1;1678
+MoveWest;(10, 10);MoveNorthEast;(5, 5);False;1;1679
+;(10, 10);MoveNorthEast;(5, 5);False;1;1680
+;(10, 10);MoveNorthEast;(5, 5);False;1;1681
+MoveWest;(9, 10);MoveNorthEast;(6, 4);False;1;1682
+;(9, 10);MoveNorthEast;(6, 4);False;1;1683
+;(9, 10);MoveNorthEast;(6, 4);False;1;1684
+;(9, 10);MoveNorthEast;(6, 4);False;1;1685
+MoveWest;(8, 10);MoveNorthEast;(6, 4);False;1;1686
+;(8, 10);MoveNorthEast;(6, 4);False;1;1687
+;(8, 10);MoveNorthEast;(6, 4);False;1;1688
+;(8, 10);MoveNorthEast;(6, 4);False;1;1689
+;(8, 10);MoveNorthEast;(6, 4);False;1;1690
+DropObject;(8, 10);MoveNorthEast;(6, 4);False;1;1691
+;(8, 10);MoveNorthEast;(6, 4);False;1;1692
+;(8, 10);MoveNorthEast;(7, 3);False;1;1693
+;(8, 10);MoveEast;(7, 3);False;1;1694
+;(8, 10);MoveEast;(7, 3);False;1;1695
+MoveEast;(9, 10);MoveEast;(7, 3);False;1;1696
+;(9, 10);MoveEast;(7, 3);False;1;1697
+;(9, 10);MoveEast;(7, 3);False;1;1698
+MoveEast;(10, 10);MoveEast;(7, 3);False;1;1699
+;(10, 10);MoveEast;(7, 3);False;1;1700
+;(10, 10);MoveEast;(7, 3);False;1;1701
+MoveEast;(11, 10);MoveEast;(7, 3);False;1;1702
+;(11, 10);MoveEast;(7, 3);False;1;1703
+;(11, 10);MoveEast;(8, 3);False;1;1704
+;(11, 10);MoveNorthEast;(8, 3);False;1;1705
+MoveWest;(10, 10);MoveNorthEast;(8, 3);False;1;1706
+;(10, 10);MoveNorthEast;(8, 3);False;1;1707
+;(10, 10);MoveNorthEast;(8, 3);False;1;1708
+;(10, 10);MoveNorthEast;(8, 3);False;1;1709
+MoveWest;(9, 10);MoveNorthEast;(8, 3);False;1;1710
+;(9, 10);MoveNorthEast;(8, 3);False;1;1711
+;(9, 10);MoveNorthEast;(8, 3);False;1;1712
+MoveWest;(8, 10);MoveNorthEast;(8, 3);False;1;1713
+;(8, 10);MoveNorthEast;(8, 3);False;1;1714
+;(8, 10);MoveNorthEast;(9, 2);False;1;1715
+;(8, 10);MoveEast;(9, 2);False;1;1716
+;(8, 10);MoveEast;(9, 2);False;1;1717
+GrabObject;(8, 10);MoveEast;(9, 2);False;1;1718
+;(8, 10);MoveEast;(9, 2);False;1;1719
+;(8, 10);MoveEast;(9, 2);False;1;1720
+;(8, 10);MoveEast;(9, 2);False;1;1721
+MoveEast;(9, 10);MoveEast;(9, 2);False;1;1722
+;(9, 10);MoveEast;(9, 2);False;1;1723
+;(9, 10);MoveEast;(9, 2);False;1;1724
+MoveEast;(10, 10);MoveEast;(9, 2);False;1;1725
+;(10, 10);MoveEast;(10, 2);False;1;1726
+;(10, 10);GrabObject;(10, 2);False;1;1727
+MoveEast;(11, 10);GrabObject;(10, 2);False;1;1728
+;(11, 10);GrabObject;(10, 2);False;1;1729
+;(11, 10);GrabObject;(10, 2);False;1;1730
+MoveEast;(12, 10);GrabObject;(10, 2);False;1;1731
+;(12, 10);GrabObject;(10, 2);False;1;1732
+;(12, 10);GrabObject;(10, 2);False;1;1733
+MoveEast;(13, 10);GrabObject;(10, 2);False;1;1734
+;(13, 10);GrabObject;(10, 2);False;1;1735
+MoveEast;(14, 10);GrabObject;(10, 2);False;1;1736
+;(14, 10);GrabObject;(10, 2);False;1;1737
+;(14, 10);;(10, 2);False;1;1738
+MoveEast;(15, 10);MoveWest;(10, 2);False;1;1739
+;(15, 10);MoveWest;(10, 2);False;1;1740
+DropObject;(15, 10);MoveWest;(10, 2);False;1;1741
+;(15, 10);MoveWest;(10, 2);False;1;1742
+;(15, 10);MoveWest;(10, 2);False;1;1743
+;(15, 10);MoveWest;(10, 2);False;1;1744
+;(15, 10);MoveWest;(10, 2);False;1;1745
+;(15, 10);MoveWest;(10, 2);False;1;1746
+;(15, 10);MoveWest;(10, 2);False;1;1747
+;(15, 10);MoveWest;(10, 2);False;1;1748
+;(15, 10);MoveWest;(9, 2);False;1;1749
+;(15, 10);MoveWest;(9, 2);False;1;1750
+;(15, 10);MoveWest;(9, 2);False;1;1751
+;(15, 10);MoveWest;(9, 2);False;1;1752
+;(15, 10);MoveWest;(9, 2);False;1;1753
+;(15, 10);MoveWest;(9, 2);False;1;1754
+;(15, 10);MoveWest;(9, 2);False;1;1755
+;(15, 10);MoveWest;(9, 2);False;1;1756
+;(15, 10);MoveWest;(9, 2);False;1;1757
+MoveWest;(14, 10);MoveWest;(9, 2);False;1;1758
+;(14, 10);MoveWest;(9, 2);False;1;1759
+;(14, 10);MoveWest;(8, 2);False;1;1760
+MoveWest;(13, 10);MoveWest;(8, 2);False;1;1761
+;(13, 10);MoveWest;(8, 2);False;1;1762
+;(13, 10);MoveWest;(8, 2);False;1;1763
+;(13, 10);MoveWest;(8, 2);False;1;1764
+;(13, 10);MoveWest;(8, 2);False;1;1765
+;(13, 10);MoveWest;(8, 2);False;1;1766
+;(13, 10);MoveWest;(8, 2);False;1;1767
+GrabObject;(13, 10);MoveWest;(8, 2);False;1;1768
+;(13, 10);MoveWest;(8, 2);False;1;1769
+;(13, 10);MoveWest;(8, 2);False;1;1770
+;(13, 10);MoveWest;(7, 2);False;1;1771
+;(13, 10);;(7, 2);False;1;1772
+;(13, 10);;(7, 2);False;1;1773
+;(13, 10);;(7, 2);False;1;1774
+;(13, 10);;(7, 2);False;1;1775
+;(13, 10);;(7, 2);False;1;1776
+;(13, 10);;(7, 2);False;1;1777
+;(13, 10);;(7, 2);False;1;1778
+;(13, 10);;(7, 2);False;1;1779
+;(13, 10);;(7, 2);False;1;1780
+;(13, 10);;(7, 2);False;1;1781
+;(13, 10);;(7, 2);False;1;1782
+;(13, 10);;(7, 2);False;1;1783
+;(13, 10);;(7, 2);False;1;1784
+;(13, 10);;(7, 2);False;1;1785
+;(13, 10);;(7, 2);False;1;1786
+;(13, 10);;(7, 2);False;1;1787
+;(13, 10);;(7, 2);False;1;1788

@@ -1,0 +1,8 @@
+tick;corrected_tick;remaining_distance;victim_harm;idle_time_robot;q_table_cps;q_table_cps_runs;q_table_basic;world_nr;tick_nr
+3019;3000;26;0;2735;"                     Move top large rock  Move top small rock
+[4, 'equal', False]                -36.0                -2817
+[4, 'robot', False]                  9.0                    0
+[3, 'robot', False]                168.0                    0";"                     Move top large rock  Move top small rock
+[4, 'equal', False]                  1.0                    2
+[4, 'robot', False]                  1.0                    0
+[3, 'robot', False]                  4.0                    0";;1;3019
