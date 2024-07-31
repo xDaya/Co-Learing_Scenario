@@ -1,0 +1,6 @@
+tick;corrected_tick;remaining_distance;victim_harm;idle_time_robot;q_table_cps;q_table_cps_runs;q_table_basic;world_nr;tick_nr
+3019;3000;35;0;2999;"                     Label 0  Label  Breaking large rock pile
+[4, 'equal', True]       NaN    NaN                   -2570.0
+[4, 'equal', False]      NaN    NaN                   -3084.0";"                     Label 0  Label  Breaking large rock pile
+[4, 'equal', True]       NaN    NaN                       1.0
+[4, 'equal', False]      NaN    NaN                       1.0";;1;3019
