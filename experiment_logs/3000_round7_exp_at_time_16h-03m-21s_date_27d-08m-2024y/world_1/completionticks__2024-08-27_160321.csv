@@ -1,0 +1,16 @@
+tick;corrected_tick;remaining_distance;victim_harm;idle_time_robot;q_table_cps;q_table_cps_runs;q_table_basic;world_nr;tick_nr
+3019;3000;26;700;1515;"                     large_rock_top  small_rock_top  small_rock_bottom  large_rock_bottom
+[3, 'human', False]             0.0             0.0                0.0                0.0
+[2, 'human', True]              0.0             0.0            -1208.0                0.0
+[4, 'equal', False]          -279.0         -2288.0               -3.0                0.0
+[4, 'equal', True]           -101.0         -1330.0                0.0                0.0
+[4, 'robot', False]             NaN             6.0                0.0                0.0
+[3, 'equal', False]             NaN           -77.0                0.0                0.0
+[3, 'human', True]              NaN             NaN                NaN            -1551.0";"                     large_rock_top  small_rock_top  small_rock_bottom  large_rock_bottom
+[3, 'human', False]             0.0             0.0                0.0                0.0
+[2, 'human', True]              0.0             0.0                1.0                0.0
+[4, 'equal', False]             2.0             2.0                2.0                0.0
+[4, 'equal', True]              2.0             2.0                0.0                0.0
+[4, 'robot', False]             NaN             1.0                0.0                0.0
+[3, 'equal', False]             NaN             1.0                0.0                0.0
+[3, 'human', True]              NaN             NaN                NaN                1.0";;1;3019

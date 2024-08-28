@@ -1,0 +1,3021 @@
+human_selector_action;human_selector_location;robot_action;robot_location;robot_executing_cp;world_nr;tick_nr
+;(3, 4);;(4, 4);False;1;0
+;(3, 4);;(4, 4);False;1;1
+;(3, 4);Idle;(4, 4);False;1;2
+;(3, 4);Idle;(4, 4);False;1;3
+;(3, 4);Idle;(4, 4);False;1;4
+;(3, 4);Idle;(4, 4);False;1;5
+;(3, 4);Idle;(4, 4);False;1;6
+;(3, 4);Idle;(4, 4);False;1;7
+;(3, 4);Idle;(4, 4);False;1;8
+;(3, 4);Idle;(4, 4);False;1;9
+;(3, 4);Idle;(4, 4);False;1;10
+;(3, 4);Idle;(4, 4);False;1;11
+;(3, 4);Idle;(4, 4);False;1;12
+;(3, 4);Idle;(4, 4);False;1;13
+;(3, 4);Idle;(4, 4);False;1;14
+;(3, 4);Idle;(4, 4);False;1;15
+;(3, 4);Idle;(4, 4);False;1;16
+;(3, 4);Idle;(4, 4);False;1;17
+;(3, 4);Idle;(4, 4);False;1;18
+;(3, 4);Idle;(4, 4);False;1;19
+;(3, 4);Idle;(4, 4);False;1;20
+;(3, 4);Idle;(4, 4);False;1;21
+;(3, 4);Idle;(4, 4);False;1;22
+;(3, 4);Idle;(4, 4);False;1;23
+;(3, 4);Idle;(4, 4);False;1;24
+;(3, 4);Idle;(4, 4);False;1;25
+;(3, 4);Idle;(4, 4);False;1;26
+;(3, 4);Idle;(4, 4);False;1;27
+;(3, 4);Idle;(4, 4);False;1;28
+;(3, 4);Idle;(4, 4);False;1;29
+;(3, 4);Idle;(4, 4);False;1;30
+;(3, 4);Idle;(4, 4);False;1;31
+;(3, 4);Idle;(4, 4);False;1;32
+;(3, 4);Idle;(4, 4);False;1;33
+;(3, 4);Idle;(4, 4);False;1;34
+;(3, 4);Idle;(4, 4);False;1;35
+;(3, 4);Idle;(4, 4);False;1;36
+;(3, 4);Idle;(4, 4);False;1;37
+;(3, 4);Idle;(4, 4);False;1;38
+;(3, 4);Idle;(4, 4);False;1;39
+;(3, 4);Idle;(4, 4);False;1;40
+;(3, 4);Idle;(4, 4);False;1;41
+;(3, 4);Idle;(4, 4);False;1;42
+;(3, 4);Idle;(4, 4);False;1;43
+;(3, 4);Idle;(4, 4);False;1;44
+;(3, 4);Idle;(4, 4);False;1;45
+;(3, 4);Idle;(4, 4);False;1;46
+;(3, 4);Idle;(4, 4);False;1;47
+;(3, 4);Idle;(4, 4);False;1;48
+;(3, 4);Idle;(4, 4);False;1;49
+;(3, 4);Idle;(4, 4);False;1;50
+;(3, 4);Idle;(4, 4);False;1;51
+;(3, 4);Idle;(4, 4);False;1;52
+;(3, 4);Idle;(4, 4);False;1;53
+;(3, 4);Idle;(4, 4);False;1;54
+;(3, 4);Idle;(4, 4);False;1;55
+;(3, 4);Idle;(4, 4);False;1;56
+;(3, 4);;(4, 4);False;1;57
+;(3, 4);MoveSouthEast;(4, 4);False;1;58
+;(3, 4);MoveSouthEast;(4, 4);False;1;59
+;(3, 4);MoveSouthEast;(4, 4);False;1;60
+;(3, 4);MoveSouthEast;(4, 4);False;1;61
+;(3, 4);MoveSouthEast;(4, 4);False;1;62
+;(3, 4);MoveSouthEast;(4, 4);False;1;63
+;(3, 4);MoveSouthEast;(4, 4);False;1;64
+;(3, 4);MoveSouthEast;(4, 4);False;1;65
+;(3, 4);MoveSouthEast;(4, 4);False;1;66
+;(3, 4);MoveSouthEast;(4, 4);False;1;67
+;(3, 4);MoveSouthEast;(5, 5);False;1;68
+;(3, 4);MoveEast;(5, 5);False;1;69
+;(3, 4);MoveEast;(5, 5);False;1;70
+;(3, 4);MoveEast;(5, 5);False;1;71
+;(3, 4);MoveEast;(5, 5);False;1;72
+;(3, 4);MoveEast;(5, 5);False;1;73
+;(3, 4);MoveEast;(5, 5);False;1;74
+;(3, 4);MoveEast;(5, 5);False;1;75
+;(3, 4);MoveEast;(5, 5);False;1;76
+;(3, 4);MoveEast;(5, 5);False;1;77
+;(3, 4);MoveEast;(5, 5);False;1;78
+;(3, 4);MoveEast;(6, 5);False;1;79
+;(3, 4);MoveSouthEast;(6, 5);False;1;80
+;(3, 4);MoveSouthEast;(6, 5);False;1;81
+;(3, 4);MoveSouthEast;(6, 5);False;1;82
+;(3, 4);MoveSouthEast;(6, 5);False;1;83
+;(3, 4);MoveSouthEast;(6, 5);False;1;84
+;(3, 4);MoveSouthEast;(6, 5);False;1;85
+;(3, 4);MoveSouthEast;(6, 5);False;1;86
+;(3, 4);MoveSouthEast;(6, 5);False;1;87
+;(3, 4);MoveSouthEast;(6, 5);False;1;88
+;(3, 4);MoveSouthEast;(6, 5);False;1;89
+;(3, 4);MoveSouthEast;(7, 6);False;1;90
+;(3, 4);GrabLargeObject;(7, 6);False;1;91
+;(3, 4);GrabLargeObject;(7, 6);False;1;92
+;(3, 4);GrabLargeObject;(7, 6);False;1;93
+;(3, 4);GrabLargeObject;(7, 6);False;1;94
+;(3, 4);GrabLargeObject;(7, 6);False;1;95
+;(3, 4);GrabLargeObject;(7, 6);False;1;96
+;(3, 4);GrabLargeObject;(7, 6);False;1;97
+;(3, 4);GrabLargeObject;(7, 6);False;1;98
+;(3, 4);GrabLargeObject;(7, 6);False;1;99
+;(3, 4);GrabLargeObject;(7, 6);False;1;100
+;(3, 4);GrabLargeObject;(7, 6);False;1;101
+;(3, 4);;(7, 6);False;1;102
+;(3, 4);MoveEast;(7, 6);False;1;103
+;(3, 4);MoveEast;(7, 6);False;1;104
+;(3, 4);MoveEast;(7, 6);False;1;105
+;(3, 4);MoveEast;(7, 6);False;1;106
+;(3, 4);MoveEast;(7, 6);False;1;107
+;(3, 4);MoveEast;(7, 6);False;1;108
+;(3, 4);MoveEast;(7, 6);False;1;109
+;(3, 4);MoveEast;(7, 6);False;1;110
+;(3, 4);MoveEast;(7, 6);False;1;111
+;(3, 4);MoveEast;(7, 6);False;1;112
+;(3, 4);MoveEast;(8, 6);False;1;113
+;(3, 4);MoveEast;(8, 6);False;1;114
+;(3, 4);MoveEast;(8, 6);False;1;115
+;(3, 4);MoveEast;(8, 6);False;1;116
+;(3, 4);MoveEast;(8, 6);False;1;117
+;(3, 4);MoveEast;(8, 6);False;1;118
+;(3, 4);MoveEast;(8, 6);False;1;119
+;(3, 4);MoveEast;(8, 6);False;1;120
+;(3, 4);MoveEast;(8, 6);False;1;121
+;(3, 4);MoveEast;(8, 6);False;1;122
+;(3, 4);MoveEast;(8, 6);False;1;123
+;(3, 4);MoveEast;(9, 6);False;1;124
+;(3, 4);MoveWest;(9, 6);False;1;125
+;(3, 4);MoveWest;(9, 6);False;1;126
+;(3, 4);MoveWest;(9, 6);False;1;127
+;(3, 4);MoveWest;(9, 6);False;1;128
+;(3, 4);MoveWest;(9, 6);False;1;129
+;(3, 4);MoveWest;(9, 6);False;1;130
+;(3, 4);MoveWest;(9, 6);False;1;131
+;(3, 4);MoveWest;(9, 6);False;1;132
+;(3, 4);MoveWest;(9, 6);False;1;133
+;(3, 4);MoveWest;(9, 6);False;1;134
+;(3, 4);MoveWest;(8, 6);False;1;135
+;(3, 4);MoveWest;(8, 6);False;1;136
+;(3, 4);MoveWest;(8, 6);False;1;137
+;(3, 4);MoveWest;(8, 6);False;1;138
+;(3, 4);MoveWest;(8, 6);False;1;139
+;(3, 4);MoveWest;(8, 6);False;1;140
+;(3, 4);MoveWest;(8, 6);False;1;141
+;(3, 4);MoveWest;(8, 6);False;1;142
+;(3, 4);MoveWest;(8, 6);False;1;143
+;(3, 4);MoveWest;(8, 6);False;1;144
+;(3, 4);MoveWest;(8, 6);False;1;145
+;(3, 4);MoveWest;(7, 6);False;1;146
+;(3, 4);MoveEast;(7, 6);False;1;147
+;(3, 4);MoveEast;(7, 6);False;1;148
+;(3, 4);MoveEast;(7, 6);False;1;149
+;(3, 4);MoveEast;(7, 6);False;1;150
+;(3, 4);MoveEast;(7, 6);False;1;151
+;(3, 4);MoveEast;(7, 6);False;1;152
+;(3, 4);MoveEast;(7, 6);False;1;153
+;(3, 4);MoveEast;(7, 6);False;1;154
+;(3, 4);MoveEast;(7, 6);False;1;155
+;(3, 4);MoveEast;(7, 6);False;1;156
+;(3, 4);MoveEast;(8, 6);False;1;157
+;(3, 4);MoveEast;(8, 6);False;1;158
+;(3, 4);MoveEast;(8, 6);False;1;159
+;(3, 4);MoveEast;(8, 6);False;1;160
+;(3, 4);MoveEast;(8, 6);False;1;161
+;(3, 4);MoveEast;(8, 6);False;1;162
+;(3, 4);MoveEast;(8, 6);False;1;163
+;(3, 4);MoveEast;(8, 6);False;1;164
+;(3, 4);MoveEast;(8, 6);False;1;165
+;(3, 4);MoveEast;(8, 6);False;1;166
+;(3, 4);MoveEast;(8, 6);False;1;167
+;(3, 4);MoveEast;(9, 6);False;1;168
+;(3, 4);MoveWest;(9, 6);False;1;169
+;(3, 4);MoveWest;(9, 6);False;1;170
+;(3, 4);MoveWest;(9, 6);False;1;171
+;(3, 4);MoveWest;(9, 6);False;1;172
+;(3, 4);MoveWest;(9, 6);False;1;173
+;(3, 4);MoveWest;(9, 6);False;1;174
+;(3, 4);MoveWest;(9, 6);False;1;175
+;(3, 4);MoveWest;(9, 6);False;1;176
+;(3, 4);MoveWest;(9, 6);False;1;177
+;(3, 4);MoveWest;(9, 6);False;1;178
+;(3, 4);MoveWest;(8, 6);False;1;179
+;(3, 4);MoveWest;(8, 6);False;1;180
+;(3, 4);MoveWest;(8, 6);False;1;181
+;(3, 4);MoveWest;(8, 6);False;1;182
+;(3, 4);MoveWest;(8, 6);False;1;183
+;(3, 4);MoveWest;(8, 6);False;1;184
+;(3, 4);MoveWest;(8, 6);False;1;185
+;(3, 4);MoveWest;(8, 6);False;1;186
+;(3, 4);MoveWest;(8, 6);False;1;187
+;(3, 4);MoveWest;(8, 6);False;1;188
+;(3, 4);MoveWest;(8, 6);False;1;189
+;(3, 4);MoveWest;(7, 6);False;1;190
+;(3, 4);MoveEast;(7, 6);False;1;191
+;(3, 4);MoveEast;(7, 6);False;1;192
+;(3, 4);MoveEast;(7, 6);False;1;193
+;(3, 4);MoveEast;(7, 6);False;1;194
+;(3, 4);MoveEast;(7, 6);False;1;195
+;(3, 4);MoveEast;(7, 6);False;1;196
+;(3, 4);MoveEast;(7, 6);False;1;197
+;(3, 4);MoveEast;(7, 6);False;1;198
+;(3, 4);MoveEast;(7, 6);False;1;199
+;(3, 4);MoveEast;(7, 6);False;1;200
+;(3, 4);MoveEast;(8, 6);False;1;201
+;(3, 4);MoveEast;(8, 6);False;1;202
+;(3, 4);MoveEast;(8, 6);False;1;203
+;(3, 4);MoveEast;(8, 6);False;1;204
+;(3, 4);MoveEast;(8, 6);False;1;205
+;(3, 4);MoveEast;(8, 6);False;1;206
+;(3, 4);MoveEast;(8, 6);False;1;207
+;(3, 4);MoveEast;(8, 6);False;1;208
+;(3, 4);MoveEast;(8, 6);False;1;209
+;(3, 4);MoveEast;(8, 6);False;1;210
+;(3, 4);MoveEast;(8, 6);False;1;211
+;(3, 4);MoveEast;(9, 6);False;1;212
+;(3, 4);MoveWest;(9, 6);False;1;213
+;(3, 4);MoveWest;(9, 6);False;1;214
+;(3, 4);MoveWest;(9, 6);False;1;215
+;(3, 4);MoveWest;(9, 6);False;1;216
+;(3, 4);MoveWest;(9, 6);False;1;217
+;(3, 4);MoveWest;(9, 6);False;1;218
+;(3, 4);MoveWest;(9, 6);False;1;219
+;(3, 4);MoveWest;(9, 6);False;1;220
+;(3, 4);MoveWest;(9, 6);False;1;221
+;(3, 4);MoveWest;(9, 6);False;1;222
+;(3, 4);MoveWest;(8, 6);False;1;223
+;(3, 4);MoveWest;(8, 6);False;1;224
+;(3, 4);MoveWest;(8, 6);False;1;225
+;(3, 4);MoveWest;(8, 6);False;1;226
+;(3, 4);MoveWest;(8, 6);False;1;227
+;(3, 4);MoveWest;(8, 6);False;1;228
+;(3, 4);MoveWest;(8, 6);False;1;229
+;(3, 4);MoveWest;(8, 6);False;1;230
+;(3, 4);MoveWest;(8, 6);False;1;231
+;(3, 4);MoveWest;(8, 6);False;1;232
+;(3, 4);MoveWest;(8, 6);False;1;233
+;(3, 4);MoveWest;(7, 6);False;1;234
+;(3, 4);;(7, 6);False;1;235
+;(3, 4);MoveSouth;(7, 6);False;1;236
+;(3, 4);MoveSouth;(7, 6);False;1;237
+;(3, 4);MoveSouth;(7, 6);False;1;238
+;(3, 4);MoveSouth;(7, 6);False;1;239
+;(3, 4);MoveSouth;(7, 6);False;1;240
+;(3, 4);MoveSouth;(7, 6);False;1;241
+;(3, 4);MoveSouth;(7, 6);False;1;242
+;(3, 4);MoveSouth;(7, 6);False;1;243
+;(3, 4);MoveSouth;(7, 6);False;1;244
+;(3, 4);MoveSouth;(7, 6);False;1;245
+;(3, 4);MoveSouth;(7, 7);False;1;246
+;(3, 4);BreakObject;(7, 7);False;1;247
+;(3, 4);BreakObject;(7, 7);False;1;248
+;(3, 4);BreakObject;(7, 7);False;1;249
+;(3, 4);BreakObject;(7, 7);False;1;250
+MoveEast;(4, 4);BreakObject;(7, 7);False;1;251
+;(4, 4);BreakObject;(7, 7);False;1;252
+;(4, 4);BreakObject;(7, 7);False;1;253
+;(4, 4);BreakObject;(7, 7);False;1;254
+;(4, 4);BreakObject;(7, 7);False;1;255
+;(4, 4);BreakObject;(7, 7);False;1;256
+;(4, 4);BreakObject;(7, 7);False;1;257
+;(4, 4);;(7, 7);False;1;258
+MoveEast;(5, 4);MoveWest;(7, 7);False;1;259
+MoveEast;(6, 4);MoveWest;(7, 7);False;1;260
+MoveEast;(7, 4);MoveWest;(7, 7);False;1;261
+MoveEast;(8, 4);MoveWest;(7, 7);False;1;262
+MoveEast;(9, 4);MoveWest;(7, 7);False;1;263
+MoveEast;(10, 4);MoveWest;(7, 7);False;1;264
+MoveEast;(11, 4);MoveWest;(7, 7);False;1;265
+MoveEast;(12, 4);MoveWest;(7, 7);False;1;266
+MoveEast;(13, 4);MoveWest;(7, 7);False;1;267
+MoveEast;(14, 4);MoveWest;(7, 7);False;1;268
+MoveEast;(15, 4);MoveWest;(6, 7);False;1;269
+;(15, 4);MoveWest;(6, 7);False;1;270
+;(15, 4);MoveWest;(6, 7);False;1;271
+;(15, 4);MoveWest;(6, 7);False;1;272
+;(15, 4);MoveWest;(6, 7);False;1;273
+;(15, 4);MoveWest;(6, 7);False;1;274
+;(15, 4);MoveWest;(6, 7);False;1;275
+;(15, 4);MoveWest;(6, 7);False;1;276
+;(15, 4);MoveWest;(6, 7);False;1;277
+;(15, 4);MoveWest;(6, 7);False;1;278
+;(15, 4);MoveWest;(6, 7);False;1;279
+;(15, 4);MoveWest;(5, 7);False;1;280
+MoveWest;(14, 4);MoveNorthWest;(5, 7);False;1;281
+;(14, 4);MoveNorthWest;(5, 7);False;1;282
+;(14, 4);MoveNorthWest;(5, 7);False;1;283
+;(14, 4);MoveNorthWest;(5, 7);False;1;284
+MoveWest;(13, 4);MoveNorthWest;(5, 7);False;1;285
+;(13, 4);MoveNorthWest;(5, 7);False;1;286
+;(13, 4);MoveNorthWest;(5, 7);False;1;287
+;(13, 4);MoveNorthWest;(5, 7);False;1;288
+MoveWest;(12, 4);MoveNorthWest;(5, 7);False;1;289
+;(12, 4);MoveNorthWest;(5, 7);False;1;290
+;(12, 4);MoveNorthWest;(4, 6);False;1;291
+;(12, 4);MoveWest;(4, 6);False;1;292
+;(12, 4);MoveWest;(4, 6);False;1;293
+;(12, 4);MoveWest;(4, 6);False;1;294
+;(12, 4);MoveWest;(4, 6);False;1;295
+;(12, 4);MoveWest;(4, 6);False;1;296
+;(12, 4);MoveWest;(4, 6);False;1;297
+;(12, 4);MoveWest;(4, 6);False;1;298
+;(12, 4);MoveWest;(4, 6);False;1;299
+;(12, 4);MoveWest;(4, 6);False;1;300
+;(12, 4);MoveWest;(4, 6);False;1;301
+;(12, 4);MoveWest;(3, 6);False;1;302
+;(12, 4);MoveNorthWest;(3, 6);False;1;303
+;(12, 4);MoveNorthWest;(3, 6);False;1;304
+MoveWest;(11, 4);MoveNorthWest;(3, 6);False;1;305
+;(11, 4);MoveNorthWest;(3, 6);False;1;306
+;(11, 4);MoveNorthWest;(3, 6);False;1;307
+;(11, 4);MoveNorthWest;(3, 6);False;1;308
+;(11, 4);MoveNorthWest;(3, 6);False;1;309
+;(11, 4);MoveNorthWest;(3, 6);False;1;310
+;(11, 4);MoveNorthWest;(3, 6);False;1;311
+;(11, 4);MoveNorthWest;(3, 6);False;1;312
+;(11, 4);MoveNorthWest;(2, 5);False;1;313
+;(11, 4);MoveWest;(2, 5);False;1;314
+;(11, 4);MoveWest;(2, 5);False;1;315
+;(11, 4);MoveWest;(2, 5);False;1;316
+;(11, 4);MoveWest;(2, 5);False;1;317
+;(11, 4);MoveWest;(2, 5);False;1;318
+;(11, 4);MoveWest;(2, 5);False;1;319
+;(11, 4);MoveWest;(2, 5);False;1;320
+;(11, 4);MoveWest;(2, 5);False;1;321
+;(11, 4);MoveWest;(2, 5);False;1;322
+;(11, 4);MoveWest;(2, 5);False;1;323
+;(11, 4);MoveWest;(1, 5);False;1;324
+;(11, 4);DropLargeObject;(1, 5);False;1;325
+;(11, 4);DropLargeObject;(1, 5);False;1;326
+;(11, 4);DropLargeObject;(1, 5);False;1;327
+;(11, 4);DropLargeObject;(1, 5);False;1;328
+;(11, 4);DropLargeObject;(1, 5);False;1;329
+;(11, 4);DropLargeObject;(1, 5);False;1;330
+;(11, 4);DropLargeObject;(1, 5);False;1;331
+;(11, 4);DropLargeObject;(1, 5);False;1;332
+;(11, 4);DropLargeObject;(1, 5);False;1;333
+;(11, 4);DropLargeObject;(1, 5);False;1;334
+;(11, 4);DropLargeObject;(1, 5);False;1;335
+MoveWest;(10, 4);;(1, 5);False;1;336
+;(10, 4);MoveEast;(1, 5);False;1;337
+;(10, 4);MoveEast;(1, 5);False;1;338
+;(10, 4);MoveEast;(1, 5);False;1;339
+;(10, 4);MoveEast;(1, 5);False;1;340
+;(10, 4);MoveEast;(1, 5);False;1;341
+;(10, 4);MoveEast;(1, 5);False;1;342
+;(10, 4);MoveEast;(1, 5);False;1;343
+;(10, 4);MoveEast;(1, 5);False;1;344
+;(10, 4);MoveEast;(1, 5);False;1;345
+;(10, 4);MoveEast;(1, 5);False;1;346
+;(10, 4);MoveEast;(2, 5);False;1;347
+;(10, 4);MoveEast;(2, 5);False;1;348
+;(10, 4);MoveEast;(2, 5);False;1;349
+;(10, 4);MoveEast;(2, 5);False;1;350
+;(10, 4);MoveEast;(2, 5);False;1;351
+;(10, 4);MoveEast;(2, 5);False;1;352
+;(10, 4);MoveEast;(2, 5);False;1;353
+;(10, 4);MoveEast;(2, 5);False;1;354
+;(10, 4);MoveEast;(2, 5);False;1;355
+;(10, 4);MoveEast;(2, 5);False;1;356
+;(10, 4);MoveEast;(2, 5);False;1;357
+;(10, 4);MoveEast;(3, 5);False;1;358
+;(10, 4);MoveEast;(3, 5);False;1;359
+;(10, 4);MoveEast;(3, 5);False;1;360
+;(10, 4);MoveEast;(3, 5);False;1;361
+;(10, 4);MoveEast;(3, 5);False;1;362
+;(10, 4);MoveEast;(3, 5);False;1;363
+;(10, 4);MoveEast;(3, 5);False;1;364
+;(10, 4);MoveEast;(3, 5);False;1;365
+;(10, 4);MoveEast;(3, 5);False;1;366
+;(10, 4);MoveEast;(3, 5);False;1;367
+;(10, 4);MoveEast;(3, 5);False;1;368
+;(10, 4);MoveEast;(4, 5);False;1;369
+;(10, 4);MoveEast;(4, 5);False;1;370
+;(10, 4);MoveEast;(4, 5);False;1;371
+;(10, 4);MoveEast;(4, 5);False;1;372
+;(10, 4);MoveEast;(4, 5);False;1;373
+;(10, 4);MoveEast;(4, 5);False;1;374
+;(10, 4);MoveEast;(4, 5);False;1;375
+;(10, 4);MoveEast;(4, 5);False;1;376
+;(10, 4);MoveEast;(4, 5);False;1;377
+;(10, 4);MoveEast;(4, 5);False;1;378
+;(10, 4);MoveEast;(4, 5);False;1;379
+;(10, 4);MoveEast;(5, 5);False;1;380
+;(10, 4);MoveEast;(5, 5);False;1;381
+;(10, 4);MoveEast;(5, 5);False;1;382
+;(10, 4);MoveEast;(5, 5);False;1;383
+;(10, 4);MoveEast;(5, 5);False;1;384
+;(10, 4);MoveEast;(5, 5);False;1;385
+;(10, 4);MoveEast;(5, 5);False;1;386
+;(10, 4);MoveEast;(5, 5);False;1;387
+;(10, 4);MoveEast;(5, 5);False;1;388
+;(10, 4);MoveEast;(5, 5);False;1;389
+;(10, 4);MoveEast;(5, 5);False;1;390
+;(10, 4);MoveEast;(6, 5);False;1;391
+;(10, 4);MoveEast;(6, 5);False;1;392
+;(10, 4);MoveEast;(6, 5);False;1;393
+;(10, 4);MoveEast;(6, 5);False;1;394
+;(10, 4);MoveEast;(6, 5);False;1;395
+;(10, 4);MoveEast;(6, 5);False;1;396
+;(10, 4);MoveEast;(6, 5);False;1;397
+;(10, 4);MoveEast;(6, 5);False;1;398
+MoveNorth;(10, 3);MoveEast;(6, 5);False;1;399
+;(10, 3);MoveEast;(6, 5);False;1;400
+;(10, 3);MoveEast;(6, 5);False;1;401
+;(10, 3);MoveEast;(7, 5);False;1;402
+;(10, 3);MoveEast;(7, 5);False;1;403
+MoveNorth;(10, 2);MoveEast;(7, 5);False;1;404
+;(10, 2);MoveEast;(7, 5);False;1;405
+;(10, 2);MoveEast;(7, 5);False;1;406
+;(10, 2);MoveEast;(7, 5);False;1;407
+;(10, 2);MoveEast;(7, 5);False;1;408
+;(10, 2);MoveEast;(7, 5);False;1;409
+;(10, 2);MoveEast;(7, 5);False;1;410
+;(10, 2);MoveEast;(7, 5);False;1;411
+;(10, 2);MoveEast;(7, 5);False;1;412
+;(10, 2);MoveEast;(8, 5);False;1;413
+;(10, 2);MoveEast;(8, 5);False;1;414
+;(10, 2);MoveEast;(8, 5);False;1;415
+;(10, 2);MoveEast;(8, 5);False;1;416
+;(10, 2);MoveEast;(8, 5);False;1;417
+;(10, 2);MoveEast;(8, 5);False;1;418
+;(10, 2);MoveEast;(8, 5);False;1;419
+;(10, 2);MoveEast;(8, 5);False;1;420
+;(10, 2);MoveEast;(8, 5);False;1;421
+;(10, 2);MoveEast;(8, 5);False;1;422
+;(10, 2);MoveEast;(8, 5);False;1;423
+;(10, 2);MoveEast;(9, 5);False;1;424
+;(10, 2);MoveEast;(9, 5);False;1;425
+;(10, 2);MoveEast;(9, 5);False;1;426
+;(10, 2);MoveEast;(9, 5);False;1;427
+;(10, 2);MoveEast;(9, 5);False;1;428
+;(10, 2);MoveEast;(9, 5);False;1;429
+;(10, 2);MoveEast;(9, 5);False;1;430
+;(10, 2);MoveEast;(9, 5);False;1;431
+;(10, 2);MoveEast;(9, 5);False;1;432
+;(10, 2);MoveEast;(9, 5);False;1;433
+;(10, 2);MoveEast;(9, 5);False;1;434
+;(10, 2);MoveEast;(10, 5);False;1;435
+;(10, 2);MoveSouthEast;(10, 5);False;1;436
+;(10, 2);MoveSouthEast;(10, 5);False;1;437
+;(10, 2);MoveSouthEast;(10, 5);False;1;438
+;(10, 2);MoveSouthEast;(10, 5);False;1;439
+;(10, 2);MoveSouthEast;(10, 5);False;1;440
+;(10, 2);MoveSouthEast;(10, 5);False;1;441
+;(10, 2);MoveSouthEast;(10, 5);False;1;442
+;(10, 2);MoveSouthEast;(10, 5);False;1;443
+;(10, 2);MoveSouthEast;(10, 5);False;1;444
+;(10, 2);MoveSouthEast;(10, 5);False;1;445
+;(10, 2);MoveSouthEast;(11, 6);False;1;446
+;(10, 2);GrabLargeObject;(11, 6);False;1;447
+;(10, 2);GrabLargeObject;(11, 6);False;1;448
+;(10, 2);GrabLargeObject;(11, 6);False;1;449
+;(10, 2);GrabLargeObject;(11, 6);False;1;450
+;(10, 2);GrabLargeObject;(11, 6);False;1;451
+;(10, 2);GrabLargeObject;(11, 6);False;1;452
+;(10, 2);GrabLargeObject;(11, 6);False;1;453
+;(10, 2);GrabLargeObject;(11, 6);False;1;454
+;(10, 2);GrabLargeObject;(11, 6);False;1;455
+;(10, 2);GrabLargeObject;(11, 6);False;1;456
+;(10, 2);GrabLargeObject;(11, 6);False;1;457
+;(10, 2);;(11, 6);False;1;458
+;(10, 2);MoveSouth;(11, 6);False;1;459
+;(10, 2);MoveSouth;(11, 6);False;1;460
+;(10, 2);MoveSouth;(11, 6);False;1;461
+;(10, 2);MoveSouth;(11, 6);False;1;462
+;(10, 2);MoveSouth;(11, 6);False;1;463
+;(10, 2);MoveSouth;(11, 6);False;1;464
+;(10, 2);MoveSouth;(11, 6);False;1;465
+;(10, 2);MoveSouth;(11, 6);False;1;466
+;(10, 2);MoveSouth;(11, 6);False;1;467
+;(10, 2);MoveSouth;(11, 6);False;1;468
+GrabObject;(10, 2);MoveSouth;(11, 7);False;1;469
+;(10, 2);MoveSouthEast;(11, 7);False;1;470
+;(10, 2);MoveSouthEast;(11, 7);False;1;471
+;(10, 2);MoveSouthEast;(11, 7);False;1;472
+;(10, 2);MoveSouthEast;(11, 7);False;1;473
+;(10, 2);MoveSouthEast;(11, 7);False;1;474
+;(10, 2);MoveSouthEast;(11, 7);False;1;475
+;(10, 2);MoveSouthEast;(11, 7);False;1;476
+;(10, 2);MoveSouthEast;(11, 7);False;1;477
+;(10, 2);MoveSouthEast;(11, 7);False;1;478
+;(10, 2);MoveSouthEast;(11, 7);False;1;479
+;(10, 2);MoveSouthEast;(12, 8);False;1;480
+MoveEast;(11, 2);BreakObject;(12, 8);False;1;481
+;(11, 2);BreakObject;(12, 8);False;1;482
+;(11, 2);BreakObject;(12, 8);False;1;483
+;(11, 2);BreakObject;(12, 8);False;1;484
+;(11, 2);BreakObject;(12, 8);False;1;485
+MoveEast;(12, 2);BreakObject;(12, 8);False;1;486
+;(12, 2);BreakObject;(12, 8);False;1;487
+;(12, 2);BreakObject;(12, 8);False;1;488
+MoveEast;(13, 2);BreakObject;(12, 8);False;1;489
+;(13, 2);BreakObject;(12, 8);False;1;490
+MoveEast;(14, 2);BreakObject;(12, 8);False;1;491
+;(14, 2);;(12, 8);False;1;492
+;(14, 2);Idle;(12, 8);False;1;493
+;(14, 2);Idle;(12, 8);False;1;494
+;(14, 2);Idle;(12, 8);False;1;495
+MoveEast;(15, 2);Idle;(12, 8);False;1;496
+;(15, 2);Idle;(12, 8);False;1;497
+;(15, 2);Idle;(12, 8);False;1;498
+;(15, 2);Idle;(12, 8);False;1;499
+;(15, 2);Idle;(12, 8);False;1;500
+MoveEast;(16, 2);Idle;(12, 8);False;1;501
+;(16, 2);Idle;(12, 8);False;1;502
+;(16, 2);Idle;(12, 8);False;1;503
+;(16, 2);Idle;(12, 8);False;1;504
+;(16, 2);Idle;(12, 8);False;1;505
+;(16, 2);Idle;(12, 8);False;1;506
+;(16, 2);Idle;(12, 8);False;1;507
+;(16, 2);Idle;(12, 8);False;1;508
+;(16, 2);Idle;(12, 8);False;1;509
+;(16, 2);Idle;(12, 8);False;1;510
+;(16, 2);Idle;(12, 8);False;1;511
+;(16, 2);Idle;(12, 8);False;1;512
+;(16, 2);Idle;(12, 8);False;1;513
+;(16, 2);Idle;(12, 8);False;1;514
+;(16, 2);Idle;(12, 8);False;1;515
+;(16, 2);Idle;(12, 8);False;1;516
+;(16, 2);Idle;(12, 8);False;1;517
+;(16, 2);Idle;(12, 8);False;1;518
+MoveSouth;(16, 3);Idle;(12, 8);False;1;519
+;(16, 3);Idle;(12, 8);False;1;520
+;(16, 3);Idle;(12, 8);False;1;521
+;(16, 3);Idle;(12, 8);False;1;522
+MoveSouth;(16, 4);Idle;(12, 8);False;1;523
+;(16, 4);Idle;(12, 8);False;1;524
+;(16, 4);Idle;(12, 8);False;1;525
+;(16, 4);Idle;(12, 8);False;1;526
+MoveSouth;(16, 5);Idle;(12, 8);False;1;527
+;(16, 5);Idle;(12, 8);False;1;528
+;(16, 5);Idle;(12, 8);False;1;529
+;(16, 5);Idle;(12, 8);False;1;530
+;(16, 5);Idle;(12, 8);False;1;531
+;(16, 5);Idle;(12, 8);False;1;532
+;(16, 5);Idle;(12, 8);False;1;533
+;(16, 5);Idle;(12, 8);False;1;534
+DropObject;(16, 5);Idle;(12, 8);False;1;535
+;(16, 5);Idle;(12, 8);False;1;536
+;(16, 5);Idle;(12, 8);False;1;537
+;(16, 5);Idle;(12, 8);False;1;538
+;(16, 5);Idle;(12, 8);False;1;539
+;(16, 5);Idle;(12, 8);False;1;540
+;(16, 5);Idle;(12, 8);False;1;541
+;(16, 5);Idle;(12, 8);False;1;542
+;(16, 5);Idle;(12, 8);False;1;543
+;(16, 5);Idle;(12, 8);False;1;544
+;(16, 5);Idle;(12, 8);False;1;545
+;(16, 5);Idle;(12, 8);False;1;546
+MoveNorth;(16, 4);Idle;(12, 8);False;1;547
+;(16, 4);;(12, 8);False;1;548
+;(16, 4);Idle;(12, 8);False;1;549
+;(16, 4);Idle;(12, 8);False;1;550
+;(16, 4);Idle;(12, 8);False;1;551
+;(16, 4);Idle;(12, 8);False;1;552
+;(16, 4);Idle;(12, 8);False;1;553
+;(16, 4);Idle;(12, 8);False;1;554
+;(16, 4);Idle;(12, 8);False;1;555
+;(16, 4);Idle;(12, 8);False;1;556
+;(16, 4);Idle;(12, 8);False;1;557
+;(16, 4);Idle;(12, 8);False;1;558
+;(16, 4);Idle;(12, 8);False;1;559
+;(16, 4);Idle;(12, 8);False;1;560
+;(16, 4);Idle;(12, 8);False;1;561
+;(16, 4);Idle;(12, 8);False;1;562
+;(16, 4);Idle;(12, 8);False;1;563
+;(16, 4);Idle;(12, 8);False;1;564
+;(16, 4);Idle;(12, 8);False;1;565
+;(16, 4);Idle;(12, 8);False;1;566
+;(16, 4);Idle;(12, 8);False;1;567
+MoveNorth;(16, 3);Idle;(12, 8);False;1;568
+;(16, 3);Idle;(12, 8);False;1;569
+;(16, 3);Idle;(12, 8);False;1;570
+;(16, 3);Idle;(12, 8);False;1;571
+;(16, 3);Idle;(12, 8);False;1;572
+;(16, 3);Idle;(12, 8);False;1;573
+;(16, 3);Idle;(12, 8);False;1;574
+;(16, 3);Idle;(12, 8);False;1;575
+;(16, 3);Idle;(12, 8);False;1;576
+;(16, 3);Idle;(12, 8);False;1;577
+;(16, 3);Idle;(12, 8);False;1;578
+;(16, 3);Idle;(12, 8);False;1;579
+;(16, 3);Idle;(12, 8);False;1;580
+;(16, 3);Idle;(12, 8);False;1;581
+MoveWest;(15, 3);Idle;(12, 8);False;1;582
+;(15, 3);Idle;(12, 8);False;1;583
+;(15, 3);Idle;(12, 8);False;1;584
+;(15, 3);Idle;(12, 8);False;1;585
+MoveWest;(14, 3);Idle;(12, 8);False;1;586
+;(14, 3);Idle;(12, 8);False;1;587
+;(14, 3);Idle;(12, 8);False;1;588
+MoveWest;(13, 3);Idle;(12, 8);False;1;589
+;(13, 3);Idle;(12, 8);False;1;590
+;(13, 3);Idle;(12, 8);False;1;591
+MoveWest;(12, 3);Idle;(12, 8);False;1;592
+;(12, 3);Idle;(12, 8);False;1;593
+;(12, 3);Idle;(12, 8);False;1;594
+MoveWest;(11, 3);Idle;(12, 8);False;1;595
+;(11, 3);Idle;(12, 8);False;1;596
+;(11, 3);Idle;(12, 8);False;1;597
+MoveWest;(10, 3);Idle;(12, 8);False;1;598
+;(10, 3);Idle;(12, 8);False;1;599
+;(10, 3);Idle;(12, 8);False;1;600
+;(10, 3);Idle;(12, 8);False;1;601
+;(10, 3);Idle;(12, 8);False;1;602
+;(10, 3);Idle;(12, 8);False;1;603
+MoveWest;(9, 3);;(12, 8);False;1;604
+;(9, 3);MoveNorth;(12, 8);False;1;605
+;(9, 3);MoveNorth;(12, 8);False;1;606
+;(9, 3);MoveNorth;(12, 8);False;1;607
+;(9, 3);MoveNorth;(12, 8);False;1;608
+;(9, 3);MoveNorth;(12, 8);False;1;609
+;(9, 3);MoveNorth;(12, 8);False;1;610
+GrabObject;(9, 3);MoveNorth;(12, 8);False;1;611
+;(9, 3);MoveNorth;(12, 8);False;1;612
+;(9, 3);MoveNorth;(12, 8);False;1;613
+;(9, 3);MoveNorth;(12, 8);False;1;614
+;(9, 3);MoveNorth;(12, 7);False;1;615
+;(9, 3);MoveNorthWest;(12, 7);False;1;616
+;(9, 3);MoveNorthWest;(12, 7);False;1;617
+;(9, 3);MoveNorthWest;(12, 7);False;1;618
+;(9, 3);MoveNorthWest;(12, 7);False;1;619
+;(9, 3);MoveNorthWest;(12, 7);False;1;620
+;(9, 3);MoveNorthWest;(12, 7);False;1;621
+;(9, 3);MoveNorthWest;(12, 7);False;1;622
+;(9, 3);MoveNorthWest;(12, 7);False;1;623
+;(9, 3);MoveNorthWest;(12, 7);False;1;624
+;(9, 3);MoveNorthWest;(12, 7);False;1;625
+;(9, 3);MoveNorthWest;(11, 6);False;1;626
+;(9, 3);MoveNorth;(11, 6);False;1;627
+MoveEast;(10, 3);MoveNorth;(11, 6);False;1;628
+;(10, 3);MoveNorth;(11, 6);False;1;629
+;(10, 3);MoveNorth;(11, 6);False;1;630
+;(10, 3);MoveNorth;(11, 6);False;1;631
+;(10, 3);MoveNorth;(11, 6);False;1;632
+MoveEast;(11, 3);MoveNorth;(11, 6);False;1;633
+;(11, 3);MoveNorth;(11, 6);False;1;634
+;(11, 3);MoveNorth;(11, 6);False;1;635
+MoveEast;(12, 3);MoveNorth;(11, 6);False;1;636
+;(12, 3);MoveNorth;(11, 5);False;1;637
+MoveEast;(13, 3);MoveNorthWest;(11, 5);False;1;638
+;(13, 3);MoveNorthWest;(11, 5);False;1;639
+;(13, 3);MoveNorthWest;(11, 5);False;1;640
+;(13, 3);MoveNorthWest;(11, 5);False;1;641
+;(13, 3);MoveNorthWest;(11, 5);False;1;642
+MoveEast;(14, 3);MoveNorthWest;(11, 5);False;1;643
+;(14, 3);MoveNorthWest;(11, 5);False;1;644
+;(14, 3);MoveNorthWest;(11, 5);False;1;645
+;(14, 3);MoveNorthWest;(11, 5);False;1;646
+MoveEast;(15, 3);MoveNorthWest;(11, 5);False;1;647
+;(15, 3);MoveNorthWest;(10, 4);False;1;648
+MoveEast;(16, 3);MoveNorth;(10, 4);False;1;649
+;(16, 3);MoveNorth;(10, 4);False;1;650
+;(16, 3);MoveNorth;(10, 4);False;1;651
+;(16, 3);MoveNorth;(10, 4);False;1;652
+;(16, 3);MoveNorth;(10, 4);False;1;653
+;(16, 3);MoveNorth;(10, 4);False;1;654
+;(16, 3);MoveNorth;(10, 4);False;1;655
+;(16, 3);MoveNorth;(10, 4);False;1;656
+;(16, 3);MoveNorth;(10, 4);False;1;657
+;(16, 3);MoveNorth;(10, 4);False;1;658
+;(16, 3);MoveNorth;(10, 3);False;1;659
+;(16, 3);Idle;(10, 3);False;1;660
+;(16, 3);Idle;(10, 3);False;1;661
+;(16, 3);Idle;(10, 3);False;1;662
+;(16, 3);Idle;(10, 3);False;1;663
+;(16, 3);Idle;(10, 3);False;1;664
+;(16, 3);Idle;(10, 3);False;1;665
+MoveSouth;(16, 4);Idle;(10, 3);False;1;666
+;(16, 4);Idle;(10, 3);False;1;667
+;(16, 4);Idle;(10, 3);False;1;668
+;(16, 4);Idle;(10, 3);False;1;669
+MoveSouth;(16, 5);Idle;(10, 3);False;1;670
+;(16, 5);Idle;(10, 3);False;1;671
+;(16, 5);Idle;(10, 3);False;1;672
+;(16, 5);Idle;(10, 3);False;1;673
+MoveSouth;(16, 6);Idle;(10, 3);False;1;674
+;(16, 6);Idle;(10, 3);False;1;675
+;(16, 6);Idle;(10, 3);False;1;676
+;(16, 6);Idle;(10, 3);False;1;677
+;(16, 6);Idle;(10, 3);False;1;678
+;(16, 6);Idle;(10, 3);False;1;679
+;(16, 6);Idle;(10, 3);False;1;680
+;(16, 6);Idle;(10, 3);False;1;681
+;(16, 6);Idle;(10, 3);False;1;682
+;(16, 6);Idle;(10, 3);False;1;683
+;(16, 6);Idle;(10, 3);False;1;684
+;(16, 6);Idle;(10, 3);False;1;685
+;(16, 6);Idle;(10, 3);False;1;686
+;(16, 6);Idle;(10, 3);False;1;687
+;(16, 6);Idle;(10, 3);False;1;688
+;(16, 6);Idle;(10, 3);False;1;689
+;(16, 6);Idle;(10, 3);False;1;690
+;(16, 6);Idle;(10, 3);False;1;691
+;(16, 6);Idle;(10, 3);False;1;692
+DropObject;(16, 6);Idle;(10, 3);False;1;693
+;(16, 6);Idle;(10, 3);False;1;694
+;(16, 6);Idle;(10, 3);False;1;695
+;(16, 6);Idle;(10, 3);False;1;696
+;(16, 6);Idle;(10, 3);False;1;697
+;(16, 6);Idle;(10, 3);False;1;698
+;(16, 6);Idle;(10, 3);False;1;699
+;(16, 6);Idle;(10, 3);False;1;700
+;(16, 6);Idle;(10, 3);False;1;701
+;(16, 6);Idle;(10, 3);False;1;702
+;(16, 6);Idle;(10, 3);False;1;703
+;(16, 6);Idle;(10, 3);False;1;704
+;(16, 6);Idle;(10, 3);False;1;705
+;(16, 6);Idle;(10, 3);False;1;706
+;(16, 6);Idle;(10, 3);False;1;707
+;(16, 6);Idle;(10, 3);False;1;708
+;(16, 6);Idle;(10, 3);False;1;709
+;(16, 6);Idle;(10, 3);False;1;710
+;(16, 6);Idle;(10, 3);False;1;711
+;(16, 6);Idle;(10, 3);False;1;712
+;(16, 6);Idle;(10, 3);False;1;713
+;(16, 6);Idle;(10, 3);False;1;714
+;(16, 6);;(10, 3);False;1;715
+;(16, 6);MoveSouth;(10, 3);False;1;716
+;(16, 6);MoveSouth;(10, 3);False;1;717
+;(16, 6);MoveSouth;(10, 3);False;1;718
+;(16, 6);MoveSouth;(10, 3);False;1;719
+;(16, 6);MoveSouth;(10, 3);False;1;720
+;(16, 6);MoveSouth;(10, 3);False;1;721
+;(16, 6);MoveSouth;(10, 3);False;1;722
+;(16, 6);MoveSouth;(10, 3);False;1;723
+;(16, 6);MoveSouth;(10, 3);False;1;724
+;(16, 6);MoveSouth;(10, 3);False;1;725
+;(16, 6);MoveSouth;(10, 4);False;1;726
+MoveNorth;(16, 5);MoveSouth;(10, 4);False;1;727
+;(16, 5);MoveSouth;(10, 4);False;1;728
+;(16, 5);MoveSouth;(10, 4);False;1;729
+;(16, 5);MoveSouth;(10, 4);False;1;730
+;(16, 5);MoveSouth;(10, 4);False;1;731
+;(16, 5);MoveSouth;(10, 4);False;1;732
+;(16, 5);MoveSouth;(10, 4);False;1;733
+;(16, 5);MoveSouth;(10, 4);False;1;734
+;(16, 5);MoveSouth;(10, 4);False;1;735
+;(16, 5);MoveSouth;(10, 4);False;1;736
+;(16, 5);MoveSouth;(10, 5);False;1;737
+;(16, 5);MoveSouth;(10, 5);False;1;738
+;(16, 5);MoveSouth;(10, 5);False;1;739
+;(16, 5);MoveSouth;(10, 5);False;1;740
+;(16, 5);MoveSouth;(10, 5);False;1;741
+;(16, 5);MoveSouth;(10, 5);False;1;742
+;(16, 5);MoveSouth;(10, 5);False;1;743
+;(16, 5);MoveSouth;(10, 5);False;1;744
+;(16, 5);MoveSouth;(10, 5);False;1;745
+;(16, 5);MoveSouth;(10, 5);False;1;746
+;(16, 5);MoveSouth;(10, 5);False;1;747
+;(16, 5);MoveSouth;(10, 6);False;1;748
+;(16, 5);MoveSouth;(10, 6);False;1;749
+;(16, 5);MoveSouth;(10, 6);False;1;750
+;(16, 5);MoveSouth;(10, 6);False;1;751
+MoveNorth;(16, 4);MoveSouth;(10, 6);False;1;752
+;(16, 4);MoveSouth;(10, 6);False;1;753
+;(16, 4);MoveSouth;(10, 6);False;1;754
+;(16, 4);MoveSouth;(10, 6);False;1;755
+;(16, 4);MoveSouth;(10, 6);False;1;756
+;(16, 4);MoveSouth;(10, 6);False;1;757
+;(16, 4);MoveSouth;(10, 6);False;1;758
+;(16, 4);MoveSouth;(10, 7);False;1;759
+;(16, 4);MoveSouth;(10, 7);False;1;760
+;(16, 4);MoveSouth;(10, 7);False;1;761
+;(16, 4);MoveSouth;(10, 7);False;1;762
+;(16, 4);MoveSouth;(10, 7);False;1;763
+;(16, 4);MoveSouth;(10, 7);False;1;764
+;(16, 4);MoveSouth;(10, 7);False;1;765
+;(16, 4);MoveSouth;(10, 7);False;1;766
+;(16, 4);MoveSouth;(10, 7);False;1;767
+;(16, 4);MoveSouth;(10, 7);False;1;768
+MoveWest;(15, 4);MoveSouth;(10, 7);False;1;769
+;(15, 4);MoveSouth;(10, 8);False;1;770
+;(15, 4);MoveSouthWest;(10, 8);False;1;771
+;(15, 4);MoveSouthWest;(10, 8);False;1;772
+MoveWest;(14, 4);MoveSouthWest;(10, 8);False;1;773
+;(14, 4);MoveSouthWest;(10, 8);False;1;774
+;(14, 4);MoveSouthWest;(10, 8);False;1;775
+;(14, 4);MoveSouthWest;(10, 8);False;1;776
+MoveWest;(13, 4);MoveSouthWest;(10, 8);False;1;777
+;(13, 4);MoveSouthWest;(10, 8);False;1;778
+;(13, 4);MoveSouthWest;(10, 8);False;1;779
+MoveWest;(12, 4);MoveSouthWest;(10, 8);False;1;780
+;(12, 4);MoveSouthWest;(9, 9);False;1;781
+;(12, 4);MoveSouth;(9, 9);False;1;782
+;(12, 4);MoveSouth;(9, 9);False;1;783
+;(12, 4);MoveSouth;(9, 9);False;1;784
+MoveWest;(11, 4);MoveSouth;(9, 9);False;1;785
+;(11, 4);MoveSouth;(9, 9);False;1;786
+;(11, 4);MoveSouth;(9, 9);False;1;787
+;(11, 4);MoveSouth;(9, 9);False;1;788
+;(11, 4);MoveSouth;(9, 9);False;1;789
+MoveWest;(10, 4);MoveSouth;(9, 9);False;1;790
+;(10, 4);MoveSouth;(9, 9);False;1;791
+;(10, 4);MoveSouth;(9, 10);False;1;792
+;(10, 4);BreakObject;(9, 10);False;1;793
+;(10, 4);BreakObject;(9, 10);False;1;794
+;(10, 4);BreakObject;(9, 10);False;1;795
+;(10, 4);BreakObject;(9, 10);False;1;796
+;(10, 4);BreakObject;(9, 10);False;1;797
+;(10, 4);BreakObject;(9, 10);False;1;798
+;(10, 4);BreakObject;(9, 10);False;1;799
+;(10, 4);BreakObject;(9, 10);False;1;800
+;(10, 4);BreakObject;(9, 10);False;1;801
+;(10, 4);BreakObject;(9, 10);False;1;802
+;(10, 4);BreakObject;(9, 10);False;1;803
+;(10, 4);;(9, 10);False;1;804
+;(10, 4);Idle;(9, 10);False;1;805
+;(10, 4);Idle;(9, 10);False;1;806
+GrabObject;(10, 4);Idle;(9, 10);False;1;807
+;(10, 4);Idle;(9, 10);False;1;808
+;(10, 4);Idle;(9, 10);False;1;809
+;(10, 4);Idle;(9, 10);False;1;810
+;(10, 4);Idle;(9, 10);False;1;811
+;(10, 4);Idle;(9, 10);False;1;812
+MoveEast;(11, 4);Idle;(9, 10);False;1;813
+;(11, 4);Idle;(9, 10);False;1;814
+;(11, 4);Idle;(9, 10);False;1;815
+;(11, 4);Idle;(9, 10);False;1;816
+;(11, 4);Idle;(9, 10);False;1;817
+;(11, 4);Idle;(9, 10);False;1;818
+MoveEast;(12, 4);Idle;(9, 10);False;1;819
+;(12, 4);Idle;(9, 10);False;1;820
+MoveEast;(13, 4);Idle;(9, 10);False;1;821
+;(13, 4);Idle;(9, 10);False;1;822
+;(13, 4);Idle;(9, 10);False;1;823
+;(13, 4);Idle;(9, 10);False;1;824
+;(13, 4);Idle;(9, 10);False;1;825
+MoveEast;(14, 4);Idle;(9, 10);False;1;826
+;(14, 4);Idle;(9, 10);False;1;827
+MoveEast;(15, 4);Idle;(9, 10);False;1;828
+;(15, 4);Idle;(9, 10);False;1;829
+;(15, 4);Idle;(9, 10);False;1;830
+MoveEast;(16, 4);Idle;(9, 10);False;1;831
+;(16, 4);Idle;(9, 10);False;1;832
+;(16, 4);Idle;(9, 10);False;1;833
+MoveEast;(17, 4);Idle;(9, 10);False;1;834
+;(17, 4);Idle;(9, 10);False;1;835
+;(17, 4);Idle;(9, 10);False;1;836
+;(17, 4);Idle;(9, 10);False;1;837
+MoveEast;(18, 4);Idle;(9, 10);False;1;838
+;(18, 4);Idle;(9, 10);False;1;839
+;(18, 4);Idle;(9, 10);False;1;840
+;(18, 4);Idle;(9, 10);False;1;841
+;(18, 4);Idle;(9, 10);False;1;842
+;(18, 4);Idle;(9, 10);False;1;843
+;(18, 4);Idle;(9, 10);False;1;844
+;(18, 4);Idle;(9, 10);False;1;845
+;(18, 4);Idle;(9, 10);False;1;846
+;(18, 4);Idle;(9, 10);False;1;847
+;(18, 4);Idle;(9, 10);False;1;848
+;(18, 4);Idle;(9, 10);False;1;849
+;(18, 4);Idle;(9, 10);False;1;850
+;(18, 4);Idle;(9, 10);False;1;851
+;(18, 4);Idle;(9, 10);False;1;852
+;(18, 4);Idle;(9, 10);False;1;853
+;(18, 4);Idle;(9, 10);False;1;854
+;(18, 4);Idle;(9, 10);False;1;855
+;(18, 4);Idle;(9, 10);False;1;856
+MoveWest;(17, 4);Idle;(9, 10);False;1;857
+;(17, 4);Idle;(9, 10);False;1;858
+;(17, 4);Idle;(9, 10);False;1;859
+;(17, 4);;(9, 10);False;1;860
+;(17, 4);Idle;(9, 10);False;1;861
+;(17, 4);Idle;(9, 10);False;1;862
+;(17, 4);Idle;(9, 10);False;1;863
+;(17, 4);Idle;(9, 10);False;1;864
+;(17, 4);Idle;(9, 10);False;1;865
+;(17, 4);Idle;(9, 10);False;1;866
+;(17, 4);Idle;(9, 10);False;1;867
+;(17, 4);Idle;(9, 10);False;1;868
+;(17, 4);Idle;(9, 10);False;1;869
+;(17, 4);Idle;(9, 10);False;1;870
+MoveSouth;(17, 5);Idle;(9, 10);False;1;871
+;(17, 5);Idle;(9, 10);False;1;872
+;(17, 5);Idle;(9, 10);False;1;873
+;(17, 5);Idle;(9, 10);False;1;874
+;(17, 5);Idle;(9, 10);False;1;875
+;(17, 5);Idle;(9, 10);False;1;876
+;(17, 5);Idle;(9, 10);False;1;877
+;(17, 5);Idle;(9, 10);False;1;878
+;(17, 5);Idle;(9, 10);False;1;879
+;(17, 5);Idle;(9, 10);False;1;880
+;(17, 5);Idle;(9, 10);False;1;881
+;(17, 5);Idle;(9, 10);False;1;882
+;(17, 5);Idle;(9, 10);False;1;883
+DropObject;(17, 5);Idle;(9, 10);False;1;884
+;(17, 5);Idle;(9, 10);False;1;885
+;(17, 5);Idle;(9, 10);False;1;886
+;(17, 5);Idle;(9, 10);False;1;887
+;(17, 5);Idle;(9, 10);False;1;888
+;(17, 5);Idle;(9, 10);False;1;889
+;(17, 5);Idle;(9, 10);False;1;890
+;(17, 5);Idle;(9, 10);False;1;891
+;(17, 5);Idle;(9, 10);False;1;892
+;(17, 5);Idle;(9, 10);False;1;893
+;(17, 5);Idle;(9, 10);False;1;894
+;(17, 5);Idle;(9, 10);False;1;895
+;(17, 5);Idle;(9, 10);False;1;896
+;(17, 5);Idle;(9, 10);False;1;897
+;(17, 5);Idle;(9, 10);False;1;898
+;(17, 5);Idle;(9, 10);False;1;899
+;(17, 5);Idle;(9, 10);False;1;900
+;(17, 5);Idle;(9, 10);False;1;901
+MoveNorth;(17, 4);Idle;(9, 10);False;1;902
+;(17, 4);Idle;(9, 10);False;1;903
+;(17, 4);Idle;(9, 10);False;1;904
+;(17, 4);Idle;(9, 10);False;1;905
+;(17, 4);Idle;(9, 10);False;1;906
+;(17, 4);Idle;(9, 10);False;1;907
+;(17, 4);Idle;(9, 10);False;1;908
+;(17, 4);Idle;(9, 10);False;1;909
+;(17, 4);Idle;(9, 10);False;1;910
+;(17, 4);Idle;(9, 10);False;1;911
+;(17, 4);Idle;(9, 10);False;1;912
+;(17, 4);Idle;(9, 10);False;1;913
+MoveWest;(16, 4);Idle;(9, 10);False;1;914
+;(16, 4);Idle;(9, 10);False;1;915
+;(16, 4);;(9, 10);False;1;916
+;(16, 4);MoveWest;(9, 10);False;1;917
+;(16, 4);MoveWest;(9, 10);False;1;918
+;(16, 4);MoveWest;(9, 10);False;1;919
+;(16, 4);MoveWest;(9, 10);False;1;920
+;(16, 4);MoveWest;(9, 10);False;1;921
+MoveWest;(15, 4);MoveWest;(9, 10);False;1;922
+;(15, 4);MoveWest;(9, 10);False;1;923
+MoveWest;(14, 4);MoveWest;(9, 10);False;1;924
+;(14, 4);MoveWest;(9, 10);False;1;925
+;(14, 4);MoveWest;(9, 10);False;1;926
+MoveWest;(13, 4);MoveWest;(8, 10);False;1;927
+;(13, 4);MoveWest;(8, 10);False;1;928
+;(13, 4);MoveWest;(8, 10);False;1;929
+;(13, 4);MoveWest;(8, 10);False;1;930
+MoveWest;(12, 4);MoveWest;(8, 10);False;1;931
+;(12, 4);MoveWest;(8, 10);False;1;932
+;(12, 4);MoveWest;(8, 10);False;1;933
+;(12, 4);MoveWest;(8, 10);False;1;934
+;(12, 4);MoveWest;(8, 10);False;1;935
+;(12, 4);MoveWest;(8, 10);False;1;936
+;(12, 4);MoveWest;(8, 10);False;1;937
+;(12, 4);MoveWest;(7, 10);False;1;938
+;(12, 4);MoveWest;(7, 10);False;1;939
+;(12, 4);MoveWest;(7, 10);False;1;940
+;(12, 4);MoveWest;(7, 10);False;1;941
+;(12, 4);MoveWest;(7, 10);False;1;942
+;(12, 4);MoveWest;(7, 10);False;1;943
+;(12, 4);MoveWest;(7, 10);False;1;944
+MoveWest;(11, 4);MoveWest;(7, 10);False;1;945
+;(11, 4);MoveWest;(7, 10);False;1;946
+;(11, 4);MoveWest;(7, 10);False;1;947
+;(11, 4);MoveWest;(7, 10);False;1;948
+;(11, 4);MoveWest;(6, 10);False;1;949
+;(11, 4);MoveWest;(6, 10);False;1;950
+;(11, 4);MoveWest;(6, 10);False;1;951
+;(11, 4);MoveWest;(6, 10);False;1;952
+;(11, 4);MoveWest;(6, 10);False;1;953
+;(11, 4);MoveWest;(6, 10);False;1;954
+;(11, 4);MoveWest;(6, 10);False;1;955
+;(11, 4);MoveWest;(6, 10);False;1;956
+;(11, 4);MoveWest;(6, 10);False;1;957
+;(11, 4);MoveWest;(6, 10);False;1;958
+;(11, 4);MoveWest;(6, 10);False;1;959
+;(11, 4);MoveWest;(5, 10);False;1;960
+;(11, 4);MoveNorthWest;(5, 10);False;1;961
+;(11, 4);MoveNorthWest;(5, 10);False;1;962
+GrabObject;(11, 4);MoveNorthWest;(5, 10);False;1;963
+;(11, 4);MoveNorthWest;(5, 10);False;1;964
+;(11, 4);MoveNorthWest;(5, 10);False;1;965
+;(11, 4);MoveNorthWest;(5, 10);False;1;966
+;(11, 4);MoveNorthWest;(5, 10);False;1;967
+;(11, 4);MoveNorthWest;(5, 10);False;1;968
+;(11, 4);MoveNorthWest;(5, 10);False;1;969
+;(11, 4);MoveNorthWest;(5, 10);False;1;970
+;(11, 4);MoveNorthWest;(4, 9);False;1;971
+;(11, 4);;(4, 9);False;1;972
+;(11, 4);;(4, 9);brown rock on top;1;973
+MoveEast;(12, 4);;(4, 9);brown rock on top;1;974
+;(12, 4);MoveNorthWest;(4, 9);brown rock on top;1;975
+;(12, 4);MoveNorthWest;(4, 9);brown rock on top;1;976
+;(12, 4);MoveNorthWest;(4, 9);brown rock on top;1;977
+MoveEast;(13, 4);MoveNorthWest;(4, 9);brown rock on top;1;978
+;(13, 4);MoveNorthWest;(4, 9);brown rock on top;1;979
+;(13, 4);MoveNorthWest;(4, 9);brown rock on top;1;980
+;(13, 4);MoveNorthWest;(4, 9);brown rock on top;1;981
+MoveEast;(14, 4);MoveNorthWest;(4, 9);brown rock on top;1;982
+;(14, 4);MoveNorthWest;(4, 9);brown rock on top;1;983
+;(14, 4);MoveNorthWest;(4, 9);brown rock on top;1;984
+;(14, 4);MoveNorthWest;(3, 8);brown rock on top;1;985
+;(14, 4);MoveWest;(3, 8);brown rock on top;1;986
+;(14, 4);MoveWest;(3, 8);brown rock on top;1;987
+MoveEast;(15, 4);MoveWest;(3, 8);brown rock on top;1;988
+;(15, 4);MoveWest;(3, 8);brown rock on top;1;989
+;(15, 4);MoveWest;(3, 8);brown rock on top;1;990
+;(15, 4);MoveWest;(3, 8);brown rock on top;1;991
+;(15, 4);MoveWest;(3, 8);brown rock on top;1;992
+;(15, 4);MoveWest;(3, 8);brown rock on top;1;993
+;(15, 4);MoveWest;(3, 8);brown rock on top;1;994
+;(15, 4);MoveWest;(3, 8);brown rock on top;1;995
+;(15, 4);MoveWest;(2, 8);brown rock on top;1;996
+;(15, 4);MoveNorthWest;(2, 8);brown rock on top;1;997
+;(15, 4);MoveNorthWest;(2, 8);brown rock on top;1;998
+;(15, 4);MoveNorthWest;(2, 8);brown rock on top;1;999
+;(15, 4);MoveNorthWest;(2, 8);brown rock on top;1;1000
+;(15, 4);MoveNorthWest;(2, 8);brown rock on top;1;1001
+;(15, 4);MoveNorthWest;(2, 8);brown rock on top;1;1002
+;(15, 4);MoveNorthWest;(2, 8);brown rock on top;1;1003
+;(15, 4);MoveNorthWest;(2, 8);brown rock on top;1;1004
+;(15, 4);MoveNorthWest;(2, 8);brown rock on top;1;1005
+MoveEast;(16, 4);MoveNorthWest;(2, 8);brown rock on top;1;1006
+;(16, 4);MoveNorthWest;(1, 7);brown rock on top;1;1007
+;(16, 4);MoveWest;(1, 7);brown rock on top;1;1008
+;(16, 4);MoveWest;(1, 7);brown rock on top;1;1009
+;(16, 4);MoveWest;(1, 7);brown rock on top;1;1010
+;(16, 4);MoveWest;(1, 7);brown rock on top;1;1011
+;(16, 4);MoveWest;(1, 7);brown rock on top;1;1012
+;(16, 4);MoveWest;(1, 7);brown rock on top;1;1013
+;(16, 4);MoveWest;(1, 7);brown rock on top;1;1014
+MoveSouth;(16, 5);MoveWest;(1, 7);brown rock on top;1;1015
+;(16, 5);MoveWest;(1, 7);brown rock on top;1;1016
+;(16, 5);MoveWest;(1, 7);brown rock on top;1;1017
+;(16, 5);MoveWest;(0, 7);brown rock on top;1;1018
+;(16, 5);DropLargeObject;(0, 7);brown rock on top;1;1019
+;(16, 5);DropLargeObject;(0, 7);brown rock on top;1;1020
+;(16, 5);DropLargeObject;(0, 7);brown rock on top;1;1021
+;(16, 5);DropLargeObject;(0, 7);brown rock on top;1;1022
+;(16, 5);DropLargeObject;(0, 7);brown rock on top;1;1023
+;(16, 5);DropLargeObject;(0, 7);brown rock on top;1;1024
+MoveSouth;(16, 6);DropLargeObject;(0, 7);brown rock on top;1;1025
+;(16, 6);DropLargeObject;(0, 7);brown rock on top;1;1026
+MoveSouth;(16, 7);DropLargeObject;(0, 7);brown rock on top;1;1027
+;(16, 7);DropLargeObject;(0, 7);brown rock on top;1;1028
+;(16, 7);DropLargeObject;(0, 7);brown rock on top;1;1029
+;(16, 7);;(0, 7);brown rock on top;1;1030
+;(16, 7);;(0, 7);brown rock on top;1;1031
+;(16, 7);;(0, 7);brown rock on top;1;1032
+;(16, 7);;(0, 7);brown rock on top;1;1033
+;(16, 7);;(0, 7);brown rock on top;1;1034
+DropObject;(16, 7);;(0, 7);brown rock on top;1;1035
+;(16, 7);;(0, 7);brown rock on top;1;1036
+;(16, 7);;(0, 7);brown rock on top;1;1037
+;(16, 7);;(0, 7);brown rock on top;1;1038
+;(16, 7);;(0, 7);brown rock on top;1;1039
+;(16, 7);;(0, 7);brown rock on top;1;1040
+;(16, 7);;(0, 7);brown rock on top;1;1041
+;(16, 7);;(0, 7);brown rock on top;1;1042
+;(16, 7);;(0, 7);brown rock on top;1;1043
+;(16, 7);;(0, 7);brown rock on top;1;1044
+;(16, 7);;(0, 7);brown rock on top;1;1045
+;(16, 7);;(0, 7);brown rock on top;1;1046
+;(16, 7);;(0, 7);brown rock on top;1;1047
+;(16, 7);;(0, 7);brown rock on top;1;1048
+;(16, 7);;(0, 7);brown rock on top;1;1049
+;(16, 7);;(0, 7);brown rock on top;1;1050
+;(16, 7);;(0, 7);brown rock on top;1;1051
+;(16, 7);;(0, 7);brown rock on top;1;1052
+;(16, 7);;(0, 7);brown rock on top;1;1053
+;(16, 7);;(0, 7);brown rock on top;1;1054
+;(16, 7);;(0, 7);brown rock on top;1;1055
+;(16, 7);;(0, 7);brown rock on top;1;1056
+;(16, 7);;(0, 7);brown rock on top;1;1057
+;(16, 7);;(0, 7);brown rock on top;1;1058
+;(16, 7);;(0, 7);brown rock on top;1;1059
+;(16, 7);;(0, 7);brown rock on top;1;1060
+;(16, 7);;(0, 7);brown rock on top;1;1061
+;(16, 7);;(0, 7);brown rock on top;1;1062
+;(16, 7);;(0, 7);brown rock on top;1;1063
+;(16, 7);;(0, 7);brown rock on top;1;1064
+;(16, 7);;(0, 7);brown rock on top;1;1065
+;(16, 7);;(0, 7);brown rock on top;1;1066
+;(16, 7);;(0, 7);brown rock on top;1;1067
+;(16, 7);;(0, 7);brown rock on top;1;1068
+;(16, 7);;(0, 7);brown rock on top;1;1069
+;(16, 7);;(0, 7);brown rock on top;1;1070
+;(16, 7);;(0, 7);brown rock on top;1;1071
+;(16, 7);;(0, 7);brown rock on top;1;1072
+;(16, 7);;(0, 7);brown rock on top;1;1073
+;(16, 7);;(0, 7);brown rock on top;1;1074
+;(16, 7);;(0, 7);brown rock on top;1;1075
+;(16, 7);;(0, 7);brown rock on top;1;1076
+;(16, 7);;(0, 7);brown rock on top;1;1077
+;(16, 7);;(0, 7);brown rock on top;1;1078
+;(16, 7);;(0, 7);brown rock on top;1;1079
+;(16, 7);;(0, 7);brown rock on top;1;1080
+;(16, 7);;(0, 7);brown rock on top;1;1081
+;(16, 7);;(0, 7);brown rock on top;1;1082
+;(16, 7);;(0, 7);brown rock on top;1;1083
+;(16, 7);;(0, 7);brown rock on top;1;1084
+;(16, 7);;(0, 7);brown rock on top;1;1085
+;(16, 7);;(0, 7);brown rock on top;1;1086
+;(16, 7);;(0, 7);brown rock on top;1;1087
+;(16, 7);;(0, 7);brown rock on top;1;1088
+;(16, 7);;(0, 7);brown rock on top;1;1089
+;(16, 7);;(0, 7);brown rock on top;1;1090
+;(16, 7);;(0, 7);brown rock on top;1;1091
+;(16, 7);;(0, 7);brown rock on top;1;1092
+;(16, 7);;(0, 7);brown rock on top;1;1093
+;(16, 7);;(0, 7);brown rock on top;1;1094
+;(16, 7);;(0, 7);brown rock on top;1;1095
+;(16, 7);;(0, 7);brown rock on top;1;1096
+;(16, 7);;(0, 7);brown rock on top;1;1097
+;(16, 7);;(0, 7);brown rock on top;1;1098
+;(16, 7);;(0, 7);brown rock on top;1;1099
+;(16, 7);;(0, 7);brown rock on top;1;1100
+;(16, 7);;(0, 7);brown rock on top;1;1101
+;(16, 7);;(0, 7);brown rock on top;1;1102
+;(16, 7);;(0, 7);brown rock on top;1;1103
+;(16, 7);;(0, 7);brown rock on top;1;1104
+;(16, 7);;(0, 7);brown rock on top;1;1105
+;(16, 7);;(0, 7);brown rock on top;1;1106
+;(16, 7);;(0, 7);brown rock on top;1;1107
+;(16, 7);;(0, 7);brown rock on top;1;1108
+;(16, 7);;(0, 7);brown rock on top;1;1109
+;(16, 7);;(0, 7);brown rock on top;1;1110
+;(16, 7);;(0, 7);brown rock on top;1;1111
+;(16, 7);;(0, 7);brown rock on top;1;1112
+;(16, 7);;(0, 7);brown rock on top;1;1113
+;(16, 7);;(0, 7);brown rock on top;1;1114
+;(16, 7);;(0, 7);brown rock on top;1;1115
+;(16, 7);;(0, 7);brown rock on top;1;1116
+;(16, 7);;(0, 7);brown rock on top;1;1117
+;(16, 7);;(0, 7);brown rock on top;1;1118
+;(16, 7);;(0, 7);brown rock on top;1;1119
+;(16, 7);;(0, 7);brown rock on top;1;1120
+;(16, 7);;(0, 7);brown rock on top;1;1121
+;(16, 7);;(0, 7);brown rock on top;1;1122
+;(16, 7);;(0, 7);brown rock on top;1;1123
+;(16, 7);;(0, 7);brown rock on top;1;1124
+;(16, 7);;(0, 7);brown rock on top;1;1125
+;(16, 7);;(0, 7);brown rock on top;1;1126
+;(16, 7);;(0, 7);brown rock on top;1;1127
+;(16, 7);;(0, 7);brown rock on top;1;1128
+;(16, 7);;(0, 7);brown rock on top;1;1129
+;(16, 7);;(0, 7);brown rock on top;1;1130
+;(16, 7);;(0, 7);brown rock on top;1;1131
+;(16, 7);;(0, 7);brown rock on top;1;1132
+;(16, 7);;(0, 7);brown rock on top;1;1133
+;(16, 7);;(0, 7);brown rock on top;1;1134
+;(16, 7);;(0, 7);brown rock on top;1;1135
+;(16, 7);;(0, 7);brown rock on top;1;1136
+;(16, 7);;(0, 7);brown rock on top;1;1137
+;(16, 7);;(0, 7);brown rock on top;1;1138
+;(16, 7);;(0, 7);brown rock on top;1;1139
+;(16, 7);;(0, 7);brown rock on top;1;1140
+;(16, 7);;(0, 7);brown rock on top;1;1141
+;(16, 7);;(0, 7);brown rock on top;1;1142
+;(16, 7);;(0, 7);brown rock on top;1;1143
+;(16, 7);;(0, 7);brown rock on top;1;1144
+;(16, 7);;(0, 7);brown rock on top;1;1145
+;(16, 7);;(0, 7);brown rock on top;1;1146
+;(16, 7);;(0, 7);brown rock on top;1;1147
+;(16, 7);;(0, 7);brown rock on top;1;1148
+;(16, 7);;(0, 7);brown rock on top;1;1149
+;(16, 7);;(0, 7);brown rock on top;1;1150
+;(16, 7);;(0, 7);brown rock on top;1;1151
+;(16, 7);;(0, 7);brown rock on top;1;1152
+;(16, 7);;(0, 7);brown rock on top;1;1153
+;(16, 7);;(0, 7);brown rock on top;1;1154
+;(16, 7);;(0, 7);brown rock on top;1;1155
+;(16, 7);;(0, 7);brown rock on top;1;1156
+;(16, 7);;(0, 7);brown rock on top;1;1157
+;(16, 7);;(0, 7);brown rock on top;1;1158
+;(16, 7);;(0, 7);brown rock on top;1;1159
+;(16, 7);;(0, 7);brown rock on top;1;1160
+;(16, 7);;(0, 7);brown rock on top;1;1161
+;(16, 7);;(0, 7);brown rock on top;1;1162
+;(16, 7);;(0, 7);brown rock on top;1;1163
+;(16, 7);;(0, 7);brown rock on top;1;1164
+;(16, 7);;(0, 7);brown rock on top;1;1165
+;(16, 7);;(0, 7);brown rock on top;1;1166
+;(16, 7);;(0, 7);brown rock on top;1;1167
+;(16, 7);;(0, 7);brown rock on top;1;1168
+;(16, 7);;(0, 7);brown rock on top;1;1169
+;(16, 7);;(0, 7);brown rock on top;1;1170
+;(16, 7);;(0, 7);brown rock on top;1;1171
+;(16, 7);;(0, 7);brown rock on top;1;1172
+;(16, 7);;(0, 7);brown rock on top;1;1173
+;(16, 7);;(0, 7);brown rock on top;1;1174
+;(16, 7);;(0, 7);brown rock on top;1;1175
+;(16, 7);;(0, 7);brown rock on top;1;1176
+;(16, 7);;(0, 7);brown rock on top;1;1177
+;(16, 7);;(0, 7);brown rock on top;1;1178
+;(16, 7);;(0, 7);brown rock on top;1;1179
+;(16, 7);;(0, 7);brown rock on top;1;1180
+;(16, 7);;(0, 7);brown rock on top;1;1181
+;(16, 7);;(0, 7);brown rock on top;1;1182
+;(16, 7);;(0, 7);brown rock on top;1;1183
+;(16, 7);;(0, 7);brown rock on top;1;1184
+;(16, 7);;(0, 7);brown rock on top;1;1185
+;(16, 7);;(0, 7);brown rock on top;1;1186
+;(16, 7);;(0, 7);brown rock on top;1;1187
+;(16, 7);;(0, 7);brown rock on top;1;1188
+;(16, 7);;(0, 7);brown rock on top;1;1189
+;(16, 7);;(0, 7);brown rock on top;1;1190
+;(16, 7);;(0, 7);brown rock on top;1;1191
+;(16, 7);;(0, 7);brown rock on top;1;1192
+;(16, 7);;(0, 7);brown rock on top;1;1193
+;(16, 7);;(0, 7);brown rock on top;1;1194
+;(16, 7);;(0, 7);brown rock on top;1;1195
+MoveWest;(15, 7);;(0, 7);brown rock on top;1;1196
+;(15, 7);;(0, 7);brown rock on top;1;1197
+;(15, 7);;(0, 7);brown rock on top;1;1198
+;(15, 7);;(0, 7);brown rock on top;1;1199
+;(15, 7);;(0, 7);brown rock on top;1;1200
+;(15, 7);;(0, 7);brown rock on top;1;1201
+;(15, 7);;(0, 7);brown rock on top;1;1202
+;(15, 7);;(0, 7);brown rock on top;1;1203
+MoveWest;(14, 7);;(0, 7);brown rock on top;1;1204
+MoveWest;(13, 7);;(0, 7);brown rock on top;1;1205
+MoveWest;(12, 7);;(0, 7);brown rock on top;1;1206
+MoveWest;(11, 7);;(0, 7);brown rock on top;1;1207
+MoveWest;(10, 7);;(0, 7);brown rock on top;1;1208
+MoveWest;(9, 7);;(0, 7);brown rock on top;1;1209
+MoveWest;(8, 7);;(0, 7);brown rock on top;1;1210
+MoveWest;(7, 7);;(0, 7);brown rock on top;1;1211
+MoveWest;(6, 7);;(0, 7);brown rock on top;1;1212
+MoveWest;(5, 7);;(0, 7);brown rock on top;1;1213
+MoveWest;(4, 7);;(0, 7);brown rock on top;1;1214
+MoveWest;(3, 7);;(0, 7);brown rock on top;1;1215
+MoveWest;(2, 7);;(0, 7);brown rock on top;1;1216
+MoveWest;(1, 7);;(0, 7);brown rock on top;1;1217
+;(1, 7);;(0, 7);brown rock on top;1;1218
+;(1, 7);;(0, 7);brown rock on top;1;1219
+;(1, 7);;(0, 7);brown rock on top;1;1220
+;(1, 7);;(0, 7);brown rock on top;1;1221
+;(1, 7);;(0, 7);brown rock on top;1;1222
+;(1, 7);;(0, 7);brown rock on top;1;1223
+;(1, 7);;(0, 7);brown rock on top;1;1224
+;(1, 7);;(0, 7);brown rock on top;1;1225
+;(1, 7);;(0, 7);brown rock on top;1;1226
+;(1, 7);;(0, 7);brown rock on top;1;1227
+;(1, 7);;(0, 7);brown rock on top;1;1228
+;(1, 7);;(0, 7);brown rock on top;1;1229
+;(1, 7);;(0, 7);brown rock on top;1;1230
+;(1, 7);;(0, 7);brown rock on top;1;1231
+;(1, 7);;(0, 7);brown rock on top;1;1232
+;(1, 7);;(0, 7);brown rock on top;1;1233
+;(1, 7);;(0, 7);brown rock on top;1;1234
+;(1, 7);;(0, 7);brown rock on top;1;1235
+MoveWest;(0, 7);;(0, 7);brown rock on top;1;1236
+;(0, 7);;(0, 7);brown rock on top;1;1237
+;(0, 7);;(0, 7);brown rock on top;1;1238
+;(0, 7);;(0, 7);brown rock on top;1;1239
+;(0, 7);;(0, 7);brown rock on top;1;1240
+;(0, 7);;(0, 7);brown rock on top;1;1241
+;(0, 7);;(0, 7);brown rock on top;1;1242
+;(0, 7);;(0, 7);brown rock on top;1;1243
+;(0, 7);;(0, 7);brown rock on top;1;1244
+;(0, 7);;(0, 7);brown rock on top;1;1245
+;(0, 7);;(0, 7);brown rock on top;1;1246
+;(0, 7);;(0, 7);brown rock on top;1;1247
+;(0, 7);;(0, 7);brown rock on top;1;1248
+;(0, 7);;(0, 7);brown rock on top;1;1249
+;(0, 7);;(0, 7);brown rock on top;1;1250
+;(0, 7);;(0, 7);brown rock on top;1;1251
+;(0, 7);;(0, 7);brown rock on top;1;1252
+;(0, 7);;(0, 7);brown rock on top;1;1253
+;(0, 7);;(0, 7);brown rock on top;1;1254
+;(0, 7);;(0, 7);brown rock on top;1;1255
+;(0, 7);;(0, 7);brown rock on top;1;1256
+;(0, 7);;(0, 7);brown rock on top;1;1257
+;(0, 7);;(0, 7);brown rock on top;1;1258
+;(0, 7);;(0, 7);brown rock on top;1;1259
+;(0, 7);;(0, 7);brown rock on top;1;1260
+;(0, 7);;(0, 7);brown rock on top;1;1261
+;(0, 7);;(0, 7);brown rock on top;1;1262
+;(0, 7);;(0, 7);brown rock on top;1;1263
+;(0, 7);;(0, 7);brown rock on top;1;1264
+;(0, 7);;(0, 7);brown rock on top;1;1265
+;(0, 7);;(0, 7);brown rock on top;1;1266
+;(0, 7);;(0, 7);brown rock on top;1;1267
+;(0, 7);;(0, 7);brown rock on top;1;1268
+;(0, 7);;(0, 7);brown rock on top;1;1269
+;(0, 7);;(0, 7);brown rock on top;1;1270
+;(0, 7);;(0, 7);brown rock on top;1;1271
+;(0, 7);;(0, 7);brown rock on top;1;1272
+;(0, 7);;(0, 7);brown rock on top;1;1273
+;(0, 7);;(0, 7);brown rock on top;1;1274
+;(0, 7);;(0, 7);brown rock on top;1;1275
+;(0, 7);;(0, 7);brown rock on top;1;1276
+;(0, 7);;(0, 7);brown rock on top;1;1277
+;(0, 7);;(0, 7);brown rock on top;1;1278
+;(0, 7);;(0, 7);brown rock on top;1;1279
+;(0, 7);;(0, 7);brown rock on top;1;1280
+;(0, 7);;(0, 7);brown rock on top;1;1281
+;(0, 7);;(0, 7);brown rock on top;1;1282
+;(0, 7);;(0, 7);brown rock on top;1;1283
+;(0, 7);;(0, 7);brown rock on top;1;1284
+;(0, 7);;(0, 7);brown rock on top;1;1285
+;(0, 7);;(0, 7);brown rock on top;1;1286
+;(0, 7);;(0, 7);brown rock on top;1;1287
+;(0, 7);;(0, 7);brown rock on top;1;1288
+;(0, 7);;(0, 7);brown rock on top;1;1289
+;(0, 7);;(0, 7);brown rock on top;1;1290
+;(0, 7);;(0, 7);brown rock on top;1;1291
+;(0, 7);;(0, 7);brown rock on top;1;1292
+;(0, 7);;(0, 7);brown rock on top;1;1293
+;(0, 7);;(0, 7);brown rock on top;1;1294
+;(0, 7);;(0, 7);brown rock on top;1;1295
+;(0, 7);;(0, 7);brown rock on top;1;1296
+;(0, 7);;(0, 7);brown rock on top;1;1297
+;(0, 7);;(0, 7);brown rock on top;1;1298
+;(0, 7);;(0, 7);brown rock on top;1;1299
+;(0, 7);;(0, 7);brown rock on top;1;1300
+;(0, 7);;(0, 7);brown rock on top;1;1301
+;(0, 7);;(0, 7);brown rock on top;1;1302
+;(0, 7);;(0, 7);brown rock on top;1;1303
+;(0, 7);;(0, 7);brown rock on top;1;1304
+;(0, 7);;(0, 7);brown rock on top;1;1305
+;(0, 7);;(0, 7);brown rock on top;1;1306
+;(0, 7);;(0, 7);brown rock on top;1;1307
+;(0, 7);;(0, 7);brown rock on top;1;1308
+;(0, 7);;(0, 7);brown rock on top;1;1309
+;(0, 7);;(0, 7);brown rock on top;1;1310
+;(0, 7);;(0, 7);brown rock on top;1;1311
+;(0, 7);;(0, 7);brown rock on top;1;1312
+;(0, 7);;(0, 7);brown rock on top;1;1313
+;(0, 7);;(0, 7);brown rock on top;1;1314
+;(0, 7);;(0, 7);brown rock on top;1;1315
+;(0, 7);;(0, 7);brown rock on top;1;1316
+;(0, 7);;(0, 7);brown rock on top;1;1317
+;(0, 7);;(0, 7);brown rock on top;1;1318
+;(0, 7);;(0, 7);brown rock on top;1;1319
+;(0, 7);;(0, 7);brown rock on top;1;1320
+;(0, 7);;(0, 7);brown rock on top;1;1321
+;(0, 7);;(0, 7);brown rock on top;1;1322
+;(0, 7);;(0, 7);brown rock on top;1;1323
+;(0, 7);;(0, 7);brown rock on top;1;1324
+;(0, 7);;(0, 7);brown rock on top;1;1325
+;(0, 7);;(0, 7);brown rock on top;1;1326
+;(0, 7);;(0, 7);brown rock on top;1;1327
+;(0, 7);;(0, 7);brown rock on top;1;1328
+;(0, 7);;(0, 7);brown rock on top;1;1329
+;(0, 7);;(0, 7);brown rock on top;1;1330
+;(0, 7);;(0, 7);brown rock on top;1;1331
+;(0, 7);;(0, 7);brown rock on top;1;1332
+;(0, 7);;(0, 7);brown rock on top;1;1333
+;(0, 7);;(0, 7);brown rock on top;1;1334
+;(0, 7);;(0, 7);brown rock on top;1;1335
+;(0, 7);;(0, 7);brown rock on top;1;1336
+;(0, 7);;(0, 7);brown rock on top;1;1337
+;(0, 7);;(0, 7);brown rock on top;1;1338
+;(0, 7);;(0, 7);brown rock on top;1;1339
+;(0, 7);;(0, 7);brown rock on top;1;1340
+;(0, 7);;(0, 7);brown rock on top;1;1341
+;(0, 7);;(0, 7);brown rock on top;1;1342
+;(0, 7);;(0, 7);brown rock on top;1;1343
+;(0, 7);;(0, 7);brown rock on top;1;1344
+;(0, 7);;(0, 7);brown rock on top;1;1345
+;(0, 7);;(0, 7);brown rock on top;1;1346
+;(0, 7);;(0, 7);brown rock on top;1;1347
+;(0, 7);;(0, 7);brown rock on top;1;1348
+;(0, 7);;(0, 7);brown rock on top;1;1349
+;(0, 7);;(0, 7);brown rock on top;1;1350
+;(0, 7);;(0, 7);brown rock on top;1;1351
+;(0, 7);;(0, 7);brown rock on top;1;1352
+;(0, 7);;(0, 7);brown rock on top;1;1353
+;(0, 7);;(0, 7);brown rock on top;1;1354
+;(0, 7);;(0, 7);brown rock on top;1;1355
+;(0, 7);;(0, 7);brown rock on top;1;1356
+;(0, 7);;(0, 7);brown rock on top;1;1357
+;(0, 7);;(0, 7);brown rock on top;1;1358
+;(0, 7);;(0, 7);brown rock on top;1;1359
+;(0, 7);;(0, 7);brown rock on top;1;1360
+;(0, 7);;(0, 7);brown rock on top;1;1361
+;(0, 7);;(0, 7);brown rock on top;1;1362
+;(0, 7);;(0, 7);brown rock on top;1;1363
+;(0, 7);;(0, 7);brown rock on top;1;1364
+;(0, 7);;(0, 7);brown rock on top;1;1365
+;(0, 7);;(0, 7);brown rock on top;1;1366
+;(0, 7);;(0, 7);brown rock on top;1;1367
+;(0, 7);;(0, 7);brown rock on top;1;1368
+;(0, 7);;(0, 7);brown rock on top;1;1369
+;(0, 7);;(0, 7);brown rock on top;1;1370
+;(0, 7);;(0, 7);brown rock on top;1;1371
+;(0, 7);;(0, 7);brown rock on top;1;1372
+;(0, 7);;(0, 7);brown rock on top;1;1373
+;(0, 7);;(0, 7);brown rock on top;1;1374
+;(0, 7);;(0, 7);brown rock on top;1;1375
+;(0, 7);;(0, 7);brown rock on top;1;1376
+;(0, 7);;(0, 7);brown rock on top;1;1377
+;(0, 7);;(0, 7);brown rock on top;1;1378
+;(0, 7);;(0, 7);brown rock on top;1;1379
+;(0, 7);;(0, 7);brown rock on top;1;1380
+;(0, 7);;(0, 7);brown rock on top;1;1381
+;(0, 7);;(0, 7);brown rock on top;1;1382
+;(0, 7);;(0, 7);brown rock on top;1;1383
+;(0, 7);;(0, 7);brown rock on top;1;1384
+;(0, 7);;(0, 7);brown rock on top;1;1385
+;(0, 7);;(0, 7);brown rock on top;1;1386
+;(0, 7);;(0, 7);brown rock on top;1;1387
+;(0, 7);;(0, 7);brown rock on top;1;1388
+;(0, 7);;(0, 7);brown rock on top;1;1389
+;(0, 7);;(0, 7);brown rock on top;1;1390
+;(0, 7);;(0, 7);brown rock on top;1;1391
+;(0, 7);;(0, 7);brown rock on top;1;1392
+;(0, 7);;(0, 7);brown rock on top;1;1393
+;(0, 7);;(0, 7);brown rock on top;1;1394
+;(0, 7);;(0, 7);brown rock on top;1;1395
+;(0, 7);;(0, 7);brown rock on top;1;1396
+;(0, 7);;(0, 7);brown rock on top;1;1397
+;(0, 7);;(0, 7);brown rock on top;1;1398
+;(0, 7);;(0, 7);brown rock on top;1;1399
+;(0, 7);;(0, 7);brown rock on top;1;1400
+;(0, 7);;(0, 7);brown rock on top;1;1401
+;(0, 7);;(0, 7);brown rock on top;1;1402
+;(0, 7);;(0, 7);brown rock on top;1;1403
+;(0, 7);;(0, 7);brown rock on top;1;1404
+;(0, 7);;(0, 7);brown rock on top;1;1405
+;(0, 7);;(0, 7);brown rock on top;1;1406
+;(0, 7);;(0, 7);brown rock on top;1;1407
+;(0, 7);;(0, 7);brown rock on top;1;1408
+;(0, 7);;(0, 7);brown rock on top;1;1409
+;(0, 7);;(0, 7);brown rock on top;1;1410
+;(0, 7);;(0, 7);brown rock on top;1;1411
+;(0, 7);;(0, 7);brown rock on top;1;1412
+;(0, 7);;(0, 7);brown rock on top;1;1413
+;(0, 7);;(0, 7);brown rock on top;1;1414
+;(0, 7);;(0, 7);brown rock on top;1;1415
+;(0, 7);;(0, 7);brown rock on top;1;1416
+;(0, 7);;(0, 7);brown rock on top;1;1417
+;(0, 7);;(0, 7);brown rock on top;1;1418
+;(0, 7);;(0, 7);brown rock on top;1;1419
+;(0, 7);;(0, 7);brown rock on top;1;1420
+;(0, 7);;(0, 7);brown rock on top;1;1421
+;(0, 7);;(0, 7);brown rock on top;1;1422
+MoveSouth;(0, 8);;(0, 7);brown rock on top;1;1423
+;(0, 8);;(0, 7);brown rock on top;1;1424
+MoveSouth;(0, 9);;(0, 7);brown rock on top;1;1425
+;(0, 9);;(0, 7);brown rock on top;1;1426
+;(0, 9);;(0, 7);brown rock on top;1;1427
+MoveSouth;(0, 10);;(0, 7);brown rock on top;1;1428
+;(0, 10);;(0, 7);brown rock on top;1;1429
+;(0, 10);;(0, 7);brown rock on top;1;1430
+MoveSouth;(0, 11);;(0, 7);brown rock on top;1;1431
+;(0, 11);;(0, 7);brown rock on top;1;1432
+;(0, 11);;(0, 7);brown rock on top;1;1433
+;(0, 11);;(0, 7);brown rock on top;1;1434
+;(0, 11);;(0, 7);brown rock on top;1;1435
+;(0, 11);;(0, 7);brown rock on top;1;1436
+;(0, 11);;(0, 7);brown rock on top;1;1437
+;(0, 11);;(0, 7);brown rock on top;1;1438
+;(0, 11);;(0, 7);brown rock on top;1;1439
+;(0, 11);;(0, 7);brown rock on top;1;1440
+;(0, 11);;(0, 7);brown rock on top;1;1441
+;(0, 11);;(0, 7);brown rock on top;1;1442
+;(0, 11);;(0, 7);brown rock on top;1;1443
+;(0, 11);;(0, 7);brown rock on top;1;1444
+;(0, 11);;(0, 7);brown rock on top;1;1445
+;(0, 11);;(0, 7);brown rock on top;1;1446
+;(0, 11);;(0, 7);brown rock on top;1;1447
+;(0, 11);;(0, 7);brown rock on top;1;1448
+;(0, 11);;(0, 7);brown rock on top;1;1449
+;(0, 11);;(0, 7);brown rock on top;1;1450
+;(0, 11);;(0, 7);brown rock on top;1;1451
+;(0, 11);;(0, 7);brown rock on top;1;1452
+;(0, 11);;(0, 7);brown rock on top;1;1453
+;(0, 11);;(0, 7);brown rock on top;1;1454
+;(0, 11);;(0, 7);brown rock on top;1;1455
+;(0, 11);;(0, 7);brown rock on top;1;1456
+;(0, 11);;(0, 7);brown rock on top;1;1457
+;(0, 11);;(0, 7);brown rock on top;1;1458
+;(0, 11);;(0, 7);brown rock on top;1;1459
+;(0, 11);;(0, 7);brown rock on top;1;1460
+;(0, 11);;(0, 7);brown rock on top;1;1461
+;(0, 11);;(0, 7);brown rock on top;1;1462
+;(0, 11);;(0, 7);brown rock on top;1;1463
+;(0, 11);;(0, 7);brown rock on top;1;1464
+;(0, 11);;(0, 7);brown rock on top;1;1465
+;(0, 11);;(0, 7);brown rock on top;1;1466
+;(0, 11);;(0, 7);brown rock on top;1;1467
+;(0, 11);;(0, 7);brown rock on top;1;1468
+;(0, 11);;(0, 7);brown rock on top;1;1469
+;(0, 11);;(0, 7);brown rock on top;1;1470
+;(0, 11);;(0, 7);brown rock on top;1;1471
+;(0, 11);;(0, 7);brown rock on top;1;1472
+;(0, 11);;(0, 7);brown rock on top;1;1473
+;(0, 11);;(0, 7);brown rock on top;1;1474
+;(0, 11);;(0, 7);brown rock on top;1;1475
+;(0, 11);;(0, 7);brown rock on top;1;1476
+;(0, 11);;(0, 7);brown rock on top;1;1477
+;(0, 11);;(0, 7);brown rock on top;1;1478
+;(0, 11);;(0, 7);brown rock on top;1;1479
+;(0, 11);;(0, 7);brown rock on top;1;1480
+;(0, 11);;(0, 7);brown rock on top;1;1481
+;(0, 11);;(0, 7);brown rock on top;1;1482
+;(0, 11);;(0, 7);brown rock on top;1;1483
+;(0, 11);;(0, 7);brown rock on top;1;1484
+;(0, 11);;(0, 7);brown rock on top;1;1485
+;(0, 11);;(0, 7);brown rock on top;1;1486
+;(0, 11);;(0, 7);brown rock on top;1;1487
+;(0, 11);;(0, 7);brown rock on top;1;1488
+;(0, 11);;(0, 7);brown rock on top;1;1489
+;(0, 11);;(0, 7);brown rock on top;1;1490
+;(0, 11);;(0, 7);brown rock on top;1;1491
+;(0, 11);;(0, 7);brown rock on top;1;1492
+;(0, 11);;(0, 7);brown rock on top;1;1493
+;(0, 11);;(0, 7);brown rock on top;1;1494
+;(0, 11);;(0, 7);brown rock on top;1;1495
+;(0, 11);;(0, 7);brown rock on top;1;1496
+;(0, 11);;(0, 7);brown rock on top;1;1497
+;(0, 11);;(0, 7);brown rock on top;1;1498
+;(0, 11);;(0, 7);brown rock on top;1;1499
+;(0, 11);;(0, 7);brown rock on top;1;1500
+;(0, 11);;(0, 7);brown rock on top;1;1501
+;(0, 11);;(0, 7);brown rock on top;1;1502
+;(0, 11);;(0, 7);brown rock on top;1;1503
+;(0, 11);;(0, 7);brown rock on top;1;1504
+;(0, 11);;(0, 7);brown rock on top;1;1505
+;(0, 11);;(0, 7);brown rock on top;1;1506
+;(0, 11);;(0, 7);brown rock on top;1;1507
+;(0, 11);;(0, 7);brown rock on top;1;1508
+;(0, 11);;(0, 7);brown rock on top;1;1509
+;(0, 11);;(0, 7);brown rock on top;1;1510
+;(0, 11);;(0, 7);brown rock on top;1;1511
+;(0, 11);;(0, 7);brown rock on top;1;1512
+;(0, 11);;(0, 7);brown rock on top;1;1513
+;(0, 11);;(0, 7);brown rock on top;1;1514
+;(0, 11);;(0, 7);brown rock on top;1;1515
+;(0, 11);;(0, 7);brown rock on top;1;1516
+;(0, 11);;(0, 7);brown rock on top;1;1517
+;(0, 11);;(0, 7);brown rock on top;1;1518
+;(0, 11);;(0, 7);brown rock on top;1;1519
+;(0, 11);;(0, 7);brown rock on top;1;1520
+;(0, 11);;(0, 7);brown rock on top;1;1521
+;(0, 11);;(0, 7);brown rock on top;1;1522
+;(0, 11);;(0, 7);brown rock on top;1;1523
+;(0, 11);;(0, 7);brown rock on top;1;1524
+;(0, 11);;(0, 7);brown rock on top;1;1525
+;(0, 11);;(0, 7);brown rock on top;1;1526
+;(0, 11);;(0, 7);brown rock on top;1;1527
+;(0, 11);;(0, 7);brown rock on top;1;1528
+;(0, 11);;(0, 7);brown rock on top;1;1529
+;(0, 11);;(0, 7);brown rock on top;1;1530
+;(0, 11);;(0, 7);brown rock on top;1;1531
+;(0, 11);;(0, 7);brown rock on top;1;1532
+;(0, 11);;(0, 7);brown rock on top;1;1533
+;(0, 11);;(0, 7);brown rock on top;1;1534
+;(0, 11);;(0, 7);brown rock on top;1;1535
+;(0, 11);;(0, 7);brown rock on top;1;1536
+;(0, 11);;(0, 7);brown rock on top;1;1537
+;(0, 11);;(0, 7);brown rock on top;1;1538
+;(0, 11);;(0, 7);brown rock on top;1;1539
+;(0, 11);;(0, 7);brown rock on top;1;1540
+;(0, 11);;(0, 7);brown rock on top;1;1541
+;(0, 11);;(0, 7);brown rock on top;1;1542
+;(0, 11);;(0, 7);brown rock on top;1;1543
+;(0, 11);;(0, 7);brown rock on top;1;1544
+;(0, 11);;(0, 7);brown rock on top;1;1545
+;(0, 11);;(0, 7);brown rock on top;1;1546
+;(0, 11);;(0, 7);brown rock on top;1;1547
+;(0, 11);;(0, 7);brown rock on top;1;1548
+;(0, 11);;(0, 7);brown rock on top;1;1549
+;(0, 11);;(0, 7);brown rock on top;1;1550
+;(0, 11);;(0, 7);brown rock on top;1;1551
+;(0, 11);;(0, 7);brown rock on top;1;1552
+;(0, 11);;(0, 7);brown rock on top;1;1553
+;(0, 11);;(0, 7);brown rock on top;1;1554
+;(0, 11);;(0, 7);brown rock on top;1;1555
+;(0, 11);;(0, 7);brown rock on top;1;1556
+;(0, 11);;(0, 7);brown rock on top;1;1557
+;(0, 11);;(0, 7);brown rock on top;1;1558
+;(0, 11);;(0, 7);brown rock on top;1;1559
+;(0, 11);;(0, 7);brown rock on top;1;1560
+;(0, 11);;(0, 7);brown rock on top;1;1561
+;(0, 11);;(0, 7);brown rock on top;1;1562
+;(0, 11);;(0, 7);brown rock on top;1;1563
+;(0, 11);;(0, 7);brown rock on top;1;1564
+;(0, 11);;(0, 7);brown rock on top;1;1565
+;(0, 11);;(0, 7);brown rock on top;1;1566
+;(0, 11);;(0, 7);brown rock on top;1;1567
+;(0, 11);;(0, 7);brown rock on top;1;1568
+;(0, 11);;(0, 7);brown rock on top;1;1569
+;(0, 11);;(0, 7);brown rock on top;1;1570
+;(0, 11);;(0, 7);brown rock on top;1;1571
+;(0, 11);;(0, 7);brown rock on top;1;1572
+;(0, 11);;(0, 7);brown rock on top;1;1573
+;(0, 11);;(0, 7);brown rock on top;1;1574
+;(0, 11);;(0, 7);brown rock on top;1;1575
+;(0, 11);;(0, 7);brown rock on top;1;1576
+;(0, 11);;(0, 7);brown rock on top;1;1577
+;(0, 11);;(0, 7);brown rock on top;1;1578
+;(0, 11);;(0, 7);brown rock on top;1;1579
+;(0, 11);;(0, 7);brown rock on top;1;1580
+;(0, 11);;(0, 7);brown rock on top;1;1581
+;(0, 11);;(0, 7);brown rock on top;1;1582
+;(0, 11);;(0, 7);brown rock on top;1;1583
+;(0, 11);;(0, 7);brown rock on top;1;1584
+;(0, 11);;(0, 7);brown rock on top;1;1585
+;(0, 11);;(0, 7);brown rock on top;1;1586
+;(0, 11);;(0, 7);brown rock on top;1;1587
+;(0, 11);;(0, 7);brown rock on top;1;1588
+;(0, 11);;(0, 7);brown rock on top;1;1589
+;(0, 11);;(0, 7);brown rock on top;1;1590
+;(0, 11);;(0, 7);brown rock on top;1;1591
+;(0, 11);;(0, 7);brown rock on top;1;1592
+;(0, 11);;(0, 7);brown rock on top;1;1593
+;(0, 11);;(0, 7);brown rock on top;1;1594
+;(0, 11);;(0, 7);brown rock on top;1;1595
+;(0, 11);;(0, 7);brown rock on top;1;1596
+;(0, 11);;(0, 7);brown rock on top;1;1597
+;(0, 11);;(0, 7);brown rock on top;1;1598
+;(0, 11);;(0, 7);brown rock on top;1;1599
+;(0, 11);;(0, 7);brown rock on top;1;1600
+;(0, 11);;(0, 7);brown rock on top;1;1601
+;(0, 11);;(0, 7);brown rock on top;1;1602
+;(0, 11);;(0, 7);brown rock on top;1;1603
+;(0, 11);;(0, 7);brown rock on top;1;1604
+;(0, 11);;(0, 7);brown rock on top;1;1605
+;(0, 11);;(0, 7);brown rock on top;1;1606
+;(0, 11);;(0, 7);brown rock on top;1;1607
+;(0, 11);;(0, 7);brown rock on top;1;1608
+;(0, 11);;(0, 7);brown rock on top;1;1609
+;(0, 11);;(0, 7);brown rock on top;1;1610
+;(0, 11);;(0, 7);brown rock on top;1;1611
+;(0, 11);;(0, 7);brown rock on top;1;1612
+;(0, 11);;(0, 7);brown rock on top;1;1613
+;(0, 11);;(0, 7);brown rock on top;1;1614
+;(0, 11);;(0, 7);brown rock on top;1;1615
+;(0, 11);;(0, 7);brown rock on top;1;1616
+;(0, 11);;(0, 7);brown rock on top;1;1617
+;(0, 11);;(0, 7);brown rock on top;1;1618
+;(0, 11);;(0, 7);brown rock on top;1;1619
+;(0, 11);;(0, 7);brown rock on top;1;1620
+;(0, 11);;(0, 7);brown rock on top;1;1621
+;(0, 11);;(0, 7);brown rock on top;1;1622
+;(0, 11);;(0, 7);brown rock on top;1;1623
+;(0, 11);;(0, 7);brown rock on top;1;1624
+;(0, 11);;(0, 7);brown rock on top;1;1625
+;(0, 11);;(0, 7);brown rock on top;1;1626
+;(0, 11);;(0, 7);brown rock on top;1;1627
+;(0, 11);;(0, 7);brown rock on top;1;1628
+;(0, 11);;(0, 7);brown rock on top;1;1629
+;(0, 11);;(0, 7);brown rock on top;1;1630
+;(0, 11);;(0, 7);brown rock on top;1;1631
+;(0, 11);;(0, 7);brown rock on top;1;1632
+;(0, 11);;(0, 7);brown rock on top;1;1633
+;(0, 11);;(0, 7);brown rock on top;1;1634
+;(0, 11);;(0, 7);brown rock on top;1;1635
+;(0, 11);;(0, 7);brown rock on top;1;1636
+;(0, 11);;(0, 7);brown rock on top;1;1637
+;(0, 11);;(0, 7);brown rock on top;1;1638
+;(0, 11);;(0, 7);brown rock on top;1;1639
+;(0, 11);;(0, 7);brown rock on top;1;1640
+;(0, 11);;(0, 7);brown rock on top;1;1641
+;(0, 11);;(0, 7);brown rock on top;1;1642
+;(0, 11);;(0, 7);brown rock on top;1;1643
+;(0, 11);;(0, 7);brown rock on top;1;1644
+;(0, 11);;(0, 7);brown rock on top;1;1645
+;(0, 11);;(0, 7);brown rock on top;1;1646
+;(0, 11);;(0, 7);brown rock on top;1;1647
+;(0, 11);;(0, 7);brown rock on top;1;1648
+;(0, 11);;(0, 7);brown rock on top;1;1649
+;(0, 11);;(0, 7);brown rock on top;1;1650
+;(0, 11);;(0, 7);brown rock on top;1;1651
+;(0, 11);;(0, 7);brown rock on top;1;1652
+;(0, 11);;(0, 7);brown rock on top;1;1653
+;(0, 11);;(0, 7);brown rock on top;1;1654
+;(0, 11);;(0, 7);brown rock on top;1;1655
+;(0, 11);;(0, 7);brown rock on top;1;1656
+;(0, 11);;(0, 7);brown rock on top;1;1657
+;(0, 11);;(0, 7);brown rock on top;1;1658
+;(0, 11);;(0, 7);brown rock on top;1;1659
+;(0, 11);;(0, 7);brown rock on top;1;1660
+;(0, 11);;(0, 7);brown rock on top;1;1661
+;(0, 11);;(0, 7);brown rock on top;1;1662
+;(0, 11);;(0, 7);brown rock on top;1;1663
+;(0, 11);;(0, 7);brown rock on top;1;1664
+;(0, 11);;(0, 7);brown rock on top;1;1665
+;(0, 11);;(0, 7);brown rock on top;1;1666
+;(0, 11);;(0, 7);brown rock on top;1;1667
+;(0, 11);;(0, 7);brown rock on top;1;1668
+;(0, 11);;(0, 7);brown rock on top;1;1669
+;(0, 11);;(0, 7);brown rock on top;1;1670
+;(0, 11);;(0, 7);brown rock on top;1;1671
+;(0, 11);;(0, 7);brown rock on top;1;1672
+;(0, 11);;(0, 7);brown rock on top;1;1673
+;(0, 11);;(0, 7);brown rock on top;1;1674
+MoveNorth;(0, 10);;(0, 7);brown rock on top;1;1675
+;(0, 10);;(0, 7);brown rock on top;1;1676
+;(0, 10);;(0, 7);brown rock on top;1;1677
+;(0, 10);;(0, 7);brown rock on top;1;1678
+;(0, 10);;(0, 7);brown rock on top;1;1679
+;(0, 10);;(0, 7);brown rock on top;1;1680
+;(0, 10);;(0, 7);brown rock on top;1;1681
+;(0, 10);;(0, 7);brown rock on top;1;1682
+;(0, 10);;(0, 7);brown rock on top;1;1683
+;(0, 10);;(0, 7);brown rock on top;1;1684
+;(0, 10);;(0, 7);brown rock on top;1;1685
+;(0, 10);;(0, 7);brown rock on top;1;1686
+;(0, 10);;(0, 7);brown rock on top;1;1687
+;(0, 10);;(0, 7);brown rock on top;1;1688
+;(0, 10);;(0, 7);brown rock on top;1;1689
+;(0, 10);;(0, 7);brown rock on top;1;1690
+;(0, 10);;(0, 7);brown rock on top;1;1691
+;(0, 10);;(0, 7);brown rock on top;1;1692
+;(0, 10);;(0, 7);brown rock on top;1;1693
+;(0, 10);;(0, 7);brown rock on top;1;1694
+;(0, 10);;(0, 7);brown rock on top;1;1695
+;(0, 10);;(0, 7);brown rock on top;1;1696
+;(0, 10);;(0, 7);brown rock on top;1;1697
+;(0, 10);;(0, 7);brown rock on top;1;1698
+;(0, 10);;(0, 7);brown rock on top;1;1699
+;(0, 10);;(0, 7);brown rock on top;1;1700
+;(0, 10);;(0, 7);brown rock on top;1;1701
+;(0, 10);;(0, 7);brown rock on top;1;1702
+;(0, 10);;(0, 7);brown rock on top;1;1703
+;(0, 10);;(0, 7);brown rock on top;1;1704
+;(0, 10);;(0, 7);brown rock on top;1;1705
+;(0, 10);;(0, 7);brown rock on top;1;1706
+;(0, 10);;(0, 7);brown rock on top;1;1707
+;(0, 10);;(0, 7);brown rock on top;1;1708
+;(0, 10);;(0, 7);brown rock on top;1;1709
+;(0, 10);;(0, 7);brown rock on top;1;1710
+;(0, 10);;(0, 7);brown rock on top;1;1711
+;(0, 10);;(0, 7);brown rock on top;1;1712
+;(0, 10);;(0, 7);brown rock on top;1;1713
+;(0, 10);;(0, 7);brown rock on top;1;1714
+;(0, 10);;(0, 7);brown rock on top;1;1715
+;(0, 10);;(0, 7);brown rock on top;1;1716
+;(0, 10);;(0, 7);brown rock on top;1;1717
+;(0, 10);;(0, 7);brown rock on top;1;1718
+;(0, 10);;(0, 7);brown rock on top;1;1719
+;(0, 10);;(0, 7);brown rock on top;1;1720
+;(0, 10);;(0, 7);brown rock on top;1;1721
+;(0, 10);;(0, 7);brown rock on top;1;1722
+;(0, 10);;(0, 7);brown rock on top;1;1723
+;(0, 10);;(0, 7);brown rock on top;1;1724
+;(0, 10);;(0, 7);brown rock on top;1;1725
+;(0, 10);;(0, 7);brown rock on top;1;1726
+;(0, 10);;(0, 7);brown rock on top;1;1727
+;(0, 10);;(0, 7);brown rock on top;1;1728
+;(0, 10);;(0, 7);brown rock on top;1;1729
+;(0, 10);;(0, 7);brown rock on top;1;1730
+;(0, 10);;(0, 7);brown rock on top;1;1731
+;(0, 10);;(0, 7);brown rock on top;1;1732
+;(0, 10);;(0, 7);brown rock on top;1;1733
+;(0, 10);;(0, 7);brown rock on top;1;1734
+;(0, 10);;(0, 7);brown rock on top;1;1735
+;(0, 10);;(0, 7);brown rock on top;1;1736
+;(0, 10);;(0, 7);brown rock on top;1;1737
+;(0, 10);;(0, 7);brown rock on top;1;1738
+;(0, 10);;(0, 7);brown rock on top;1;1739
+;(0, 10);;(0, 7);brown rock on top;1;1740
+;(0, 10);;(0, 7);brown rock on top;1;1741
+;(0, 10);;(0, 7);brown rock on top;1;1742
+;(0, 10);;(0, 7);brown rock on top;1;1743
+;(0, 10);;(0, 7);brown rock on top;1;1744
+;(0, 10);;(0, 7);brown rock on top;1;1745
+;(0, 10);;(0, 7);brown rock on top;1;1746
+;(0, 10);;(0, 7);brown rock on top;1;1747
+;(0, 10);;(0, 7);brown rock on top;1;1748
+;(0, 10);;(0, 7);brown rock on top;1;1749
+;(0, 10);;(0, 7);brown rock on top;1;1750
+;(0, 10);;(0, 7);brown rock on top;1;1751
+;(0, 10);;(0, 7);brown rock on top;1;1752
+;(0, 10);;(0, 7);brown rock on top;1;1753
+;(0, 10);;(0, 7);brown rock on top;1;1754
+;(0, 10);;(0, 7);brown rock on top;1;1755
+;(0, 10);;(0, 7);brown rock on top;1;1756
+;(0, 10);;(0, 7);brown rock on top;1;1757
+;(0, 10);;(0, 7);brown rock on top;1;1758
+;(0, 10);;(0, 7);brown rock on top;1;1759
+;(0, 10);;(0, 7);brown rock on top;1;1760
+;(0, 10);;(0, 7);brown rock on top;1;1761
+;(0, 10);;(0, 7);brown rock on top;1;1762
+;(0, 10);;(0, 7);brown rock on top;1;1763
+;(0, 10);;(0, 7);brown rock on top;1;1764
+;(0, 10);;(0, 7);brown rock on top;1;1765
+;(0, 10);;(0, 7);brown rock on top;1;1766
+;(0, 10);;(0, 7);brown rock on top;1;1767
+;(0, 10);;(0, 7);brown rock on top;1;1768
+;(0, 10);;(0, 7);brown rock on top;1;1769
+;(0, 10);;(0, 7);brown rock on top;1;1770
+;(0, 10);;(0, 7);brown rock on top;1;1771
+;(0, 10);;(0, 7);brown rock on top;1;1772
+;(0, 10);;(0, 7);brown rock on top;1;1773
+;(0, 10);;(0, 7);brown rock on top;1;1774
+;(0, 10);;(0, 7);brown rock on top;1;1775
+;(0, 10);;(0, 7);brown rock on top;1;1776
+;(0, 10);;(0, 7);brown rock on top;1;1777
+;(0, 10);;(0, 7);brown rock on top;1;1778
+;(0, 10);;(0, 7);brown rock on top;1;1779
+;(0, 10);;(0, 7);brown rock on top;1;1780
+;(0, 10);;(0, 7);brown rock on top;1;1781
+;(0, 10);;(0, 7);brown rock on top;1;1782
+;(0, 10);;(0, 7);brown rock on top;1;1783
+;(0, 10);;(0, 7);brown rock on top;1;1784
+;(0, 10);;(0, 7);brown rock on top;1;1785
+;(0, 10);;(0, 7);brown rock on top;1;1786
+;(0, 10);;(0, 7);brown rock on top;1;1787
+;(0, 10);;(0, 7);brown rock on top;1;1788
+;(0, 10);;(0, 7);brown rock on top;1;1789
+;(0, 10);;(0, 7);brown rock on top;1;1790
+;(0, 10);;(0, 7);brown rock on top;1;1791
+;(0, 10);;(0, 7);brown rock on top;1;1792
+;(0, 10);;(0, 7);brown rock on top;1;1793
+;(0, 10);;(0, 7);brown rock on top;1;1794
+;(0, 10);;(0, 7);brown rock on top;1;1795
+;(0, 10);;(0, 7);brown rock on top;1;1796
+;(0, 10);;(0, 7);brown rock on top;1;1797
+;(0, 10);;(0, 7);brown rock on top;1;1798
+;(0, 10);;(0, 7);brown rock on top;1;1799
+;(0, 10);;(0, 7);brown rock on top;1;1800
+;(0, 10);;(0, 7);brown rock on top;1;1801
+;(0, 10);;(0, 7);brown rock on top;1;1802
+;(0, 10);;(0, 7);brown rock on top;1;1803
+;(0, 10);;(0, 7);brown rock on top;1;1804
+;(0, 10);;(0, 7);brown rock on top;1;1805
+;(0, 10);;(0, 7);brown rock on top;1;1806
+;(0, 10);;(0, 7);brown rock on top;1;1807
+;(0, 10);;(0, 7);brown rock on top;1;1808
+;(0, 10);;(0, 7);brown rock on top;1;1809
+;(0, 10);;(0, 7);brown rock on top;1;1810
+;(0, 10);;(0, 7);brown rock on top;1;1811
+;(0, 10);;(0, 7);brown rock on top;1;1812
+;(0, 10);;(0, 7);brown rock on top;1;1813
+;(0, 10);;(0, 7);brown rock on top;1;1814
+;(0, 10);;(0, 7);brown rock on top;1;1815
+;(0, 10);;(0, 7);brown rock on top;1;1816
+;(0, 10);;(0, 7);brown rock on top;1;1817
+;(0, 10);;(0, 7);brown rock on top;1;1818
+;(0, 10);;(0, 7);brown rock on top;1;1819
+;(0, 10);;(0, 7);brown rock on top;1;1820
+;(0, 10);;(0, 7);brown rock on top;1;1821
+;(0, 10);;(0, 7);brown rock on top;1;1822
+;(0, 10);;(0, 7);brown rock on top;1;1823
+;(0, 10);;(0, 7);brown rock on top;1;1824
+;(0, 10);;(0, 7);brown rock on top;1;1825
+;(0, 10);;(0, 7);brown rock on top;1;1826
+;(0, 10);;(0, 7);brown rock on top;1;1827
+;(0, 10);;(0, 7);brown rock on top;1;1828
+;(0, 10);;(0, 7);brown rock on top;1;1829
+;(0, 10);;(0, 7);brown rock on top;1;1830
+;(0, 10);;(0, 7);brown rock on top;1;1831
+;(0, 10);;(0, 7);brown rock on top;1;1832
+;(0, 10);;(0, 7);brown rock on top;1;1833
+;(0, 10);;(0, 7);brown rock on top;1;1834
+;(0, 10);;(0, 7);brown rock on top;1;1835
+;(0, 10);;(0, 7);brown rock on top;1;1836
+;(0, 10);;(0, 7);brown rock on top;1;1837
+;(0, 10);;(0, 7);brown rock on top;1;1838
+;(0, 10);;(0, 7);brown rock on top;1;1839
+;(0, 10);;(0, 7);brown rock on top;1;1840
+;(0, 10);;(0, 7);brown rock on top;1;1841
+;(0, 10);;(0, 7);brown rock on top;1;1842
+;(0, 10);;(0, 7);brown rock on top;1;1843
+;(0, 10);;(0, 7);brown rock on top;1;1844
+;(0, 10);;(0, 7);brown rock on top;1;1845
+;(0, 10);;(0, 7);brown rock on top;1;1846
+;(0, 10);;(0, 7);brown rock on top;1;1847
+;(0, 10);;(0, 7);brown rock on top;1;1848
+;(0, 10);;(0, 7);brown rock on top;1;1849
+;(0, 10);;(0, 7);brown rock on top;1;1850
+;(0, 10);;(0, 7);brown rock on top;1;1851
+;(0, 10);;(0, 7);brown rock on top;1;1852
+;(0, 10);;(0, 7);brown rock on top;1;1853
+;(0, 10);;(0, 7);brown rock on top;1;1854
+;(0, 10);;(0, 7);brown rock on top;1;1855
+;(0, 10);;(0, 7);brown rock on top;1;1856
+;(0, 10);;(0, 7);brown rock on top;1;1857
+;(0, 10);;(0, 7);brown rock on top;1;1858
+;(0, 10);;(0, 7);brown rock on top;1;1859
+;(0, 10);;(0, 7);brown rock on top;1;1860
+;(0, 10);;(0, 7);brown rock on top;1;1861
+;(0, 10);;(0, 7);brown rock on top;1;1862
+;(0, 10);;(0, 7);brown rock on top;1;1863
+;(0, 10);;(0, 7);brown rock on top;1;1864
+;(0, 10);;(0, 7);brown rock on top;1;1865
+;(0, 10);;(0, 7);brown rock on top;1;1866
+;(0, 10);;(0, 7);brown rock on top;1;1867
+;(0, 10);;(0, 7);brown rock on top;1;1868
+;(0, 10);;(0, 7);brown rock on top;1;1869
+;(0, 10);;(0, 7);brown rock on top;1;1870
+;(0, 10);;(0, 7);brown rock on top;1;1871
+;(0, 10);;(0, 7);brown rock on top;1;1872
+;(0, 10);;(0, 7);brown rock on top;1;1873
+;(0, 10);;(0, 7);brown rock on top;1;1874
+;(0, 10);;(0, 7);brown rock on top;1;1875
+;(0, 10);;(0, 7);brown rock on top;1;1876
+;(0, 10);;(0, 7);brown rock on top;1;1877
+;(0, 10);;(0, 7);brown rock on top;1;1878
+;(0, 10);;(0, 7);brown rock on top;1;1879
+;(0, 10);;(0, 7);brown rock on top;1;1880
+;(0, 10);;(0, 7);brown rock on top;1;1881
+;(0, 10);;(0, 7);brown rock on top;1;1882
+;(0, 10);;(0, 7);brown rock on top;1;1883
+;(0, 10);;(0, 7);brown rock on top;1;1884
+;(0, 10);;(0, 7);brown rock on top;1;1885
+;(0, 10);;(0, 7);brown rock on top;1;1886
+;(0, 10);;(0, 7);brown rock on top;1;1887
+;(0, 10);;(0, 7);brown rock on top;1;1888
+;(0, 10);;(0, 7);brown rock on top;1;1889
+;(0, 10);;(0, 7);brown rock on top;1;1890
+;(0, 10);;(0, 7);brown rock on top;1;1891
+;(0, 10);;(0, 7);brown rock on top;1;1892
+;(0, 10);;(0, 7);brown rock on top;1;1893
+;(0, 10);;(0, 7);brown rock on top;1;1894
+;(0, 10);;(0, 7);brown rock on top;1;1895
+;(0, 10);;(0, 7);brown rock on top;1;1896
+;(0, 10);;(0, 7);brown rock on top;1;1897
+;(0, 10);;(0, 7);brown rock on top;1;1898
+;(0, 10);;(0, 7);brown rock on top;1;1899
+;(0, 10);;(0, 7);brown rock on top;1;1900
+;(0, 10);;(0, 7);brown rock on top;1;1901
+;(0, 10);;(0, 7);brown rock on top;1;1902
+;(0, 10);;(0, 7);brown rock on top;1;1903
+;(0, 10);;(0, 7);brown rock on top;1;1904
+;(0, 10);;(0, 7);brown rock on top;1;1905
+;(0, 10);;(0, 7);brown rock on top;1;1906
+;(0, 10);;(0, 7);brown rock on top;1;1907
+;(0, 10);;(0, 7);brown rock on top;1;1908
+;(0, 10);;(0, 7);brown rock on top;1;1909
+;(0, 10);;(0, 7);brown rock on top;1;1910
+;(0, 10);;(0, 7);brown rock on top;1;1911
+;(0, 10);;(0, 7);brown rock on top;1;1912
+;(0, 10);;(0, 7);brown rock on top;1;1913
+;(0, 10);;(0, 7);brown rock on top;1;1914
+;(0, 10);;(0, 7);brown rock on top;1;1915
+;(0, 10);;(0, 7);brown rock on top;1;1916
+;(0, 10);;(0, 7);brown rock on top;1;1917
+;(0, 10);;(0, 7);brown rock on top;1;1918
+;(0, 10);;(0, 7);brown rock on top;1;1919
+;(0, 10);;(0, 7);brown rock on top;1;1920
+;(0, 10);;(0, 7);brown rock on top;1;1921
+;(0, 10);;(0, 7);brown rock on top;1;1922
+;(0, 10);;(0, 7);brown rock on top;1;1923
+;(0, 10);;(0, 7);brown rock on top;1;1924
+;(0, 10);;(0, 7);brown rock on top;1;1925
+;(0, 10);;(0, 7);brown rock on top;1;1926
+;(0, 10);;(0, 7);brown rock on top;1;1927
+;(0, 10);;(0, 7);brown rock on top;1;1928
+;(0, 10);;(0, 7);brown rock on top;1;1929
+;(0, 10);;(0, 7);brown rock on top;1;1930
+;(0, 10);;(0, 7);brown rock on top;1;1931
+;(0, 10);;(0, 7);brown rock on top;1;1932
+;(0, 10);;(0, 7);brown rock on top;1;1933
+;(0, 10);;(0, 7);brown rock on top;1;1934
+;(0, 10);;(0, 7);brown rock on top;1;1935
+;(0, 10);;(0, 7);brown rock on top;1;1936
+;(0, 10);;(0, 7);brown rock on top;1;1937
+;(0, 10);;(0, 7);brown rock on top;1;1938
+;(0, 10);;(0, 7);brown rock on top;1;1939
+;(0, 10);;(0, 7);brown rock on top;1;1940
+;(0, 10);;(0, 7);brown rock on top;1;1941
+;(0, 10);;(0, 7);brown rock on top;1;1942
+;(0, 10);;(0, 7);brown rock on top;1;1943
+;(0, 10);;(0, 7);brown rock on top;1;1944
+;(0, 10);;(0, 7);brown rock on top;1;1945
+;(0, 10);;(0, 7);brown rock on top;1;1946
+;(0, 10);;(0, 7);brown rock on top;1;1947
+;(0, 10);;(0, 7);brown rock on top;1;1948
+;(0, 10);;(0, 7);brown rock on top;1;1949
+;(0, 10);;(0, 7);brown rock on top;1;1950
+;(0, 10);;(0, 7);brown rock on top;1;1951
+;(0, 10);;(0, 7);brown rock on top;1;1952
+;(0, 10);;(0, 7);brown rock on top;1;1953
+;(0, 10);;(0, 7);brown rock on top;1;1954
+;(0, 10);;(0, 7);brown rock on top;1;1955
+;(0, 10);;(0, 7);brown rock on top;1;1956
+;(0, 10);;(0, 7);brown rock on top;1;1957
+;(0, 10);;(0, 7);brown rock on top;1;1958
+;(0, 10);;(0, 7);brown rock on top;1;1959
+;(0, 10);;(0, 7);brown rock on top;1;1960
+;(0, 10);;(0, 7);brown rock on top;1;1961
+;(0, 10);;(0, 7);brown rock on top;1;1962
+;(0, 10);;(0, 7);brown rock on top;1;1963
+;(0, 10);;(0, 7);brown rock on top;1;1964
+;(0, 10);;(0, 7);brown rock on top;1;1965
+;(0, 10);;(0, 7);brown rock on top;1;1966
+;(0, 10);;(0, 7);brown rock on top;1;1967
+;(0, 10);;(0, 7);brown rock on top;1;1968
+;(0, 10);;(0, 7);brown rock on top;1;1969
+;(0, 10);;(0, 7);brown rock on top;1;1970
+;(0, 10);;(0, 7);brown rock on top;1;1971
+;(0, 10);;(0, 7);brown rock on top;1;1972
+;(0, 10);;(0, 7);brown rock on top;1;1973
+;(0, 10);;(0, 7);brown rock on top;1;1974
+;(0, 10);;(0, 7);brown rock on top;1;1975
+;(0, 10);;(0, 7);brown rock on top;1;1976
+;(0, 10);;(0, 7);brown rock on top;1;1977
+;(0, 10);;(0, 7);brown rock on top;1;1978
+;(0, 10);;(0, 7);brown rock on top;1;1979
+;(0, 10);;(0, 7);brown rock on top;1;1980
+;(0, 10);;(0, 7);brown rock on top;1;1981
+;(0, 10);;(0, 7);brown rock on top;1;1982
+;(0, 10);;(0, 7);brown rock on top;1;1983
+;(0, 10);;(0, 7);brown rock on top;1;1984
+;(0, 10);;(0, 7);brown rock on top;1;1985
+;(0, 10);;(0, 7);brown rock on top;1;1986
+;(0, 10);;(0, 7);brown rock on top;1;1987
+;(0, 10);;(0, 7);brown rock on top;1;1988
+;(0, 10);;(0, 7);brown rock on top;1;1989
+;(0, 10);;(0, 7);brown rock on top;1;1990
+;(0, 10);;(0, 7);brown rock on top;1;1991
+;(0, 10);;(0, 7);brown rock on top;1;1992
+;(0, 10);;(0, 7);brown rock on top;1;1993
+;(0, 10);;(0, 7);brown rock on top;1;1994
+;(0, 10);;(0, 7);brown rock on top;1;1995
+;(0, 10);;(0, 7);brown rock on top;1;1996
+;(0, 10);;(0, 7);brown rock on top;1;1997
+;(0, 10);;(0, 7);brown rock on top;1;1998
+;(0, 10);;(0, 7);brown rock on top;1;1999
+;(0, 10);;(0, 7);brown rock on top;1;2000
+;(0, 10);;(0, 7);brown rock on top;1;2001
+;(0, 10);;(0, 7);brown rock on top;1;2002
+;(0, 10);;(0, 7);brown rock on top;1;2003
+;(0, 10);;(0, 7);brown rock on top;1;2004
+;(0, 10);;(0, 7);brown rock on top;1;2005
+;(0, 10);;(0, 7);brown rock on top;1;2006
+;(0, 10);;(0, 7);brown rock on top;1;2007
+;(0, 10);;(0, 7);brown rock on top;1;2008
+;(0, 10);;(0, 7);brown rock on top;1;2009
+;(0, 10);;(0, 7);brown rock on top;1;2010
+;(0, 10);;(0, 7);brown rock on top;1;2011
+;(0, 10);;(0, 7);brown rock on top;1;2012
+;(0, 10);;(0, 7);brown rock on top;1;2013
+;(0, 10);;(0, 7);brown rock on top;1;2014
+;(0, 10);;(0, 7);brown rock on top;1;2015
+;(0, 10);;(0, 7);brown rock on top;1;2016
+;(0, 10);;(0, 7);brown rock on top;1;2017
+;(0, 10);;(0, 7);brown rock on top;1;2018
+;(0, 10);;(0, 7);brown rock on top;1;2019
+;(0, 10);;(0, 7);brown rock on top;1;2020
+;(0, 10);;(0, 7);brown rock on top;1;2021
+;(0, 10);;(0, 7);brown rock on top;1;2022
+;(0, 10);;(0, 7);brown rock on top;1;2023
+;(0, 10);;(0, 7);brown rock on top;1;2024
+;(0, 10);;(0, 7);brown rock on top;1;2025
+;(0, 10);;(0, 7);brown rock on top;1;2026
+;(0, 10);;(0, 7);brown rock on top;1;2027
+;(0, 10);;(0, 7);brown rock on top;1;2028
+;(0, 10);;(0, 7);brown rock on top;1;2029
+;(0, 10);;(0, 7);brown rock on top;1;2030
+;(0, 10);;(0, 7);brown rock on top;1;2031
+;(0, 10);;(0, 7);brown rock on top;1;2032
+;(0, 10);;(0, 7);brown rock on top;1;2033
+;(0, 10);;(0, 7);brown rock on top;1;2034
+;(0, 10);;(0, 7);brown rock on top;1;2035
+;(0, 10);;(0, 7);brown rock on top;1;2036
+;(0, 10);;(0, 7);brown rock on top;1;2037
+MoveNorth;(0, 9);;(0, 7);brown rock on top;1;2038
+;(0, 9);;(0, 7);brown rock on top;1;2039
+;(0, 9);;(0, 7);brown rock on top;1;2040
+;(0, 9);;(0, 7);brown rock on top;1;2041
+;(0, 9);;(0, 7);brown rock on top;1;2042
+;(0, 9);;(0, 7);brown rock on top;1;2043
+;(0, 9);;(0, 7);brown rock on top;1;2044
+;(0, 9);;(0, 7);brown rock on top;1;2045
+MoveNorth;(0, 8);;(0, 7);brown rock on top;1;2046
+;(0, 8);;(0, 7);brown rock on top;1;2047
+;(0, 8);;(0, 7);brown rock on top;1;2048
+;(0, 8);;(0, 7);brown rock on top;1;2049
+;(0, 8);;(0, 7);brown rock on top;1;2050
+;(0, 8);;(0, 7);brown rock on top;1;2051
+;(0, 8);;(0, 7);brown rock on top;1;2052
+;(0, 8);;(0, 7);brown rock on top;1;2053
+;(0, 8);;(0, 7);brown rock on top;1;2054
+;(0, 8);;(0, 7);brown rock on top;1;2055
+;(0, 8);;(0, 7);brown rock on top;1;2056
+;(0, 8);;(0, 7);brown rock on top;1;2057
+;(0, 8);;(0, 7);brown rock on top;1;2058
+;(0, 8);;(0, 7);brown rock on top;1;2059
+;(0, 8);;(0, 7);brown rock on top;1;2060
+;(0, 8);;(0, 7);brown rock on top;1;2061
+;(0, 8);;(0, 7);brown rock on top;1;2062
+;(0, 8);;(0, 7);brown rock on top;1;2063
+;(0, 8);;(0, 7);brown rock on top;1;2064
+;(0, 8);;(0, 7);brown rock on top;1;2065
+MoveNorth;(0, 7);;(0, 7);brown rock on top;1;2066
+;(0, 7);;(0, 7);brown rock on top;1;2067
+;(0, 7);;(0, 7);brown rock on top;1;2068
+;(0, 7);;(0, 7);brown rock on top;1;2069
+;(0, 7);;(0, 7);brown rock on top;1;2070
+;(0, 7);;(0, 7);brown rock on top;1;2071
+;(0, 7);;(0, 7);brown rock on top;1;2072
+;(0, 7);;(0, 7);brown rock on top;1;2073
+;(0, 7);;(0, 7);brown rock on top;1;2074
+;(0, 7);;(0, 7);brown rock on top;1;2075
+;(0, 7);;(0, 7);brown rock on top;1;2076
+;(0, 7);;(0, 7);brown rock on top;1;2077
+;(0, 7);;(0, 7);brown rock on top;1;2078
+;(0, 7);;(0, 7);brown rock on top;1;2079
+;(0, 7);;(0, 7);brown rock on top;1;2080
+MoveNorth;(0, 6);;(0, 7);brown rock on top;1;2081
+;(0, 6);;(0, 7);brown rock on top;1;2082
+;(0, 6);;(0, 7);brown rock on top;1;2083
+;(0, 6);;(0, 7);brown rock on top;1;2084
+;(0, 6);;(0, 7);brown rock on top;1;2085
+;(0, 6);;(0, 7);brown rock on top;1;2086
+;(0, 6);;(0, 7);brown rock on top;1;2087
+;(0, 6);;(0, 7);brown rock on top;1;2088
+;(0, 6);;(0, 7);brown rock on top;1;2089
+;(0, 6);;(0, 7);brown rock on top;1;2090
+;(0, 6);;(0, 7);brown rock on top;1;2091
+;(0, 6);;(0, 7);brown rock on top;1;2092
+;(0, 6);;(0, 7);brown rock on top;1;2093
+;(0, 6);;(0, 7);brown rock on top;1;2094
+;(0, 6);;(0, 7);brown rock on top;1;2095
+;(0, 6);;(0, 7);brown rock on top;1;2096
+;(0, 6);;(0, 7);brown rock on top;1;2097
+;(0, 6);;(0, 7);brown rock on top;1;2098
+;(0, 6);;(0, 7);brown rock on top;1;2099
+;(0, 6);;(0, 7);brown rock on top;1;2100
+;(0, 6);;(0, 7);brown rock on top;1;2101
+;(0, 6);;(0, 7);brown rock on top;1;2102
+;(0, 6);;(0, 7);brown rock on top;1;2103
+;(0, 6);;(0, 7);brown rock on top;1;2104
+;(0, 6);;(0, 7);brown rock on top;1;2105
+;(0, 6);;(0, 7);brown rock on top;1;2106
+;(0, 6);;(0, 7);brown rock on top;1;2107
+;(0, 6);;(0, 7);brown rock on top;1;2108
+MoveEast;(1, 6);;(0, 7);brown rock on top;1;2109
+;(1, 6);;(0, 7);brown rock on top;1;2110
+;(1, 6);;(0, 7);brown rock on top;1;2111
+;(1, 6);;(0, 7);brown rock on top;1;2112
+;(1, 6);;(0, 7);brown rock on top;1;2113
+;(1, 6);;(0, 7);brown rock on top;1;2114
+;(1, 6);;(0, 7);brown rock on top;1;2115
+;(1, 6);;(0, 7);brown rock on top;1;2116
+;(1, 6);;(0, 7);brown rock on top;1;2117
+;(1, 6);;(0, 7);brown rock on top;1;2118
+MoveEast;(2, 6);;(0, 7);brown rock on top;1;2119
+MoveEast;(3, 6);;(0, 7);brown rock on top;1;2120
+MoveEast;(4, 6);;(0, 7);brown rock on top;1;2121
+MoveEast;(5, 6);;(0, 7);brown rock on top;1;2122
+MoveEast;(6, 6);;(0, 7);brown rock on top;1;2123
+MoveEast;(7, 6);;(0, 7);brown rock on top;1;2124
+MoveEast;(8, 6);;(0, 7);brown rock on top;1;2125
+MoveEast;(9, 6);;(0, 7);brown rock on top;1;2126
+;(9, 6);;(0, 7);brown rock on top;1;2127
+;(9, 6);;(0, 7);brown rock on top;1;2128
+;(9, 6);;(0, 7);brown rock on top;1;2129
+;(9, 6);;(0, 7);brown rock on top;1;2130
+;(9, 6);;(0, 7);brown rock on top;1;2131
+;(9, 6);;(0, 7);brown rock on top;1;2132
+;(9, 6);;(0, 7);brown rock on top;1;2133
+;(9, 6);;(0, 7);brown rock on top;1;2134
+;(9, 6);;(0, 7);brown rock on top;1;2135
+;(9, 6);;(0, 7);brown rock on top;1;2136
+;(9, 6);;(0, 7);brown rock on top;1;2137
+;(9, 6);;(0, 7);brown rock on top;1;2138
+;(9, 6);;(0, 7);brown rock on top;1;2139
+;(9, 6);;(0, 7);brown rock on top;1;2140
+;(9, 6);;(0, 7);brown rock on top;1;2141
+MoveWest;(8, 6);;(0, 7);brown rock on top;1;2142
+;(8, 6);;(0, 7);brown rock on top;1;2143
+;(8, 6);;(0, 7);brown rock on top;1;2144
+;(8, 6);;(0, 7);brown rock on top;1;2145
+;(8, 6);;(0, 7);brown rock on top;1;2146
+;(8, 6);;(0, 7);brown rock on top;1;2147
+;(8, 6);;(0, 7);brown rock on top;1;2148
+;(8, 6);;(0, 7);brown rock on top;1;2149
+;(8, 6);;(0, 7);brown rock on top;1;2150
+;(8, 6);;(0, 7);brown rock on top;1;2151
+;(8, 6);;(0, 7);brown rock on top;1;2152
+;(8, 6);;(0, 7);brown rock on top;1;2153
+;(8, 6);;(0, 7);brown rock on top;1;2154
+;(8, 6);;(0, 7);brown rock on top;1;2155
+;(8, 6);;(0, 7);brown rock on top;1;2156
+;(8, 6);;(0, 7);brown rock on top;1;2157
+;(8, 6);;(0, 7);brown rock on top;1;2158
+;(8, 6);;(0, 7);brown rock on top;1;2159
+;(8, 6);;(0, 7);brown rock on top;1;2160
+;(8, 6);;(0, 7);brown rock on top;1;2161
+;(8, 6);;(0, 7);brown rock on top;1;2162
+;(8, 6);;(0, 7);brown rock on top;1;2163
+;(8, 6);;(0, 7);brown rock on top;1;2164
+;(8, 6);;(0, 7);brown rock on top;1;2165
+;(8, 6);;(0, 7);brown rock on top;1;2166
+;(8, 6);;(0, 7);brown rock on top;1;2167
+;(8, 6);;(0, 7);brown rock on top;1;2168
+;(8, 6);;(0, 7);brown rock on top;1;2169
+GrabObject;(8, 6);;(0, 7);brown rock on top;1;2170
+;(8, 6);;(0, 7);brown rock on top;1;2171
+;(8, 6);;(0, 7);brown rock on top;1;2172
+;(8, 6);;(0, 7);brown rock on top;1;2173
+;(8, 6);;(0, 7);brown rock on top;1;2174
+;(8, 6);;(0, 7);brown rock on top;1;2175
+;(8, 6);;(0, 7);brown rock on top;1;2176
+;(8, 6);;(0, 7);brown rock on top;1;2177
+;(8, 6);;(0, 7);brown rock on top;1;2178
+;(8, 6);;(0, 7);brown rock on top;1;2179
+;(8, 6);;(0, 7);brown rock on top;1;2180
+;(8, 6);;(0, 7);brown rock on top;1;2181
+;(8, 6);;(0, 7);brown rock on top;1;2182
+;(8, 6);;(0, 7);brown rock on top;1;2183
+;(8, 6);;(0, 7);brown rock on top;1;2184
+;(8, 6);;(0, 7);brown rock on top;1;2185
+;(8, 6);;(0, 7);brown rock on top;1;2186
+;(8, 6);;(0, 7);brown rock on top;1;2187
+;(8, 6);;(0, 7);brown rock on top;1;2188
+;(8, 6);;(0, 7);brown rock on top;1;2189
+;(8, 6);;(0, 7);brown rock on top;1;2190
+MoveWest;(7, 6);;(0, 7);brown rock on top;1;2191
+;(7, 6);;(0, 7);brown rock on top;1;2192
+;(7, 6);;(0, 7);brown rock on top;1;2193
+;(7, 6);;(0, 7);brown rock on top;1;2194
+;(7, 6);;(0, 7);brown rock on top;1;2195
+;(7, 6);;(0, 7);brown rock on top;1;2196
+;(7, 6);;(0, 7);brown rock on top;1;2197
+;(7, 6);;(0, 7);brown rock on top;1;2198
+;(7, 6);;(0, 7);brown rock on top;1;2199
+;(7, 6);;(0, 7);brown rock on top;1;2200
+MoveWest;(6, 6);;(0, 7);brown rock on top;1;2201
+MoveWest;(5, 6);;(0, 7);brown rock on top;1;2202
+MoveWest;(4, 6);;(0, 7);brown rock on top;1;2203
+MoveWest;(3, 6);;(0, 7);brown rock on top;1;2204
+MoveWest;(2, 6);;(0, 7);brown rock on top;1;2205
+;(2, 6);;(0, 7);brown rock on top;1;2206
+;(2, 6);;(0, 7);brown rock on top;1;2207
+;(2, 6);;(0, 7);brown rock on top;1;2208
+;(2, 6);;(0, 7);brown rock on top;1;2209
+;(2, 6);;(0, 7);brown rock on top;1;2210
+;(2, 6);;(0, 7);brown rock on top;1;2211
+;(2, 6);;(0, 7);brown rock on top;1;2212
+;(2, 6);;(0, 7);brown rock on top;1;2213
+;(2, 6);;(0, 7);brown rock on top;1;2214
+MoveWest;(1, 6);;(0, 7);brown rock on top;1;2215
+;(1, 6);;(0, 7);brown rock on top;1;2216
+;(1, 6);;(0, 7);brown rock on top;1;2217
+;(1, 6);;(0, 7);brown rock on top;1;2218
+;(1, 6);;(0, 7);brown rock on top;1;2219
+;(1, 6);;(0, 7);brown rock on top;1;2220
+;(1, 6);;(0, 7);brown rock on top;1;2221
+;(1, 6);;(0, 7);brown rock on top;1;2222
+MoveSouth;(1, 7);;(0, 7);brown rock on top;1;2223
+;(1, 7);;(0, 7);brown rock on top;1;2224
+;(1, 7);;(0, 7);brown rock on top;1;2225
+;(1, 7);;(0, 7);brown rock on top;1;2226
+MoveSouth;(1, 8);;(0, 7);brown rock on top;1;2227
+;(1, 8);;(0, 7);brown rock on top;1;2228
+;(1, 8);;(0, 7);brown rock on top;1;2229
+;(1, 8);;(0, 7);brown rock on top;1;2230
+MoveSouth;(1, 9);;(0, 7);brown rock on top;1;2231
+;(1, 9);;(0, 7);brown rock on top;1;2232
+MoveSouth;(1, 10);;(0, 7);brown rock on top;1;2233
+;(1, 10);;(0, 7);brown rock on top;1;2234
+;(1, 10);;(0, 7);brown rock on top;1;2235
+;(1, 10);;(0, 7);brown rock on top;1;2236
+MoveSouth;(1, 11);;(0, 7);brown rock on top;1;2237
+;(1, 11);;(0, 7);brown rock on top;1;2238
+;(1, 11);;(0, 7);brown rock on top;1;2239
+;(1, 11);;(0, 7);brown rock on top;1;2240
+;(1, 11);;(0, 7);brown rock on top;1;2241
+;(1, 11);;(0, 7);brown rock on top;1;2242
+;(1, 11);;(0, 7);brown rock on top;1;2243
+;(1, 11);;(0, 7);brown rock on top;1;2244
+;(1, 11);;(0, 7);brown rock on top;1;2245
+;(1, 11);;(0, 7);brown rock on top;1;2246
+;(1, 11);;(0, 7);brown rock on top;1;2247
+;(1, 11);;(0, 7);brown rock on top;1;2248
+;(1, 11);;(0, 7);brown rock on top;1;2249
+;(1, 11);;(0, 7);brown rock on top;1;2250
+;(1, 11);;(0, 7);brown rock on top;1;2251
+;(1, 11);;(0, 7);brown rock on top;1;2252
+;(1, 11);;(0, 7);brown rock on top;1;2253
+;(1, 11);;(0, 7);brown rock on top;1;2254
+;(1, 11);;(0, 7);brown rock on top;1;2255
+MoveNorth;(1, 10);;(0, 7);brown rock on top;1;2256
+;(1, 10);;(0, 7);brown rock on top;1;2257
+;(1, 10);;(0, 7);brown rock on top;1;2258
+;(1, 10);;(0, 7);brown rock on top;1;2259
+;(1, 10);;(0, 7);brown rock on top;1;2260
+;(1, 10);;(0, 7);brown rock on top;1;2261
+;(1, 10);;(0, 7);brown rock on top;1;2262
+;(1, 10);;(0, 7);brown rock on top;1;2263
+;(1, 10);;(0, 7);brown rock on top;1;2264
+;(1, 10);;(0, 7);brown rock on top;1;2265
+;(1, 10);;(0, 7);brown rock on top;1;2266
+;(1, 10);;(0, 7);brown rock on top;1;2267
+;(1, 10);;(0, 7);brown rock on top;1;2268
+;(1, 10);;(0, 7);brown rock on top;1;2269
+;(1, 10);;(0, 7);brown rock on top;1;2270
+;(1, 10);;(0, 7);brown rock on top;1;2271
+;(1, 10);;(0, 7);brown rock on top;1;2272
+;(1, 10);;(0, 7);brown rock on top;1;2273
+DropObject;(1, 10);;(0, 7);brown rock on top;1;2274
+;(1, 10);;(0, 7);brown rock on top;1;2275
+;(1, 10);;(0, 7);brown rock on top;1;2276
+;(1, 10);;(0, 7);brown rock on top;1;2277
+;(1, 10);;(0, 7);brown rock on top;1;2278
+;(1, 10);;(0, 7);brown rock on top;1;2279
+;(1, 10);;(0, 7);brown rock on top;1;2280
+;(1, 10);;(0, 7);brown rock on top;1;2281
+;(1, 10);;(0, 7);brown rock on top;1;2282
+;(1, 10);;(0, 7);brown rock on top;1;2283
+;(1, 10);;(0, 7);brown rock on top;1;2284
+;(1, 10);;(0, 7);brown rock on top;1;2285
+;(1, 10);;(0, 7);brown rock on top;1;2286
+;(1, 10);;(0, 7);brown rock on top;1;2287
+;(1, 10);;(0, 7);brown rock on top;1;2288
+MoveEast;(2, 10);;(0, 7);brown rock on top;1;2289
+;(2, 10);;(0, 7);brown rock on top;1;2290
+;(2, 10);;(0, 7);brown rock on top;1;2291
+;(2, 10);;(0, 7);brown rock on top;1;2292
+;(2, 10);;(0, 7);brown rock on top;1;2293
+;(2, 10);;(0, 7);brown rock on top;1;2294
+;(2, 10);;(0, 7);brown rock on top;1;2295
+;(2, 10);;(0, 7);brown rock on top;1;2296
+;(2, 10);;(0, 7);brown rock on top;1;2297
+;(2, 10);;(0, 7);brown rock on top;1;2298
+MoveEast;(3, 10);;(0, 7);brown rock on top;1;2299
+MoveEast;(4, 10);;(0, 7);brown rock on top;1;2300
+MoveEast;(5, 10);;(0, 7);brown rock on top;1;2301
+;(5, 10);;(0, 7);brown rock on top;1;2302
+;(5, 10);;(0, 7);brown rock on top;1;2303
+;(5, 10);;(0, 7);brown rock on top;1;2304
+;(5, 10);;(0, 7);brown rock on top;1;2305
+;(5, 10);;(0, 7);brown rock on top;1;2306
+;(5, 10);;(0, 7);brown rock on top;1;2307
+;(5, 10);;(0, 7);brown rock on top;1;2308
+;(5, 10);;(0, 7);brown rock on top;1;2309
+;(5, 10);;(0, 7);brown rock on top;1;2310
+;(5, 10);;(0, 7);brown rock on top;1;2311
+;(5, 10);;(0, 7);brown rock on top;1;2312
+MoveEast;(6, 10);;(0, 7);brown rock on top;1;2313
+;(6, 10);;(0, 7);brown rock on top;1;2314
+;(6, 10);;(0, 7);brown rock on top;1;2315
+;(6, 10);;(0, 7);brown rock on top;1;2316
+;(6, 10);;(0, 7);brown rock on top;1;2317
+MoveEast;(7, 10);;(0, 7);brown rock on top;1;2318
+;(7, 10);;(0, 7);brown rock on top;1;2319
+;(7, 10);;(0, 7);brown rock on top;1;2320
+;(7, 10);;(0, 7);brown rock on top;1;2321
+MoveEast;(8, 10);;(0, 7);brown rock on top;1;2322
+;(8, 10);;(0, 7);brown rock on top;1;2323
+;(8, 10);;(0, 7);brown rock on top;1;2324
+;(8, 10);;(0, 7);brown rock on top;1;2325
+;(8, 10);;(0, 7);brown rock on top;1;2326
+;(8, 10);;(0, 7);brown rock on top;1;2327
+;(8, 10);;(0, 7);brown rock on top;1;2328
+;(8, 10);;(0, 7);brown rock on top;1;2329
+;(8, 10);;(0, 7);brown rock on top;1;2330
+;(8, 10);;(0, 7);brown rock on top;1;2331
+;(8, 10);;(0, 7);brown rock on top;1;2332
+;(8, 10);;(0, 7);brown rock on top;1;2333
+;(8, 10);;(0, 7);brown rock on top;1;2334
+;(8, 10);;(0, 7);brown rock on top;1;2335
+;(8, 10);;(0, 7);brown rock on top;1;2336
+;(8, 10);;(0, 7);brown rock on top;1;2337
+;(8, 10);;(0, 7);brown rock on top;1;2338
+;(8, 10);;(0, 7);brown rock on top;1;2339
+;(8, 10);;(0, 7);brown rock on top;1;2340
+;(8, 10);;(0, 7);brown rock on top;1;2341
+;(8, 10);;(0, 7);brown rock on top;1;2342
+;(8, 10);;(0, 7);brown rock on top;1;2343
+;(8, 10);;(0, 7);brown rock on top;1;2344
+;(8, 10);;(0, 7);brown rock on top;1;2345
+;(8, 10);;(0, 7);brown rock on top;1;2346
+;(8, 10);;(0, 7);brown rock on top;1;2347
+;(8, 10);;(0, 7);brown rock on top;1;2348
+MoveNorth;(8, 9);;(0, 7);brown rock on top;1;2349
+;(8, 9);;(0, 7);brown rock on top;1;2350
+;(8, 9);;(0, 7);brown rock on top;1;2351
+;(8, 9);;(0, 7);brown rock on top;1;2352
+;(8, 9);;(0, 7);brown rock on top;1;2353
+MoveNorth;(8, 8);;(0, 7);brown rock on top;1;2354
+;(8, 8);;(0, 7);brown rock on top;1;2355
+;(8, 8);;(0, 7);brown rock on top;1;2356
+;(8, 8);;(0, 7);brown rock on top;1;2357
+;(8, 8);;(0, 7);brown rock on top;1;2358
+;(8, 8);;(0, 7);brown rock on top;1;2359
+MoveNorth;(8, 7);;(0, 7);brown rock on top;1;2360
+;(8, 7);;(0, 7);brown rock on top;1;2361
+;(8, 7);;(0, 7);brown rock on top;1;2362
+;(8, 7);;(0, 7);brown rock on top;1;2363
+;(8, 7);;(0, 7);brown rock on top;1;2364
+;(8, 7);;(0, 7);brown rock on top;1;2365
+;(8, 7);;(0, 7);brown rock on top;1;2366
+;(8, 7);;(0, 7);brown rock on top;1;2367
+;(8, 7);;(0, 7);brown rock on top;1;2368
+;(8, 7);;(0, 7);brown rock on top;1;2369
+;(8, 7);;(0, 7);brown rock on top;1;2370
+;(8, 7);;(0, 7);brown rock on top;1;2371
+;(8, 7);;(0, 7);brown rock on top;1;2372
+;(8, 7);;(0, 7);brown rock on top;1;2373
+;(8, 7);;(0, 7);brown rock on top;1;2374
+;(8, 7);;(0, 7);brown rock on top;1;2375
+;(8, 7);;(0, 7);brown rock on top;1;2376
+;(8, 7);;(0, 7);brown rock on top;1;2377
+;(8, 7);;(0, 7);brown rock on top;1;2378
+;(8, 7);;(0, 7);brown rock on top;1;2379
+;(8, 7);;(0, 7);brown rock on top;1;2380
+GrabObject;(8, 7);;(0, 7);brown rock on top;1;2381
+;(8, 7);;(0, 7);brown rock on top;1;2382
+;(8, 7);;(0, 7);brown rock on top;1;2383
+;(8, 7);;(0, 7);brown rock on top;1;2384
+;(8, 7);;(0, 7);brown rock on top;1;2385
+MoveWest;(7, 7);;(0, 7);brown rock on top;1;2386
+;(7, 7);;(0, 7);brown rock on top;1;2387
+;(7, 7);;(0, 7);brown rock on top;1;2388
+;(7, 7);;(0, 7);brown rock on top;1;2389
+MoveWest;(6, 7);;(0, 7);brown rock on top;1;2390
+;(6, 7);;(0, 7);brown rock on top;1;2391
+;(6, 7);;(0, 7);brown rock on top;1;2392
+;(6, 7);;(0, 7);brown rock on top;1;2393
+MoveWest;(5, 7);;(0, 7);brown rock on top;1;2394
+;(5, 7);;(0, 7);brown rock on top;1;2395
+;(5, 7);;(0, 7);brown rock on top;1;2396
+MoveWest;(4, 7);;(0, 7);brown rock on top;1;2397
+;(4, 7);;(0, 7);brown rock on top;1;2398
+;(4, 7);;(0, 7);brown rock on top;1;2399
+;(4, 7);;(0, 7);brown rock on top;1;2400
+MoveWest;(3, 7);;(0, 7);brown rock on top;1;2401
+;(3, 7);;(0, 7);brown rock on top;1;2402
+;(3, 7);;(0, 7);brown rock on top;1;2403
+MoveWest;(2, 7);;(0, 7);brown rock on top;1;2404
+;(2, 7);;(0, 7);brown rock on top;1;2405
+;(2, 7);;(0, 7);brown rock on top;1;2406
+;(2, 7);;(0, 7);brown rock on top;1;2407
+MoveWest;(1, 7);;(0, 7);brown rock on top;1;2408
+;(1, 7);;(0, 7);brown rock on top;1;2409
+;(1, 7);;(0, 7);brown rock on top;1;2410
+;(1, 7);;(0, 7);brown rock on top;1;2411
+;(1, 7);;(0, 7);brown rock on top;1;2412
+;(1, 7);;(0, 7);brown rock on top;1;2413
+;(1, 7);;(0, 7);brown rock on top;1;2414
+;(1, 7);;(0, 7);brown rock on top;1;2415
+;(1, 7);;(0, 7);brown rock on top;1;2416
+;(1, 7);;(0, 7);brown rock on top;1;2417
+;(1, 7);;(0, 7);brown rock on top;1;2418
+;(1, 7);;(0, 7);brown rock on top;1;2419
+;(1, 7);;(0, 7);brown rock on top;1;2420
+;(1, 7);;(0, 7);brown rock on top;1;2421
+;(1, 7);;(0, 7);brown rock on top;1;2422
+MoveSouth;(1, 8);;(0, 7);brown rock on top;1;2423
+;(1, 8);;(0, 7);brown rock on top;1;2424
+;(1, 8);;(0, 7);brown rock on top;1;2425
+;(1, 8);;(0, 7);brown rock on top;1;2426
+MoveSouth;(1, 9);;(0, 7);brown rock on top;1;2427
+;(1, 9);;(0, 7);brown rock on top;1;2428
+;(1, 9);;(0, 7);brown rock on top;1;2429
+MoveSouth;(1, 10);;(0, 7);brown rock on top;1;2430
+;(1, 10);;(0, 7);brown rock on top;1;2431
+;(1, 10);;(0, 7);brown rock on top;1;2432
+;(1, 10);;(0, 7);brown rock on top;1;2433
+;(1, 10);;(0, 7);brown rock on top;1;2434
+;(1, 10);;(0, 7);brown rock on top;1;2435
+;(1, 10);;(0, 7);brown rock on top;1;2436
+;(1, 10);;(0, 7);brown rock on top;1;2437
+;(1, 10);;(0, 7);brown rock on top;1;2438
+;(1, 10);;(0, 7);brown rock on top;1;2439
+;(1, 10);;(0, 7);brown rock on top;1;2440
+;(1, 10);;(0, 7);brown rock on top;1;2441
+;(1, 10);;(0, 7);brown rock on top;1;2442
+DropObject;(1, 10);;(0, 7);brown rock on top;1;2443
+;(1, 10);;(0, 7);brown rock on top;1;2444
+;(1, 10);;(0, 7);brown rock on top;1;2445
+;(1, 10);;(0, 7);brown rock on top;1;2446
+;(1, 10);;(0, 7);brown rock on top;1;2447
+;(1, 10);;(0, 7);brown rock on top;1;2448
+;(1, 10);;(0, 7);brown rock on top;1;2449
+;(1, 10);;(0, 7);brown rock on top;1;2450
+MoveEast;(2, 10);;(0, 7);brown rock on top;1;2451
+;(2, 10);;(0, 7);brown rock on top;1;2452
+;(2, 10);;(0, 7);brown rock on top;1;2453
+;(2, 10);;(0, 7);brown rock on top;1;2454
+;(2, 10);;(0, 7);brown rock on top;1;2455
+;(2, 10);;(0, 7);brown rock on top;1;2456
+;(2, 10);;(0, 7);brown rock on top;1;2457
+MoveEast;(3, 10);;(0, 7);brown rock on top;1;2458
+;(3, 10);;(0, 7);brown rock on top;1;2459
+;(3, 10);;(0, 7);brown rock on top;1;2460
+;(3, 10);;(0, 7);brown rock on top;1;2461
+;(3, 10);;(0, 7);brown rock on top;1;2462
+;(3, 10);;(0, 7);brown rock on top;1;2463
+MoveEast;(4, 10);;(0, 7);brown rock on top;1;2464
+MoveEast;(5, 10);;(0, 7);brown rock on top;1;2465
+;(5, 10);;(0, 7);brown rock on top;1;2466
+;(5, 10);;(0, 7);brown rock on top;1;2467
+;(5, 10);;(0, 7);brown rock on top;1;2468
+;(5, 10);;(0, 7);brown rock on top;1;2469
+;(5, 10);;(0, 7);brown rock on top;1;2470
+MoveEast;(6, 10);;(0, 7);brown rock on top;1;2471
+;(6, 10);;(0, 7);brown rock on top;1;2472
+;(6, 10);;(0, 7);brown rock on top;1;2473
+;(6, 10);;(0, 7);brown rock on top;1;2474
+MoveEast;(7, 10);;(0, 7);brown rock on top;1;2475
+;(7, 10);;(0, 7);brown rock on top;1;2476
+;(7, 10);;(0, 7);brown rock on top;1;2477
+;(7, 10);;(0, 7);brown rock on top;1;2478
+;(7, 10);;(0, 7);brown rock on top;1;2479
+;(7, 10);;(0, 7);brown rock on top;1;2480
+;(7, 10);;(0, 7);brown rock on top;1;2481
+;(7, 10);;(0, 7);brown rock on top;1;2482
+;(7, 10);;(0, 7);brown rock on top;1;2483
+;(7, 10);;(0, 7);brown rock on top;1;2484
+;(7, 10);;(0, 7);brown rock on top;1;2485
+;(7, 10);;(0, 7);brown rock on top;1;2486
+;(7, 10);;(0, 7);brown rock on top;1;2487
+MoveNorth;(7, 9);;(0, 7);brown rock on top;1;2488
+;(7, 9);;(0, 7);brown rock on top;1;2489
+;(7, 9);;(0, 7);brown rock on top;1;2490
+MoveNorth;(7, 8);;(0, 7);brown rock on top;1;2491
+;(7, 8);;(0, 7);brown rock on top;1;2492
+;(7, 8);;(0, 7);brown rock on top;1;2493
+MoveNorth;(7, 7);;(0, 7);brown rock on top;1;2494
+;(7, 7);;(0, 7);brown rock on top;1;2495
+;(7, 7);;(0, 7);brown rock on top;1;2496
+;(7, 7);;(0, 7);brown rock on top;1;2497
+MoveNorth;(7, 6);;(0, 7);brown rock on top;1;2498
+;(7, 6);;(0, 7);brown rock on top;1;2499
+;(7, 6);;(0, 7);brown rock on top;1;2500
+;(7, 6);;(0, 7);brown rock on top;1;2501
+;(7, 6);;(0, 7);brown rock on top;1;2502
+;(7, 6);;(0, 7);brown rock on top;1;2503
+;(7, 6);;(0, 7);brown rock on top;1;2504
+;(7, 6);;(0, 7);brown rock on top;1;2505
+;(7, 6);;(0, 7);brown rock on top;1;2506
+;(7, 6);;(0, 7);brown rock on top;1;2507
+;(7, 6);;(0, 7);brown rock on top;1;2508
+;(7, 6);;(0, 7);brown rock on top;1;2509
+;(7, 6);;(0, 7);brown rock on top;1;2510
+;(7, 6);;(0, 7);brown rock on top;1;2511
+;(7, 6);;(0, 7);brown rock on top;1;2512
+;(7, 6);;(0, 7);brown rock on top;1;2513
+MoveSouth;(7, 7);;(0, 7);brown rock on top;1;2514
+;(7, 7);;(0, 7);brown rock on top;1;2515
+;(7, 7);;(0, 7);brown rock on top;1;2516
+;(7, 7);;(0, 7);brown rock on top;1;2517
+;(7, 7);;(0, 7);brown rock on top;1;2518
+;(7, 7);;(0, 7);brown rock on top;1;2519
+;(7, 7);;(0, 7);brown rock on top;1;2520
+;(7, 7);;(0, 7);brown rock on top;1;2521
+;(7, 7);;(0, 7);brown rock on top;1;2522
+;(7, 7);;(0, 7);brown rock on top;1;2523
+;(7, 7);;(0, 7);brown rock on top;1;2524
+;(7, 7);;(0, 7);brown rock on top;1;2525
+;(7, 7);;(0, 7);brown rock on top;1;2526
+GrabObject;(7, 7);;(0, 7);brown rock on top;1;2527
+;(7, 7);;(0, 7);brown rock on top;1;2528
+;(7, 7);;(0, 7);brown rock on top;1;2529
+;(7, 7);;(0, 7);brown rock on top;1;2530
+;(7, 7);;(0, 7);brown rock on top;1;2531
+;(7, 7);;(0, 7);brown rock on top;1;2532
+;(7, 7);;(0, 7);brown rock on top;1;2533
+MoveWest;(6, 7);;(0, 7);brown rock on top;1;2534
+;(6, 7);;(0, 7);brown rock on top;1;2535
+;(6, 7);;(0, 7);brown rock on top;1;2536
+;(6, 7);;(0, 7);brown rock on top;1;2537
+MoveWest;(5, 7);;(0, 7);brown rock on top;1;2538
+;(5, 7);;(0, 7);brown rock on top;1;2539
+;(5, 7);;(0, 7);brown rock on top;1;2540
+MoveWest;(4, 7);;(0, 7);brown rock on top;1;2541
+;(4, 7);;(0, 7);brown rock on top;1;2542
+;(4, 7);;(0, 7);brown rock on top;1;2543
+;(4, 7);;(0, 7);brown rock on top;1;2544
+MoveWest;(3, 7);;(0, 7);brown rock on top;1;2545
+;(3, 7);;(0, 7);brown rock on top;1;2546
+;(3, 7);;(0, 7);brown rock on top;1;2547
+MoveWest;(2, 7);;(0, 7);brown rock on top;1;2548
+;(2, 7);;(0, 7);brown rock on top;1;2549
+;(2, 7);;(0, 7);brown rock on top;1;2550
+MoveWest;(1, 7);;(0, 7);brown rock on top;1;2551
+;(1, 7);;(0, 7);brown rock on top;1;2552
+MoveWest;(0, 7);;(0, 7);brown rock on top;1;2553
+;(0, 7);;(0, 7);brown rock on top;1;2554
+;(0, 7);;(0, 7);brown rock on top;1;2555
+;(0, 7);;(0, 7);brown rock on top;1;2556
+;(0, 7);;(0, 7);brown rock on top;1;2557
+;(0, 7);;(0, 7);brown rock on top;1;2558
+;(0, 7);;(0, 7);brown rock on top;1;2559
+;(0, 7);;(0, 7);brown rock on top;1;2560
+;(0, 7);;(0, 7);brown rock on top;1;2561
+;(0, 7);;(0, 7);brown rock on top;1;2562
+;(0, 7);;(0, 7);brown rock on top;1;2563
+;(0, 7);;(0, 7);brown rock on top;1;2564
+;(0, 7);;(0, 7);brown rock on top;1;2565
+;(0, 7);;(0, 7);brown rock on top;1;2566
+;(0, 7);;(0, 7);brown rock on top;1;2567
+;(0, 7);;(0, 7);brown rock on top;1;2568
+;(0, 7);;(0, 7);brown rock on top;1;2569
+;(0, 7);;(0, 7);brown rock on top;1;2570
+;(0, 7);;(0, 7);brown rock on top;1;2571
+MoveEast;(1, 7);;(0, 7);brown rock on top;1;2572
+;(1, 7);;(0, 7);brown rock on top;1;2573
+;(1, 7);;(0, 7);brown rock on top;1;2574
+;(1, 7);;(0, 7);brown rock on top;1;2575
+;(1, 7);;(0, 7);brown rock on top;1;2576
+;(1, 7);;(0, 7);brown rock on top;1;2577
+;(1, 7);;(0, 7);brown rock on top;1;2578
+;(1, 7);;(0, 7);brown rock on top;1;2579
+;(1, 7);;(0, 7);brown rock on top;1;2580
+;(1, 7);;(0, 7);brown rock on top;1;2581
+MoveSouth;(1, 8);;(0, 7);brown rock on top;1;2582
+;(1, 8);;(0, 7);brown rock on top;1;2583
+;(1, 8);;(0, 7);brown rock on top;1;2584
+;(1, 8);;(0, 7);brown rock on top;1;2585
+MoveSouth;(1, 9);;(0, 7);brown rock on top;1;2586
+;(1, 9);;(0, 7);brown rock on top;1;2587
+;(1, 9);;(0, 7);brown rock on top;1;2588
+MoveSouth;(1, 10);;(0, 7);brown rock on top;1;2589
+;(1, 10);;(0, 7);brown rock on top;1;2590
+;(1, 10);;(0, 7);brown rock on top;1;2591
+;(1, 10);;(0, 7);brown rock on top;1;2592
+;(1, 10);;(0, 7);brown rock on top;1;2593
+;(1, 10);;(0, 7);brown rock on top;1;2594
+;(1, 10);;(0, 7);brown rock on top;1;2595
+;(1, 10);;(0, 7);brown rock on top;1;2596
+;(1, 10);;(0, 7);brown rock on top;1;2597
+;(1, 10);;(0, 7);brown rock on top;1;2598
+;(1, 10);;(0, 7);brown rock on top;1;2599
+;(1, 10);;(0, 7);brown rock on top;1;2600
+DropObject;(1, 10);;(0, 7);brown rock on top;1;2601
+;(1, 10);;(0, 7);brown rock on top;1;2602
+;(1, 10);;(0, 7);brown rock on top;1;2603
+;(1, 10);;(0, 7);brown rock on top;1;2604
+;(1, 10);;(0, 7);brown rock on top;1;2605
+;(1, 10);;(0, 7);brown rock on top;1;2606
+;(1, 10);;(0, 7);brown rock on top;1;2607
+;(1, 10);;(0, 7);brown rock on top;1;2608
+;(1, 10);;(0, 7);brown rock on top;1;2609
+;(1, 10);;(0, 7);brown rock on top;1;2610
+;(1, 10);;(0, 7);brown rock on top;1;2611
+;(1, 10);;(0, 7);brown rock on top;1;2612
+;(1, 10);;(0, 7);brown rock on top;1;2613
+;(1, 10);;(0, 7);brown rock on top;1;2614
+;(1, 10);;(0, 7);brown rock on top;1;2615
+;(1, 10);;(0, 7);brown rock on top;1;2616
+;(1, 10);;(0, 7);brown rock on top;1;2617
+;(1, 10);;(0, 7);brown rock on top;1;2618
+;(1, 10);;(0, 7);brown rock on top;1;2619
+;(1, 10);;(0, 7);brown rock on top;1;2620
+;(1, 10);;(0, 7);brown rock on top;1;2621
+;(1, 10);;(0, 7);brown rock on top;1;2622
+;(1, 10);;(0, 7);brown rock on top;1;2623
+;(1, 10);;(0, 7);brown rock on top;1;2624
+;(1, 10);;(0, 7);brown rock on top;1;2625
+;(1, 10);;(0, 7);brown rock on top;1;2626
+;(1, 10);;(0, 7);brown rock on top;1;2627
+;(1, 10);;(0, 7);brown rock on top;1;2628
+;(1, 10);;(0, 7);brown rock on top;1;2629
+;(1, 10);;(0, 7);brown rock on top;1;2630
+;(1, 10);;(0, 7);brown rock on top;1;2631
+;(1, 10);;(0, 7);brown rock on top;1;2632
+;(1, 10);;(0, 7);brown rock on top;1;2633
+;(1, 10);;(0, 7);brown rock on top;1;2634
+;(1, 10);;(0, 7);brown rock on top;1;2635
+;(1, 10);;(0, 7);brown rock on top;1;2636
+;(1, 10);;(0, 7);brown rock on top;1;2637
+;(1, 10);;(0, 7);brown rock on top;1;2638
+;(1, 10);;(0, 7);brown rock on top;1;2639
+;(1, 10);;(0, 7);brown rock on top;1;2640
+;(1, 10);;(0, 7);brown rock on top;1;2641
+;(1, 10);;(0, 7);brown rock on top;1;2642
+;(1, 10);;(0, 7);brown rock on top;1;2643
+;(1, 10);;(0, 7);brown rock on top;1;2644
+;(1, 10);;(0, 7);brown rock on top;1;2645
+;(1, 10);;(0, 7);brown rock on top;1;2646
+;(1, 10);;(0, 7);brown rock on top;1;2647
+;(1, 10);;(0, 7);brown rock on top;1;2648
+;(1, 10);;(0, 7);brown rock on top;1;2649
+;(1, 10);;(0, 7);brown rock on top;1;2650
+;(1, 10);;(0, 7);brown rock on top;1;2651
+;(1, 10);;(0, 7);brown rock on top;1;2652
+;(1, 10);;(0, 7);brown rock on top;1;2653
+;(1, 10);;(0, 7);brown rock on top;1;2654
+;(1, 10);;(0, 7);brown rock on top;1;2655
+;(1, 10);;(0, 7);brown rock on top;1;2656
+;(1, 10);;(0, 7);brown rock on top;1;2657
+;(1, 10);;(0, 7);brown rock on top;1;2658
+;(1, 10);;(0, 7);brown rock on top;1;2659
+;(1, 10);;(0, 7);brown rock on top;1;2660
+;(1, 10);;(0, 7);brown rock on top;1;2661
+;(1, 10);;(0, 7);brown rock on top;1;2662
+;(1, 10);;(0, 7);brown rock on top;1;2663
+;(1, 10);;(0, 7);brown rock on top;1;2664
+;(1, 10);;(0, 7);brown rock on top;1;2665
+;(1, 10);;(0, 7);brown rock on top;1;2666
+;(1, 10);;(0, 7);brown rock on top;1;2667
+;(1, 10);;(0, 7);brown rock on top;1;2668
+;(1, 10);;(0, 7);brown rock on top;1;2669
+;(1, 10);;(0, 7);brown rock on top;1;2670
+;(1, 10);;(0, 7);brown rock on top;1;2671
+;(1, 10);;(0, 7);brown rock on top;1;2672
+;(1, 10);;(0, 7);brown rock on top;1;2673
+;(1, 10);;(0, 7);brown rock on top;1;2674
+;(1, 10);;(0, 7);brown rock on top;1;2675
+;(1, 10);;(0, 7);brown rock on top;1;2676
+;(1, 10);;(0, 7);brown rock on top;1;2677
+;(1, 10);;(0, 7);brown rock on top;1;2678
+;(1, 10);;(0, 7);brown rock on top;1;2679
+;(1, 10);;(0, 7);brown rock on top;1;2680
+;(1, 10);;(0, 7);brown rock on top;1;2681
+;(1, 10);;(0, 7);brown rock on top;1;2682
+;(1, 10);;(0, 7);brown rock on top;1;2683
+;(1, 10);;(0, 7);brown rock on top;1;2684
+;(1, 10);;(0, 7);brown rock on top;1;2685
+;(1, 10);;(0, 7);brown rock on top;1;2686
+;(1, 10);;(0, 7);brown rock on top;1;2687
+;(1, 10);;(0, 7);brown rock on top;1;2688
+;(1, 10);;(0, 7);brown rock on top;1;2689
+;(1, 10);;(0, 7);brown rock on top;1;2690
+;(1, 10);;(0, 7);brown rock on top;1;2691
+;(1, 10);;(0, 7);brown rock on top;1;2692
+;(1, 10);;(0, 7);brown rock on top;1;2693
+;(1, 10);;(0, 7);brown rock on top;1;2694
+;(1, 10);;(0, 7);brown rock on top;1;2695
+;(1, 10);;(0, 7);brown rock on top;1;2696
+;(1, 10);;(0, 7);brown rock on top;1;2697
+;(1, 10);;(0, 7);brown rock on top;1;2698
+;(1, 10);;(0, 7);brown rock on top;1;2699
+;(1, 10);;(0, 7);brown rock on top;1;2700
+;(1, 10);;(0, 7);brown rock on top;1;2701
+;(1, 10);;(0, 7);brown rock on top;1;2702
+;(1, 10);;(0, 7);brown rock on top;1;2703
+;(1, 10);;(0, 7);brown rock on top;1;2704
+;(1, 10);;(0, 7);brown rock on top;1;2705
+;(1, 10);;(0, 7);brown rock on top;1;2706
+;(1, 10);;(0, 7);brown rock on top;1;2707
+;(1, 10);;(0, 7);brown rock on top;1;2708
+;(1, 10);;(0, 7);brown rock on top;1;2709
+;(1, 10);;(0, 7);brown rock on top;1;2710
+;(1, 10);;(0, 7);brown rock on top;1;2711
+;(1, 10);;(0, 7);brown rock on top;1;2712
+;(1, 10);;(0, 7);brown rock on top;1;2713
+;(1, 10);;(0, 7);brown rock on top;1;2714
+;(1, 10);;(0, 7);brown rock on top;1;2715
+;(1, 10);;(0, 7);brown rock on top;1;2716
+;(1, 10);;(0, 7);brown rock on top;1;2717
+;(1, 10);;(0, 7);brown rock on top;1;2718
+;(1, 10);;(0, 7);brown rock on top;1;2719
+;(1, 10);;(0, 7);brown rock on top;1;2720
+;(1, 10);;(0, 7);brown rock on top;1;2721
+;(1, 10);;(0, 7);brown rock on top;1;2722
+;(1, 10);;(0, 7);brown rock on top;1;2723
+;(1, 10);;(0, 7);brown rock on top;1;2724
+;(1, 10);;(0, 7);brown rock on top;1;2725
+;(1, 10);;(0, 7);brown rock on top;1;2726
+;(1, 10);;(0, 7);brown rock on top;1;2727
+;(1, 10);;(0, 7);brown rock on top;1;2728
+;(1, 10);;(0, 7);brown rock on top;1;2729
+;(1, 10);;(0, 7);brown rock on top;1;2730
+;(1, 10);;(0, 7);brown rock on top;1;2731
+;(1, 10);;(0, 7);brown rock on top;1;2732
+;(1, 10);;(0, 7);brown rock on top;1;2733
+;(1, 10);;(0, 7);brown rock on top;1;2734
+;(1, 10);;(0, 7);brown rock on top;1;2735
+;(1, 10);;(0, 7);brown rock on top;1;2736
+;(1, 10);;(0, 7);brown rock on top;1;2737
+;(1, 10);;(0, 7);brown rock on top;1;2738
+;(1, 10);;(0, 7);brown rock on top;1;2739
+;(1, 10);;(0, 7);brown rock on top;1;2740
+;(1, 10);;(0, 7);brown rock on top;1;2741
+;(1, 10);;(0, 7);brown rock on top;1;2742
+;(1, 10);;(0, 7);brown rock on top;1;2743
+;(1, 10);;(0, 7);brown rock on top;1;2744
+;(1, 10);;(0, 7);brown rock on top;1;2745
+;(1, 10);;(0, 7);brown rock on top;1;2746
+;(1, 10);;(0, 7);brown rock on top;1;2747
+;(1, 10);;(0, 7);brown rock on top;1;2748
+MoveEast;(2, 10);;(0, 7);brown rock on top;1;2749
+MoveEast;(3, 10);;(0, 7);brown rock on top;1;2750
+MoveEast;(4, 10);;(0, 7);brown rock on top;1;2751
+MoveEast;(5, 10);;(0, 7);brown rock on top;1;2752
+;(5, 10);;(0, 7);brown rock on top;1;2753
+;(5, 10);;(0, 7);brown rock on top;1;2754
+;(5, 10);;(0, 7);brown rock on top;1;2755
+;(5, 10);;(0, 7);brown rock on top;1;2756
+;(5, 10);;(0, 7);brown rock on top;1;2757
+;(5, 10);;(0, 7);brown rock on top;1;2758
+;(5, 10);;(0, 7);brown rock on top;1;2759
+;(5, 10);;(0, 7);brown rock on top;1;2760
+;(5, 10);;(0, 7);brown rock on top;1;2761
+;(5, 10);;(0, 7);brown rock on top;1;2762
+;(5, 10);;(0, 7);brown rock on top;1;2763
+;(5, 10);;(0, 7);brown rock on top;1;2764
+;(5, 10);;(0, 7);brown rock on top;1;2765
+;(5, 10);;(0, 7);brown rock on top;1;2766
+;(5, 10);;(0, 7);brown rock on top;1;2767
+;(5, 10);;(0, 7);brown rock on top;1;2768
+;(5, 10);;(0, 7);brown rock on top;1;2769
+;(5, 10);;(0, 7);brown rock on top;1;2770
+;(5, 10);;(0, 7);brown rock on top;1;2771
+;(5, 10);;(0, 7);brown rock on top;1;2772
+;(5, 10);;(0, 7);brown rock on top;1;2773
+;(5, 10);;(0, 7);brown rock on top;1;2774
+;(5, 10);;(0, 7);brown rock on top;1;2775
+;(5, 10);;(0, 7);brown rock on top;1;2776
+;(5, 10);;(0, 7);brown rock on top;1;2777
+;(5, 10);;(0, 7);brown rock on top;1;2778
+;(5, 10);;(0, 7);brown rock on top;1;2779
+;(5, 10);;(0, 7);brown rock on top;1;2780
+;(5, 10);;(0, 7);brown rock on top;1;2781
+;(5, 10);;(0, 7);brown rock on top;1;2782
+;(5, 10);;(0, 7);brown rock on top;1;2783
+;(5, 10);;(0, 7);brown rock on top;1;2784
+;(5, 10);;(0, 7);brown rock on top;1;2785
+;(5, 10);;(0, 7);brown rock on top;1;2786
+;(5, 10);;(0, 7);brown rock on top;1;2787
+;(5, 10);;(0, 7);brown rock on top;1;2788
+;(5, 10);;(0, 7);brown rock on top;1;2789
+;(5, 10);;(0, 7);brown rock on top;1;2790
+;(5, 10);;(0, 7);brown rock on top;1;2791
+;(5, 10);;(0, 7);brown rock on top;1;2792
+;(5, 10);;(0, 7);brown rock on top;1;2793
+;(5, 10);;(0, 7);brown rock on top;1;2794
+;(5, 10);;(0, 7);brown rock on top;1;2795
+;(5, 10);;(0, 7);brown rock on top;1;2796
+;(5, 10);;(0, 7);brown rock on top;1;2797
+;(5, 10);;(0, 7);brown rock on top;1;2798
+;(5, 10);;(0, 7);brown rock on top;1;2799
+;(5, 10);;(0, 7);brown rock on top;1;2800
+;(5, 10);;(0, 7);brown rock on top;1;2801
+;(5, 10);;(0, 7);brown rock on top;1;2802
+MoveEast;(6, 10);;(0, 7);brown rock on top;1;2803
+;(6, 10);;(0, 7);brown rock on top;1;2804
+;(6, 10);;(0, 7);brown rock on top;1;2805
+;(6, 10);;(0, 7);brown rock on top;1;2806
+;(6, 10);;(0, 7);brown rock on top;1;2807
+;(6, 10);;(0, 7);brown rock on top;1;2808
+;(6, 10);;(0, 7);brown rock on top;1;2809
+;(6, 10);;(0, 7);brown rock on top;1;2810
+;(6, 10);;(0, 7);brown rock on top;1;2811
+;(6, 10);;(0, 7);brown rock on top;1;2812
+;(6, 10);;(0, 7);brown rock on top;1;2813
+;(6, 10);;(0, 7);brown rock on top;1;2814
+;(6, 10);;(0, 7);brown rock on top;1;2815
+;(6, 10);;(0, 7);brown rock on top;1;2816
+;(6, 10);;(0, 7);brown rock on top;1;2817
+;(6, 10);;(0, 7);brown rock on top;1;2818
+;(6, 10);;(0, 7);brown rock on top;1;2819
+;(6, 10);;(0, 7);brown rock on top;1;2820
+;(6, 10);;(0, 7);brown rock on top;1;2821
+;(6, 10);;(0, 7);brown rock on top;1;2822
+MoveEast;(7, 10);;(0, 7);brown rock on top;1;2823
+;(7, 10);;(0, 7);brown rock on top;1;2824
+;(7, 10);;(0, 7);brown rock on top;1;2825
+;(7, 10);;(0, 7);brown rock on top;1;2826
+;(7, 10);;(0, 7);brown rock on top;1;2827
+;(7, 10);;(0, 7);brown rock on top;1;2828
+;(7, 10);;(0, 7);brown rock on top;1;2829
+;(7, 10);;(0, 7);brown rock on top;1;2830
+;(7, 10);;(0, 7);brown rock on top;1;2831
+;(7, 10);;(0, 7);brown rock on top;1;2832
+;(7, 10);;(0, 7);brown rock on top;1;2833
+;(7, 10);;(0, 7);brown rock on top;1;2834
+;(7, 10);;(0, 7);brown rock on top;1;2835
+;(7, 10);;(0, 7);brown rock on top;1;2836
+;(7, 10);;(0, 7);brown rock on top;1;2837
+;(7, 10);;(0, 7);brown rock on top;1;2838
+;(7, 10);;(0, 7);brown rock on top;1;2839
+;(7, 10);;(0, 7);brown rock on top;1;2840
+;(7, 10);;(0, 7);brown rock on top;1;2841
+;(7, 10);;(0, 7);brown rock on top;1;2842
+;(7, 10);;(0, 7);brown rock on top;1;2843
+;(7, 10);;(0, 7);brown rock on top;1;2844
+MoveEast;(8, 10);;(0, 7);brown rock on top;1;2845
+;(8, 10);;(0, 7);brown rock on top;1;2846
+;(8, 10);;(0, 7);brown rock on top;1;2847
+;(8, 10);;(0, 7);brown rock on top;1;2848
+;(8, 10);;(0, 7);brown rock on top;1;2849
+;(8, 10);;(0, 7);brown rock on top;1;2850
+;(8, 10);;(0, 7);brown rock on top;1;2851
+;(8, 10);;(0, 7);brown rock on top;1;2852
+;(8, 10);;(0, 7);brown rock on top;1;2853
+;(8, 10);;(0, 7);brown rock on top;1;2854
+;(8, 10);;(0, 7);brown rock on top;1;2855
+;(8, 10);;(0, 7);brown rock on top;1;2856
+;(8, 10);;(0, 7);brown rock on top;1;2857
+;(8, 10);;(0, 7);brown rock on top;1;2858
+;(8, 10);;(0, 7);brown rock on top;1;2859
+;(8, 10);;(0, 7);brown rock on top;1;2860
+;(8, 10);;(0, 7);brown rock on top;1;2861
+;(8, 10);;(0, 7);brown rock on top;1;2862
+;(8, 10);;(0, 7);brown rock on top;1;2863
+;(8, 10);;(0, 7);brown rock on top;1;2864
+;(8, 10);;(0, 7);brown rock on top;1;2865
+;(8, 10);;(0, 7);brown rock on top;1;2866
+;(8, 10);;(0, 7);brown rock on top;1;2867
+;(8, 10);;(0, 7);brown rock on top;1;2868
+;(8, 10);;(0, 7);brown rock on top;1;2869
+;(8, 10);;(0, 7);brown rock on top;1;2870
+;(8, 10);;(0, 7);brown rock on top;1;2871
+;(8, 10);;(0, 7);brown rock on top;1;2872
+;(8, 10);;(0, 7);brown rock on top;1;2873
+;(8, 10);;(0, 7);brown rock on top;1;2874
+;(8, 10);;(0, 7);brown rock on top;1;2875
+;(8, 10);;(0, 7);brown rock on top;1;2876
+;(8, 10);;(0, 7);brown rock on top;1;2877
+;(8, 10);;(0, 7);brown rock on top;1;2878
+MoveEast;(9, 10);;(0, 7);brown rock on top;1;2879
+;(9, 10);;(0, 7);brown rock on top;1;2880
+;(9, 10);;(0, 7);brown rock on top;1;2881
+;(9, 10);;(0, 7);brown rock on top;1;2882
+;(9, 10);;(0, 7);brown rock on top;1;2883
+;(9, 10);;(0, 7);brown rock on top;1;2884
+;(9, 10);;(0, 7);brown rock on top;1;2885
+;(9, 10);;(0, 7);brown rock on top;1;2886
+;(9, 10);;(0, 7);brown rock on top;1;2887
+;(9, 10);;(0, 7);brown rock on top;1;2888
+;(9, 10);;(0, 7);brown rock on top;1;2889
+;(9, 10);;(0, 7);brown rock on top;1;2890
+;(9, 10);;(0, 7);brown rock on top;1;2891
+MoveWest;(8, 10);;(0, 7);brown rock on top;1;2892
+;(8, 10);;(0, 7);brown rock on top;1;2893
+;(8, 10);;(0, 7);brown rock on top;1;2894
+;(8, 10);;(0, 7);brown rock on top;1;2895
+;(8, 10);;(0, 7);brown rock on top;1;2896
+MoveWest;(7, 10);;(0, 7);brown rock on top;1;2897
+;(7, 10);;(0, 7);brown rock on top;1;2898
+;(7, 10);;(0, 7);brown rock on top;1;2899
+;(7, 10);;(0, 7);brown rock on top;1;2900
+;(7, 10);;(0, 7);brown rock on top;1;2901
+;(7, 10);;(0, 7);brown rock on top;1;2902
+;(7, 10);;(0, 7);brown rock on top;1;2903
+;(7, 10);;(0, 7);brown rock on top;1;2904
+;(7, 10);;(0, 7);brown rock on top;1;2905
+;(7, 10);;(0, 7);brown rock on top;1;2906
+;(7, 10);;(0, 7);brown rock on top;1;2907
+;(7, 10);;(0, 7);brown rock on top;1;2908
+;(7, 10);;(0, 7);brown rock on top;1;2909
+;(7, 10);;(0, 7);brown rock on top;1;2910
+;(7, 10);;(0, 7);brown rock on top;1;2911
+;(7, 10);;(0, 7);brown rock on top;1;2912
+;(7, 10);;(0, 7);brown rock on top;1;2913
+;(7, 10);;(0, 7);brown rock on top;1;2914
+MoveNorth;(7, 9);;(0, 7);brown rock on top;1;2915
+;(7, 9);;(0, 7);brown rock on top;1;2916
+;(7, 9);;(0, 7);brown rock on top;1;2917
+;(7, 9);;(0, 7);brown rock on top;1;2918
+MoveNorth;(7, 8);;(0, 7);brown rock on top;1;2919
+;(7, 8);;(0, 7);brown rock on top;1;2920
+;(7, 8);;(0, 7);brown rock on top;1;2921
+;(7, 8);;(0, 7);brown rock on top;1;2922
+;(7, 8);;(0, 7);brown rock on top;1;2923
+;(7, 8);;(0, 7);brown rock on top;1;2924
+;(7, 8);;(0, 7);brown rock on top;1;2925
+;(7, 8);;(0, 7);brown rock on top;1;2926
+;(7, 8);;(0, 7);brown rock on top;1;2927
+;(7, 8);;(0, 7);brown rock on top;1;2928
+;(7, 8);;(0, 7);brown rock on top;1;2929
+;(7, 8);;(0, 7);brown rock on top;1;2930
+;(7, 8);;(0, 7);brown rock on top;1;2931
+;(7, 8);;(0, 7);brown rock on top;1;2932
+;(7, 8);;(0, 7);brown rock on top;1;2933
+;(7, 8);;(0, 7);brown rock on top;1;2934
+;(7, 8);;(0, 7);brown rock on top;1;2935
+;(7, 8);;(0, 7);brown rock on top;1;2936
+;(7, 8);;(0, 7);brown rock on top;1;2937
+;(7, 8);;(0, 7);brown rock on top;1;2938
+;(7, 8);;(0, 7);brown rock on top;1;2939
+;(7, 8);;(0, 7);brown rock on top;1;2940
+;(7, 8);;(0, 7);brown rock on top;1;2941
+;(7, 8);;(0, 7);brown rock on top;1;2942
+;(7, 8);;(0, 7);brown rock on top;1;2943
+;(7, 8);;(0, 7);brown rock on top;1;2944
+;(7, 8);;(0, 7);brown rock on top;1;2945
+;(7, 8);;(0, 7);brown rock on top;1;2946
+GrabObject;(7, 8);;(0, 7);brown rock on top;1;2947
+;(7, 8);;(0, 7);brown rock on top;1;2948
+;(7, 8);;(0, 7);brown rock on top;1;2949
+;(7, 8);;(0, 7);brown rock on top;1;2950
+;(7, 8);;(0, 7);brown rock on top;1;2951
+;(7, 8);;(0, 7);brown rock on top;1;2952
+MoveWest;(6, 8);;(0, 7);brown rock on top;1;2953
+;(6, 8);;(0, 7);brown rock on top;1;2954
+;(6, 8);;(0, 7);brown rock on top;1;2955
+;(6, 8);;(0, 7);brown rock on top;1;2956
+;(6, 8);;(0, 7);brown rock on top;1;2957
+MoveWest;(5, 8);;(0, 7);brown rock on top;1;2958
+;(5, 8);;(0, 7);brown rock on top;1;2959
+;(5, 8);;(0, 7);brown rock on top;1;2960
+MoveWest;(4, 8);;(0, 7);brown rock on top;1;2961
+;(4, 8);;(0, 7);brown rock on top;1;2962
+;(4, 8);;(0, 7);brown rock on top;1;2963
+;(4, 8);;(0, 7);brown rock on top;1;2964
+MoveWest;(3, 8);;(0, 7);brown rock on top;1;2965
+;(3, 8);;(0, 7);brown rock on top;1;2966
+;(3, 8);;(0, 7);brown rock on top;1;2967
+;(3, 8);;(0, 7);brown rock on top;1;2968
+MoveWest;(2, 8);;(0, 7);brown rock on top;1;2969
+;(2, 8);;(0, 7);brown rock on top;1;2970
+;(2, 8);;(0, 7);brown rock on top;1;2971
+;(2, 8);;(0, 7);brown rock on top;1;2972
+;(2, 8);;(0, 7);brown rock on top;1;2973
+MoveWest;(1, 8);;(0, 7);brown rock on top;1;2974
+;(1, 8);;(0, 7);brown rock on top;1;2975
+;(1, 8);;(0, 7);brown rock on top;1;2976
+;(1, 8);;(0, 7);brown rock on top;1;2977
+;(1, 8);;(0, 7);brown rock on top;1;2978
+;(1, 8);;(0, 7);brown rock on top;1;2979
+;(1, 8);;(0, 7);brown rock on top;1;2980
+;(1, 8);;(0, 7);brown rock on top;1;2981
+;(1, 8);;(0, 7);brown rock on top;1;2982
+;(1, 8);;(0, 7);brown rock on top;1;2983
+;(1, 8);;(0, 7);brown rock on top;1;2984
+;(1, 8);;(0, 7);brown rock on top;1;2985
+;(1, 8);;(0, 7);brown rock on top;1;2986
+;(1, 8);;(0, 7);brown rock on top;1;2987
+;(1, 8);;(0, 7);brown rock on top;1;2988
+;(1, 8);;(0, 7);brown rock on top;1;2989
+;(1, 8);;(0, 7);brown rock on top;1;2990
+;(1, 8);;(0, 7);brown rock on top;1;2991
+;(1, 8);;(0, 7);brown rock on top;1;2992
+;(1, 8);;(0, 7);brown rock on top;1;2993
+;(1, 8);;(0, 7);brown rock on top;1;2994
+;(1, 8);;(0, 7);brown rock on top;1;2995
+;(1, 8);;(0, 7);brown rock on top;1;2996
+;(1, 8);;(0, 7);brown rock on top;1;2997
+MoveWest;(0, 8);;(0, 7);brown rock on top;1;2998
+;(0, 8);;(0, 7);brown rock on top;1;2999
+;(0, 8);;(0, 7);brown rock on top;1;3000
+MoveSouth;(0, 9);;(0, 7);brown rock on top;1;3001
+;(0, 9);;(0, 7);brown rock on top;1;3002
+MoveEast;(1, 9);;(0, 7);brown rock on top;1;3003
+;(1, 9);;(0, 7);brown rock on top;1;3004
+;(1, 9);;(0, 7);brown rock on top;1;3005
+;(1, 9);;(0, 7);brown rock on top;1;3006
+;(1, 9);;(0, 7);brown rock on top;1;3007
+;(1, 9);;(0, 7);brown rock on top;1;3008
+;(1, 9);;(0, 7);brown rock on top;1;3009
+;(1, 9);;(0, 7);brown rock on top;1;3010
+;(1, 9);;(0, 7);brown rock on top;1;3011
+;(1, 9);;(0, 7);brown rock on top;1;3012
+;(1, 9);;(0, 7);brown rock on top;1;3013
+;(1, 9);;(0, 7);brown rock on top;1;3014
+;(1, 9);;(0, 7);brown rock on top;1;3015
+;(1, 9);;(0, 7);brown rock on top;1;3016
+;(1, 9);;(0, 7);brown rock on top;1;3017
+;(1, 9);;(0, 7);brown rock on top;1;3018
+;(1, 9);;(0, 7);brown rock on top;1;3019

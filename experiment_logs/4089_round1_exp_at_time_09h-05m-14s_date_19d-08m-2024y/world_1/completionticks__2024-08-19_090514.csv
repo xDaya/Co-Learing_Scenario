@@ -1,0 +1,10 @@
+tick;corrected_tick;remaining_distance;victim_harm;idle_time_robot;q_table_cps;q_table_cps_runs;q_table_basic;world_nr;tick_nr
+3019;3000;21;500;395;"                    Breaking Stones and Move   Move
+[3, 'robot', True]                       NaN -446.0";"                    Breaking Stones and Move  Move
+[3, 'robot', True]                       NaN   1.0";"                     Move back and forth  Stand Still  Pick up   Drop  Break
+[4, 'equal', False]                -7.50        -0.50  -1.7500  0.000    0.0
+[4, 'robot', False]                -7.00        -0.65   0.0000 -1.000    0.0
+[4, 'robot', True]                 -4.00        -3.50   0.0000 -5.000   -5.0
+[3, 'robot', True]                 -9.35       -33.50  -4.8550 -6.925   -4.4
+[3, 'robot', False]                 0.00         0.00   0.1800  0.000    0.0
+[2, 'robot', True]                  0.00         0.00  -5.9565  0.000    0.0";1;3019

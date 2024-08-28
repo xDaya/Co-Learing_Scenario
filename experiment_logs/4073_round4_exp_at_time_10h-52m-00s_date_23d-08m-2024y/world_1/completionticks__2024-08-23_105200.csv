@@ -1,0 +1,19 @@
+tick;corrected_tick;remaining_distance;victim_harm;idle_time_robot;q_table_cps;q_table_cps_runs;q_table_basic;world_nr;tick_nr
+3019;3000;9;600;1;"                     Large rock on top V2
+[4, 'equal', False]                   0.0
+[4, 'robot', True]                    0.0
+[3, 'robot', True]                    0.0
+[4, 'equal', True]                   34.0";"                     Large rock on top V2
+[4, 'equal', False]                   0.0
+[4, 'robot', True]                    0.0
+[3, 'robot', True]                    0.0
+[4, 'equal', True]                    2.0";"                     Move back and forth  Stand Still  Pick up    Drop  Break
+[4, 'equal', False]                 -7.0    -5.310000   -4.825  -3.250  -4.65
+[4, 'equal', True]                  -7.0    -4.670000    0.000   0.000   0.00
+[4, 'robot', True]                  -7.0    -3.500000   -1.900 -50.400  -2.75
+[3, 'robot', True]                 -29.5    -4.534550   -8.985  -2.420 -10.00
+[4, 'robot', False]                  0.0     0.000000    0.000  -3.000   0.00
+[3, 'robot', False]                 -7.0    -3.968400   -7.500  -4.601  -8.15
+[2, 'robot', True]                  -7.0     0.000000    0.000   0.000  -4.50
+[2, 'robot', False]                -28.0    -3.374954   -7.500  -5.250   0.00
+[1, 'robot', False]                 -4.0    -3.500000  -25.500   0.000   0.00";1;3019

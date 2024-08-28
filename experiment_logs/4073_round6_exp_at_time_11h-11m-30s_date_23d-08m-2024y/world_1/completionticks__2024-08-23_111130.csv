@@ -1,0 +1,10 @@
+tick;corrected_tick;remaining_distance;victim_harm;idle_time_robot;q_table_cps;q_table_cps_runs;q_table_basic;world_nr;tick_nr
+3019;3000;36;0;2255;"                     small rocks on top V2  large rocks on top V4  brown rock and small rocks on top  brown rock on top
+[4, 'equal', False]                   -191                      0                                  0                  0
+[4, 'robot', True]                       3                      0                                  0                  0
+[3, 'robot', True]                       0                      0                                  0                  0
+[4, 'equal', True]                       0                      0                              -2341                  0";"                     small rocks on top V2  large rocks on top V4  brown rock and small rocks on top  brown rock on top
+[4, 'equal', False]                      1                      0                                  0                  0
+[4, 'robot', True]                       1                      0                                  0                  0
+[3, 'robot', True]                       0                      0                                  0                  0
+[4, 'equal', True]                       0                      0                                  1                  0";;1;3019

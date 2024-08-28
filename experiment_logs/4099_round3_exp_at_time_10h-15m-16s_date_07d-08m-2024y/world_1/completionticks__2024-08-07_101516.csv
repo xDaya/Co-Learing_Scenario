@@ -1,0 +1,14 @@
+tick;corrected_tick;remaining_distance;victim_harm;idle_time_robot;q_table_cps;q_table_cps_runs;q_table_basic;world_nr;tick_nr
+1681;1662;;0;32;"                     PickBigTop  PickUpMultipleSmall  ClearOutBigRocksOverBrown
+[3, 'human', True]          0.0                  0.0                        0.0
+[3, 'human', False]         0.0                  0.0                        0.0
+[2, 'human', False]         0.0                  0.0                        0.0
+[4, 'equal', False]        40.0                -72.0                        0.0
+[3, 'equal', True]          NaN                196.0                        0.0
+[4, 'robot', False]       131.0                  NaN                        NaN";"                     PickBigTop  PickUpMultipleSmall  ClearOutBigRocksOverBrown
+[3, 'human', True]          0.0                  0.0                        0.0
+[3, 'human', False]         0.0                  0.0                        0.0
+[2, 'human', False]         0.0                  0.0                        0.0
+[4, 'equal', False]         2.0                  4.0                        0.0
+[3, 'equal', True]          NaN                  5.0                        0.0
+[4, 'robot', False]         8.0                  NaN                        NaN";;1;1681
