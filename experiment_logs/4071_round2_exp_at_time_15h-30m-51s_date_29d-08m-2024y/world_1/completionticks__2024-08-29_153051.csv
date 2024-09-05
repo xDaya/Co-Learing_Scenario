@@ -1,0 +1,23 @@
+tick;corrected_tick;remaining_distance;victim_harm;idle_time_robot;q_table_cps;q_table_cps_runs;q_table_basic;world_nr;tick_nr
+3019;3000;20;500;1;"                     stand still break big rock  move break big rock bottom
+[4, 'equal', True]                       -117.0                         0.0
+[3, 'equal', True]                      -1201.0                         0.0
+[4, 'equal', False]                         NaN                       -34.0
+[4, 'robot', False]                      -884.0                         NaN
+[3, 'equal', False]                      -209.0                         NaN";"                     stand still break big rock  move break big rock bottom
+[4, 'equal', True]                          4.0                         0.0
+[3, 'equal', True]                          2.0                         0.0
+[4, 'equal', False]                         NaN                         1.0
+[4, 'robot', False]                         3.0                         NaN
+[3, 'equal', False]                         2.0                         NaN";"                     Move back and forth  Stand Still  Pick up  Drop  Break
+[4, 'equal', False]                -7.00       -6.012    -6.40 -4.30  -5.55
+[4, 'equal', True]                 -5.76       -4.000    -2.08 -1.50   0.00
+[4, 'human', False]                 0.00        0.000     0.00  0.00  -7.00
+[4, 'human', True]                 -7.00       -3.500     1.00  0.00   0.00
+[3, 'equal', True]                 -4.00      -41.000   -15.00 -5.50   0.00
+[3, 'equal', False]                -1.50       -3.500   -24.00  0.00  -7.00
+[3, 'robot', True]                -22.00        0.000     0.00  0.00   0.00
+[3, 'robot', False]                -6.45      -27.000    -2.95 -2.25  -5.50
+[4, 'robot', False]                -4.00       -3.750    -1.65 -8.50 -11.15
+[4, 'robot', True]                 -7.00       -3.500   -16.75  0.00 -10.50
+[2, 'equal', True]                  0.00       -3.700     0.00  0.00   0.00";1;3019
